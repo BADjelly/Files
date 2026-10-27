@@ -73,36 +73,12 @@
 								<!--  Title  -->
 								<TextBlock VerticalAlignment="Center" Text="{helpers:ResourceString Name=CreateNewCategory}" />
 
-								<!--  Category Name  -->
-								<TextBox
-									Width="200"
-									PlaceholderText="{helpers:ResourceString Name=Name}"
-									TextChanged="NewCategoryTextBox_TextChanged" />
-
-								<!--  Category Color  -->
-								<Button
-									Margin="8,0"
-									Padding="0"
-									AutomationProperties.Name="{helpers:ResourceString Name=CategoryColor}">
-									<StackPanel Orientation="Horizontal">
-										<Border
-											Width="20"
-											Height="20"
-											Margin="4"
-											Background="{x:Bind ViewModel.NewCategory.Color, Mode=OneWay}"
-											CornerRadius="4" />
-										<FontIcon
-											Margin="8,4,10,4"
-											FontSize="12"
-											Glyph="&#xE70D;" />
-									</StackPanel>
-									<Button.Flyout>
-										<Flyout>
-											<controls:ColorPicker Color="{x:Bind ViewModel.NewCategory.Color, Mode=TwoWay}" />
-										</Flyout>
-									</Button.Flyout>
-								</Button>
-							</StackPanel>
+									<!--  Category Name  -->
+									<TextBox
+										Width="200"
+										PlaceholderText="{helpers:ResourceString Name=Name}"
+										TextChanged="NewCategoryTextBox_TextChanged" />
+								</StackPanel>
 
 							<StackPanel
 								Grid.Column="1"
@@ -179,16 +155,10 @@
 											<ColumnDefinition Width="Auto" />
 										</Grid.ColumnDefinitions>
 										<StackPanel
-											Height="24"
-											HorizontalAlignment="Left"
 											VerticalAlignment="Center"
 											Orientation="Horizontal"
 											Spacing="8"
 											ToolTipService.ToolTip="{x:Bind Category.Name}">
-											<PathIcon
-												VerticalAlignment="Center"
-												Data="{StaticResource App.Theme.PathIcon.FilledTag}"
-												Foreground="{x:Bind NewColor, Mode=OneWay, Converter={StaticResource StringToBrushConverter}}" />
 											<TextBlock
 												x:Name="CategoryName"
 												MaxWidth="200"
@@ -214,29 +184,6 @@
 													<SolidColorBrush x:Key="TextControlBackgroundFocused" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
 												</TextBox.Resources>
 											</TextBox>
-
-											<Button
-												Margin="8,0"
-												Padding="0"
-												AutomationProperties.Name="{helpers:ResourceString Name=CategoryColor}">
-												<StackPanel Orientation="Horizontal">
-													<Border
-														Width="20"
-														Height="20"
-														Margin="4"
-														Background="{x:Bind NewColor, Mode=OneWay}"
-														CornerRadius="4" />
-													<FontIcon
-														Margin="8,4,10,4"
-														FontSize="12"
-														Glyph="&#xE70D;" />
-												</StackPanel>
-												<Button.Flyout>
-													<Flyout>
-														<controls:ColorPicker ColorChanged="EditCategoryColorPicker_ColorChanged" Color="{x:Bind NewColor, Mode=TwoWay}" />
-													</Flyout>
-												</Button.Flyout>
-											</Button>
 										</StackPanel>
 
 										<StackPanel

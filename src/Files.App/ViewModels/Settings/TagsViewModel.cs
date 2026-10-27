@@ -153,7 +153,7 @@ namespace Files.App.ViewModels.Settings
 		{
 			IsCreatingNewCategory = false;
 
-			fileTagsCategoriesSettingsService.CreateNewCategory(NewCategory.Name, NewCategory.Color);
+			fileTagsCategoriesSettingsService.CreateNewCategory(NewCategory.Name);
 
 			isBulkOperation = true;
 			Categories.Clear();
@@ -166,9 +166,9 @@ namespace Files.App.ViewModels.Settings
 			IsCreatingNewCategory = false;
 		}
 
-		public void EditExistingCategory(ListedCategoryViewModel item, string newName, string color)
+		public void EditExistingCategory(ListedCategoryViewModel item, string newName)
 		{
-			fileTagsCategoriesSettingsService.EditCategory(item.Category.Uid, newName, color);
+			fileTagsCategoriesSettingsService.EditCategory(item.Category.Uid, newName);
 
 			isBulkOperation = true;
 			Categories.Clear();

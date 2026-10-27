@@ -13,9 +13,9 @@ namespace Files.App.Data.Contracts
 
 		CategoryViewModel? GetCategoryById(string uid);
 
-		void CreateNewCategory(string newCategoryName, string color);
+		void CreateNewCategory(string newCategoryName);
 
-		void EditCategory(string uid, string name, string color);
+		void EditCategory(string uid, string name);
 
 		void DeleteCategory(string uid);
 

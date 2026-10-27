@@ -27,7 +27,7 @@ namespace Files.App.Services.Settings
 
 		private static readonly List<CategoryViewModel> DefaultFileCategories =
 		[
-			new("Uncategorized", "#808080", "00000000-0000-0000-0000-000000000000")
+			new("Uncategorized", "00000000-0000-0000-0000-000000000000")
 		];
 
 		public FileTagsCategoriesSettingsService()
@@ -52,9 +52,6 @@ namespace Files.App.Services.Settings
 			{
 				var categories = Get<List<CategoryViewModel>>(DefaultFileCategories) ?? DefaultFileCategories;
 
-				foreach (var category in categories)
-					category.Color = ColorHelpers.FromHex(category.Color).ToString();
-
 				return categories;
 			}
 			set
@@ -75,11 +72,10 @@ namespace Files.App.Services.Settings
 			return FileCategoryList.SingleOrDefault(x => x.Uid == uid);
 		}
 
-		public void CreateNewCategory(string newCategoryName, string color)
+		public void CreateNewCategory(string newCategoryName)
 		{
 			var newCategory = new CategoryViewModel(
 				newCategoryName,
-				color,
 				Guid.NewGuid().ToString());
 
 			var oldCategories = FileCategoryList.ToList();
@@ -87,7 +83,7 @@ namespace Files.App.Services.Settings
 			FileCategoryList = oldCategories;
 		}
 
-		public void EditCategory(string uid, string name, string color)
+		public void EditCategory(string uid, string name)
 		{
 			var index = GetCategoryIndex(uid);
 			if (index == -1)
@@ -95,7 +91,7 @@ namespace Files.App.Services.Settings
 
 			var oldCategories = FileCategoryList.ToList();
 			oldCategories.RemoveAt(index);
-			oldCategories.Insert(index, new CategoryViewModel(name, color, uid));
+			oldCategories.Insert(index, new CategoryViewModel(name, uid));
 			FileCategoryList = oldCategories;
 		}
 

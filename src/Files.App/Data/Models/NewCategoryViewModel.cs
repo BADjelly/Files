@@ -19,13 +19,6 @@ namespace Files.App.Data.Models
 			}
 		}
 
-		private string color = "#FFFFFFFF";
-		public string Color
-		{
-			get => color;
-			set => SetProperty(ref color, value);
-		}
-
 		private bool isNameValid = true;
 		public bool IsNameValid
 		{
@@ -43,7 +36,6 @@ namespace Files.App.Data.Models
 		{
 			Name = string.Empty;
 			IsNameValid = true;
-			Color = ColorHelpers.RandomColor();
 		}
 	}
 }

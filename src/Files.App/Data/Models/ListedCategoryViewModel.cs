@@ -40,17 +40,9 @@ namespace Files.App.Data.Models
 			set => SetProperty(ref _NewName, value);
 		}
 
-		private string _NewColor;
-		public string NewColor
-		{
-			get => _NewColor;
-			set => SetProperty(ref _NewColor, value);
-		}
-
 		public ListedCategoryViewModel(CategoryViewModel category)
 		{
 			_Category = category;
-			_NewColor = category.Color;
 		}
 	}
 }

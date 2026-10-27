@@ -221,14 +221,12 @@ namespace Files.App.Views.Settings
 			{
 				editingCategory.IsEditing = false;
 				editingCategory.NewName = editingCategory.Category.Name;
-				editingCategory.NewColor = editingCategory.Category.Color;
 			}
 
 			if (sender is not Button { DataContext: ListedCategoryViewModel category })
 				return;
 
 			editingCategory = category;
-			editingCategory.NewColor = editingCategory.Category.Color;
 			editingCategory.NewName = editingCategory.Category.Name;
 			editingCategory.IsEditing = true;
 
@@ -280,21 +278,7 @@ namespace Files.App.Views.Settings
 			var text = ((TextBox)sender).Text;
 			var isNullOrEmpty = string.IsNullOrEmpty(text);
 			category.IsNameValid = isNullOrEmpty || (IsNameValid(text) && !ViewModel.Categories.Any(item => item.Category.Name == text && category.Category.Name != text));
-			category.CanCommit = !isNullOrEmpty && category.IsNameValid && (
-				text != category.Category.Name ||
-				category.NewColor != category.Category.Color
-			);
-		}
-
-		private void EditCategoryColorPicker_ColorChanged(ColorPicker sender, ColorChangedEventArgs args)
-		{
-			if (editingCategory is null)
-				return;
-
-			editingCategory.CanCommit = editingCategory.IsNameValid && (
-				editingCategory.NewName != editingCategory.Category.Name ||
-				CommunityToolkit.WinUI.Helpers.ColorHelper.ToHex(sender.Color) != editingCategory.Category.Color
-			);
+			category.CanCommit = !isNullOrEmpty && category.IsNameValid && text != category.Category.Name;
 		}
 
 		[DynamicWindowsRuntimeCast(typeof(TextBox))]
@@ -310,8 +294,8 @@ namespace Files.App.Views.Settings
 			var category = editingCategory!;
 			EndCategoryEditing(textBox);
 			string newCategoryName = textBox.Text.Trim().TrimEnd('.');
-			if (newCategoryName != oldCategoryName || category.NewColor != category.Category.Color)
-				ViewModel.EditExistingCategory(category, newCategoryName, category.NewColor);
+			if (newCategoryName != oldCategoryName)
+				ViewModel.EditExistingCategory(category, newCategoryName);
 		}
 
 		private void EndCategoryEditing(TextBox textBox)
@@ -328,7 +312,6 @@ namespace Files.App.Views.Settings
 			var item = (CategoriesList.ContainerFromItem(category) as ListViewItem)!;
 			var textBox = (item.FindDescendant("CategoryNameTextBox") as TextBox)!;
 
-			category.NewColor = category.Category.Color;
 			category.IsNameValid = true;
 			category.CanCommit = false;
 
