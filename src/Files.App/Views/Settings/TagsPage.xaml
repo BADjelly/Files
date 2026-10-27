@@ -48,7 +48,7 @@
 			<!--  Categories  -->
 			<wctcontrols:SettingsExpander Header="{helpers:ResourceString Name=Categories}" IsExpanded="True">
 				<wctcontrols:SettingsExpander.HeaderIcon>
-					<FontIcon Glyph="&#xE77D;" />
+					<FontIcon Glyph="&#xE71C;" />
 				</wctcontrols:SettingsExpander.HeaderIcon>
 
 				<Button Command="{x:Bind ViewModel.AddCategoryCommand, Mode=OneWay}" Content="{helpers:ResourceString Name=NewCategory}" />
