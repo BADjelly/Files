@@ -8,6 +8,7 @@ namespace Files.App.ViewModels.Settings
 	public sealed partial class TagsViewModel : ObservableObject
 	{
 		private readonly IFileTagsSettingsService fileTagsSettingsService = Ioc.Default.GetRequiredService<IFileTagsSettingsService>();
+		private readonly IFileTagsCategoriesSettingsService fileTagsCategoriesSettingsService = Ioc.Default.GetRequiredService<IFileTagsCategoriesSettingsService>();
 
 		private bool isBulkOperation = true;
 
@@ -28,6 +29,22 @@ namespace Files.App.ViewModels.Settings
 
 		public NewTagViewModel NewTag = new();
 
+		// Categories
+		private bool isCreatingNewCategory;
+		public bool IsCreatingNewCategory
+		{
+			get => isCreatingNewCategory;
+			set => SetProperty(ref isCreatingNewCategory, value);
+		}
+
+		public ObservableCollection<ListedCategoryViewModel> Categories { get; set; }
+
+		public ICommand AddCategoryCommand { get; }
+		public ICommand SaveNewCategoryCommand { get; }
+		public ICommand CancelNewCategoryCommand { get; }
+
+		public NewCategoryViewModel NewCategory = new();
+
 		public TagsViewModel()
 		{
 			// Tags Commands
@@ -38,6 +55,15 @@ namespace Files.App.ViewModels.Settings
 			Tags = [];
 			Tags.CollectionChanged += Tags_CollectionChanged;
 			fileTagsSettingsService.FileTagList?.ForEach(tag => Tags.Add(new ListedTagViewModel(tag)));
+
+			// Categories Commands
+			AddCategoryCommand = new RelayCommand(DoAddNewCategory);
+			SaveNewCategoryCommand = new RelayCommand(DoSaveNewCategory);
+			CancelNewCategoryCommand = new RelayCommand(DoCancelNewCategory);
+
+			Categories = [];
+			Categories.CollectionChanged += Categories_CollectionChanged;
+			fileTagsCategoriesSettingsService.FileCategoryList?.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
 
 			isBulkOperation = false;
 		}
@@ -99,6 +125,64 @@ namespace Files.App.ViewModels.Settings
 			isBulkOperation = false;
 
 			fileTagsSettingsService.DeleteTag(item.Tag.Uid);
+		}
+
+		// Categories
+		private void Categories_CollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+		{
+			if (isBulkOperation)
+				return;
+
+			if (isDragStarting)
+			{
+				isDragStarting = false;
+				return;
+			}
+			isDragStarting = true;
+
+			fileTagsCategoriesSettingsService.FileCategoryList = Categories.Select(categoryVM => categoryVM.Category).ToList();
+		}
+
+		private void DoAddNewCategory()
+		{
+			NewCategory.Reset();
+			IsCreatingNewCategory = true;
+		}
+
+		private void DoSaveNewCategory()
+		{
+			IsCreatingNewCategory = false;
+
+			fileTagsCategoriesSettingsService.CreateNewCategory(NewCategory.Name, NewCategory.Color);
+
+			isBulkOperation = true;
+			Categories.Clear();
+			fileTagsCategoriesSettingsService.FileCategoryList?.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
+			isBulkOperation = false;
+		}
+
+		private void DoCancelNewCategory()
+		{
+			IsCreatingNewCategory = false;
+		}
+
+		public void EditExistingCategory(ListedCategoryViewModel item, string newName, string color)
+		{
+			fileTagsCategoriesSettingsService.EditCategory(item.Category.Uid, newName, color);
+
+			isBulkOperation = true;
+			Categories.Clear();
+			fileTagsCategoriesSettingsService.FileCategoryList?.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
+			isBulkOperation = false;
+		}
+
+		public void DeleteExistingCategory(ListedCategoryViewModel item)
+		{
+			isBulkOperation = true;
+			Categories.Remove(item);
+			isBulkOperation = false;
+
+			fileTagsCategoriesSettingsService.DeleteCategory(item.Category.Uid);
 		}
 	}
 

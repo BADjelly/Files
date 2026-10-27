@@ -45,6 +45,303 @@
 				Style="{StaticResource App.Theme.SubtitleTextBlockStyle}"
 				Text="{helpers:ResourceString Name=FileTags}" />
 
+			<!--  Categories  -->
+			<wctcontrols:SettingsExpander Header="{helpers:ResourceString Name=Categories}" IsExpanded="True">
+				<wctcontrols:SettingsExpander.HeaderIcon>
+					<FontIcon Glyph="&#xE77D;" />
+				</wctcontrols:SettingsExpander.HeaderIcon>
+
+				<Button Command="{x:Bind ViewModel.AddCategoryCommand, Mode=OneWay}" Content="{helpers:ResourceString Name=NewCategory}" />
+				<wctcontrols:SettingsExpander.ItemsHeader>
+					<StackPanel Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+						<!--  Create new category  -->
+						<Grid
+							x:Name="AddCategoryGrid"
+							Padding="32,12"
+							x:Load="{x:Bind ViewModel.IsCreatingNewCategory, Mode=OneWay}"
+							Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+							BorderBrush="{ThemeResource ControlElevationBorderBrush}"
+							BorderThickness="0,0,0,1">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="Auto" />
+								<ColumnDefinition Width="*" />
+							</Grid.ColumnDefinitions>
+							<StackPanel
+								Grid.Column="0"
+								Orientation="Horizontal"
+								Spacing="12">
+								<!--  Title  -->
+								<TextBlock VerticalAlignment="Center" Text="{helpers:ResourceString Name=CreateNewCategory}" />
+
+								<!--  Category Name  -->
+								<TextBox
+									Width="200"
+									PlaceholderText="{helpers:ResourceString Name=Name}"
+									TextChanged="NewCategoryTextBox_TextChanged" />
+
+								<!--  Category Color  -->
+								<Button
+									Margin="8,0"
+									Padding="0"
+									AutomationProperties.Name="{helpers:ResourceString Name=CategoryColor}">
+									<StackPanel Orientation="Horizontal">
+										<Border
+											Width="20"
+											Height="20"
+											Margin="4"
+											Background="{x:Bind ViewModel.NewCategory.Color, Mode=OneWay}"
+											CornerRadius="4" />
+										<FontIcon
+											Margin="8,4,10,4"
+											FontSize="12"
+											Glyph="&#xE70D;" />
+									</StackPanel>
+									<Button.Flyout>
+										<Flyout>
+											<controls:ColorPicker Color="{x:Bind ViewModel.NewCategory.Color, Mode=TwoWay}" />
+										</Flyout>
+									</Button.Flyout>
+								</Button>
+							</StackPanel>
+
+							<StackPanel
+								Grid.Column="1"
+								HorizontalAlignment="Right"
+								Orientation="Horizontal"
+								Spacing="12">
+								<!--  Invalid Name Warning  -->
+								<Grid
+									Padding="12,4"
+									VerticalAlignment="Stretch"
+									Background="{ThemeResource SystemFillColorCriticalBackgroundBrush}"
+									BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+									BorderThickness="1"
+									ColumnSpacing="8"
+									CornerRadius="4"
+									ToolTipService.ToolTip="{helpers:ResourceString Name=CategoryNameRules}"
+									Visibility="{x:Bind ViewModel.NewCategory.IsNameValid, Mode=OneWay, Converter={StaticResource InvertedBoolVisibilityConverter}}">
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="Auto" />
+										<ColumnDefinition Width="Auto" />
+									</Grid.ColumnDefinitions>
+									<TextBlock
+										VerticalAlignment="Center"
+										AutomationProperties.AccessibilityView="Raw"
+										FontFamily="{ThemeResource SymbolThemeFontFamily}"
+										FontSize="{StaticResource InfoBarIconFontSize}"
+										Foreground="{ThemeResource InfoBarErrorSeverityIconBackground}"
+										Text="{StaticResource InfoBarIconBackgroundGlyph}" />
+									<TextBlock
+										VerticalAlignment="Center"
+										AutomationProperties.AccessibilityView="Raw"
+										FontFamily="{ThemeResource SymbolThemeFontFamily}"
+										FontSize="{StaticResource InfoBarIconFontSize}"
+										Foreground="{ThemeResource InfoBarInformationalSeverityIconForeground}"
+										Text="{StaticResource InfoBarErrorIconGlyph}" />
+									<TextBlock
+										Grid.Column="1"
+										VerticalAlignment="Center"
+										Text="{helpers:ResourceString Name=InvalidCategoryNameWarning}" />
+								</Grid>
+
+								<!--  Cancel  -->
+								<Button Command="{x:Bind ViewModel.CancelNewCategoryCommand, Mode=OneWay}" Content="{helpers:ResourceString Name=Cancel}" />
+
+								<!--  Save Changes  -->
+								<Button
+									Command="{x:Bind ViewModel.SaveNewCategoryCommand, Mode=OneWay}"
+									Content="{helpers:ResourceString Name=Create}"
+									IsEnabled="{x:Bind ViewModel.NewCategory.CanCommit, Mode=OneWay}"
+									Style="{StaticResource AccentButtonStyle}" />
+							</StackPanel>
+						</Grid>
+
+						<ListView
+							x:Name="CategoriesList"
+							MaxHeight="500"
+							Padding="12"
+							HorizontalAlignment="Stretch"
+							AllowDrop="True"
+							CanReorderItems="{x:Bind CanDragCategories, Mode=OneWay}"
+							IsItemClickEnabled="True"
+							ItemsSource="{x:Bind ViewModel.Categories, Mode=TwoWay}"
+							ReorderMode="Enabled"
+							SelectionMode="None">
+							<ListView.ItemTemplate>
+								<DataTemplate x:DataType="datamodels:ListedCategoryViewModel">
+									<Grid ColumnSpacing="16" KeyboardAcceleratorPlacementMode="Hidden">
+										<Grid.KeyboardAccelerators>
+											<KeyboardAccelerator Key="Escape" Invoked="KeyboardAccelerator_Invoked" />
+										</Grid.KeyboardAccelerators>
+										<Grid.ColumnDefinitions>
+											<ColumnDefinition Width="Auto" />
+											<ColumnDefinition Width="*" />
+											<ColumnDefinition Width="Auto" />
+										</Grid.ColumnDefinitions>
+										<StackPanel
+											Height="24"
+											HorizontalAlignment="Left"
+											VerticalAlignment="Center"
+											Orientation="Horizontal"
+											Spacing="8"
+											ToolTipService.ToolTip="{x:Bind Category.Name}">
+											<PathIcon
+												VerticalAlignment="Center"
+												Data="{StaticResource App.Theme.PathIcon.FilledTag}"
+												Foreground="{x:Bind NewColor, Mode=OneWay, Converter={StaticResource StringToBrushConverter}}" />
+											<TextBlock
+												x:Name="CategoryName"
+												MaxWidth="200"
+												VerticalAlignment="Center"
+												LineHeight="18"
+												Text="{x:Bind Category.Name}"
+												TextTrimming="CharacterEllipsis" />
+										</StackPanel>
+
+										<StackPanel
+											Grid.Column="1"
+											Orientation="Horizontal"
+											Spacing="8"
+											Visibility="{x:Bind IsEditing, Converter={StaticResource BoolVisibilityConverter}, Mode=OneWay}">
+											<TextBox
+												x:Name="CategoryNameTextBox"
+												Width="200"
+												VerticalAlignment="Center"
+												KeyDown="RenameCategoryTextBox_KeyDown"
+												Text="{x:Bind NewName, Mode=TwoWay}"
+												Visibility="{x:Bind IsEditing, Converter={StaticResource BoolVisibilityConverter}, Mode=OneWay}">
+												<TextBox.Resources>
+													<SolidColorBrush x:Key="TextControlBackgroundFocused" Color="{ThemeResource SolidBackgroundFillColorSecondary}" />
+												</TextBox.Resources>
+											</TextBox>
+
+											<Button
+												Margin="8,0"
+												Padding="0"
+												AutomationProperties.Name="{helpers:ResourceString Name=CategoryColor}">
+												<StackPanel Orientation="Horizontal">
+													<Border
+														Width="20"
+														Height="20"
+														Margin="4"
+														Background="{x:Bind NewColor, Mode=OneWay}"
+														CornerRadius="4" />
+													<FontIcon
+														Margin="8,4,10,4"
+														FontSize="12"
+														Glyph="&#xE70D;" />
+												</StackPanel>
+												<Button.Flyout>
+													<Flyout>
+														<controls:ColorPicker ColorChanged="EditCategoryColorPicker_ColorChanged" Color="{x:Bind NewColor, Mode=TwoWay}" />
+													</Flyout>
+												</Button.Flyout>
+											</Button>
+										</StackPanel>
+
+										<StackPanel
+											Grid.Column="2"
+											Orientation="Horizontal"
+											Visibility="{x:Bind IsEditing, Converter={StaticResource InvertedBoolVisibilityConverter}, Mode=OneWay}">
+											<Button
+												x:Name="EditCategoryButton"
+												Padding="8,4"
+												Background="Transparent"
+												BorderBrush="Transparent"
+												Click="EditCategory_Click"
+												Content="{helpers:ResourceString Name=Edit}" />
+
+											<Button
+												x:Name="DeleteCategoryButton"
+												Padding="8,4"
+												Background="Transparent"
+												BorderBrush="Transparent"
+												Click="PreRemoveCategory_Click"
+												Content="{helpers:ResourceString Name=Delete}">
+												<Button.Flyout>
+													<Flyout>
+														<StackPanel Spacing="12">
+															<TextBlock
+																MaxWidth="150"
+																Text="{helpers:ResourceString Name=ConfirmDeleteCategory}"
+																TextAlignment="Center"
+																TextWrapping="Wrap" />
+															<StackPanel
+																HorizontalAlignment="Center"
+																Orientation="Horizontal"
+																Spacing="8">
+																<Button Click="CancelRemoveCategory_Click" Content="{helpers:ResourceString Name=Cancel}" />
+
+																<Button
+																	BorderBrush="Transparent"
+																	Click="RemoveCategory_Click"
+																	Content="{helpers:ResourceString Name=Delete}"
+																	Style="{StaticResource AccentButtonStyle}" />
+															</StackPanel>
+														</StackPanel>
+													</Flyout>
+												</Button.Flyout>
+											</Button>
+										</StackPanel>
+
+										<StackPanel
+											Grid.Column="2"
+											Orientation="Horizontal"
+											Spacing="12"
+											Visibility="{x:Bind IsEditing, Converter={StaticResource BoolVisibilityConverter}, Mode=OneWay}">
+											<Grid
+												Padding="12,4"
+												VerticalAlignment="Stretch"
+												Background="{ThemeResource SystemFillColorCriticalBackgroundBrush}"
+												BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+												BorderThickness="1"
+												ColumnSpacing="8"
+												CornerRadius="4"
+												ToolTipService.ToolTip="{helpers:ResourceString Name=CategoryNameRules}"
+												Visibility="{x:Bind IsNameValid, Mode=OneWay, Converter={StaticResource InvertedBoolVisibilityConverter}}">
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="Auto" />
+													<ColumnDefinition Width="Auto" />
+												</Grid.ColumnDefinitions>
+												<TextBlock
+													VerticalAlignment="Center"
+													AutomationProperties.AccessibilityView="Raw"
+													FontFamily="{ThemeResource SymbolThemeFontFamily}"
+													FontSize="{StaticResource InfoBarIconFontSize}"
+													Foreground="{ThemeResource InfoBarErrorSeverityIconBackground}"
+													Text="{StaticResource InfoBarIconBackgroundGlyph}" />
+												<TextBlock
+													VerticalAlignment="Center"
+													FontFamily="{ThemeResource SymbolThemeFontFamily}"
+													FontSize="{StaticResource InfoBarIconFontSize}"
+													Foreground="{ThemeResource InfoBarInformationalSeverityIconForeground}"
+													Text="{StaticResource InfoBarErrorIconGlyph}" />
+												<TextBlock
+													Grid.Column="1"
+													VerticalAlignment="Center"
+													Text="{helpers:ResourceString Name=InvalidCategoryNameWarning}" />
+											</Grid>
+
+											<Button
+												x:Name="CancelCategoryChangesButton"
+												Click="CancelCategoryRename_Click"
+												Content="{helpers:ResourceString Name=Cancel}" />
+
+											<Button
+												x:Name="SaveCategoryChangesButton"
+												Click="CommitCategoryRename_Click"
+												Content="{helpers:ResourceString Name=Save}"
+												IsEnabled="{x:Bind CanCommit, Mode=OneWay}"
+												Style="{StaticResource AccentButtonStyle}" />
+										</StackPanel>
+									</Grid>
+								</DataTemplate>
+							</ListView.ItemTemplate>
+						</ListView>
+					</StackPanel>
+				</wctcontrols:SettingsExpander.ItemsHeader>
+			</wctcontrols:SettingsExpander>
+
 			<!--  Edit Tags  -->
 			<wctcontrols:SettingsExpander Header="{helpers:ResourceString Name=FileTags}" IsExpanded="True">
 				<wctcontrols:SettingsExpander.HeaderIcon>

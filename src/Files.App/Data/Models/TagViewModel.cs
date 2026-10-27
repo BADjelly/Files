@@ -15,6 +15,9 @@ namespace Files.App.Data.Models
 		[JsonPropertyName("Uid")]
 		public string Uid { get; set; }
 
+		[JsonPropertyName("CategoryId")]
+		public string? CategoryId { get; set; }
+
 		[JsonConstructor]
 		public TagViewModel(string name, string color, string uid)
 		{

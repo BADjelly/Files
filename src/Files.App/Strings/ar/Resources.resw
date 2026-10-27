@@ -2526,7 +2526,27 @@
   <data name="TagNameRules" xml:space="preserve">
     <value>يجب ألا يكون الاسم فارغاً أو أن يبدأ أو ينتهي بفترة زمنية.</value>
   </data>
-  <data name="Videos" xml:space="preserve">
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="NewCategory" xml:space="preserve">
+    <value>New Category</value>
+  </data>
+  <data name="CreateNewCategory" xml:space="preserve">
+    <value>Create New Category</value>
+  </data>
+  <data name="CategoryColor" xml:space="preserve">
+    <value>Category Color</value>
+  </data>
+  <data name="ConfirmDeleteCategory" xml:space="preserve">
+    <value>Are you sure you want to delete this category?</value>
+  </data>
+  <data name="InvalidCategoryNameWarning" xml:space="preserve">
+    <value>Invalid category name</value>
+  </data>
+  <data name="CategoryNameRules" xml:space="preserve">
+    <value>Name must not be empty or start or end with a period.</value>
+  </data><data name="Videos" xml:space="preserve">
     <value>مقاطع الفيديو</value>
   </data>
   <data name="LaunchPreviewPopup" xml:space="preserve">
