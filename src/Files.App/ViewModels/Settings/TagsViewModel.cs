@@ -30,6 +30,8 @@ namespace Files.App.ViewModels.Settings
 		public NewTagViewModel NewTag = new();
 
 		// Categories
+		private const string UncategorizedCategoryId = "00000000-0000-0000-0000-000000000000";
+
 		private bool isCreatingNewCategory;
 		public bool IsCreatingNewCategory
 		{
@@ -63,7 +65,9 @@ namespace Files.App.ViewModels.Settings
 
 			Categories = [];
 			Categories.CollectionChanged += Categories_CollectionChanged;
-			fileTagsCategoriesSettingsService.FileCategoryList?.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
+			fileTagsCategoriesSettingsService.FileCategoryList
+				?.Where(c => c.Uid != UncategorizedCategoryId)
+				.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
 
 			isBulkOperation = false;
 		}
@@ -157,7 +161,9 @@ namespace Files.App.ViewModels.Settings
 
 			isBulkOperation = true;
 			Categories.Clear();
-			fileTagsCategoriesSettingsService.FileCategoryList?.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
+			fileTagsCategoriesSettingsService.FileCategoryList
+				?.Where(c => c.Uid != UncategorizedCategoryId)
+				.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
 			isBulkOperation = false;
 		}
 
@@ -172,7 +178,9 @@ namespace Files.App.ViewModels.Settings
 
 			isBulkOperation = true;
 			Categories.Clear();
-			fileTagsCategoriesSettingsService.FileCategoryList?.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
+			fileTagsCategoriesSettingsService.FileCategoryList
+				?.Where(c => c.Uid != UncategorizedCategoryId)
+				.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
 			isBulkOperation = false;
 		}
 
