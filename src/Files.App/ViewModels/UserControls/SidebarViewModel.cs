@@ -445,17 +445,37 @@ namespace Files.App.ViewModels.UserControls
 
 				case NotifyCollectionChangedAction.Reset:
 					{
-						foreach (INavigationControlItem elem in getElements())
+						// For FileTag section, preserve IsExpanded state of existing categories, clear childItems, and re-add fresh instances.
+						// This fires CollectionChanged so the ItemsRepeater refreshes (in-place updates don't notify the ItemsRepeater).
+						if (section.Section == SectionType.FileTag)
 						{
-							await AddElementToSectionAsync(elem, section);
-						}
-						foreach (INavigationControlItem elem in childItems.ToList())
-						{
-							if (!getElements().Any(x => x.Path == elem.Path))
+							var expandedStates = childItems.OfType<FileTagCategoryItem>()
+								.Where(c => c.Category?.Uid is not null)
+								.ToDictionary(c => c.Category!.Uid, c => c.IsExpanded, StringComparer.OrdinalIgnoreCase);
+							childItems.Clear();
+							foreach (INavigationControlItem elem in getElements())
 							{
-								if (elem is ExpandableSidebarItemBase expandable)
-									expandable.StopWatchingSubfoldersAndDescendants();
-								childItems.Remove(elem);
+								await AddElementToSectionAsync(elem, section);
+								if (elem is FileTagCategoryItem catItem && catItem.Category?.Uid is string uid && expandedStates.TryGetValue(uid, out var wasExpanded))
+								{
+									catItem.IsExpanded = wasExpanded;
+								}
+							}
+						}
+						else
+						{
+							foreach (INavigationControlItem elem in getElements())
+							{
+								await AddElementToSectionAsync(elem, section);
+							}
+							foreach (INavigationControlItem elem in childItems.ToList())
+							{
+								if (!getElements().Any(x => x.Path == elem.Path))
+								{
+									if (elem is ExpandableSidebarItemBase expandable)
+										expandable.StopWatchingSubfoldersAndDescendants();
+									childItems.Remove(elem);
+								}
 							}
 						}
 
@@ -510,11 +530,7 @@ namespace Files.App.ViewModels.UserControls
 			}
 			else if (elem is FileTagCategoryItem categoryItem)
 			{
-				var categoryUid = categoryItem.Category?.Uid;
-				if (string.IsNullOrEmpty(categoryUid) || !childItems.OfType<FileTagCategoryItem>().Any(x => x.Category?.Uid == categoryUid))
-				{
-					childItems.Insert(index < 0 ? childItems.Count : Math.Min(index, childItems.Count), elem);
-				}
+				childItems.Insert(index < 0 ? childItems.Count : Math.Min(index, childItems.Count), elem);
 			}
 			else
 			{
