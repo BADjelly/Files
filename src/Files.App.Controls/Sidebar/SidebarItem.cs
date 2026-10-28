@@ -147,6 +147,12 @@ namespace Files.App.Controls
 			Icon = presentation?.IconElement;
 			Decorator = presentation?.ItemDecorator;
 			IsExpanded = Item?.IsExpanded ?? true;
+
+			// Collapse icon presenter when there's no icon to avoid reserved empty space
+			if (GetTemplateChild("IconPresenter") is Microsoft.UI.Xaml.Controls.ContentPresenter iconPresenter)
+			{
+				iconPresenter.Visibility = (Icon is null) ? Visibility.Collapsed : Visibility.Visible;
+			}
 		}
 
 		[DynamicWindowsRuntimeCast(typeof(ItemsRepeater))]
@@ -230,7 +236,13 @@ namespace Files.App.Controls
 					break;
 				case nameof(ISidebarItemPresentationModel.IconElement):
 					if (UseItemPresentation)
+					{
 						Icon = (Item as ISidebarItemPresentationModel)?.IconElement;
+						if (GetTemplateChild("IconPresenter") is Microsoft.UI.Xaml.Controls.ContentPresenter iconPresenter)
+						{
+							iconPresenter.Visibility = (Icon is null) ? Visibility.Collapsed : Visibility.Visible;
+						}
+					}
 					break;
 				case nameof(ISidebarItemPresentationModel.ItemDecorator):
 					if (UseItemPresentation)

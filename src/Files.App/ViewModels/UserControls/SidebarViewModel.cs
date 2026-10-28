@@ -2,6 +2,7 @@
 // Licensed under the MIT License.
 
 using Files.App.Controls;
+using Files.App.Data.Items;
 using Files.App.Helpers;
 using Files.App.Helpers.ContextFlyouts;
 using Microsoft.UI.Input;
@@ -383,7 +384,7 @@ namespace Files.App.ViewModels.UserControls
 					SectionType.Network => NetworkService.Computers.Cast<DriveItem>().ToList().AsReadOnly(),
 					SectionType.WSL => WSLDistroManager.Distros,
 					SectionType.Library => App.LibraryManager.Libraries,
-					SectionType.FileTag => App.FileTagsManager.FileTags,
+					SectionType.FileTag => App.FileTagsManager.CategoryGroups,
 					_ => throw new ArgumentOutOfRangeException(nameof(sectionType), sectionType, "The sidebar section type is not supported.")
 				};
 				await SyncSidebarItemsAsync(section, getElements, e);
@@ -505,6 +506,14 @@ namespace Files.App.ViewModels.UserControls
 						childItems.Insert(position, drive);
 						await drive.LoadThumbnailAsync();
 					}
+				}
+			}
+			else if (elem is FileTagCategoryItem categoryItem)
+			{
+				var categoryUid = categoryItem.Category?.Uid;
+				if (string.IsNullOrEmpty(categoryUid) || !childItems.OfType<FileTagCategoryItem>().Any(x => x.Category?.Uid == categoryUid))
+				{
+					childItems.Insert(index < 0 ? childItems.Count : Math.Min(index, childItems.Count), elem);
 				}
 			}
 			else
