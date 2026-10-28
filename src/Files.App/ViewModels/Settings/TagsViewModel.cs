@@ -1,6 +1,7 @@
 ﻿// Copyright (c) Files Community
 // Licensed under the MIT License.
 
+using Files.App.Dialogs;
 using System.Windows.Input;
 
 namespace Files.App.ViewModels.Settings
@@ -14,20 +15,9 @@ namespace Files.App.ViewModels.Settings
 
 		private bool isDragStarting = true;
 
-		private bool isCreatingNewTag;
-		public bool IsCreatingNewTag
-		{
-			get => isCreatingNewTag;
-			set => SetProperty(ref isCreatingNewTag, value);
-		}
-
 		public ObservableCollection<ListedTagViewModel> Tags { get; set; }
 
 		public ICommand AddTagCommand { get; }
-		public ICommand SaveNewTagCommand { get; }
-		public ICommand CancelNewTagCommand { get; }
-
-		public NewTagViewModel NewTag = new();
 
 		// Categories
 		private const string UncategorizedCategoryId = "00000000-0000-0000-0000-000000000000";
@@ -51,8 +41,6 @@ namespace Files.App.ViewModels.Settings
 		{
 			// Tags Commands
 			AddTagCommand = new RelayCommand(DoAddNewTag);
-			SaveNewTagCommand = new RelayCommand(DoSaveNewTag);
-			CancelNewTagCommand = new RelayCommand(DoCancelNewTag);
 
 			Tags = [];
 			Tags.CollectionChanged += Tags_CollectionChanged;
@@ -91,35 +79,61 @@ namespace Files.App.ViewModels.Settings
 
 		private void DoAddNewTag()
 		{
-			NewTag.Reset();
-			IsCreatingNewTag = true;
+			_ = ShowTagDialogAsync(null);
 		}
 
-		private void DoSaveNewTag()
+		public async Task ShowTagDialogAsync(ListedTagViewModel? existingTag)
 		{
-			IsCreatingNewTag = false;
+			var dialog = new TagDialog
+			{
+				ViewModel = new TagDialogViewModel()
+			};
 
-			fileTagsSettingsService.CreateNewTag(NewTag.Name, NewTag.Color);
+			if (existingTag is null)
+			{
+				dialog.ViewModel.InitializeCreate();
+			}
+			else
+			{
+				dialog.ViewModel.InitializeEdit(existingTag);
+			}
 
-			isBulkOperation = true;
-			Tags.Clear();
-			fileTagsSettingsService.FileTagList?.ForEach(tag => Tags.Add(new ListedTagViewModel(tag)));
-			isBulkOperation = false;
+			var result = await dialog.ShowAsync();
+			if (result != DialogResult.Primary)
+				return;
+
+			var vm = dialog.ViewModel;
+			var newName = vm.GetResultName();
+			var newColor = vm.GetResultColor();
+			var newCategoryId = vm.GetResultCategoryId();
+
+			if (existingTag is null)
+			{
+				// Create new tag
+				var newTag = new TagViewModel(newName, newColor, newCategoryId);
+				var oldTags = fileTagsSettingsService.FileTagList?.ToList() ?? [];
+				oldTags.Add(newTag);
+				fileTagsSettingsService.FileTagList = oldTags;
+
+				isBulkOperation = true;
+				Tags.Add(new ListedTagViewModel(newTag));
+				isBulkOperation = false;
+			}
+			else
+			{
+				// Edit existing tag
+				fileTagsSettingsService.EditTag(existingTag.Tag.Uid, newName, newColor, newCategoryId);
+
+				isBulkOperation = true;
+				Tags.Clear();
+				fileTagsSettingsService.FileTagList?.ForEach(tag => Tags.Add(new ListedTagViewModel(tag)));
+				isBulkOperation = false;
+			}
 		}
 
-		private void DoCancelNewTag()
+		public void EditExistingTag(ListedTagViewModel item)
 		{
-			IsCreatingNewTag = false;
-		}
-
-		public void EditExistingTag(ListedTagViewModel item, string newName, string color)
-		{
-			fileTagsSettingsService.EditTag(item.Tag.Uid, newName, color);
-
-			isBulkOperation = true;
-			Tags.Clear();
-			fileTagsSettingsService.FileTagList?.ForEach(tag => Tags.Add(new ListedTagViewModel(tag)));
-			isBulkOperation = false;
+			_ = ShowTagDialogAsync(item);
 		}
 
 		public void DeleteExistingTag(ListedTagViewModel item)
@@ -191,50 +205,6 @@ namespace Files.App.ViewModels.Settings
 			isBulkOperation = false;
 
 			fileTagsCategoriesSettingsService.DeleteCategory(item.Category.Uid);
-		}
-	}
-
-	public sealed partial class NewTagViewModel : ObservableObject
-	{
-		private string name = string.Empty;
-		public string Name
-		{
-			get => name;
-			set
-			{
-				SetProperty(ref name, value);
-				{
-					OnPropertyChanged(nameof(CanCommit));
-					OnPropertyChanged(nameof(IsNameValid));
-				}
-			}
-		}
-
-		private string color = "#FFFFFFFF";
-		public string Color
-		{
-			get => color;
-			set => SetProperty(ref color, value);
-		}
-
-		private bool isNameValid = true;
-		public bool IsNameValid
-		{
-			get => isNameValid;
-			set
-			{
-				if (SetProperty(ref isNameValid, value))
-					OnPropertyChanged(nameof(CanCommit));
-			}
-		}
-
-		public bool CanCommit => !string.IsNullOrEmpty(name) && IsNameValid;
-
-		public void Reset()
-		{
-			Name = string.Empty;
-			IsNameValid = true;
-			Color = ColorHelpers.RandomColor();
 		}
 	}
 }

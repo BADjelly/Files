@@ -98,19 +98,22 @@ namespace Files.App.Services.Settings
 			return FileTagList.Where(x => x.Name.Equals(tagName, StringComparison.OrdinalIgnoreCase));
 		}
 
-		public void CreateNewTag(string newTagName, string color)
+		public void CreateNewTag(string newTagName, string color, string categoryId)
 		{
 			var newTag = new TagViewModel(
 				newTagName,
 				color,
-				Guid.NewGuid().ToString());
+				Guid.NewGuid().ToString())
+			{
+				CategoryId = categoryId
+			};
 
 			var oldTags = FileTagList.ToList();
 			oldTags.Add(newTag);
 			FileTagList = oldTags;
 		}
 
-		public void EditTag(string uid, string name, string color)
+		public void EditTag(string uid, string name, string color, string categoryId)
 		{
 			var index = GetTagIndex(uid);
 			if (index == -1)
@@ -118,7 +121,11 @@ namespace Files.App.Services.Settings
 
 			var oldTags = FileTagList.ToList();
 			oldTags.RemoveAt(index);
-			oldTags.Insert(index, new TagViewModel(name, color, uid));
+			var editedTag = new TagViewModel(name, color, uid)
+			{
+				CategoryId = categoryId
+			};
+			oldTags.Insert(index, editedTag);
 			FileTagList = oldTags;
 		}
 

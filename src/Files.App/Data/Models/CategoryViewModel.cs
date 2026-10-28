@@ -4,6 +4,7 @@
 namespace Files.App.Data.Models
 {
 	[Serializable]
+	[WinRT.GeneratedBindableCustomProperty([nameof(Name), nameof(Uid)], [])]
 	public sealed partial class CategoryViewModel : ObservableObject
 	{
 		[JsonPropertyName("CategoryName")]
