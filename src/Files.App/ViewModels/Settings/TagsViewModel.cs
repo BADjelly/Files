@@ -44,7 +44,7 @@ namespace Files.App.ViewModels.Settings
 
 			Tags = [];
 			Tags.CollectionChanged += Tags_CollectionChanged;
-			fileTagsSettingsService.FileTagList?.ForEach(tag => Tags.Add(new ListedTagViewModel(tag)));
+			fileTagsSettingsService.FileTagList?.ForEach(tag => Tags.Add(new ListedTagViewModel(tag, fileTagsCategoriesSettingsService)));
 
 			// Categories Commands
 			AddCategoryCommand = new RelayCommand(DoAddNewCategory);
@@ -119,7 +119,7 @@ namespace Files.App.ViewModels.Settings
 				fileTagsSettingsService.FileTagList = oldTags;
 
 				isBulkOperation = true;
-				Tags.Add(new ListedTagViewModel(newTag));
+				Tags.Add(new ListedTagViewModel(newTag, fileTagsCategoriesSettingsService));
 				isBulkOperation = false;
 			}
 			else
@@ -129,7 +129,7 @@ namespace Files.App.ViewModels.Settings
 
 				isBulkOperation = true;
 				Tags.Clear();
-				fileTagsSettingsService.FileTagList?.ForEach(tag => Tags.Add(new ListedTagViewModel(tag)));
+				fileTagsSettingsService.FileTagList?.ForEach(tag => Tags.Add(new ListedTagViewModel(tag, fileTagsCategoriesSettingsService)));
 				isBulkOperation = false;
 			}
 		}
@@ -194,20 +194,44 @@ namespace Files.App.ViewModels.Settings
 			fileTagsCategoriesSettingsService.EditCategory(item.Category.Uid, newName);
 
 			isBulkOperation = true;
+
 			Categories.Clear();
 			fileTagsCategoriesSettingsService.FileCategoryList
 				?.Where(c => c.Uid != UncategorizedCategoryId)
 				.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
+
+			// Refresh tags so DisplayText reflects the renamed category
+			Tags.Clear();
+			fileTagsSettingsService.FileTagList?.ForEach(tag => Tags.Add(new ListedTagViewModel(tag, fileTagsCategoriesSettingsService)));
+
 			isBulkOperation = false;
 		}
 
 		public void DeleteExistingCategory(ListedCategoryViewModel item)
 		{
+			var deletedCategoryId = item.Category.Uid;
+
+			// Reassign tags from deleted category to Uncategorized
+			var allTags = fileTagsSettingsService.FileTagList?.ToList() ?? [];
+			foreach (var tag in allTags)
+			{
+				if (tag.CategoryId == deletedCategoryId)
+				{
+					tag.CategoryId = UncategorizedCategoryId;
+				}
+			}
+			fileTagsSettingsService.FileTagList = allTags;
+
 			isBulkOperation = true;
 			Categories.Remove(item);
+
+			// Refresh tags so DisplayText reflects the reassigned categories
+			Tags.Clear();
+			fileTagsSettingsService.FileTagList?.ForEach(tag => Tags.Add(new ListedTagViewModel(tag, fileTagsCategoriesSettingsService)));
+
 			isBulkOperation = false;
 
-			fileTagsCategoriesSettingsService.DeleteCategory(item.Category.Uid);
+			fileTagsCategoriesSettingsService.DeleteCategory(deletedCategoryId);
 		}
 	}
 }

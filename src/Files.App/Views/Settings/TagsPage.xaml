@@ -333,7 +333,7 @@
 												MaxWidth="200"
 												VerticalAlignment="Center"
 												LineHeight="18"
-												Text="{x:Bind Tag.Name}"
+												Text="{x:Bind DisplayText, Mode=OneWay}"
 												TextTrimming="CharacterEllipsis" />
 										</StackPanel>
 
