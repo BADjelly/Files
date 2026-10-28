@@ -251,6 +251,12 @@ namespace Files.App.Services.Settings
 			set => Set(value);
 		}
 
+		public Dictionary<string, bool>? FileTagsCategoryExpansionStates
+		{
+			get => Get<Dictionary<string, bool>>(null);
+			set => Set(value);
+		}
+
 		public bool MoveShellExtensionsToSubMenu
 		{
 			get => Get(true);
