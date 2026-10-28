@@ -110,7 +110,10 @@ namespace Files.App.ViewModels.Settings
 			if (existingTag is null)
 			{
 				// Create new tag
-				var newTag = new TagViewModel(newName, newColor, newCategoryId);
+				var newTag = new TagViewModel(newName, newColor, Guid.NewGuid().ToString())
+				{
+					CategoryId = newCategoryId
+				};
 				var oldTags = fileTagsSettingsService.FileTagList?.ToList() ?? [];
 				oldTags.Add(newTag);
 				fileTagsSettingsService.FileTagList = oldTags;
