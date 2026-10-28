@@ -775,37 +775,43 @@ namespace Files.App.Views.Layouts
 				.ToHashSet();
 
 			var tagPathData = (string)Application.Current.Resources["App.Theme.PathIcon.FilledTag"];
+			var categories = Ioc.Default.GetRequiredService<Files.App.Data.Contracts.IFileTagsCategoriesSettingsService>().FileCategoryList ?? [];
+			const string UncategorizedCategoryId = "00000000-0000-0000-0000-000000000000";
 
-			foreach (var tag in FileTagsSettingsService.FileTagList)
+			var allTags = FileTagsSettingsService.FileTagList ?? [];
+
+			// Add uncategorized tags flat
+			var uncategorizedTags = allTags.Where(t => t.CategoryId is null or UncategorizedCategoryId).ToList();
+			foreach (var tag in uncategorizedTags)
 			{
-				var toggle = new ToggleMenuFlyoutItem
-				{
-					Text = tag.Name,
-					Tag = tag,
-					IsChecked = commonTags.Contains(tag.Uid),
-					Icon = new Microsoft.UI.Xaml.Controls.PathIcon
-					{
-						Data = (Microsoft.UI.Xaml.Media.Geometry)Microsoft.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof(Microsoft.UI.Xaml.Media.Geometry), tagPathData),
-						Foreground = new Microsoft.UI.Xaml.Media.SolidColorBrush(ColorHelpers.FromHex(tag.Color)),
-					},
-				};
-				toggle.Click += async (s, _) =>
-				{
-					var toggled = (ToggleMenuFlyoutItem)s;
-					var tv = (TagViewModel)toggled.Tag;
-					foreach (var it in selected.Where(i => i is not null))
-					{
-						var existing = it.FileTags ?? [];
-						it.FileTags = toggled.IsChecked
-							? (existing.Contains(tv.Uid) ? existing : [.. existing, tv.Uid])
-							: existing.Where(u => u != tv.Uid).ToArray();
-					}
-					if (ParentShellPageInstance is { } parentShellPage)
-						await parentShellPage.GetRequiredShellViewModel().RefreshTagGroups();
-				};
-				subItem.Items.Add(toggle);
+				subItem.Items.Add(CreateTagToggleItem(tag, commonTags, tagPathData, selected));
 			}
 
+			// Add categorized tags as nested submenus
+			var categorizedTags = allTags.Where(t => t.CategoryId is not null and not UncategorizedCategoryId)
+				.GroupBy(t => t.CategoryId!)
+				.ToList();
+
+			foreach (var group in categorizedTags)
+			{
+				var category = categories.FirstOrDefault(c => c is not null && string.Equals(c.Uid, group.Key, StringComparison.OrdinalIgnoreCase));
+				if (category is null)
+					continue;
+
+				var categorySubItem = new MenuFlyoutSubItem
+				{
+					Text = category.Name,
+				};
+
+				foreach (var tag in group)
+				{
+					categorySubItem.Items.Add(CreateTagToggleItem(tag, commonTags, tagPathData, selected));
+				}
+
+				subItem.Items.Add(categorySubItem);
+			}
+
+			// Add separator and remove tags option
 			subItem.Items.Add(new MenuFlyoutSeparator());
 			var removeTags = new MenuFlyoutItem
 			{
@@ -820,6 +826,37 @@ namespace Files.App.Views.Layouts
 			subItem.Items.Add(removeTags);
 
 			return subItem;
+		}
+
+		[DynamicWindowsRuntimeCast(typeof(ToggleMenuFlyoutItem))]
+		private ToggleMenuFlyoutItem CreateTagToggleItem(TagViewModel tag, HashSet<string> commonTags, string tagPathData, List<ListedItem> selected)
+		{
+			var toggle = new ToggleMenuFlyoutItem
+			{
+				Text = tag.Name,
+				Tag = tag,
+				IsChecked = commonTags.Contains(tag.Uid),
+				Icon = new Microsoft.UI.Xaml.Controls.PathIcon
+				{
+					Data = (Microsoft.UI.Xaml.Media.Geometry)Microsoft.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof(Microsoft.UI.Xaml.Media.Geometry), tagPathData),
+					Foreground = new Microsoft.UI.Xaml.Media.SolidColorBrush(ColorHelpers.FromHex(tag.Color)),
+				},
+			};
+			toggle.Click += async (s, _) =>
+			{
+				var toggled = (ToggleMenuFlyoutItem)s;
+				var tv = (TagViewModel)toggled.Tag;
+				foreach (var it in selected.Where(i => i is not null))
+				{
+					var existing = it.FileTags ?? [];
+					it.FileTags = toggled.IsChecked
+						? (existing.Contains(tv.Uid) ? existing : [.. existing, tv.Uid])
+						: existing.Where(u => u != tv.Uid).ToArray();
+				}
+				if (ParentShellPageInstance is { } parentShellPage)
+					await parentShellPage.GetRequiredShellViewModel().RefreshTagGroups();
+			};
+			return toggle;
 		}
 
 		public async void SetSelectedItemsOnNavigation()
