@@ -104,6 +104,13 @@ namespace Files.App.Services.Settings
 			var oldCategories = FileCategoryList.ToList();
 			oldCategories.RemoveAt(index);
 			FileCategoryList = oldCategories;
+
+			// Clean up expansion state for the deleted category
+			var general = Ioc.Default.GetRequiredService<IGeneralSettingsService>();
+			if (general.FileTagsCategoryExpansionStates is { } dict && dict.Remove(uid))
+			{
+				general.FileTagsCategoryExpansionStates = dict.Count == 0 ? null : new Dictionary<string, bool>(dict, StringComparer.OrdinalIgnoreCase);
+			}
 		}
 
 		public override bool ImportSettings(object import)
