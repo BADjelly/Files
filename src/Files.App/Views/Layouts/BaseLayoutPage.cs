@@ -787,15 +787,14 @@ namespace Files.App.Views.Layouts
 				subItem.Items.Add(CreateTagToggleItem(tag, commonTags, tagPathData, selected));
 			}
 
-			// Add categorized tags as nested submenus
-			var categorizedTags = allTags.Where(t => t.CategoryId is not null and not UncategorizedCategoryId)
-				.GroupBy(t => t.CategoryId!)
-				.ToList();
-
-			foreach (var group in categorizedTags)
+			// Add categorized tags as nested submenus, ordered by category order
+			foreach (var category in categories)
 			{
-				var category = categories.FirstOrDefault(c => c is not null && string.Equals(c.Uid, group.Key, StringComparison.OrdinalIgnoreCase));
-				if (category is null)
+				if (category is null || string.Equals(category.Uid, UncategorizedCategoryId, StringComparison.OrdinalIgnoreCase))
+					continue;
+
+				var categoryTags = allTags.Where(t => string.Equals(t.CategoryId, category.Uid, StringComparison.OrdinalIgnoreCase)).ToList();
+				if (categoryTags.Count == 0)
 					continue;
 
 				var categorySubItem = new MenuFlyoutSubItem
@@ -803,7 +802,7 @@ namespace Files.App.Views.Layouts
 					Text = category.Name,
 				};
 
-				foreach (var tag in group)
+				foreach (var tag in categoryTags)
 				{
 					categorySubItem.Items.Add(CreateTagToggleItem(tag, commonTags, tagPathData, selected));
 				}
