@@ -138,6 +138,7 @@ namespace Files.App.Controls
 			CanDrag = Item?.Path is string path && Path.IsPathRooted(path);
 		}
 
+		[DynamicWindowsRuntimeCast(typeof(Microsoft.UI.Xaml.Controls.ContentPresenter))]
 		private void UpdateItemPresentation()
 		{
 			var presentation = Item as ISidebarItemPresentationModel;
@@ -210,6 +211,7 @@ namespace Files.App.Controls
 			}
 		}
 
+		[DynamicWindowsRuntimeCast(typeof(Microsoft.UI.Xaml.Controls.ContentPresenter))]
 		private void Item_PropertyChanged(object? sender, PropertyChangedEventArgs e)
 		{
 			switch (e.PropertyName)

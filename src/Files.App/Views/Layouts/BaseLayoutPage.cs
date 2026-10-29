@@ -829,6 +829,7 @@ namespace Files.App.Views.Layouts
 		}
 
 		[DynamicWindowsRuntimeCast(typeof(ToggleMenuFlyoutItem))]
+		[DynamicWindowsRuntimeCast(typeof(Microsoft.UI.Xaml.Media.Geometry))]
 		private ToggleMenuFlyoutItem CreateTagToggleItem(TagViewModel tag, HashSet<string> commonTags, string tagPathData, List<ListedItem> selected)
 		{
 			var toggle = new ToggleMenuFlyoutItem

@@ -65,6 +65,7 @@ namespace Files.App.Views.Settings
 			deleteTagItemFlyout?.Hide();
 		}
 
+		[DynamicWindowsRuntimeCast(typeof(Microsoft.UI.Xaml.Controls.Button))]
 		private void RemoveTag_Click(object sender, RoutedEventArgs e)
 		{
 			ViewModel.DeleteExistingTag((ListedTagViewModel)((Button)sender).DataContext);
