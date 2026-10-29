@@ -30,13 +30,16 @@ namespace Files.App.Services.Settings
 			new("Uncategorized", "00000000-0000-0000-0000-000000000000")
 		];
 
+		private readonly string _settingsFilePath;
+
 		public FileTagsCategoriesSettingsService()
 		{
 			var settingsSerializer = new DefaultSettingsSerializer();
 			SettingsSerializer = settingsSerializer;
 
-			Initialize(Path.Combine(ApplicationData.Current.LocalFolder.Path,
-				Constants.LocalSettings.SettingsFolderName, Constants.LocalSettings.FileTagsCategoriesSettingsFileName));
+			_settingsFilePath = Path.Combine(ApplicationData.Current.LocalFolder.Path,
+				Constants.LocalSettings.SettingsFolderName, Constants.LocalSettings.FileTagsCategoriesSettingsFileName);
+			Initialize(_settingsFilePath);
 
 			var jsonSettingsSerializer = new DefaultJsonSettingsSerializer();
 			JsonSettingsSerializer = jsonSettingsSerializer;
@@ -51,6 +54,13 @@ namespace Files.App.Services.Settings
 			get
 			{
 				var categories = Get<List<CategoryViewModel>>(DefaultFileCategories) ?? DefaultFileCategories;
+
+				// Persist defaults to disk if the settings file doesn't exist yet
+				if (categories == DefaultFileCategories && !File.Exists(_settingsFilePath))
+				{
+					Set(DefaultFileCategories);
+					FlushSettings();
+				}
 
 				return categories;
 			}
