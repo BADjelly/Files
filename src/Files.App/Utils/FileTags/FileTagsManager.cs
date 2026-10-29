@@ -63,18 +63,16 @@ namespace Files.App.Utils.FileTags
 				var tags = fileTagsSettingsService.FileTagList ?? [];
 				var categories = fileTagsCategoriesSettingsService.FileCategoryList ?? [];
 
-				// Group tags by category (excluding Uncategorized)
-				var categorizedTags = tags.Where(t => t.CategoryId is not null and not UncategorizedCategoryId)
-					.GroupBy(t => t.CategoryId!);
-
-				foreach (var group in categorizedTags)
+				// Iterate categories in their defined order, then add tags for each category
+				foreach (var category in categories)
 				{
-					var category = categories.FirstOrDefault(c => string.Equals(c.Uid, group.Key, StringComparison.OrdinalIgnoreCase));
-					if (category is null)
-					{
-						logger.LogWarning("Category not found for CategoryId: {categoryId}", group.Key);
+					if (string.Equals(category.Uid, UncategorizedCategoryId, StringComparison.OrdinalIgnoreCase))
 						continue;
-					}
+
+					var categoryTags = tags.Where(t => string.Equals(t.CategoryId, category.Uid, StringComparison.OrdinalIgnoreCase)).ToList();
+					if (categoryTags.Count == 0)
+						continue;
+
 					var categoryItem = new FileTagCategoryItem
 					{
 						Text = category.Name,
@@ -83,7 +81,7 @@ namespace Files.App.Utils.FileTags
 						MenuOptions = new ContextMenuOptions { IsLocationItem = true },
 					};
 
-					foreach (var tag in group)
+					foreach (var tag in categoryTags)
 					{
 						var tagItem = new FileTagItem
 						{

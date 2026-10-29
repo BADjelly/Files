@@ -161,7 +161,9 @@ namespace Files.App.ViewModels.Settings
 			}
 			isDragStarting = true;
 
-			fileTagsCategoriesSettingsService.FileCategoryList = Categories.Select(categoryVM => categoryVM.Category).ToList();
+			var savedCategories = Categories.Select(categoryVM => categoryVM.Category).ToList();
+			savedCategories.Insert(0, new CategoryViewModel("Uncategorized", UncategorizedCategoryId));
+			fileTagsCategoriesSettingsService.FileCategoryList = savedCategories;
 		}
 
 		private void DoAddNewCategory()
