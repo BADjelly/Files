@@ -138,6 +138,7 @@ namespace Files.App.Controls
 			CanDrag = Item?.Path is string path && Path.IsPathRooted(path);
 		}
 
+		[DynamicWindowsRuntimeCast(typeof(Microsoft.UI.Xaml.Controls.ContentPresenter))]
 		private void UpdateItemPresentation()
 		{
 			var presentation = Item as ISidebarItemPresentationModel;
@@ -147,6 +148,12 @@ namespace Files.App.Controls
 			Icon = presentation?.IconElement;
 			Decorator = presentation?.ItemDecorator;
 			IsExpanded = Item?.IsExpanded ?? true;
+
+			// Collapse icon presenter when there's no icon to avoid reserved empty space
+			if (GetTemplateChild("IconPresenter") is Microsoft.UI.Xaml.Controls.ContentPresenter iconPresenter)
+			{
+				iconPresenter.Visibility = (Icon is null) ? Visibility.Collapsed : Visibility.Visible;
+			}
 		}
 
 		[DynamicWindowsRuntimeCast(typeof(ItemsRepeater))]
@@ -204,6 +211,7 @@ namespace Files.App.Controls
 			}
 		}
 
+		[DynamicWindowsRuntimeCast(typeof(Microsoft.UI.Xaml.Controls.ContentPresenter))]
 		private void Item_PropertyChanged(object? sender, PropertyChangedEventArgs e)
 		{
 			switch (e.PropertyName)
@@ -230,7 +238,13 @@ namespace Files.App.Controls
 					break;
 				case nameof(ISidebarItemPresentationModel.IconElement):
 					if (UseItemPresentation)
+					{
 						Icon = (Item as ISidebarItemPresentationModel)?.IconElement;
+						if (GetTemplateChild("IconPresenter") is Microsoft.UI.Xaml.Controls.ContentPresenter iconPresenter)
+						{
+							iconPresenter.Visibility = (Icon is null) ? Visibility.Collapsed : Visibility.Visible;
+						}
+					}
 					break;
 				case nameof(ISidebarItemPresentationModel.ItemDecorator):
 					if (UseItemPresentation)

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -2524,6 +2524,33 @@
   </data>
   <data name="TagNameRules" xml:space="preserve">
     <value>Name must not be empty or start or end with a period.</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="NewCategory" xml:space="preserve">
+    <value>New Category</value>
+  </data>
+  <data name="CreateNewCategory" xml:space="preserve">
+    <value>Create New Category</value>
+  </data>
+  <data name="CategoryColor" xml:space="preserve">
+    <value>Category Color</value>
+  </data>
+  <data name="ConfirmDeleteCategory" xml:space="preserve">
+    <value>Are you sure you want to delete this category?</value>
+  </data>
+  <data name="InvalidCategoryNameWarning" xml:space="preserve">
+    <value>Invalid category name</value>
+  </data>
+  <data name="CategoryNameRules" xml:space="preserve">
+    <value>Name must not be empty or start or end with a period.</value>
+  </data>
+  <data name="EditTag" xml:space="preserve">
+    <value>Edit Tag</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
   </data>
   <data name="Videos" xml:space="preserve">
     <value>Videos</value>

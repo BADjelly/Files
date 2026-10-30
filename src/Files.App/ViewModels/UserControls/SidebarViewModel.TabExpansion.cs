@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: MPL-2.0
 
 using Files.App.Controls;
+using Files.App.Data.Items;
 using System.Collections.Specialized;
 
 namespace Files.App.ViewModels.UserControls
@@ -83,6 +84,7 @@ namespace Files.App.ViewModels.UserControls
 		private static string? GetExpansionKey(INavigationControlItem item) => item switch
 		{
 			LocationItem { IsHeader: true } sect => SectionKeyByEnum[(int)sect.Section],
+			FileTagCategoryItem { Category: { Uid: not null } cat } => $"category:{cat.Uid}",
 			_ when !string.IsNullOrEmpty(item.Path) => item.Path,
 			_ => null,
 		};
@@ -156,6 +158,16 @@ namespace Files.App.ViewModels.UserControls
 			if (!tabExpansionState.TryGetValue(tab, out var state))
 			{
 				state = new HashSet<string>(GetPersistedExpandedSectionKeys(), StringComparer.OrdinalIgnoreCase);
+				// Restore persisted category expansion state
+				var general = UserSettingsService.GeneralSettingsService;
+				if (general.FileTagsCategoryExpansionStates is { } catDict)
+				{
+					foreach (var (uid, expanded) in catDict)
+					{
+						if (expanded)
+							state.Add($"category:{uid}");
+					}
+				}
 				// Inherit whatever section state the user currently sees so a freshly opened tab matches expectation rather than snapping back to the persisted baseline.
 				foreach (var sectionObj in sidebarItems)
 				{
@@ -224,7 +236,8 @@ namespace Files.App.ViewModels.UserControls
 				return;
 			switch (e.PropertyName)
 			{
-				case nameof(LocationItem.IsExpanded):
+				case nameof(LocationItem.IsExpanded) when item is LocationItem:
+				case nameof(FileTagCategoryItem.IsExpanded) when item is FileTagCategoryItem:
 					CaptureExpansionToCurrentTab(item);
 					break;
 				case nameof(LocationItem.IsExpandableFolder):
@@ -275,6 +288,19 @@ namespace Files.App.ViewModels.UserControls
 				state.Remove(key);
 			if (item is LocationItem { IsHeader: true } section)
 				PersistSectionExpansion(section.Section, item.IsExpanded);
+			else if (item is FileTagCategoryItem { Category: { Uid: not null } cat })
+				PersistCategoryExpansion(cat.Uid, item.IsExpanded);
+		}
+
+		private void PersistCategoryExpansion(string categoryUid, bool isExpanded)
+		{
+			var general = UserSettingsService.GeneralSettingsService;
+			var dict = new Dictionary<string, bool>(general.FileTagsCategoryExpansionStates ?? new(StringComparer.OrdinalIgnoreCase), StringComparer.OrdinalIgnoreCase);
+			if (isExpanded)
+				dict[categoryUid] = true;
+			else
+				dict.Remove(categoryUid);
+			general.FileTagsCategoryExpansionStates = dict.Count == 0 ? null : dict;
 		}
 
 		// Restores expansion for the initial pass over sidebarItems and for items realized later (async section sync, lazy-loaded subfolders).

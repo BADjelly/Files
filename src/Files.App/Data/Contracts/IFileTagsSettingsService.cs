@@ -17,9 +17,9 @@ namespace Files.App.Data.Contracts
 
 		IEnumerable<TagViewModel> GetTagsByName(string tagName);
 
-		void CreateNewTag(string newTagName, string color);
+		void CreateNewTag(string newTagName, string color, string categoryId);
 
-		void EditTag(string uid, string name, string color);
+		void EditTag(string uid, string name, string color, string categoryId);
 
 		void DeleteTag(string uid);
 

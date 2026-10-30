@@ -556,22 +556,28 @@ namespace Files.App.Utils.Storage
 
 		bool IList.Contains(object? value)
 		{
-			return Contains((T?)value);
+			if (value is T)
+				return Contains((T)value);
+			return false;
 		}
 
 		int IList.IndexOf(object? value)
 		{
-			return IndexOf((T?)value);
+			if (value is T)
+				return IndexOf((T)value);
+			return -1;
 		}
 
 		void IList.Insert(int index, object? value)
 		{
-			Insert(index, (T?)value);
+			if (value is T tValue)
+				Insert(index, tValue);
 		}
 
 		void IList.Remove(object? value)
 		{
-			Remove((T?)value);
+			if (value is T tValue)
+				Remove(tValue);
 		}
 
 		void ICollection.CopyTo(Array array, int index)

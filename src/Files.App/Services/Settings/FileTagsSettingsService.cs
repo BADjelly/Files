@@ -25,12 +25,14 @@ namespace Files.App.Services.Settings
 
 		public event EventHandler? OnTagsUpdated;
 
+		private const string UncategorizedCategoryId = "00000000-0000-0000-0000-000000000000";
+
 		private static readonly List<TagViewModel> DefaultFileTags =
 		[
-			new("Home", "#0072BD", "f7e0e137-2eb5-4fa4-a50d-ddd65df17c34"),
-			new("Work", "#D95319", "c84a8131-c4de-47d9-9440-26e859d14b3d"),
-			new("Photos", "#EDB120", "d4b8d4bd-ceaf-4e58-ac61-a185fcf96c5d"),
-			new("Important", "#77AC30", "79376daf-c44a-4fe4-aa3b-8b30baea453e")
+			new("Home", "#0072BD", "f7e0e137-2eb5-4fa4-a50d-ddd65df17c34", UncategorizedCategoryId),
+			new("Work", "#D95319", "c84a8131-c4de-47d9-9440-26e859d14b3d", UncategorizedCategoryId),
+			new("Photos", "#EDB120", "d4b8d4bd-ceaf-4e58-ac61-a185fcf96c5d", UncategorizedCategoryId),
+			new("Important", "#77AC30", "79376daf-c44a-4fe4-aa3b-8b30baea453e", UncategorizedCategoryId)
 		];
 
 		public FileTagsSettingsService()
@@ -98,19 +100,22 @@ namespace Files.App.Services.Settings
 			return FileTagList.Where(x => x.Name.Equals(tagName, StringComparison.OrdinalIgnoreCase));
 		}
 
-		public void CreateNewTag(string newTagName, string color)
+		public void CreateNewTag(string newTagName, string color, string categoryId)
 		{
 			var newTag = new TagViewModel(
 				newTagName,
 				color,
-				Guid.NewGuid().ToString());
+				Guid.NewGuid().ToString())
+			{
+				CategoryId = categoryId
+			};
 
 			var oldTags = FileTagList.ToList();
 			oldTags.Add(newTag);
 			FileTagList = oldTags;
 		}
 
-		public void EditTag(string uid, string name, string color)
+		public void EditTag(string uid, string name, string color, string categoryId)
 		{
 			var index = GetTagIndex(uid);
 			if (index == -1)
@@ -118,7 +123,11 @@ namespace Files.App.Services.Settings
 
 			var oldTags = FileTagList.ToList();
 			oldTags.RemoveAt(index);
-			oldTags.Insert(index, new TagViewModel(name, color, uid));
+			var editedTag = new TagViewModel(name, color, uid)
+			{
+				CategoryId = categoryId
+			};
+			oldTags.Insert(index, editedTag);
 			FileTagList = oldTags;
 		}
 

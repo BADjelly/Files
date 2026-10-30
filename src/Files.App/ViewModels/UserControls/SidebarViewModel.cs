@@ -2,6 +2,7 @@
 // Licensed under the MIT License.
 
 using Files.App.Controls;
+using Files.App.Data.Items;
 using Files.App.Helpers;
 using Files.App.Helpers.ContextFlyouts;
 using Microsoft.UI.Input;
@@ -383,7 +384,7 @@ namespace Files.App.ViewModels.UserControls
 					SectionType.Network => NetworkService.Computers.Cast<DriveItem>().ToList().AsReadOnly(),
 					SectionType.WSL => WSLDistroManager.Distros,
 					SectionType.Library => App.LibraryManager.Libraries,
-					SectionType.FileTag => App.FileTagsManager.FileTags,
+					SectionType.FileTag => App.FileTagsManager.CategoryGroups,
 					_ => throw new ArgumentOutOfRangeException(nameof(sectionType), sectionType, "The sidebar section type is not supported.")
 				};
 				await SyncSidebarItemsAsync(section, getElements, e);
@@ -444,17 +445,37 @@ namespace Files.App.ViewModels.UserControls
 
 				case NotifyCollectionChangedAction.Reset:
 					{
-						foreach (INavigationControlItem elem in getElements())
+						// For FileTag section, preserve IsExpanded state of existing categories, clear childItems, and re-add fresh instances.
+						// This fires CollectionChanged so the ItemsRepeater refreshes (in-place updates don't notify the ItemsRepeater).
+						if (section.Section == SectionType.FileTag)
 						{
-							await AddElementToSectionAsync(elem, section);
-						}
-						foreach (INavigationControlItem elem in childItems.ToList())
-						{
-							if (!getElements().Any(x => x.Path == elem.Path))
+							var expandedStates = childItems.OfType<FileTagCategoryItem>()
+								.Where(c => c.Category?.Uid is not null)
+								.ToDictionary(c => c.Category!.Uid, c => c.IsExpanded, StringComparer.OrdinalIgnoreCase);
+							childItems.Clear();
+							foreach (INavigationControlItem elem in getElements())
 							{
-								if (elem is ExpandableSidebarItemBase expandable)
-									expandable.StopWatchingSubfoldersAndDescendants();
-								childItems.Remove(elem);
+								await AddElementToSectionAsync(elem, section);
+								if (elem is FileTagCategoryItem catItem && catItem.Category?.Uid is string uid && expandedStates.TryGetValue(uid, out var wasExpanded))
+								{
+									catItem.IsExpanded = wasExpanded;
+								}
+							}
+						}
+						else
+						{
+							foreach (INavigationControlItem elem in getElements())
+							{
+								await AddElementToSectionAsync(elem, section);
+							}
+							foreach (INavigationControlItem elem in childItems.ToList())
+							{
+								if (!getElements().Any(x => x.Path == elem.Path))
+								{
+									if (elem is ExpandableSidebarItemBase expandable)
+										expandable.StopWatchingSubfoldersAndDescendants();
+									childItems.Remove(elem);
+								}
 							}
 						}
 
@@ -506,6 +527,10 @@ namespace Files.App.ViewModels.UserControls
 						await drive.LoadThumbnailAsync();
 					}
 				}
+			}
+			else if (elem is FileTagCategoryItem categoryItem)
+			{
+				childItems.Insert(index < 0 ? childItems.Count : Math.Min(index, childItems.Count), elem);
 			}
 			else
 			{
