@@ -1,6 +1,7 @@
 // Copyright (c) Files Community
 // Licensed under the MIT License.
 
+using System.Diagnostics.CodeAnalysis;
 using Microsoft.Extensions.Logging;
 using Windows.Storage;
 
@@ -9,8 +10,20 @@ namespace Files.App.Server;
 internal sealed class SettingsStore
 {
 	private static readonly SettingsStore user = new("user_settings.json");
-	private static readonly SettingsStore tags = new("filetags.json");
-	private static readonly SettingsStore categories = new("filetags_categories.json");
+	private static SettingsStore? tagsField;
+	private static bool tagsInitialized;
+	private static SettingsStore? categoriesField;
+	private static bool categoriesInitialized;
+	private static readonly object tagsGate = new();
+	private static readonly object categoriesGate = new();
+	private static SettingsStore Tags
+	{
+		get => LazyHelper.EnsureInitialized(ref tagsField, () => new("filetags.json"), tagsGate, ref tagsInitialized);
+	}
+	private static SettingsStore Categories
+	{
+		get => LazyHelper.EnsureInitialized(ref categoriesField, () => new("filetags_categories.json"), categoriesGate, ref categoriesInitialized);
+	}
 	private readonly object gate = new();
 	private readonly string fileName;
 	private readonly string path;
@@ -27,13 +40,18 @@ internal sealed class SettingsStore
 	private long persistedVersion;
 	private long writeFailures;
 
+	/// <summary>
+	/// When set, filetags.json and filetags_categories.json are read/written from this directory instead of LocalFolder/settings/.
+	/// </summary>
+	internal static string? SharedTagsDirectory { get; set; }
+
 	// Null Data removes a key; a JSON null remains a stored value.
 	private readonly record struct SettingChange(long Version, JsonElement? Data);
 
 	private SettingsStore(string fileName)
 	{
 		this.fileName = fileName;
-		var directory = Path.Combine(ApplicationData.Current.LocalFolder.Path, "settings");
+		var directory = GetDirectory(fileName);
 		Directory.CreateDirectory(directory);
 		path = Path.Combine(directory, fileName);
 		watcher = new FileSystemWatcher(directory, fileName)
@@ -48,11 +66,22 @@ internal sealed class SettingsStore
 		watcher.EnableRaisingEvents = true;
 	}
 
+	private static string GetDirectory(string name)
+	{
+		if (SharedTagsDirectory is { } sharedDir && (name == "filetags.json" || name == "filetags_categories.json"))
+		{
+			Directory.CreateDirectory(sharedDir);
+			return sharedDir;
+		}
+
+		return Path.Combine(ApplicationData.Current.LocalFolder.Path, "settings");
+	}
+
 	internal static SettingsStore Get(string name) => name switch
 	{
 		"user_settings.json" => user,
-		"filetags.json" => tags,
-		"filetags_categories.json" => categories,
+		"filetags.json" => Tags,
+		"filetags_categories.json" => Categories,
 		_ => throw new ArgumentException("Unknown settings store.", nameof(name)),
 	};
 
@@ -115,8 +144,8 @@ internal sealed class SettingsStore
 	internal static void Stop()
 	{
 		user.watcher.Dispose();
-		tags.watcher.Dispose();
-		categories.watcher.Dispose();
+		Tags.watcher.Dispose();
+		Categories.watcher.Dispose();
 		if (!FlushAll())
 			Program.Logger.LogError("Could not flush all settings before server shutdown.");
 	}
@@ -124,9 +153,18 @@ internal sealed class SettingsStore
 	internal static bool FlushAll()
 	{
 		var userFlushed = user.Flush();
-		var tagsFlushed = tags.Flush();
-		var categoriesFlushed = categories.Flush();
+		var tagsFlushed = Tags.Flush();
+		var categoriesFlushed = Categories.Flush();
 		return userFlushed && tagsFlushed && categoriesFlushed;
+	}
+
+	internal string? ReadString(string key)
+	{
+		lock (gate)
+		{
+			var data = Read();
+			return data.TryGetValue(key, out var elem) && elem.ValueKind == JsonValueKind.String ? elem.GetString() : null;
+		}
 	}
 
 	internal SettingsValue[] ReadValues()
@@ -295,5 +333,25 @@ internal sealed class SettingsStore
 			if (File.Exists(temporary))
 				File.Delete(temporary);
 		}
+	}
+}
+
+internal static class LazyHelper
+{
+	public static T EnsureInitialized<T>(ref T? field, Func<T> factory, object gate, ref bool initialized) where T : class
+	{
+		if (!initialized)
+		{
+			lock (gate)
+			{
+				if (!initialized)
+				{
+					field = factory();
+					initialized = true;
+				}
+			}
+		}
+
+		return field!;
 	}
 }

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,43 +118,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NewWindow" xml:space="preserve">
-    <value>Նոր պատուհան</value>
+    <value>Õ†Õ¸Ö€ ÕºÕ¡Õ¿Õ¸Ö‚Õ°Õ¡Õ¶</value>
   </data>
   <data name="CopyPath" xml:space="preserve">
-    <value>Պատճենել ուղին</value>
+    <value>ÕŠÕ¡Õ¿Õ³Õ¥Õ¶Õ¥Õ¬ Õ¸Ö‚Õ²Õ«Õ¶</value>
   </data>
   <data name="CopyItemPath" xml:space="preserve">
     <value>Copy item path</value>
   </data>
   <data name="CopyPathWithQuotes" xml:space="preserve">
-    <value>Պատճենել ուղին չակերտներով</value>
+    <value>ÕŠÕ¡Õ¿Õ³Õ¥Õ¶Õ¥Õ¬ Õ¸Ö‚Õ²Õ«Õ¶ Õ¹Õ¡Õ¯Õ¥Ö€Õ¿Õ¶Õ¥Ö€Õ¸Õ¾</value>
   </data>
   <data name="CopyItemPathWithQuotes" xml:space="preserve">
     <value>Copy selected item path with quotes</value>
   </data>
   <data name="Browse" xml:space="preserve">
-    <value>Զննել</value>
+    <value>Ô¶Õ¶Õ¶Õ¥Õ¬</value>
   </data>
   <data name="Size" xml:space="preserve">
-    <value>Չափ</value>
+    <value>Õ‰Õ¡Öƒ</value>
   </data>
   <data name="PropertiesCreated.Text" xml:space="preserve">
-    <value>Ստեղծված է.</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¾Õ¡Õ® Õ§.</value>
   </data>
   <data name="Path" xml:space="preserve">
-    <value>Ուղի</value>
+    <value>ÕˆÖ‚Õ²Õ«</value>
   </data>
   <data name="SizeLabel" xml:space="preserve">
-    <value>Չափ.</value>
+    <value>Õ‰Õ¡Öƒ.</value>
   </data>
   <data name="SizeOnDiskLabel" xml:space="preserve">
-    <value>Չափը սկառավարակում.</value>
+    <value>Õ‰Õ¡ÖƒÕ¨ Õ½Õ¯Õ¡Õ¼Õ¡Õ¾Õ¡Ö€Õ¡Õ¯Õ¸Ö‚Õ´.</value>
   </data>
   <data name="UncompressedSize" xml:space="preserve">
-    <value>Չսեղմվածի չափ․</value>
+    <value>Õ‰Õ½Õ¥Õ²Õ´Õ¾Õ¡Õ®Õ« Õ¹Õ¡Öƒâ€¤</value>
   </data>
   <data name="ErrorDialogThisActionCannotBeDone" xml:space="preserve">
-    <value>Այս գործողությունը չի կարող ավարտվել</value>
+    <value>Ô±ÕµÕ½ Õ£Õ¸Ö€Õ®Õ¸Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨ Õ¹Õ« Õ¯Õ¡Ö€Õ¸Õ² Õ¡Õ¾Õ¡Ö€Õ¿Õ¾Õ¥Õ¬</value>
   </data>
   <data name="ErrorDialogTheDestinationFolder" xml:space="preserve">
     <value>The destination folder</value>
@@ -163,22 +163,22 @@
     <value>is a subfolder of the source folder</value>
   </data>
   <data name="Skip" xml:space="preserve">
-    <value>Բաց թողնել</value>
+    <value>Ô²Õ¡Ö Õ©Õ¸Õ²Õ¶Õ¥Õ¬</value>
   </data>
   <data name="SelectAll" xml:space="preserve">
     <value>Select all</value>
   </data>
   <data name="InvertSelection" xml:space="preserve">
-    <value>Շրջել ընտրությունը</value>
+    <value>Õ‡Ö€Õ»Õ¥Õ¬ Õ¨Õ¶Õ¿Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="ClearSelection" xml:space="preserve">
-    <value>Մաքրել ընտրությունը</value>
+    <value>Õ„Õ¡Ö„Ö€Õ¥Õ¬ Õ¨Õ¶Õ¿Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="PropertiesModified.Text" xml:space="preserve">
-    <value>Փոփոխված.</value>
+    <value>Õ“Õ¸ÖƒÕ¸Õ­Õ¾Õ¡Õ®.</value>
   </data>
   <data name="Accessed" xml:space="preserve">
-    <value>Մուտք գործած.</value>
+    <value>Õ„Õ¸Ö‚Õ¿Ö„ Õ£Õ¸Ö€Õ®Õ¡Õ®.</value>
   </data>
   <data name="RecentItemClearAllText" xml:space="preserve">
     <value>Clear all items</value>
@@ -187,7 +187,7 @@
     <value>Enter a path to navigate to or type "&gt;" to open the command palette</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Որոնել</value>
+    <value>ÕˆÖ€Õ¸Õ¶Õ¥Õ¬</value>
   </data>
   <data name="SearchSettings" xml:space="preserve">
     <value>Search settings...</value>
@@ -196,46 +196,46 @@
     <value>No settings match your search.</value>
   </data>
   <data name="RecentItemDescription.Text" xml:space="preserve">
-    <value>Նիշքերը, որոնց նախկինում մուտք եք գործել, կցուցադրվեն այստեղ</value>
+    <value>Õ†Õ«Õ·Ö„Õ¥Ö€Õ¨, Õ¸Ö€Õ¸Õ¶Ö Õ¶Õ¡Õ­Õ¯Õ«Õ¶Õ¸Ö‚Õ´ Õ´Õ¸Ö‚Õ¿Ö„ Õ¥Ö„ Õ£Õ¸Ö€Õ®Õ¥Õ¬, Õ¯ÖÕ¸Ö‚ÖÕ¡Õ¤Ö€Õ¾Õ¥Õ¶ Õ¡ÕµÕ½Õ¿Õ¥Õ²</value>
   </data>
   <data name="RecentItemRemoveText" xml:space="preserve">
     <value>Remove this item</value>
   </data>
   <data name="OpenGitHubRepo" xml:space="preserve">
-    <value>GitHub պահեստ</value>
+    <value>GitHub ÕºÕ¡Õ°Õ¥Õ½Õ¿</value>
   </data>
   <data name="About" xml:space="preserve">
-    <value>Մասին</value>
+    <value>Õ„Õ¡Õ½Õ«Õ¶</value>
   </data>
   <data name="OpenSource" xml:space="preserve">
-    <value>Բաց աղբյուրներ</value>
+    <value>Ô²Õ¡Ö Õ¡Õ²Õ¢ÕµÕ¸Ö‚Ö€Õ¶Õ¥Ö€</value>
   </data>
   <data name="DateFormat" xml:space="preserve">
-    <value>Ամսաթվի ձեւաչափ</value>
+    <value>Ô±Õ´Õ½Õ¡Õ©Õ¾Õ« Õ±Õ¥Ö‚Õ¡Õ¹Õ¡Öƒ</value>
   </data>
   <data name="SettingsAppearanceTheme" xml:space="preserve">
-    <value>Ոճ</value>
+    <value>ÕˆÕ³</value>
   </data>
   <data name="Font" xml:space="preserve">
     <value>Font</value>
   </data>
   <data name="SettingsFilesAndFoldersShowFileExtensions" xml:space="preserve">
-    <value>Ցույց տալ ընդլայնումները հայտնի նիշքերի տեսակների համար</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¨Õ¶Õ¤Õ¬Õ¡ÕµÕ¶Õ¸Ö‚Õ´Õ¶Õ¥Ö€Õ¨ Õ°Õ¡ÕµÕ¿Õ¶Õ« Õ¶Õ«Õ·Ö„Õ¥Ö€Õ« Õ¿Õ¥Õ½Õ¡Õ¯Õ¶Õ¥Ö€Õ« Õ°Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="SettingsFilesAndFoldersShowHiddenItems" xml:space="preserve">
-    <value>Ցույց տալ թաքնված նիշքերը եւ պանակները</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ©Õ¡Ö„Õ¶Õ¾Õ¡Õ® Õ¶Õ«Õ·Ö„Õ¥Ö€Õ¨ Õ¥Ö‚ ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="ShowDotFiles" xml:space="preserve">
     <value>Show dot files</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>Տեսք</value>
+    <value>ÕÕ¥Õ½Ö„</value>
   </data>
   <data name="BackgroundColor" xml:space="preserve">
-    <value>Խորքի գույն</value>
+    <value>Ô½Õ¸Ö€Ö„Õ« Õ£Õ¸Ö‚ÕµÕ¶</value>
   </data>
   <data name="Advanced" xml:space="preserve">
-    <value>Ընդլայնված</value>
+    <value>Ô¸Õ¶Õ¤Õ¬Õ¡ÕµÕ¶Õ¾Õ¡Õ®</value>
   </data>
   <data name="CacheThumbnails" xml:space="preserve">
     <value>Cache thumbnails</value>
@@ -256,85 +256,85 @@
     <value>Clear cache</value>
   </data>
   <data name="SettingsOnStartupContinueWhereYouLeftOff.Content" xml:space="preserve">
-    <value>Շարունակել այնտեղ, որտեղ լքել եք</value>
+    <value>Õ‡Õ¡Ö€Õ¸Ö‚Õ¶Õ¡Õ¯Õ¥Õ¬ Õ¡ÕµÕ¶Õ¿Õ¥Õ², Õ¸Ö€Õ¿Õ¥Õ² Õ¬Ö„Õ¥Õ¬ Õ¥Ö„</value>
   </data>
   <data name="SettingsOnStartupOpenANewTab.Content" xml:space="preserve">
-    <value>Բացել նոր ներդիր</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¶Õ¸Ö€ Õ¶Õ¥Ö€Õ¤Õ«Ö€</value>
   </data>
   <data name="SettingsOnStartupOpenASpecificPage.Content" xml:space="preserve">
-    <value>Բացեք որոշակի էջ կամ էջեր</value>
+    <value>Ô²Õ¡ÖÕ¥Ö„ Õ¸Ö€Õ¸Õ·Õ¡Õ¯Õ« Õ§Õ» Õ¯Õ¡Õ´ Õ§Õ»Õ¥Ö€</value>
   </data>
   <data name="Desktop" xml:space="preserve">
-    <value>Սեղան</value>
+    <value>ÕÕ¥Õ²Õ¡Õ¶</value>
   </data>
   <data name="Documents" xml:space="preserve">
-    <value>Փաստաթղթեր</value>
+    <value>Õ“Õ¡Õ½Õ¿Õ¡Õ©Õ²Õ©Õ¥Ö€</value>
   </data>
   <data name="Downloads" xml:space="preserve">
-    <value>Ներբեռնումներ</value>
+    <value>Õ†Õ¥Ö€Õ¢Õ¥Õ¼Õ¶Õ¸Ö‚Õ´Õ¶Õ¥Ö€</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Անուն</value>
+    <value>Ô±Õ¶Õ¸Ö‚Õ¶</value>
   </data>
   <data name="Ascending" xml:space="preserve">
-    <value>Աճման կարգով</value>
+    <value>Ô±Õ³Õ´Õ¡Õ¶ Õ¯Õ¡Ö€Õ£Õ¸Õ¾</value>
   </data>
   <data name="Paste" xml:space="preserve">
-    <value>Կպցնել</value>
+    <value>Ô¿ÕºÖÕ¶Õ¥Õ¬</value>
   </data>
   <data name="PasteShortcut" xml:space="preserve">
-    <value>Կպցնել կարճատը</value>
+    <value>Ô¿ÕºÖÕ¶Õ¥Õ¬ Õ¯Õ¡Ö€Õ³Õ¡Õ¿Õ¨</value>
   </data>
   <data name="BaseLayoutContextFlyoutNew.Label" xml:space="preserve">
-    <value>Նոր</value>
+    <value>Õ†Õ¸Ö€</value>
   </data>
   <data name="Properties" xml:space="preserve">
-    <value>Հատկություններ</value>
+    <value>Õ€Õ¡Õ¿Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="Open" xml:space="preserve">
-    <value>Բացել</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬</value>
   </data>
   <data name="OpenInNewTab" xml:space="preserve">
-    <value>Բացել նոր ներդիրում</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¶Õ¸Ö€ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¸Ö‚Õ´</value>
   </data>
   <data name="OpenInNewWindow" xml:space="preserve">
-    <value>Բացել նոր պատուհան</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¶Õ¸Ö€ ÕºÕ¡Õ¿Õ¸Ö‚Õ°Õ¡Õ¶</value>
   </data>
   <data name="Share" xml:space="preserve">
-    <value>Կիսվել</value>
+    <value>Ô¿Õ«Õ½Õ¾Õ¥Õ¬</value>
   </data>
   <data name="Cut" xml:space="preserve">
-    <value>Կտրել</value>
+    <value>Ô¿Õ¿Ö€Õ¥Õ¬</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Ջնջել</value>
+    <value>Õ‹Õ¶Õ»Õ¥Õ¬</value>
   </data>
   <data name="PinFolderToSidebar" xml:space="preserve">
-    <value>Մեխել Կողագոտուն</value>
+    <value>Õ„Õ¥Õ­Õ¥Õ¬ Ô¿Õ¸Õ²Õ¡Õ£Õ¸Õ¿Õ¸Ö‚Õ¶</value>
   </data>
   <data name="WelcomeDialogTitle" xml:space="preserve">
     <value>Welcome to Files!</value>
   </data>
   <data name="WelcomeDialog.PrimaryButtonText" xml:space="preserve">
-    <value>Շնորհել թույլտվություն</value>
+    <value>Õ‡Õ¶Õ¸Ö€Õ°Õ¥Õ¬ Õ©Õ¸Ö‚ÕµÕ¬Õ¿Õ¾Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="WelcomeDialogTextBlockText" xml:space="preserve">
     <value>To get started, you'll need to grant us permission to display your files. This will open a Settings page where you can grant us this permission. You'll need to reopen the app once you've completed this step. </value>
   </data>
   <data name="Display" xml:space="preserve">
-    <value>Ցուցադրիչ</value>
+    <value>Õ‘Õ¸Ö‚ÖÕ¡Õ¤Ö€Õ«Õ¹</value>
   </data>
   <data name="EnterAnItemName" xml:space="preserve">
-    <value>Գրեք տարրի անունը</value>
+    <value>Ô³Ö€Õ¥Ö„ Õ¿Õ¡Ö€Ö€Õ« Õ¡Õ¶Õ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="CreateNewItemTitle" xml:space="preserve">
-    <value>Ստեղծել նոր {0}</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¶Õ¸Ö€ {0}</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>Լուսավոր</value>
+    <value>Ô¼Õ¸Ö‚Õ½Õ¡Õ¾Õ¸Ö€</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>Մութ</value>
+    <value>Õ„Õ¸Ö‚Õ©</value>
   </data>
   <data name="DefaultTheme" xml:space="preserve">
     <value>System Theme</value>
@@ -349,31 +349,31 @@
     <value>Use system setting</value>
   </data>
   <data name="Application" xml:space="preserve">
-    <value>Հավելված</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¾Õ¡Õ®</value>
   </data>
   <data name="SystemTimeStyle" xml:space="preserve">
-    <value>Համակարգ</value>
+    <value>Õ€Õ¡Õ´Õ¡Õ¯Õ¡Ö€Õ£</value>
   </data>
   <data name="NewFolder" xml:space="preserve">
-    <value>Նոր նիշք</value>
+    <value>Õ†Õ¸Ö€ Õ¶Õ«Õ·Ö„</value>
   </data>
   <data name="NewFile" xml:space="preserve">
-    <value>Նոր նիշք</value>
+    <value>Õ†Õ¸Ö€ Õ¶Õ«Õ·Ö„</value>
   </data>
   <data name="EmptyFolder.Text" xml:space="preserve">
-    <value>Այս պանակը դատարկ է</value>
+    <value>Ô±ÕµÕ½ ÕºÕ¡Õ¶Õ¡Õ¯Õ¨ Õ¤Õ¡Õ¿Õ¡Ö€Õ¯ Õ§</value>
   </data>
   <data name="Back" xml:space="preserve">
-    <value>Հետ</value>
+    <value>Õ€Õ¥Õ¿</value>
   </data>
   <data name="Forward" xml:space="preserve">
-    <value>Առաջ</value>
+    <value>Ô±Õ¼Õ¡Õ»</value>
   </data>
   <data name="Up" xml:space="preserve">
-    <value>Վերեւ</value>
+    <value>ÕŽÕ¥Ö€Õ¥Ö‚</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Թարմացնել</value>
+    <value>Ô¹Õ¡Ö€Õ´Õ¡ÖÕ¶Õ¥Õ¬</value>
   </data>
   <data name="ItemAlreadyExistsDialogContent" xml:space="preserve">
     <value>An item with this name already exists in this directory.</value>
@@ -385,10 +385,10 @@
     <value>Item already exists</value>
   </data>
   <data name="SetAsLockscreen" xml:space="preserve">
-    <value>Կայել որպես կողպէկրանի սեղանի խորք</value>
+    <value>Ô¿Õ¡ÕµÕ¥Õ¬ Õ¸Ö€ÕºÕ¥Õ½ Õ¯Õ¸Õ²ÕºÕ§Õ¯Ö€Õ¡Õ¶Õ« Õ½Õ¥Õ²Õ¡Õ¶Õ« Õ­Õ¸Ö€Ö„</value>
   </data>
   <data name="SetAsAppBackground" xml:space="preserve">
-    <value>Կայել որպես հավելվածի խորք</value>
+    <value>Ô¿Õ¡ÕµÕ¥Õ¬ Õ¸Ö€ÕºÕ¥Õ½ Õ°Õ¡Õ¾Õ¥Õ¬Õ¾Õ¡Õ®Õ« Õ­Õ¸Ö€Ö„</value>
   </data>
   <data name="AccessDeniedDeleteDialogText" xml:space="preserve">
     <value>We weren't able to delete this item</value>
@@ -433,186 +433,186 @@
     <value>To find a version for your PC, check with the software publisher.</value>
   </data>
   <data name="Layout" xml:space="preserve">
-    <value>Դիրք</value>
+    <value>Ô´Õ«Ö€Ö„</value>
   </data>
   <data name="PropertiesDialogReadOnly.Text" xml:space="preserve">
-    <value>Կարդալ-միայն</value>
+    <value>Ô¿Õ¡Ö€Õ¤Õ¡Õ¬-Õ´Õ«Õ¡ÕµÕ¶</value>
   </data>
   <data name="DaysAgo" xml:space="preserve">
-    <value>{0, plural, one {# օր առաջ} other {# օր առաջ}}</value>
+    <value>{0, plural, one {# Ö…Ö€ Õ¡Õ¼Õ¡Õ»} other {# Ö…Ö€ Õ¡Õ¼Õ¡Õ»}}</value>
   </data>
   <data name="DaysAgo_Singular" xml:space="preserve">
-    <value>1 օր առաջ</value>
+    <value>1 Ö…Ö€ Õ¡Õ¼Õ¡Õ»</value>
   </data>
   <data name="DaysAgo_Plural" xml:space="preserve">
-    <value>{0} օր առաջ</value>
+    <value>{0} Ö…Ö€ Õ¡Õ¼Õ¡Õ»</value>
   </data>
   <data name="HoursAgo" xml:space="preserve">
-    <value>{0, plural, one {# ժամ առաջ} other {# ժամ առաջ}}</value>
+    <value>{0, plural, one {# ÕªÕ¡Õ´ Õ¡Õ¼Õ¡Õ»} other {# ÕªÕ¡Õ´ Õ¡Õ¼Õ¡Õ»}}</value>
   </data>
   <data name="HoursAgo_Singular" xml:space="preserve">
-    <value>1 ժամ առաջ</value>
+    <value>1 ÕªÕ¡Õ´ Õ¡Õ¼Õ¡Õ»</value>
   </data>
   <data name="HoursAgo_Plural" xml:space="preserve">
-    <value>{0} ժամ առաջ</value>
+    <value>{0} ÕªÕ¡Õ´ Õ¡Õ¼Õ¡Õ»</value>
   </data>
   <data name="MinutesAgo" xml:space="preserve">
-    <value>{0, plural, one {# րոպե առաջ} other {# րոպե առաջ}}</value>
+    <value>{0, plural, one {# Ö€Õ¸ÕºÕ¥ Õ¡Õ¼Õ¡Õ»} other {# Ö€Õ¸ÕºÕ¥ Õ¡Õ¼Õ¡Õ»}}</value>
   </data>
   <data name="MinutesAgo_Singular" xml:space="preserve">
-    <value>1 րոպե առաջ</value>
+    <value>1 Ö€Õ¸ÕºÕ¥ Õ¡Õ¼Õ¡Õ»</value>
   </data>
   <data name="MinutesAgo_Plural" xml:space="preserve">
-    <value>{0} րոպե առաջ</value>
+    <value>{0} Ö€Õ¸ÕºÕ¥ Õ¡Õ¼Õ¡Õ»</value>
   </data>
   <data name="SecondsAgo" xml:space="preserve">
-    <value>{0, plural, one {# վարկյան առաջ} other {# վարկյան առաջ}}</value>
+    <value>{0, plural, one {# Õ¾Õ¡Ö€Õ¯ÕµÕ¡Õ¶ Õ¡Õ¼Õ¡Õ»} other {# Õ¾Õ¡Ö€Õ¯ÕµÕ¡Õ¶ Õ¡Õ¼Õ¡Õ»}}</value>
   </data>
   <data name="SecondsAgo_Singular" xml:space="preserve">
-    <value>1 վարկյան առաջ</value>
+    <value>1 Õ¾Õ¡Ö€Õ¯ÕµÕ¡Õ¶ Õ¡Õ¼Õ¡Õ»</value>
   </data>
   <data name="SecondsAgo_Plural" xml:space="preserve">
-    <value>{0} վարկյան առաջ</value>
+    <value>{0} Õ¾Õ¡Ö€Õ¯ÕµÕ¡Õ¶ Õ¡Õ¼Õ¡Õ»</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>Հիմա</value>
+    <value>Õ€Õ«Õ´Õ¡</value>
   </data>
   <data name="ErrorDialogUnsupportedOperation" xml:space="preserve">
     <value>The requested operation is not supported</value>
   </data>
   <data name="DriveFreeSpaceAndCapacity" xml:space="preserve">
-    <value>{1}-ից ազատ է {0}</value>
+    <value>{1}-Õ«Ö Õ¡Õ¦Õ¡Õ¿ Õ§ {0}</value>
   </data>
   <data name="SendTo" xml:space="preserve">
-    <value>Ուղարկել դեպի</value>
+    <value>ÕˆÖ‚Õ²Õ¡Ö€Õ¯Õ¥Õ¬ Õ¤Õ¥ÕºÕ«</value>
   </data>
   <data name="FileNameTeachingTip.Subtitle" xml:space="preserve">
-    <value>Տարրի անունը չպետք է պարունակի հետեւյալ նիշերը. \ / : * ? « &lt; &gt; |</value>
+    <value>ÕÕ¡Ö€Ö€Õ« Õ¡Õ¶Õ¸Ö‚Õ¶Õ¨ Õ¹ÕºÕ¥Õ¿Ö„ Õ§ ÕºÕ¡Ö€Õ¸Ö‚Õ¶Õ¡Õ¯Õ« Õ°Õ¥Õ¿Õ¥Ö‚ÕµÕ¡Õ¬ Õ¶Õ«Õ·Õ¥Ö€Õ¨. \ / : * ? Â« &lt; &gt; |</value>
   </data>
   <data name="InvalidFilename.Text" xml:space="preserve">
     <value>The item name specified is invalid</value>
   </data>
   <data name="SelectedItems" xml:space="preserve">
-    <value>{0, plural, one {# ընտրված տարր} other {# ընտրված տարր}}</value>
+    <value>{0, plural, one {# Õ¨Õ¶Õ¿Ö€Õ¾Õ¡Õ® Õ¿Õ¡Ö€Ö€} other {# Õ¨Õ¶Õ¿Ö€Õ¾Õ¡Õ® Õ¿Õ¡Ö€Ö€}}</value>
     <comment>ICU format for plurals, more information here: https://support.crowdin.com/icu-message-syntax/#plural</comment>
   </data>
   <data name="Items" xml:space="preserve">
-    <value>{0, plural, one {տարր} other {տարր}}</value>
+    <value>{0, plural, one {Õ¿Õ¡Ö€Ö€} other {Õ¿Õ¡Ö€Ö€}}</value>
     <comment>ICU format for plurals, more information here: https://support.crowdin.com/icu-message-syntax/#plural</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Այո</value>
+    <value>Ô±ÕµÕ¸</value>
   </data>
   <data name="ConfirmEmptyBinDialogContent" xml:space="preserve">
-    <value>Իսկապե՞ս ուզում եք ընդմիշտ ջնջել բոլոր այս տարրերը</value>
+    <value>Ô»Õ½Õ¯Õ¡ÕºÕ¥ÕžÕ½ Õ¸Ö‚Õ¦Õ¸Ö‚Õ´ Õ¥Ö„ Õ¨Õ¶Õ¤Õ´Õ«Õ·Õ¿ Õ»Õ¶Õ»Õ¥Õ¬ Õ¢Õ¸Õ¬Õ¸Ö€ Õ¡ÕµÕ½ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨</value>
   </data>
   <data name="ConfirmEmptyBinDialogTitle" xml:space="preserve">
-    <value>Դատարկել աղբարկղը</value>
+    <value>Ô´Õ¡Õ¿Õ¡Ö€Õ¯Õ¥Õ¬ Õ¡Õ²Õ¢Õ¡Ö€Õ¯Õ²Õ¨</value>
   </data>
   <data name="ItemSizeBytes" xml:space="preserve">
-    <value>բայթ</value>
+    <value>Õ¢Õ¡ÕµÕ©</value>
   </data>
   <data name="KiloByteSymbol" xml:space="preserve">
-    <value>ԿԲ</value>
+    <value>Ô¿Ô²</value>
   </data>
   <data name="MegaByteSymbol" xml:space="preserve">
-    <value>ՄԲ</value>
+    <value>Õ„Ô²</value>
   </data>
   <data name="GigaByteSymbol" xml:space="preserve">
-    <value>ԳԲ</value>
+    <value>Ô³Ô²</value>
   </data>
   <data name="TeraByteSymbol" xml:space="preserve">
-    <value>ՏԲ</value>
+    <value>ÕÔ²</value>
   </data>
   <data name="PetaByteSymbol" xml:space="preserve">
-    <value>ՊԲ</value>
+    <value>ÕŠÔ²</value>
   </data>
   <data name="ByteSymbol" xml:space="preserve">
-    <value>Բ</value>
+    <value>Ô²</value>
   </data>
   <data name="PropertiesFilesAndFoldersCountString" xml:space="preserve">
-    <value>{0, number} {0, plural, one {նիշք} other {նիշք}}, {1, number} {1, plural, one {պանակ} other {պանակ}}</value>
+    <value>{0, number} {0, plural, one {Õ¶Õ«Õ·Ö„} other {Õ¶Õ«Õ·Ö„}}, {1, number} {1, plural, one {ÕºÕ¡Õ¶Õ¡Õ¯} other {ÕºÕ¡Õ¶Õ¡Õ¯}}</value>
   </data>
   <data name="PropertiesFilesAndFoldersAndLocationsCount" xml:space="preserve">
-    <value>{0, number} {0, plural, one {նիշք} other {նիշք}}, {1, number} {1, plural, one {պանակը} other {պանակը}} {2, number} {2, plural, one {տեղադրությունից} other {տեղադրությունից}}</value>
+    <value>{0, number} {0, plural, one {Õ¶Õ«Õ·Ö„} other {Õ¶Õ«Õ·Ö„}}, {1, number} {1, plural, one {ÕºÕ¡Õ¶Õ¡Õ¯Õ¨} other {ÕºÕ¡Õ¶Õ¡Õ¯Õ¨}} {2, number} {2, plural, one {Õ¿Õ¥Õ²Õ¡Õ¤Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ«Ö} other {Õ¿Õ¥Õ²Õ¡Õ¤Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ«Ö}}</value>
   </data>
   <data name="BaseLayoutContextFlyoutRunAsAnotherUserText" xml:space="preserve">
     <value>Run as another user</value>
   </data>
   <data name="PropertiesDriveItemTypesEquals" xml:space="preserve">
-    <value>{0}-ի բոլոր տեսակները</value>
+    <value>{0}-Õ« Õ¢Õ¸Õ¬Õ¸Ö€ Õ¿Õ¥Õ½Õ¡Õ¯Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="PropertiesDriveItemTypeDifferent" xml:space="preserve">
-    <value>Տարբեր տեսակներ</value>
+    <value>ÕÕ¡Ö€Õ¢Õ¥Ö€ Õ¿Õ¥Õ½Õ¡Õ¯Õ¶Õ¥Ö€</value>
   </data>
   <data name="PropertiesCombinedItemLocation" xml:space="preserve">
-    <value>Բոլորը {0}-ում</value>
+    <value>Ô²Õ¸Õ¬Õ¸Ö€Õ¨ {0}-Õ¸Ö‚Õ´</value>
   </data>
   <data name="PropertiesDriveUsedSpace.Text" xml:space="preserve">
-    <value>Օգտագորված տարածք.</value>
+    <value>Õ•Õ£Õ¿Õ¡Õ£Õ¸Ö€Õ¾Õ¡Õ® Õ¿Õ¡Ö€Õ¡Õ®Ö„.</value>
   </data>
   <data name="PropertiesDriveFreeSpace.Text" xml:space="preserve">
-    <value>Ազատ տարածք.</value>
+    <value>Ô±Õ¦Õ¡Õ¿ Õ¿Õ¡Ö€Õ¡Õ®Ö„.</value>
   </data>
   <data name="PropertiesDriveCapacity.Text" xml:space="preserve">
-    <value>Տարողություն.</value>
+    <value>ÕÕ¡Ö€Õ¸Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶.</value>
   </data>
   <data name="PropertiesDriveFileSystem.Text" xml:space="preserve">
-    <value>Նիշքային համակարգ</value>
+    <value>Õ†Õ«Õ·Ö„Õ¡ÕµÕ«Õ¶ Õ°Õ¡Õ´Õ¡Õ¯Õ¡Ö€Õ£</value>
   </data>
   <data name="JumpListRecentGroupHeader" xml:space="preserve">
-    <value>Վերջիններ</value>
+    <value>ÕŽÕ¥Ö€Õ»Õ«Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="TabStripDragAndDropUIOverrideCaption" xml:space="preserve">
-    <value>Տեղափոխել ներդիրը այստեղ</value>
+    <value>ÕÕ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¥Õ¬ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¨ Õ¡ÕµÕ½Õ¿Õ¥Õ²</value>
   </data>
   <data name="Status" xml:space="preserve">
-    <value>Վիճակ</value>
+    <value>ÕŽÕ«Õ³Õ¡Õ¯</value>
   </data>
   <data name="NavigationToolbarVisiblePathNoResults" xml:space="preserve">
-    <value>Ոչ մի արդյունք</value>
+    <value>ÕˆÕ¹ Õ´Õ« Õ¡Ö€Õ¤ÕµÕ¸Ö‚Õ¶Ö„</value>
   </data>
   <data name="SubDirectoryAccessDenied" xml:space="preserve">
     <value>Can't access any items to display</value>
   </data>
   <data name="MoveToFolderCaptionText" xml:space="preserve">
-    <value>Տեղափոխել դեպի {0}</value>
+    <value>ÕÕ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¥Õ¬ Õ¤Õ¥ÕºÕ« {0}</value>
   </data>
   <data name="CopyToFolderCaptionText" xml:space="preserve">
-    <value>Պատճենել դեպի {0}</value>
+    <value>ÕŠÕ¡Õ¿Õ³Õ¥Õ¶Õ¥Õ¬ Õ¤Õ¥ÕºÕ« {0}</value>
   </data>
   <data name="CloneToFolderCaptionText" xml:space="preserve">
     <value>Clone to {0}</value>
   </data>
   <data name="CreateShortcut" xml:space="preserve">
-    <value>Ստեղծել կարճատ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¯Õ¡Ö€Õ³Õ¡Õ¿</value>
   </data>
   <data name="OpenFileLocation" xml:space="preserve">
-    <value>Բացել նիշքի տեղադրությունը</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¶Õ«Õ·Ö„Õ« Õ¿Õ¥Õ²Õ¡Õ¤Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="PropertiesShortcutItemArgs.Text" xml:space="preserve">
-    <value>Արգումենտներ․</value>
+    <value>Ô±Ö€Õ£Õ¸Ö‚Õ´Õ¥Õ¶Õ¿Õ¶Õ¥Ö€â€¤</value>
   </data>
   <data name="PropertiesShortcutItemPath.Text" xml:space="preserve">
-    <value>Նպատակակետ․</value>
+    <value>Õ†ÕºÕ¡Õ¿Õ¡Õ¯Õ¡Õ¯Õ¥Õ¿â€¤</value>
   </data>
   <data name="PropertiesShortcutItemType.Text" xml:space="preserve">
-    <value>Կարճատի տեսակ.</value>
+    <value>Ô¿Õ¡Ö€Õ³Õ¡Õ¿Õ« Õ¿Õ¥Õ½Õ¡Õ¯.</value>
   </data>
   <data name="PropertiesShortcutTypeLink" xml:space="preserve">
-    <value>Վեպ հղում</value>
+    <value>ÕŽÕ¥Õº Õ°Õ²Õ¸Ö‚Õ´</value>
   </data>
   <data name="General" xml:space="preserve">
-    <value>Ընդհանուր</value>
+    <value>Ô¸Õ¶Õ¤Õ°Õ¡Õ¶Õ¸Ö‚Ö€</value>
   </data>
   <data name="Shortcut" xml:space="preserve">
-    <value>Կարճատ</value>
+    <value>Ô¿Õ¡Ö€Õ³Õ¡Õ¿</value>
   </data>
   <data name="ShortcutWebLinkFileType" xml:space="preserve">
-    <value>Համացանցի կարճատ</value>
+    <value>Õ€Õ¡Õ´Õ¡ÖÕ¡Õ¶ÖÕ« Õ¯Õ¡Ö€Õ³Õ¡Õ¿</value>
   </data>
   <data name="ShortcutCreateNewSuffix" xml:space="preserve">
-    <value>{0} - կարճատ</value>
+    <value>{0} - Õ¯Õ¡Ö€Õ³Õ¡Õ¿</value>
   </data>
   <data name="ExceptionNotificationBody" xml:space="preserve">
     <value>Files ran into a problem that the developers didn't prepare for yet.</value>
@@ -621,16 +621,16 @@
     <value>Something went wrong!</value>
   </data>
   <data name="ExceptionNotificationReportButton" xml:space="preserve">
-    <value>Զեկուցել այս խնդիրը</value>
+    <value>Ô¶Õ¥Õ¯Õ¸Ö‚ÖÕ¥Õ¬ Õ¡ÕµÕ½ Õ­Õ¶Õ¤Õ«Ö€Õ¨</value>
   </data>
   <data name="InvalidItemDialogContent" xml:space="preserve">
-    <value>Հղված տարրը կամ անվավեր է կամ անհասանելի:{0}Սխալի ուղերձ.{0}{1}</value>
+    <value>Õ€Õ²Õ¾Õ¡Õ® Õ¿Õ¡Ö€Ö€Õ¨ Õ¯Õ¡Õ´ Õ¡Õ¶Õ¾Õ¡Õ¾Õ¥Ö€ Õ§ Õ¯Õ¡Õ´ Õ¡Õ¶Õ°Õ¡Õ½Õ¡Õ¶Õ¥Õ¬Õ«:{0}ÕÕ­Õ¡Õ¬Õ« Õ¸Ö‚Õ²Õ¥Ö€Õ±.{0}{1}</value>
   </data>
   <data name="InvalidItemDialogTitle" xml:space="preserve">
-    <value>Անվավեր տարր</value>
+    <value>Ô±Õ¶Õ¾Õ¡Õ¾Õ¥Ö€ Õ¿Õ¡Ö€Ö€</value>
   </data>
   <data name="SettingsAboutVersionTitle" xml:space="preserve">
-    <value>Վարկած.</value>
+    <value>ÕŽÕ¡Ö€Õ¯Õ¡Õ®.</value>
   </data>
   <data name="ShareDialogFailMessage" xml:space="preserve">
     <value>There's nothing to share right now...</value>
@@ -642,10 +642,10 @@
     <value>The selected item will be shared</value>
   </data>
   <data name="ShareDialogTitle" xml:space="preserve">
-    <value>Կիսվել «{0}»-ով</value>
+    <value>Ô¿Õ«Õ½Õ¾Õ¥Õ¬ Â«{0}Â»-Õ¸Õ¾</value>
   </data>
   <data name="ShareDialogTitleMultipleItems" xml:space="preserve">
-    <value>Կիսում {0} {1}</value>
+    <value>Ô¿Õ«Õ½Õ¸Ö‚Õ´ {0} {1}</value>
   </data>
   <data name="RenameErrorItemDeletedText" xml:space="preserve">
     <value>The item you're attempting to rename no longer exists. Please verify the correct location of the item you need to rename.</value>
@@ -666,61 +666,61 @@
     <value>Item name was too long</value>
   </data>
   <data name="ShowMoreOptions" xml:space="preserve">
-    <value>Ցույց տալ ավել ընտրանքներ</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¡Õ¾Õ¥Õ¬ Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ¶Õ¥Ö€</value>
   </data>
   <data name="RestartNotificationText.Text" xml:space="preserve">
-    <value>Այս կայանքները կիրառելու համար հավելվածը պետք է վերագործարկվի, կցանկանա՞ք։</value>
+    <value>Ô±ÕµÕ½ Õ¯Õ¡ÕµÕ¡Õ¶Ö„Õ¶Õ¥Ö€Õ¨ Õ¯Õ«Ö€Õ¡Õ¼Õ¥Õ¬Õ¸Ö‚ Õ°Õ¡Õ´Õ¡Ö€ Õ°Õ¡Õ¾Õ¥Õ¬Õ¾Õ¡Õ®Õ¨ ÕºÕ¥Õ¿Ö„ Õ§ Õ¾Õ¥Ö€Õ¡Õ£Õ¸Ö€Õ®Õ¡Ö€Õ¯Õ¾Õ«, Õ¯ÖÕ¡Õ¶Õ¯Õ¡Õ¶Õ¡ÕžÖ„Ö‰</value>
   </data>
   <data name="SponsorUsOnGitHub" xml:space="preserve">
-    <value>Հովանվորեք մեզ GitHub-ում</value>
+    <value>Õ€Õ¸Õ¾Õ¡Õ¶Õ¾Õ¸Ö€Õ¥Ö„ Õ´Õ¥Õ¦ GitHub-Õ¸Ö‚Õ´</value>
   </data>
   <data name="AccessDeniedCreateDialogText" xml:space="preserve">
     <value>We weren't able to create this item</value>
   </data>
   <data name="AccessDenied" xml:space="preserve">
-    <value>Մուտքը մերժված է</value>
+    <value>Õ„Õ¸Ö‚Õ¿Ö„Õ¨ Õ´Õ¥Ö€ÕªÕ¾Õ¡Õ® Õ§</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutSetAsText" xml:space="preserve">
     <value>Set as</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>Չեղարկել</value>
+    <value>Õ‰Õ¥Õ²Õ¡Ö€Õ¯Õ¥Õ¬</value>
   </data>
   <data name="AddDialog.Title" xml:space="preserve">
-    <value>Ստեղծել նոր տարր</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¶Õ¸Ö€ Õ¿Õ¡Ö€Ö€</value>
   </data>
   <data name="AddDialogDescription.Text" xml:space="preserve">
-    <value>Նշել տեսակ այս նոր տարրի համար ստորեւ</value>
+    <value>Õ†Õ·Õ¥Õ¬ Õ¿Õ¥Õ½Õ¡Õ¯ Õ¡ÕµÕ½ Õ¶Õ¸Ö€ Õ¿Õ¡Ö€Ö€Õ« Õ°Õ¡Õ´Õ¡Ö€ Õ½Õ¿Õ¸Ö€Õ¥Ö‚</value>
   </data>
   <data name="File" xml:space="preserve">
-    <value>Նիշք</value>
+    <value>Õ†Õ«Õ·Ö„</value>
   </data>
   <data name="Files" xml:space="preserve">
     <value>Files</value>
   </data>
   <data name="AddDialogListFileSubHeader" xml:space="preserve">
-    <value>Ստեղծել դատարկ նիշք</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¤Õ¡Õ¿Õ¡Ö€Õ¯ Õ¶Õ«Õ·Ö„</value>
   </data>
   <data name="Folder" xml:space="preserve">
-    <value>Պանակ</value>
+    <value>ÕŠÕ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="Folders" xml:space="preserve">
     <value>Folders</value>
   </data>
   <data name="AddDialogListFolderSubHeader" xml:space="preserve">
-    <value>Ստեղծել դատարկ պանակ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¤Õ¡Õ¿Õ¡Ö€Õ¯ ÕºÕ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="NavResfreshButton.AutomationProperties.Name" xml:space="preserve">
     <value>Refresh the directory</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>Լեզու</value>
+    <value>Ô¼Õ¥Õ¦Õ¸Ö‚</value>
   </data>
   <data name="SettingsContextMenuOverflow" xml:space="preserve">
-    <value>Կեղեւի ընդլայնումները տեղափոխել ենթացանկ</value>
+    <value>Ô¿Õ¥Õ²Õ¥Ö‚Õ« Õ¨Õ¶Õ¤Õ¬Õ¡ÕµÕ¶Õ¸Ö‚Õ´Õ¶Õ¥Ö€Õ¨ Õ¿Õ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¥Õ¬ Õ¥Õ¶Õ©Õ¡ÖÕ¡Õ¶Õ¯</value>
   </data>
   <data name="ShowConfirmationWhenDeletingItems" xml:space="preserve">
-    <value>Ցույցադրել ջնջման հաստատման երկխոսությունը տարրը ջնջելիս</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖÕ¡Õ¤Ö€Õ¥Õ¬ Õ»Õ¶Õ»Õ´Õ¡Õ¶ Õ°Õ¡Õ½Õ¿Õ¡Õ¿Õ´Õ¡Õ¶ Õ¥Ö€Õ¯Õ­Õ¸Õ½Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨ Õ¿Õ¡Ö€Ö€Õ¨ Õ»Õ¶Õ»Õ¥Õ¬Õ«Õ½</value>
   </data>
   <data name="PropertySaveErrorMessageText" xml:space="preserve">
     <value>There was an issue saving some properties.</value>
@@ -729,43 +729,43 @@
     <value>Error</value>
   </data>
   <data name="PropertySaveErrorDialog.SecondaryButtonText" xml:space="preserve">
-    <value>Փայկել այնուհանդերձ</value>
+    <value>Õ“Õ¡ÕµÕ¯Õ¥Õ¬ Õ¡ÕµÕ¶Õ¸Ö‚Õ°Õ¡Õ¶Õ¤Õ¥Ö€Õ±</value>
   </data>
   <data name="PropertyRatingText" xml:space="preserve">
-    <value>Գնահատում</value>
+    <value>Ô³Õ¶Õ¡Õ°Õ¡Õ¿Õ¸Ö‚Õ´</value>
   </data>
   <data name="PropertyParsingPath" xml:space="preserve">
-    <value>Տարրի Ուղին</value>
+    <value>ÕÕ¡Ö€Ö€Õ« ÕˆÖ‚Õ²Õ«Õ¶</value>
   </data>
   <data name="PropertyItemTypeText" xml:space="preserve">
-    <value>Տարրի Տեսակ</value>
+    <value>ÕÕ¡Ö€Ö€Õ« ÕÕ¥Õ½Õ¡Õ¯</value>
   </data>
   <data name="PropertyTitle" xml:space="preserve">
-    <value>Վերնագիր</value>
+    <value>ÕŽÕ¥Ö€Õ¶Õ¡Õ£Õ«Ö€</value>
   </data>
   <data name="PropertySubject" xml:space="preserve">
-    <value>Առարկա</value>
+    <value>Ô±Õ¼Õ¡Ö€Õ¯Õ¡</value>
   </data>
   <data name="PropertyComment" xml:space="preserve">
-    <value>Մեկնաբանություն</value>
+    <value>Õ„Õ¥Õ¯Õ¶Õ¡Õ¢Õ¡Õ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertyCopyright" xml:space="preserve">
-    <value>Պատճենաշնորհ</value>
+    <value>ÕŠÕ¡Õ¿Õ³Õ¥Õ¶Õ¡Õ·Õ¶Õ¸Ö€Õ°</value>
   </data>
   <data name="PropertyDateModified" xml:space="preserve">
-    <value>Փոփոխման Ամսաթիվ</value>
+    <value>Õ“Õ¸ÖƒÕ¸Õ­Õ´Õ¡Õ¶ Ô±Õ´Õ½Õ¡Õ©Õ«Õ¾</value>
   </data>
   <data name="PropertyBitDepth" xml:space="preserve">
-    <value>Բիթային խորություն</value>
+    <value>Ô²Õ«Õ©Õ¡ÕµÕ«Õ¶ Õ­Õ¸Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertyDimensions" xml:space="preserve">
-    <value>Չափսերը</value>
+    <value>Õ‰Õ¡ÖƒÕ½Õ¥Ö€Õ¨</value>
   </data>
   <data name="PropertyHorizontalSize" xml:space="preserve">
-    <value>Հորիզոնական չափսը</value>
+    <value>Õ€Õ¸Ö€Õ«Õ¦Õ¸Õ¶Õ¡Õ¯Õ¡Õ¶ Õ¹Õ¡ÖƒÕ½Õ¨</value>
   </data>
   <data name="PropertyVerticalSize" xml:space="preserve">
-    <value>Ուղղաձիգ Չափ</value>
+    <value>ÕˆÖ‚Õ²Õ²Õ¡Õ±Õ«Õ£ Õ‰Õ¡Öƒ</value>
   </data>
   <data name="PropertyHorizontalResolution" xml:space="preserve">
     <value>Horizontal Resolution</value>
@@ -774,118 +774,118 @@
     <value>Vertical Resolution</value>
   </data>
   <data name="PropertyColorSpace" xml:space="preserve">
-    <value>Գունային Տարածություն</value>
+    <value>Ô³Õ¸Ö‚Õ¶Õ¡ÕµÕ«Õ¶ ÕÕ¡Ö€Õ¡Õ®Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertyColorSpace_Value0" xml:space="preserve">
     <value>sRGB</value>
   </data>
   <data name="PropertyColorSpace_Value65535" xml:space="preserve">
-    <value>Նշված չէ</value>
+    <value>Õ†Õ·Õ¾Õ¡Õ® Õ¹Õ§</value>
   </data>
   <data name="PropertyLongitudeDecimal" xml:space="preserve">
-    <value>Տասական երկայնություն</value>
+    <value>ÕÕ¡Õ½Õ¡Õ¯Õ¡Õ¶ Õ¥Ö€Õ¯Õ¡ÕµÕ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertyLatitudeDecimal" xml:space="preserve">
-    <value>Տասնորդական լայնություն</value>
+    <value>ÕÕ¡Õ½Õ¶Õ¸Ö€Õ¤Õ¡Õ¯Õ¡Õ¶ Õ¬Õ¡ÕµÕ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertyAltitude" xml:space="preserve">
-    <value>Բարձրություն</value>
+    <value>Ô²Õ¡Ö€Õ±Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertyDateTaken" xml:space="preserve">
-    <value>Նկարահանման ամսաթիվը</value>
+    <value>Õ†Õ¯Õ¡Ö€Õ¡Õ°Õ¡Õ¶Õ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ«Õ¾Õ¨</value>
   </data>
   <data name="PropertyCameraManufacturer" xml:space="preserve">
     <value>Camera Manufacturer</value>
   </data>
   <data name="PropertyCameraModel" xml:space="preserve">
-    <value>Խցիկի մակնիշը</value>
+    <value>Ô½ÖÕ«Õ¯Õ« Õ´Õ¡Õ¯Õ¶Õ«Õ·Õ¨</value>
   </data>
   <data name="PropertyExposureTime" xml:space="preserve">
-    <value>Լուսարկման ժամանակը</value>
+    <value>Ô¼Õ¸Ö‚Õ½Õ¡Ö€Õ¯Õ´Õ¡Õ¶ ÕªÕ¡Õ´Õ¡Õ¶Õ¡Õ¯Õ¨</value>
   </data>
   <data name="PropertyFocalLength" xml:space="preserve">
-    <value>Կիզակետային Հեռավորություն</value>
+    <value>Ô¿Õ«Õ¦Õ¡Õ¯Õ¥Õ¿Õ¡ÕµÕ«Õ¶ Õ€Õ¥Õ¼Õ¡Õ¾Õ¸Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertyAperture" xml:space="preserve">
-    <value>Բացվածք</value>
+    <value>Ô²Õ¡ÖÕ¾Õ¡Õ®Ö„</value>
   </data>
   <data name="PropertyPeopleNames" xml:space="preserve">
-    <value>Մարդկանց Անուններ</value>
+    <value>Õ„Õ¡Ö€Õ¤Õ¯Õ¡Õ¶Ö Ô±Õ¶Õ¸Ö‚Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="PropertyChannelCount" xml:space="preserve">
-    <value>Ալիքի քանակ</value>
+    <value>Ô±Õ¬Õ«Ö„Õ« Ö„Õ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="PropertyFormat" xml:space="preserve">
-    <value>Ձեւաչափ</value>
+    <value>ÕÕ¥Ö‚Õ¡Õ¹Õ¡Öƒ</value>
   </data>
   <data name="PropertySampleRate" xml:space="preserve">
-    <value>Նմուշառման հաճախականությունը</value>
+    <value>Õ†Õ´Õ¸Ö‚Õ·Õ¡Õ¼Õ´Õ¡Õ¶ Õ°Õ¡Õ³Õ¡Õ­Õ¡Õ¯Õ¡Õ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="PropertyAlbumArtist" xml:space="preserve">
-    <value>Ալբոմի Կատարողներ</value>
+    <value>Ô±Õ¬Õ¢Õ¸Õ´Õ« Ô¿Õ¡Õ¿Õ¡Ö€Õ¸Õ²Õ¶Õ¥Ö€</value>
   </data>
   <data name="PropertyAlbumTitle" xml:space="preserve">
-    <value>Ալբոմի Վերնագիր</value>
+    <value>Ô±Õ¬Õ¢Õ¸Õ´Õ« ÕŽÕ¥Ö€Õ¶Õ¡Õ£Õ«Ö€</value>
   </data>
   <data name="Artist" xml:space="preserve">
-    <value>Արվեստող</value>
+    <value>Ô±Ö€Õ¾Õ¥Õ½Õ¿Õ¸Õ²</value>
   </data>
   <data name="PropertyBeatsPerMinute" xml:space="preserve">
-    <value>Հարված՝ րոպեում</value>
+    <value>Õ€Õ¡Ö€Õ¾Õ¡Õ®Õ Ö€Õ¸ÕºÕ¥Õ¸Ö‚Õ´</value>
   </data>
   <data name="PropertyComposer" xml:space="preserve">
-    <value>Կազմող</value>
+    <value>Ô¿Õ¡Õ¦Õ´Õ¸Õ²</value>
   </data>
   <data name="Conductor" xml:space="preserve">
-    <value>Խմբավար</value>
+    <value>Ô½Õ´Õ¢Õ¡Õ¾Õ¡Ö€</value>
   </data>
   <data name="PropertyDiscNumber" xml:space="preserve">
-    <value>Սկավառակի համար</value>
+    <value>ÕÕ¯Õ¡Õ¾Õ¡Õ¼Õ¡Õ¯Õ« Õ°Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="PropertyGenre" xml:space="preserve">
-    <value>Ոճ</value>
+    <value>ÕˆÕ³</value>
   </data>
   <data name="PropertyTrackNumber" xml:space="preserve">
-    <value>Հեւագծման համար</value>
+    <value>Õ€Õ¥Ö‚Õ¡Õ£Õ®Õ´Õ¡Õ¶ Õ°Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="PropertyDuration" xml:space="preserve">
-    <value>Տեւողություն</value>
+    <value>ÕÕ¥Ö‚Õ¸Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertyFrameCount" xml:space="preserve">
-    <value>Կադրերի քանակը</value>
+    <value>Ô¿Õ¡Õ¤Ö€Õ¥Ö€Õ« Ö„Õ¡Õ¶Õ¡Õ¯Õ¨</value>
   </data>
   <data name="PropertyProtectionType" xml:space="preserve">
-    <value>Պաշտպանության տեսակը</value>
+    <value>ÕŠÕ¡Õ·Õ¿ÕºÕ¡Õ¶Õ¸Ö‚Õ©ÕµÕ¡Õ¶ Õ¿Õ¥Õ½Õ¡Õ¯Õ¨</value>
   </data>
   <data name="PropertyAuthorUrl" xml:space="preserve">
-    <value>Հեղինակի Url</value>
+    <value>Õ€Õ¥Õ²Õ«Õ¶Õ¡Õ¯Õ« Url</value>
   </data>
   <data name="PropertyContentDistributor" xml:space="preserve">
     <value>Content Distributor</value>
   </data>
   <data name="PropertyDateReleased" xml:space="preserve">
-    <value>Թողարկման Ամսաթիվ</value>
+    <value>Ô¹Õ¸Õ²Õ¡Ö€Õ¯Õ´Õ¡Õ¶ Ô±Õ´Õ½Õ¡Õ©Õ«Õ¾</value>
   </data>
   <data name="PropertySeriesName" xml:space="preserve">
-    <value>Շարքի անունը</value>
+    <value>Õ‡Õ¡Ö€Ö„Õ« Õ¡Õ¶Õ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="PropertySeasonNumber" xml:space="preserve">
-    <value>Փուլի Համար</value>
+    <value>Õ“Õ¸Ö‚Õ¬Õ« Õ€Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="PropertyEpisodeNumber" xml:space="preserve">
-    <value>Դրվագի Համար</value>
+    <value>Ô´Ö€Õ¾Õ¡Õ£Õ« Õ€Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="PropertyProducer" xml:space="preserve">
-    <value>Արտադրող</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ¤Ö€Õ¸Õ²</value>
   </data>
   <data name="PropertyPromotionUrl" xml:space="preserve">
-    <value>Գովարշավի Url</value>
+    <value>Ô³Õ¸Õ¾Õ¡Ö€Õ·Õ¡Õ¾Õ« Url</value>
   </data>
   <data name="PropertyProviderStyle" xml:space="preserve">
-    <value>Տրամադրողի Ոճ</value>
+    <value>ÕÖ€Õ¡Õ´Õ¡Õ¤Ö€Õ¸Õ²Õ« ÕˆÕ³</value>
   </data>
   <data name="PropertyPublisher" xml:space="preserve">
-    <value>Հրապարակող</value>
+    <value>Õ€Ö€Õ¡ÕºÕ¡Ö€Õ¡Õ¯Õ¸Õ²</value>
   </data>
   <data name="PropertyThumbnailLargePath" xml:space="preserve">
     <value>Thumbnail Large Path</value>
@@ -900,124 +900,124 @@
     <value>Thumbnail Small Uri</value>
   </data>
   <data name="PropertyUserWebUrl" xml:space="preserve">
-    <value>Օգտագործել Վեպ URL</value>
+    <value>Õ•Õ£Õ¿Õ¡Õ£Õ¸Ö€Õ®Õ¥Õ¬ ÕŽÕ¥Õº URL</value>
   </data>
   <data name="PropertyWriter" xml:space="preserve">
-    <value>Գրող</value>
+    <value>Ô³Ö€Õ¸Õ²</value>
   </data>
   <data name="PropertyYear" xml:space="preserve">
-    <value>Տարի</value>
+    <value>ÕÕ¡Ö€Õ«</value>
   </data>
   <data name="PropertyContributor" xml:space="preserve">
-    <value>Մասնակից</value>
+    <value>Õ„Õ¡Õ½Õ¶Õ¡Õ¯Õ«Ö</value>
   </data>
   <data name="PropertyLastAuthor" xml:space="preserve">
-    <value>Նախորդ Հեղինակ</value>
+    <value>Õ†Õ¡Õ­Õ¸Ö€Õ¤ Õ€Õ¥Õ²Õ«Õ¶Õ¡Õ¯</value>
   </data>
   <data name="PropertyRevisionNumber" xml:space="preserve">
-    <value>Վերանայման համարը</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ¶Õ¡ÕµÕ´Õ¡Õ¶ Õ°Õ¡Õ´Õ¡Ö€Õ¨</value>
   </data>
   <data name="PropertyVersion" xml:space="preserve">
-    <value>Վարկած</value>
+    <value>ÕŽÕ¡Ö€Õ¯Õ¡Õ®</value>
   </data>
   <data name="PropertyDateCreated" xml:space="preserve">
-    <value>Ստեղծման Ամսաթիվ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ´Õ¡Õ¶ Ô±Õ´Õ½Õ¡Õ©Õ«Õ¾</value>
   </data>
   <data name="PropertyTotalEditingTime" xml:space="preserve">
     <value>Total Editing Time</value>
   </data>
   <data name="PropertyTemplate" xml:space="preserve">
-    <value>Ձեւանմուշ</value>
+    <value>ÕÕ¥Ö‚Õ¡Õ¶Õ´Õ¸Ö‚Õ·</value>
   </data>
   <data name="PropertyWordCount" xml:space="preserve">
-    <value>Բառերի Քանակ</value>
+    <value>Ô²Õ¡Õ¼Õ¥Ö€Õ« Õ”Õ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="PropertyCharacterCount" xml:space="preserve">
-    <value>Նիշի Քանակը</value>
+    <value>Õ†Õ«Õ·Õ« Õ”Õ¡Õ¶Õ¡Õ¯Õ¨</value>
   </data>
   <data name="PropertyLineCount" xml:space="preserve">
-    <value>Տողերի Քանակ</value>
+    <value>ÕÕ¸Õ²Õ¥Ö€Õ« Õ”Õ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="PropertyParagraphCount" xml:space="preserve">
-    <value>Պարբերության Քանակ</value>
+    <value>ÕŠÕ¡Ö€Õ¢Õ¥Ö€Õ¸Ö‚Õ©ÕµÕ¡Õ¶ Õ”Õ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="PropertyPageCount" xml:space="preserve">
-    <value>Էջերի Քանակ</value>
+    <value>Ô·Õ»Õ¥Ö€Õ« Õ”Õ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="PropertySlideCount" xml:space="preserve">
-    <value>Սահիկների Քանակ</value>
+    <value>ÕÕ¡Õ°Õ«Õ¯Õ¶Õ¥Ö€Õ« Õ”Õ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="PropertyFrameRate" xml:space="preserve">
-    <value>Կադրերի Հաճախականություն</value>
+    <value>Ô¿Õ¡Õ¤Ö€Õ¥Ö€Õ« Õ€Õ¡Õ³Õ¡Õ­Õ¡Õ¯Õ¡Õ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertyEncodingBitrate" xml:space="preserve">
-    <value>Կոդավորման բիթայնությունը</value>
+    <value>Ô¿Õ¸Õ¤Õ¡Õ¾Õ¸Ö€Õ´Õ¡Õ¶ Õ¢Õ«Õ©Õ¡ÕµÕ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="PropertyPreviewAudioEncodingBitrate" xml:space="preserve">
-    <value>Ձայնանյութի կոդավորման բիթայնությունը</value>
+    <value>ÕÕ¡ÕµÕ¶Õ¡Õ¶ÕµÕ¸Ö‚Õ©Õ« Õ¯Õ¸Õ¤Õ¡Õ¾Õ¸Ö€Õ´Õ¡Õ¶ Õ¢Õ«Õ©Õ¡ÕµÕ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="PropertyPreviewVideoEncodingBitrate" xml:space="preserve">
-    <value>Տեսանյութի կոդավորման բիթայնությունը</value>
+    <value>ÕÕ¥Õ½Õ¡Õ¶ÕµÕ¸Ö‚Õ©Õ« Õ¯Õ¸Õ¤Õ¡Õ¾Õ¸Ö€Õ´Õ¡Õ¶ Õ¢Õ«Õ©Õ¡ÕµÕ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="Compression" xml:space="preserve">
-    <value>Սեղմում</value>
+    <value>ÕÕ¥Õ²Õ´Õ¸Ö‚Õ´</value>
   </data>
   <data name="PropertyFrameWidth" xml:space="preserve">
-    <value>Կադրի լայնությունը</value>
+    <value>Ô¿Õ¡Õ¤Ö€Õ« Õ¬Õ¡ÕµÕ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="PropertyFrameHeight" xml:space="preserve">
-    <value>Կադրի Բարձրություն</value>
+    <value>Ô¿Õ¡Õ¤Ö€Õ« Ô²Õ¡Ö€Õ±Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertyOrientation" xml:space="preserve">
-    <value>Կողմնորոշում</value>
+    <value>Ô¿Õ¸Õ²Õ´Õ¶Õ¸Ö€Õ¸Õ·Õ¸Ö‚Õ´</value>
   </data>
   <data name="PropertySectionCore" xml:space="preserve">
-    <value>Միջուկ</value>
+    <value>Õ„Õ«Õ»Õ¸Ö‚Õ¯</value>
   </data>
   <data name="PropertySectionImage" xml:space="preserve">
-    <value>Պատկեր</value>
+    <value>ÕŠÕ¡Õ¿Õ¯Õ¥Ö€</value>
   </data>
   <data name="PropertySectionPhoto" xml:space="preserve">
-    <value>Լուսո</value>
+    <value>Ô¼Õ¸Ö‚Õ½Õ¸</value>
   </data>
   <data name="PropertySectionGPS" xml:space="preserve">
     <value>GPS</value>
   </data>
   <data name="PropertySectionMedia" xml:space="preserve">
-    <value>Մեդիա</value>
+    <value>Õ„Õ¥Õ¤Õ«Õ¡</value>
   </data>
   <data name="PropertySectionAudio" xml:space="preserve">
-    <value>Ձայնո</value>
+    <value>ÕÕ¡ÕµÕ¶Õ¸</value>
   </data>
   <data name="PropertySectionMusic" xml:space="preserve">
-    <value>Երաժշտություն</value>
+    <value>ÔµÖ€Õ¡ÕªÕ·Õ¿Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertySectionVideo" xml:space="preserve">
-    <value>Տեսո</value>
+    <value>ÕÕ¥Õ½Õ¸</value>
   </data>
   <data name="Document" xml:space="preserve">
-    <value>Փաստաթուղթ</value>
+    <value>Õ“Õ¡Õ½Õ¿Õ¡Õ©Õ¸Ö‚Õ²Õ©</value>
   </data>
   <data name="Address" xml:space="preserve">
-    <value>Հասցե</value>
+    <value>Õ€Õ¡Õ½ÖÕ¥</value>
   </data>
   <data name="SelectionOptions" xml:space="preserve">
-    <value>Ընտրության ընտրանքներ</value>
+    <value>Ô¸Õ¶Õ¿Ö€Õ¸Ö‚Õ©ÕµÕ¡Õ¶ Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ¶Õ¥Ö€</value>
   </data>
   <data name="NavToolbarSelectionOptions.Label" xml:space="preserve">
-    <value>Նշել</value>
+    <value>Õ†Õ·Õ¥Õ¬</value>
   </data>
   <data name="RecycleBinItemAutomation" xml:space="preserve">
-    <value>Աղբաման</value>
+    <value>Ô±Õ²Õ¢Õ¡Õ´Õ¡Õ¶</value>
   </data>
   <data name="ShortcutItemAutomation" xml:space="preserve">
-    <value>Կարճատ տարր</value>
+    <value>Ô¿Õ¡Ö€Õ³Õ¡Õ¿ Õ¿Õ¡Ö€Ö€</value>
   </data>
   <data name="Drives" xml:space="preserve">
-    <value>Հիշասարքեր</value>
+    <value>Õ€Õ«Õ·Õ¡Õ½Õ¡Ö€Ö„Õ¥Ö€</value>
   </data>
   <data name="PinToSidebarByDraggingCaptionText" xml:space="preserve">
-    <value>Տեղափոխել այստեղ</value>
+    <value>ÕÕ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¥Õ¬ Õ¡ÕµÕ½Õ¿Õ¥Õ²</value>
   </data>
   <data name="EjectNotificationHeader" xml:space="preserve">
     <value>Safe to remove hardware</value>
@@ -1032,16 +1032,16 @@
     <value>This device is currently in use. Close any programs, windows or tabs that might be using the device, and then try again.</value>
   </data>
   <data name="Eject" xml:space="preserve">
-    <value>Հանել</value>
+    <value>Õ€Õ¡Õ¶Õ¥Õ¬</value>
   </data>
   <data name="DuplicateTab" xml:space="preserve">
-    <value>Կրկնօրինակել ներդիրը</value>
+    <value>Ô¿Ö€Õ¯Õ¶Ö…Ö€Õ«Õ¶Õ¡Õ¯Õ¥Õ¬ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¨</value>
   </data>
   <data name="HorizontalMultitaskingControlMoveTabToNewWindow.Text" xml:space="preserve">
-    <value>Տեղափոխել ներդիրը նոր պատուհան</value>
+    <value>ÕÕ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¥Õ¬ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¨ Õ¶Õ¸Ö€ ÕºÕ¡Õ¿Õ¸Ö‚Õ°Õ¡Õ¶</value>
   </data>
   <data name="NewTab" xml:space="preserve">
-    <value>Նոր ներդիր</value>
+    <value>Õ†Õ¸Ö€ Õ¶Õ¥Ö€Õ¤Õ«Ö€</value>
   </data>
   <data name="ClearPropertiesFlyoutText.Text" xml:space="preserve">
     <value>Some properties may contain personal information.</value>
@@ -1053,7 +1053,7 @@
     <value>Check the status of file operations here</value>
   </data>
   <data name="OngoingTasksTeachingTip.Title" xml:space="preserve">
-    <value>Վիճակի կենտոն</value>
+    <value>ÕŽÕ«Õ³Õ¡Õ¯Õ« Õ¯Õ¥Õ¶Õ¿Õ¸Õ¶</value>
   </data>
   <data name="SearchPagePathBoxOverrideText" xml:space="preserve">
     <value>Search results in {1} for {0}</value>
@@ -1062,52 +1062,52 @@
     <value>Search results for `{0}`</value>
   </data>
   <data name="Details" xml:space="preserve">
-    <value>Մանրամասներ</value>
+    <value>Õ„Õ¡Õ¶Ö€Õ¡Õ´Õ¡Õ½Õ¶Õ¥Ö€</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>Ոչ</value>
+    <value>ÕˆÕ¹</value>
   </data>
   <data name="ShowProtectedSystemFiles" xml:space="preserve">
-    <value>Ցույց տալ պաշտպանված համակարգի նիշքերը</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ ÕºÕ¡Õ·Õ¿ÕºÕ¡Õ¶Õ¾Õ¡Õ® Õ°Õ¡Õ´Õ¡Õ¯Õ¡Ö€Õ£Õ« Õ¶Õ«Õ·Ö„Õ¥Ö€Õ¨</value>
   </data>
   <data name="SyncFolderPreferencesAcrossDirectories" xml:space="preserve">
-    <value>Համաժամել դիրքը եւ դասավորելու հատկություններ գրացուցակների միջեւ</value>
+    <value>Õ€Õ¡Õ´Õ¡ÕªÕ¡Õ´Õ¥Õ¬ Õ¤Õ«Ö€Ö„Õ¨ Õ¥Ö‚ Õ¤Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬Õ¸Ö‚ Õ°Õ¡Õ¿Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€ Õ£Ö€Õ¡ÖÕ¸Ö‚ÖÕ¡Õ¯Õ¶Õ¥Ö€Õ« Õ´Õ«Õ»Õ¥Ö‚</value>
   </data>
   <data name="SettingsContextMenu.Text" xml:space="preserve">
-    <value>Անհատականացրեք աջ կտտացման համաշարի ընտրացանկ</value>
+    <value>Ô±Õ¶Õ°Õ¡Õ¿Õ¡Õ¯Õ¡Õ¶Õ¡ÖÖ€Õ¥Ö„ Õ¡Õ» Õ¯Õ¿Õ¿Õ¡ÖÕ´Õ¡Õ¶ Õ°Õ¡Õ´Õ¡Õ·Õ¡Ö€Õ« Õ¨Õ¶Õ¿Ö€Õ¡ÖÕ¡Õ¶Õ¯</value>
   </data>
   <data name="OriginalPath" xml:space="preserve">
-    <value>Բնօրինակ ուղի</value>
+    <value>Ô²Õ¶Ö…Ö€Õ«Õ¶Õ¡Õ¯ Õ¸Ö‚Õ²Õ«</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>Հավելել</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¥Õ¬</value>
   </data>
   <data name="Edit" xml:space="preserve">
-    <value>Խմբագրել</value>
+    <value>Ô½Õ´Õ¢Õ¡Õ£Ö€Õ¥Õ¬</value>
   </data>
   <data name="Remove" xml:space="preserve">
-    <value>Հեռացնել</value>
+    <value>Õ€Õ¥Õ¼Õ¡ÖÕ¶Õ¥Õ¬</value>
   </data>
   <data name="SettingsMultitaskingAlwaysOpenDualPane" xml:space="preserve">
-    <value>Բացել ներդիրները երկակի փեղկի կերպում</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¶Õ¥Ö€Õ¨ Õ¥Ö€Õ¯Õ¡Õ¯Õ« ÖƒÕ¥Õ²Õ¯Õ« Õ¯Õ¥Ö€ÕºÕ¸Ö‚Õ´</value>
   </data>
   <data name="ShowOpenInNewPane" xml:space="preserve">
-    <value>Ցույց տալ ընտրանք՝ պանակները նոր փեղկում բացելու համար</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ¨ Õ¶Õ¸Ö€ ÖƒÕ¥Õ²Õ¯Õ¸Ö‚Õ´ Õ¢Õ¡ÖÕ¥Õ¬Õ¸Ö‚ Õ°Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="ShowCopyPath" xml:space="preserve">
-    <value>Ցույց տալ ուղին պատճենելու ընտրանքը</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¸Ö‚Õ²Õ«Õ¶ ÕºÕ¡Õ¿Õ³Õ¥Õ¶Õ¥Õ¬Õ¸Ö‚ Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ¨</value>
   </data>
   <data name="ShowCreateFolderWithSelection" xml:space="preserve">
-    <value>Ցույց տալ ընտրանք, ստեղծելու համար պանակ՝ ընտրվածով</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„, Õ½Õ¿Õ¥Õ²Õ®Õ¥Õ¬Õ¸Ö‚ Õ°Õ¡Õ´Õ¡Ö€ ÕºÕ¡Õ¶Õ¡Õ¯Õ Õ¨Õ¶Õ¿Ö€Õ¾Õ¡Õ®Õ¸Õ¾</value>
   </data>
   <data name="ShowCreateShortcut" xml:space="preserve">
-    <value>Ցույց տալ ընտրանք՝ ստեղծելու կարճատ</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ Õ½Õ¿Õ¥Õ²Õ®Õ¥Õ¬Õ¸Ö‚ Õ¯Õ¡Ö€Õ³Õ¡Õ¿</value>
   </data>
   <data name="NavigationToolbarNewPane.Label" xml:space="preserve">
-    <value>Նոր փեղկ</value>
+    <value>Õ†Õ¸Ö€ ÖƒÕ¥Õ²Õ¯</value>
   </data>
   <data name="OpenInNewPane" xml:space="preserve">
-    <value>Բացել նոր փեղկում</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¶Õ¸Ö€ ÖƒÕ¥Õ²Õ¯Õ¸Ö‚Õ´</value>
   </data>
   <data name="OpenInOtherPane" xml:space="preserve">
     <value>Open in other pane</value>
@@ -1116,34 +1116,34 @@
     <value>Open current folder in other pane</value>
   </data>
   <data name="FilesAndFolders" xml:space="preserve">
-    <value>Նիշքեր և Պանակներ</value>
+    <value>Õ†Õ«Õ·Ö„Õ¥Ö€ Ö‡ ÕŠÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€</value>
   </data>
   <data name="NavToolbarDetails.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Մանրամասներ (Ctrl+Shift+1)</value>
+    <value>Õ„Õ¡Õ¶Ö€Õ¡Õ´Õ¡Õ½Õ¶Õ¥Ö€ (Ctrl+Shift+1)</value>
   </data>
   <data name="DateDeleted" xml:space="preserve">
-    <value>Ամսաթիվը ջնջված է</value>
+    <value>Ô±Õ´Õ½Õ¡Õ©Õ«Õ¾Õ¨ Õ»Õ¶Õ»Õ¾Õ¡Õ® Õ§</value>
   </data>
   <data name="SidebarCloudDrives" xml:space="preserve">
-    <value>Ամպային Հիշասարքեր</value>
+    <value>Ô±Õ´ÕºÕ¡ÕµÕ«Õ¶ Õ€Õ«Õ·Õ¡Õ½Õ¡Ö€Ö„Õ¥Ö€</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>Հաստատել</value>
+    <value>Õ€Õ¡Õ½Õ¿Õ¡Õ¿Õ¥Õ¬</value>
   </data>
   <data name="DesiredName" xml:space="preserve">
-    <value>Ցանկալի անուն</value>
+    <value>Õ‘Õ¡Õ¶Õ¯Õ¡Õ¬Õ« Õ¡Õ¶Õ¸Ö‚Õ¶</value>
   </data>
   <data name="TogglePreviewPane" xml:space="preserve">
-    <value>Փոխարկել նախադիտման փեղկը</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ¶Õ¡Õ­Õ¡Õ¤Õ«Õ¿Õ´Õ¡Õ¶ ÖƒÕ¥Õ²Õ¯Õ¨</value>
   </data>
   <data name="ToggleDetailsPane" xml:space="preserve">
-    <value>Փոխարկել մանրամասների փեղկի</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ´Õ¡Õ¶Ö€Õ¡Õ´Õ¡Õ½Õ¶Õ¥Ö€Õ« ÖƒÕ¥Õ²Õ¯Õ«</value>
   </data>
   <data name="ToggleDetailsPaneDescription" xml:space="preserve">
-    <value>Փոխարկել մանրամասների փեղկը դեպի դիտելու հիմնական նիշքերի հատկությունները</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ´Õ¡Õ¶Ö€Õ¡Õ´Õ¡Õ½Õ¶Õ¥Ö€Õ« ÖƒÕ¥Õ²Õ¯Õ¨ Õ¤Õ¥ÕºÕ« Õ¤Õ«Õ¿Õ¥Õ¬Õ¸Ö‚ Õ°Õ«Õ´Õ¶Õ¡Õ¯Õ¡Õ¶ Õ¶Õ«Õ·Ö„Õ¥Ö€Õ« Õ°Õ¡Õ¿Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="ToggleInfoPane" xml:space="preserve">
-    <value>Փոխարկել տեղեկի փեղկի</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ¿Õ¥Õ²Õ¥Õ¯Õ« ÖƒÕ¥Õ²Õ¯Õ«</value>
   </data>
   <data name="ToggleInfoPaneDescription" xml:space="preserve">
     <value>Toggle visibility of the detail/preview panes</value>
@@ -1167,130 +1167,130 @@
     <value>Toggle dual pane mode</value>
   </data>
   <data name="DetailsPanePreviewNotAvaliableText" xml:space="preserve">
-    <value>Նախադիտումը հասանելի չէ</value>
+    <value>Õ†Õ¡Õ­Õ¡Õ¤Õ«Õ¿Õ¸Ö‚Õ´Õ¨ Õ°Õ¡Õ½Õ¡Õ¶Õ¥Õ¬Õ« Õ¹Õ§</value>
   </data>
   <data name="PropertyItemName" xml:space="preserve">
-    <value>Տարրի Անուն</value>
+    <value>ÕÕ¡Ö€Ö€Õ« Ô±Õ¶Õ¸Ö‚Õ¶</value>
   </data>
   <data name="Unpin" xml:space="preserve">
     <value>Unpin</value>
   </data>
   <data name="UnpinFolderFromSidebar" xml:space="preserve">
-    <value>Ապամեխել Կողագոտուց</value>
+    <value>Ô±ÕºÕ¡Õ´Õ¥Õ­Õ¥Õ¬ Ô¿Õ¸Õ²Õ¡Õ£Õ¸Õ¿Õ¸Ö‚Ö</value>
   </data>
   <data name="Network" xml:space="preserve">
-    <value>Ցանց</value>
+    <value>Õ‘Õ¡Õ¶Ö</value>
   </data>
   <data name="PreviewPaneFileDetails.AutomationProperties.Name" xml:space="preserve">
-    <value>Նիշքի մանրամասներ</value>
+    <value>Õ†Õ«Õ·Ö„Õ« Õ´Õ¡Õ¶Ö€Õ¡Õ´Õ¡Õ½Õ¶Õ¥Ö€</value>
   </data>
   <data name="PreviewPaneFilePreview.AutomationProperties.Name" xml:space="preserve">
-    <value>Նիշքի նախադիտում</value>
+    <value>Õ†Õ«Õ·Ö„Õ« Õ¶Õ¡Õ­Õ¡Õ¤Õ«Õ¿Õ¸Ö‚Õ´</value>
   </data>
   <data name="SelectedFilePreviewPane.AutomationProperties.Name" xml:space="preserve">
-    <value>Ընտրված նիշքի նախադիտման փեղկ</value>
+    <value>Ô¸Õ¶Õ¿Ö€Õ¾Õ¡Õ® Õ¶Õ«Õ·Ö„Õ« Õ¶Õ¡Õ­Õ¡Õ¤Õ«Õ¿Õ´Õ¡Õ¶ ÖƒÕ¥Õ²Õ¯</value>
   </data>
   <data name="Feedback" xml:space="preserve">
-    <value>Հետադարձ Կապ</value>
+    <value>Õ€Õ¥Õ¿Õ¡Õ¤Õ¡Ö€Õ± Ô¿Õ¡Õº</value>
   </data>
   <data name="CloudDriveSyncStatus_Online" xml:space="preserve">
     <value>Available when online</value>
   </data>
   <data name="Documentation" xml:space="preserve">
-    <value>Փաստաթղթավորում</value>
+    <value>Õ“Õ¡Õ½Õ¿Õ¡Õ©Õ²Õ©Õ¡Õ¾Õ¸Ö€Õ¸Ö‚Õ´</value>
   </data>
   <data name="CloudDriveSyncStatus_Offline" xml:space="preserve">
-    <value>Հասանելի է առցանց</value>
+    <value>Õ€Õ¡Õ½Õ¡Õ¶Õ¥Õ¬Õ« Õ§ Õ¡Õ¼ÖÕ¡Õ¶Ö</value>
   </data>
   <data name="CloudDriveSyncStatus_PartialOffline" xml:space="preserve">
     <value>Partially available offline</value>
   </data>
   <data name="CloudDriveSyncStatus_Sync" xml:space="preserve">
-    <value>Համաժամեցում</value>
+    <value>Õ€Õ¡Õ´Õ¡ÕªÕ¡Õ´Õ¥ÖÕ¸Ö‚Õ´</value>
   </data>
   <data name="CloudDriveSyncStatus_Excluded" xml:space="preserve">
     <value>Excluded from sync</value>
   </data>
   <data name="ItemSizeNotCalculated" xml:space="preserve">
-    <value>Ոչ հաշվելի</value>
+    <value>ÕˆÕ¹ Õ°Õ¡Õ·Õ¾Õ¥Õ¬Õ«</value>
   </data>
   <data name="ViewSize" xml:space="preserve">
     <value>View size</value>
   </data>
   <data name="CloudDriveSyncStatus_Unknown" xml:space="preserve">
-    <value>Անհայտ</value>
+    <value>Ô±Õ¶Õ°Õ¡ÕµÕ¿</value>
   </data>
   <data name="RenameFileDialogText" xml:space="preserve">
     <value>If you change a file extension, the file might become unusable. Are you sure you want to change it?</value>
   </data>
   <data name="DriveTypeCDRom" xml:space="preserve">
-    <value>CD ROM Հիշասարք</value>
+    <value>CD ROM Õ€Õ«Õ·Õ¡Õ½Õ¡Ö€Ö„</value>
   </data>
   <data name="DriveTypeCloudDrive" xml:space="preserve">
-    <value>Ամպի Հիշասարք</value>
+    <value>Ô±Õ´ÕºÕ« Õ€Õ«Õ·Õ¡Õ½Õ¡Ö€Ö„</value>
   </data>
   <data name="DriveTypeFixed" xml:space="preserve">
-    <value>Անշարժ Սկավառակ</value>
+    <value>Ô±Õ¶Õ·Õ¡Ö€Õª ÕÕ¯Õ¡Õ¾Õ¡Õ¼Õ¡Õ¯</value>
   </data>
   <data name="DriveTypeFloppyDisk" xml:space="preserve">
-    <value>Ճկուն սկավառակի սարք</value>
+    <value>ÕƒÕ¯Õ¸Ö‚Õ¶ Õ½Õ¯Õ¡Õ¾Õ¡Õ¼Õ¡Õ¯Õ« Õ½Õ¡Ö€Ö„</value>
   </data>
   <data name="DriveTypeNetwork" xml:space="preserve">
-    <value>Ցանցի Հիշասարք</value>
+    <value>Õ‘Õ¡Õ¶ÖÕ« Õ€Õ«Õ·Õ¡Õ½Õ¡Ö€Ö„</value>
   </data>
   <data name="DriveTypeNoRootDirectory" xml:space="preserve">
-    <value>Չտեղակայված սկավառավար</value>
+    <value>Õ‰Õ¿Õ¥Õ²Õ¡Õ¯Õ¡ÕµÕ¾Õ¡Õ® Õ½Õ¯Õ¡Õ¾Õ¡Õ¼Õ¡Õ¾Õ¡Ö€</value>
   </data>
   <data name="DriveTypeRam" xml:space="preserve">
-    <value>RAM սկավառավար</value>
+    <value>RAM Õ½Õ¯Õ¡Õ¾Õ¡Õ¼Õ¡Õ¾Õ¡Ö€</value>
   </data>
   <data name="DriveTypeRemovable" xml:space="preserve">
     <value>Removable Storage Device</value>
   </data>
   <data name="DriveTypeUnknown" xml:space="preserve">
-    <value>Անհայտ</value>
+    <value>Ô±Õ¶Õ°Õ¡ÕµÕ¿</value>
   </data>
   <data name="DriveTypeVirtualDrive" xml:space="preserve">
-    <value>Կարծական Հիշասարք</value>
+    <value>Ô¿Õ¡Ö€Õ®Õ¡Õ¯Õ¡Õ¶ Õ€Õ«Õ·Õ¡Õ½Õ¡Ö€Ö„</value>
   </data>
   <data name="DateCreated" xml:space="preserve">
-    <value>Ստեղծման ամսաթիվ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ«Õ¾</value>
   </data>
   <data name="MoreOptions" xml:space="preserve">
-    <value>Ավել ընտրանքներ...</value>
+    <value>Ô±Õ¾Õ¥Õ¬ Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ¶Õ¥Ö€...</value>
   </data>
   <data name="DrivesWidgetOptionsFlyoutMapNetDriveMenuItemText" xml:space="preserve">
     <value>Map network drive</value>
   </data>
   <data name="Pinned" xml:space="preserve">
-    <value>Մեխված</value>
+    <value>Õ„Õ¥Õ­Õ¾Õ¡Õ®</value>
   </data>
   <data name="SidebarLibraries" xml:space="preserve">
-    <value>Դարաններ</value>
+    <value>Ô´Õ¡Ö€Õ¡Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="NoItemSelected" xml:space="preserve">
-    <value>Ոչինչ ընտրված չէ</value>
+    <value>ÕˆÕ¹Õ«Õ¶Õ¹ Õ¨Õ¶Õ¿Ö€Õ¾Õ¡Õ® Õ¹Õ§</value>
   </data>
   <data name="PropertyItemTarget" xml:space="preserve">
-    <value>Թիրախ</value>
+    <value>Ô¹Õ«Ö€Õ¡Õ­</value>
   </data>
   <data name="Arguments" xml:space="preserve">
-    <value>Արգումենտներ</value>
+    <value>Ô±Ö€Õ£Õ¸Ö‚Õ´Õ¥Õ¶Õ¿Õ¶Õ¥Ö€</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>Լռելյայն</value>
+    <value>Ô¼Õ¼Õ¥Õ¬ÕµÕ¡ÕµÕ¶</value>
   </data>
   <data name="PropertyItemCount" xml:space="preserve">
-    <value>Տարրերի քանակ</value>
+    <value>ÕÕ¡Ö€Ö€Õ¥Ö€Õ« Ö„Õ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="ElevateConfirmDialog.Title" xml:space="preserve">
-    <value>Այս գործողությունը պահանջում է վարիչի իրավունքները</value>
+    <value>Ô±ÕµÕ½ Õ£Õ¸Ö€Õ®Õ¸Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨ ÕºÕ¡Õ°Õ¡Õ¶Õ»Õ¸Ö‚Õ´ Õ§ Õ¾Õ¡Ö€Õ«Õ¹Õ« Õ«Ö€Õ¡Õ¾Õ¸Ö‚Õ¶Ö„Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="ElevateConfirmDialog.Content" xml:space="preserve">
-    <value>Կցանկանա՞ք շարունակել որպես վարիչ</value>
+    <value>Ô¿ÖÕ¡Õ¶Õ¯Õ¡Õ¶Õ¡ÕžÖ„ Õ·Õ¡Ö€Õ¸Ö‚Õ¶Õ¡Õ¯Õ¥Õ¬ Õ¸Ö€ÕºÕ¥Õ½ Õ¾Õ¡Ö€Õ«Õ¹</value>
   </data>
   <data name="ColumnsShortcutTooltip" xml:space="preserve">
-    <value>Սյուններ (Ctrl+Shift+6)</value>
+    <value>ÕÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€ (Ctrl+Shift+6)</value>
   </data>
   <data name="PinItemToStartText" xml:space="preserve">
     <value>Pin to the Start Menu</value>
@@ -1299,16 +1299,16 @@
     <value>Unpin from the Start Menu</value>
   </data>
   <data name="Library" xml:space="preserve">
-    <value>Դարան</value>
+    <value>Ô´Õ¡Ö€Õ¡Õ¶</value>
   </data>
   <data name="LibraryLocations.Text" xml:space="preserve">
-    <value>Տեղադրություններ.</value>
+    <value>ÕÕ¥Õ²Õ¡Õ¤Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€.</value>
   </data>
   <data name="SetAsDefaultSavePath" xml:space="preserve">
     <value>Set as default save path</value>
   </data>
   <data name="LibraryNoLocations.Text" xml:space="preserve">
-    <value>Չկան տեղադրություններ</value>
+    <value>Õ‰Õ¯Õ¡Õ¶ Õ¿Õ¥Õ²Õ¡Õ¤Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="ErrorInputEmpty" xml:space="preserve">
     <value>Input field cannot be empty!</value>
@@ -1329,31 +1329,31 @@
     <value>Open the Storage Sense page in Windows Settings</value>
   </data>
   <data name="Cleanup" xml:space="preserve">
-    <value>Մաքրում</value>
+    <value>Õ„Õ¡Ö„Ö€Õ¸Ö‚Õ´</value>
   </data>
   <data name="Copy" xml:space="preserve">
-    <value>Պատճենել</value>
+    <value>ÕŠÕ¡Õ¿Õ³Õ¥Õ¶Õ¥Õ¬</value>
   </data>
   <data name="CopyItemsDialogTitle" xml:space="preserve">
-    <value>Պատճենել {0, plural, one {տարր} other {տարր}}</value>
+    <value>ÕŠÕ¡Õ¿Õ³Õ¥Õ¶Õ¥Õ¬ {0, plural, one {Õ¿Õ¡Ö€Ö€} other {Õ¿Õ¡Ö€Ö€}}</value>
   </data>
   <data name="DeleteItemsDialogTitle" xml:space="preserve">
-    <value>Ջնջել {0, plural, one {տարր} other {տարր}}</value>
+    <value>Õ‹Õ¶Õ»Õ¥Õ¬ {0, plural, one {Õ¿Õ¡Ö€Ö€} other {Õ¿Õ¡Ö€Ö€}}</value>
   </data>
   <data name="MoveItemsDialogPrimaryButtonText" xml:space="preserve">
-    <value>Շարժել</value>
+    <value>Õ‡Õ¡Ö€ÕªÕ¥Õ¬</value>
   </data>
   <data name="MoveItemsDialogSubtitle" xml:space="preserve">
-    <value>{0, plural, one {Մեկ տարր կտեղափոխվի} other {# տարր կտեղափոխվի}}</value>
+    <value>{0, plural, one {Õ„Õ¥Õ¯ Õ¿Õ¡Ö€Ö€ Õ¯Õ¿Õ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¾Õ«} other {# Õ¿Õ¡Ö€Ö€ Õ¯Õ¿Õ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¾Õ«}}</value>
   </data>
   <data name="MoveItemsDialogTitle" xml:space="preserve">
-    <value>Տեղափոխել {0, plural, one {տարր} other {տարր}}</value>
+    <value>ÕÕ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¥Õ¬ {0, plural, one {Õ¿Õ¡Ö€Ö€} other {Õ¿Õ¡Ö€Ö€}}</value>
   </data>
   <data name="DeleteItemsDialogSubtitle" xml:space="preserve">
-    <value>{0, plural, one {Մեկ տարր կջնջվի} other {# տարր կջնջվի}}</value>
+    <value>{0, plural, one {Õ„Õ¥Õ¯ Õ¿Õ¡Ö€Ö€ Õ¯Õ»Õ¶Õ»Õ¾Õ«} other {# Õ¿Õ¡Ö€Ö€ Õ¯Õ»Õ¶Õ»Õ¾Õ«}}</value>
   </data>
   <data name="ConflictingItemsDialogPrimaryButtonText" xml:space="preserve">
-    <value>Շարունակել</value>
+    <value>Õ‡Õ¡Ö€Õ¸Ö‚Õ¶Õ¡Õ¯Õ¥Õ¬</value>
   </data>
   <data name="ConflictingItemsDialogSubtitleConflicts" xml:space="preserve">
     <value>{0, plural, one {There is one conflicting file name} other {There are # conflicting file names}}</value>
@@ -1365,199 +1365,199 @@
     <value>Conflicting {0, plural, one {file name} other {file names}}</value>
   </data>
   <data name="CopyItemsDialogSubtitle" xml:space="preserve">
-    <value>{0, plural, one {Մեկ տարր կպատճենվի} other {# տարր կպատճենվի}}</value>
+    <value>{0, plural, one {Õ„Õ¥Õ¯ Õ¿Õ¡Ö€Ö€ Õ¯ÕºÕ¡Õ¿Õ³Õ¥Õ¶Õ¾Õ«} other {# Õ¿Õ¡Ö€Ö€ Õ¯ÕºÕ¡Õ¿Õ³Õ¥Õ¶Õ¾Õ«}}</value>
   </data>
   <data name="DeleteItemsDialogPermanentlyDeleteCheckBox.Content" xml:space="preserve">
-    <value>Ջնջել ընդմիշտ</value>
+    <value>Õ‹Õ¶Õ»Õ¥Õ¬ Õ¨Õ¶Õ¤Õ´Õ«Õ·Õ¿</value>
   </data>
   <data name="PropertyISO" xml:space="preserve">
-    <value>ISO-ի արագություն</value>
+    <value>ISO-Õ« Õ¡Ö€Õ¡Õ£Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="ReplaceExisting" xml:space="preserve">
-    <value>Փոխարինել առկան</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ«Õ¶Õ¥Õ¬ Õ¡Õ¼Õ¯Õ¡Õ¶</value>
   </data>
   <data name="GenerateNewName" xml:space="preserve">
-    <value>Արտադրել նոր անուն</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ¤Ö€Õ¥Õ¬ Õ¶Õ¸Ö€ Õ¡Õ¶Õ¸Ö‚Õ¶</value>
   </data>
   <data name="CreateFolderWithSelection" xml:space="preserve">
-    <value>Ստեղծել պանակ ընտրվածով</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ ÕºÕ¡Õ¶Õ¡Õ¯ Õ¨Õ¶Õ¿Ö€Õ¾Õ¡Õ®Õ¸Õ¾</value>
   </data>
   <data name="CreateShortcutWithSelection" xml:space="preserve">
     <value>Create shortcuts with selection</value>
   </data>
   <data name="ItemType" xml:space="preserve">
-    <value>Տեսակ.</value>
+    <value>ÕÕ¥Õ½Õ¡Õ¯.</value>
   </data>
   <data name="ToolTipDescriptionDate" xml:space="preserve">
-    <value>Փոփոխման ամսաթիվը․</value>
+    <value>Õ“Õ¸ÖƒÕ¸Õ­Õ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ«Õ¾Õ¨â€¤</value>
   </data>
   <data name="OpenWith" xml:space="preserve">
-    <value>Բացել հետեւյալով</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ°Õ¥Õ¿Õ¥Ö‚ÕµÕ¡Õ¬Õ¸Õ¾</value>
   </data>
   <data name="ChooseAnotherApp" xml:space="preserve">
     <value>Choose another app</value>
   </data>
   <data name="FileBrowserThumbnailIconColumnGrid.AutomationProperties.Name" xml:space="preserve">
-    <value>Նիշքի պատկերակ</value>
+    <value>Õ†Õ«Õ·Ö„Õ« ÕºÕ¡Õ¿Õ¯Õ¥Ö€Õ¡Õ¯</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowOriginalPath.Text" xml:space="preserve">
     <value>Original path column</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowItemType.Text" xml:space="preserve">
-    <value>Տարրի տեսակի սյունակ</value>
+    <value>ÕÕ¡Ö€Ö€Õ« Õ¿Õ¥Õ½Õ¡Õ¯Õ« Õ½ÕµÕ¸Ö‚Õ¶Õ¡Õ¯</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateModified.Text" xml:space="preserve">
-    <value>Ամսաթվի փոփոխման սյունակ</value>
+    <value>Ô±Õ´Õ½Õ¡Õ©Õ¾Õ« ÖƒÕ¸ÖƒÕ¸Õ­Õ´Õ¡Õ¶ Õ½ÕµÕ¸Ö‚Õ¶Õ¡Õ¯</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateDeleted.Text" xml:space="preserve">
     <value>Date deleted column</value>
   </data>
   <data name="Sort" xml:space="preserve">
-    <value>Դասավորել</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬</value>
   </data>
   <data name="DateModifiedLowerCase" xml:space="preserve">
-    <value>Փոփոխման ամսաթիվ</value>
+    <value>Õ“Õ¸ÖƒÕ¸Õ­Õ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ«Õ¾</value>
   </data>
   <data name="OriginalFolder" xml:space="preserve">
-    <value>Բնօրինակ պանակ</value>
+    <value>Ô²Õ¶Ö…Ö€Õ«Õ¶Õ¡Õ¯ ÕºÕ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="Descending" xml:space="preserve">
-    <value>Նվազման կարգով</value>
+    <value>Õ†Õ¾Õ¡Õ¦Õ´Õ¡Õ¶ Õ¯Õ¡Ö€Õ£Õ¸Õ¾</value>
   </data>
   <data name="ItemSizeText_Huge" xml:space="preserve">
-    <value>Հսկայական</value>
+    <value>Õ€Õ½Õ¯Õ¡ÕµÕ¡Õ¯Õ¡Õ¶</value>
   </data>
   <data name="ItemSizeText_VeryLarge" xml:space="preserve">
-    <value>Շատ մեծ</value>
+    <value>Õ‡Õ¡Õ¿ Õ´Õ¥Õ®</value>
   </data>
   <data name="ItemSizeText_Large" xml:space="preserve">
-    <value>Սեծ</value>
+    <value>ÕÕ¥Õ®</value>
   </data>
   <data name="ItemSizeText_Medium" xml:space="preserve">
-    <value>Միջին</value>
+    <value>Õ„Õ«Õ»Õ«Õ¶</value>
   </data>
   <data name="ItemSizeText_Small" xml:space="preserve">
-    <value>Փոքր</value>
+    <value>Õ“Õ¸Ö„Ö€</value>
   </data>
   <data name="ItemSizeText_Tiny" xml:space="preserve">
-    <value>Փոքրիկ</value>
+    <value>Õ“Õ¸Ö„Ö€Õ«Õ¯</value>
   </data>
   <data name="Future" xml:space="preserve">
-    <value>Ապագա</value>
+    <value>Ô±ÕºÕ¡Õ£Õ¡</value>
   </data>
   <data name="Today" xml:space="preserve">
-    <value>Այսօր</value>
+    <value>Ô±ÕµÕ½Ö…Ö€</value>
   </data>
   <data name="Yesterday" xml:space="preserve">
-    <value>Երեկ</value>
+    <value>ÔµÖ€Õ¥Õ¯</value>
   </data>
   <data name="EarlierThisWeek" xml:space="preserve">
-    <value>Ավելի վաղ այս շաբաթ</value>
+    <value>Ô±Õ¾Õ¥Õ¬Õ« Õ¾Õ¡Õ² Õ¡ÕµÕ½ Õ·Õ¡Õ¢Õ¡Õ©</value>
   </data>
   <data name="LastWeek" xml:space="preserve">
-    <value>Նախորդ շաբաթ</value>
+    <value>Õ†Õ¡Õ­Õ¸Ö€Õ¤ Õ·Õ¡Õ¢Õ¡Õ©</value>
   </data>
   <data name="EarlierThisMonth" xml:space="preserve">
     <value>Earlier this month</value>
   </data>
   <data name="LastMonth" xml:space="preserve">
-    <value>Անցյալ ամիս</value>
+    <value>Ô±Õ¶ÖÕµÕ¡Õ¬ Õ¡Õ´Õ«Õ½</value>
   </data>
   <data name="EarlierThisYear" xml:space="preserve">
-    <value>Ավելի վաղ այս տարի</value>
+    <value>Ô±Õ¾Õ¥Õ¬Õ« Õ¾Õ¡Õ² Õ¡ÕµÕ½ Õ¿Õ¡Ö€Õ«</value>
   </data>
   <data name="LastYear" xml:space="preserve">
-    <value>Անցյալ տարի</value>
+    <value>Ô±Õ¶ÖÕµÕ¡Õ¬ Õ¿Õ¡Ö€Õ«</value>
   </data>
   <data name="YearN" xml:space="preserve">
-    <value>{0} Տարի</value>
+    <value>{0} ÕÕ¡Ö€Õ«</value>
   </data>
   <data name="GroupItemsCount_Singular" xml:space="preserve">
-    <value>{0} տարր</value>
+    <value>{0} Õ¿Õ¡Ö€Ö€</value>
   </data>
   <data name="GroupItemsCount_Plural" xml:space="preserve">
-    <value>{0} տարր</value>
+    <value>{0} Õ¿Õ¡Ö€Ö€</value>
   </data>
   <data name="ReopenClosedTab" xml:space="preserve">
     <value>Reopen tab</value>
   </data>
   <data name="Rename" xml:space="preserve">
-    <value>Վերանվանել</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ¶Õ¾Õ¡Õ¶Õ¥Õ¬</value>
   </data>
   <data name="Privacy" xml:space="preserve">
-    <value>Գաղտնիություն</value>
+    <value>Ô³Õ¡Õ²Õ¿Õ¶Õ«Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="TheRecycleBin" xml:space="preserve">
-    <value>Աղբարկղը</value>
+    <value>Ô±Õ²Õ¢Õ¡Ö€Õ¯Õ²Õ¨</value>
   </data>
   <data name="Canceling" xml:space="preserve">
-    <value>Չեղարկում</value>
+    <value>Õ‰Õ¥Õ²Õ¡Ö€Õ¯Õ¸Ö‚Õ´</value>
   </data>
   <data name="Clear" xml:space="preserve">
-    <value>Մաքրել</value>
+    <value>Õ„Õ¡Ö„Ö€Õ¥Õ¬</value>
   </data>
   <data name="Widgets" xml:space="preserve">
-    <value>Զպրտիչներ</value>
+    <value>Ô¶ÕºÖ€Õ¿Õ«Õ¹Õ¶Õ¥Ö€</value>
   </data>
   <data name="SyncStatus" xml:space="preserve">
-    <value>Համաժամման վիճակ</value>
+    <value>Õ€Õ¡Õ´Õ¡ÕªÕ¡Õ´Õ´Õ¡Õ¶ Õ¾Õ«Õ³Õ¡Õ¯</value>
   </data>
   <data name="Security" xml:space="preserve">
-    <value>Անվտանգություն</value>
+    <value>Ô±Õ¶Õ¾Õ¿Õ¡Õ¶Õ£Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="AdvancedPermissions" xml:space="preserve">
-    <value>Ընդլայնված թույլտվություններ</value>
+    <value>Ô¸Õ¶Õ¤Õ¬Õ¡ÕµÕ¶Õ¾Õ¡Õ® Õ©Õ¸Ö‚ÕµÕ¬Õ¿Õ¾Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="Allow" xml:space="preserve">
-    <value>Թույլատրել</value>
+    <value>Ô¹Õ¸Ö‚ÕµÕ¬Õ¡Õ¿Ö€Õ¥Õ¬</value>
   </data>
   <data name="Deny" xml:space="preserve">
-    <value>Արգելել</value>
+    <value>Ô±Ö€Õ£Õ¥Õ¬Õ¥Õ¬</value>
   </data>
   <data name="SecurityFullControlLabel.Text" xml:space="preserve">
-    <value>Ամբողջ հսկում</value>
+    <value>Ô±Õ´Õ¢Õ¸Õ²Õ» Õ°Õ½Õ¯Õ¸Ö‚Õ´</value>
   </data>
   <data name="SecurityListDirectoryLabel.Text" xml:space="preserve">
     <value>List directory contents</value>
   </data>
   <data name="Modify" xml:space="preserve">
-    <value>Փոփոխել</value>
+    <value>Õ“Õ¸ÖƒÕ¸Õ­Õ¥Õ¬</value>
   </data>
   <data name="SecurityPermissionsHeaderText" xml:space="preserve">
-    <value>Թույլատրություններ {0}-ի համար</value>
+    <value>Ô¹Õ¸Ö‚ÕµÕ¬Õ¡Õ¿Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€ {0}-Õ« Õ°Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="SecurityReadAndExecuteLabel.Text" xml:space="preserve">
-    <value>Կարդալ եւ կատարել</value>
+    <value>Ô¿Õ¡Ö€Õ¤Õ¡Õ¬ Õ¥Ö‚ Õ¯Õ¡Õ¿Õ¡Ö€Õ¥Õ¬</value>
   </data>
   <data name="SecurityReadLabel.Text" xml:space="preserve">
-    <value>Կարդալ</value>
+    <value>Ô¿Õ¡Ö€Õ¤Õ¡Õ¬</value>
   </data>
   <data name="SecurityUsersGroupLabel.Text" xml:space="preserve">
     <value>Group or user names</value>
   </data>
   <data name="Write" xml:space="preserve">
-    <value>Գրել</value>
+    <value>Ô³Ö€Õ¥Õ¬</value>
   </data>
   <data name="SecurityUnknownAccount" xml:space="preserve">
-    <value>Անանուն հաշիվ</value>
+    <value>Ô±Õ¶Õ¡Õ¶Õ¸Ö‚Õ¶ Õ°Õ¡Õ·Õ«Õ¾</value>
   </data>
   <data name="SecurityCannotReadPropertiesText" xml:space="preserve">
     <value>You do not have permissions to view the security properties of this object. Click "Advanced permissions" to proceed.</value>
   </data>
   <data name="SecurityOwnerLabel.Text" xml:space="preserve">
-    <value>Տեր.</value>
+    <value>ÕÕ¥Ö€.</value>
   </data>
   <data name="SecurityUnknownOwnerTextText" xml:space="preserve">
     <value>Unknown owner</value>
   </data>
   <data name="ExtractArchive" xml:space="preserve">
-    <value>Արտահանել պահոցը</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ°Õ¡Õ¶Õ¥Õ¬ ÕºÕ¡Õ°Õ¸ÖÕ¨</value>
   </data>
   <data name="DecompressArchiveDialogOpenDestinationWhenComplete.Content" xml:space="preserve">
-    <value>Ավարտելուց հետո բացեք նպատակակետի պանակը</value>
+    <value>Ô±Õ¾Õ¡Ö€Õ¿Õ¥Õ¬Õ¸Ö‚Ö Õ°Õ¥Õ¿Õ¸ Õ¢Õ¡ÖÕ¥Ö„ Õ¶ÕºÕ¡Õ¿Õ¡Õ¯Õ¡Õ¯Õ¥Õ¿Õ« ÕºÕ¡Õ¶Õ¡Õ¯Õ¨</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutExtractToChildFolder" xml:space="preserve">
-    <value>Արտահանել դեպի {0}\</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ°Õ¡Õ¶Õ¥Õ¬ Õ¤Õ¥ÕºÕ« {0}\</value>
   </data>
   <data name="SideBarCreateNewLibraryText" xml:space="preserve">
     <value>Create new library</value>
@@ -1572,58 +1572,58 @@
     <value>Restore Libraries</value>
   </data>
   <data name="PropertyFileOwner" xml:space="preserve">
-    <value>Տեր</value>
+    <value>ÕÕ¥Ö€</value>
   </data>
   <data name="SecuritySpecialLabelText" xml:space="preserve">
     <value>Special</value>
   </data>
   <data name="Access" xml:space="preserve">
-    <value>Մուտք</value>
+    <value>Õ„Õ¸Ö‚Õ¿Ö„</value>
   </data>
   <data name="SecurityAdvancedAppliesTo" xml:space="preserve">
-    <value>Կիրառվում է առ</value>
+    <value>Ô¿Õ«Ö€Õ¡Õ¼Õ¾Õ¸Ö‚Õ´ Õ§ Õ¡Õ¼</value>
   </data>
   <data name="Principal" xml:space="preserve">
-    <value>Կառավարիչ</value>
+    <value>Ô¿Õ¡Õ¼Õ¡Õ¾Õ¡Ö€Õ«Õ¹</value>
   </data>
   <data name="SecurityAdvancedFlagsFilesLabel" xml:space="preserve">
-    <value>նիշքեր</value>
+    <value>Õ¶Õ«Õ·Ö„Õ¥Ö€</value>
   </data>
   <data name="SecurityAdvancedFlagsFolderLabel" xml:space="preserve">
-    <value>այս պանակը</value>
+    <value>Õ¡ÕµÕ½ ÕºÕ¡Õ¶Õ¡Õ¯Õ¨</value>
   </data>
   <data name="SecurityAdvancedFlagsSubfoldersLabel" xml:space="preserve">
-    <value>ենթապանակներ</value>
+    <value>Õ¥Õ¶Õ©Õ¡ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€</value>
   </data>
   <data name="Inherited" xml:space="preserve">
-    <value>Ժառանգված</value>
+    <value>ÔºÕ¡Õ¼Õ¡Õ¶Õ£Õ¾Õ¡Õ®</value>
   </data>
   <data name="Permissions" xml:space="preserve">
-    <value>Թույլտվություններ</value>
+    <value>Ô¹Õ¸Ö‚ÕµÕ¬Õ¿Õ¾Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="SecurityAdvancedCannotReadPropertiesText" xml:space="preserve">
     <value>You do not have permissions to view the security properties of this object. You can try to take ownership of this object.</value>
   </data>
   <data name="SecurityAdvancedFolderFiles.Text" xml:space="preserve">
-    <value>Այս պանակը եւ նիշքերը</value>
+    <value>Ô±ÕµÕ½ ÕºÕ¡Õ¶Õ¡Õ¯Õ¨ Õ¥Ö‚ Õ¶Õ«Õ·Ö„Õ¥Ö€Õ¨</value>
   </data>
   <data name="SecurityAdvancedFolderSubfoldersFiles.Text" xml:space="preserve">
     <value>This folder, subfolders and files</value>
   </data>
   <data name="SecurityAdvancedOnlyFiles.Text" xml:space="preserve">
-    <value>Միայն նիշքեր</value>
+    <value>Õ„Õ«Õ¡ÕµÕ¶ Õ¶Õ«Õ·Ö„Õ¥Ö€</value>
   </data>
   <data name="SecurityAdvancedOnlySubfolders.Text" xml:space="preserve">
-    <value>Միայն ենթապանակները</value>
+    <value>Õ„Õ«Õ¡ÕµÕ¶ Õ¥Õ¶Õ©Õ¡ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="SecurityAdvancedOnlySubfoldersFiles.Text" xml:space="preserve">
     <value>Only subfolders and files</value>
   </data>
   <data name="SecurityAdvancedOnlyThisFolder.Text" xml:space="preserve">
-    <value>Միայն այս պանակում</value>
+    <value>Õ„Õ«Õ¡ÕµÕ¶ Õ¡ÕµÕ½ ÕºÕ¡Õ¶Õ¡Õ¯Õ¸Ö‚Õ´</value>
   </data>
   <data name="SecurityAdvancedFolderSubfolders.Text" xml:space="preserve">
-    <value>Այս պանակը եւ ենթապանակները</value>
+    <value>Ô±ÕµÕ½ ÕºÕ¡Õ¶Õ¡Õ¯Õ¨ Õ¥Ö‚ Õ¥Õ¶Õ©Õ¡ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="SecurityAppendDataLabelText" xml:space="preserve">
     <value>Append data</value>
@@ -1689,25 +1689,25 @@
     <value>Close pane</value>
   </data>
   <data name="EnterCompactOverlay" xml:space="preserve">
-    <value>Մտնել սեղմ կերպ</value>
+    <value>Õ„Õ¿Õ¶Õ¥Õ¬ Õ½Õ¥Õ²Õ´ Õ¯Õ¥Ö€Õº</value>
   </data>
   <data name="ExitCompactOverlay" xml:space="preserve">
-    <value>Ելք սեղմ կերպից</value>
+    <value>ÔµÕ¬Ö„ Õ½Õ¥Õ²Õ´ Õ¯Õ¥Ö€ÕºÕ«Ö</value>
   </data>
   <data name="PropertyFileDescription" xml:space="preserve">
-    <value>Նիշքի նկարագությունը</value>
+    <value>Õ†Õ«Õ·Ö„Õ« Õ¶Õ¯Õ¡Ö€Õ¡Õ£Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="PropertyCompany" xml:space="preserve">
-    <value>Ընկերություն</value>
+    <value>Ô¸Õ¶Õ¯Õ¥Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="PropertyLanguage" xml:space="preserve">
-    <value>Լեզու</value>
+    <value>Ô¼Õ¥Õ¦Õ¸Ö‚</value>
   </data>
   <data name="PropertyTrademarks" xml:space="preserve">
-    <value>Ապրանքանիշներ</value>
+    <value>Ô±ÕºÖ€Õ¡Õ¶Ö„Õ¡Õ¶Õ«Õ·Õ¶Õ¥Ö€</value>
   </data>
   <data name="PropertyFileVersion" xml:space="preserve">
-    <value>Նիշքի վարկած</value>
+    <value>Õ†Õ«Õ·Ö„Õ« Õ¾Õ¡Ö€Õ¯Õ¡Õ®</value>
   </data>
   <data name="PreviewPaneLoadCloudItemButton.Text" xml:space="preserve">
     <value>Load full preview</value>
@@ -1716,7 +1716,7 @@
     <value>Downloads the item from the cloud and loads the preview</value>
   </data>
   <data name="DetailsArchiveItems" xml:space="preserve">
-    <value>{0, plural, one {# տարր} other {# տարր}} ({1, plural, one {# նիշք} other {# նիշք}}, {2, plural, one {# պանակ} other {# պանակ}})</value>
+    <value>{0, plural, one {# Õ¿Õ¡Ö€Ö€} other {# Õ¿Õ¡Ö€Ö€}} ({1, plural, one {# Õ¶Õ«Õ·Ö„} other {# Õ¶Õ«Õ·Ö„}}, {2, plural, one {# ÕºÕ¡Õ¶Õ¡Õ¯} other {# ÕºÕ¡Õ¶Õ¡Õ¯}})</value>
   </data>
   <data name="PropertyUncompressedSize" xml:space="preserve">
     <value>Uncompressed size</value>
@@ -1728,7 +1728,7 @@
     <value>Hide {0} section</value>
   </data>
   <data name="AddFile" xml:space="preserve">
-    <value>Հավելել նիշք</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¥Õ¬ Õ¶Õ«Õ·Ö„</value>
   </data>
   <data name="ConsentDialogTitle" xml:space="preserve">
     <value>Updates available</value>
@@ -1737,13 +1737,13 @@
     <value>Updates are ready to install</value>
   </data>
   <data name="Close" xml:space="preserve">
-    <value>Փակել</value>
+    <value>Õ“Õ¡Õ¯Õ¥Õ¬</value>
   </data>
   <data name="ConsentDialogPrimaryButtonText" xml:space="preserve">
-    <value>Արդիացնել</value>
+    <value>Ô±Ö€Õ¤Õ«Õ¡ÖÕ¶Õ¥Õ¬</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>Տուն</value>
+    <value>ÕÕ¸Ö‚Õ¶</value>
   </data>
   <data name="ArchiveExtractionCompletedSuccessfullyText" xml:space="preserve">
     <value>The archive extraction completed successfully.</value>
@@ -1758,16 +1758,16 @@
     <value>Open parent folder</value>
   </data>
   <data name="Unknown" xml:space="preserve">
-    <value>Անհայտ</value>
+    <value>Ô±Õ¶Õ°Õ¡ÕµÕ¿</value>
   </data>
   <data name="EditTags" xml:space="preserve">
-    <value>Խմբագրել պիտակները</value>
+    <value>Ô½Õ´Õ¢Õ¡Õ£Ö€Õ¥Õ¬ ÕºÕ«Õ¿Õ¡Õ¯Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="PropertyPartOfSet" xml:space="preserve">
-    <value>Լրակազմի մաս</value>
+    <value>Ô¼Ö€Õ¡Õ¯Õ¡Õ¦Õ´Õ« Õ´Õ¡Õ½</value>
   </data>
   <data name="InsertDiscDialog.OpenDriveButton" xml:space="preserve">
-    <value>Բացել հիշասարքը</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ°Õ«Õ·Õ¡Õ½Õ¡Ö€Ö„Õ¨</value>
   </data>
   <data name="InsertDiscDialogText" xml:space="preserve">
     <value>Please insert a disc into drive {0}</value>
@@ -1776,13 +1776,13 @@
     <value>Insert a disc</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>ԼԱՎ</value>
+    <value>Ô¼Ô±ÕŽ</value>
   </data>
   <data name="AskCredentialDialog.Title" xml:space="preserve">
     <value>Credential required</value>
   </data>
   <data name="CredentialDialogAnonymous.Content" xml:space="preserve">
-    <value>Անանուն</value>
+    <value>Ô±Õ¶Õ¡Õ¶Õ¸Ö‚Õ¶</value>
   </data>
   <data name="CredentialDialogDescription.Text" xml:space="preserve">
     <value>Provide your credential:</value>
@@ -1797,67 +1797,67 @@
     <value>This location is password protected. Refresh to enter the password.</value>
   </data>
   <data name="CredentialDialogUserName.PlaceholderText" xml:space="preserve">
-    <value>ՕգտԱնուն</value>
+    <value>Õ•Õ£Õ¿Ô±Õ¶Õ¸Ö‚Õ¶</value>
   </data>
   <data name="NoSearchResultsFound" xml:space="preserve">
-    <value>Միույթներ չեն գտնվել</value>
+    <value>Õ„Õ«Õ¸Ö‚ÕµÕ©Õ¶Õ¥Ö€ Õ¹Õ¥Õ¶ Õ£Õ¿Õ¶Õ¾Õ¥Õ¬</value>
   </data>
   <data name="OpenLogLocation" xml:space="preserve">
-    <value>Բացել մատյան տեղադրություն</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ´Õ¡Õ¿ÕµÕ¡Õ¶ Õ¿Õ¥Õ²Õ¡Õ¤Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="LinkToFolderCaptionText" xml:space="preserve">
-    <value>Ստեղծել հղում {0}-ում</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ°Õ²Õ¸Ö‚Õ´ {0}-Õ¸Ö‚Õ´</value>
   </data>
   <data name="Columns" xml:space="preserve">
-    <value>Սյունակներ</value>
+    <value>ÕÕµÕ¸Ö‚Õ¶Õ¡Õ¯Õ¶Õ¥Ö€</value>
   </data>
   <data name="Cards" xml:space="preserve">
-    <value>Քարտեր</value>
+    <value>Õ”Õ¡Ö€Õ¿Õ¥Ö€</value>
   </data>
   <data name="OpenFoldersInNewTab" xml:space="preserve">
-    <value>Բացել պանակները նոր ներդիրում</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ¨ Õ¶Õ¸Ö€ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¸Ö‚Õ´</value>
   </data>
   <data name="StatusCenter" xml:space="preserve">
-    <value>Վիճակի կենտրոն</value>
+    <value>ÕŽÕ«Õ³Õ¡Õ¯Õ« Õ¯Õ¥Õ¶Õ¿Ö€Õ¸Õ¶</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateCreated.Text" xml:space="preserve">
-    <value>Ստեղծման ամսաթիվի սյունակ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ«Õ¾Õ« Õ½ÕµÕ¸Ö‚Õ¶Õ¡Õ¯</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowItemSize.Text" xml:space="preserve">
-    <value>Տարրի չափի սյունակ</value>
+    <value>ÕÕ¡Ö€Ö€Õ« Õ¹Õ¡ÖƒÕ« Õ½ÕµÕ¸Ö‚Õ¶Õ¡Õ¯</value>
   </data>
   <data name="ExperimentalFeatureFlags" xml:space="preserve">
-    <value>Փորձնական հատկությունների դրոշակներ</value>
+    <value>Õ“Õ¸Ö€Õ±Õ¶Õ¡Õ¯Õ¡Õ¶ Õ°Õ¡Õ¿Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€Õ« Õ¤Ö€Õ¸Õ·Õ¡Õ¯Õ¶Õ¥Ö€</value>
   </data>
   <data name="HelpAndSupport" xml:space="preserve">
-    <value>Օգնություն եւ աջակցություն</value>
+    <value>Õ•Õ£Õ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶ Õ¥Ö‚ Õ¡Õ»Õ¡Õ¯ÖÕ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="SubmitFeatureRequest" xml:space="preserve">
-    <value>Ներկայացենել հատկության հայցը</value>
+    <value>Õ†Õ¥Ö€Õ¯Õ¡ÕµÕ¡ÖÕ¥Õ¶Õ¥Õ¬ Õ°Õ¡Õ¿Õ¯Õ¸Ö‚Õ©ÕµÕ¡Õ¶ Õ°Õ¡ÕµÖÕ¨</value>
   </data>
   <data name="SubmitBugReport" xml:space="preserve">
-    <value>Ներկայացնել սխալի զեկույց</value>
+    <value>Õ†Õ¥Ö€Õ¯Õ¡ÕµÕ¡ÖÕ¶Õ¥Õ¬ Õ½Õ­Õ¡Õ¬Õ« Õ¦Õ¥Õ¯Õ¸Ö‚ÕµÖ</value>
   </data>
   <data name="SettingsSetAsDefaultFileManager" xml:space="preserve">
-    <value>Կայել Files-ը որպես լռելյալին նիշքի կառավարիչ</value>
+    <value>Ô¿Õ¡ÕµÕ¥Õ¬ Files-Õ¨ Õ¸Ö€ÕºÕ¥Õ½ Õ¬Õ¼Õ¥Õ¬ÕµÕ¡Õ¬Õ«Õ¶ Õ¶Õ«Õ·Ö„Õ« Õ¯Õ¡Õ¼Õ¡Õ¾Õ¡Ö€Õ«Õ¹</value>
   </data>
   <data name="SettingsSetAsOpenDialog" xml:space="preserve">
     <value>Use Files as Open File Dialog</value>
   </data>
   <data name="Tag" xml:space="preserve">
-    <value>Պիտակ</value>
+    <value>ÕŠÕ«Õ¿Õ¡Õ¯</value>
   </data>
   <data name="OpenFilesWithOneClick" xml:space="preserve">
     <value>Open files with a single click</value>
   </data>
   <data name="FolderPath" xml:space="preserve">
-    <value>Պանակի ուղին</value>
+    <value>ÕŠÕ¡Õ¶Õ¡Õ¯Õ« Õ¸Ö‚Õ²Õ«Õ¶</value>
   </data>
   <data name="ExportSettings" xml:space="preserve">
-    <value>Արտածելու կայանքներ</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ®Õ¥Õ¬Õ¸Ö‚ Õ¯Õ¡ÕµÕ¡Õ¶Ö„Õ¶Õ¥Ö€</value>
   </data>
   <data name="ImportSettings" xml:space="preserve">
-    <value>Ներածման կայանքներ</value>
+    <value>Õ†Õ¥Ö€Õ¡Õ®Õ´Õ¡Õ¶ Õ¯Õ¡ÕµÕ¡Õ¶Ö„Õ¶Õ¥Ö€</value>
   </data>
   <data name="SettingsImportErrorDescription" xml:space="preserve">
     <value>Couldn't import settings. The settings file is corrupted.</value>
@@ -1866,229 +1866,229 @@
     <value>Error importing settings</value>
   </data>
   <data name="EmptyRecycleBin" xml:space="preserve">
-    <value>Դատարկել Աղբարկղը</value>
+    <value>Ô´Õ¡Õ¿Õ¡Ö€Õ¯Õ¥Õ¬ Ô±Õ²Õ¢Õ¡Ö€Õ¯Õ²Õ¨</value>
   </data>
   <data name="Sidebar" xml:space="preserve">
-    <value>Կողագոտի</value>
+    <value>Ô¿Õ¸Õ²Õ¡Õ£Õ¸Õ¿Õ«</value>
   </data>
   <data name="ChooseCustomIcon" xml:space="preserve">
     <value>Choose a custom folder icon</value>
   </data>
   <data name="Customization" xml:space="preserve">
-    <value>Անհատականացում</value>
+    <value>Ô±Õ¶Õ°Õ¡Õ¿Õ¡Õ¯Õ¡Õ¶Õ¡ÖÕ¸Ö‚Õ´</value>
   </data>
   <data name="RestoreDefault" xml:space="preserve">
-    <value>Վերականգնել լռելյային</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ¯Õ¡Õ¶Õ£Õ¶Õ¥Õ¬ Õ¬Õ¼Õ¥Õ¬ÕµÕ¡ÕµÕ«Õ¶</value>
   </data>
   <data name="OpenTabInExistingInstance" xml:space="preserve">
-    <value>Բացել ներդիրը գոյություն ունեցող օրինակում՝ այլ հավելվածից Files բացելիս</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¨ Õ£Õ¸ÕµÕ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶ Õ¸Ö‚Õ¶Õ¥ÖÕ¸Õ² Ö…Ö€Õ«Õ¶Õ¡Õ¯Õ¸Ö‚Õ´Õ Õ¡ÕµÕ¬ Õ°Õ¡Õ¾Õ¥Õ¬Õ¾Õ¡Õ®Õ«Ö Files Õ¢Õ¡ÖÕ¥Õ¬Õ«Õ½</value>
   </data>
   <data name="StartupSettings" xml:space="preserve">
-    <value>Մեկնարկի կայանքներ</value>
+    <value>Õ„Õ¥Õ¯Õ¶Õ¡Ö€Õ¯Õ« Õ¯Õ¡ÕµÕ¡Õ¶Ö„Õ¶Õ¥Ö€</value>
   </data>
   <data name="Compatibility" xml:space="preserve">
-    <value>Համատեղելիություն</value>
+    <value>Õ€Õ¡Õ´Õ¡Õ¿Õ¥Õ²Õ¥Õ¬Õ«Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="None" xml:space="preserve">
-    <value>Ոչ մի</value>
+    <value>ÕˆÕ¹ Õ´Õ«</value>
   </data>
   <data name="CompatibilityOnWindowsLogin" xml:space="preserve">
-    <value>Windows մտնելիս</value>
+    <value>Windows Õ´Õ¿Õ¶Õ¥Õ¬Õ«Õ½</value>
   </data>
   <data name="CompatibilityOnProgramStart" xml:space="preserve">
-    <value>Այս ծրագիրը մեկնարկելիս</value>
+    <value>Ô±ÕµÕ½ Õ®Ö€Õ¡Õ£Õ«Ö€Õ¨ Õ´Õ¥Õ¯Õ¶Õ¡Ö€Õ¯Õ¥Õ¬Õ«Õ½</value>
   </data>
   <data name="System" xml:space="preserve">
-    <value>Համակարգ</value>
+    <value>Õ€Õ¡Õ´Õ¡Õ¯Õ¡Ö€Õ£</value>
   </data>
   <data name="CompatibilitySystemEnhanced" xml:space="preserve">
-    <value>Համակարգ (Ընդլայնված)</value>
+    <value>Õ€Õ¡Õ´Õ¡Õ¯Õ¡Ö€Õ£ (Ô¸Õ¶Õ¤Õ¬Õ¡ÕµÕ¶Õ¾Õ¡Õ®)</value>
   </data>
   <data name="CompatibilityReducedColorModeColor16bit" xml:space="preserve">
-    <value>16-bit (65536) գույն</value>
+    <value>16-bit (65536) Õ£Õ¸Ö‚ÕµÕ¶</value>
   </data>
   <data name="CompatibilityReducedColorModeColor8bit" xml:space="preserve">
-    <value>8-bit (256) գույն</value>
+    <value>8-bit (256) Õ£Õ¸Ö‚ÕµÕ¶</value>
   </data>
   <data name="CompatibilityDisableFullscreenOptimizations" xml:space="preserve">
-    <value>Անջատել լիէկրանի լավարկում</value>
+    <value>Ô±Õ¶Õ»Õ¡Õ¿Õ¥Õ¬ Õ¬Õ«Õ§Õ¯Ö€Õ¡Õ¶Õ« Õ¬Õ¡Õ¾Õ¡Ö€Õ¯Õ¸Ö‚Õ´</value>
   </data>
   <data name="CompatibilityRunIn640x480Resolution" xml:space="preserve">
-    <value>Աշխատում է 640 x 480 էկրանի լուծաչափով</value>
+    <value>Ô±Õ·Õ­Õ¡Õ¿Õ¸Ö‚Õ´ Õ§ 640 x 480 Õ§Õ¯Ö€Õ¡Õ¶Õ« Õ¬Õ¸Ö‚Õ®Õ¡Õ¹Õ¡ÖƒÕ¸Õ¾</value>
   </data>
   <data name="CompatibilityOverrideHighDPIBehavior" xml:space="preserve">
-    <value>Անտեսել բարձր DPI-ի մասշտաբային վարքը</value>
+    <value>Ô±Õ¶Õ¿Õ¥Õ½Õ¥Õ¬ Õ¢Õ¡Ö€Õ±Ö€ DPI-Õ« Õ´Õ¡Õ½Õ·Õ¿Õ¡Õ¢Õ¡ÕµÕ«Õ¶ Õ¾Õ¡Ö€Ö„Õ¨</value>
   </data>
   <data name="CompatibilityReducedColorMode" xml:space="preserve">
-    <value>Նվազեցված գույնի կերպ</value>
+    <value>Õ†Õ¾Õ¡Õ¦Õ¥ÖÕ¾Õ¡Õ® Õ£Õ¸Ö‚ÕµÕ¶Õ« Õ¯Õ¥Ö€Õº</value>
   </data>
   <data name="CompatibilityRegisterThisProgramForRestart" xml:space="preserve">
-    <value>Գրանցել այս ծրագիրը վերագործարկման համար</value>
+    <value>Ô³Ö€Õ¡Õ¶ÖÕ¥Õ¬ Õ¡ÕµÕ½ Õ®Ö€Õ¡Õ£Õ«Ö€Õ¨ Õ¾Õ¥Ö€Õ¡Õ£Õ¸Ö€Õ®Õ¡Ö€Õ¯Õ´Õ¡Õ¶ Õ°Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="StartWindow" xml:space="preserve">
-    <value>Մեկնարկի պատուհան</value>
+    <value>Õ„Õ¥Õ¯Õ¶Õ¡Ö€Õ¯Õ« ÕºÕ¡Õ¿Õ¸Ö‚Õ°Õ¡Õ¶</value>
   </data>
   <data name="NormalWindow" xml:space="preserve">
-    <value>Նորմալ պատուհան</value>
+    <value>Õ†Õ¸Ö€Õ´Õ¡Õ¬ ÕºÕ¡Õ¿Õ¸Ö‚Õ°Õ¡Õ¶</value>
   </data>
   <data name="Minimized" xml:space="preserve">
-    <value>Նվազեցված</value>
+    <value>Õ†Õ¾Õ¡Õ¦Õ¥ÖÕ¾Õ¡Õ®</value>
   </data>
   <data name="Maximized" xml:space="preserve">
-    <value>Առավելացված</value>
+    <value>Ô±Õ¼Õ¡Õ¾Õ¥Õ¬Õ¡ÖÕ¾Õ¡Õ®</value>
   </data>
   <data name="RunAsAdministrator" xml:space="preserve">
-    <value>Քշել որպես վարիչ</value>
+    <value>Õ”Õ·Õ¥Õ¬ Õ¸Ö€ÕºÕ¥Õ½ Õ¾Õ¡Ö€Õ«Õ¹</value>
   </data>
   <data name="CompatibilityRunTroubleshooter" xml:space="preserve">
-    <value>Քշել համատեղելիության անսարքությունները</value>
+    <value>Õ”Õ·Õ¥Õ¬ Õ°Õ¡Õ´Õ¡Õ¿Õ¥Õ²Õ¥Õ¬Õ«Õ¸Ö‚Õ©ÕµÕ¡Õ¶ Õ¡Õ¶Õ½Õ¡Ö€Ö„Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="CompatibilityUseDPISettings" xml:space="preserve">
-    <value>Օգտագործել հիմնական ցուցադրիչի DPI-ի կայանքները</value>
+    <value>Õ•Õ£Õ¿Õ¡Õ£Õ¸Ö€Õ®Õ¥Õ¬ Õ°Õ«Õ´Õ¶Õ¡Õ¯Õ¡Õ¶ ÖÕ¸Ö‚ÖÕ¡Õ¤Ö€Õ«Õ¹Õ« DPI-Õ« Õ¯Õ¡ÕµÕ¡Õ¶Ö„Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="CompatibilityDoNotAdjustDPI" xml:space="preserve">
-    <value>Չկարգավորել DPI-ը</value>
+    <value>Õ‰Õ¯Õ¡Ö€Õ£Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ DPI-Õ¨</value>
   </data>
   <data name="CompatibilityDoNotOverrideDPI" xml:space="preserve">
-    <value>Չանտեսել DPI-ը</value>
+    <value>Õ‰Õ¡Õ¶Õ¿Õ¥Õ½Õ¥Õ¬ DPI-Õ¨</value>
   </data>
   <data name="CompatibilityMode" xml:space="preserve">
-    <value>Համատեղելիության կերպ</value>
+    <value>Õ€Õ¡Õ´Õ¡Õ¿Õ¥Õ²Õ¥Õ¬Õ«Õ¸Ö‚Õ©ÕµÕ¡Õ¶ Õ¯Õ¥Ö€Õº</value>
   </data>
   <data name="CompatibilityNoReducedColor" xml:space="preserve">
-    <value>Ոչ նվազեցված գույն</value>
+    <value>ÕˆÕ¹ Õ¶Õ¾Õ¡Õ¦Õ¥ÖÕ¾Õ¡Õ® Õ£Õ¸Ö‚ÕµÕ¶</value>
   </data>
   <data name="ThirdPartyLibraries" xml:space="preserve">
-    <value>Երրորդ կողմի դարանները</value>
+    <value>ÔµÖ€Ö€Õ¸Ö€Õ¤ Õ¯Õ¸Õ²Õ´Õ« Õ¤Õ¡Ö€Õ¡Õ¶Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="SettingsSetAsDefaultFileManagerDescription" xml:space="preserve">
-    <value>Այս ընտրանքը փոփոխում է համակարգի գրանցամատյանը եւ կարող է անսպասելի կողմնակի ազդեցություններ ունենալ ձեր սարքի վրա: Շարունակեք ձեր պատասխանատվությամբ:</value>
+    <value>Ô±ÕµÕ½ Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ¨ ÖƒÕ¸ÖƒÕ¸Õ­Õ¸Ö‚Õ´ Õ§ Õ°Õ¡Õ´Õ¡Õ¯Õ¡Ö€Õ£Õ« Õ£Ö€Õ¡Õ¶ÖÕ¡Õ´Õ¡Õ¿ÕµÕ¡Õ¶Õ¨ Õ¥Ö‚ Õ¯Õ¡Ö€Õ¸Õ² Õ§ Õ¡Õ¶Õ½ÕºÕ¡Õ½Õ¥Õ¬Õ« Õ¯Õ¸Õ²Õ´Õ¶Õ¡Õ¯Õ« Õ¡Õ¦Õ¤Õ¥ÖÕ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€ Õ¸Ö‚Õ¶Õ¥Õ¶Õ¡Õ¬ Õ±Õ¥Ö€ Õ½Õ¡Ö€Ö„Õ« Õ¾Ö€Õ¡: Õ‡Õ¡Ö€Õ¸Ö‚Õ¶Õ¡Õ¯Õ¥Ö„ Õ±Õ¥Ö€ ÕºÕ¡Õ¿Õ¡Õ½Õ­Õ¡Õ¶Õ¡Õ¿Õ¾Õ¸Ö‚Õ©ÕµÕ¡Õ´Õ¢:</value>
   </data>
   <data name="ShowFlattenOptionsDescription" xml:space="preserve">
     <value>The flatten operations are permanent and not recommended. Continue at your own risk.</value>
   </data>
   <data name="FolderWidgetCreateNewLibraryDialogTitleText" xml:space="preserve">
-    <value>Ստեղծել Դարան</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Ô´Õ¡Ö€Õ¡Õ¶</value>
   </data>
   <data name="FolderWidgetCreateNewLibraryInputPlaceholderText" xml:space="preserve">
-    <value>Գրեք Դարանի անունը</value>
+    <value>Ô³Ö€Õ¥Ö„ Ô´Õ¡Ö€Õ¡Õ¶Õ« Õ¡Õ¶Õ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="CalculateFolderSizes" xml:space="preserve">
-    <value>Հաշվել պանակի չափերը</value>
+    <value>Õ€Õ¡Õ·Õ¾Õ¥Õ¬ ÕºÕ¡Õ¶Õ¡Õ¯Õ« Õ¹Õ¡ÖƒÕ¥Ö€Õ¨</value>
   </data>
   <data name="RecentFiles" xml:space="preserve">
-    <value>Վերջին նիշքերը</value>
+    <value>ÕŽÕ¥Ö€Õ»Õ«Õ¶ Õ¶Õ«Õ·Ö„Õ¥Ö€Õ¨</value>
   </data>
   <data name="SettingsOpenInLogin" xml:space="preserve">
-    <value>Բացել Նիշքերը Windows-ը մեկնարկելիս</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ†Õ«Õ·Ö„Õ¥Ö€Õ¨ Windows-Õ¨ Õ´Õ¥Õ¯Õ¶Õ¡Ö€Õ¯Õ¥Õ¬Õ«Õ½</value>
   </data>
   <data name="Attributes" xml:space="preserve">
-    <value>Հատկանիշներ</value>
+    <value>Õ€Õ¡Õ¿Õ¯Õ¡Õ¶Õ«Õ·Õ¶Õ¥Ö€</value>
   </data>
   <data name="Hidden" xml:space="preserve">
-    <value>Թաքնված</value>
+    <value>Ô¹Õ¡Ö„Õ¶Õ¾Õ¡Õ®</value>
   </data>
   <data name="MoreDetails" xml:space="preserve">
-    <value>Ավելի մանրամասներ</value>
+    <value>Ô±Õ¾Õ¥Õ¬Õ« Õ´Õ¡Õ¶Ö€Õ¡Õ´Õ¡Õ½Õ¶Õ¥Ö€</value>
   </data>
   <data name="ReadOnly" xml:space="preserve">
-    <value>Միայն կարդալ</value>
+    <value>Õ„Õ«Õ¡ÕµÕ¶ Õ¯Õ¡Ö€Õ¤Õ¡Õ¬</value>
   </data>
   <data name="CleanupDrive" xml:space="preserve">
-    <value>Մաքրել ձեր հիշասարքերի բովանդակությունը</value>
+    <value>Õ„Õ¡Ö„Ö€Õ¥Õ¬ Õ±Õ¥Ö€ Õ°Õ«Õ·Õ¡Õ½Õ¡Ö€Ö„Õ¥Ö€Õ« Õ¢Õ¸Õ¾Õ¡Õ¶Õ¤Õ¡Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="Type" xml:space="preserve">
-    <value>Տեսակ</value>
+    <value>ÕÕ¥Õ½Õ¡Õ¯</value>
   </data>
   <data name="Bytes" xml:space="preserve">
-    <value>Բայթեր</value>
+    <value>Ô²Õ¡ÕµÕ©Õ¥Ö€</value>
   </data>
   <data name="Extract" xml:space="preserve">
-    <value>Արտահանել</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ°Õ¡Õ¶Õ¥Õ¬</value>
   </data>
   <data name="ExtractFiles" xml:space="preserve">
-    <value>Արտահանել նիշքերը</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ°Õ¡Õ¶Õ¥Õ¬ Õ¶Õ«Õ·Ö„Õ¥Ö€Õ¨</value>
   </data>
   <data name="ExtractHere" xml:space="preserve">
-    <value>Արտահանել այստեղ</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ°Õ¡Õ¶Õ¥Õ¬ Õ¡ÕµÕ½Õ¿Õ¥Õ²</value>
   </data>
   <data name="ExtractKeyboardAcceleratorTextOverride" xml:space="preserve">
     <value>Ctrl+E</value>
   </data>
   <data name="ExtractToChildFolder" xml:space="preserve">
-    <value>Արտածել առ {0}</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ®Õ¥Õ¬ Õ¡Õ¼ {0}</value>
   </data>
   <data name="RunScript" xml:space="preserve">
-    <value>Քշել ծրագրույթ</value>
+    <value>Õ”Õ·Õ¥Õ¬ Õ®Ö€Õ¡Õ£Ö€Õ¸Ö‚ÕµÕ©</value>
   </data>
   <data name="RunWithPowerShell" xml:space="preserve">
-    <value>Քշել PowerShell-ով</value>
+    <value>Õ”Õ·Õ¥Õ¬ PowerShell-Õ¸Õ¾</value>
   </data>
   <data name="ShowFolderSizesWarning" xml:space="preserve">
-    <value>Պանակների չափերի հաշվարկը պաշարներ է պահանջում եւ կարող է հանգեցնել մշակիչի օգտագործման ավելացմանը</value>
+    <value>ÕŠÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ« Õ¹Õ¡ÖƒÕ¥Ö€Õ« Õ°Õ¡Õ·Õ¾Õ¡Ö€Õ¯Õ¨ ÕºÕ¡Õ·Õ¡Ö€Õ¶Õ¥Ö€ Õ§ ÕºÕ¡Õ°Õ¡Õ¶Õ»Õ¸Ö‚Õ´ Õ¥Ö‚ Õ¯Õ¡Ö€Õ¸Õ² Õ§ Õ°Õ¡Õ¶Õ£Õ¥ÖÕ¶Õ¥Õ¬ Õ´Õ·Õ¡Õ¯Õ«Õ¹Õ« Ö…Õ£Õ¿Õ¡Õ£Õ¸Ö€Õ®Õ´Õ¡Õ¶ Õ¡Õ¾Õ¥Õ¬Õ¡ÖÕ´Õ¡Õ¶Õ¨</value>
   </data>
   <data name="RotateLeft" xml:space="preserve">
-    <value>Պտտեք ձախ</value>
+    <value>ÕŠÕ¿Õ¿Õ¥Ö„ Õ±Õ¡Õ­</value>
   </data>
   <data name="RotateRight" xml:space="preserve">
-    <value>Պտտել աջ</value>
+    <value>ÕŠÕ¿Õ¿Õ¥Õ¬ Õ¡Õ»</value>
   </data>
   <data name="Install" xml:space="preserve">
-    <value>Տեղադրել</value>
+    <value>ÕÕ¥Õ²Õ¡Õ¤Ö€Õ¥Õ¬</value>
   </data>
   <data name="CloseTabsToTheLeft" xml:space="preserve">
-    <value>Փակել ներդիրը դեպի ձախ</value>
+    <value>Õ“Õ¡Õ¯Õ¥Õ¬ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¨ Õ¤Õ¥ÕºÕ« Õ±Õ¡Õ­</value>
   </data>
   <data name="CloseTabsToTheRight" xml:space="preserve">
-    <value>Փակել ներդիրը դեպի աջ</value>
+    <value>Õ“Õ¡Õ¯Õ¥Õ¬ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¨ Õ¤Õ¥ÕºÕ« Õ¡Õ»</value>
   </data>
   <data name="CloseOtherTabs" xml:space="preserve">
-    <value>Փակել այլ ներդիրներ</value>
+    <value>Õ“Õ¡Õ¯Õ¥Õ¬ Õ¡ÕµÕ¬ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¶Õ¥Ö€</value>
   </data>
   <data name="CloseAllTabs" xml:space="preserve">
-    <value>Փակել բոլոր ներդիրները</value>
+    <value>Õ“Õ¡Õ¯Õ¥Õ¬ Õ¢Õ¸Õ¬Õ¸Ö€ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="Music" xml:space="preserve">
-    <value>Երաժշտություն</value>
+    <value>ÔµÖ€Õ¡ÕªÕ·Õ¿Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="Pictures" xml:space="preserve">
-    <value>Նկարներ</value>
+    <value>Õ†Õ¯Õ¡Ö€Õ¶Õ¥Ö€</value>
   </data>
   <data name="UpdateFiles" xml:space="preserve">
-    <value>Արդիացնել Files-ը</value>
+    <value>Ô±Ö€Õ¤Õ«Õ¡ÖÕ¶Õ¥Õ¬ Files-Õ¨</value>
   </data>
   <data name="FileTags" xml:space="preserve">
-    <value>Պիտակներ</value>
+    <value>ÕŠÕ«Õ¿Õ¡Õ¯Õ¶Õ¥Ö€</value>
   </data>
   <data name="Universal" xml:space="preserve">
-    <value>Ընդհանրական</value>
+    <value>Ô¸Õ¶Õ¤Õ°Õ¡Õ¶Ö€Õ¡Õ¯Õ¡Õ¶</value>
   </data>
   <data name="DateFormatSample" xml:space="preserve">
-    <value>օր.՝ {0}, {1}</value>
+    <value>Ö…Ö€.Õ {0}, {1}</value>
   </data>
   <data name="SettingsFilesAndFoldersShowThumbnails" xml:space="preserve">
-    <value>Ցույց տալ մանրապատկերը</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ´Õ¡Õ¶Ö€Õ¡ÕºÕ¡Õ¿Õ¯Õ¥Ö€Õ¨</value>
   </data>
   <data name="Retry" xml:space="preserve">
-    <value>Նորից փորձել</value>
+    <value>Õ†Õ¸Ö€Õ«Ö ÖƒÕ¸Ö€Õ±Õ¥Õ¬</value>
   </data>
   <data name="ErrorDialogUnsupportedMoveOperation" xml:space="preserve">
     <value>Move operation is not supported in this context. Do you want to copy the items instead?</value>
   </data>
   <data name="HiddenItems" xml:space="preserve">
-    <value>Թաքնված տարրեր</value>
+    <value>Ô¹Õ¡Ö„Õ¶Õ¾Õ¡Õ® Õ¿Õ¡Ö€Ö€Õ¥Ö€</value>
   </data>
   <data name="Custom" xml:space="preserve">
-    <value>Անհատական</value>
+    <value>Ô±Õ¶Õ°Õ¡Õ¿Õ¡Õ¯Õ¡Õ¶</value>
   </data>
   <data name="Slideshow" xml:space="preserve">
     <value>Slideshow</value>
   </data>
   <data name="SetAsSlideshow" xml:space="preserve">
-    <value>Կայել որպես սեղանի սահկահանդես</value>
+    <value>Ô¿Õ¡ÕµÕ¥Õ¬ Õ¸Ö€ÕºÕ¥Õ½ Õ½Õ¥Õ²Õ¡Õ¶Õ« Õ½Õ¡Õ°Õ¯Õ¡Õ°Õ¡Õ¶Õ¤Õ¥Õ½</value>
   </data>
   <data name="SizeAllColumnsToFit" xml:space="preserve">
-    <value>Բոլոր չափերը սյունակների տեղավորելու համար</value>
+    <value>Ô²Õ¸Õ¬Õ¸Ö€ Õ¹Õ¡ÖƒÕ¥Ö€Õ¨ Õ½ÕµÕ¸Ö‚Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ« Õ¿Õ¥Õ²Õ¡Õ¾Õ¸Ö€Õ¥Õ¬Õ¸Ö‚ Õ°Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="AutoFitColumns" xml:space="preserve">
     <value>Auto-fit columns</value>
@@ -2100,7 +2100,7 @@
     <value>Automatically fit columns to content</value>
   </data>
   <data name="Adaptive" xml:space="preserve">
-    <value>Հարմարվողական դիրք</value>
+    <value>Õ€Õ¡Ö€Õ´Õ¡Ö€Õ¾Õ¸Õ²Õ¡Õ¯Õ¡Õ¶ Õ¤Õ«Ö€Ö„</value>
   </data>
   <data name="AdaptiveShortcutTooltip" xml:space="preserve">
     <value>Adaptive layout (Ctrl+Shift+7)</value>
@@ -2109,10 +2109,10 @@
     <value>Ctrl+Shift+7</value>
   </data>
   <data name="ShowAlternateStreams" xml:space="preserve">
-    <value>Ցույց տալ այլընտրանքային տվյալների հոսքերը</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¡ÕµÕ¬Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ¡ÕµÕ«Õ¶ Õ¿Õ¾ÕµÕ¡Õ¬Õ¶Õ¥Ö€Õ« Õ°Õ¸Õ½Ö„Õ¥Ö€Õ¨</value>
   </data>
   <data name="Behaviors" xml:space="preserve">
-    <value>Բնութագիր</value>
+    <value>Ô²Õ¶Õ¸Ö‚Õ©Õ¡Õ£Õ«Ö€</value>
   </data>
   <data name="Hello" xml:space="preserve">
     <value>Hello!</value>
@@ -2133,31 +2133,31 @@
     <value>Dismiss</value>
   </data>
   <data name="SetAsBackgroundFlyout" xml:space="preserve">
-    <value>Կայել որպես խորք</value>
+    <value>Ô¿Õ¡ÕµÕ¥Õ¬ Õ¸Ö€ÕºÕ¥Õ½ Õ­Õ¸Ö€Ö„</value>
   </data>
   <data name="SetAsBackground" xml:space="preserve">
-    <value>Կայել որպես սեղանի խորք</value>
+    <value>Ô¿Õ¡ÕµÕ¥Õ¬ Õ¸Ö€ÕºÕ¥Õ½ Õ½Õ¥Õ²Õ¡Õ¶Õ« Õ­Õ¸Ö€Ö„</value>
   </data>
   <data name="SetAsDefault" xml:space="preserve">
-    <value>Կայեր որպես լռելյայն</value>
+    <value>Ô¿Õ¡ÕµÕ¥Ö€ Õ¸Ö€ÕºÕ¥Õ½ Õ¬Õ¼Õ¥Õ¬ÕµÕ¡ÕµÕ¶</value>
   </data>
   <data name="DateColumn" xml:space="preserve">
-    <value>Ամսաթվի սյունակ</value>
+    <value>Ô±Õ´Õ½Õ¡Õ©Õ¾Õ« Õ½ÕµÕ¸Ö‚Õ¶Õ¡Õ¯</value>
   </data>
   <data name="DateCreatedColumn" xml:space="preserve">
-    <value>Ստեղծման ամսաթվի սյունակ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ¾Õ« Õ½ÕµÕ¸Ö‚Õ¶Õ¡Õ¯</value>
   </data>
   <data name="SizeColumn" xml:space="preserve">
-    <value>Չափի սյունակ</value>
+    <value>Õ‰Õ¡ÖƒÕ« Õ½ÕµÕ¸Ö‚Õ¶Õ¡Õ¯</value>
   </data>
   <data name="TagColumn" xml:space="preserve">
-    <value>Պիտակի սյունակ</value>
+    <value>ÕŠÕ«Õ¿Õ¡Õ¯Õ« Õ½ÕµÕ¸Ö‚Õ¶Õ¡Õ¯</value>
   </data>
   <data name="TypeColumn" xml:space="preserve">
-    <value>Տեսակի սյունակ</value>
+    <value>ÕÕ¥Õ½Õ¡Õ¯Õ« Õ½ÕµÕ¸Ö‚Õ¶Õ¡Õ¯</value>
   </data>
   <data name="Lockscreen" xml:space="preserve">
-    <value>Կողպէկրան</value>
+    <value>Ô¿Õ¸Õ²ÕºÕ§Õ¯Ö€Õ¡Õ¶</value>
   </data>
   <data name="OpenFolderWithOneClick" xml:space="preserve">
     <value>Open folders with a single click</value>
@@ -2172,58 +2172,58 @@
     <value>Folders in Columns View</value>
   </data>
   <data name="OpeningItems" xml:space="preserve">
-    <value>Բացված տարրեր</value>
+    <value>Ô²Õ¡ÖÕ¾Õ¡Õ® Õ¿Õ¡Ö€Ö€Õ¥Ö€</value>
   </data>
   <data name="Compress" xml:space="preserve">
-    <value>Սեղմել</value>
+    <value>ÕÕ¥Õ²Õ´Õ¥Õ¬</value>
   </data>
   <data name="FlattenFolderDescription" xml:space="preserve">
     <value>Move all contents from subfolders into the selected location</value>
   </data>
   <data name="FlattenFolder" xml:space="preserve">
-    <value>Հարթել պանակը</value>
+    <value>Õ€Õ¡Ö€Õ©Õ¥Õ¬ ÕºÕ¡Õ¶Õ¡Õ¯Õ¨</value>
   </data>
   <data name="Flatten" xml:space="preserve">
-    <value>Հարթել</value>
+    <value>Õ€Õ¡Ö€Õ©Õ¥Õ¬</value>
   </data>
   <data name="FlattenFolderDialogContent" xml:space="preserve">
-    <value>Պանակը հարթեցնելու դեպքում ամբողջ բովանդակությունը նրա ենթապանակներից կտեղափոխվի ընտրված վայր:  Այս գործողությունը մշտական ​​է եւ հնարավոր չէ հետարկել:  Օգտագործելով այս փորձարարական հատկությունը՝ դուք ընդունում եք ռիսկը եւ համաձայնում եք, որ Files թիմը պատասխանատվություն չի կրի տվյալների կորստի համար:</value>
+    <value>ÕŠÕ¡Õ¶Õ¡Õ¯Õ¨ Õ°Õ¡Ö€Õ©Õ¥ÖÕ¶Õ¥Õ¬Õ¸Ö‚ Õ¤Õ¥ÕºÖ„Õ¸Ö‚Õ´ Õ¡Õ´Õ¢Õ¸Õ²Õ» Õ¢Õ¸Õ¾Õ¡Õ¶Õ¤Õ¡Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨ Õ¶Ö€Õ¡ Õ¥Õ¶Õ©Õ¡ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ«Ö Õ¯Õ¿Õ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¾Õ« Õ¨Õ¶Õ¿Ö€Õ¾Õ¡Õ® Õ¾Õ¡ÕµÖ€:  Ô±ÕµÕ½ Õ£Õ¸Ö€Õ®Õ¸Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨ Õ´Õ·Õ¿Õ¡Õ¯Õ¡Õ¶ â€‹â€‹Õ§ Õ¥Ö‚ Õ°Õ¶Õ¡Ö€Õ¡Õ¾Õ¸Ö€ Õ¹Õ§ Õ°Õ¥Õ¿Õ¡Ö€Õ¯Õ¥Õ¬:  Õ•Õ£Õ¿Õ¡Õ£Õ¸Ö€Õ®Õ¥Õ¬Õ¸Õ¾ Õ¡ÕµÕ½ ÖƒÕ¸Ö€Õ±Õ¡Ö€Õ¡Ö€Õ¡Õ¯Õ¡Õ¶ Õ°Õ¡Õ¿Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨Õ Õ¤Õ¸Ö‚Ö„ Õ¨Õ¶Õ¤Õ¸Ö‚Õ¶Õ¸Ö‚Õ´ Õ¥Ö„ Õ¼Õ«Õ½Õ¯Õ¨ Õ¥Ö‚ Õ°Õ¡Õ´Õ¡Õ±Õ¡ÕµÕ¶Õ¸Ö‚Õ´ Õ¥Ö„, Õ¸Ö€ Files Õ©Õ«Õ´Õ¨ ÕºÕ¡Õ¿Õ¡Õ½Õ­Õ¡Õ¶Õ¡Õ¿Õ¾Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶ Õ¹Õ« Õ¯Ö€Õ« Õ¿Õ¾ÕµÕ¡Õ¬Õ¶Õ¥Ö€Õ« Õ¯Õ¸Ö€Õ½Õ¿Õ« Õ°Õ¡Õ´Õ¡Ö€:</value>
   </data>
   <data name="ShowFlattenOptions" xml:space="preserve">
     <value>Show flatten options</value>
   </data>
   <data name="SelectFilesAndFoldersOnHover" xml:space="preserve">
-    <value>Ընտրեք նիշքեր եւ պանակներ, երբ ճախրում եք վրեն</value>
+    <value>Ô¸Õ¶Õ¿Ö€Õ¥Ö„ Õ¶Õ«Õ·Ö„Õ¥Ö€ Õ¥Ö‚ ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€, Õ¥Ö€Õ¢ Õ³Õ¡Õ­Ö€Õ¸Ö‚Õ´ Õ¥Ö„ Õ¾Ö€Õ¥Õ¶</value>
   </data>
   <data name="ConfirmRestoreBinDialogContent" xml:space="preserve">
     <value>Are you sure you want to restore all items in the recycle bin?</value>
   </data>
   <data name="ConfirmRestoreBinDialogTitle" xml:space="preserve">
-    <value>Վերականգնել բոլոր տարրերը</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ¯Õ¡Õ¶Õ£Õ¶Õ¥Õ¬ Õ¢Õ¸Õ¬Õ¸Ö€ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨</value>
   </data>
   <data name="ConfirmRestoreSelectionBinDialogContent" xml:space="preserve">
     <value>Do you want to restore the {0, plural, one {selected item} other {{0} selected items}}?</value>
   </data>
   <data name="ConfirmRestoreSelectionBinDialogTitle" xml:space="preserve">
-    <value>Վերականգնել ընտրությունը</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ¯Õ¡Õ¶Õ£Õ¶Õ¥Õ¬ Õ¨Õ¶Õ¿Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="RestoreAllItems" xml:space="preserve">
-    <value>Վերականգնել Բոլոր Տարրերը</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ¯Õ¡Õ¶Õ£Õ¶Õ¥Õ¬ Ô²Õ¸Õ¬Õ¸Ö€ ÕÕ¡Ö€Ö€Õ¥Ö€Õ¨</value>
   </data>
   <data name="Restore" xml:space="preserve">
-    <value>Վերականգնել</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ¯Õ¡Õ¶Õ£Õ¶Õ¥Õ¬</value>
   </data>
   <data name="ShortcutCannotBeOpened" xml:space="preserve">
     <value>Shortcut cannot be opened</value>
   </data>
   <data name="DeleteShortcutDescription" xml:space="preserve">
-    <value>Թիրախային նպատակակետը հնարավոր չէ գտնել {0}: Ցանկանո՞ւմ եք ջնջել այս կարճատը:</value>
+    <value>Ô¹Õ«Ö€Õ¡Õ­Õ¡ÕµÕ«Õ¶ Õ¶ÕºÕ¡Õ¿Õ¡Õ¯Õ¡Õ¯Õ¥Õ¿Õ¨ Õ°Õ¶Õ¡Ö€Õ¡Õ¾Õ¸Ö€ Õ¹Õ§ Õ£Õ¿Õ¶Õ¥Õ¬ {0}: Õ‘Õ¡Õ¶Õ¯Õ¡Õ¶Õ¸ÕžÖ‚Õ´ Õ¥Ö„ Õ»Õ¶Õ»Õ¥Õ¬ Õ¡ÕµÕ½ Õ¯Õ¡Ö€Õ³Õ¡Õ¿Õ¨:</value>
   </data>
   <data name="AccessDeniedToFolder" xml:space="preserve">
     <value>You don't have permission to access this folder.</value>
   </data>
   <data name="ArchivePassword" xml:space="preserve">
-    <value>Պահոցի գաղտնաբառը</value>
+    <value>ÕŠÕ¡Õ°Õ¸ÖÕ« Õ£Õ¡Õ²Õ¿Õ¶Õ¡Õ¢Õ¡Õ¼Õ¨</value>
   </data>
   <data name="Encoding" xml:space="preserve">
     <value>Encoding</value>
@@ -2232,13 +2232,13 @@
     <value>{0} (detected)</value>
   </data>
   <data name="ExtractToPath" xml:space="preserve">
-    <value>Ուղի</value>
+    <value>ÕˆÖ‚Õ²Õ«</value>
   </data>
   <data name="SortingAndGrouping" xml:space="preserve">
-    <value>Դասավորում եւ խմբավորում</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¸Ö‚Õ´ Õ¥Ö‚ Õ­Õ´Õ¢Õ¡Õ¾Õ¸Ö€Õ¸Ö‚Õ´</value>
   </data>
   <data name="CreateArchive" xml:space="preserve">
-    <value>Ստեղծել պահոց</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ ÕºÕ¡Õ°Õ¸Ö</value>
   </data>
   <data name="CompressSkippedItemsDialogTitle" xml:space="preserve">
     <value>Some items can't be compressed</value>
@@ -2253,37 +2253,37 @@
     <value>Create 7z archive</value>
   </data>
   <data name="Create" xml:space="preserve">
-    <value>Ստեղծել</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬</value>
   </data>
   <data name="CreateNamedArchive" xml:space="preserve">
-    <value>Ստեղծել {0}</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ {0}</value>
   </data>
   <data name="EnterName" xml:space="preserve">
-    <value>Գրել անունը</value>
+    <value>Ô³Ö€Õ¥Õ¬ Õ¡Õ¶Õ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="CompressionLevel" xml:space="preserve">
-    <value>Սեղմնվան մակարդակը</value>
+    <value>ÕÕ¥Õ²Õ´Õ¶Õ¾Õ¡Õ¶ Õ´Õ¡Õ¯Õ¡Ö€Õ¤Õ¡Õ¯Õ¨</value>
   </data>
   <data name="CompressionLevelUltra" xml:space="preserve">
-    <value>Գեր</value>
+    <value>Ô³Õ¥Ö€</value>
   </data>
   <data name="CompressionLevelHigh" xml:space="preserve">
-    <value>Բարձր</value>
+    <value>Ô²Õ¡Ö€Õ±Ö€</value>
   </data>
   <data name="CompressionLevelNormal" xml:space="preserve">
-    <value>Նորմալ</value>
+    <value>Õ†Õ¸Ö€Õ´Õ¡Õ¬</value>
   </data>
   <data name="CompressionLevelLow" xml:space="preserve">
-    <value>Ցածր</value>
+    <value>Õ‘Õ¡Õ®Ö€</value>
   </data>
   <data name="CompressionLevelFast" xml:space="preserve">
-    <value>Արագ</value>
+    <value>Ô±Ö€Õ¡Õ£</value>
   </data>
   <data name="CompressionLevelNone" xml:space="preserve">
-    <value>Ոչ մի</value>
+    <value>ÕˆÕ¹ Õ´Õ«</value>
   </data>
   <data name="SplittingSize" xml:space="preserve">
-    <value>Բաժանման չափ</value>
+    <value>Ô²Õ¡ÕªÕ¡Õ¶Õ´Õ¡Õ¶ Õ¹Õ¡Öƒ</value>
   </data>
   <data name="DoNotSplit" xml:space="preserve">
     <value>Do not split</value>
@@ -2316,31 +2316,31 @@
     <value>Blu-ray</value>
   </data>
   <data name="Encryption" xml:space="preserve">
-    <value>Կոդավորում</value>
+    <value>Ô¿Õ¸Õ¤Õ¡Õ¾Õ¸Ö€Õ¸Ö‚Õ´</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value>Գաղտնաբառ</value>
+    <value>Ô³Õ¡Õ²Õ¿Õ¶Õ¡Õ¢Õ¡Õ¼</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Ձեւաչափ</value>
+    <value>ÕÕ¥Ö‚Õ¡Õ¹Õ¡Öƒ</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowSyncStatus.Text" xml:space="preserve">
-    <value>Համաժամել սյունների վիճակը</value>
+    <value>Õ€Õ¡Õ´Õ¡ÕªÕ¡Õ´Õ¥Õ¬ Õ½ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€Õ« Õ¾Õ«Õ³Õ¡Õ¯Õ¨</value>
   </data>
   <data name="GroupBy" xml:space="preserve">
-    <value>Խումբավորել ըստ</value>
+    <value>Ô½Õ¸Ö‚Õ´Õ¢Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¨Õ½Õ¿</value>
   </data>
   <data name="SortBy" xml:space="preserve">
-    <value>Դասավորել ըստ</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¨Õ½Õ¿</value>
   </data>
   <data name="GroupInDescendingOrder" xml:space="preserve">
-    <value>Խմբավորել նվազման կարգի</value>
+    <value>Ô½Õ´Õ¢Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¶Õ¾Õ¡Õ¦Õ´Õ¡Õ¶ Õ¯Õ¡Ö€Õ£Õ«</value>
   </data>
   <data name="SortInDescendingOrder" xml:space="preserve">
-    <value>Դասավորել նվազման կարգի</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¶Õ¾Õ¡Õ¦Õ´Õ¡Õ¶ Õ¯Õ¡Ö€Õ£Õ«</value>
   </data>
   <data name="NewShortcutDialogTitle" xml:space="preserve">
-    <value>Ստեղծել նոր կարճատ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¶Õ¸Ö€ Õ¯Õ¡Ö€Õ³Õ¡Õ¿</value>
   </data>
   <data name="NewShortcutDialogDescription" xml:space="preserve">
     <value>Create shortcuts to local or network programs, files, folders, computers or Internet addresses.</value>
@@ -2349,13 +2349,13 @@
     <value>Enter the location of the item:</value>
   </data>
   <data name="AddDialogListShortcutSubHeader" xml:space="preserve">
-    <value>Ստեղծել կարճատ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¯Õ¡Ö€Õ³Õ¡Õ¿</value>
   </data>
   <data name="RecentFilesDisabledOnWindowsWarning" xml:space="preserve">
     <value>Recently used files is currently disabled in Windows File Explorer.</value>
   </data>
   <data name="EditSettingsFile" xml:space="preserve">
-    <value>Խմբագրել կայանքների նիշքը</value>
+    <value>Ô½Õ´Õ¢Õ¡Õ£Ö€Õ¥Õ¬ Õ¯Õ¡ÕµÕ¡Õ¶Ö„Õ¶Õ¥Ö€Õ« Õ¶Õ«Õ·Ö„Õ¨</value>
   </data>
   <data name="EditSettingsFileDescription" xml:space="preserve">
     <value>Open settings file in your default editor</value>
@@ -2367,7 +2367,7 @@
     <value>Open Release Notes</value>
   </data>
   <data name="CannotCreateShortcutDialogTitle" xml:space="preserve">
-    <value>Այստեղ կարճատ ստեղծելու համար անհրաժեշտ են վարիչի արտոնություններ</value>
+    <value>Ô±ÕµÕ½Õ¿Õ¥Õ² Õ¯Õ¡Ö€Õ³Õ¡Õ¿ Õ½Õ¿Õ¥Õ²Õ®Õ¥Õ¬Õ¸Ö‚ Õ°Õ¡Õ´Õ¡Ö€ Õ¡Õ¶Õ°Ö€Õ¡ÕªÕ¥Õ·Õ¿ Õ¥Õ¶ Õ¾Õ¡Ö€Õ«Õ¹Õ« Õ¡Ö€Õ¿Õ¸Õ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="CannotCreateShortcutDialogMessage" xml:space="preserve">
     <value>Would you like to create the shortcut on the desktop instead?</value>
@@ -2376,31 +2376,31 @@
     <value>The specified item name is invalid</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Կայանքներ</value>
+    <value>Ô¿Õ¡ÕµÕ¡Õ¶Ö„Õ¶Õ¥Ö€</value>
   </data>
   <data name="DoubleClickBlankSpaceToGoUp" xml:space="preserve">
-    <value>Կրկնակի կտտացրեք դատարկ տարածության վրա՝ մեկ գրացուցակ վեպ բարձրանալու համար</value>
+    <value>Ô¿Ö€Õ¯Õ¶Õ¡Õ¯Õ« Õ¯Õ¿Õ¿Õ¡ÖÖ€Õ¥Ö„ Õ¤Õ¡Õ¿Õ¡Ö€Õ¯ Õ¿Õ¡Ö€Õ¡Õ®Õ¸Ö‚Õ©ÕµÕ¡Õ¶ Õ¾Ö€Õ¡Õ Õ´Õ¥Õ¯ Õ£Ö€Õ¡ÖÕ¸Ö‚ÖÕ¡Õ¯ Õ¾Õ¥Õº Õ¢Õ¡Ö€Õ±Ö€Õ¡Õ¶Õ¡Õ¬Õ¸Ö‚ Õ°Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="ViewMore" xml:space="preserve">
-    <value>Դիտել ավելին</value>
+    <value>Ô´Õ«Õ¿Õ¥Õ¬ Õ¡Õ¾Õ¥Õ¬Õ«Õ¶</value>
   </data>
   <data name="ShowEditTagsMenu" xml:space="preserve">
-    <value>Ցույց տալ խմբագրման պիտակի ենթացանկը</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ­Õ´Õ¢Õ¡Õ£Ö€Õ´Õ¡Õ¶ ÕºÕ«Õ¿Õ¡Õ¯Õ« Õ¥Õ¶Õ©Õ¡ÖÕ¡Õ¶Õ¯Õ¨</value>
   </data>
   <data name="ShowCompressionOptions" xml:space="preserve">
-    <value>Ցույց տալ սեղմման ընտրանքները</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ½Õ¥Õ²Õ´Õ´Õ¡Õ¶ Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="ShowSendToMenu" xml:space="preserve">
-    <value>Ցույց տալ ուղարկման ցանկը</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¸Ö‚Õ²Õ¡Ö€Õ¯Õ´Õ¡Õ¶ ÖÕ¡Õ¶Õ¯Õ¨</value>
   </data>
   <data name="ShowOpenInNewTab" xml:space="preserve">
-    <value>Ցույց տալ ընտրանք՝ պանակները նոր ներդիրում բացելու համար</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ¨ Õ¶Õ¸Ö€ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¸Ö‚Õ´ Õ¢Õ¡ÖÕ¥Õ¬Õ¸Ö‚ Õ°Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="ShowOpenInNewWindow" xml:space="preserve">
-    <value>Ցույց տալ ընտրանք՝ պանակները նոր պատուհանում բացելու համար</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ¨ Õ¶Õ¸Ö€ ÕºÕ¡Õ¿Õ¸Ö‚Õ°Õ¡Õ¶Õ¸Ö‚Õ´ Õ¢Õ¡ÖÕ¥Õ¬Õ¸Ö‚ Õ°Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="QuickAccess" xml:space="preserve">
-    <value>Արագ մուտք</value>
+    <value>Ô±Ö€Õ¡Õ£ Õ´Õ¸Ö‚Õ¿Ö„</value>
   </data>
   <data name="NetworkAuthenticationDialogMessage" xml:space="preserve">
     <value>Enter your credentials to connect to: {0}</value>
@@ -2415,43 +2415,43 @@
     <value>Network folder error</value>
   </data>
   <data name="AppVersion" xml:space="preserve">
-    <value>Հավելվածի վարկած</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¾Õ¡Õ®Õ« Õ¾Õ¡Ö€Õ¯Õ¡Õ®</value>
   </data>
   <data name="WindowsVersion" xml:space="preserve">
-    <value>Windows-ի վարկած</value>
+    <value>Windows-Õ« Õ¾Õ¡Ö€Õ¯Õ¡Õ®</value>
   </data>
   <data name="Always" xml:space="preserve">
-    <value>Միշտ</value>
+    <value>Õ„Õ«Õ·Õ¿</value>
   </data>
   <data name="PermanentDeletionOnly" xml:space="preserve">
-    <value>Միայն մշտական ​​ջնջում</value>
+    <value>Õ„Õ«Õ¡ÕµÕ¶ Õ´Õ·Õ¿Õ¡Õ¯Õ¡Õ¶ â€‹â€‹Õ»Õ¶Õ»Õ¸Ö‚Õ´</value>
   </data>
   <data name="Never" xml:space="preserve">
-    <value>Երբեք</value>
+    <value>ÔµÖ€Õ¢Õ¥Ö„</value>
   </data>
   <data name="TagColor" xml:space="preserve">
-    <value>Պիտակի գույն</value>
+    <value>ÕŠÕ«Õ¿Õ¡Õ¯Õ« Õ£Õ¸Ö‚ÕµÕ¶</value>
   </data>
   <data name="NewTag" xml:space="preserve">
-    <value>Նոր պիտակ</value>
+    <value>Õ†Õ¸Ö€ ÕºÕ«Õ¿Õ¡Õ¯</value>
   </data>
   <data name="CreateNewTag" xml:space="preserve">
-    <value>Ստեղծել նոր պիտակ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¶Õ¸Ö€ ÕºÕ«Õ¿Õ¡Õ¯</value>
   </data>
   <data name="Loading" xml:space="preserve">
-    <value>Բեռնում...</value>
+    <value>Ô²Õ¥Õ¼Õ¶Õ¸Ö‚Õ´...</value>
   </data>
   <data name="ContextMenuOptions" xml:space="preserve">
-    <value>Համաշարային ցանկի ընտրանքներ</value>
+    <value>Õ€Õ¡Õ´Õ¡Õ·Õ¡Ö€Õ¡ÕµÕ«Õ¶ ÖÕ¡Õ¶Õ¯Õ« Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ¶Õ¥Ö€</value>
   </data>
   <data name="ShowFileExtensions" xml:space="preserve">
     <value>File extensions</value>
   </data>
   <data name="FormatDriveText" xml:space="preserve">
-    <value>Ձեւաչափ</value>
+    <value>ÕÕ¥Ö‚Õ¡Õ¹Õ¡Öƒ</value>
   </data>
   <data name="Help" xml:space="preserve">
-    <value>Օգնություն</value>
+    <value>Õ•Õ£Õ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="FullScreen" xml:space="preserve">
     <value>Full screen</value>
@@ -2466,31 +2466,31 @@
     <value>Play</value>
   </data>
   <data name="Height" xml:space="preserve">
-    <value>Բարձրություն</value>
+    <value>Ô²Õ¡Ö€Õ±Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="Width" xml:space="preserve">
-    <value>Լայնություն</value>
+    <value>Ô¼Õ¡ÕµÕ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="ApplyToAllConflictingItems" xml:space="preserve">
-    <value>Կիրառեք այս գործողությունը բոլոր հակասական տարրերի վրա</value>
+    <value>Ô¿Õ«Ö€Õ¡Õ¼Õ¥Ö„ Õ¡ÕµÕ½ Õ£Õ¸Ö€Õ®Õ¸Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨ Õ¢Õ¸Õ¬Õ¸Ö€ Õ°Õ¡Õ¯Õ¡Õ½Õ¡Õ¯Õ¡Õ¶ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ« Õ¾Ö€Õ¡</value>
   </data>
   <data name="OpenTerminal" xml:space="preserve">
-    <value>Բացել Windows Տերինալում</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Windows ÕÕ¥Ö€Õ«Õ¶Õ¡Õ¬Õ¸Ö‚Õ´</value>
   </data>
   <data name="OpenTerminalAsAdmin" xml:space="preserve">
-    <value>Բացել Windows Տերինալում որպես վարիչ</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Windows ÕÕ¥Ö€Õ«Õ¶Õ¡Õ¬Õ¸Ö‚Õ´ Õ¸Ö€ÕºÕ¥Õ½ Õ¾Õ¡Ö€Õ«Õ¹</value>
   </data>
   <data name="Save" xml:space="preserve">
-    <value>Պահել</value>
+    <value>ÕŠÕ¡Õ°Õ¥Õ¬</value>
   </data>
   <data name="MultiSelect" xml:space="preserve">
-    <value>Բազմընտրություն</value>
+    <value>Ô²Õ¡Õ¦Õ´Õ¨Õ¶Õ¿Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="ReorderSidebarItemsDialogText" xml:space="preserve">
-    <value>Վերադասավորել կողագոտու տարրերը</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ¤Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¯Õ¸Õ²Õ¡Õ£Õ¸Õ¿Õ¸Ö‚ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨</value>
   </data>
   <data name="Hashes" xml:space="preserve">
-    <value>Հեշեր</value>
+    <value>Õ€Õ¥Õ·Õ¥Ö€</value>
   </data>
   <data name="CalculationError" xml:space="preserve">
     <value>An error occurred during the calculation</value>
@@ -2502,31 +2502,31 @@
     <value>Hashes aren't available for online files</value>
   </data>
   <data name="Algorithm" xml:space="preserve">
-    <value>Ալգորիթմ</value>
+    <value>Ô±Õ¬Õ£Õ¸Ö€Õ«Õ©Õ´</value>
   </data>
   <data name="HashValue" xml:space="preserve">
-    <value>Հեշ արժեքը</value>
+    <value>Õ€Õ¥Õ· Õ¡Ö€ÕªÕ¥Ö„Õ¨</value>
   </data>
   <data name="SelectHashesToShow" xml:space="preserve">
     <value>Select hashes to show</value>
   </data>
   <data name="Calculating" xml:space="preserve">
-    <value>Հաշվարկում...</value>
+    <value>Õ€Õ¡Õ·Õ¾Õ¡Ö€Õ¯Õ¸Ö‚Õ´...</value>
   </data>
   <data name="JumpListPinnedGroupHeader" xml:space="preserve">
-    <value>Մեխված տարրեր</value>
+    <value>Õ„Õ¥Õ­Õ¾Õ¡Õ® Õ¿Õ¡Ö€Ö€Õ¥Ö€</value>
   </data>
   <data name="DecreaseSize" xml:space="preserve">
-    <value>Նվազեցման չափով</value>
+    <value>Õ†Õ¾Õ¡Õ¦Õ¥ÖÕ´Õ¡Õ¶ Õ¹Õ¡ÖƒÕ¸Õ¾</value>
   </data>
   <data name="IncreaseSize" xml:space="preserve">
-    <value>Աճման չափով</value>
+    <value>Ô±Õ³Õ´Õ¡Õ¶ Õ¹Õ¡ÖƒÕ¸Õ¾</value>
   </data>
   <data name="ToggleSortDirection" xml:space="preserve">
     <value>Sort direction</value>
   </data>
   <data name="InvalidTagNameWarning" xml:space="preserve">
-    <value>Անվավեր Անուն</value>
+    <value>Ô±Õ¶Õ¾Õ¡Õ¾Õ¥Ö€ Ô±Õ¶Õ¸Ö‚Õ¶</value>
   </data>
   <data name="TagNameRules" xml:space="preserve">
     <value>Name must not be empty or start or end with a period.</value>
@@ -2552,13 +2552,13 @@
   <data name="CategoryNameRules" xml:space="preserve">
     <value>Name must not be empty or start or end with a period.</value>
   </data><data name="Videos" xml:space="preserve">
-    <value>Տեսանյութեր</value>
+    <value>ÕÕ¥Õ½Õ¡Õ¶ÕµÕ¸Ö‚Õ©Õ¥Ö€</value>
   </data>
   <data name="LaunchPreviewPopup" xml:space="preserve">
     <value>Preview popup</value>
   </data>
   <data name="ToggleCompactOverlay" xml:space="preserve">
-    <value>Փոխարկել սեղմ կերպից</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ½Õ¥Õ²Õ´ Õ¯Õ¥Ö€ÕºÕ«Ö</value>
   </data>
   <data name="OpenHelpDescription" xml:space="preserve">
     <value>Open the online help page in your browser</value>
@@ -2603,7 +2603,7 @@
     <value>Toggle visibility of file extensions</value>
   </data>
   <data name="TogglePreviewPaneDescription" xml:space="preserve">
-    <value>Փոխարկել նախադիտման փեղկը դեպի նիշքի նախադիտումների դիտում</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ¶Õ¡Õ­Õ¡Õ¤Õ«Õ¿Õ´Õ¡Õ¶ ÖƒÕ¥Õ²Õ¯Õ¨ Õ¤Õ¥ÕºÕ« Õ¶Õ«Õ·Ö„Õ« Õ¶Õ¡Õ­Õ¡Õ¤Õ«Õ¿Õ¸Ö‚Õ´Õ¶Õ¥Ö€Õ« Õ¤Õ«Õ¿Õ¸Ö‚Õ´</value>
   </data>
   <data name="ToggleSidebarDescription" xml:space="preserve">
     <value>Toggle whether to show sidebar</value>
@@ -2642,13 +2642,13 @@
     <value>Delete selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="CreateFolderDescription" xml:space="preserve">
-    <value>Ստեղծել նոր պանակ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¶Õ¸Ö€ ÕºÕ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="CreateShortcutDescription" xml:space="preserve">
     <value>Create new {0, plural, one {shortcut} other {shortcuts}} to selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="CreateShortcutFromDialogDescription" xml:space="preserve">
-    <value>Ստեղծել նոր կարճատ ցանկացած տարրին</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¶Õ¸Ö€ Õ¯Õ¡Ö€Õ³Õ¡Õ¿ ÖÕ¡Õ¶Õ¯Õ¡ÖÕ¡Õ® Õ¿Õ¡Ö€Ö€Õ«Õ¶</value>
   </data>
   <data name="EmptyRecycleBinDescription" xml:space="preserve">
     <value>Empty the contents of Recycle Bin</value>
@@ -2660,7 +2660,7 @@
     <value>Restore selected {0, plural, one {item} other {items}} from recycle bin</value>
   </data>
   <data name="RestoreAllRecycleBinDescription" xml:space="preserve">
-    <value>Վերականգնել բոլոր տարրերը աղբարկղից</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ¯Õ¡Õ¶Õ£Õ¶Õ¥Õ¬ Õ¢Õ¸Õ¬Õ¸Ö€ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¡Õ²Õ¢Õ¡Ö€Õ¯Õ²Õ«Ö</value>
   </data>
   <data name="OpenItemDescription" xml:space="preserve">
     <value>Open {0, plural, one {item} other {items}}</value>
@@ -2672,13 +2672,13 @@
     <value>Open parent folder of searched item</value>
   </data>
   <data name="RefreshItemsDescription" xml:space="preserve">
-    <value>Թարմացնել էջի բովանդակությունը</value>
+    <value>Ô¹Õ¡Ö€Õ´Õ¡ÖÕ¶Õ¥Õ¬ Õ§Õ»Õ« Õ¢Õ¸Õ¾Õ¡Õ¶Õ¤Õ¡Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="RenameDescription" xml:space="preserve">
-    <value>Վերանվանել ընտրված տարրը</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ¶Õ¾Õ¡Õ¶Õ¥Õ¬ Õ¨Õ¶Õ¿Ö€Õ¾Õ¡Õ® Õ¿Õ¡Ö€Ö€Õ¨</value>
   </data>
   <data name="SelectAllDescription" xml:space="preserve">
-    <value>Ընտրել բոլոր տարրերը</value>
+    <value>Ô¸Õ¶Õ¿Ö€Õ¥Õ¬ Õ¢Õ¸Õ¬Õ¸Ö€ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨</value>
   </data>
   <data name="InvertSelectionDescription" xml:space="preserve">
     <value>Invert selected items</value>
@@ -2687,7 +2687,7 @@
     <value>Clear selected items</value>
   </data>
   <data name="ToggleSelectDescription" xml:space="preserve">
-    <value>Փոխարկել տարրի ընտրությունը</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ« Õ¨Õ¶Õ¿Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="ShareItemDescription" xml:space="preserve">
     <value>Share selected {0, plural, one {file} other {files}} with others</value>
@@ -2744,7 +2744,7 @@
     <value>Run selected PowerShell script</value>
   </data>
   <data name="LaunchPreviewPopupDescription" xml:space="preserve">
-    <value>Մեկնարկել նախադիտումը թռչող պատուհանում</value>
+    <value>Õ„Õ¥Õ¯Õ¶Õ¡Ö€Õ¯Õ¥Õ¬ Õ¶Õ¡Õ­Õ¡Õ¤Õ«Õ¿Õ¸Ö‚Õ´Õ¨ Õ©Õ¼Õ¹Õ¸Õ² ÕºÕ¡Õ¿Õ¸Ö‚Õ°Õ¡Õ¶Õ¸Ö‚Õ´</value>
   </data>
   <data name="CompressIntoArchiveDescription" xml:space="preserve">
     <value>Create archive with selected {0, plural, one {item} other {items}}</value>
@@ -2771,103 +2771,103 @@
     <value>Rotate selected {0, plural, one {image} other {images}} to the right</value>
   </data>
   <data name="OpenSettingsDescription" xml:space="preserve">
-    <value>Բացել կայանքների էջը</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¯Õ¡ÕµÕ¡Õ¶Ö„Õ¶Õ¥Ö€Õ« Õ§Õ»Õ¨</value>
   </data>
   <data name="OpenTerminalDescription" xml:space="preserve">
-    <value>Բացել պանակը տերմինալում</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ ÕºÕ¡Õ¶Õ¡Õ¯Õ¨ Õ¿Õ¥Ö€Õ´Õ«Õ¶Õ¡Õ¬Õ¸Ö‚Õ´</value>
   </data>
   <data name="OpenTerminalAsAdminDescription" xml:space="preserve">
-    <value>Բացել պանակը տերմինալում որպես վարիչ</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ ÕºÕ¡Õ¶Õ¡Õ¯Õ¨ Õ¿Õ¥Ö€Õ´Õ«Õ¶Õ¡Õ¬Õ¸Ö‚Õ´ Õ¸Ö€ÕºÕ¥Õ½ Õ¾Õ¡Ö€Õ«Õ¹</value>
   </data>
   <data name="LayoutDecreaseSizeDescription" xml:space="preserve">
-    <value>Նվազեցրեք տարրի չափը ընթացիկ տեսքում</value>
+    <value>Õ†Õ¾Õ¡Õ¦Õ¥ÖÖ€Õ¥Ö„ Õ¿Õ¡Ö€Ö€Õ« Õ¹Õ¡ÖƒÕ¨ Õ¨Õ¶Õ©Õ¡ÖÕ«Õ¯ Õ¿Õ¥Õ½Ö„Õ¸Ö‚Õ´</value>
   </data>
   <data name="LayoutIncreaseSizeDescription" xml:space="preserve">
-    <value>Աճեցրեք տարրի չափը ընթացիկ տեսքում</value>
+    <value>Ô±Õ³Õ¥ÖÖ€Õ¥Ö„ Õ¿Õ¡Ö€Ö€Õ« Õ¹Õ¡ÖƒÕ¨ Õ¨Õ¶Õ©Õ¡ÖÕ«Õ¯ Õ¿Õ¥Õ½Ö„Õ¸Ö‚Õ´</value>
   </data>
   <data name="LayoutDetailsDescription" xml:space="preserve">
-    <value>Փոխարկել մանրամասների տեսքի</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ´Õ¡Õ¶Ö€Õ¡Õ´Õ¡Õ½Õ¶Õ¥Ö€Õ« Õ¿Õ¥Õ½Ö„Õ«</value>
   </data>
   <data name="LayoutCardsDescription" xml:space="preserve">
     <value>Switch to cards view</value>
   </data>
   <data name="LayoutListDescription" xml:space="preserve">
-    <value>Փոխարկել ցուցակի տեսքի</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ ÖÕ¸Ö‚ÖÕ¡Õ¯Õ« Õ¿Õ¥Õ½Ö„Õ«</value>
   </data>
   <data name="List" xml:space="preserve">
-    <value>Ցուցակ</value>
+    <value>Õ‘Õ¸Ö‚ÖÕ¡Õ¯</value>
   </data>
   <data name="Grid" xml:space="preserve">
-    <value>Ցանց</value>
+    <value>Õ‘Õ¡Õ¶Ö</value>
   </data>
   <data name="LayoutGridDescription" xml:space="preserve">
-    <value>Փոխարկել ցանցի տեսքի</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ ÖÕ¡Õ¶ÖÕ« Õ¿Õ¥Õ½Ö„Õ«</value>
   </data>
   <data name="LayoutColumnsDescription" xml:space="preserve">
-    <value>Փոխարկել սույնակների տեսքի</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ½Õ¸Ö‚ÕµÕ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ« Õ¿Õ¥Õ½Ö„Õ«</value>
   </data>
   <data name="LayoutAdaptiveDescription" xml:space="preserve">
-    <value>Փոխարկեք տեսքերը հարմարվողականի</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Ö„ Õ¿Õ¥Õ½Ö„Õ¥Ö€Õ¨ Õ°Õ¡Ö€Õ´Õ¡Ö€Õ¾Õ¸Õ²Õ¡Õ¯Õ¡Õ¶Õ«</value>
   </data>
   <data name="SortByNameDescription" xml:space="preserve">
-    <value>Դասավորել տարրերը ըստ անվան</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¨Õ½Õ¿ Õ¡Õ¶Õ¾Õ¡Õ¶</value>
   </data>
   <data name="SortByDateModifiedDescription" xml:space="preserve">
-    <value>Դասավորել տարրերը ըստ ամսաթվի փոփխման</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¨Õ½Õ¿ Õ¡Õ´Õ½Õ¡Õ©Õ¾Õ« ÖƒÕ¸ÖƒÕ­Õ´Õ¡Õ¶</value>
   </data>
   <data name="SortByDateCreatedDescription" xml:space="preserve">
-    <value>Դասավորել տարրերը ըստ ստեղծման ամսաթվի</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¨Õ½Õ¿ Õ½Õ¿Õ¥Õ²Õ®Õ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ¾Õ«</value>
   </data>
   <data name="SortBySizeDescription" xml:space="preserve">
-    <value>Դասավորել տարրերը ըստ չափի</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¨Õ½Õ¿ Õ¹Õ¡ÖƒÕ«</value>
   </data>
   <data name="SortByTypeDescription" xml:space="preserve">
-    <value>Դասավորել տարրերը ըստ տեսակի</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¨Õ½Õ¿ Õ¿Õ¥Õ½Õ¡Õ¯Õ«</value>
   </data>
   <data name="SortBySyncStatusDescription" xml:space="preserve">
     <value>Sort items by sync status</value>
   </data>
   <data name="SortByTagDescription" xml:space="preserve">
-    <value>Դասավորել տարրերը ըստ պիտակների</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¨Õ½Õ¿ ÕºÕ«Õ¿Õ¡Õ¯Õ¶Õ¥Ö€Õ«</value>
   </data>
   <data name="SortByOriginalFolderDescription" xml:space="preserve">
     <value>Sort items by original folder</value>
   </data>
   <data name="SortByDateDeletedDescription" xml:space="preserve">
-    <value>Դասավորել տարրերը ըստ ջնջման ամսաթվի</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¨Õ½Õ¿ Õ»Õ¶Õ»Õ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ¾Õ«</value>
   </data>
   <data name="SortAscendingDescription" xml:space="preserve">
-    <value>Դասավորել տարրերը ըստ աճման կարգի</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¨Õ½Õ¿ Õ¡Õ³Õ´Õ¡Õ¶ Õ¯Õ¡Ö€Õ£Õ«</value>
   </data>
   <data name="SortDescendingDescription" xml:space="preserve">
-    <value>Դասավորել տարրերը ըստ նվազման կարգի</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¨Õ½Õ¿ Õ¶Õ¾Õ¡Õ¦Õ´Õ¡Õ¶ Õ¯Õ¡Ö€Õ£Õ«</value>
   </data>
   <data name="ToggleSortDirectionDescription" xml:space="preserve">
-    <value>Փոխարկել տարրի տեսակավորման ուղղությունը</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ« Õ¿Õ¥Õ½Õ¡Õ¯Õ¡Õ¾Õ¸Ö€Õ´Õ¡Õ¶ Õ¸Ö‚Õ²Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="GroupByNoneDescription" xml:space="preserve">
-    <value>Ցուցակի տարրերը առանց խմբավորման</value>
+    <value>Õ‘Õ¸Ö‚ÖÕ¡Õ¯Õ« Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¡Õ¼Õ¡Õ¶Ö Õ­Õ´Õ¢Õ¡Õ¾Õ¸Ö€Õ´Õ¡Õ¶</value>
   </data>
   <data name="GroupByNameDescription" xml:space="preserve">
-    <value>Տարրերի խումբ ըստ անվան</value>
+    <value>ÕÕ¡Ö€Ö€Õ¥Ö€Õ« Õ­Õ¸Ö‚Õ´Õ¢ Õ¨Õ½Õ¿ Õ¡Õ¶Õ¾Õ¡Õ¶</value>
   </data>
   <data name="GroupByDateModifiedDescription" xml:space="preserve">
-    <value>Տարրերի խումբ ըստ ամսաթվի փոփխման</value>
+    <value>ÕÕ¡Ö€Ö€Õ¥Ö€Õ« Õ­Õ¸Ö‚Õ´Õ¢ Õ¨Õ½Õ¿ Õ¡Õ´Õ½Õ¡Õ©Õ¾Õ« ÖƒÕ¸ÖƒÕ­Õ´Õ¡Õ¶</value>
   </data>
   <data name="GroupByDateCreatedDescription" xml:space="preserve">
-    <value>Տարրերի խումբ ըստ ստեղծման ամսաթվի</value>
+    <value>ÕÕ¡Ö€Ö€Õ¥Ö€Õ« Õ­Õ¸Ö‚Õ´Õ¢ Õ¨Õ½Õ¿ Õ½Õ¿Õ¥Õ²Õ®Õ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ¾Õ«</value>
   </data>
   <data name="GroupBySizeDescription" xml:space="preserve">
-    <value>Տարրերի խումբ ըստ չափի</value>
+    <value>ÕÕ¡Ö€Ö€Õ¥Ö€Õ« Õ­Õ¸Ö‚Õ´Õ¢ Õ¨Õ½Õ¿ Õ¹Õ¡ÖƒÕ«</value>
   </data>
   <data name="GroupByTypeDescription" xml:space="preserve">
-    <value>Տարրերի խումբ ըստ տեսակի</value>
+    <value>ÕÕ¡Ö€Ö€Õ¥Ö€Õ« Õ­Õ¸Ö‚Õ´Õ¢ Õ¨Õ½Õ¿ Õ¿Õ¥Õ½Õ¡Õ¯Õ«</value>
   </data>
   <data name="GroupBySyncStatusDescription" xml:space="preserve">
-    <value>Խմբավորել տարրերը ըստ համաժամեցման վիճակի</value>
+    <value>Ô½Õ´Õ¢Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¨Õ½Õ¿ Õ°Õ¡Õ´Õ¡ÕªÕ¡Õ´Õ¥ÖÕ´Õ¡Õ¶ Õ¾Õ«Õ³Õ¡Õ¯Õ«</value>
   </data>
   <data name="GroupByTagDescription" xml:space="preserve">
-    <value>Տարրերի խումբ ըստ պիտակների</value>
+    <value>ÕÕ¡Ö€Ö€Õ¥Ö€Õ« Õ­Õ¸Ö‚Õ´Õ¢ Õ¨Õ½Õ¿ ÕºÕ«Õ¿Õ¡Õ¯Õ¶Õ¥Ö€Õ«</value>
   </data>
   <data name="GroupByOriginalFolderDescription" xml:space="preserve">
     <value>Group items by original folder</value>
@@ -2876,7 +2876,7 @@
     <value>Group items by date deleted</value>
   </data>
   <data name="GroupByFolderPathDescription" xml:space="preserve">
-    <value>Խմբավորել տարրերը ըստ պանակի ուղղու</value>
+    <value>Ô½Õ´Õ¢Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨ Õ¨Õ½Õ¿ ÕºÕ¡Õ¶Õ¡Õ¯Õ« Õ¸Ö‚Õ²Õ²Õ¸Ö‚</value>
   </data>
   <data name="GroupAscendingDescription" xml:space="preserve">
     <value>Sort groups in ascending order</value>
@@ -2888,7 +2888,7 @@
     <value>Toggle group sort direction</value>
   </data>
   <data name="NewTabDescription" xml:space="preserve">
-    <value>Բացել նոր ներդիր</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¶Õ¸Ö€ Õ¶Õ¥Ö€Õ¤Õ«Ö€</value>
   </data>
   <data name="NavigateBackDescription" xml:space="preserve">
     <value>Navigate backward</value>
@@ -2897,10 +2897,10 @@
     <value>Navigate forward</value>
   </data>
   <data name="NavigateUpDescription" xml:space="preserve">
-    <value>Նավարկել վերեւ մեկ պանակ</value>
+    <value>Õ†Õ¡Õ¾Õ¡Ö€Õ¯Õ¥Õ¬ Õ¾Õ¥Ö€Õ¥Ö‚ Õ´Õ¥Õ¯ ÕºÕ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="DuplicateSelectedTabDescription" xml:space="preserve">
-    <value>Կրկնօրինակել ընտրված ներդիրը</value>
+    <value>Ô¿Ö€Õ¯Õ¶Ö…Ö€Õ«Õ¶Õ¡Õ¯Õ¥Õ¬ Õ¨Õ¶Õ¿Ö€Õ¾Õ¡Õ® Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¨</value>
   </data>
   <data name="CloseTabsToTheLeftSelectedDescription" xml:space="preserve">
     <value>Close tabs to the left of selected tab</value>
@@ -2912,25 +2912,25 @@
     <value>Close tabs other than selected tab</value>
   </data>
   <data name="CloseAllTabsDescription" xml:space="preserve">
-    <value>Փակել բոլոր ներդիրները, ներառյալ ընթացիկ ներդիրը</value>
+    <value>Õ“Õ¡Õ¯Õ¥Õ¬ Õ¢Õ¸Õ¬Õ¸Ö€ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¶Õ¥Ö€Õ¨, Õ¶Õ¥Ö€Õ¡Õ¼ÕµÕ¡Õ¬ Õ¨Õ¶Õ©Õ¡ÖÕ«Õ¯ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¨</value>
   </data>
   <data name="ReopenClosedTabDescription" xml:space="preserve">
     <value>Reopen recently closed tab</value>
   </data>
   <data name="PreviousTabDescription" xml:space="preserve">
-    <value>Տեղափոխել նախորդ ներդիր</value>
+    <value>ÕÕ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¥Õ¬ Õ¶Õ¡Õ­Õ¸Ö€Õ¤ Õ¶Õ¥Ö€Õ¤Õ«Ö€</value>
   </data>
   <data name="NextTabDescription" xml:space="preserve">
-    <value>Տեղափոխել հաջորդ ներդիր</value>
+    <value>ÕÕ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¥Õ¬ Õ°Õ¡Õ»Õ¸Ö€Õ¤ Õ¶Õ¥Ö€Õ¤Õ«Ö€</value>
   </data>
   <data name="CloseSelectedTabDescription" xml:space="preserve">
-    <value>Փակել ընթացիկ ներդիրը</value>
+    <value>Õ“Õ¡Õ¯Õ¥Õ¬ Õ¨Õ¶Õ©Õ¡ÖÕ«Õ¯ Õ¶Õ¥Ö€Õ¤Õ«Ö€Õ¨</value>
   </data>
   <data name="CloseActivePaneDescription" xml:space="preserve">
     <value>Close the active pane</value>
   </data>
   <data name="FocusOtherPane" xml:space="preserve">
-    <value>Կիզակիտում այլ փեղկին</value>
+    <value>Ô¿Õ«Õ¦Õ¡Õ¯Õ«Õ¿Õ¸Ö‚Õ´ Õ¡ÕµÕ¬ ÖƒÕ¥Õ²Õ¯Õ«Õ¶</value>
   </data>
   <data name="FocusOtherPaneDescription" xml:space="preserve">
     <value>Switch focus to the other pane</value>
@@ -2959,7 +2959,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Space" xml:space="preserve">
-    <value>Բացատ</value>
+    <value>Ô²Õ¡ÖÕ¡Õ¿</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Escape" xml:space="preserve">
@@ -2983,23 +2983,23 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Left" xml:space="preserve">
-    <value>Ձախ</value>
+    <value>ÕÕ¡Õ­</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Right" xml:space="preserve">
-    <value>Աջ</value>
+    <value>Ô±Õ»</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Down" xml:space="preserve">
-    <value>Ներքեւ</value>
+    <value>Õ†Õ¥Ö€Ö„Õ¥Ö‚</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Up" xml:space="preserve">
-    <value>Վերեւ</value>
+    <value>ÕŽÕ¥Ö€Õ¥Ö‚</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Home" xml:space="preserve">
-    <value>Տուն</value>
+    <value>ÕÕ¸Ö‚Õ¶</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.End" xml:space="preserve">
@@ -3027,7 +3027,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Clear" xml:space="preserve">
-    <value>Մաքրել</value>
+    <value>Õ„Õ¡Ö„Ö€Õ¥Õ¬</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Print" xml:space="preserve">
@@ -3035,7 +3035,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Help" xml:space="preserve">
-    <value>Օգնություն</value>
+    <value>Õ•Õ£Õ¶Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Mouse4" xml:space="preserve">
@@ -3047,19 +3047,19 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Application" xml:space="preserve">
-    <value>Հավելված</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¾Õ¡Õ®</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Application1" xml:space="preserve">
-    <value>Հավելված1</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¾Õ¡Õ®1</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Application2" xml:space="preserve">
-    <value>Հավելված2</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¾Õ¡Õ®2</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Mail" xml:space="preserve">
-    <value>Փոստ</value>
+    <value>Õ“Õ¸Õ½Õ¿</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserGoHome" xml:space="preserve">
@@ -3075,19 +3075,19 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserRefresh" xml:space="preserve">
-    <value>ԶննիչիԹարմացում</value>
+    <value>Ô¶Õ¶Õ¶Õ«Õ¹Õ«Ô¹Õ¡Ö€Õ´Õ¡ÖÕ¸Ö‚Õ´</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserStop" xml:space="preserve">
-    <value>ԶնննիչիԿանգ</value>
+    <value>Ô¶Õ¶Õ¶Õ¶Õ«Õ¹Õ«Ô¿Õ¡Õ¶Õ£</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserSearch" xml:space="preserve">
-    <value>Որոնել</value>
+    <value>ÕˆÖ€Õ¸Õ¶Õ¥Õ¬</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserFavorites" xml:space="preserve">
-    <value>Սիրվածներ</value>
+    <value>ÕÕ«Ö€Õ¾Õ¡Õ®Õ¶Õ¥Ö€</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaPlayPause" xml:space="preserve">
@@ -3107,11 +3107,11 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaSelect" xml:space="preserve">
-    <value>ԿրիչիԸնտրություն</value>
+    <value>Ô¿Ö€Õ«Õ¹Õ«Ô¸Õ¶Õ¿Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaMute" xml:space="preserve">
-    <value>Լռեցնել</value>
+    <value>Ô¼Õ¼Õ¥ÖÕ¶Õ¥Õ¬</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaVolumeDown" xml:space="preserve">
@@ -3123,22 +3123,22 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Change" xml:space="preserve">
-    <value>Փոխել</value>
+    <value>Õ“Õ¸Õ­Õ¥Õ¬</value>
   </data>
   <data name="ToggleSelect" xml:space="preserve">
-    <value>Փոխարկել</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬</value>
   </data>
   <data name="ShowFileExtensionWarning" xml:space="preserve">
-    <value>Ցույց տալ զգուշացում նիշքերի ընդլայնումները փոխելիս</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¦Õ£Õ¸Ö‚Õ·Õ¡ÖÕ¸Ö‚Õ´ Õ¶Õ«Õ·Ö„Õ¥Ö€Õ« Õ¨Õ¶Õ¤Õ¬Õ¡ÕµÕ¶Õ¸Ö‚Õ´Õ¶Õ¥Ö€Õ¨ ÖƒÕ¸Õ­Õ¥Õ¬Õ«Õ½</value>
   </data>
   <data name="ThisPC" xml:space="preserve">
-    <value>Այս ԱՀ-ն</value>
+    <value>Ô±ÕµÕ½ Ô±Õ€-Õ¶</value>
   </data>
   <data name="RecycleBin" xml:space="preserve">
-    <value>Աղբաման</value>
+    <value>Ô±Õ²Õ¢Õ¡Õ´Õ¡Õ¶</value>
   </data>
   <data name="Untagged" xml:space="preserve">
-    <value>Ապապիտակված</value>
+    <value>Ô±ÕºÕ¡ÕºÕ«Õ¿Õ¡Õ¯Õ¾Õ¡Õ®</value>
   </data>
   <data name="PreviousTab" xml:space="preserve">
     <value>Previous tab</value>
@@ -3150,16 +3150,16 @@
     <value>Close tab</value>
   </data>
   <data name="EditPath" xml:space="preserve">
-    <value>Խմբագրել ուղին</value>
+    <value>Ô½Õ´Õ¢Õ¡Õ£Ö€Õ¥Õ¬ Õ¸Ö‚Õ²Õ«Õ¶</value>
   </data>
   <data name="Redo" xml:space="preserve">
-    <value>Վերարկել</value>
+    <value>ÕŽÕ¥Ö€Õ¡Ö€Õ¯Õ¥Õ¬</value>
   </data>
   <data name="Undo" xml:space="preserve">
-    <value>Հետարկել</value>
+    <value>Õ€Õ¥Õ¿Õ¡Ö€Õ¯Õ¥Õ¬</value>
   </data>
   <data name="InvalidLocation" xml:space="preserve">
-    <value>Անվավեր տեղադրություն</value>
+    <value>Ô±Õ¶Õ¾Õ¡Õ¾Õ¥Ö€ Õ¿Õ¥Õ²Õ¡Õ¤Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="CopyFileWithoutProperties" xml:space="preserve">
     <value>Are you sure you want to copy these files without their properties?</value>
@@ -3174,13 +3174,13 @@
     <value>Are you sure you want to move these files without their properties?</value>
   </data>
   <data name="ShowCheckboxesWhenSelectingItems" xml:space="preserve">
-    <value>Ցույց տալ նշատուփերը, երբ ընտրում եք տարրերը</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ¶Õ·Õ¡Õ¿Õ¸Ö‚ÖƒÕ¥Ö€Õ¨, Õ¥Ö€Õ¢ Õ¨Õ¶Õ¿Ö€Õ¸Ö‚Õ´ Õ¥Ö„ Õ¿Õ¡Ö€Ö€Õ¥Ö€Õ¨</value>
   </data>
   <data name="EditPathDescription" xml:space="preserve">
     <value>Edit path in the OmniBar</value>
   </data>
   <data name="AddItemDescription" xml:space="preserve">
-    <value>Ստեղծել նոր տարր</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¶Õ¸Ö€ Õ¿Õ¡Ö€Ö€</value>
   </data>
   <data name="SecurityNoAccessControlEntriesText" xml:space="preserve">
     <value>No groups or users have permission to access this object. However, the owner of this object can assign permissions.</value>
@@ -3189,7 +3189,7 @@
     <value>Open the item's location</value>
   </data>
   <data name="DeletePermanently" xml:space="preserve">
-    <value>Ջնջնել ընդմիշտ</value>
+    <value>Õ‹Õ¶Õ»Õ¶Õ¥Õ¬ Õ¨Õ¶Õ¤Õ´Õ«Õ·Õ¿</value>
   </data>
   <data name="DeleteItemPermanentlyDescription" xml:space="preserve">
     <value>Delete selected {0, plural, one {item} other {items}} permanently</value>
@@ -3198,13 +3198,13 @@
     <value>Play the selected media files</value>
   </data>
   <data name="UndoDescription" xml:space="preserve">
-    <value>Հետարկել վերջին նիշքի նախապատրաստում</value>
+    <value>Õ€Õ¥Õ¿Õ¡Ö€Õ¯Õ¥Õ¬ Õ¾Õ¥Ö€Õ»Õ«Õ¶ Õ¶Õ«Õ·Ö„Õ« Õ¶Õ¡Õ­Õ¡ÕºÕ¡Õ¿Ö€Õ¡Õ½Õ¿Õ¸Ö‚Õ´</value>
   </data>
   <data name="RedoDescription" xml:space="preserve">
-    <value>Վերարկել վերջին նիշքի նախապատրաստում</value>
+    <value>ÕŽÕ¥Ö€Õ¡Ö€Õ¯Õ¥Õ¬ Õ¾Õ¥Ö€Õ»Õ«Õ¶ Õ¶Õ«Õ·Ö„Õ« Õ¶Õ¡Õ­Õ¡ÕºÕ¡Õ¿Ö€Õ¡Õ½Õ¿Õ¸Ö‚Õ´</value>
   </data>
   <data name="Location" xml:space="preserve">
-    <value>Տեղադրություն.</value>
+    <value>ÕÕ¥Õ²Õ¡Õ¤Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶.</value>
   </data>
   <data name="GroupByMonthDescription" xml:space="preserve">
     <value>Group items by month</value>
@@ -3213,10 +3213,10 @@
     <value>Group items by year</value>
   </data>
   <data name="Month" xml:space="preserve">
-    <value>Ամիս</value>
+    <value>Ô±Õ´Õ«Õ½</value>
   </data>
   <data name="Day" xml:space="preserve">
-    <value>Օր</value>
+    <value>Õ•Ö€</value>
   </data>
   <data name="ToggleGroupByDateUnitDescription" xml:space="preserve">
     <value>Toggle unit for grouping by date</value>
@@ -3225,10 +3225,10 @@
     <value>Toggle grouping unit</value>
   </data>
   <data name="Year" xml:space="preserve">
-    <value>Տարի</value>
+    <value>ÕÕ¡Ö€Õ«</value>
   </data>
   <data name="GroupByDateUnit" xml:space="preserve">
-    <value>Խումբավորել ըստ ամսաթվի միավորի</value>
+    <value>Ô½Õ¸Ö‚Õ´Õ¢Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¨Õ½Õ¿ Õ¡Õ´Õ½Õ¡Õ©Õ¾Õ« Õ´Õ«Õ¡Õ¾Õ¸Ö€Õ«</value>
   </data>
   <data name="GroupByDateCreatedDayDescription" xml:space="preserve">
     <value>Group items by day of date created</value>
@@ -3237,7 +3237,7 @@
     <value>Group items by month of date created</value>
   </data>
   <data name="GroupByDateCreatedYearDescription" xml:space="preserve">
-    <value>Տարրերի խումբ ըստ ստեղծման տարվա ամսաթվի</value>
+    <value>ÕÕ¡Ö€Ö€Õ¥Ö€Õ« Õ­Õ¸Ö‚Õ´Õ¢ Õ¨Õ½Õ¿ Õ½Õ¿Õ¥Õ²Õ®Õ´Õ¡Õ¶ Õ¿Õ¡Ö€Õ¾Õ¡ Õ¡Õ´Õ½Õ¡Õ©Õ¾Õ«</value>
   </data>
   <data name="GroupByDateDeletedDayDescription" xml:space="preserve">
     <value>Group items by day of date deleted</value>
@@ -3249,13 +3249,13 @@
     <value>Group items by year of date deleted</value>
   </data>
   <data name="GroupByDateModifiedDayDescription" xml:space="preserve">
-    <value>Տարրերի խումբ ըստ փոփոխման օրվա</value>
+    <value>ÕÕ¡Ö€Ö€Õ¥Ö€Õ« Õ­Õ¸Ö‚Õ´Õ¢ Õ¨Õ½Õ¿ ÖƒÕ¸ÖƒÕ¸Õ­Õ´Õ¡Õ¶ Ö…Ö€Õ¾Õ¡</value>
   </data>
   <data name="GroupByDateModifiedMonthDescription" xml:space="preserve">
-    <value>Տարրերի խումբ ըստ փոփխման ամիս</value>
+    <value>ÕÕ¡Ö€Ö€Õ¥Ö€Õ« Õ­Õ¸Ö‚Õ´Õ¢ Õ¨Õ½Õ¿ ÖƒÕ¸ÖƒÕ­Õ´Õ¡Õ¶ Õ¡Õ´Õ«Õ½</value>
   </data>
   <data name="GroupByDateModifiedYearDescription" xml:space="preserve">
-    <value>Տարրերի խումբ ըստ փոփոխման տարվա</value>
+    <value>ÕÕ¡Ö€Ö€Õ¥Ö€Õ« Õ­Õ¸Ö‚Õ´Õ¢ Õ¨Õ½Õ¿ ÖƒÕ¸ÖƒÕ¸Õ­Õ´Õ¡Õ¶ Õ¿Õ¡Ö€Õ¾Õ¡</value>
   </data>
   <data name="SecurityClickAdvancedPermissions" xml:space="preserve">
     <value>Click 'Advanced permissions' to continue.</value>
@@ -3291,79 +3291,79 @@
     <value>Stay on '{0}' and resolve conflicts</value>
   </data>
   <data name="SwitchBranch" xml:space="preserve">
-    <value>Փոխարկել մասնաճյուղ</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ´Õ¡Õ½Õ¶Õ¡Õ³ÕµÕ¸Ö‚Õ²</value>
   </data>
   <data name="Branches" xml:space="preserve">
-    <value>Մասնաճյուղեր</value>
+    <value>Õ„Õ¡Õ½Õ¶Õ¡Õ³ÕµÕ¸Ö‚Õ²Õ¥Ö€</value>
   </data>
   <data name="Switch" xml:space="preserve">
-    <value>Փոխարկել</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬</value>
   </data>
   <data name="NewBranch" xml:space="preserve">
-    <value>Նոր մասնաճուղ</value>
+    <value>Õ†Õ¸Ö€ Õ´Õ¡Õ½Õ¶Õ¡Õ³Õ¸Ö‚Õ²</value>
   </data>
   <data name="InvalidBranchName" xml:space="preserve">
     <value>Invalid branch name</value>
   </data>
   <data name="CreateBranch" xml:space="preserve">
-    <value>Ստեղծել մասնաճուղ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ´Õ¡Õ½Õ¶Õ¡Õ³Õ¸Ö‚Õ²</value>
   </data>
   <data name="CreateNewBranch" xml:space="preserve">
-    <value>Ստեղծել մասնաճուղ</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ´Õ¡Õ½Õ¶Õ¡Õ³Õ¸Ö‚Õ²</value>
   </data>
   <data name="BasedOn" xml:space="preserve">
-    <value>Հիմնված է</value>
+    <value>Õ€Õ«Õ´Õ¶Õ¾Õ¡Õ® Õ§</value>
   </data>
   <data name="SwitchToNewBranch" xml:space="preserve">
-    <value>Փոխարկել նոր մասնաճուղի</value>
+    <value>Õ“Õ¸Õ­Õ¡Ö€Õ¯Õ¥Õ¬ Õ¶Õ¸Ö€ Õ´Õ¡Õ½Õ¶Õ¡Õ³Õ¸Ö‚Õ²Õ«</value>
   </data>
   <data name="CreateFolderWithSelectionDescription" xml:space="preserve">
     <value>Create a folder with the currently selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="OpenProperties" xml:space="preserve">
-    <value>Հատկություններ</value>
+    <value>Õ€Õ¡Õ¿Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="OpenClassicProperties" xml:space="preserve">
     <value>Open File Explorer properties</value>
   </data>
   <data name="OpenPropertiesDescription" xml:space="preserve">
-    <value>Բացել հատկությունների պատուհանը</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ°Õ¡Õ¿Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€Õ« ÕºÕ¡Õ¿Õ¸Ö‚Õ°Õ¡Õ¶Õ¨</value>
   </data>
   <data name="OpenClassicPropertiesDescription" xml:space="preserve">
-    <value>Բացեք Նիշքախույզի հատկությունների պատուհանը</value>
+    <value>Ô²Õ¡ÖÕ¥Ö„ Õ†Õ«Õ·Ö„Õ¡Õ­Õ¸Ö‚ÕµÕ¦Õ« Õ°Õ¡Õ¿Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€Õ« ÕºÕ¡Õ¿Õ¸Ö‚Õ°Õ¡Õ¶Õ¨</value>
   </data>
   <data name="Locals" xml:space="preserve">
-    <value>Տեղայիններ</value>
+    <value>ÕÕ¥Õ²Õ¡ÕµÕ«Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="Remotes" xml:space="preserve">
-    <value>Հեռակառավարումներ</value>
+    <value>Õ€Õ¥Õ¼Õ¡Õ¯Õ¡Õ¼Õ¡Õ¾Õ¡Ö€Õ¸Ö‚Õ´Õ¶Õ¥Ö€</value>
   </data>
   <data name="ImproveTranslation" xml:space="preserve">
-    <value>Թարգմանել Crowdin-ում</value>
+    <value>Ô¹Õ¡Ö€Õ£Õ´Õ¡Õ¶Õ¥Õ¬ Crowdin-Õ¸Ö‚Õ´</value>
   </data>
   <data name="GitFetch" xml:space="preserve">
-    <value>Բերել</value>
+    <value>Ô²Õ¥Ö€Õ¥Õ¬</value>
   </data>
   <data name="GitPull" xml:space="preserve">
-    <value>Իջեցնել</value>
+    <value>Ô»Õ»Õ¥ÖÕ¶Õ¥Õ¬</value>
   </data>
   <data name="GitFetchDescription" xml:space="preserve">
-    <value>Քշել git fetch-ը</value>
+    <value>Õ”Õ·Õ¥Õ¬ git fetch-Õ¨</value>
   </data>
   <data name="GitCloneDescription" xml:space="preserve">
     <value>Clone a git repo</value>
   </data>
   <data name="GitPullDescription" xml:space="preserve">
-    <value>Քշել git pull</value>
+    <value>Õ”Õ·Õ¥Õ¬ git pull</value>
   </data>
   <data name="Preview" xml:space="preserve">
-    <value>Նախադիտում</value>
+    <value>Õ†Õ¡Õ­Õ¡Õ¤Õ«Õ¿Õ¸Ö‚Õ´</value>
   </data>
   <data name="GitStatus" xml:space="preserve">
-    <value>Git-ի վիճակ</value>
+    <value>Git-Õ« Õ¾Õ«Õ³Õ¡Õ¯</value>
   </data>
   <data name="GitError" xml:space="preserve">
-    <value>Git-ի սխալ</value>
+    <value>Git-Õ« Õ½Õ­Õ¡Õ¬</value>
   </data>
   <data name="PullTimeoutError" xml:space="preserve">
     <value>git pull failed due to a timeout error</value>
@@ -3372,50 +3372,50 @@
     <value>Can't pull because your uncommitted changes would be overwritten. Commit, stash, or discard your changes, then try again.</value>
   </data>
   <data name="MultipleValues" xml:space="preserve">
-    <value>(բազմաթիվ արժեքներ)</value>
+    <value>(Õ¢Õ¡Õ¦Õ´Õ¡Õ©Õ«Õ¾ Õ¡Ö€ÕªÕ¥Ö„Õ¶Õ¥Ö€)</value>
     <comment>Text indicating that multiple selected files have different metadata values.</comment>
   </data>
   <data name="Author" xml:space="preserve">
-    <value>Հեղինակ</value>
+    <value>Õ€Õ¥Õ²Õ«Õ¶Õ¡Õ¯</value>
   </data>
   <data name="DateCommitted" xml:space="preserve">
-    <value>Կատարման ամսաթիվ</value>
+    <value>Ô¿Õ¡Õ¿Õ¡Ö€Õ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ«Õ¾</value>
   </data>
   <data name="CommitMessage" xml:space="preserve">
-    <value>Կատարման ուղերձ</value>
+    <value>Ô¿Õ¡Õ¿Õ¡Ö€Õ´Õ¡Õ¶ Õ¸Ö‚Õ²Õ¥Ö€Õ±</value>
   </data>
   <data name="CommitSha" xml:space="preserve">
-    <value>Պարտավորվել SHA</value>
+    <value>ÕŠÕ¡Ö€Õ¿Õ¡Õ¾Õ¸Ö€Õ¾Õ¥Õ¬ SHA</value>
   </data>
   <data name="Git" xml:space="preserve">
     <value>Git</value>
   </data>
   <data name="Acrylic" xml:space="preserve">
-    <value>Ջրաներկ</value>
+    <value>Õ‹Ö€Õ¡Õ¶Õ¥Ö€Õ¯</value>
   </data>
   <data name="Mica" xml:space="preserve">
-    <value>Փայլար</value>
+    <value>Õ“Õ¡ÕµÕ¬Õ¡Ö€</value>
   </data>
   <data name="MicaAlt" xml:space="preserve">
-    <value>Փայլար Այլ</value>
+    <value>Õ“Õ¡ÕµÕ¬Õ¡Ö€ Ô±ÕµÕ¬</value>
   </data>
   <data name="BackdropMaterial" xml:space="preserve">
-    <value>Հետնանյութ</value>
+    <value>Õ€Õ¥Õ¿Õ¶Õ¡Õ¶ÕµÕ¸Ö‚Õ©</value>
   </data>
   <data name="Solid" xml:space="preserve">
-    <value>Պինդ</value>
+    <value>ÕŠÕ«Õ¶Õ¤</value>
   </data>
   <data name="ManageBranches" xml:space="preserve">
-    <value>Կառվարաել ճյուղերը</value>
+    <value>Ô¿Õ¡Õ¼Õ¾Õ¡Ö€Õ¡Õ¥Õ¬ Õ³ÕµÕ¸Ö‚Õ²Õ¥Ö€Õ¨</value>
   </data>
   <data name="Push" xml:space="preserve">
-    <value>Հրել</value>
+    <value>Õ€Ö€Õ¥Õ¬</value>
   </data>
   <data name="GitPushDescription" xml:space="preserve">
-    <value>Քշել git push</value>
+    <value>Õ”Õ·Õ¥Õ¬ git push</value>
   </data>
   <data name="GitSync" xml:space="preserve">
-    <value>Հմժմ</value>
+    <value>Õ€Õ´ÕªÕ´</value>
   </data>
   <data name="GitSyncDescription" xml:space="preserve">
     <value>Run git pull and then git push</value>
@@ -3424,40 +3424,40 @@
     <value>{0} outgoing / {1} incoming commits</value>
   </data>
   <data name="ConnectGitHub" xml:space="preserve">
-    <value>Կապակցել GitHub-ին</value>
+    <value>Ô¿Õ¡ÕºÕ¡Õ¯ÖÕ¥Õ¬ GitHub-Õ«Õ¶</value>
   </data>
   <data name="ConnectGitHubDescription" xml:space="preserve">
     <value>Enter the following code at the link below to start working with GitHub repositories.</value>
   </data>
   <data name="CannotReachGitHubError" xml:space="preserve">
-    <value>Files-ը չի կարող մտնել GitHub այս պահին</value>
+    <value>Files-Õ¨ Õ¹Õ« Õ¯Õ¡Ö€Õ¸Õ² Õ´Õ¿Õ¶Õ¥Õ¬ GitHub Õ¡ÕµÕ½ ÕºÕ¡Õ°Õ«Õ¶</value>
   </data>
   <data name="OpenInIDE" xml:space="preserve">
-    <value>Բացել պանակը {0}-ում</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ ÕºÕ¡Õ¶Õ¡Õ¯Õ¨ {0}-Õ¸Ö‚Õ´</value>
   </data>
   <data name="OpenInIDEDescription" xml:space="preserve">
     <value>Open the current directory in {0}</value>
   </data>
   <data name="OpenRepoInIDE" xml:space="preserve">
-    <value>Բացել պահուստը առ {0}</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ ÕºÕ¡Õ°Õ¸Ö‚Õ½Õ¿Õ¨ Õ¡Õ¼ {0}</value>
   </data>
   <data name="OpenRepoInIDEDescription" xml:space="preserve">
     <value>Open the root of the Git repo in {0}</value>
   </data>
   <data name="CopyCode" xml:space="preserve">
-    <value>Պատճենել կոդը</value>
+    <value>ÕŠÕ¡Õ¿Õ³Õ¥Õ¶Õ¥Õ¬ Õ¯Õ¸Õ¤Õ¨</value>
   </data>
   <data name="Added" xml:space="preserve">
-    <value>Հավելված</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¾Õ¡Õ®</value>
   </data>
   <data name="Deleted" xml:space="preserve">
-    <value>Ջնջված</value>
+    <value>Õ‹Õ¶Õ»Õ¾Õ¡Õ®</value>
   </data>
   <data name="Modified" xml:space="preserve">
-    <value>Փոփոխված</value>
+    <value>Õ“Õ¸ÖƒÕ¸Õ­Õ¾Õ¡Õ®</value>
   </data>
   <data name="Untracked" xml:space="preserve">
-    <value>Անհետեւելի</value>
+    <value>Ô±Õ¶Õ°Õ¥Õ¿Õ¥Ö‚Õ¥Õ¬Õ«</value>
   </data>
   <data name="UnableToDisplayOwner" xml:space="preserve">
     <value>Unable to display current owner.</value>
@@ -3466,7 +3466,7 @@
     <value>Great! You are now authorized.</value>
   </data>
   <data name="InitRepo" xml:space="preserve">
-    <value>Գործարկել պահուստը</value>
+    <value>Ô³Õ¸Ö€Õ®Õ¡Ö€Õ¯Õ¥Õ¬ ÕºÕ¡Õ°Õ¸Ö‚Õ½Õ¿Õ¨</value>
   </data>
   <data name="InitRepoDescription" xml:space="preserve">
     <value>Initialize current folder as a git repository</value>
@@ -3475,10 +3475,10 @@
     <value>Remote Repository Name</value>
   </data>
   <data name="GitCurrentBranch" xml:space="preserve">
-    <value>Ընթացիկ ճյուղ</value>
+    <value>Ô¸Õ¶Õ©Õ¡ÖÕ«Õ¯ Õ³ÕµÕ¸Ö‚Õ²</value>
   </data>
   <data name="PathColumn" xml:space="preserve">
-    <value>Ուղու սյունակ</value>
+    <value>ÕˆÖ‚Õ²Õ¸Ö‚ Õ½ÕµÕ¸Ö‚Õ¶Õ¡Õ¯</value>
   </data>
   <data name="SortByPathDescription" xml:space="preserve">
     <value>Sort items by path</value>
@@ -3499,20 +3499,20 @@
     <value>Open selected directory in a new window</value>
   </data>
   <data name="OpenAllTaggedItems" xml:space="preserve">
-    <value>Բացել բոլորը</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¢Õ¸Õ¬Õ¸Ö€Õ¨</value>
   </data>
   <data name="OpenAllTaggedItemsDescription" xml:space="preserve">
     <value>Open all tagged items</value>
   </data>
   <data name="DriveWithLetter" xml:space="preserve">
-    <value>Հիշասարքներ ({0})</value>
+    <value>Õ€Õ«Õ·Õ¡Õ½Õ¡Ö€Ö„Õ¶Õ¥Ö€ ({0})</value>
     <comment>{0} is the drive letter.</comment>
   </data>
   <data name="InvalidCommand" xml:space="preserve">
-    <value>Սխալ հրաման</value>
+    <value>ÕÕ­Õ¡Õ¬ Õ°Ö€Õ¡Õ´Õ¡Õ¶</value>
   </data>
   <data name="InvalidCommandContent" xml:space="preserve">
-    <value>«{0}»-ը չի ճանաչվում որպես հրաման:</value>
+    <value>Â«{0}Â»-Õ¨ Õ¹Õ« Õ³Õ¡Õ¶Õ¡Õ¹Õ¾Õ¸Ö‚Õ´ Õ¸Ö€ÕºÕ¥Õ½ Õ°Ö€Õ¡Õ´Õ¡Õ¶:</value>
   </data>
   <data name="CommandNotExecutable" xml:space="preserve">
     <value>Command not executable</value>
@@ -3527,120 +3527,120 @@
     <value>Open Command Palette in the OmniBar</value>
   </data>
   <data name="ShortcutItemWorkingDir" xml:space="preserve">
-    <value>Սկսել ի.</value>
+    <value>ÕÕ¯Õ½Õ¥Õ¬ Õ«.</value>
   </data>
   <data name="TurnOnBitLocker" xml:space="preserve">
-    <value>Միացնել BitLocker-ը</value>
+    <value>Õ„Õ«Õ¡ÖÕ¶Õ¥Õ¬ BitLocker-Õ¨</value>
   </data>
   <data name="ManageBitLocker" xml:space="preserve">
-    <value>Կառավարել BitLocker-ը</value>
+    <value>Ô¿Õ¡Õ¼Õ¡Õ¾Õ¡Ö€Õ¥Õ¬ BitLocker-Õ¨</value>
   </data>
   <data name="CopyFailureFileToLarge" xml:space="preserve">
     <value>The following items are too large to be copied to this drive</value>
   </data>
   <data name="FormatDrive" xml:space="preserve">
-    <value>Ձեւաչափել հիշասարք</value>
+    <value>ÕÕ¥Ö‚Õ¡Õ¹Õ¡ÖƒÕ¥Õ¬ Õ°Õ«Õ·Õ¡Õ½Õ¡Ö€Ö„</value>
   </data>
   <data name="DontShowAgain" xml:space="preserve">
-    <value>Այլեւս չցուցադրել</value>
+    <value>Ô±ÕµÕ¬Õ¥Ö‚Õ½ Õ¹ÖÕ¸Ö‚ÖÕ¡Õ¤Ö€Õ¥Õ¬</value>
   </data>
   <data name="FilesRunningAsAdmin" xml:space="preserve">
     <value>Files is running as administrator</value>
   </data>
   <data name="FilesRunningAsAdminContent" xml:space="preserve">
-    <value>Windows-ի եւ WinAppSdk-ի սահմանափակման պատճառով, քաշել եւ գցել հնարավոր չէ Files-ը որպես վարիչ գործարկելիս:  Եթե ​​ցանկանում եք օգտագործել քաշել եւ գցել, կարող եք հաղթահարել այս սահմանափակումը՝ բացելով UAC-ը (User Account Control) Մեկնարկի Ցանկից եւ ընտրելով երրորդ մակարդակը ու վերագործարկելով Windows-ը:  Հակառակ դեպքում, դուք կարող եք շարունակել օգտագործել Files-ը՝ առանց քաշելու և գցելու:</value>
+    <value>Windows-Õ« Õ¥Ö‚ WinAppSdk-Õ« Õ½Õ¡Õ°Õ´Õ¡Õ¶Õ¡ÖƒÕ¡Õ¯Õ´Õ¡Õ¶ ÕºÕ¡Õ¿Õ³Õ¡Õ¼Õ¸Õ¾, Ö„Õ¡Õ·Õ¥Õ¬ Õ¥Ö‚ Õ£ÖÕ¥Õ¬ Õ°Õ¶Õ¡Ö€Õ¡Õ¾Õ¸Ö€ Õ¹Õ§ Files-Õ¨ Õ¸Ö€ÕºÕ¥Õ½ Õ¾Õ¡Ö€Õ«Õ¹ Õ£Õ¸Ö€Õ®Õ¡Ö€Õ¯Õ¥Õ¬Õ«Õ½:  ÔµÕ©Õ¥ â€‹â€‹ÖÕ¡Õ¶Õ¯Õ¡Õ¶Õ¸Ö‚Õ´ Õ¥Ö„ Ö…Õ£Õ¿Õ¡Õ£Õ¸Ö€Õ®Õ¥Õ¬ Ö„Õ¡Õ·Õ¥Õ¬ Õ¥Ö‚ Õ£ÖÕ¥Õ¬, Õ¯Õ¡Ö€Õ¸Õ² Õ¥Ö„ Õ°Õ¡Õ²Õ©Õ¡Õ°Õ¡Ö€Õ¥Õ¬ Õ¡ÕµÕ½ Õ½Õ¡Õ°Õ´Õ¡Õ¶Õ¡ÖƒÕ¡Õ¯Õ¸Ö‚Õ´Õ¨Õ Õ¢Õ¡ÖÕ¥Õ¬Õ¸Õ¾ UAC-Õ¨ (User Account Control) Õ„Õ¥Õ¯Õ¶Õ¡Ö€Õ¯Õ« Õ‘Õ¡Õ¶Õ¯Õ«Ö Õ¥Ö‚ Õ¨Õ¶Õ¿Ö€Õ¥Õ¬Õ¸Õ¾ Õ¥Ö€Ö€Õ¸Ö€Õ¤ Õ´Õ¡Õ¯Õ¡Ö€Õ¤Õ¡Õ¯Õ¨ Õ¸Ö‚ Õ¾Õ¥Ö€Õ¡Õ£Õ¸Ö€Õ®Õ¡Ö€Õ¯Õ¥Õ¬Õ¸Õ¾ Windows-Õ¨:  Õ€Õ¡Õ¯Õ¡Õ¼Õ¡Õ¯ Õ¤Õ¥ÕºÖ„Õ¸Ö‚Õ´, Õ¤Õ¸Ö‚Ö„ Õ¯Õ¡Ö€Õ¸Õ² Õ¥Ö„ Õ·Õ¡Ö€Õ¸Ö‚Õ¶Õ¡Õ¯Õ¥Õ¬ Ö…Õ£Õ¿Õ¡Õ£Õ¸Ö€Õ®Õ¥Õ¬ Files-Õ¨Õ Õ¡Õ¼Õ¡Õ¶Ö Ö„Õ¡Õ·Õ¥Õ¬Õ¸Ö‚ Ö‡ Õ£ÖÕ¥Õ¬Õ¸Ö‚:</value>
   </data>
   <data name="SettingsLeaveAppRunning" xml:space="preserve">
-    <value>Թողել հավելվածի աշխատի խորքում, երբ պատուհանը փակ է</value>
+    <value>Ô¹Õ¸Õ²Õ¥Õ¬ Õ°Õ¡Õ¾Õ¥Õ¬Õ¾Õ¡Õ®Õ« Õ¡Õ·Õ­Õ¡Õ¿Õ« Õ­Õ¸Ö€Ö„Õ¸Ö‚Õ´, Õ¥Ö€Õ¢ ÕºÕ¡Õ¿Õ¸Ö‚Õ°Õ¡Õ¶Õ¨ ÖƒÕ¡Õ¯ Õ§</value>
   </data>
   <data name="Blue" xml:space="preserve">
-    <value>Կապույտ</value>
+    <value>Ô¿Õ¡ÕºÕ¸Ö‚ÕµÕ¿</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="BlueGray" xml:space="preserve">
-    <value>Կապտագորշ</value>
+    <value>Ô¿Õ¡ÕºÕ¿Õ¡Õ£Õ¸Ö€Õ·</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="BrickRed" xml:space="preserve">
-    <value>Աղյուսե Կարմիր</value>
+    <value>Ô±Õ²ÕµÕ¸Ö‚Õ½Õ¥ Ô¿Õ¡Ö€Õ´Õ«Ö€</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Camouflage" xml:space="preserve">
-    <value>Հողագույն</value>
+    <value>Õ€Õ¸Õ²Õ¡Õ£Õ¸Ö‚ÕµÕ¶</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="CoolBlueBright" xml:space="preserve">
-    <value>Սառը Պայծառ Կապույտ</value>
+    <value>ÕÕ¡Õ¼Õ¨ ÕŠÕ¡ÕµÕ®Õ¡Õ¼ Ô¿Õ¡ÕºÕ¸Ö‚ÕµÕ¿</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Gray" xml:space="preserve">
-    <value>Գորշ</value>
+    <value>Ô³Õ¸Ö€Õ·</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="GrayDark" xml:space="preserve">
-    <value>Մուգ Գորշ</value>
+    <value>Õ„Õ¸Ö‚Õ£ Ô³Õ¸Ö€Õ·</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Green" xml:space="preserve">
-    <value>Կանաչ</value>
+    <value>Ô¿Õ¡Õ¶Õ¡Õ¹</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="IrisPastel" xml:space="preserve">
-    <value>Հիրիկ Կավիճ</value>
+    <value>Õ€Õ«Ö€Õ«Õ¯ Ô¿Õ¡Õ¾Õ«Õ³</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="MintLight" xml:space="preserve">
-    <value>Բաց Անանուխ</value>
+    <value>Ô²Õ¡Ö Ô±Õ¶Õ¡Õ¶Õ¸Ö‚Õ­</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="ModRed" xml:space="preserve">
-    <value>Մուգ Կարմիր</value>
+    <value>Õ„Õ¸Ö‚Õ£ Ô¿Õ¡Ö€Õ´Õ«Ö€</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="OrangeBright" xml:space="preserve">
-    <value>Պայծառ Նարնջ</value>
+    <value>ÕŠÕ¡ÕµÕ®Õ¡Õ¼ Õ†Õ¡Ö€Õ¶Õ»</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Overcast" xml:space="preserve">
-    <value>Ամպամած</value>
+    <value>Ô±Õ´ÕºÕ¡Õ´Õ¡Õ®</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Red" xml:space="preserve">
-    <value>Կարմիր</value>
+    <value>Ô¿Õ¡Ö€Õ´Õ«Ö€</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="RoseBright" xml:space="preserve">
-    <value>Պայծառ Վարդ</value>
+    <value>ÕŠÕ¡ÕµÕ®Õ¡Õ¼ ÕŽÕ¡Ö€Õ¤</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Seafoam" xml:space="preserve">
-    <value>Ծովափրփուռ</value>
+    <value>Ô¾Õ¸Õ¾Õ¡ÖƒÖ€ÖƒÕ¸Ö‚Õ¼</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Storm" xml:space="preserve">
-    <value>Փոթորիկ</value>
+    <value>Õ“Õ¸Õ©Õ¸Ö€Õ«Õ¯</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="VioletRedLight" xml:space="preserve">
-    <value>Բաց Կարմիր Մանուշակ</value>
+    <value>Ô²Õ¡Ö Ô¿Õ¡Ö€Õ´Õ«Ö€ Õ„Õ¡Õ¶Õ¸Ö‚Õ·Õ¡Õ¯</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="YellowGold" xml:space="preserve">
-    <value>Ոսկե Դեղին</value>
+    <value>ÕˆÕ½Õ¯Õ¥ Ô´Õ¥Õ²Õ«Õ¶</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="ClearCompleted" xml:space="preserve">
-    <value>Մաքրել ավարտածները</value>
+    <value>Õ„Õ¡Ö„Ö€Õ¥Õ¬ Õ¡Õ¾Õ¡Ö€Õ¿Õ¡Õ®Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="NameWithColon" xml:space="preserve">
-    <value>Անուն.</value>
+    <value>Ô±Õ¶Õ¸Ö‚Õ¶.</value>
   </data>
   <data name="StatusCenter_ProcessedSize_Header" xml:space="preserve">
     <value>{0} of {1} processed</value>
     <comment>Shown in a StatusCenter card. Used as "64 MB of 1 GB processed"</comment>
   </data>
   <data name="ItemsLower" xml:space="preserve">
-    <value>տարր</value>
+    <value>Õ¿Õ¡Ö€Ö€</value>
   </data>
   <data name="CannotInitializeGitRepo" xml:space="preserve">
     <value>Files can't initialize this directory as a Git repository.</value>
@@ -3649,7 +3649,7 @@
     <value>Contributing Artist</value>
   </data>
   <data name="AddPage" xml:space="preserve">
-    <value>Հավելել էջ</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¥Õ¬ Õ§Õ»</value>
   </data>
   <data name="ProcessingItems" xml:space="preserve">
     <value>Processing items...</value>
@@ -3658,7 +3658,7 @@
     <value>Discovering items...</value>
   </data>
   <data name="SpeedWithColon" xml:space="preserve">
-    <value>Արագություն.</value>
+    <value>Ô±Ö€Õ¡Õ£Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶.</value>
   </data>
   <data name="StatusCenter_CompressCanceled_Header" xml:space="preserve">
     <value>Canceled compressing {0} items to "{1}"</value>
@@ -3885,7 +3885,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressComplete_Header" xml:space="preserve">
-    <value>Արտահանել «{0}» դեպի «{1}»</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ°Õ¡Õ¶Õ¥Õ¬ Â«{0}Â» Õ¤Õ¥ÕºÕ« Â«{1}Â»</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressComplete_SubHeader" xml:space="preserve">
@@ -3901,7 +3901,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressInProgress_Header" xml:space="preserve">
-    <value>Արտահանում «{0}»-ից «{1}»</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ°Õ¡Õ¶Õ¸Ö‚Õ´ Â«{0}Â»-Õ«Ö Â«{1}Â»</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressInProgress_SubHeader" xml:space="preserve">
@@ -3973,15 +3973,15 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinFailed_Header" xml:space="preserve">
-    <value>Սխալ Աղբարկղը դատարկելուց</value>
+    <value>ÕÕ­Õ¡Õ¬ Ô±Õ²Õ¢Õ¡Ö€Õ¯Õ²Õ¨ Õ¤Õ¡Õ¿Õ¡Ö€Õ¯Õ¥Õ¬Õ¸Ö‚Ö</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinFailed_SubHeader" xml:space="preserve">
-    <value>Աղբարկղը դատակելը ձախողվեց</value>
+    <value>Ô±Õ²Õ¢Õ¡Ö€Õ¯Õ²Õ¨ Õ¤Õ¡Õ¿Õ¡Õ¯Õ¥Õ¬Õ¨ Õ±Õ¡Õ­Õ¸Õ²Õ¾Õ¥Ö</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_Prepare_Header" xml:space="preserve">
-    <value>Գործակաման նախապատրաստում...</value>
+    <value>Ô³Õ¸Ö€Õ®Õ¡Õ¯Õ¡Õ´Õ¡Õ¶ Õ¶Õ¡Õ­Õ¡ÕºÕ¡Õ¿Ö€Õ¡Õ½Õ¿Õ¸Ö‚Õ´...</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_ProcessedItems_Header" xml:space="preserve">
@@ -3992,10 +3992,10 @@
     <value>Unblock downloaded file</value>
   </data>
   <data name="NoFileOperations" xml:space="preserve">
-    <value>Չկան ընթացիկ նիշքի գործողություններ</value>
+    <value>Õ‰Õ¯Õ¡Õ¶ Õ¨Õ¶Õ©Õ¡ÖÕ«Õ¯ Õ¶Õ«Õ·Ö„Õ« Õ£Õ¸Ö€Õ®Õ¸Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="OpenOnStartupDisabled" xml:space="preserve">
-    <value>Windows Startup-ում Files-ը բացելու տարբերակը հասանելի չէ ձեր համակարգի կայանքների կամ խմբային քաղաքականության պատճառով: Վերամիացնելու համար բացեք գործարկման էջը Խնդիրների Կառավարիչում:</value>
+    <value>Windows Startup-Õ¸Ö‚Õ´ Files-Õ¨ Õ¢Õ¡ÖÕ¥Õ¬Õ¸Ö‚ Õ¿Õ¡Ö€Õ¢Õ¥Ö€Õ¡Õ¯Õ¨ Õ°Õ¡Õ½Õ¡Õ¶Õ¥Õ¬Õ« Õ¹Õ§ Õ±Õ¥Ö€ Õ°Õ¡Õ´Õ¡Õ¯Õ¡Ö€Õ£Õ« Õ¯Õ¡ÕµÕ¡Õ¶Ö„Õ¶Õ¥Ö€Õ« Õ¯Õ¡Õ´ Õ­Õ´Õ¢Õ¡ÕµÕ«Õ¶ Ö„Õ¡Õ²Õ¡Ö„Õ¡Õ¯Õ¡Õ¶Õ¸Ö‚Õ©ÕµÕ¡Õ¶ ÕºÕ¡Õ¿Õ³Õ¡Õ¼Õ¸Õ¾: ÕŽÕ¥Ö€Õ¡Õ´Õ«Õ¡ÖÕ¶Õ¥Õ¬Õ¸Ö‚ Õ°Õ¡Õ´Õ¡Ö€ Õ¢Õ¡ÖÕ¥Ö„ Õ£Õ¸Ö€Õ®Õ¡Ö€Õ¯Õ´Õ¡Õ¶ Õ§Õ»Õ¨ Ô½Õ¶Õ¤Õ«Ö€Õ¶Õ¥Ö€Õ« Ô¿Õ¡Õ¼Õ¡Õ¾Õ¡Ö€Õ«Õ¹Õ¸Ö‚Õ´:</value>
   </data>
   <data name="FailedToRestore" xml:space="preserve">
     <value>Failed to restore items from Recycle Bin</value>
@@ -4007,22 +4007,22 @@
     <value>Failed to open the settings file</value>
   </data>
   <data name="GitDeleteBranch" xml:space="preserve">
-    <value>Ջնջել Git մասնաճյուղը</value>
+    <value>Õ‹Õ¶Õ»Õ¥Õ¬ Git Õ´Õ¡Õ½Õ¶Õ¡Õ³ÕµÕ¸Ö‚Õ²Õ¨</value>
   </data>
   <data name="GitDeleteBranchSubtitle" xml:space="preserve">
-    <value>Իսկապե՞ս ուզում եք ընդմիշտ ջնջել «{0}» մասնաճյուղը:</value>
+    <value>Ô»Õ½Õ¯Õ¡ÕºÕ¥ÕžÕ½ Õ¸Ö‚Õ¦Õ¸Ö‚Õ´ Õ¥Ö„ Õ¨Õ¶Õ¤Õ´Õ«Õ·Õ¿ Õ»Õ¶Õ»Õ¥Õ¬ Â«{0}Â» Õ´Õ¡Õ½Õ¶Õ¡Õ³ÕµÕ¸Ö‚Õ²Õ¨:</value>
   </data>
   <data name="ConnectedToGitHub" xml:space="preserve">
-    <value>Կապակցված է GitHub-ին</value>
+    <value>Ô¿Õ¡ÕºÕ¡Õ¯ÖÕ¾Õ¡Õ® Õ§ GitHub-Õ«Õ¶</value>
   </data>
   <data name="Logout" xml:space="preserve">
-    <value>Դուրս գալ</value>
+    <value>Ô´Õ¸Ö‚Ö€Õ½ Õ£Õ¡Õ¬</value>
   </data>
   <data name="ConnectToGitHub" xml:space="preserve">
-    <value>Կապակցել GitHub-ին</value>
+    <value>Ô¿Õ¡ÕºÕ¡Õ¯ÖÕ¥Õ¬ GitHub-Õ«Õ¶</value>
   </data>
   <data name="Login" xml:space="preserve">
-    <value>Մտնել</value>
+    <value>Õ„Õ¿Õ¶Õ¥Õ¬</value>
   </data>
   <data name="ErrorApplyingTagContent" xml:space="preserve">
     <value>Tags are currently only compatible on drives formatted as NTFS.</value>
@@ -4034,49 +4034,49 @@
     <value>Extract selected {0, plural, one {archive} other {archives}} here for single-item or to new folder for multi-item</value>
   </data>
   <data name="ExtractHereSmart" xml:space="preserve">
-    <value>Արտահանել այստեղ (Խելացի)</value>
+    <value>Ô±Ö€Õ¿Õ¡Õ°Õ¡Õ¶Õ¥Õ¬ Õ¡ÕµÕ½Õ¿Õ¥Õ² (Ô½Õ¥Õ¬Õ¡ÖÕ«)</value>
   </data>
   <data name="SortFilesAndFoldersTogether" xml:space="preserve">
-    <value>Դասավորել նիշքերը եւ պանակները միասին</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¶Õ«Õ·Ö„Õ¥Ö€Õ¨ Õ¥Ö‚ ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ¨ Õ´Õ«Õ¡Õ½Õ«Õ¶</value>
   </data>
   <data name="SortFilesAndFoldersTogetherDescription" xml:space="preserve">
     <value>Sort files and folders in the same list</value>
   </data>
   <data name="SortFilesFirst" xml:space="preserve">
-    <value>Դասավորել առաջինը նիշքերը</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¡Õ¼Õ¡Õ»Õ«Õ¶Õ¨ Õ¶Õ«Õ·Ö„Õ¥Ö€Õ¨</value>
   </data>
   <data name="SortFilesFirstDescription" xml:space="preserve">
-    <value>Դասավորել նիշքեր</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¶Õ«Õ·Ö„Õ¥Ö€</value>
   </data>
   <data name="SortFoldersFirst" xml:space="preserve">
-    <value>Դասավորել առաջինը պանակները</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¡Õ¼Õ¡Õ»Õ«Õ¶Õ¨ ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="SortFoldersFirstDescription" xml:space="preserve">
-    <value>Դասավորել առաջինը պանակները, հետո նիշքերը</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¡Õ¼Õ¡Õ»Õ«Õ¶Õ¨ ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€Õ¨, Õ°Õ¥Õ¿Õ¸ Õ¶Õ«Õ·Ö„Õ¥Ö€Õ¨</value>
   </data>
   <data name="SortPriority" xml:space="preserve">
-    <value>Դասավորել առաջնահերթությունը</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ Õ¡Õ¼Õ¡Õ»Õ¶Õ¡Õ°Õ¥Ö€Õ©Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="FailedToRotateImage" xml:space="preserve">
     <value>Failed to rotate the image</value>
   </data>
   <data name="Restart" xml:space="preserve">
-    <value>Վերագործարել</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ£Õ¸Ö€Õ®Õ¡Ö€Õ¥Õ¬</value>
   </data>
   <data name="Quit" xml:space="preserve">
-    <value>Ելք</value>
+    <value>ÔµÕ¬Ö„</value>
   </data>
   <data name="FaildToShareItems" xml:space="preserve">
     <value>Failed to share items</value>
   </data>
   <data name="ScrollToPreviousFolderWhenNavigatingUp" xml:space="preserve">
-    <value>Վերեւ նավարկելիս ոլորեք դեպի նախորդ պանակ</value>
+    <value>ÕŽÕ¥Ö€Õ¥Ö‚ Õ¶Õ¡Õ¾Õ¡Ö€Õ¯Õ¥Õ¬Õ«Õ½ Õ¸Õ¬Õ¸Ö€Õ¥Ö„ Õ¤Õ¥ÕºÕ« Õ¶Õ¡Õ­Õ¸Ö€Õ¤ ÕºÕ¡Õ¶Õ¡Õ¯</value>
   </data>
   <data name="NewWindowDescription" xml:space="preserve">
-    <value>Բացել նոր պատուհան</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¶Õ¸Ö€ ÕºÕ¡Õ¿Õ¸Ö‚Õ°Õ¡Õ¶</value>
   </data>
   <data name="ChangeAlbumCover" xml:space="preserve">
-    <value>Փոխել ալբոմի շապիկը</value>
+    <value>Õ“Õ¸Õ­Õ¥Õ¬ Õ¡Õ¬Õ¢Õ¸Õ´Õ« Õ·Õ¡ÕºÕ«Õ¯Õ¨</value>
   </data>
   <data name="RemoveAlbumCover" xml:space="preserve">
     <value>Remove album cover</value>
@@ -4088,98 +4088,98 @@
     <value>Editing "{0}" requires additional permissions</value>
   </data>
   <data name="EditPermissions" xml:space="preserve">
-    <value>Խմբագրել թույլատությունները</value>
+    <value>Ô½Õ´Õ¢Õ¡Õ£Ö€Õ¥Õ¬ Õ©Õ¸Ö‚ÕµÕ¬Õ¡Õ¿Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="BackgroundRunningNotificationBody" xml:space="preserve">
-    <value>Նիշքերը դեռ աշխատում են խորքում՝ գործարկման արդյունավետությունը բարելավելու համար:</value>
+    <value>Õ†Õ«Õ·Ö„Õ¥Ö€Õ¨ Õ¤Õ¥Õ¼ Õ¡Õ·Õ­Õ¡Õ¿Õ¸Ö‚Õ´ Õ¥Õ¶ Õ­Õ¸Ö€Ö„Õ¸Ö‚Õ´Õ Õ£Õ¸Ö€Õ®Õ¡Ö€Õ¯Õ´Õ¡Õ¶ Õ¡Ö€Õ¤ÕµÕ¸Ö‚Õ¶Õ¡Õ¾Õ¥Õ¿Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨ Õ¢Õ¡Ö€Õ¥Õ¬Õ¡Õ¾Õ¥Õ¬Õ¸Ö‚ Õ°Õ¡Õ´Õ¡Ö€:</value>
   </data>
   <data name="BackgroundRunningNotificationHeader" xml:space="preserve">
-    <value>Ո՞ւր է գնացել Files-ը</value>
+    <value>ÕˆÕžÖ‚Ö€ Õ§ Õ£Õ¶Õ¡ÖÕ¥Õ¬ Files-Õ¨</value>
   </data>
   <data name="QuestionsAndDiscussions" xml:space="preserve">
-    <value>Հարցեր և քննարկումներ</value>
+    <value>Õ€Õ¡Ö€ÖÕ¥Ö€ Ö‡ Ö„Õ¶Õ¶Õ¡Ö€Õ¯Õ¸Ö‚Õ´Õ¶Õ¥Ö€</value>
   </data>
   <data name="Compact" xml:space="preserve">
-    <value>Սեղմ</value>
+    <value>ÕÕ¥Õ²Õ´</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Small" xml:space="preserve">
-    <value>Փոքր</value>
+    <value>Õ“Õ¸Ö„Ö€</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium" xml:space="preserve">
-    <value>Միջին</value>
+    <value>Õ„Õ«Õ»Õ«Õ¶</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium+" xml:space="preserve">
-    <value>Միջին +</value>
+    <value>Õ„Õ«Õ»Õ«Õ¶ +</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium++" xml:space="preserve">
-    <value>Միջին ++</value>
+    <value>Õ„Õ«Õ»Õ«Õ¶ ++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium+++" xml:space="preserve">
-    <value>Միջին +++</value>
+    <value>Õ„Õ«Õ»Õ«Õ¶ +++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium++++" xml:space="preserve">
-    <value>Միջին ++++</value>
+    <value>Õ„Õ«Õ»Õ«Õ¶ ++++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium+++++" xml:space="preserve">
-    <value>Միջին +++++</value>
+    <value>Õ„Õ«Õ»Õ«Õ¶ +++++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large" xml:space="preserve">
-    <value>Սեծ</value>
+    <value>ÕÕ¥Õ®</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large+" xml:space="preserve">
-    <value>Մեծ +</value>
+    <value>Õ„Õ¥Õ® +</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large++" xml:space="preserve">
-    <value>Սեծ ++</value>
+    <value>ÕÕ¥Õ® ++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large+++" xml:space="preserve">
-    <value>Մեծ +++</value>
+    <value>Õ„Õ¥Õ® +++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="ExtraLarge" xml:space="preserve">
-    <value>Չափազանց մեծ</value>
+    <value>Õ‰Õ¡ÖƒÕ¡Õ¦Õ¡Õ¶Ö Õ´Õ¥Õ®</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="DetailsView" xml:space="preserve">
-    <value>Մանրամասների դիտում</value>
+    <value>Õ„Õ¡Õ¶Ö€Õ¡Õ´Õ¡Õ½Õ¶Õ¥Ö€Õ« Õ¤Õ«Õ¿Õ¸Ö‚Õ´</value>
   </data>
   <data name="LayoutType" xml:space="preserve">
-    <value>Դիրքի տեսակ</value>
+    <value>Ô´Õ«Ö€Ö„Õ« Õ¿Õ¥Õ½Õ¡Õ¯</value>
   </data>
   <data name="Actions" xml:space="preserve">
-    <value>Գործողություններ</value>
+    <value>Ô³Õ¸Ö€Õ®Õ¸Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="Action" xml:space="preserve">
     <value>Action</value>
   </data>
   <data name="Commands" xml:space="preserve">
-    <value>Հրամաններ</value>
+    <value>Õ€Ö€Õ¡Õ´Õ¡Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="AddCommand" xml:space="preserve">
-    <value>Հավելել հրաման</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¥Õ¬ Õ°Ö€Õ¡Õ´Õ¡Õ¶</value>
   </data>
   <data name="RestoreDefaults" xml:space="preserve">
-    <value>Վերականգնել լռելյայնի</value>
+    <value>ÕŽÕ¥Ö€Õ¡Õ¯Õ¡Õ¶Õ£Õ¶Õ¥Õ¬ Õ¬Õ¼Õ¥Õ¬ÕµÕ¡ÕµÕ¶Õ«</value>
   </data>
   <data name="ChooseAnAction" xml:space="preserve">
-    <value>Ընտրել գործողություն</value>
+    <value>Ô¸Õ¶Õ¿Ö€Õ¥Õ¬ Õ£Õ¸Ö€Õ®Õ¸Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="RestoreDefaultKeybindingsConfirmation" xml:space="preserve">
-    <value>Իսկապե՞ս ուզում եք վերականգնել լռելյայն ստեղների կապումը: Այս գործողությունը հնարավոր չէ հետարկել</value>
+    <value>Ô»Õ½Õ¯Õ¡ÕºÕ¥ÕžÕ½ Õ¸Ö‚Õ¦Õ¸Ö‚Õ´ Õ¥Ö„ Õ¾Õ¥Ö€Õ¡Õ¯Õ¡Õ¶Õ£Õ¶Õ¥Õ¬ Õ¬Õ¼Õ¥Õ¬ÕµÕ¡ÕµÕ¶ Õ½Õ¿Õ¥Õ²Õ¶Õ¥Ö€Õ« Õ¯Õ¡ÕºÕ¸Ö‚Õ´Õ¨: Ô±ÕµÕ½ Õ£Õ¸Ö€Õ®Õ¸Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨ Õ°Õ¶Õ¡Ö€Õ¡Õ¾Õ¸Ö€ Õ¹Õ§ Õ°Õ¥Õ¿Õ¡Ö€Õ¯Õ¥Õ¬</value>
   </data>
   <data name="KeybindingAlreadyUsedNotification" xml:space="preserve">
-    <value>Այս ստեղիտ կապումն արդեն օգտագործվում է, խնդրում ենք ընտրել այլ ստեղն՝ շարունակելու համար:</value>
+    <value>Ô±ÕµÕ½ Õ½Õ¿Õ¥Õ²Õ«Õ¿ Õ¯Õ¡ÕºÕ¸Ö‚Õ´Õ¶ Õ¡Ö€Õ¤Õ¥Õ¶ Ö…Õ£Õ¿Õ¡Õ£Õ¸Ö€Õ®Õ¾Õ¸Ö‚Õ´ Õ§, Õ­Õ¶Õ¤Ö€Õ¸Ö‚Õ´ Õ¥Õ¶Ö„ Õ¨Õ¶Õ¿Ö€Õ¥Õ¬ Õ¡ÕµÕ¬ Õ½Õ¿Õ¥Õ²Õ¶Õ Õ·Õ¡Ö€Õ¸Ö‚Õ¶Õ¡Õ¯Õ¥Õ¬Õ¸Ö‚ Õ°Õ¡Õ´Õ¡Ö€:</value>
   </data>
   <data name="KeybindingInvalidKeyNotification" xml:space="preserve">
     <value>The key binding you choose cannot be used, please try again using a different key binding.</value>
@@ -4191,60 +4191,60 @@
     <value>Are you sure you want to remove this key binding?</value>
   </data>
   <data name="Customized" xml:space="preserve">
-    <value>Անհատականեցված</value>
+    <value>Ô±Õ¶Õ°Õ¡Õ¿Õ¡Õ¯Õ¡Õ¶Õ¥ÖÕ¾Õ¡Õ®</value>
   </data>
   <data name="AdaptiveLayoutDisabledNotification" xml:space="preserve">
-    <value>Հարմարվողական դիրքը հասանելի չէ, երբ նախապատվությունները համաժամացվում են։ Լռելյայն դիրքը փոխվել է Մանրամասների:</value>
+    <value>Õ€Õ¡Ö€Õ´Õ¡Ö€Õ¾Õ¸Õ²Õ¡Õ¯Õ¡Õ¶ Õ¤Õ«Ö€Ö„Õ¨ Õ°Õ¡Õ½Õ¡Õ¶Õ¥Õ¬Õ« Õ¹Õ§, Õ¥Ö€Õ¢ Õ¶Õ¡Õ­Õ¡ÕºÕ¡Õ¿Õ¾Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€Õ¨ Õ°Õ¡Õ´Õ¡ÕªÕ¡Õ´Õ¡ÖÕ¾Õ¸Ö‚Õ´ Õ¥Õ¶Ö‰ Ô¼Õ¼Õ¥Õ¬ÕµÕ¡ÕµÕ¶ Õ¤Õ«Ö€Ö„Õ¨ ÖƒÕ¸Õ­Õ¾Õ¥Õ¬ Õ§ Õ„Õ¡Õ¶Ö€Õ¡Õ´Õ¡Õ½Õ¶Õ¥Ö€Õ«:</value>
   </data>
   <data name="BackgroundImage" xml:space="preserve">
-    <value>Խորքի պատկեր</value>
+    <value>Ô½Õ¸Ö€Ö„Õ« ÕºÕ¡Õ¿Õ¯Õ¥Ö€</value>
   </data>
   <data name="Bottom" xml:space="preserve">
-    <value>Ներքեւում</value>
+    <value>Õ†Õ¥Ö€Ö„Õ¥Ö‚Õ¸Ö‚Õ´</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Center" xml:space="preserve">
-    <value>Կենտրոնում</value>
+    <value>Ô¿Õ¥Õ¶Õ¿Ö€Õ¸Õ¶Õ¸Ö‚Õ´</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Fill" xml:space="preserve">
-    <value>Լցնել</value>
+    <value>Ô¼ÖÕ¶Õ¥Õ¬</value>
     <comment>Image stretch type</comment>
   </data>
   <data name="HorizontalAlignment" xml:space="preserve">
-    <value>Ուղղահայաց հավասարեցում</value>
+    <value>ÕˆÖ‚Õ²Õ²Õ¡Õ°Õ¡ÕµÕ¡Ö Õ°Õ¡Õ¾Õ¡Õ½Õ¡Ö€Õ¥ÖÕ¸Ö‚Õ´</value>
   </data>
   <data name="ImageFit" xml:space="preserve">
-    <value>Պատկերի լցում</value>
+    <value>ÕŠÕ¡Õ¿Õ¯Õ¥Ö€Õ« Õ¬ÖÕ¸Ö‚Õ´</value>
   </data>
   <data name="Left" xml:space="preserve">
-    <value>Ձախ</value>
+    <value>ÕÕ¡Õ­</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Opacity" xml:space="preserve">
-    <value>Անթափանցիկություն</value>
+    <value>Ô±Õ¶Õ©Õ¡ÖƒÕ¡Õ¶ÖÕ«Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="Right" xml:space="preserve">
-    <value>Աջ</value>
+    <value>Ô±Õ»</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Top" xml:space="preserve">
-    <value>Վեր</value>
+    <value>ÕŽÕ¥Ö€</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Uniform" xml:space="preserve">
-    <value>Միաձեւ</value>
+    <value>Õ„Õ«Õ¡Õ±Õ¥Ö‚</value>
     <comment>Image stretch type</comment>
   </data>
   <data name="UniformToFill" xml:space="preserve">
-    <value>Միաձեւ լցնել</value>
+    <value>Õ„Õ«Õ¡Õ±Õ¥Ö‚ Õ¬ÖÕ¶Õ¥Õ¬</value>
     <comment>Image stretch type</comment>
   </data>
   <data name="VerticalAlignment" xml:space="preserve">
-    <value>Ուղղաձիգ հավասարեցում</value>
+    <value>ÕˆÖ‚Õ²Õ²Õ¡Õ±Õ«Õ£ Õ°Õ¡Õ¾Õ¡Õ½Õ¡Ö€Õ¥ÖÕ¸Ö‚Õ´</value>
   </data>
   <data name="ThinAcrylic" xml:space="preserve">
-    <value>Բարակ Ջրաներկ</value>
+    <value>Ô²Õ¡Ö€Õ¡Õ¯ Õ‹Ö€Õ¡Õ¶Õ¥Ö€Õ¯</value>
     <comment>This is a type of backdrop for the application background</comment>
   </data>
   <data name="AllLocations" xml:space="preserve">
@@ -4252,7 +4252,7 @@
     <comment>Setting where users can choose to display "Open IDE" button for Git Repos</comment>
   </data>
   <data name="DevTools" xml:space="preserve">
-    <value>Մշակողի գործիքներ</value>
+    <value>Õ„Õ·Õ¡Õ¯Õ¸Õ²Õ« Õ£Õ¸Ö€Õ®Õ«Ö„Õ¶Õ¥Ö€</value>
   </data>
   <data name="DisplayOpenIDE" xml:space="preserve">
     <value>Configure the "Open IDE" button on the status bar</value>
@@ -4262,23 +4262,23 @@
     <comment>Setting where users can choose to display "Open IDE" button for all locations.</comment>
   </data>
   <data name="ApplicationExtension" xml:space="preserve">
-    <value>Հավելվածի ընդլայնում</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¾Õ¡Õ®Õ« Õ¨Õ¶Õ¤Õ¬Õ¡ÕµÕ¶Õ¸Ö‚Õ´</value>
     <comment>This is the friendly name for DLL files.</comment>
   </data>
   <data name="IcoFileCapitalized" xml:space="preserve">
-    <value>ICO Նիշք</value>
+    <value>ICO Õ†Õ«Õ·Ö„</value>
     <comment>This is the friendly name for ICO files.</comment>
   </data>
   <data name="IclFileCapitalized" xml:space="preserve">
-    <value>ICL Նիշք</value>
+    <value>ICL Õ†Õ«Õ·Ö„</value>
     <comment>This is the friendly name for ICL files.</comment>
   </data>
   <data name="ZipFileCapitalized" xml:space="preserve">
-    <value>Zip Նիշք</value>
+    <value>Zip Õ†Õ«Õ·Ö„</value>
     <comment>This is the friendly name for ZIP files.</comment>
   </data>
   <data name="BitmapFiles" xml:space="preserve">
-    <value>Կետապատկերային Նիշքեր</value>
+    <value>Ô¿Õ¥Õ¿Õ¡ÕºÕ¡Õ¿Õ¯Õ¥Ö€Õ¡ÕµÕ«Õ¶ Õ†Õ«Õ·Ö„Õ¥Ö€</value>
     <comment>This is the friendly name for bitmap files.</comment>
   </data>
   <data name="ImageFiles" xml:space="preserve">
@@ -4295,35 +4295,35 @@
     <value>Couldn't convert the image to an icon file</value>
   </data>
   <data name="NumPadTypeName" xml:space="preserve">
-    <value>Համար</value>
+    <value>Õ€Õ¡Õ´Õ¡Ö€</value>
   </data>
   <data name="NetworkLocations" xml:space="preserve">
-    <value>Ցանցի տեղադրություններ</value>
+    <value>Õ‘Õ¡Õ¶ÖÕ« Õ¿Õ¥Õ²Õ¡Õ¤Ö€Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€</value>
   </data>
   <data name="NoNetworkLocationsInfo" xml:space="preserve">
     <value>There are no network locations. If you don't use network locations, you can disable the widget.</value>
   </data>
   <data name="Disable" xml:space="preserve">
-    <value>Անջատել</value>
+    <value>Ô±Õ¶Õ»Õ¡Õ¿Õ¥Õ¬</value>
   </data>
   <data name="EditInNotepad" xml:space="preserve">
-    <value>Խմբագրել Նոթատետրում</value>
+    <value>Ô½Õ´Õ¢Õ¡Õ£Ö€Õ¥Õ¬ Õ†Õ¸Õ©Õ¡Õ¿Õ¥Õ¿Ö€Õ¸Ö‚Õ´</value>
   </data>
   <data name="EditInNotepadDescription" xml:space="preserve">
     <value>Edit the selected file in Notepad</value>
   </data>
   <data name="PropertyDimensionsColon" xml:space="preserve">
-    <value>Չափսեր․</value>
+    <value>Õ‰Õ¡ÖƒÕ½Õ¥Ö€â€¤</value>
   </data>
   <data name="StatusWithColon" xml:space="preserve">
-    <value>Վիճակ.</value>
+    <value>ÕŽÕ«Õ³Õ¡Õ¯.</value>
   </data>
   <data name="ShowToolbar" xml:space="preserve">
-    <value>Ցույց տալ գործիքագոտին</value>
+    <value>Õ‘Õ¸Ö‚ÕµÖ Õ¿Õ¡Õ¬ Õ£Õ¸Ö€Õ®Õ«Ö„Õ¡Õ£Õ¸Õ¿Õ«Õ¶</value>
     <comment>Setting that controls if the toolbar is shown in the main view</comment>
   </data>
   <data name="TabActions" xml:space="preserve">
-    <value>Ներդիրի գործողությունների ցանկ</value>
+    <value>Õ†Õ¥Ö€Õ¤Õ«Ö€Õ« Õ£Õ¸Ö€Õ®Õ¸Õ²Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¶Õ¥Ö€Õ« ÖÕ¡Õ¶Õ¯</value>
   </data>
   <data name="SplitPaneVertically" xml:space="preserve">
     <value>Split vertically</value>
@@ -4356,7 +4356,7 @@
     <value>Show tab actions button in the title bar</value>
   </data>
   <data name="ArrangePanes" xml:space="preserve">
-    <value>Դասավորել փեղկերը</value>
+    <value>Ô´Õ¡Õ½Õ¡Õ¾Õ¸Ö€Õ¥Õ¬ ÖƒÕ¥Õ²Õ¯Õ¥Ö€Õ¨</value>
   </data>
   <data name="DualPaneSplitDirection" xml:space="preserve">
     <value>Default dual pane split direction</value>
@@ -4365,31 +4365,31 @@
     <value>Dual pane mode</value>
   </data>
   <data name="Horizontal" xml:space="preserve">
-    <value>Ուղղահայաց</value>
+    <value>ÕˆÖ‚Õ²Õ²Õ¡Õ°Õ¡ÕµÕ¡Ö</value>
   </data>
   <data name="Vertical" xml:space="preserve">
-    <value>Ուղղահայաց</value>
+    <value>ÕˆÖ‚Õ²Õ²Õ¡Õ°Õ¡ÕµÕ¡Ö</value>
   </data>
   <data name="ShowSystemTrayIcon" xml:space="preserve">
     <value>Show Files icon in the System Tray</value>
   </data>
   <data name="CPUThreads" xml:space="preserve">
-    <value>ԿՄՄ հոսքեր</value>
+    <value>Ô¿Õ„Õ„ Õ°Õ¸Õ½Ö„Õ¥Ö€</value>
   </data>
   <data name="NavigateHomeDescription" xml:space="preserve">
-    <value>Նավարկել դեպի տնէջ</value>
+    <value>Õ†Õ¡Õ¾Õ¡Ö€Õ¯Õ¥Õ¬ Õ¤Õ¥ÕºÕ« Õ¿Õ¶Õ§Õ»</value>
   </data>
   <data name="AddressBar" xml:space="preserve">
     <value>Address bar</value>
   </data>
   <data name="UserID" xml:space="preserve">
-    <value>Օգտվողի ID</value>
+    <value>Õ•Õ£Õ¿Õ¾Õ¸Õ²Õ« ID</value>
   </data>
   <data name="BulkRename" xml:space="preserve">
-    <value>Խմբային վերանվանում</value>
+    <value>Ô½Õ´Õ¢Õ¡ÕµÕ«Õ¶ Õ¾Õ¥Ö€Õ¡Õ¶Õ¾Õ¡Õ¶Õ¸Ö‚Õ´</value>
   </data>
   <data name="CompressContents" xml:space="preserve">
-    <value>Սեղմել բովանդակությունը</value>
+    <value>ÕÕ¥Õ²Õ´Õ¥Õ¬ Õ¢Õ¸Õ¾Õ¡Õ¶Õ¤Õ¡Õ¯Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨</value>
   </data>
   <data name="ShowCreateAlternateDataStream" xml:space="preserve">
     <value>Show option to create alternate data stream</value>
@@ -4407,7 +4407,7 @@
     <value>There was an error creating the alternate data stream</value>
   </data>
   <data name="ErrorCreatingDataStreamDescription" xml:space="preserve">
-    <value>Խնդրում ենք նկատի ունենալ, որ այլընտրանքային տվյալների հոսքերն աշխատում են միայն NTFS ձեւաչափված հիշասարքում:</value>
+    <value>Ô½Õ¶Õ¤Ö€Õ¸Ö‚Õ´ Õ¥Õ¶Ö„ Õ¶Õ¯Õ¡Õ¿Õ« Õ¸Ö‚Õ¶Õ¥Õ¶Õ¡Õ¬, Õ¸Ö€ Õ¡ÕµÕ¬Õ¨Õ¶Õ¿Ö€Õ¡Õ¶Ö„Õ¡ÕµÕ«Õ¶ Õ¿Õ¾ÕµÕ¡Õ¬Õ¶Õ¥Ö€Õ« Õ°Õ¸Õ½Ö„Õ¥Ö€Õ¶ Õ¡Õ·Õ­Õ¡Õ¿Õ¸Ö‚Õ´ Õ¥Õ¶ Õ´Õ«Õ¡ÕµÕ¶ NTFS Õ±Õ¥Ö‚Õ¡Õ¹Õ¡ÖƒÕ¾Õ¡Õ® Õ°Õ«Õ·Õ¡Õ½Õ¡Ö€Ö„Õ¸Ö‚Õ´:</value>
   </data>
   <data name="DataStreamsAreHiddenTitle" xml:space="preserve">
     <value>Alternate data streams are currently hidden</value>
@@ -4416,13 +4416,13 @@
     <value>Would you like to display alternate data streams? You can modify this setting anytime from the files and folders settings page.</value>
   </data>
   <data name="ManageTags" xml:space="preserve">
-    <value>Կառավարել պիտակները</value>
+    <value>Ô¿Õ¡Õ¼Õ¡Õ¾Õ¡Ö€Õ¥Õ¬ ÕºÕ«Õ¿Õ¡Õ¯Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="Available" xml:space="preserve">
-    <value>Հասանելի</value>
+    <value>Õ€Õ¡Õ½Õ¡Õ¶Õ¥Õ¬Õ«</value>
   </data>
   <data name="Total" xml:space="preserve">
-    <value>Ընդամենը</value>
+    <value>Ô¸Õ¶Õ¤Õ¡Õ´Õ¥Õ¶Õ¨</value>
   </data>
   <data name="AlwaysSwitchToNewlyOpenedTab" xml:space="preserve">
     <value>Always switch focus to newly created tab</value>
@@ -4446,20 +4446,20 @@
     <value>Show shelf pane toggle in address bar</value>
   </data>
   <data name="Shelf" xml:space="preserve">
-    <value>Դարակ</value>
+    <value>Ô´Õ¡Ö€Õ¡Õ¯</value>
     <comment>'Shelf' refers to the Shelf Pane feature, where users can conveniently drag and drop files for quick access and perform bulk actions with ease.</comment>
   </data>
   <data name="ClearItems" xml:space="preserve">
-    <value>Մաքրել միույթները</value>
+    <value>Õ„Õ¡Ö„Ö€Õ¥Õ¬ Õ´Õ«Õ¸Ö‚ÕµÕ©Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="BatchAction" xml:space="preserve">
     <value>Batch action</value>
   </data>
   <data name="RemoveFromShelf" xml:space="preserve">
-    <value>Հեռացնել դարակից</value>
+    <value>Õ€Õ¥Õ¼Õ¡ÖÕ¶Õ¥Õ¬ Õ¤Õ¡Ö€Õ¡Õ¯Õ«Ö</value>
   </data>
   <data name="AddToShelf" xml:space="preserve">
-    <value>Հավելել դարակին</value>
+    <value>Õ€Õ¡Õ¾Õ¥Õ¬Õ¥Õ¬ Õ¤Õ¡Ö€Õ¡Õ¯Õ«Õ¶</value>
     <comment>Tooltip that displays when dragging items to the Shelf Pane</comment>
   </data>
   <data name="EnterHashToCompare" xml:space="preserve">
@@ -4475,13 +4475,13 @@
     <comment>Appears when two compared hashes don't match</comment>
   </data>
   <data name="PathOrAlias" xml:space="preserve">
-    <value>Ուղի կամ կեղծանուն</value>
+    <value>ÕˆÖ‚Õ²Õ« Õ¯Õ¡Õ´ Õ¯Õ¥Õ²Õ®Õ¡Õ¶Õ¸Ö‚Õ¶</value>
   </data>
   <data name="InvalidPath" xml:space="preserve">
-    <value>Անվավեր ուղի</value>
+    <value>Ô±Õ¶Õ¾Õ¡Õ¾Õ¥Ö€ Õ¸Ö‚Õ²Õ«</value>
   </data>
   <data name="TestIntegration" xml:space="preserve">
-    <value>Փորձնական ներկառուցում</value>
+    <value>Õ“Õ¸Ö€Õ±Õ¶Õ¡Õ¯Õ¡Õ¶ Õ¶Õ¥Ö€Õ¯Õ¡Õ¼Õ¸Ö‚ÖÕ¸Ö‚Õ´</value>
   </data>
   <data name="IDENotLocatedContent" xml:space="preserve">
     <value>{0} could not be located. Please check your settings and try again.</value>
@@ -4490,7 +4490,7 @@
     <value>The configured IDE could not be located</value>
   </data>
   <data name="OpenSettings" xml:space="preserve">
-    <value>Բացել կայանքները</value>
+    <value>Ô²Õ¡ÖÕ¥Õ¬ Õ¯Õ¡ÕµÕ¡Õ¶Ö„Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="NetworkDiscoveryTurnedOffInfoBarMessage" xml:space="preserve">
     <value>Network discovery is turned off. Network computers and devices are not visible.</value>
@@ -4552,7 +4552,7 @@
     <value>Find features and commands...</value>
   </data>
   <data name="OmnibarSearchModeTextPlaceholder" xml:space="preserve">
-    <value>Փնտրել ֆայլեր և թղթապանակներ...</value>
+    <value>Õ“Õ¶Õ¿Ö€Õ¥Õ¬ Ö†Õ¡ÕµÕ¬Õ¥Ö€ Ö‡ Õ©Õ²Õ©Õ¡ÕºÕ¡Õ¶Õ¡Õ¯Õ¶Õ¥Ö€...</value>
   </data>
   <data name="DuringOngoingFileOperations" xml:space="preserve">
     <value>During file operations</value>
@@ -4759,5 +4759,25 @@
   </data>
   <data name="ConfirmRemoveTagsDialogContent" xml:space="preserve">
     <value>Are you sure you want to remove tags from the selected items?</value>
+  </data>  <data name="SharedTagsPath" xml:space="preserve">
+    <value>Tags &amp; categories storage path</value>
+  </data>
+  <data name="SharedTagsPathDescription" xml:space="preserve">
+    <value>Requires app restart</value>
+  </data>
+  <data name="SharedTagsPathNotSet" xml:space="preserve">
+    <value>Not set (default path)</value>
+  </data>
+  <data name="SharedTagsPathInvalid" xml:space="preserve">
+    <value>Invalid path</value>
+  </data>
+  <data name="SharedTagsPathInvalidDescription" xml:space="preserve">
+    <value>The selected path is not a valid directory.</value>
+  </data>
+  <data name="SharedTagsPathRestartTitle" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="SharedTagsPathRestartMessage" xml:space="preserve">
+    <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
 </root>

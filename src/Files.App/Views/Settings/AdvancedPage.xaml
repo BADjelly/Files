@@ -72,6 +72,27 @@
 				</wctcontrols:SettingsCard.ActionIcon>
 			</wctcontrols:SettingsCard>
 
+			<!--  Shared Tags and Categories Path  -->
+			<wctcontrols:SettingsCard
+				x:Name="SharedTagsPathCard"
+				Header="{helpers:ResourceString Name=SharedTagsPath}"
+				Description="{helpers:ResourceString Name=SharedTagsPathDescription}">
+				<wctcontrols:SettingsCard.HeaderIcon>
+					<FontIcon Glyph="&#xE8EC;" />
+				</wctcontrols:SettingsCard.HeaderIcon>
+				<StackPanel Orientation="Horizontal" Spacing="8">
+					<TextBlock
+						VerticalAlignment="Center"
+						MaxWidth="300"
+						Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+						Text="{x:Bind ViewModel.SharedTagsPathDisplay, Mode=OneWay}"
+						TextTrimming="CharacterEllipsis"
+						TextWrapping="NoWrap" />
+					<Button Command="{x:Bind ViewModel.BrowseSharedTagsPathCommand}" Content="{helpers:ResourceString Name=Browse}" />
+					<Button Command="{x:Bind ViewModel.ClearSharedTagsPathCommand}" Content="{helpers:ResourceString Name=Clear}" />
+				</StackPanel>
+			</wctcontrols:SettingsCard>
+
 			<!--  Open on Windows startup  -->
 			<StackPanel>
 				<!--  Startup disabled InfoBar  -->

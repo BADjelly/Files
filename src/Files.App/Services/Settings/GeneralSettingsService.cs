@@ -459,6 +459,12 @@ namespace Files.App.Services.Settings
 			set => Set(value);
 		}
 
+		public string? SharedTagsPath
+		{
+			get => Get<string?>(null);
+			set => Set(value);
+		}
+
 		protected override void RaiseOnSettingChangedEvent(object sender, SettingChangedEventArgs e)
 		{
 			base.RaiseOnSettingChangedEvent(sender, e);

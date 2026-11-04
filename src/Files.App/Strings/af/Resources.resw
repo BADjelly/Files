@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -196,7 +196,7 @@
     <value>No settings match your search.</value>
   </data>
   <data name="RecentItemDescription.Text" xml:space="preserve">
-    <value>Lêers wat jy voorheen verkry het sal hier verskyn</value>
+    <value>LÃªers wat jy voorheen verkry het sal hier verskyn</value>
   </data>
   <data name="RecentItemRemoveText" xml:space="preserve">
     <value>Remove this item</value>
@@ -220,10 +220,10 @@
     <value>Font</value>
   </data>
   <data name="SettingsFilesAndFoldersShowFileExtensions" xml:space="preserve">
-    <value>Wys uitbreidings vir bekende lêersoorte</value>
+    <value>Wys uitbreidings vir bekende lÃªersoorte</value>
   </data>
   <data name="SettingsFilesAndFoldersShowHiddenItems" xml:space="preserve">
-    <value>Wys versteekte lêers en omslae</value>
+    <value>Wys versteekte lÃªers en omslae</value>
   </data>
   <data name="ShowDotFiles" xml:space="preserve">
     <value>Show dot files</value>
@@ -259,7 +259,7 @@
     <value>Gaan voort waar jy opgehou het</value>
   </data>
   <data name="SettingsOnStartupOpenANewTab.Content" xml:space="preserve">
-    <value>Maak ’n nuwe duimgids oop</value>
+    <value>Maak â€™n nuwe duimgids oop</value>
   </data>
   <data name="SettingsOnStartupOpenASpecificPage.Content" xml:space="preserve">
     <value>Maak 'n spesifieke bladsy of bladsye oop</value>
@@ -358,7 +358,7 @@
     <value>Nuwe omslag</value>
   </data>
   <data name="NewFile" xml:space="preserve">
-    <value>Nuwe lêer</value>
+    <value>Nuwe lÃªer</value>
   </data>
   <data name="EmptyFolder.Text" xml:space="preserve">
     <value>Hierdie omslag is leeg.</value>
@@ -406,7 +406,7 @@
     <value>Cannot open properties for this file</value>
   </data>
   <data name="CannotAccessPropertiesContent" xml:space="preserve">
-    <value>Die lêer wat jy probeer toegang verkry is dalk verskuif of geskrap.</value>
+    <value>Die lÃªer wat jy probeer toegang verkry is dalk verskuif of geskrap.</value>
   </data>
   <data name="FileNotFoundDialogTitle" xml:space="preserve">
     <value>File Not Found</value>
@@ -558,7 +558,7 @@
     <value>Kapasiteit:</value>
   </data>
   <data name="PropertiesDriveFileSystem.Text" xml:space="preserve">
-    <value>Lêerstelsel:</value>
+    <value>LÃªerstelsel:</value>
   </data>
   <data name="JumpListRecentGroupHeader" xml:space="preserve">
     <value>Onlangse</value>
@@ -588,7 +588,7 @@
     <value>Skep kortpad</value>
   </data>
   <data name="OpenFileLocation" xml:space="preserve">
-    <value>Maak lêerligging oop</value>
+    <value>Maak lÃªerligging oop</value>
   </data>
   <data name="PropertiesShortcutItemArgs.Text" xml:space="preserve">
     <value>Argumente:</value>
@@ -624,7 +624,7 @@
     <value>Rapporteer hierdie probleem</value>
   </data>
   <data name="InvalidItemDialogContent" xml:space="preserve">
-    <value>Die item wat verwys word, is óf ongeldig óf ontoeganklik. {0} Foutboodskap: {0}{1}</value>
+    <value>Die item wat verwys word, is Ã³f ongeldig Ã³f ontoeganklik. {0} Foutboodskap: {0}{1}</value>
   </data>
   <data name="InvalidItemDialogTitle" xml:space="preserve">
     <value>Ongeldige item</value>
@@ -693,13 +693,13 @@
     <value>Kies 'n tipe vir hierdie nuwe item hieronder</value>
   </data>
   <data name="File" xml:space="preserve">
-    <value>Lêer</value>
+    <value>LÃªer</value>
   </data>
   <data name="Files" xml:space="preserve">
     <value>Files</value>
   </data>
   <data name="AddDialogListFileSubHeader" xml:space="preserve">
-    <value>Skep 'n leë lêer</value>
+    <value>Skep 'n leÃ« lÃªer</value>
   </data>
   <data name="Folder" xml:space="preserve">
     <value>Omslag</value>
@@ -708,7 +708,7 @@
     <value>Folders</value>
   </data>
   <data name="AddDialogListFolderSubHeader" xml:space="preserve">
-    <value>Skep 'n leë omslag</value>
+    <value>Skep 'n leÃ« omslag</value>
   </data>
   <data name="NavResfreshButton.AutomationProperties.Name" xml:space="preserve">
     <value>Verfris die gids</value>
@@ -970,7 +970,7 @@
     <value>Raam Hoogte</value>
   </data>
   <data name="PropertyOrientation" xml:space="preserve">
-    <value>Oriëntasie</value>
+    <value>OriÃ«ntasie</value>
   </data>
   <data name="PropertySectionCore" xml:space="preserve">
     <value>Kern</value>
@@ -1051,7 +1051,7 @@
     <value>Maak Alle Eienskappe Skoon</value>
   </data>
   <data name="OngoingTasksTeachingTip.Subtitle" xml:space="preserve">
-    <value>Kontroleer die status van lêerbedrywighede hier</value>
+    <value>Kontroleer die status van lÃªerbedrywighede hier</value>
   </data>
   <data name="OngoingTasksTeachingTip.Title" xml:space="preserve">
     <value>Statussentrum</value>
@@ -1069,7 +1069,7 @@
     <value>Nee</value>
   </data>
   <data name="ShowProtectedSystemFiles" xml:space="preserve">
-    <value>Wys beskermde stelsellêers</value>
+    <value>Wys beskermde stelsellÃªers</value>
   </data>
   <data name="SyncFolderPreferencesAcrossDirectories" xml:space="preserve">
     <value>Sinkroniseer uitleg en sorteervoorkeure oor gidse</value>
@@ -1117,7 +1117,7 @@
     <value>Open current folder in other pane</value>
   </data>
   <data name="FilesAndFolders" xml:space="preserve">
-    <value>Lêers en omslae</value>
+    <value>LÃªers en omslae</value>
   </data>
   <data name="NavToolbarDetails.ToolTipService.ToolTip" xml:space="preserve">
     <value>Besonderhede (Ctrl+Shift+1)</value>
@@ -1141,7 +1141,7 @@
     <value>Wissel die besonderhedepaneel</value>
   </data>
   <data name="ToggleDetailsPaneDescription" xml:space="preserve">
-    <value>Wissel die besonderhede paneel om basiese lêer eienskappe te sien</value>
+    <value>Wissel die besonderhede paneel om basiese lÃªer eienskappe te sien</value>
   </data>
   <data name="ToggleInfoPane" xml:space="preserve">
     <value>Wissel die inligtingspaneel</value>
@@ -1183,13 +1183,13 @@
     <value>Netwerk</value>
   </data>
   <data name="PreviewPaneFileDetails.AutomationProperties.Name" xml:space="preserve">
-    <value>Lêerbesonderhede</value>
+    <value>LÃªerbesonderhede</value>
   </data>
   <data name="PreviewPaneFilePreview.AutomationProperties.Name" xml:space="preserve">
-    <value>Lêervoorskou</value>
+    <value>LÃªervoorskou</value>
   </data>
   <data name="SelectedFilePreviewPane.AutomationProperties.Name" xml:space="preserve">
-    <value>Geselekteerde lêervoorskoupaneel</value>
+    <value>Geselekteerde lÃªervoorskoupaneel</value>
   </data>
   <data name="Feedback" xml:space="preserve">
     <value>Terugvoer</value>
@@ -1399,7 +1399,7 @@
     <value>Choose another app</value>
   </data>
   <data name="FileBrowserThumbnailIconColumnGrid.AutomationProperties.Name" xml:space="preserve">
-    <value>Lêerikoon</value>
+    <value>LÃªerikoon</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowOriginalPath.Text" xml:space="preserve">
     <value>Oorspronklike pad kolom</value>
@@ -1453,19 +1453,19 @@
     <value>Gister</value>
   </data>
   <data name="EarlierThisWeek" xml:space="preserve">
-    <value>Vroeër hierdie week</value>
+    <value>VroeÃ«r hierdie week</value>
   </data>
   <data name="LastWeek" xml:space="preserve">
     <value>Verlede week</value>
   </data>
   <data name="EarlierThisMonth" xml:space="preserve">
-    <value>Vroeër hierdie maand</value>
+    <value>VroeÃ«r hierdie maand</value>
   </data>
   <data name="LastMonth" xml:space="preserve">
     <value>Verlede maand</value>
   </data>
   <data name="EarlierThisYear" xml:space="preserve">
-    <value>Vroeër hierdie jaar</value>
+    <value>VroeÃ«r hierdie jaar</value>
   </data>
   <data name="LastYear" xml:space="preserve">
     <value>Verlede jaar</value>
@@ -1567,7 +1567,7 @@
     <value>Restore default libraries</value>
   </data>
   <data name="DialogRestoreLibrariesSubtitleText" xml:space="preserve">
-    <value>Is jy seker jy wil die verstekbiblioteke herstel? Al jou lêers sal op jou stoor bly.</value>
+    <value>Is jy seker jy wil die verstekbiblioteke herstel? Al jou lÃªers sal op jou stoor bly.</value>
   </data>
   <data name="DialogRestoreLibrariesTitleText" xml:space="preserve">
     <value>Herstel Biblioteke</value>
@@ -1588,7 +1588,7 @@
     <value>Vernaamste</value>
   </data>
   <data name="SecurityAdvancedFlagsFilesLabel" xml:space="preserve">
-    <value>lêers</value>
+    <value>lÃªers</value>
   </data>
   <data name="SecurityAdvancedFlagsFolderLabel" xml:space="preserve">
     <value>hierdie omslag</value>
@@ -1597,7 +1597,7 @@
     <value>subomslae</value>
   </data>
   <data name="Inherited" xml:space="preserve">
-    <value>Geërf</value>
+    <value>GeÃ«rf</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Toestemmings</value>
@@ -1606,19 +1606,19 @@
     <value>You do not have permissions to view the security properties of this object. You can try to take ownership of this object.</value>
   </data>
   <data name="SecurityAdvancedFolderFiles.Text" xml:space="preserve">
-    <value>Hierdie omslag en lêers</value>
+    <value>Hierdie omslag en lÃªers</value>
   </data>
   <data name="SecurityAdvancedFolderSubfoldersFiles.Text" xml:space="preserve">
-    <value>Hierdie omslag, subomslae en lêers</value>
+    <value>Hierdie omslag, subomslae en lÃªers</value>
   </data>
   <data name="SecurityAdvancedOnlyFiles.Text" xml:space="preserve">
-    <value>Slegs lêers</value>
+    <value>Slegs lÃªers</value>
   </data>
   <data name="SecurityAdvancedOnlySubfolders.Text" xml:space="preserve">
     <value>Slegs subomslae</value>
   </data>
   <data name="SecurityAdvancedOnlySubfoldersFiles.Text" xml:space="preserve">
-    <value>Slegs subomslae en lêers</value>
+    <value>Slegs subomslae en lÃªers</value>
   </data>
   <data name="SecurityAdvancedOnlyThisFolder.Text" xml:space="preserve">
     <value>Slegs hierdie omslag</value>
@@ -1672,13 +1672,13 @@
     <value>Write extended attributes</value>
   </data>
   <data name="SecurityAdvancedInheritedConvert.Text" xml:space="preserve">
-    <value>Omskep oorgeërfde toestemmings in eksplisiete toestemmings</value>
+    <value>Omskep oorgeÃ«rfde toestemmings in eksplisiete toestemmings</value>
   </data>
   <data name="SecurityAdvancedInheritedEnable.Text" xml:space="preserve">
     <value>Aktiveer erfenis</value>
   </data>
   <data name="SecurityAdvancedInheritedRemove.Text" xml:space="preserve">
-    <value>Verwyder alle oorgeërfde toestemmings</value>
+    <value>Verwyder alle oorgeÃ«rfde toestemmings</value>
   </data>
   <data name="SecurityAdvancedReplaceChildPermissions.Text" xml:space="preserve">
     <value>Stel kindertoestemmings terug</value>
@@ -1696,7 +1696,7 @@
     <value>Verlaat kompakte oorleg</value>
   </data>
   <data name="PropertyFileDescription" xml:space="preserve">
-    <value>Lêerbeskrywing</value>
+    <value>LÃªerbeskrywing</value>
   </data>
   <data name="PropertyCompany" xml:space="preserve">
     <value>Maatskappy</value>
@@ -1708,7 +1708,7 @@
     <value>Handelsmerke</value>
   </data>
   <data name="PropertyFileVersion" xml:space="preserve">
-    <value>Lêerweergawe</value>
+    <value>LÃªerweergawe</value>
   </data>
   <data name="PreviewPaneLoadCloudItemButton.Text" xml:space="preserve">
     <value>Laai volle voorskou</value>
@@ -1729,7 +1729,7 @@
     <value>Hide {0} section</value>
   </data>
   <data name="AddFile" xml:space="preserve">
-    <value>Voeg lêer by</value>
+    <value>Voeg lÃªer by</value>
   </data>
   <data name="ConsentDialogTitle" xml:space="preserve">
     <value>Bywerkings beskikbaar</value>
@@ -1762,7 +1762,7 @@
     <value>Onbekend</value>
   </data>
   <data name="EditTags" xml:space="preserve">
-    <value>Redigeer lêermerkers</value>
+    <value>Redigeer lÃªermerkers</value>
   </data>
   <data name="PropertyPartOfSet" xml:space="preserve">
     <value>Deel van stel</value>
@@ -1840,13 +1840,13 @@
     <value>Dien foutverslag in</value>
   </data>
   <data name="SettingsSetAsDefaultFileManager" xml:space="preserve">
-    <value>Stel Files as die versteklêerbestuurder op</value>
+    <value>Stel Files as die versteklÃªerbestuurder op</value>
   </data>
   <data name="SettingsSetAsOpenDialog" xml:space="preserve">
-    <value>Gebruik Files as oop lêerdialoog</value>
+    <value>Gebruik Files as oop lÃªerdialoog</value>
   </data>
   <data name="Tag" xml:space="preserve">
-    <value>Lêermerker</value>
+    <value>LÃªermerker</value>
   </data>
   <data name="OpenFilesWithOneClick" xml:space="preserve">
     <value>Open files with a single click</value>
@@ -1861,7 +1861,7 @@
     <value>Voer instellings in</value>
   </data>
   <data name="SettingsImportErrorDescription" xml:space="preserve">
-    <value>Kon nie instellings invoer nie. Die instellingslêer is korrup.</value>
+    <value>Kon nie instellings invoer nie. Die instellingslÃªer is korrup.</value>
   </data>
   <data name="SettingsImportErrorTitle" xml:space="preserve">
     <value>Fout met die invoer van instellings</value>
@@ -1882,7 +1882,7 @@
     <value>Herstel verstek</value>
   </data>
   <data name="OpenTabInExistingInstance" xml:space="preserve">
-    <value>Maak oortjie oop in bestaande instansie wanneer lêers vanaf 'n ander toepassing oopgemaak word</value>
+    <value>Maak oortjie oop in bestaande instansie wanneer lÃªers vanaf 'n ander toepassing oopgemaak word</value>
   </data>
   <data name="StartupSettings" xml:space="preserve">
     <value>Opstartinstellings</value>
@@ -1963,7 +1963,7 @@
     <value>Third party libraries</value>
   </data>
   <data name="SettingsSetAsDefaultFileManagerDescription" xml:space="preserve">
-    <value>Hierdie instelling verander stelsellêers en kan onverwagte newe-effekte op jou toestel hê. Die ontwikkelaars neem geen verantwoordelikheid in die geval dat 'n probleem as gevolg daarvan plaasvind nie. Om voort te gaan met hierdie opsie is 'n erkenning van die risiko's wat by hierdie aksie betrokke is.</value>
+    <value>Hierdie instelling verander stelsellÃªers en kan onverwagte newe-effekte op jou toestel hÃª. Die ontwikkelaars neem geen verantwoordelikheid in die geval dat 'n probleem as gevolg daarvan plaasvind nie. Om voort te gaan met hierdie opsie is 'n erkenning van die risiko's wat by hierdie aksie betrokke is.</value>
   </data>
   <data name="ShowFlattenOptionsDescription" xml:space="preserve">
     <value>The flatten operations are permanent and not recommended. Continue at your own risk.</value>
@@ -1978,7 +1978,7 @@
     <value>Bereken vouergroottes</value>
   </data>
   <data name="RecentFiles" xml:space="preserve">
-    <value>Onlangse lêers</value>
+    <value>Onlangse lÃªers</value>
   </data>
   <data name="SettingsOpenInLogin" xml:space="preserve">
     <value>Open Files on Windows startup</value>
@@ -2008,7 +2008,7 @@
     <value>Uitreksel</value>
   </data>
   <data name="ExtractFiles" xml:space="preserve">
-    <value>Onttrek lêers</value>
+    <value>Onttrek lÃªers</value>
   </data>
   <data name="ExtractHere" xml:space="preserve">
     <value>Onttrek hier</value>
@@ -2889,7 +2889,7 @@
     <value>Toggle group sort direction</value>
   </data>
   <data name="NewTabDescription" xml:space="preserve">
-    <value>Maak ’n nuwe duimgids oop</value>
+    <value>Maak â€™n nuwe duimgids oop</value>
   </data>
   <data name="NavigateBackDescription" xml:space="preserve">
     <value>Navigate backward</value>
@@ -3742,19 +3742,19 @@
     <comment>Shown in Status Center for Git checkout. {0} is the branch and {1} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitFetchCanceled_Header" xml:space="preserve">
-    <value>Haal van afgeleë veranderinge vir "{0}" gekanselleer</value>
+    <value>Haal van afgeleÃ« veranderinge vir "{0}" gekanselleer</value>
     <comment>Shown in Status Center for Git fetch. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitFetchComplete_Header" xml:space="preserve">
-    <value>Afgeleë veranderinge vir "{0}" gehaal</value>
+    <value>AfgeleÃ« veranderinge vir "{0}" gehaal</value>
     <comment>Shown in Status Center for Git fetch. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitFetchFailed_Header" xml:space="preserve">
-    <value>Kon nie afgeleë veranderinge vir "{0}" haal nie</value>
+    <value>Kon nie afgeleÃ« veranderinge vir "{0}" haal nie</value>
     <comment>Shown in Status Center for Git fetch. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitFetchInProgress_Header" xml:space="preserve">
-    <value>Haal tans afgeleë veranderinge vir "{0}"</value>
+    <value>Haal tans afgeleÃ« veranderinge vir "{0}"</value>
     <comment>Shown in Status Center for Git fetch. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitOperationProgress" xml:space="preserve">
@@ -3762,19 +3762,19 @@
     <comment>Shown in Status Center during a Git operation. {0} is the percentage from 0 to 100.</comment>
   </data>
   <data name="StatusCenter_GitPullCanceled_Header" xml:space="preserve">
-    <value>Intrek van afgeleë veranderinge in "{0}" gekanselleer</value>
+    <value>Intrek van afgeleÃ« veranderinge in "{0}" gekanselleer</value>
     <comment>Shown in Status Center for Git pull. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitPullComplete_Header" xml:space="preserve">
-    <value>Afgeleë veranderinge in "{0}" ingetrek</value>
+    <value>AfgeleÃ« veranderinge in "{0}" ingetrek</value>
     <comment>Shown in Status Center for Git pull. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitPullFailed_Header" xml:space="preserve">
-    <value>Kon nie afgeleë veranderinge in "{0}" intrek nie</value>
+    <value>Kon nie afgeleÃ« veranderinge in "{0}" intrek nie</value>
     <comment>Shown in Status Center for Git pull. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitPullInProgress_Header" xml:space="preserve">
-    <value>Trek tans afgeleë veranderinge in "{0}" in</value>
+    <value>Trek tans afgeleÃ« veranderinge in "{0}" in</value>
     <comment>Shown in Status Center for Git pull. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitPushCanceled_Header" xml:space="preserve">
@@ -3794,19 +3794,19 @@
     <comment>Shown in Status Center for Git push. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitSyncCanceled_Header" xml:space="preserve">
-    <value>Sinkronisering van plaaslike en afgeleë commits vir "{0}" gekanselleer</value>
+    <value>Sinkronisering van plaaslike en afgeleÃ« commits vir "{0}" gekanselleer</value>
     <comment>Shown in Status Center for Git sync. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitSyncComplete_Header" xml:space="preserve">
-    <value>Plaaslike en afgeleë commits vir "{0}" gesinkroniseer</value>
+    <value>Plaaslike en afgeleÃ« commits vir "{0}" gesinkroniseer</value>
     <comment>Shown in Status Center for Git sync. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitSyncFailed_Header" xml:space="preserve">
-    <value>Kon nie plaaslike en afgeleë commits vir "{0}" sinkroniseer nie</value>
+    <value>Kon nie plaaslike en afgeleÃ« commits vir "{0}" sinkroniseer nie</value>
     <comment>Shown in Status Center for Git sync. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitSyncInProgress_Header" xml:space="preserve">
-    <value>Sinkroniseer tans plaaslike en afgeleë commits vir "{0}"</value>
+    <value>Sinkroniseer tans plaaslike en afgeleÃ« commits vir "{0}"</value>
     <comment>Shown in Status Center for Git sync. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_InstallFontCanceled_Header" xml:space="preserve">
@@ -4528,7 +4528,7 @@
     <comment>Cannot clone repo dialog title</comment>
   </data>
   <data name="CompareFile" xml:space="preserve">
-    <value>Vergelyk 'n lêer</value>
+    <value>Vergelyk 'n lÃªer</value>
     <comment>Button that appears in file hash properties that allows the user to compare two files</comment>
   </data>
   <data name="SizeFormat" xml:space="preserve">
@@ -4553,7 +4553,7 @@
     <value>Find features and commands...</value>
   </data>
   <data name="OmnibarSearchModeTextPlaceholder" xml:space="preserve">
-    <value>Soek vir lêers en gidse...</value>
+    <value>Soek vir lÃªers en gidse...</value>
   </data>
   <data name="DuringOngoingFileOperations" xml:space="preserve">
     <value>During file operations</value>
@@ -4588,7 +4588,7 @@
     <value>Filtreer vir</value>
   </data>
   <data name="Filename" xml:space="preserve">
-    <value>Lêernaam</value>
+    <value>LÃªernaam</value>
   </data>
   <data name="Signatures" xml:space="preserve">
     <value>Handtekeninge</value>
@@ -4760,5 +4760,25 @@
   </data>
   <data name="ConfirmRemoveTagsDialogContent" xml:space="preserve">
     <value>Are you sure you want to remove tags from the selected items?</value>
+  </data>  <data name="SharedTagsPath" xml:space="preserve">
+    <value>Tags &amp; categories storage path</value>
+  </data>
+  <data name="SharedTagsPathDescription" xml:space="preserve">
+    <value>Requires app restart</value>
+  </data>
+  <data name="SharedTagsPathNotSet" xml:space="preserve">
+    <value>Not set (default path)</value>
+  </data>
+  <data name="SharedTagsPathInvalid" xml:space="preserve">
+    <value>Invalid path</value>
+  </data>
+  <data name="SharedTagsPathInvalidDescription" xml:space="preserve">
+    <value>The selected path is not a valid directory.</value>
+  </data>
+  <data name="SharedTagsPathRestartTitle" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="SharedTagsPathRestartMessage" xml:space="preserve">
+    <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -160,7 +160,7 @@
     <value>La cartella di destinazione</value>
   </data>
   <data name="ErrorDialogIsASubfolder" xml:space="preserve">
-    <value>è una sottocartella della cartella di origine</value>
+    <value>Ã¨ una sottocartella della cartella di origine</value>
   </data>
   <data name="Skip" xml:space="preserve">
     <value>Salta</value>
@@ -262,7 +262,7 @@
     <value>Apri una nuova scheda</value>
   </data>
   <data name="SettingsOnStartupOpenASpecificPage.Content" xml:space="preserve">
-    <value>Apri una o più specifiche pagine</value>
+    <value>Apri una o piÃ¹ specifiche pagine</value>
   </data>
   <data name="Desktop" xml:space="preserve">
     <value>Desktop</value>
@@ -289,7 +289,7 @@
     <value>Nuovo</value>
   </data>
   <data name="Properties" xml:space="preserve">
-    <value>Proprietà</value>
+    <value>ProprietÃ </value>
   </data>
   <data name="Open" xml:space="preserve">
     <value>Apri</value>
@@ -319,7 +319,7 @@
     <value>Concedi l'autorizzazione</value>
   </data>
   <data name="WelcomeDialogTextBlockText" xml:space="preserve">
-    <value>Per iniziare, devi concedere l'autorizzazione per visualizzare i tuoi file. Si aprirà una pagina delle Impostazioni in cui puoi concedere questa autorizzazione. Sarà necessario riaprire l'app quando avrai concesso l'autorizzazione. </value>
+    <value>Per iniziare, devi concedere l'autorizzazione per visualizzare i tuoi file. Si aprirÃ  una pagina delle Impostazioni in cui puoi concedere questa autorizzazione. SarÃ  necessario riaprire l'app quando avrai concesso l'autorizzazione. </value>
   </data>
   <data name="Display" xml:space="preserve">
     <value>Mostra</value>
@@ -361,7 +361,7 @@
     <value>Nuovo file</value>
   </data>
   <data name="EmptyFolder.Text" xml:space="preserve">
-    <value>Questa cartella è vuota</value>
+    <value>Questa cartella Ã¨ vuota</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Indietro</value>
@@ -376,13 +376,13 @@
     <value>Aggiorna</value>
   </data>
   <data name="ItemAlreadyExistsDialogContent" xml:space="preserve">
-    <value>Un elemento con lo stesso nome esiste già in questa cartella.</value>
+    <value>Un elemento con lo stesso nome esiste giÃ  in questa cartella.</value>
   </data>
   <data name="ItemAlreadyExistsDialogSecondaryButtonText" xml:space="preserve">
     <value>Sostituisci elemento</value>
   </data>
   <data name="ItemAlreadyExistsDialogTitle" xml:space="preserve">
-    <value>L'elemento esiste già</value>
+    <value>L'elemento esiste giÃ </value>
   </data>
   <data name="SetAsLockscreen" xml:space="preserve">
     <value>Imposta come sfondo della schermata di blocco</value>
@@ -394,16 +394,16 @@
     <value>Impossibile eliminare questo elemento</value>
   </data>
   <data name="DriveUnpluggedDialogText" xml:space="preserve">
-    <value>Inserire l'unità necessaria per accedere a questo elemento.</value>
+    <value>Inserire l'unitÃ  necessaria per accedere a questo elemento.</value>
   </data>
   <data name="DriveUnpluggedDialogTitle" xml:space="preserve">
-    <value>Unità scollegata</value>
+    <value>UnitÃ  scollegata</value>
   </data>
   <data name="FileNotFoundDialogText" xml:space="preserve">
     <value>Il file a cui stai tentando di accedere potrebbe essere stato spostato o eliminato.</value>
   </data>
   <data name="CannotAccessPropertiesTitle" xml:space="preserve">
-    <value>Impossibile aprire le proprietà di questo file</value>
+    <value>Impossibile aprire le proprietÃ  di questo file</value>
   </data>
   <data name="CannotAccessPropertiesContent" xml:space="preserve">
     <value>Il file a cui stai tentando di accedere potrebbe essere stato spostato o eliminato.</value>
@@ -418,16 +418,16 @@
     <value>Hai eliminato questa cartella?</value>
   </data>
   <data name="FileInUseByDialogText" xml:space="preserve">
-    <value>Il file a cui stai tentando di accedere è attualmente utilizzato da {0}</value>
+    <value>Il file a cui stai tentando di accedere Ã¨ attualmente utilizzato da {0}</value>
   </data>
   <data name="FileInUseDialogText" xml:space="preserve">
-    <value>Il file a cui stai tentando di accedere è attualmente utilizzato da un'altra applicazione</value>
+    <value>Il file a cui stai tentando di accedere Ã¨ attualmente utilizzato da un'altra applicazione</value>
   </data>
   <data name="FileInUseDialogTitle" xml:space="preserve">
-    <value>Il file è in uso</value>
+    <value>Il file Ã¨ in uso</value>
   </data>
   <data name="CannotRunFileDialogTitle" xml:space="preserve">
-    <value>Questa applicazione non può essere eseguita sul tuo PC</value>
+    <value>Questa applicazione non puÃ² essere eseguita sul tuo PC</value>
   </data>
   <data name="CannotRunFileDialogText" xml:space="preserve">
     <value>Per trovare una versione per il tuo PC, controlla con l'editore del software.</value>
@@ -478,7 +478,7 @@
     <value>Ora</value>
   </data>
   <data name="ErrorDialogUnsupportedOperation" xml:space="preserve">
-    <value>L'operazione richiesta non è supportata</value>
+    <value>L'operazione richiesta non Ã¨ supportata</value>
   </data>
   <data name="DriveFreeSpaceAndCapacity" xml:space="preserve">
     <value>{0} disponibili su {1}</value>
@@ -487,10 +487,10 @@
     <value>Invia a</value>
   </data>
   <data name="FileNameTeachingTip.Subtitle" xml:space="preserve">
-    <value>Il nome dell'elemento non può contenere i seguenti caratteri: \ / : * ? "  |</value>
+    <value>Il nome dell'elemento non puÃ² contenere i seguenti caratteri: \ / : * ? "  |</value>
   </data>
   <data name="InvalidFilename.Text" xml:space="preserve">
-    <value>Il nome specificato non è valido</value>
+    <value>Il nome specificato non Ã¨ valido</value>
   </data>
   <data name="SelectedItems" xml:space="preserve">
     <value>{0, plural, one {# elemento selezionato} other {# elementi selezionati}}</value>
@@ -501,7 +501,7 @@
     <comment>ICU format for plurals, more information here: https://support.crowdin.com/icu-message-syntax/#plural</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Sì</value>
+    <value>SÃ¬</value>
   </data>
   <data name="ConfirmEmptyBinDialogContent" xml:space="preserve">
     <value>Sei sicuro di voler cancellare permanentemente questi elementi?</value>
@@ -555,7 +555,7 @@
     <value>Spazio disponibile:</value>
   </data>
   <data name="PropertiesDriveCapacity.Text" xml:space="preserve">
-    <value>Capacità:</value>
+    <value>CapacitÃ :</value>
   </data>
   <data name="PropertiesDriveFileSystem.Text" xml:space="preserve">
     <value>File system:</value>
@@ -618,13 +618,13 @@
     <value>Files ha riscontrato un problema per cui gli sviluppatori non erano pronti.</value>
   </data>
   <data name="ExceptionNotificationHeader" xml:space="preserve">
-    <value>Si è verificato un errore.</value>
+    <value>Si Ã¨ verificato un errore.</value>
   </data>
   <data name="ExceptionNotificationReportButton" xml:space="preserve">
     <value>Segnala questo problema</value>
   </data>
   <data name="InvalidItemDialogContent" xml:space="preserve">
-    <value>L'elemento è non valido o è inaccessibile.{0}Messaggio di errore:{0}{1}</value>
+    <value>L'elemento Ã¨ non valido o Ã¨ inaccessibile.{0}Messaggio di errore:{0}{1}</value>
   </data>
   <data name="InvalidItemDialogTitle" xml:space="preserve">
     <value>Elemento non valido</value>
@@ -639,7 +639,7 @@
     <value>Gli elementi selezionati saranno condivisi</value>
   </data>
   <data name="ShareDialogSingleItemDescription" xml:space="preserve">
-    <value>L'elemento selezionato sarà condiviso</value>
+    <value>L'elemento selezionato sarÃ  condiviso</value>
   </data>
   <data name="ShareDialogTitle" xml:space="preserve">
     <value>Condivisione di {0}</value>
@@ -648,25 +648,25 @@
     <value>Condivisionne di {0} {1}</value>
   </data>
   <data name="RenameErrorItemDeletedText" xml:space="preserve">
-    <value>L'elemento che stai cercando di rinominare non esiste più. Verifica la posizione corretta dell'elemento da rinominare.</value>
+    <value>L'elemento che stai cercando di rinominare non esiste piÃ¹. Verifica la posizione corretta dell'elemento da rinominare.</value>
   </data>
   <data name="RenameErrorItemDeletedTitle" xml:space="preserve">
     <value>Elemento non esistente</value>
   </data>
   <data name="RenameErrorNameInvalidText" xml:space="preserve">
-    <value>Il nome specificato non è valido. Controlla il nome e riprova.</value>
+    <value>Il nome specificato non Ã¨ valido. Controlla il nome e riprova.</value>
   </data>
   <data name="RenameErrorNameInvalidTitle" xml:space="preserve">
     <value>Nome dell'elemento non valido</value>
   </data>
   <data name="RenameErrorTooLongText" xml:space="preserve">
-    <value>Il nome specificato è troppo lungo. Controlla il nome e riprova.</value>
+    <value>Il nome specificato Ã¨ troppo lungo. Controlla il nome e riprova.</value>
   </data>
   <data name="RenameErrorTooLongTitle" xml:space="preserve">
-    <value>Il nome dell'elemento è troppo lungo</value>
+    <value>Il nome dell'elemento Ã¨ troppo lungo</value>
   </data>
   <data name="ShowMoreOptions" xml:space="preserve">
-    <value>Mostra più opzioni</value>
+    <value>Mostra piÃ¹ opzioni</value>
   </data>
   <data name="RestartNotificationText.Text" xml:space="preserve">
     <value>E' necessario riavviare l'applicazione per applicare queste impostazioni, vuoi riavviare l'app?</value>
@@ -723,7 +723,7 @@
     <value>Chiedi conferma prima di eliminare degli elementi</value>
   </data>
   <data name="PropertySaveErrorMessageText" xml:space="preserve">
-    <value>C'è stato un problema salvando alcune proprietà.</value>
+    <value>C'Ã¨ stato un problema salvando alcune proprietÃ .</value>
   </data>
   <data name="PropertySaveErrorDialogTitle" xml:space="preserve">
     <value>Errore</value>
@@ -756,7 +756,7 @@
     <value>Ultima modifica</value>
   </data>
   <data name="PropertyBitDepth" xml:space="preserve">
-    <value>Profondità in bit</value>
+    <value>ProfonditÃ  in bit</value>
   </data>
   <data name="PropertyDimensions" xml:space="preserve">
     <value>Dimensioni</value>
@@ -819,7 +819,7 @@
     <value>Formato</value>
   </data>
   <data name="PropertySampleRate" xml:space="preserve">
-    <value>Velocità dati</value>
+    <value>VelocitÃ  dati</value>
   </data>
   <data name="PropertyAlbumArtist" xml:space="preserve">
     <value>Artista dell'album</value>
@@ -951,7 +951,7 @@
     <value>Frequenza fotogrammi</value>
   </data>
   <data name="PropertyEncodingBitrate" xml:space="preserve">
-    <value>Velocità in bit</value>
+    <value>VelocitÃ  in bit</value>
   </data>
   <data name="PropertyPreviewAudioEncodingBitrate" xml:space="preserve">
     <value>Bitrate Di Codifica Audio</value>
@@ -1020,16 +1020,16 @@
     <value>Sposta qui</value>
   </data>
   <data name="EjectNotificationHeader" xml:space="preserve">
-    <value>È sicuro rimuovere il dispositivo</value>
+    <value>Ãˆ sicuro rimuovere il dispositivo</value>
   </data>
   <data name="EjectNotificationBody" xml:space="preserve">
-    <value>Ora è sicuro rimuovere il dispositivo</value>
+    <value>Ora Ã¨ sicuro rimuovere il dispositivo</value>
   </data>
   <data name="EjectNotificationErrorDialogHeader" xml:space="preserve">
-    <value>Si è verificato un problema nell'espellere il dispositivo</value>
+    <value>Si Ã¨ verificato un problema nell'espellere il dispositivo</value>
   </data>
   <data name="EjectNotificationErrorDialogBody" xml:space="preserve">
-    <value>Questo dispositivo è in uso. Si prega di chiudere ogni programma, finestra o scheda che potrebbe utilizzarlo e riprovare.</value>
+    <value>Questo dispositivo Ã¨ in uso. Si prega di chiudere ogni programma, finestra o scheda che potrebbe utilizzarlo e riprovare.</value>
   </data>
   <data name="Eject" xml:space="preserve">
     <value>Espelli</value>
@@ -1044,10 +1044,10 @@
     <value>Nuova scheda</value>
   </data>
   <data name="ClearPropertiesFlyoutText.Text" xml:space="preserve">
-    <value>Alcune proprietà potrebbero contenere informazioni personali.</value>
+    <value>Alcune proprietÃ  potrebbero contenere informazioni personali.</value>
   </data>
   <data name="ClearPropertiesButton.Content" xml:space="preserve">
-    <value>Cancella tutte le proprietà</value>
+    <value>Cancella tutte le proprietÃ </value>
   </data>
   <data name="OngoingTasksTeachingTip.Subtitle" xml:space="preserve">
     <value>Controlla qui lo stato delle operazioni sui file</value>
@@ -1089,7 +1089,7 @@
     <value>Rimuovi</value>
   </data>
   <data name="SettingsMultitaskingAlwaysOpenDualPane" xml:space="preserve">
-    <value>Apri le schede in modalità doppio pannello</value>
+    <value>Apri le schede in modalitÃ  doppio pannello</value>
   </data>
   <data name="ShowOpenInNewPane" xml:space="preserve">
     <value>Mostra l'opzione per aprire le cartelle in un nuovo pannello</value>
@@ -1140,7 +1140,7 @@
     <value>Mostra o nascondi il riquadro dettagli</value>
   </data>
   <data name="ToggleDetailsPaneDescription" xml:space="preserve">
-    <value>Attiva/disattiva il riquadro dettagli per visualizzare le proprietà di base dei file</value>
+    <value>Attiva/disattiva il riquadro dettagli per visualizzare le proprietÃ  di base dei file</value>
   </data>
   <data name="ToggleInfoPane" xml:space="preserve">
     <value>Mostra o nascondi il riquadro informazioni</value>
@@ -1164,7 +1164,7 @@
     <value>Attiva/disattiva riquadro doppio</value>
   </data>
   <data name="ToggleDualPaneDescription" xml:space="preserve">
-    <value>Attiva/disattiva modalità doppio pannello</value>
+    <value>Attiva/disattiva modalitÃ  doppio pannello</value>
   </data>
   <data name="DetailsPanePreviewNotAvaliableText" xml:space="preserve">
     <value>Anteprima non disponibile</value>
@@ -1311,16 +1311,16 @@
     <value>Nessun percorso</value>
   </data>
   <data name="ErrorInputEmpty" xml:space="preserve">
-    <value>Il campo non può essere vuoto!</value>
+    <value>Il campo non puÃ² essere vuoto!</value>
   </data>
   <data name="ErrorNameInputRestrictedCharacters" xml:space="preserve">
-    <value>Il nome non può contenere i seguenti caratteri: \ / : * ? " &lt; &gt; |</value>
+    <value>Il nome non puÃ² contenere i seguenti caratteri: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="ErrorNameInputRestricted" xml:space="preserve">
-    <value>Questo nome non è consentito!</value>
+    <value>Questo nome non Ã¨ consentito!</value>
   </data>
   <data name="CreateLibraryErrorAlreadyExists" xml:space="preserve">
-    <value>Una raccolta con questo nome esiste già!</value>
+    <value>Una raccolta con questo nome esiste giÃ !</value>
   </data>
   <data name="OpenStorageSense" xml:space="preserve">
     <value>Apri Sensore Memoria</value>
@@ -1344,34 +1344,34 @@
     <value>Sposta</value>
   </data>
   <data name="MoveItemsDialogSubtitle" xml:space="preserve">
-    <value>{0, plural, one {Un elemento sarà spostato} other {# elementi saranno spostati}}</value>
+    <value>{0, plural, one {Un elemento sarÃ  spostato} other {# elementi saranno spostati}}</value>
   </data>
   <data name="MoveItemsDialogTitle" xml:space="preserve">
     <value>Muovi {0, plural, one {elemento} other {elementi}}</value>
   </data>
   <data name="DeleteItemsDialogSubtitle" xml:space="preserve">
-    <value>{0, plural, one {Un elemento sarà eliminato} other {# elementi saranno eliminati}}</value>
+    <value>{0, plural, one {Un elemento sarÃ  eliminato} other {# elementi saranno eliminati}}</value>
   </data>
   <data name="ConflictingItemsDialogPrimaryButtonText" xml:space="preserve">
     <value>Continua</value>
   </data>
   <data name="ConflictingItemsDialogSubtitleConflicts" xml:space="preserve">
-    <value>{0, plural, one {C'è un nome di file in conflitto} other {Ci sono # nomi di file in conflitto}}</value>
+    <value>{0, plural, one {C'Ã¨ un nome di file in conflitto} other {Ci sono # nomi di file in conflitto}}</value>
   </data>
   <data name="ConflictingItemsDialogSubtitleConflictsNonConflicts" xml:space="preserve">
-    <value>{0, plural, one {C'è un nome di file in conflitto} other {Ci sono # nomi di file in conflitto}}, e {1, plural, one {un elemento in uscita} other {# elementi in uscita}}</value>
+    <value>{0, plural, one {C'Ã¨ un nome di file in conflitto} other {Ci sono # nomi di file in conflitto}}, e {1, plural, one {un elemento in uscita} other {# elementi in uscita}}</value>
   </data>
   <data name="ConflictingItemsDialogTitle" xml:space="preserve">
     <value>Conflitto {0, plural, one {nome del file} other {nomi dei file}}</value>
   </data>
   <data name="CopyItemsDialogSubtitle" xml:space="preserve">
-    <value>{0, plural, one {Un elemento verrà copiato} other {# elementi verranno copiati}}</value>
+    <value>{0, plural, one {Un elemento verrÃ  copiato} other {# elementi verranno copiati}}</value>
   </data>
   <data name="DeleteItemsDialogPermanentlyDeleteCheckBox.Content" xml:space="preserve">
     <value>Elimina definitivamente</value>
   </data>
   <data name="PropertyISO" xml:space="preserve">
-    <value>Velocità ISO</value>
+    <value>VelocitÃ  ISO</value>
   </data>
   <data name="ReplaceExisting" xml:space="preserve">
     <value>Sostituisci</value>
@@ -1542,7 +1542,7 @@
     <value>Account sconosciuto</value>
   </data>
   <data name="SecurityCannotReadPropertiesText" xml:space="preserve">
-    <value>Non hai i permessi necessari per vedere le proprietà di questo oggetto. Clicca "Impostazioni avanzate" per continuare.</value>
+    <value>Non hai i permessi necessari per vedere le proprietÃ  di questo oggetto. Clicca "Impostazioni avanzate" per continuare.</value>
   </data>
   <data name="SecurityOwnerLabel.Text" xml:space="preserve">
     <value>Proprietario:</value>
@@ -1566,7 +1566,7 @@
     <value>Ripristina Raccolte predefinite</value>
   </data>
   <data name="DialogRestoreLibrariesSubtitleText" xml:space="preserve">
-    <value>Sei sicuro di voler ripristinare le raccolte predefinite? Nessun file verrà cancellato..</value>
+    <value>Sei sicuro di voler ripristinare le raccolte predefinite? Nessun file verrÃ  cancellato..</value>
   </data>
   <data name="DialogRestoreLibrariesTitleText" xml:space="preserve">
     <value>Ripristina Raccolte</value>
@@ -1602,7 +1602,7 @@
     <value>Permessi</value>
   </data>
   <data name="SecurityAdvancedCannotReadPropertiesText" xml:space="preserve">
-    <value>Non hai i permessi necessari per vedere le proprietà di questo oggetto. Puoi provare a diventare proprietario di questo oggetto.</value>
+    <value>Non hai i permessi necessari per vedere le proprietÃ  di questo oggetto. Puoi provare a diventare proprietario di questo oggetto.</value>
   </data>
   <data name="SecurityAdvancedFolderFiles.Text" xml:space="preserve">
     <value>Questa cartella e i file</value>
@@ -1674,7 +1674,7 @@
     <value>Converti autorizzazioni ereditate in autorizzazioni esplicite</value>
   </data>
   <data name="SecurityAdvancedInheritedEnable.Text" xml:space="preserve">
-    <value>Abilita ereditarietà</value>
+    <value>Abilita ereditarietÃ </value>
   </data>
   <data name="SecurityAdvancedInheritedRemove.Text" xml:space="preserve">
     <value>Rimuovi tutte le autorizzazioni ereditate</value>
@@ -1689,10 +1689,10 @@
     <value>Chiudi pannello</value>
   </data>
   <data name="EnterCompactOverlay" xml:space="preserve">
-    <value>Entra in modalità Overlay Compatto</value>
+    <value>Entra in modalitÃ  Overlay Compatto</value>
   </data>
   <data name="ExitCompactOverlay" xml:space="preserve">
-    <value>Esci dalla modalità Overlay Compatta</value>
+    <value>Esci dalla modalitÃ  Overlay Compatta</value>
   </data>
   <data name="PropertyFileDescription" xml:space="preserve">
     <value>Descrizione</value>
@@ -1767,10 +1767,10 @@
     <value>Parte del set</value>
   </data>
   <data name="InsertDiscDialog.OpenDriveButton" xml:space="preserve">
-    <value>Apri unità</value>
+    <value>Apri unitÃ </value>
   </data>
   <data name="InsertDiscDialogText" xml:space="preserve">
-    <value>Inserisci un disco nell'unità {0}</value>
+    <value>Inserisci un disco nell'unitÃ  {0}</value>
   </data>
   <data name="InsertDiscDialogTitle" xml:space="preserve">
     <value>Inserisci un disco</value>
@@ -1788,13 +1788,13 @@
     <value>Inserisci le tue credenziali:</value>
   </data>
   <data name="CredentialDialogIncorrectPassword" xml:space="preserve">
-    <value>La password non è corretta. Riprova.</value>
+    <value>La password non Ã¨ corretta. Riprova.</value>
   </data>
   <data name="PasswordRequired" xml:space="preserve">
     <value>Password richiesta</value>
   </data>
   <data name="PasswordRequiredMessage" xml:space="preserve">
-    <value>Questa posizione è protetta da password. Aggiorna per inserire la password.</value>
+    <value>Questa posizione Ã¨ protetta da password. Aggiorna per inserire la password.</value>
   </data>
   <data name="CredentialDialogUserName.PlaceholderText" xml:space="preserve">
     <value>Nome utente</value>
@@ -1827,13 +1827,13 @@
     <value>Dimensione</value>
   </data>
   <data name="ExperimentalFeatureFlags" xml:space="preserve">
-    <value>Funzionalità sperimentali</value>
+    <value>FunzionalitÃ  sperimentali</value>
   </data>
   <data name="HelpAndSupport" xml:space="preserve">
     <value>Supporto ed assistenza</value>
   </data>
   <data name="SubmitFeatureRequest" xml:space="preserve">
-    <value>Richiedi una funzionalità</value>
+    <value>Richiedi una funzionalitÃ </value>
   </data>
   <data name="SubmitBugReport" xml:space="preserve">
     <value>Segnala un bug</value>
@@ -1887,7 +1887,7 @@
     <value>Impostazioni di Avvio</value>
   </data>
   <data name="Compatibility" xml:space="preserve">
-    <value>Compatibilità</value>
+    <value>CompatibilitÃ </value>
   </data>
   <data name="None" xml:space="preserve">
     <value>Nessuno</value>
@@ -1920,7 +1920,7 @@
     <value>Esegui l'override del comportamento di ridimensionamento DPI elevati</value>
   </data>
   <data name="CompatibilityReducedColorMode" xml:space="preserve">
-    <value>Modalità colore Ridotto</value>
+    <value>ModalitÃ  colore Ridotto</value>
   </data>
   <data name="CompatibilityRegisterThisProgramForRestart" xml:space="preserve">
     <value>Registra questo programma per il riavvio</value>
@@ -1941,7 +1941,7 @@
     <value>Esegui come amministratore</value>
   </data>
   <data name="CompatibilityRunTroubleshooter" xml:space="preserve">
-    <value>Esegui lo strumento di risoluzione problemi di compatibilità</value>
+    <value>Esegui lo strumento di risoluzione problemi di compatibilitÃ </value>
   </data>
   <data name="CompatibilityUseDPISettings" xml:space="preserve">
     <value>Usa le impostazioni DPI del monitor principale</value>
@@ -1953,7 +1953,7 @@
     <value>Non eseguire l'override di DPI</value>
   </data>
   <data name="CompatibilityMode" xml:space="preserve">
-    <value>Modalità di compatibilità</value>
+    <value>ModalitÃ  di compatibilitÃ </value>
   </data>
   <data name="CompatibilityNoReducedColor" xml:space="preserve">
     <value>Colore non ridotto</value>
@@ -1962,7 +1962,7 @@
     <value>Librerie di terze parti</value>
   </data>
   <data name="SettingsSetAsDefaultFileManagerDescription" xml:space="preserve">
-    <value>Questa impostazione modifica il registro di sistema e può causare effetti indesiderati sul tuo dispositivo. Continuando con questa opzione si accettano i rischi legati ad essa.</value>
+    <value>Questa impostazione modifica il registro di sistema e puÃ² causare effetti indesiderati sul tuo dispositivo. Continuando con questa opzione si accettano i rischi legati ad essa.</value>
   </data>
   <data name="ShowFlattenOptionsDescription" xml:space="preserve">
     <value>Le operazioni di appiattimento sono permanenti e non consigliate. Continua a tuo rischio e pericolo.</value>
@@ -2073,7 +2073,7 @@
     <value>Riprova</value>
   </data>
   <data name="ErrorDialogUnsupportedMoveOperation" xml:space="preserve">
-    <value>L'operazione di spostamento non è supportata in questo contesto. Vuoi copiare gli elementi?</value>
+    <value>L'operazione di spostamento non Ã¨ supportata in questo contesto. Vuoi copiare gli elementi?</value>
   </data>
   <data name="HiddenItems" xml:space="preserve">
     <value>Elementi nascosti</value>
@@ -2187,7 +2187,7 @@
     <value>Appiattisci</value>
   </data>
   <data name="FlattenFolderDialogContent" xml:space="preserve">
-    <value>Appiattendo una cartella, tutti i contenuti delle sue sottocartelle verranno spostati nella posizione selezionata. Questa operazione è permanente e non reversibile. Usando questa funzionalità sperimentale, accetti il rischio che ne consegue e accetti di non ritenere il team di Files responsabile per qualunque perdita di dati.</value>
+    <value>Appiattendo una cartella, tutti i contenuti delle sue sottocartelle verranno spostati nella posizione selezionata. Questa operazione Ã¨ permanente e non reversibile. Usando questa funzionalitÃ  sperimentale, accetti il rischio che ne consegue e accetti di non ritenere il team di Files responsabile per qualunque perdita di dati.</value>
   </data>
   <data name="ShowFlattenOptions" xml:space="preserve">
     <value>Mostra le opzioni di appiattimento</value>
@@ -2373,7 +2373,7 @@
     <value>Vorresti invece creare il collegamento sul desktop?</value>
   </data>
   <data name="ErrorDialogNameNotAllowed" xml:space="preserve">
-    <value>Il nome specificato non è valido</value>
+    <value>Il nome specificato non Ã¨ valido</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Impostazioni</value>
@@ -2385,13 +2385,13 @@
     <value>Mostra altro</value>
   </data>
   <data name="ShowEditTagsMenu" xml:space="preserve">
-    <value>Mostra il menù per la modifica dei tag</value>
+    <value>Mostra il menÃ¹ per la modifica dei tag</value>
   </data>
   <data name="ShowCompressionOptions" xml:space="preserve">
     <value>Mostra opzioni di compressione</value>
   </data>
   <data name="ShowSendToMenu" xml:space="preserve">
-    <value>Mostra il menù Invia A</value>
+    <value>Mostra il menÃ¹ Invia A</value>
   </data>
   <data name="ShowOpenInNewTab" xml:space="preserve">
     <value>Mostra l'opzione per aprire le cartelle in una nuova scheda</value>
@@ -2493,7 +2493,7 @@
     <value>Hash</value>
   </data>
   <data name="CalculationError" xml:space="preserve">
-    <value>Si è verificato un errore durante il calcolo</value>
+    <value>Si Ã¨ verificato un errore durante il calcolo</value>
   </data>
   <data name="CalculationErrorFileIsOpen" xml:space="preserve">
     <value>Impossibile calcolare l'hash, chiudi il file e riprova.</value>
@@ -2558,7 +2558,7 @@
     <value>Popup anteprima</value>
   </data>
   <data name="ToggleCompactOverlay" xml:space="preserve">
-    <value>Attiva o disattiva modalità Overlay Compatto</value>
+    <value>Attiva o disattiva modalitÃ  Overlay Compatto</value>
   </data>
   <data name="OpenHelpDescription" xml:space="preserve">
     <value>Apri la pagina di aiuto nel browser</value>
@@ -2567,13 +2567,13 @@
     <value>Attiva/Disattiva schermo intero</value>
   </data>
   <data name="EnterCompactOverlayDescription" xml:space="preserve">
-    <value>Entra in modalità Overlay Compatto</value>
+    <value>Entra in modalitÃ  Overlay Compatto</value>
   </data>
   <data name="ExitCompactOverlayDescription" xml:space="preserve">
-    <value>Esci dalla modalità Overlay Compatto</value>
+    <value>Esci dalla modalitÃ  Overlay Compatto</value>
   </data>
   <data name="ToggleCompactOverlayDescription" xml:space="preserve">
-    <value>Attiva/Disattiva modalità Overlay Compatto</value>
+    <value>Attiva/Disattiva modalitÃ  Overlay Compatto</value>
   </data>
   <data name="ToggleTheme" xml:space="preserve">
     <value>Cambia tema</value>
@@ -2654,7 +2654,7 @@
     <value>Svuota il contenuto del Cestino</value>
   </data>
   <data name="FormatDriveDescription" xml:space="preserve">
-    <value>Apri il menù di formattazione dell'elemento selezionato</value>
+    <value>Apri il menÃ¹ di formattazione dell'elemento selezionato</value>
   </data>
   <data name="RestoreRecycleBinDescription" xml:space="preserve">
     <value>Ripristina {0, plural, one {elemento selezionato} other {elementi selezionati}} dal cestino</value>
@@ -2991,7 +2991,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Down" xml:space="preserve">
-    <value>Giù</value>
+    <value>GiÃ¹</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Up" xml:space="preserve">
@@ -3007,7 +3007,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.PageDown" xml:space="preserve">
-    <value>PgGiù</value>
+    <value>PgGiÃ¹</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.PageUp" xml:space="preserve">
@@ -3115,7 +3115,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaVolumeDown" xml:space="preserve">
-    <value>VolGiù</value>
+    <value>VolGiÃ¹</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaVolumeUp" xml:space="preserve">
@@ -3162,16 +3162,16 @@
     <value>Destinazione non valida</value>
   </data>
   <data name="CopyFileWithoutProperties" xml:space="preserve">
-    <value>Sei sicuro di voler copiare questi file senza le loro proprietà?</value>
+    <value>Sei sicuro di voler copiare questi file senza le loro proprietÃ ?</value>
   </data>
   <data name="FilePropertiesCannotBeCopied" xml:space="preserve">
-    <value>Questi file hanno proprietà che non possono essere copiate nella nuova posizione</value>
+    <value>Questi file hanno proprietÃ  che non possono essere copiate nella nuova posizione</value>
   </data>
   <data name="FilePropertiesCannotBeMoved" xml:space="preserve">
-    <value>Questi file hanno proprietà che non possono essere spostate nella nuova posizione</value>
+    <value>Questi file hanno proprietÃ  che non possono essere spostate nella nuova posizione</value>
   </data>
   <data name="MoveFileWithoutProperties" xml:space="preserve">
-    <value>Sei sicuro/a di voler spostare questi file senza le loro proprietà?</value>
+    <value>Sei sicuro/a di voler spostare questi file senza le loro proprietÃ ?</value>
   </data>
   <data name="ShowCheckboxesWhenSelectingItems" xml:space="preserve">
     <value>Mostra caselle di spunta quando si selezionano gli elementi</value>
@@ -3183,7 +3183,7 @@
     <value>Crea un nuovo elemento</value>
   </data>
   <data name="SecurityNoAccessControlEntriesText" xml:space="preserve">
-    <value>Nessun gruppo o utente ha il permesso di accedere a questo oggetto. Tuttavia, il suo proprietario può assegnarne i permessi.</value>
+    <value>Nessun gruppo o utente ha il permesso di accedere a questo oggetto. Tuttavia, il suo proprietario puÃ² assegnarne i permessi.</value>
   </data>
   <data name="OpenFileLocationDescription" xml:space="preserve">
     <value>Apri il percorso dell'elemento</value>
@@ -3219,16 +3219,16 @@
     <value>Giorno</value>
   </data>
   <data name="ToggleGroupByDateUnitDescription" xml:space="preserve">
-    <value>Alterna unità di raggruppamento per data</value>
+    <value>Alterna unitÃ  di raggruppamento per data</value>
   </data>
   <data name="ToggleGroupingUnit" xml:space="preserve">
-    <value>Alterna unità di raggruppamento</value>
+    <value>Alterna unitÃ  di raggruppamento</value>
   </data>
   <data name="Year" xml:space="preserve">
     <value>Anno</value>
   </data>
   <data name="GroupByDateUnit" xml:space="preserve">
-    <value>Unità di raggruppamento per data</value>
+    <value>UnitÃ  di raggruppamento per data</value>
   </data>
   <data name="GroupByDateCreatedDayDescription" xml:space="preserve">
     <value>Raggruppa gli elementi per il giorno della data di creazione</value>
@@ -3261,10 +3261,10 @@
     <value>Clicca su 'Autorizzazioni avanzate' per continuare.</value>
   </data>
   <data name="SecurityRequireReadPermissions" xml:space="preserve">
-    <value>È necessario disporre dei permessi di lettura per visualizzare le proprietà di questo elemento.</value>
+    <value>Ãˆ necessario disporre dei permessi di lettura per visualizzare le proprietÃ  di questo elemento.</value>
   </data>
   <data name="SecuritySuggestToTakeOwnership" xml:space="preserve">
-    <value>Per provare ad acquisire la proprietà dell'elemento, che include il permesso di visualizzare le sue proprietà, clicca su Cambia sopra.</value>
+    <value>Per provare ad acquisire la proprietÃ  dell'elemento, che include il permesso di visualizzare le sue proprietÃ , clicca su Cambia sopra.</value>
   </data>
   <data name="SecurityUnableToDisplayPermissions" xml:space="preserve">
     <value>Impossibile mostrare le autorizzazioni.</value>
@@ -3303,7 +3303,7 @@
     <value>Nuovo branch</value>
   </data>
   <data name="InvalidBranchName" xml:space="preserve">
-    <value>Il nome del branch non è valido</value>
+    <value>Il nome del branch non Ã¨ valido</value>
   </data>
   <data name="CreateBranch" xml:space="preserve">
     <value>Crea branch</value>
@@ -3321,16 +3321,16 @@
     <value>Crea cartella con {0, plural, one {l'elemento attualmente selezionato} other {gli elementi attualmente selezionati}}</value>
   </data>
   <data name="OpenProperties" xml:space="preserve">
-    <value>Proprietà</value>
+    <value>ProprietÃ </value>
   </data>
   <data name="OpenClassicProperties" xml:space="preserve">
-    <value>Apri proprietà di Esplora file</value>
+    <value>Apri proprietÃ  di Esplora file</value>
   </data>
   <data name="OpenPropertiesDescription" xml:space="preserve">
-    <value>Apri la finestra delle proprietà</value>
+    <value>Apri la finestra delle proprietÃ </value>
   </data>
   <data name="OpenClassicPropertiesDescription" xml:space="preserve">
-    <value>Apri la finestra delle proprietà di Esplora File</value>
+    <value>Apri la finestra delle proprietÃ  di Esplora File</value>
   </data>
   <data name="Locals" xml:space="preserve">
     <value>Locali</value>
@@ -3430,7 +3430,7 @@
     <value>Inserisci il codice seguente al link qui sotto per iniziare a usare i repository di GitHub.</value>
   </data>
   <data name="CannotReachGitHubError" xml:space="preserve">
-    <value>Files non può accedere a GitHub in questo momento.</value>
+    <value>Files non puÃ² accedere a GitHub in questo momento.</value>
   </data>
   <data name="OpenInIDE" xml:space="preserve">
     <value>Apri cartella in {0}</value>
@@ -3505,20 +3505,20 @@
     <value>Apri tutti gli elementi etichettati</value>
   </data>
   <data name="DriveWithLetter" xml:space="preserve">
-    <value>Unità ({0})</value>
+    <value>UnitÃ  ({0})</value>
     <comment>{0} is the drive letter.</comment>
   </data>
   <data name="InvalidCommand" xml:space="preserve">
     <value>Comando non valido</value>
   </data>
   <data name="InvalidCommandContent" xml:space="preserve">
-    <value>'{0}' non è riconosciuto come un comando.</value>
+    <value>'{0}' non Ã¨ riconosciuto come un comando.</value>
   </data>
   <data name="CommandNotExecutable" xml:space="preserve">
     <value>Comando non eseguibile</value>
   </data>
   <data name="CommandNotExecutableContent" xml:space="preserve">
-    <value>Il comando '{0}' non è pronto per essere eseguito.</value>
+    <value>Il comando '{0}' non Ã¨ pronto per essere eseguito.</value>
   </data>
   <data name="CommandPalette" xml:space="preserve">
     <value>Palette dei Comandi</value>
@@ -3539,19 +3539,19 @@
     <value>I seguenti file sono troppo grandi per essere copiati su questo disco</value>
   </data>
   <data name="FormatDrive" xml:space="preserve">
-    <value>Formatta unità</value>
+    <value>Formatta unitÃ </value>
   </data>
   <data name="DontShowAgain" xml:space="preserve">
-    <value>Non mostrare più</value>
+    <value>Non mostrare piÃ¹</value>
   </data>
   <data name="FilesRunningAsAdmin" xml:space="preserve">
-    <value>Files è in esecuzione come amministratore</value>
+    <value>Files Ã¨ in esecuzione come amministratore</value>
   </data>
   <data name="FilesRunningAsAdminContent" xml:space="preserve">
-    <value>A causa di una limitazione di Windows e WinAppSdk, il drag and drop non è disponibile quando si esegue FIles come amministratore. Se si desidera utilizzare il drag and drop, è possibile aggirare questa limitazione aprendo UAC (User Account Control) dal menu Start, selezionando il terzo livello e riavviando Windows. Altrimenti, è possibile continuare a usare Files senza drag and drop.</value>
+    <value>A causa di una limitazione di Windows e WinAppSdk, il drag and drop non Ã¨ disponibile quando si esegue FIles come amministratore. Se si desidera utilizzare il drag and drop, Ã¨ possibile aggirare questa limitazione aprendo UAC (User Account Control) dal menu Start, selezionando il terzo livello e riavviando Windows. Altrimenti, Ã¨ possibile continuare a usare Files senza drag and drop.</value>
   </data>
   <data name="SettingsLeaveAppRunning" xml:space="preserve">
-    <value>Lasciare l'app in esecuzione in background quando la finestra è chiusa</value>
+    <value>Lasciare l'app in esecuzione in background quando la finestra Ã¨ chiusa</value>
   </data>
   <data name="Blue" xml:space="preserve">
     <value>Blu</value>
@@ -3643,7 +3643,7 @@
     <value>elementi</value>
   </data>
   <data name="CannotInitializeGitRepo" xml:space="preserve">
-    <value>Files non può inizializzare questa cartella come repository Git.</value>
+    <value>Files non puÃ² inizializzare questa cartella come repository Git.</value>
   </data>
   <data name="ContributingArtist" xml:space="preserve">
     <value>Artisti che hanno contribuito</value>
@@ -3658,7 +3658,7 @@
     <value>Trovare gli elementi...</value>
   </data>
   <data name="SpeedWithColon" xml:space="preserve">
-    <value>Velocità:</value>
+    <value>VelocitÃ :</value>
   </data>
   <data name="StatusCenter_CompressCanceled_Header" xml:space="preserve">
     <value>Compressione di {0} elementi in "{1}" annullata</value>
@@ -3995,7 +3995,7 @@
     <value>Nessuna operazione in corso</value>
   </data>
   <data name="OpenOnStartupDisabled" xml:space="preserve">
-    <value>L'opzione per aprire Files all'avvio di Windows non è disponibile a causa delle impostazioni di sistema o dei criteri di gruppo. Per riattivare, apri la pagina App di avvio in Gestione attività.</value>
+    <value>L'opzione per aprire Files all'avvio di Windows non Ã¨ disponibile a causa delle impostazioni di sistema o dei criteri di gruppo. Per riattivare, apri la pagina App di avvio in Gestione attivitÃ .</value>
   </data>
   <data name="FailedToRestore" xml:space="preserve">
     <value>Recupero degli oggetti dal Cestino non riuscito</value>
@@ -4025,10 +4025,10 @@
     <value>Accedi</value>
   </data>
   <data name="ErrorApplyingTagContent" xml:space="preserve">
-    <value>Le etichette sono attualmente compatibili solo sulle unità formattate come NTFS.</value>
+    <value>Le etichette sono attualmente compatibili solo sulle unitÃ  formattate come NTFS.</value>
   </data>
   <data name="ErrorApplyingTagTitle" xml:space="preserve">
-    <value>Si è verificato un errore durante l'applicazione di quest'etichetta</value>
+    <value>Si Ã¨ verificato un errore durante l'applicazione di quest'etichetta</value>
   </data>
   <data name="DecompressArchiveHereSmartDescription" xml:space="preserve">
     <value>Estrai {0, plural, one {l'archivio selezionato} other {gli archivi selezionati}} qui per un singolo elemento o in una nuova cartella per un oggetto multiplo</value>
@@ -4055,7 +4055,7 @@
     <value>Ordina prima le cartelle e poi i file</value>
   </data>
   <data name="SortPriority" xml:space="preserve">
-    <value>Priorità di ordinamento</value>
+    <value>PrioritÃ  di ordinamento</value>
   </data>
   <data name="FailedToRotateImage" xml:space="preserve">
     <value>Rotazione dell'immagine fallita</value>
@@ -4091,10 +4091,10 @@
     <value>Modifica autorizzazioni</value>
   </data>
   <data name="BackgroundRunningNotificationBody" xml:space="preserve">
-    <value>Files è ancora in esecuzione in background per migliorare le prestazioni di avvio.</value>
+    <value>Files Ã¨ ancora in esecuzione in background per migliorare le prestazioni di avvio.</value>
   </data>
   <data name="BackgroundRunningNotificationHeader" xml:space="preserve">
-    <value>Dove è finito Files?</value>
+    <value>Dove Ã¨ finito Files?</value>
   </data>
   <data name="QuestionsAndDiscussions" xml:space="preserve">
     <value>Domande e discussioni</value>
@@ -4176,13 +4176,13 @@
     <value>Scegli un'azione</value>
   </data>
   <data name="RestoreDefaultKeybindingsConfirmation" xml:space="preserve">
-    <value>Sei sicuro/a di voler ripristinare le combinazioni di tasti predefinite? Questa azione non può essere annullata.</value>
+    <value>Sei sicuro/a di voler ripristinare le combinazioni di tasti predefinite? Questa azione non puÃ² essere annullata.</value>
   </data>
   <data name="KeybindingAlreadyUsedNotification" xml:space="preserve">
-    <value>Questa combinazione di tasti è già in uso, si prega di scegliere una combinazione diversa per continuare.</value>
+    <value>Questa combinazione di tasti Ã¨ giÃ  in uso, si prega di scegliere una combinazione diversa per continuare.</value>
   </data>
   <data name="KeybindingInvalidKeyNotification" xml:space="preserve">
-    <value>L'associazione di tasti che hai scelto non può essere usata, riprova usando una combinazione di tasti diversa.</value>
+    <value>L'associazione di tasti che hai scelto non puÃ² essere usata, riprova usando una combinazione di tasti diversa.</value>
   </data>
   <data name="KeyboardShortcuts" xml:space="preserve">
     <value>Scorciatoie da tastiera</value>
@@ -4194,7 +4194,7 @@
     <value>Personalizzato</value>
   </data>
   <data name="AdaptiveLayoutDisabledNotification" xml:space="preserve">
-    <value>Il layout Adattivo non è disponibile quando le preferenze sono sincronizzate, il layout predefinito è stato cambiato in Dettagli.</value>
+    <value>Il layout Adattivo non Ã¨ disponibile quando le preferenze sono sincronizzate, il layout predefinito Ã¨ stato cambiato in Dettagli.</value>
   </data>
   <data name="BackgroundImage" xml:space="preserve">
     <value>Immagine di sfondo</value>
@@ -4222,7 +4222,7 @@
     <comment>Image alignment type</comment>
   </data>
   <data name="Opacity" xml:space="preserve">
-    <value>Opacità</value>
+    <value>OpacitÃ </value>
   </data>
   <data name="Right" xml:space="preserve">
     <value>Destra</value>
@@ -4301,7 +4301,7 @@
     <value>Posizioni di rete</value>
   </data>
   <data name="NoNetworkLocationsInfo" xml:space="preserve">
-    <value>Non ci sono posizioni di rete. Se non si utilizzano posizioni di rete, è possibile disabilitare il widget.</value>
+    <value>Non ci sono posizioni di rete. Se non si utilizzano posizioni di rete, Ã¨ possibile disabilitare il widget.</value>
   </data>
   <data name="Disable" xml:space="preserve">
     <value>Disabilita</value>
@@ -4362,7 +4362,7 @@
     <value>Direzione predefinita divisione riquadro doppio</value>
   </data>
   <data name="DualPane" xml:space="preserve">
-    <value>Modalità riquadro doppio</value>
+    <value>ModalitÃ  riquadro doppio</value>
   </data>
   <data name="Horizontal" xml:space="preserve">
     <value>Orizzontale</value>
@@ -4404,10 +4404,10 @@
     <value>Inserisci il nome del flusso dati</value>
   </data>
   <data name="ErrorCreatingDataStreamTitle" xml:space="preserve">
-    <value>Si è verificato un errore durante la creazione del flusso di dati alternativo</value>
+    <value>Si Ã¨ verificato un errore durante la creazione del flusso di dati alternativo</value>
   </data>
   <data name="ErrorCreatingDataStreamDescription" xml:space="preserve">
-    <value>Si prega di notare che i flussi di dati alternativi funzionano solo su unità formattate come NTFS.</value>
+    <value>Si prega di notare che i flussi di dati alternativi funzionano solo su unitÃ  formattate come NTFS.</value>
   </data>
   <data name="DataStreamsAreHiddenTitle" xml:space="preserve">
     <value>I flussi di dati alternativi sono attualmente nascosti</value>
@@ -4484,19 +4484,19 @@
     <value>Prova integrazione</value>
   </data>
   <data name="IDENotLocatedContent" xml:space="preserve">
-    <value>{0} non è stato trovato. Controlla le tue impostazioni e riprova.</value>
+    <value>{0} non Ã¨ stato trovato. Controlla le tue impostazioni e riprova.</value>
   </data>
   <data name="IDENotLocatedTitle" xml:space="preserve">
-    <value>L'IDE configurato non è stato trovato</value>
+    <value>L'IDE configurato non Ã¨ stato trovato</value>
   </data>
   <data name="OpenSettings" xml:space="preserve">
     <value>Apri impostazioni</value>
   </data>
   <data name="NetworkDiscoveryTurnedOffInfoBarMessage" xml:space="preserve">
-    <value>L'individuazione della rete è disattivata. I computer e i dispositivi di rete non sono visibili.</value>
+    <value>L'individuazione della rete Ã¨ disattivata. I computer e i dispositivi di rete non sono visibili.</value>
   </data>
   <data name="FileSharingTurnedOffInfoBarMessage" xml:space="preserve">
-    <value>La condivisione file è disattivata. Alcuni computer e dispositivi di rete potrebbero non essere visibili.</value>
+    <value>La condivisione file Ã¨ disattivata. Alcuni computer e dispositivi di rete potrebbero non essere visibili.</value>
   </data>
   <data name="NetworkDiscoveryAndFileSharingTurnedOffInfoBarMessage" xml:space="preserve">
     <value>L'individuazione della rete e la condivisione file sono disattivate. I computer e i dispositivi di rete non sono visibili.</value>
@@ -4540,7 +4540,7 @@
     <value>Decimale</value>
   </data>
   <data name="SectionsHiddenMessage" xml:space="preserve">
-    <value>È possibile aggiungere sezioni alla barra laterale facendo clic con il tasto destro del mouse e selezionando le sezioni che si desidera aggiungere</value>
+    <value>Ãˆ possibile aggiungere sezioni alla barra laterale facendo clic con il tasto destro del mouse e selezionando le sezioni che si desidera aggiungere</value>
   </data>
   <data name="EmptyShelfText" xml:space="preserve">
     <value>Trascina qui i file o le cartelle per interagire con loro attraverso schede diverse</value>
@@ -4549,7 +4549,7 @@
     <value>Inserisci un percorso per navigare a...</value>
   </data>
   <data name="OmnibarCommandPaletteModeTextPlaceholder" xml:space="preserve">
-    <value>Trova funzionalità e comandi...</value>
+    <value>Trova funzionalitÃ  e comandi...</value>
   </data>
   <data name="OmnibarSearchModeTextPlaceholder" xml:space="preserve">
     <value>Cerca per file e cartelle...</value>
@@ -4659,7 +4659,7 @@
     <value>Personalizza pulsanti barra strumenti</value>
   </data>
   <data name="ChooseToolbarModeToCustomize" xml:space="preserve">
-    <value>Scegli la modalità della barra degli strumenti da personalizzare</value>
+    <value>Scegli la modalitÃ  della barra degli strumenti da personalizzare</value>
   </data>
   <data name="AlwaysVisible" xml:space="preserve">
     <value>Sempre visibile</value>
@@ -4759,5 +4759,25 @@
   </data>
   <data name="ConfirmRemoveTagsDialogContent" xml:space="preserve">
     <value>Sei sicuro di voler rimuovere le etichette dagli elementi selezionati?</value>
+  </data>  <data name="SharedTagsPath" xml:space="preserve">
+    <value>Tags &amp; categories storage path</value>
+  </data>
+  <data name="SharedTagsPathDescription" xml:space="preserve">
+    <value>Requires app restart</value>
+  </data>
+  <data name="SharedTagsPathNotSet" xml:space="preserve">
+    <value>Not set (default path)</value>
+  </data>
+  <data name="SharedTagsPathInvalid" xml:space="preserve">
+    <value>Invalid path</value>
+  </data>
+  <data name="SharedTagsPathInvalidDescription" xml:space="preserve">
+    <value>The selected path is not a valid directory.</value>
+  </data>
+  <data name="SharedTagsPathRestartTitle" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="SharedTagsPathRestartMessage" xml:space="preserve">
+    <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
 </root>

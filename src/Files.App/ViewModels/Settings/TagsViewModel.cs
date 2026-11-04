@@ -139,6 +139,10 @@ namespace Files.App.ViewModels.Settings
 
 		public void DeleteExistingTag(ListedTagViewModel item)
 		{
+			isBulkOperation = true;
+			Tags.Remove(item);
+			isBulkOperation = false;
+
 			fileTagsSettingsService.DeleteTag(item.Tag.Uid);
 		}
 

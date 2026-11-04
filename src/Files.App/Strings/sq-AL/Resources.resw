@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -127,16 +127,16 @@
     <value>Kopjo shtegun e elementit</value>
   </data>
   <data name="CopyPathWithQuotes" xml:space="preserve">
-    <value>Kopje vendndodhjen me thonjÃ«za</value>
+    <value>Kopje vendndodhjen me thonjÃƒÂ«za</value>
   </data>
   <data name="CopyItemPathWithQuotes" xml:space="preserve">
-    <value>Kopjo shtegun e elementit tÃ« zgjedhur me thonjÃ«za</value>
+    <value>Kopjo shtegun e elementit tÃƒÂ« zgjedhur me thonjÃƒÂ«za</value>
   </data>
   <data name="Browse" xml:space="preserve">
     <value>Shfleto</value>
   </data>
   <data name="Size" xml:space="preserve">
-    <value>MadhÃ«sia</value>
+    <value>MadhÃƒÂ«sia</value>
   </data>
   <data name="PropertiesCreated.Text" xml:space="preserve">
     <value>Krijuar:</value>
@@ -145,34 +145,34 @@
     <value>Vendndodhja</value>
   </data>
   <data name="SizeLabel" xml:space="preserve">
-    <value>MadhÃ«sia:</value>
+    <value>MadhÃƒÂ«sia:</value>
   </data>
   <data name="SizeOnDiskLabel" xml:space="preserve">
-    <value>MadhÃ«sia nÃ« disk:</value>
+    <value>MadhÃƒÂ«sia nÃƒÂ« disk:</value>
   </data>
   <data name="UncompressedSize" xml:space="preserve">
-    <value>MadhÃ«sia e pakompresuar:</value>
+    <value>MadhÃƒÂ«sia e pakompresuar:</value>
   </data>
   <data name="ErrorDialogThisActionCannotBeDone" xml:space="preserve">
-    <value>Ky veprim nuk mund tÃ« zhbÃ«het</value>
+    <value>Ky veprim nuk mund tÃƒÂ« zhbÃƒÂ«het</value>
   </data>
   <data name="ErrorDialogTheDestinationFolder" xml:space="preserve">
-    <value>Dosja mbÃ«rritÃ«se</value>
+    <value>Dosja mbÃƒÂ«rritÃƒÂ«se</value>
   </data>
   <data name="ErrorDialogIsASubfolder" xml:space="preserve">
-    <value>Ã«shtÃ« njÃ« nÃ«ndosje e dosjes burim</value>
+    <value>ÃƒÂ«shtÃƒÂ« njÃƒÂ« nÃƒÂ«ndosje e dosjes burim</value>
   </data>
   <data name="Skip" xml:space="preserve">
     <value>Anashkalo</value>
   </data>
   <data name="SelectAll" xml:space="preserve">
-    <value>Zgjidh tÃ« gjitha</value>
+    <value>Zgjidh tÃƒÂ« gjitha</value>
   </data>
   <data name="InvertSelection" xml:space="preserve">
-    <value>PÃ«rkÃ«mbe pÃ«rzgjedhjen</value>
+    <value>PÃƒÂ«rkÃƒÂ«mbe pÃƒÂ«rzgjedhjen</value>
   </data>
   <data name="ClearSelection" xml:space="preserve">
-    <value>Pastro pÃ«rzgjedhjen</value>
+    <value>Pastro pÃƒÂ«rzgjedhjen</value>
   </data>
   <data name="PropertiesModified.Text" xml:space="preserve">
     <value>Modifikuar:</value>
@@ -187,7 +187,7 @@
     <value>Enter a path to navigate to or type "&gt;" to open the command palette</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>KÃ«rko</value>
+    <value>KÃƒÂ«rko</value>
   </data>
   <data name="SearchSettings" xml:space="preserve">
     <value>Search settings...</value>
@@ -196,7 +196,7 @@
     <value>No settings match your search.</value>
   </data>
   <data name="RecentItemDescription.Text" xml:space="preserve">
-    <value>SkedarÃ«t qÃ« ke qasur mÃ« parÃ« do tÃ« shfaqen kÃ«tu</value>
+    <value>SkedarÃƒÂ«t qÃƒÂ« ke qasur mÃƒÂ« parÃƒÂ« do tÃƒÂ« shfaqen kÃƒÂ«tu</value>
   </data>
   <data name="RecentItemRemoveText" xml:space="preserve">
     <value>Remove this item</value>
@@ -205,13 +205,13 @@
     <value>depo GitHub</value>
   </data>
   <data name="About" xml:space="preserve">
-    <value>Rreth kÃ«saj</value>
+    <value>Rreth kÃƒÂ«saj</value>
   </data>
   <data name="OpenSource" xml:space="preserve">
     <value>Burim i hapur</value>
   </data>
   <data name="DateFormat" xml:space="preserve">
-    <value>Formati i datÃ«s</value>
+    <value>Formati i datÃƒÂ«s</value>
   </data>
   <data name="SettingsAppearanceTheme" xml:space="preserve">
     <value>Paraqitja</value>
@@ -220,19 +220,19 @@
     <value>Font</value>
   </data>
   <data name="SettingsFilesAndFoldersShowFileExtensions" xml:space="preserve">
-    <value>Shfaq prapashtesat pÃ«r tipet e njohura tÃ« skedarÃ«ve</value>
+    <value>Shfaq prapashtesat pÃƒÂ«r tipet e njohura tÃƒÂ« skedarÃƒÂ«ve</value>
   </data>
   <data name="SettingsFilesAndFoldersShowHiddenItems" xml:space="preserve">
-    <value>Shfaq skedarÃ«t dhe dosjet e fshehura</value>
+    <value>Shfaq skedarÃƒÂ«t dhe dosjet e fshehura</value>
   </data>
   <data name="ShowDotFiles" xml:space="preserve">
-    <value>Shfaq skedarÃ«t me pikÃ«</value>
+    <value>Shfaq skedarÃƒÂ«t me pikÃƒÂ«</value>
   </data>
   <data name="Appearance" xml:space="preserve">
     <value>Pamja e jashtme</value>
   </data>
   <data name="BackgroundColor" xml:space="preserve">
-    <value>Ngjyra nÃ« sfond</value>
+    <value>Ngjyra nÃƒÂ« sfond</value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>I avancuar</value>
@@ -256,13 +256,13 @@
     <value>Clear cache</value>
   </data>
   <data name="SettingsOnStartupContinueWhereYouLeftOff.Content" xml:space="preserve">
-    <value>Vazhdo aty ku e kishe lÃ«nÃ«</value>
+    <value>Vazhdo aty ku e kishe lÃƒÂ«nÃƒÂ«</value>
   </data>
   <data name="SettingsOnStartupOpenANewTab.Content" xml:space="preserve">
-    <value>Hap njÃ« skedÃ« tÃ« re</value>
+    <value>Hap njÃƒÂ« skedÃƒÂ« tÃƒÂ« re</value>
   </data>
   <data name="SettingsOnStartupOpenASpecificPage.Content" xml:space="preserve">
-    <value>Hap njÃ« ose disa faqe specifike</value>
+    <value>Hap njÃƒÂ« ose disa faqe specifike</value>
   </data>
   <data name="Desktop" xml:space="preserve">
     <value>Desktopi</value>
@@ -277,7 +277,7 @@
     <value>Emrit</value>
   </data>
   <data name="Ascending" xml:space="preserve">
-    <value>NÃ« ngjitje</value>
+    <value>NÃƒÂ« ngjitje</value>
   </data>
   <data name="Paste" xml:space="preserve">
     <value>Ngjit</value>
@@ -289,19 +289,19 @@
     <value>i/e Re</value>
   </data>
   <data name="Properties" xml:space="preserve">
-    <value>CilÃ«simet</value>
+    <value>CilÃƒÂ«simet</value>
   </data>
   <data name="Open" xml:space="preserve">
     <value>Hap</value>
   </data>
   <data name="OpenInNewTab" xml:space="preserve">
-    <value>Hap nÃ« njÃ« skedÃ« tÃ« re</value>
+    <value>Hap nÃƒÂ« njÃƒÂ« skedÃƒÂ« tÃƒÂ« re</value>
   </data>
   <data name="OpenInNewWindow" xml:space="preserve">
-    <value>Hap nÃ« njÃ« dritare tÃ« re</value>
+    <value>Hap nÃƒÂ« njÃƒÂ« dritare tÃƒÂ« re</value>
   </data>
   <data name="Share" xml:space="preserve">
-    <value>ShpÃ«rndaje</value>
+    <value>ShpÃƒÂ«rndaje</value>
   </data>
   <data name="Cut" xml:space="preserve">
     <value>Prite</value>
@@ -310,7 +310,7 @@
     <value>Fshije</value>
   </data>
   <data name="PinFolderToSidebar" xml:space="preserve">
-    <value>Fiksoje te shiriti anÃ«sor</value>
+    <value>Fiksoje te shiriti anÃƒÂ«sor</value>
   </data>
   <data name="WelcomeDialogTitle" xml:space="preserve">
     <value>Welcome to Files!</value>
@@ -325,16 +325,16 @@
     <value>Ekrani</value>
   </data>
   <data name="EnterAnItemName" xml:space="preserve">
-    <value>Shkruani emrin e njÃ« elementi</value>
+    <value>Shkruani emrin e njÃƒÂ« elementi</value>
   </data>
   <data name="CreateNewItemTitle" xml:space="preserve">
-    <value>Krijo {0} tÃ« ri</value>
+    <value>Krijo {0} tÃƒÂ« ri</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>E Ã§elÃ«t</value>
+    <value>E ÃƒÂ§elÃƒÂ«t</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>E errÃ«t</value>
+    <value>E errÃƒÂ«t</value>
   </data>
   <data name="DefaultTheme" xml:space="preserve">
     <value>System Theme</value>
@@ -346,7 +346,7 @@
     <value>Dark Theme</value>
   </data>
   <data name="UseSystemSetting" xml:space="preserve">
-    <value>PÃ«rdor cilÃ«simin e sistemit</value>
+    <value>PÃƒÂ«rdor cilÃƒÂ«simin e sistemit</value>
   </data>
   <data name="Application" xml:space="preserve">
     <value>Aplikacion</value>
@@ -361,13 +361,13 @@
     <value>Skedar i ri</value>
   </data>
   <data name="EmptyFolder.Text" xml:space="preserve">
-    <value>Kjo dosje Ã«shtÃ« bosh.</value>
+    <value>Kjo dosje ÃƒÂ«shtÃƒÂ« bosh.</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Mbrapa</value>
   </data>
   <data name="Forward" xml:space="preserve">
-    <value>PÃ«rpara</value>
+    <value>PÃƒÂ«rpara</value>
   </data>
   <data name="Up" xml:space="preserve">
     <value>Lart</value>
@@ -376,19 +376,19 @@
     <value>Rifresko</value>
   </data>
   <data name="ItemAlreadyExistsDialogContent" xml:space="preserve">
-    <value>NjÃ« element me kÃ«tÃ« emÃ«r ekziston tashmÃ« nÃ« kÃ«tÃ« drejtori.</value>
+    <value>NjÃƒÂ« element me kÃƒÂ«tÃƒÂ« emÃƒÂ«r ekziston tashmÃƒÂ« nÃƒÂ« kÃƒÂ«tÃƒÂ« drejtori.</value>
   </data>
   <data name="ItemAlreadyExistsDialogSecondaryButtonText" xml:space="preserve">
-    <value>ZÃ«vendÃ«so elementin ekzistues</value>
+    <value>ZÃƒÂ«vendÃƒÂ«so elementin ekzistues</value>
   </data>
   <data name="ItemAlreadyExistsDialogTitle" xml:space="preserve">
-    <value>Elementi ekziston tashmÃ«</value>
+    <value>Elementi ekziston tashmÃƒÂ«</value>
   </data>
   <data name="SetAsLockscreen" xml:space="preserve">
-    <value>Vendose si sfond tÃ« ekranit tÃ« kyÃ§jes</value>
+    <value>Vendose si sfond tÃƒÂ« ekranit tÃƒÂ« kyÃƒÂ§jes</value>
   </data>
   <data name="SetAsAppBackground" xml:space="preserve">
-    <value>Vendose si sfond tÃ« aplikacionit</value>
+    <value>Vendose si sfond tÃƒÂ« aplikacionit</value>
   </data>
   <data name="AccessDeniedDeleteDialogText" xml:space="preserve">
     <value>We weren't able to delete this item</value>
@@ -403,10 +403,10 @@
     <value>The file you are attempting to access may have been moved or deleted.</value>
   </data>
   <data name="CannotAccessPropertiesTitle" xml:space="preserve">
-    <value>Nuk mund të hapen vetitë për këtë skedar</value>
+    <value>Nuk mund tÃ« hapen vetitÃ« pÃ«r kÃ«tÃ« skedar</value>
   </data>
   <data name="CannotAccessPropertiesContent" xml:space="preserve">
-    <value>Skedari që po përpiqeni të përdorni mund të jetë zhvendosur ose fshirë.</value>
+    <value>Skedari qÃ« po pÃ«rpiqeni tÃ« pÃ«rdorni mund tÃ« jetÃ« zhvendosur ose fshirÃ«.</value>
   </data>
   <data name="FileNotFoundDialogTitle" xml:space="preserve">
     <value>File Not Found</value>
@@ -436,7 +436,7 @@
     <value>Paraqitja</value>
   </data>
   <data name="PropertiesDialogReadOnly.Text" xml:space="preserve">
-    <value>Vetëm për lexim</value>
+    <value>VetÃ«m pÃ«r lexim</value>
   </data>
   <data name="DaysAgo" xml:space="preserve">
     <value>{0, plural, one {# day ago} other {# days ago}}</value>
@@ -445,52 +445,52 @@
     <value>1 dite me pare</value>
   </data>
   <data name="DaysAgo_Plural" xml:space="preserve">
-    <value>{0} ditë më parë</value>
+    <value>{0} ditÃ« mÃ« parÃ«</value>
   </data>
   <data name="HoursAgo" xml:space="preserve">
     <value>{0, plural, one {# hour ago} other {# hours ago}}</value>
   </data>
   <data name="HoursAgo_Singular" xml:space="preserve">
-    <value>1 orë më parë</value>
+    <value>1 orÃ« mÃ« parÃ«</value>
   </data>
   <data name="HoursAgo_Plural" xml:space="preserve">
-    <value>{0} orë më parë</value>
+    <value>{0} orÃ« mÃ« parÃ«</value>
   </data>
   <data name="MinutesAgo" xml:space="preserve">
     <value>{0, plural, one {# minute ago} other {# minutes ago}}</value>
   </data>
   <data name="MinutesAgo_Singular" xml:space="preserve">
-    <value>1 minutë më parë</value>
+    <value>1 minutÃ« mÃ« parÃ«</value>
   </data>
   <data name="MinutesAgo_Plural" xml:space="preserve">
-    <value>{0} minuta më parë</value>
+    <value>{0} minuta mÃ« parÃ«</value>
   </data>
   <data name="SecondsAgo" xml:space="preserve">
     <value>{0, plural, one {# second ago} other {# seconds ago}}</value>
   </data>
   <data name="SecondsAgo_Singular" xml:space="preserve">
-    <value>1 sekondë më parë</value>
+    <value>1 sekondÃ« mÃ« parÃ«</value>
   </data>
   <data name="SecondsAgo_Plural" xml:space="preserve">
-    <value>{0} sekonda më parë</value>
+    <value>{0} sekonda mÃ« parÃ«</value>
   </data>
   <data name="Now" xml:space="preserve">
     <value>Tani</value>
   </data>
   <data name="ErrorDialogUnsupportedOperation" xml:space="preserve">
-    <value>Operacioni i kërkuar nuk mbështetet</value>
+    <value>Operacioni i kÃ«rkuar nuk mbÃ«shtetet</value>
   </data>
   <data name="DriveFreeSpaceAndCapacity" xml:space="preserve">
     <value>{1} pa {1}</value>
   </data>
   <data name="SendTo" xml:space="preserve">
-    <value>Dërgo në</value>
+    <value>DÃ«rgo nÃ«</value>
   </data>
   <data name="FileNameTeachingTip.Subtitle" xml:space="preserve">
-    <value>Emri i artikullit nuk duhet të përmbajë karakteret e mëposhtme: \ / : * ? " &lt; &gt; |</value>
+    <value>Emri i artikullit nuk duhet tÃ« pÃ«rmbajÃ« karakteret e mÃ«poshtme: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="InvalidFilename.Text" xml:space="preserve">
-    <value>Emri i artikullit të specifikuar është i pavlefshëm</value>
+    <value>Emri i artikullit tÃ« specifikuar Ã«shtÃ« i pavlefshÃ«m</value>
   </data>
   <data name="SelectedItems" xml:space="preserve">
     <value>{0, plural, one {# item selected} other {# items selected}}</value>
@@ -504,7 +504,7 @@
     <value>po</value>
   </data>
   <data name="ConfirmEmptyBinDialogContent" xml:space="preserve">
-    <value>Jeni i sigurt që dëshironi t'i fshini përgjithmonë të gjithë këta artikuj?</value>
+    <value>Jeni i sigurt qÃ« dÃ«shironi t'i fshini pÃ«rgjithmonÃ« tÃ« gjithÃ« kÃ«ta artikuj?</value>
   </data>
   <data name="ConfirmEmptyBinDialogTitle" xml:space="preserve">
     <value>Kosh riciklimi bosh</value>
@@ -540,31 +540,31 @@
     <value>Run as another user</value>
   </data>
   <data name="PropertiesDriveItemTypesEquals" xml:space="preserve">
-    <value>Të gjitha llojet e {0}</value>
+    <value>TÃ« gjitha llojet e {0}</value>
   </data>
   <data name="PropertiesDriveItemTypeDifferent" xml:space="preserve">
     <value>Llojet e ndryshme</value>
   </data>
   <data name="PropertiesCombinedItemLocation" xml:space="preserve">
-    <value>Të gjitha në {0}</value>
+    <value>TÃ« gjitha nÃ« {0}</value>
   </data>
   <data name="PropertiesDriveUsedSpace.Text" xml:space="preserve">
-    <value>Hapësira e përdorur:</value>
+    <value>HapÃ«sira e pÃ«rdorur:</value>
   </data>
   <data name="PropertiesDriveFreeSpace.Text" xml:space="preserve">
-    <value>Hapësirë e lirë:</value>
+    <value>HapÃ«sirÃ« e lirÃ«:</value>
   </data>
   <data name="PropertiesDriveCapacity.Text" xml:space="preserve">
     <value>Kapaciteti:</value>
   </data>
   <data name="PropertiesDriveFileSystem.Text" xml:space="preserve">
-    <value>Sistemi i skedarëve:</value>
+    <value>Sistemi i skedarÃ«ve:</value>
   </data>
   <data name="JumpListRecentGroupHeader" xml:space="preserve">
     <value>E fundit</value>
   </data>
   <data name="TabStripDragAndDropUIOverrideCaption" xml:space="preserve">
-    <value>Zhvendos skedën këtu</value>
+    <value>Zhvendos skedÃ«n kÃ«tu</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Statusi</value>
@@ -573,16 +573,16 @@
     <value>Nuk ka rezultate</value>
   </data>
   <data name="SubDirectoryAccessDenied" xml:space="preserve">
-    <value>Nuk mund të qaset asnjë artikull për t'u shfaqur</value>
+    <value>Nuk mund tÃ« qaset asnjÃ« artikull pÃ«r t'u shfaqur</value>
   </data>
   <data name="MoveToFolderCaptionText" xml:space="preserve">
-    <value>Lëviz te {0}</value>
+    <value>LÃ«viz te {0}</value>
   </data>
   <data name="CopyToFolderCaptionText" xml:space="preserve">
-    <value>Kopjo në {0}</value>
+    <value>Kopjo nÃ« {0}</value>
   </data>
   <data name="CloneToFolderCaptionText" xml:space="preserve">
-    <value>Klononi në {0}</value>
+    <value>Klononi nÃ« {0}</value>
   </data>
   <data name="CreateShortcut" xml:space="preserve">
     <value>Krijo shkurtore</value>
@@ -600,7 +600,7 @@
     <value>Lloji i shkurtores:</value>
   </data>
   <data name="PropertiesShortcutTypeLink" xml:space="preserve">
-    <value>Lidhje në internet</value>
+    <value>Lidhje nÃ« internet</value>
   </data>
   <data name="General" xml:space="preserve">
     <value>Gjeneral</value>
@@ -615,31 +615,31 @@
     <value>{0} - shkurtore</value>
   </data>
   <data name="ExceptionNotificationBody" xml:space="preserve">
-    <value>Skedarët hasën në një problem për të cilin zhvilluesit nuk ishin përgatitur ende.</value>
+    <value>SkedarÃ«t hasÃ«n nÃ« njÃ« problem pÃ«r tÃ« cilin zhvilluesit nuk ishin pÃ«rgatitur ende.</value>
   </data>
   <data name="ExceptionNotificationHeader" xml:space="preserve">
-    <value>Diçka shkoi keq!</value>
+    <value>DiÃ§ka shkoi keq!</value>
   </data>
   <data name="ExceptionNotificationReportButton" xml:space="preserve">
-    <value>Raportoni këtë çështje</value>
+    <value>Raportoni kÃ«tÃ« Ã§Ã«shtje</value>
   </data>
   <data name="InvalidItemDialogContent" xml:space="preserve">
-    <value>Artikulli i referuar është ose i pavlefshëm ose i paarritshëm.{1}Mesazhi i gabimit:{1}{1}</value>
+    <value>Artikulli i referuar Ã«shtÃ« ose i pavlefshÃ«m ose i paarritshÃ«m.{1}Mesazhi i gabimit:{1}{1}</value>
   </data>
   <data name="InvalidItemDialogTitle" xml:space="preserve">
-    <value>Artikull i pavlefshëm</value>
+    <value>Artikull i pavlefshÃ«m</value>
   </data>
   <data name="SettingsAboutVersionTitle" xml:space="preserve">
     <value>Versioni:</value>
   </data>
   <data name="ShareDialogFailMessage" xml:space="preserve">
-    <value>Nuk ka asgjë për të ndarë tani ...</value>
+    <value>Nuk ka asgjÃ« pÃ«r tÃ« ndarÃ« tani ...</value>
   </data>
   <data name="ShareDialogMultipleItemsDescription" xml:space="preserve">
-    <value>Artikujt që keni zgjedhur do të ndahen</value>
+    <value>Artikujt qÃ« keni zgjedhur do tÃ« ndahen</value>
   </data>
   <data name="ShareDialogSingleItemDescription" xml:space="preserve">
-    <value>Artikulli i zgjedhur do të ndahet</value>
+    <value>Artikulli i zgjedhur do tÃ« ndahet</value>
   </data>
   <data name="ShareDialogTitle" xml:space="preserve">
     <value>Ndani {0}</value>
@@ -666,13 +666,13 @@
     <value>Item name was too long</value>
   </data>
   <data name="ShowMoreOptions" xml:space="preserve">
-    <value>Shfaq më shumë opsione</value>
+    <value>Shfaq mÃ« shumÃ« opsione</value>
   </data>
   <data name="RestartNotificationText.Text" xml:space="preserve">
-    <value>Aplikacioni duhet të riniset për të aplikuar këto cilësime, dëshironi ta rinisni aplikacionin?</value>
+    <value>Aplikacioni duhet tÃ« riniset pÃ«r tÃ« aplikuar kÃ«to cilÃ«sime, dÃ«shironi ta rinisni aplikacionin?</value>
   </data>
   <data name="SponsorUsOnGitHub" xml:space="preserve">
-    <value>Na sponsorizoni në GitHub</value>
+    <value>Na sponsorizoni nÃ« GitHub</value>
   </data>
   <data name="AccessDeniedCreateDialogText" xml:space="preserve">
     <value>We weren't able to create this item</value>
@@ -687,10 +687,10 @@
     <value>Anulo</value>
   </data>
   <data name="AddDialog.Title" xml:space="preserve">
-    <value>Krijo një artikull të ri</value>
+    <value>Krijo njÃ« artikull tÃ« ri</value>
   </data>
   <data name="AddDialogDescription.Text" xml:space="preserve">
-    <value>Zgjidhni një lloj për këtë artikull të ri më poshtë</value>
+    <value>Zgjidhni njÃ« lloj pÃ«r kÃ«tÃ« artikull tÃ« ri mÃ« poshtÃ«</value>
   </data>
   <data name="File" xml:space="preserve">
     <value>Skedari</value>
@@ -699,7 +699,7 @@
     <value>Files</value>
   </data>
   <data name="AddDialogListFileSubHeader" xml:space="preserve">
-    <value>Krijon një skedar bosh</value>
+    <value>Krijon njÃ« skedar bosh</value>
   </data>
   <data name="Folder" xml:space="preserve">
     <value>Dosja</value>
@@ -708,16 +708,16 @@
     <value>Folders</value>
   </data>
   <data name="AddDialogListFolderSubHeader" xml:space="preserve">
-    <value>Krijon një dosje bosh</value>
+    <value>Krijon njÃ« dosje bosh</value>
   </data>
   <data name="NavResfreshButton.AutomationProperties.Name" xml:space="preserve">
-    <value>Rifresko drejtorinë</value>
+    <value>Rifresko drejtorinÃ«</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Gjuha</value>
   </data>
   <data name="SettingsContextMenuOverflow" xml:space="preserve">
-    <value>Zhvendosni shtesat e guaskës në një nënmenu</value>
+    <value>Zhvendosni shtesat e guaskÃ«s nÃ« njÃ« nÃ«nmenu</value>
   </data>
   <data name="ShowConfirmationWhenDeletingItems" xml:space="preserve">
     <value>Shfaq dialogun e konfirmimit kur fshin artikujt</value>
@@ -732,7 +732,7 @@
     <value>Mbylle gjithsesi</value>
   </data>
   <data name="PropertyRatingText" xml:space="preserve">
-    <value>Vlerësimi</value>
+    <value>VlerÃ«simi</value>
   </data>
   <data name="PropertyParsingPath" xml:space="preserve">
     <value>Shtegu i artikullit</value>
@@ -756,16 +756,16 @@
     <value>Data e modifikimit</value>
   </data>
   <data name="PropertyBitDepth" xml:space="preserve">
-    <value>Thellësia e Bitit</value>
+    <value>ThellÃ«sia e Bitit</value>
   </data>
   <data name="PropertyDimensions" xml:space="preserve">
     <value>Dimensionet</value>
   </data>
   <data name="PropertyHorizontalSize" xml:space="preserve">
-    <value>Madhësia horizontale</value>
+    <value>MadhÃ«sia horizontale</value>
   </data>
   <data name="PropertyVerticalSize" xml:space="preserve">
-    <value>Madhësia vertikale</value>
+    <value>MadhÃ«sia vertikale</value>
   </data>
   <data name="PropertyHorizontalResolution" xml:space="preserve">
     <value>Rezolucioni horizontal</value>
@@ -774,7 +774,7 @@
     <value>Rezolucioni vertikal</value>
   </data>
   <data name="PropertyColorSpace" xml:space="preserve">
-    <value>Hapësirë me ngjyra</value>
+    <value>HapÃ«sirÃ« me ngjyra</value>
   </data>
   <data name="PropertyColorSpace_Value0" xml:space="preserve">
     <value>sRGB</value>
@@ -783,13 +783,13 @@
     <value>E paspecifikuar</value>
   </data>
   <data name="PropertyLongitudeDecimal" xml:space="preserve">
-    <value>Decimal i gjatësisë gjeografike</value>
+    <value>Decimal i gjatÃ«sisÃ« gjeografike</value>
   </data>
   <data name="PropertyLatitudeDecimal" xml:space="preserve">
-    <value>Gjerësia gjeografike dhjetore</value>
+    <value>GjerÃ«sia gjeografike dhjetore</value>
   </data>
   <data name="PropertyAltitude" xml:space="preserve">
-    <value>Lartësia mbidetare</value>
+    <value>LartÃ«sia mbidetare</value>
   </data>
   <data name="PropertyDateTaken" xml:space="preserve">
     <value>Data e Marrjes</value>
@@ -798,19 +798,19 @@
     <value>Prodhuesi i kamerave</value>
   </data>
   <data name="PropertyCameraModel" xml:space="preserve">
-    <value>Modeli i kamerës</value>
+    <value>Modeli i kamerÃ«s</value>
   </data>
   <data name="PropertyExposureTime" xml:space="preserve">
     <value>Koha e ekspozimit</value>
   </data>
   <data name="PropertyFocalLength" xml:space="preserve">
-    <value>Gjatësia Fokale</value>
+    <value>GjatÃ«sia Fokale</value>
   </data>
   <data name="PropertyAperture" xml:space="preserve">
     <value>Apertura</value>
   </data>
   <data name="PropertyPeopleNames" xml:space="preserve">
-    <value>Emrat e njerëzve</value>
+    <value>Emrat e njerÃ«zve</value>
   </data>
   <data name="PropertyChannelCount" xml:space="preserve">
     <value>Numri i kanaleve</value>
@@ -819,7 +819,7 @@
     <value>Formati</value>
   </data>
   <data name="PropertySampleRate" xml:space="preserve">
-    <value>Norma e mostrës</value>
+    <value>Norma e mostrÃ«s</value>
   </data>
   <data name="PropertyAlbumArtist" xml:space="preserve">
     <value>Artist i albumit</value>
@@ -831,7 +831,7 @@
     <value>Artist</value>
   </data>
   <data name="PropertyBeatsPerMinute" xml:space="preserve">
-    <value>Rrahjet në minutë</value>
+    <value>Rrahjet nÃ« minutÃ«</value>
   </data>
   <data name="PropertyComposer" xml:space="preserve">
     <value>Kompozitor</value>
@@ -846,13 +846,13 @@
     <value>Zhanri</value>
   </data>
   <data name="PropertyTrackNumber" xml:space="preserve">
-    <value>Numri i gjurmës</value>
+    <value>Numri i gjurmÃ«s</value>
   </data>
   <data name="PropertyDuration" xml:space="preserve">
-    <value>Kohëzgjatja</value>
+    <value>KohÃ«zgjatja</value>
   </data>
   <data name="PropertyFrameCount" xml:space="preserve">
-    <value>Numërimi i kornizës</value>
+    <value>NumÃ«rimi i kornizÃ«s</value>
   </data>
   <data name="PropertyProtectionType" xml:space="preserve">
     <value>Lloji i mbrojtjes</value>
@@ -861,13 +861,13 @@
     <value>Url i autorit</value>
   </data>
   <data name="PropertyContentDistributor" xml:space="preserve">
-    <value>Shpërndarësi i përmbajtjes</value>
+    <value>ShpÃ«rndarÃ«si i pÃ«rmbajtjes</value>
   </data>
   <data name="PropertyDateReleased" xml:space="preserve">
     <value>Data e publikimit</value>
   </data>
   <data name="PropertySeriesName" xml:space="preserve">
-    <value>Emri i serisë</value>
+    <value>Emri i serisÃ«</value>
   </data>
   <data name="PropertySeasonNumber" xml:space="preserve">
     <value>Numri i sezonit</value>
@@ -894,13 +894,13 @@
     <value>Miniatura Uri i madh</value>
   </data>
   <data name="PropertyThumbnailSmallPath" xml:space="preserve">
-    <value>Miniatur Shtegu i Vogël</value>
+    <value>Miniatur Shtegu i VogÃ«l</value>
   </data>
   <data name="PropertyThumbnailSmallUri" xml:space="preserve">
-    <value>Miniatura Uri i vogël</value>
+    <value>Miniatura Uri i vogÃ«l</value>
   </data>
   <data name="PropertyUserWebUrl" xml:space="preserve">
-    <value>Urlja e ueb-faqes së përdoruesit</value>
+    <value>Urlja e ueb-faqes sÃ« pÃ«rdoruesit</value>
   </data>
   <data name="PropertyWriter" xml:space="preserve">
     <value>Shkrimtar</value>
@@ -930,49 +930,49 @@
     <value>shabllon</value>
   </data>
   <data name="PropertyWordCount" xml:space="preserve">
-    <value>Numri i fjalëve</value>
+    <value>Numri i fjalÃ«ve</value>
   </data>
   <data name="PropertyCharacterCount" xml:space="preserve">
     <value>Numri i karaktereve</value>
   </data>
   <data name="PropertyLineCount" xml:space="preserve">
-    <value>Numërimi i rreshtave</value>
+    <value>NumÃ«rimi i rreshtave</value>
   </data>
   <data name="PropertyParagraphCount" xml:space="preserve">
-    <value>Numri i paragrafëve</value>
+    <value>Numri i paragrafÃ«ve</value>
   </data>
   <data name="PropertyPageCount" xml:space="preserve">
     <value>Numri i faqeve</value>
   </data>
   <data name="PropertySlideCount" xml:space="preserve">
-    <value>Numërimi i rrëshqitjeve</value>
+    <value>NumÃ«rimi i rrÃ«shqitjeve</value>
   </data>
   <data name="PropertyFrameRate" xml:space="preserve">
-    <value>Shpejtësia e kornizës</value>
+    <value>ShpejtÃ«sia e kornizÃ«s</value>
   </data>
   <data name="PropertyEncodingBitrate" xml:space="preserve">
-    <value>Kodimi i shpejtësisë së biteve</value>
+    <value>Kodimi i shpejtÃ«sisÃ« sÃ« biteve</value>
   </data>
   <data name="PropertyPreviewAudioEncodingBitrate" xml:space="preserve">
-    <value>Shpejtësia e biteve të kodimit të audios</value>
+    <value>ShpejtÃ«sia e biteve tÃ« kodimit tÃ« audios</value>
   </data>
   <data name="PropertyPreviewVideoEncodingBitrate" xml:space="preserve">
-    <value>Shpejtësia e biteve të kodimit të videos</value>
+    <value>ShpejtÃ«sia e biteve tÃ« kodimit tÃ« videos</value>
   </data>
   <data name="Compression" xml:space="preserve">
     <value>Kompresimi</value>
   </data>
   <data name="PropertyFrameWidth" xml:space="preserve">
-    <value>Gjerësia e kornizës</value>
+    <value>GjerÃ«sia e kornizÃ«s</value>
   </data>
   <data name="PropertyFrameHeight" xml:space="preserve">
-    <value>Lartësia e kornizës</value>
+    <value>LartÃ«sia e kornizÃ«s</value>
   </data>
   <data name="PropertyOrientation" xml:space="preserve">
     <value>Orientimi</value>
   </data>
   <data name="PropertySectionCore" xml:space="preserve">
-    <value>Bërthama</value>
+    <value>BÃ«rthama</value>
   </data>
   <data name="PropertySectionImage" xml:space="preserve">
     <value>Imazhi</value>
@@ -990,7 +990,7 @@
     <value>Audio</value>
   </data>
   <data name="PropertySectionMusic" xml:space="preserve">
-    <value>Muzikë</value>
+    <value>MuzikÃ«</value>
   </data>
   <data name="PropertySectionVideo" xml:space="preserve">
     <value>Video</value>
@@ -1002,13 +1002,13 @@
     <value>Adresa</value>
   </data>
   <data name="SelectionOptions" xml:space="preserve">
-    <value>Opsionet e përzgjedhjes</value>
+    <value>Opsionet e pÃ«rzgjedhjes</value>
   </data>
   <data name="NavToolbarSelectionOptions.Label" xml:space="preserve">
     <value>Zgjidhni</value>
   </data>
   <data name="RecycleBinItemAutomation" xml:space="preserve">
-    <value>Artikulli i koshit të riciklimit</value>
+    <value>Artikulli i koshit tÃ« riciklimit</value>
   </data>
   <data name="ShortcutItemAutomation" xml:space="preserve">
     <value>Artikulli i shkurtores</value>
@@ -1017,19 +1017,19 @@
     <value>Disqet</value>
   </data>
   <data name="PinToSidebarByDraggingCaptionText" xml:space="preserve">
-    <value>Lëvizni këtu</value>
+    <value>LÃ«vizni kÃ«tu</value>
   </data>
   <data name="EjectNotificationHeader" xml:space="preserve">
-    <value>I sigurt për të hequr harduerin</value>
+    <value>I sigurt pÃ«r tÃ« hequr harduerin</value>
   </data>
   <data name="EjectNotificationBody" xml:space="preserve">
-    <value>Pajisja tani mund të hiqet në mënyrë të sigurt nga kompjuteri.</value>
+    <value>Pajisja tani mund tÃ« hiqet nÃ« mÃ«nyrÃ« tÃ« sigurt nga kompjuteri.</value>
   </data>
   <data name="EjectNotificationErrorDialogHeader" xml:space="preserve">
     <value>Problem me nxjerrjen e pajisjes</value>
   </data>
   <data name="EjectNotificationErrorDialogBody" xml:space="preserve">
-    <value>Kjo pajisje është aktualisht në përdorim. Mbyllni çdo program, dritare ose skedë që mund të jetë duke përdorur pajisjen dhe më pas provoni përsëri.</value>
+    <value>Kjo pajisje Ã«shtÃ« aktualisht nÃ« pÃ«rdorim. Mbyllni Ã§do program, dritare ose skedÃ« qÃ« mund tÃ« jetÃ« duke pÃ«rdorur pajisjen dhe mÃ« pas provoni pÃ«rsÃ«ri.</value>
   </data>
   <data name="Eject" xml:space="preserve">
     <value>Nxjerr</value>
@@ -1038,28 +1038,28 @@
     <value>Skeda e kopjuar</value>
   </data>
   <data name="HorizontalMultitaskingControlMoveTabToNewWindow.Text" xml:space="preserve">
-    <value>Zhvendos skedën në dritare të re</value>
+    <value>Zhvendos skedÃ«n nÃ« dritare tÃ« re</value>
   </data>
   <data name="NewTab" xml:space="preserve">
     <value>Skeda e re</value>
   </data>
   <data name="ClearPropertiesFlyoutText.Text" xml:space="preserve">
-    <value>Disa prona mund të përmbajnë informacion personal.</value>
+    <value>Disa prona mund tÃ« pÃ«rmbajnÃ« informacion personal.</value>
   </data>
   <data name="ClearPropertiesButton.Content" xml:space="preserve">
-    <value>Pastro të gjitha vetitë</value>
+    <value>Pastro tÃ« gjitha vetitÃ«</value>
   </data>
   <data name="OngoingTasksTeachingTip.Subtitle" xml:space="preserve">
-    <value>Kontrolloni statusin e operacioneve të skedarëve këtu</value>
+    <value>Kontrolloni statusin e operacioneve tÃ« skedarÃ«ve kÃ«tu</value>
   </data>
   <data name="OngoingTasksTeachingTip.Title" xml:space="preserve">
     <value>Qendra e statusit</value>
   </data>
   <data name="SearchPagePathBoxOverrideText" xml:space="preserve">
-    <value>Rezultatet e kërkimit në {0} për {0}</value>
+    <value>Rezultatet e kÃ«rkimit nÃ« {0} pÃ«r {0}</value>
   </data>
   <data name="SearchResultsFor" xml:space="preserve">
-    <value>Rezultatet e kërkimit për `{0}`</value>
+    <value>Rezultatet e kÃ«rkimit pÃ«r `{0}`</value>
   </data>
   <data name="Details" xml:space="preserve">
     <value>Detajet</value>
@@ -1068,13 +1068,13 @@
     <value>Nr</value>
   </data>
   <data name="ShowProtectedSystemFiles" xml:space="preserve">
-    <value>Shfaq skedarët e mbrojtur të sistemit</value>
+    <value>Shfaq skedarÃ«t e mbrojtur tÃ« sistemit</value>
   </data>
   <data name="SyncFolderPreferencesAcrossDirectories" xml:space="preserve">
-    <value>Sinkronizoni preferencat e paraqitjes dhe renditjes nëpër drejtori</value>
+    <value>Sinkronizoni preferencat e paraqitjes dhe renditjes nÃ«pÃ«r drejtori</value>
   </data>
   <data name="SettingsContextMenu.Text" xml:space="preserve">
-    <value>Personalizojeni menynë e kontekstit të klikimit me të djathtën</value>
+    <value>Personalizojeni menynÃ« e kontekstit tÃ« klikimit me tÃ« djathtÃ«n</value>
   </data>
   <data name="OriginalPath" xml:space="preserve">
     <value>Rruga origjinale</value>
@@ -1089,25 +1089,25 @@
     <value>Hiq</value>
   </data>
   <data name="SettingsMultitaskingAlwaysOpenDualPane" xml:space="preserve">
-    <value>Hapni skedat në modalitetin e panelit të dyfishtë</value>
+    <value>Hapni skedat nÃ« modalitetin e panelit tÃ« dyfishtÃ«</value>
   </data>
   <data name="ShowOpenInNewPane" xml:space="preserve">
-    <value>Shfaq opsionin për të hapur dosjet në një panel të ri</value>
+    <value>Shfaq opsionin pÃ«r tÃ« hapur dosjet nÃ« njÃ« panel tÃ« ri</value>
   </data>
   <data name="ShowCopyPath" xml:space="preserve">
-    <value>Shfaq opsionin për të kopjuar rrugën</value>
+    <value>Shfaq opsionin pÃ«r tÃ« kopjuar rrugÃ«n</value>
   </data>
   <data name="ShowCreateFolderWithSelection" xml:space="preserve">
-    <value>Shfaq opsionin për të krijuar dosje me përzgjedhje</value>
+    <value>Shfaq opsionin pÃ«r tÃ« krijuar dosje me pÃ«rzgjedhje</value>
   </data>
   <data name="ShowCreateShortcut" xml:space="preserve">
-    <value>Shfaq opsionin për të krijuar shkurtore</value>
+    <value>Shfaq opsionin pÃ«r tÃ« krijuar shkurtore</value>
   </data>
   <data name="NavigationToolbarNewPane.Label" xml:space="preserve">
     <value>Xhami i ri</value>
   </data>
   <data name="OpenInNewPane" xml:space="preserve">
-    <value>Hapni në panelin e ri</value>
+    <value>Hapni nÃ« panelin e ri</value>
   </data>
   <data name="OpenInOtherPane" xml:space="preserve">
     <value>Open in other pane</value>
@@ -1116,7 +1116,7 @@
     <value>Open current folder in other pane</value>
   </data>
   <data name="FilesAndFolders" xml:space="preserve">
-    <value>Skedarët dhe dosjet</value>
+    <value>SkedarÃ«t dhe dosjet</value>
   </data>
   <data name="NavToolbarDetails.ToolTipService.ToolTip" xml:space="preserve">
     <value>Detajet (Ctrl+Shift+1)</value>
@@ -1125,7 +1125,7 @@
     <value>Data e fshirjes</value>
   </data>
   <data name="SidebarCloudDrives" xml:space="preserve">
-    <value>Disqet në renë kompjuterike</value>
+    <value>Disqet nÃ« renÃ« kompjuterike</value>
   </data>
   <data name="Confirm" xml:space="preserve">
     <value>Konfirmo</value>
@@ -1140,31 +1140,31 @@
     <value>Ndrysho panelin e detajeve</value>
   </data>
   <data name="ToggleDetailsPaneDescription" xml:space="preserve">
-    <value>Ndryshoni panelin e detajeve për të parë vetitë bazë të skedarit</value>
+    <value>Ndryshoni panelin e detajeve pÃ«r tÃ« parÃ« vetitÃ« bazÃ« tÃ« skedarit</value>
   </data>
   <data name="ToggleInfoPane" xml:space="preserve">
     <value>Ndrysho panelin e informacionit</value>
   </data>
   <data name="ToggleInfoPaneDescription" xml:space="preserve">
-    <value>Ndrysho dukshmërinë e paneleve të detajeve/paraafishimit</value>
+    <value>Ndrysho dukshmÃ«rinÃ« e paneleve tÃ« detajeve/paraafishimit</value>
   </data>
   <data name="ToggleToolbar" xml:space="preserve">
     <value>Ndrysho shiritin e veglave</value>
   </data>
   <data name="ToggleToolbarDescription" xml:space="preserve">
-    <value>Ndrysho dukshmërinë e shiritit të veglave</value>
+    <value>Ndrysho dukshmÃ«rinÃ« e shiritit tÃ« veglave</value>
   </data>
   <data name="ToggleFilterHeader" xml:space="preserve">
-    <value>Ndrysho kokën e filtrit</value>
+    <value>Ndrysho kokÃ«n e filtrit</value>
   </data>
   <data name="ToggleFilterHeaderDescription" xml:space="preserve">
-    <value>Ndrysho dukshmërinë e kokës së filtrit</value>
+    <value>Ndrysho dukshmÃ«rinÃ« e kokÃ«s sÃ« filtrit</value>
   </data>
   <data name="ToggleDualPane" xml:space="preserve">
-    <value>Ndrysho panelin e dyfishtë</value>
+    <value>Ndrysho panelin e dyfishtÃ«</value>
   </data>
   <data name="ToggleDualPaneDescription" xml:space="preserve">
-    <value>Ndrysho modalitetin e panelit të dyfishtë</value>
+    <value>Ndrysho modalitetin e panelit tÃ« dyfishtÃ«</value>
   </data>
   <data name="DetailsPanePreviewNotAvaliableText" xml:space="preserve">
     <value>Nuk ka pamje paraprake</value>
@@ -1176,7 +1176,7 @@
     <value>Unpin</value>
   </data>
   <data name="UnpinFolderFromSidebar" xml:space="preserve">
-    <value>Zhgozhdoni nga Shiriti anësor</value>
+    <value>Zhgozhdoni nga Shiriti anÃ«sor</value>
   </data>
   <data name="Network" xml:space="preserve">
     <value>Rrjeti</value>
@@ -1188,28 +1188,28 @@
     <value>Pamja paraprake e skedarit</value>
   </data>
   <data name="SelectedFilePreviewPane.AutomationProperties.Name" xml:space="preserve">
-    <value>Paneli i përzgjedhur i pamjes paraprake të skedarit</value>
+    <value>Paneli i pÃ«rzgjedhur i pamjes paraprake tÃ« skedarit</value>
   </data>
   <data name="Feedback" xml:space="preserve">
     <value>Feedback</value>
   </data>
   <data name="CloudDriveSyncStatus_Online" xml:space="preserve">
-    <value>Në dispozicion kur jeni në linjë</value>
+    <value>NÃ« dispozicion kur jeni nÃ« linjÃ«</value>
   </data>
   <data name="Documentation" xml:space="preserve">
     <value>Dokumentacioni</value>
   </data>
   <data name="CloudDriveSyncStatus_Offline" xml:space="preserve">
-    <value>E disponueshme jashtë linje</value>
+    <value>E disponueshme jashtÃ« linje</value>
   </data>
   <data name="CloudDriveSyncStatus_PartialOffline" xml:space="preserve">
-    <value>Pjesërisht e disponueshme jashtë linje</value>
+    <value>PjesÃ«risht e disponueshme jashtÃ« linje</value>
   </data>
   <data name="CloudDriveSyncStatus_Sync" xml:space="preserve">
     <value>Po sinkronizohet</value>
   </data>
   <data name="CloudDriveSyncStatus_Excluded" xml:space="preserve">
-    <value>Përjashtuar nga sinkronizimi</value>
+    <value>PÃ«rjashtuar nga sinkronizimi</value>
   </data>
   <data name="ItemSizeNotCalculated" xml:space="preserve">
     <value>E pa llogaritur</value>
@@ -1239,13 +1239,13 @@
     <value>Rrjeti Drive</value>
   </data>
   <data name="DriveTypeNoRootDirectory" xml:space="preserve">
-    <value>Disku i çmontuar</value>
+    <value>Disku i Ã§montuar</value>
   </data>
   <data name="DriveTypeRam" xml:space="preserve">
     <value>RAM Disk Drive</value>
   </data>
   <data name="DriveTypeRemovable" xml:space="preserve">
-    <value>Pajisje ruajtëse e lëvizshme</value>
+    <value>Pajisje ruajtÃ«se e lÃ«vizshme</value>
   </data>
   <data name="DriveTypeUnknown" xml:space="preserve">
     <value>E panjohur</value>
@@ -1257,7 +1257,7 @@
     <value>Data e krijimit</value>
   </data>
   <data name="MoreOptions" xml:space="preserve">
-    <value>Më shumë opsione...</value>
+    <value>MÃ« shumÃ« opsione...</value>
   </data>
   <data name="DrivesWidgetOptionsFlyoutMapNetDriveMenuItemText" xml:space="preserve">
     <value>Map network drive</value>
@@ -1269,7 +1269,7 @@
     <value>Bibliotekat</value>
   </data>
   <data name="NoItemSelected" xml:space="preserve">
-    <value>Nuk është zgjedhur asnjë artikull</value>
+    <value>Nuk Ã«shtÃ« zgjedhur asnjÃ« artikull</value>
   </data>
   <data name="PropertyItemTarget" xml:space="preserve">
     <value>Synimi</value>
@@ -1284,10 +1284,10 @@
     <value>Numri i artikujve</value>
   </data>
   <data name="ElevateConfirmDialog.Title" xml:space="preserve">
-    <value>Ky veprim kërkon të drejtat e administratorit</value>
+    <value>Ky veprim kÃ«rkon tÃ« drejtat e administratorit</value>
   </data>
   <data name="ElevateConfirmDialog.Content" xml:space="preserve">
-    <value>Dëshironi të vazhdoni si administrator?</value>
+    <value>DÃ«shironi tÃ« vazhdoni si administrator?</value>
   </data>
   <data name="ColumnsShortcutTooltip" xml:space="preserve">
     <value>Kolonat (Ctrl+Shift+6)</value>
@@ -1305,28 +1305,28 @@
     <value>Vendndodhjet:</value>
   </data>
   <data name="SetAsDefaultSavePath" xml:space="preserve">
-    <value>Cakto si shtegun e paracaktuar të ruajtjes</value>
+    <value>Cakto si shtegun e paracaktuar tÃ« ruajtjes</value>
   </data>
   <data name="LibraryNoLocations.Text" xml:space="preserve">
     <value>Nuk ka vendndodhje</value>
   </data>
   <data name="ErrorInputEmpty" xml:space="preserve">
-    <value>Fusha e hyrjes nuk mund të jetë bosh!</value>
+    <value>Fusha e hyrjes nuk mund tÃ« jetÃ« bosh!</value>
   </data>
   <data name="ErrorNameInputRestrictedCharacters" xml:space="preserve">
-    <value>Emri nuk duhet të përmbajë karakteret e mëposhtme: \ / : * ? " &lt; &gt; |</value>
+    <value>Emri nuk duhet tÃ« pÃ«rmbajÃ« karakteret e mÃ«poshtme: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="ErrorNameInputRestricted" xml:space="preserve">
-    <value>Përdorimi i këtij emri nuk lejohet!</value>
+    <value>PÃ«rdorimi i kÃ«tij emri nuk lejohet!</value>
   </data>
   <data name="CreateLibraryErrorAlreadyExists" xml:space="preserve">
-    <value>Biblioteka me të njëjtin emër ekziston tashmë!</value>
+    <value>Biblioteka me tÃ« njÃ«jtin emÃ«r ekziston tashmÃ«!</value>
   </data>
   <data name="OpenStorageSense" xml:space="preserve">
     <value>Hap "Storage Sense".</value>
   </data>
   <data name="OpenStorageSenseDescription" xml:space="preserve">
-    <value>Hapni faqen Storage Sense në Cilësimet e Windows</value>
+    <value>Hapni faqen Storage Sense nÃ« CilÃ«simet e Windows</value>
   </data>
   <data name="Cleanup" xml:space="preserve">
     <value>Pastrim</value>
@@ -1341,7 +1341,7 @@
     <value>Delete {0, plural, one {artikull} other {items}}</value>
   </data>
   <data name="MoveItemsDialogPrimaryButtonText" xml:space="preserve">
-    <value>Lëvizni</value>
+    <value>LÃ«vizni</value>
   </data>
   <data name="MoveItemsDialogSubtitle" xml:space="preserve">
     <value>{0, plural, one {One item will be moved} other {# items will be moved}}</value>
@@ -1362,25 +1362,25 @@
     <value>{0, plural, one {There is one conflicting file name} other {There are # conflicting file names}}, and {1, plural, one {one outgoing item} other {# outgoing items}}</value>
   </data>
   <data name="ConflictingItemsDialogTitle" xml:space="preserve">
-    <value>Conflicting {0, plural, one {emri i skedarit} other {emrat e skedarëve}}</value>
+    <value>Conflicting {0, plural, one {emri i skedarit} other {emrat e skedarÃ«ve}}</value>
   </data>
   <data name="CopyItemsDialogSubtitle" xml:space="preserve">
     <value>{0, plural, one {One item will be copied} other {# items will be copied}}</value>
   </data>
   <data name="DeleteItemsDialogPermanentlyDeleteCheckBox.Content" xml:space="preserve">
-    <value>Fshije përgjithmonë</value>
+    <value>Fshije pÃ«rgjithmonÃ«</value>
   </data>
   <data name="PropertyISO" xml:space="preserve">
-    <value>shpejtësi ISO</value>
+    <value>shpejtÃ«si ISO</value>
   </data>
   <data name="ReplaceExisting" xml:space="preserve">
-    <value>Zëvendësoni ekzistuesin</value>
+    <value>ZÃ«vendÃ«soni ekzistuesin</value>
   </data>
   <data name="GenerateNewName" xml:space="preserve">
-    <value>Krijo një emër të ri</value>
+    <value>Krijo njÃ« emÃ«r tÃ« ri</value>
   </data>
   <data name="CreateFolderWithSelection" xml:space="preserve">
-    <value>Krijo dosje me përzgjedhje</value>
+    <value>Krijo dosje me pÃ«rzgjedhje</value>
   </data>
   <data name="CreateShortcutWithSelection" xml:space="preserve">
     <value>Create shortcuts with selection</value>
@@ -1401,16 +1401,16 @@
     <value>Ikona e skedarit</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowOriginalPath.Text" xml:space="preserve">
-    <value>Kolona origjinale e rrugës</value>
+    <value>Kolona origjinale e rrugÃ«s</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowItemType.Text" xml:space="preserve">
-    <value>Kolona e llojit të artikullit</value>
+    <value>Kolona e llojit tÃ« artikullit</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateModified.Text" xml:space="preserve">
-    <value>Kolona e modifikimit të datës</value>
+    <value>Kolona e modifikimit tÃ« datÃ«s</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateDeleted.Text" xml:space="preserve">
-    <value>Data e fshirjes së kolonës</value>
+    <value>Data e fshirjes sÃ« kolonÃ«s</value>
   </data>
   <data name="Sort" xml:space="preserve">
     <value>Rendit</value>
@@ -1428,7 +1428,7 @@
     <value>I madh</value>
   </data>
   <data name="ItemSizeText_VeryLarge" xml:space="preserve">
-    <value>Shumë i madh</value>
+    <value>ShumÃ« i madh</value>
   </data>
   <data name="ItemSizeText_Large" xml:space="preserve">
     <value>I madh</value>
@@ -1437,7 +1437,7 @@
     <value>E mesme</value>
   </data>
   <data name="ItemSizeText_Small" xml:space="preserve">
-    <value>I vogël</value>
+    <value>I vogÃ«l</value>
   </data>
   <data name="ItemSizeText_Tiny" xml:space="preserve">
     <value>I vogel</value>
@@ -1452,19 +1452,19 @@
     <value>Dje</value>
   </data>
   <data name="EarlierThisWeek" xml:space="preserve">
-    <value>Në fillim të kësaj jave</value>
+    <value>NÃ« fillim tÃ« kÃ«saj jave</value>
   </data>
   <data name="LastWeek" xml:space="preserve">
-    <value>Javën e kaluar</value>
+    <value>JavÃ«n e kaluar</value>
   </data>
   <data name="EarlierThisMonth" xml:space="preserve">
-    <value>Në fillim të këtij muaji</value>
+    <value>NÃ« fillim tÃ« kÃ«tij muaji</value>
   </data>
   <data name="LastMonth" xml:space="preserve">
     <value>Muajin e kaluar</value>
   </data>
   <data name="EarlierThisYear" xml:space="preserve">
-    <value>Në fillim të këtij viti</value>
+    <value>NÃ« fillim tÃ« kÃ«tij viti</value>
   </data>
   <data name="LastYear" xml:space="preserve">
     <value>Vitin e kaluar</value>
@@ -1479,13 +1479,13 @@
     <value>{0} artikuj</value>
   </data>
   <data name="ReopenClosedTab" xml:space="preserve">
-    <value>Rihap skedën</value>
+    <value>Rihap skedÃ«n</value>
   </data>
   <data name="Rename" xml:space="preserve">
-    <value>Riemërto</value>
+    <value>RiemÃ«rto</value>
   </data>
   <data name="Privacy" xml:space="preserve">
-    <value>Privatësia</value>
+    <value>PrivatÃ«sia</value>
   </data>
   <data name="TheRecycleBin" xml:space="preserve">
     <value>koshin e riciklimit</value>
@@ -1494,7 +1494,7 @@
     <value>Duke anuluar</value>
   </data>
   <data name="Clear" xml:space="preserve">
-    <value>E qartë</value>
+    <value>E qartÃ«</value>
   </data>
   <data name="Widgets" xml:space="preserve">
     <value>Widgets</value>
@@ -1515,16 +1515,16 @@
     <value>Moho</value>
   </data>
   <data name="SecurityFullControlLabel.Text" xml:space="preserve">
-    <value>Kontroll i plotë</value>
+    <value>Kontroll i plotÃ«</value>
   </data>
   <data name="SecurityListDirectoryLabel.Text" xml:space="preserve">
-    <value>Listoni përmbajtjen e drejtorisë</value>
+    <value>Listoni pÃ«rmbajtjen e drejtorisÃ«</value>
   </data>
   <data name="Modify" xml:space="preserve">
     <value>Modifiko</value>
   </data>
   <data name="SecurityPermissionsHeaderText" xml:space="preserve">
-    <value>Lejet për {0}</value>
+    <value>Lejet pÃ«r {0}</value>
   </data>
   <data name="SecurityReadAndExecuteLabel.Text" xml:space="preserve">
     <value>Lexoni dhe ekzekutoni</value>
@@ -1533,7 +1533,7 @@
     <value>Lexoni</value>
   </data>
   <data name="SecurityUsersGroupLabel.Text" xml:space="preserve">
-    <value>Emrat e grupeve ose përdoruesve</value>
+    <value>Emrat e grupeve ose pÃ«rdoruesve</value>
   </data>
   <data name="Write" xml:space="preserve">
     <value>Shkruani</value>
@@ -1554,10 +1554,10 @@
     <value>Ekstrakt arkiv</value>
   </data>
   <data name="DecompressArchiveDialogOpenDestinationWhenComplete.Content" xml:space="preserve">
-    <value>Hapni dosjen e destinacionit kur të përfundojë</value>
+    <value>Hapni dosjen e destinacionit kur tÃ« pÃ«rfundojÃ«</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutExtractToChildFolder" xml:space="preserve">
-    <value>Ekstrakt në {0}\</value>
+    <value>Ekstrakt nÃ« {0}\</value>
   </data>
   <data name="SideBarCreateNewLibraryText" xml:space="preserve">
     <value>Create new library</value>
@@ -1566,7 +1566,7 @@
     <value>Restore default libraries</value>
   </data>
   <data name="DialogRestoreLibrariesSubtitleText" xml:space="preserve">
-    <value>Jeni i sigurt që dëshironi të rivendosni bibliotekat e paracaktuara? Të gjithë skedarët tuaj do të mbeten në hapësirën ruajtëse.</value>
+    <value>Jeni i sigurt qÃ« dÃ«shironi tÃ« rivendosni bibliotekat e paracaktuara? TÃ« gjithÃ« skedarÃ«t tuaj do tÃ« mbeten nÃ« hapÃ«sirÃ«n ruajtÃ«se.</value>
   </data>
   <data name="DialogRestoreLibrariesTitleText" xml:space="preserve">
     <value>Rivendosja e bibliotekave</value>
@@ -1581,7 +1581,7 @@
     <value>Qasja</value>
   </data>
   <data name="SecurityAdvancedAppliesTo" xml:space="preserve">
-    <value>Zbatohet për</value>
+    <value>Zbatohet pÃ«r</value>
   </data>
   <data name="Principal" xml:space="preserve">
     <value>Kryesorja</value>
@@ -1590,13 +1590,13 @@
     <value>dosjet</value>
   </data>
   <data name="SecurityAdvancedFlagsFolderLabel" xml:space="preserve">
-    <value>këtë dosje</value>
+    <value>kÃ«tÃ« dosje</value>
   </data>
   <data name="SecurityAdvancedFlagsSubfoldersLabel" xml:space="preserve">
-    <value>nëndosjet</value>
+    <value>nÃ«ndosjet</value>
   </data>
   <data name="Inherited" xml:space="preserve">
-    <value>I trashëguar</value>
+    <value>I trashÃ«guar</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Lejet</value>
@@ -1605,25 +1605,25 @@
     <value>You do not have permissions to view the security properties of this object. You can try to take ownership of this object.</value>
   </data>
   <data name="SecurityAdvancedFolderFiles.Text" xml:space="preserve">
-    <value>Kjo dosje dhe skedarë</value>
+    <value>Kjo dosje dhe skedarÃ«</value>
   </data>
   <data name="SecurityAdvancedFolderSubfoldersFiles.Text" xml:space="preserve">
-    <value>Kjo dosje, nëndosje dhe skedarë</value>
+    <value>Kjo dosje, nÃ«ndosje dhe skedarÃ«</value>
   </data>
   <data name="SecurityAdvancedOnlyFiles.Text" xml:space="preserve">
-    <value>Vetëm skedarë</value>
+    <value>VetÃ«m skedarÃ«</value>
   </data>
   <data name="SecurityAdvancedOnlySubfolders.Text" xml:space="preserve">
-    <value>Vetëm nëndosjet</value>
+    <value>VetÃ«m nÃ«ndosjet</value>
   </data>
   <data name="SecurityAdvancedOnlySubfoldersFiles.Text" xml:space="preserve">
-    <value>Vetëm nëndosjet dhe skedarët</value>
+    <value>VetÃ«m nÃ«ndosjet dhe skedarÃ«t</value>
   </data>
   <data name="SecurityAdvancedOnlyThisFolder.Text" xml:space="preserve">
-    <value>Vetëm kjo dosje</value>
+    <value>VetÃ«m kjo dosje</value>
   </data>
   <data name="SecurityAdvancedFolderSubfolders.Text" xml:space="preserve">
-    <value>Kjo dosje dhe nëndosjet</value>
+    <value>Kjo dosje dhe nÃ«ndosjet</value>
   </data>
   <data name="SecurityAppendDataLabelText" xml:space="preserve">
     <value>Append data</value>
@@ -1671,19 +1671,19 @@
     <value>Write extended attributes</value>
   </data>
   <data name="SecurityAdvancedInheritedConvert.Text" xml:space="preserve">
-    <value>Konvertoni lejet e trashëguara në leje të qarta</value>
+    <value>Konvertoni lejet e trashÃ«guara nÃ« leje tÃ« qarta</value>
   </data>
   <data name="SecurityAdvancedInheritedEnable.Text" xml:space="preserve">
-    <value>Aktivizo trashëgiminë</value>
+    <value>Aktivizo trashÃ«giminÃ«</value>
   </data>
   <data name="SecurityAdvancedInheritedRemove.Text" xml:space="preserve">
-    <value>Hiq të gjitha lejet e trashëguara</value>
+    <value>Hiq tÃ« gjitha lejet e trashÃ«guara</value>
   </data>
   <data name="SecurityAdvancedReplaceChildPermissions.Text" xml:space="preserve">
-    <value>Rivendos lejet e fëmijëve</value>
+    <value>Rivendos lejet e fÃ«mijÃ«ve</value>
   </data>
   <data name="SecurityAdvancedReplaceChildPermissions2.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Zëvendësoni të gjitha hyrjet e lejeve të objektit fëmijë me hyrjet e lejeve të trashëgueshme nga ky objekt</value>
+    <value>ZÃ«vendÃ«soni tÃ« gjitha hyrjet e lejeve tÃ« objektit fÃ«mijÃ« me hyrjet e lejeve tÃ« trashÃ«gueshme nga ky objekt</value>
   </data>
   <data name="CloseActivePane" xml:space="preserve">
     <value>Mbylle panelin</value>
@@ -1695,7 +1695,7 @@
     <value>Dilni nga mbivendosja kompakte</value>
   </data>
   <data name="PropertyFileDescription" xml:space="preserve">
-    <value>Përshkrimi i skedarit</value>
+    <value>PÃ«rshkrimi i skedarit</value>
   </data>
   <data name="PropertyCompany" xml:space="preserve">
     <value>Kompania</value>
@@ -1710,7 +1710,7 @@
     <value>Versioni i skedarit</value>
   </data>
   <data name="PreviewPaneLoadCloudItemButton.Text" xml:space="preserve">
-    <value>Ngarko pamjen paraprake të plotë</value>
+    <value>Ngarko pamjen paraprake tÃ« plotÃ«</value>
   </data>
   <data name="PreviewPaneLoadCloudItemButton.ToolTipService.ToolTip" xml:space="preserve">
     <value>Shkarkon artikullin nga cloud dhe ngarkon pamjen paraprake</value>
@@ -1719,7 +1719,7 @@
     <value>{0, plural, one {# item} other {# items}} ({1, plural, one {# file} other {# files}}, {2, plural, one {# folder} other {# folders}})</value>
   </data>
   <data name="PropertyUncompressedSize" xml:space="preserve">
-    <value>MadhÃ«sia e pakompresuar</value>
+    <value>MadhÃƒÂ«sia e pakompresuar</value>
   </data>
   <data name="WSL" xml:space="preserve">
     <value>WSL</value>
@@ -1731,28 +1731,28 @@
     <value>Shto skedar</value>
   </data>
   <data name="ConsentDialogTitle" xml:space="preserve">
-    <value>Ofrohen përditësime</value>
+    <value>Ofrohen pÃ«rditÃ«sime</value>
   </data>
   <data name="ConsentDialogContent" xml:space="preserve">
-    <value>Përditësimet janë gati për t'u instaluar</value>
+    <value>PÃ«rditÃ«simet janÃ« gati pÃ«r t'u instaluar</value>
   </data>
   <data name="Close" xml:space="preserve">
     <value>Mbylle</value>
   </data>
   <data name="ConsentDialogPrimaryButtonText" xml:space="preserve">
-    <value>Përditëso</value>
+    <value>PÃ«rditÃ«so</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>Shtëpi</value>
+    <value>ShtÃ«pi</value>
   </data>
   <data name="ArchiveExtractionCompletedSuccessfullyText" xml:space="preserve">
-    <value>Nxjerrja e arkivit përfundoi me sukses.</value>
+    <value>Nxjerrja e arkivit pÃ«rfundoi me sukses.</value>
   </data>
   <data name="ExtractingArchiveText" xml:space="preserve">
     <value>Nxjerrja e arkivit</value>
   </data>
   <data name="ExtractingCompleteText" xml:space="preserve">
-    <value>Nxjerrja e plotë!</value>
+    <value>Nxjerrja e plotÃ«!</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutOpenParentFolderText" xml:space="preserve">
     <value>Open parent folder</value>
@@ -1764,7 +1764,7 @@
     <value>Redakto etiketat</value>
   </data>
   <data name="PropertyPartOfSet" xml:space="preserve">
-    <value>Pjesë e kompletit</value>
+    <value>PjesÃ« e kompletit</value>
   </data>
   <data name="InsertDiscDialog.OpenDriveButton" xml:space="preserve">
     <value>Hapni diskun</value>
@@ -1779,7 +1779,7 @@
     <value>OK</value>
   </data>
   <data name="AskCredentialDialog.Title" xml:space="preserve">
-    <value>Kërkohet kredenciale</value>
+    <value>KÃ«rkohet kredenciale</value>
   </data>
   <data name="CredentialDialogAnonymous.Content" xml:space="preserve">
     <value>Anonim</value>
@@ -1797,16 +1797,16 @@
     <value>This location is password protected. Refresh to enter the password.</value>
   </data>
   <data name="CredentialDialogUserName.PlaceholderText" xml:space="preserve">
-    <value>Emri i përdoruesit</value>
+    <value>Emri i pÃ«rdoruesit</value>
   </data>
   <data name="NoSearchResultsFound" xml:space="preserve">
-    <value>Nuk u gjet asnjë artikull</value>
+    <value>Nuk u gjet asnjÃ« artikull</value>
   </data>
   <data name="OpenLogLocation" xml:space="preserve">
     <value>Hap vendndodhjen e regjistrit</value>
   </data>
   <data name="LinkToFolderCaptionText" xml:space="preserve">
-    <value>Krijo lidhje në {0}</value>
+    <value>Krijo lidhje nÃ« {0}</value>
   </data>
   <data name="Columns" xml:space="preserve">
     <value>Kolonat</value>
@@ -1815,37 +1815,37 @@
     <value>Kartat</value>
   </data>
   <data name="OpenFoldersInNewTab" xml:space="preserve">
-    <value>Hapni dosjet në skedën e re</value>
+    <value>Hapni dosjet nÃ« skedÃ«n e re</value>
   </data>
   <data name="StatusCenter" xml:space="preserve">
     <value>Qendra e statusit</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateCreated.Text" xml:space="preserve">
-    <value>Kolona e datës së krijimit</value>
+    <value>Kolona e datÃ«s sÃ« krijimit</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowItemSize.Text" xml:space="preserve">
-    <value>Kolona e madhësisë së artikullit</value>
+    <value>Kolona e madhÃ«sisÃ« sÃ« artikullit</value>
   </data>
   <data name="ExperimentalFeatureFlags" xml:space="preserve">
     <value>Flamujt e tipareve eksperimentale</value>
   </data>
   <data name="HelpAndSupport" xml:space="preserve">
-    <value>Ndihmë dhe mbështetje</value>
+    <value>NdihmÃ« dhe mbÃ«shtetje</value>
   </data>
   <data name="SubmitFeatureRequest" xml:space="preserve">
-    <value>Paraqisni kërkesën për veçori</value>
+    <value>Paraqisni kÃ«rkesÃ«n pÃ«r veÃ§ori</value>
   </data>
   <data name="SubmitBugReport" xml:space="preserve">
     <value>Paraqisni raportin e gabimeve</value>
   </data>
   <data name="SettingsSetAsDefaultFileManager" xml:space="preserve">
-    <value>Cakto Files si menaxherin e parazgjedhur të skedarëve</value>
+    <value>Cakto Files si menaxherin e parazgjedhur tÃ« skedarÃ«ve</value>
   </data>
   <data name="SettingsSetAsOpenDialog" xml:space="preserve">
-    <value>Përdorni skedarët si dialogun e skedarit të hapur</value>
+    <value>PÃ«rdorni skedarÃ«t si dialogun e skedarit tÃ« hapur</value>
   </data>
   <data name="Tag" xml:space="preserve">
-    <value>Etiketë</value>
+    <value>EtiketÃ«</value>
   </data>
   <data name="OpenFilesWithOneClick" xml:space="preserve">
     <value>Open files with a single click</value>
@@ -1854,55 +1854,55 @@
     <value>Rruga e dosjes</value>
   </data>
   <data name="ExportSettings" xml:space="preserve">
-    <value>Cilësimet e eksportit</value>
+    <value>CilÃ«simet e eksportit</value>
   </data>
   <data name="ImportSettings" xml:space="preserve">
-    <value>Cilësimet e importit</value>
+    <value>CilÃ«simet e importit</value>
   </data>
   <data name="SettingsImportErrorDescription" xml:space="preserve">
-    <value>Cilësimet nuk mund të importoheshin. Skedari i cilësimeve është i dëmtuar.</value>
+    <value>CilÃ«simet nuk mund tÃ« importoheshin. Skedari i cilÃ«simeve Ã«shtÃ« i dÃ«mtuar.</value>
   </data>
   <data name="SettingsImportErrorTitle" xml:space="preserve">
-    <value>Gabim gjatë importimit të cilësimeve</value>
+    <value>Gabim gjatÃ« importimit tÃ« cilÃ«simeve</value>
   </data>
   <data name="EmptyRecycleBin" xml:space="preserve">
-    <value>Kosh i zbrazët i riciklimit</value>
+    <value>Kosh i zbrazÃ«t i riciklimit</value>
   </data>
   <data name="Sidebar" xml:space="preserve">
-    <value>Shiriti anësor</value>
+    <value>Shiriti anÃ«sor</value>
   </data>
   <data name="ChooseCustomIcon" xml:space="preserve">
-    <value>Zgjidhni një ikonë dosjeje të personalizuar</value>
+    <value>Zgjidhni njÃ« ikonÃ« dosjeje tÃ« personalizuar</value>
   </data>
   <data name="Customization" xml:space="preserve">
-    <value>Përshtatje</value>
+    <value>PÃ«rshtatje</value>
   </data>
   <data name="RestoreDefault" xml:space="preserve">
     <value>Rivendosni parazgjedhjen</value>
   </data>
   <data name="OpenTabInExistingInstance" xml:space="preserve">
-    <value>Hapni skedën në shembullin ekzistues kur hapni Skedarët nga një aplikacion tjetër</value>
+    <value>Hapni skedÃ«n nÃ« shembullin ekzistues kur hapni SkedarÃ«t nga njÃ« aplikacion tjetÃ«r</value>
   </data>
   <data name="StartupSettings" xml:space="preserve">
-    <value>Cilësimet e nisjes</value>
+    <value>CilÃ«simet e nisjes</value>
   </data>
   <data name="Compatibility" xml:space="preserve">
-    <value>Përputhshmëria</value>
+    <value>PÃ«rputhshmÃ«ria</value>
   </data>
   <data name="None" xml:space="preserve">
-    <value>Asnjë</value>
+    <value>AsnjÃ«</value>
   </data>
   <data name="CompatibilityOnWindowsLogin" xml:space="preserve">
-    <value>Në hyrjen në Windows</value>
+    <value>NÃ« hyrjen nÃ« Windows</value>
   </data>
   <data name="CompatibilityOnProgramStart" xml:space="preserve">
-    <value>Në këtë program filloni</value>
+    <value>NÃ« kÃ«tÃ« program filloni</value>
   </data>
   <data name="System" xml:space="preserve">
     <value>Sistemi</value>
   </data>
   <data name="CompatibilitySystemEnhanced" xml:space="preserve">
-    <value>Sistemi (i përmirësuar)</value>
+    <value>Sistemi (i pÃ«rmirÃ«suar)</value>
   </data>
   <data name="CompatibilityReducedColorModeColor16bit" xml:space="preserve">
     <value>Ngjyra 16-bit (65536).</value>
@@ -1911,19 +1911,19 @@
     <value>Ngjyra 8-bit (256).</value>
   </data>
   <data name="CompatibilityDisableFullscreenOptimizations" xml:space="preserve">
-    <value>Çaktivizo optimizimet e ekranit të plotë</value>
+    <value>Ã‡aktivizo optimizimet e ekranit tÃ« plotÃ«</value>
   </data>
   <data name="CompatibilityRunIn640x480Resolution" xml:space="preserve">
-    <value>Ekzekutoni në rezolucion të ekranit 640 x 480</value>
+    <value>Ekzekutoni nÃ« rezolucion tÃ« ekranit 640 x 480</value>
   </data>
   <data name="CompatibilityOverrideHighDPIBehavior" xml:space="preserve">
-    <value>Anuloni sjelljen e shkallës së lartë të DPI</value>
+    <value>Anuloni sjelljen e shkallÃ«s sÃ« lartÃ« tÃ« DPI</value>
   </data>
   <data name="CompatibilityReducedColorMode" xml:space="preserve">
     <value>Modaliteti i reduktuar i ngjyrave</value>
   </data>
   <data name="CompatibilityRegisterThisProgramForRestart" xml:space="preserve">
-    <value>Regjistrojeni këtë program për rinisje</value>
+    <value>Regjistrojeni kÃ«tÃ« program pÃ«r rinisje</value>
   </data>
   <data name="StartWindow" xml:space="preserve">
     <value>Dritarja e fillimit</value>
@@ -1941,10 +1941,10 @@
     <value>Drejtoni si administrator</value>
   </data>
   <data name="CompatibilityRunTroubleshooter" xml:space="preserve">
-    <value>Ekzekutoni zgjidhjen e problemeve të përputhshmërisë</value>
+    <value>Ekzekutoni zgjidhjen e problemeve tÃ« pÃ«rputhshmÃ«risÃ«</value>
   </data>
   <data name="CompatibilityUseDPISettings" xml:space="preserve">
-    <value>Përdorni cilësimet DPI të monitorit kryesor</value>
+    <value>PÃ«rdorni cilÃ«simet DPI tÃ« monitorit kryesor</value>
   </data>
   <data name="CompatibilityDoNotAdjustDPI" xml:space="preserve">
     <value>Mos e rregulloni DPI</value>
@@ -1953,34 +1953,34 @@
     <value>Mos e anashkaloni DPI</value>
   </data>
   <data name="CompatibilityMode" xml:space="preserve">
-    <value>Modaliteti i përputhshmërisë</value>
+    <value>Modaliteti i pÃ«rputhshmÃ«risÃ«</value>
   </data>
   <data name="CompatibilityNoReducedColor" xml:space="preserve">
-    <value>Nuk ka ngjyrë të reduktuar</value>
+    <value>Nuk ka ngjyrÃ« tÃ« reduktuar</value>
   </data>
   <data name="ThirdPartyLibraries" xml:space="preserve">
-    <value>Bibliotekat e palëve të treta</value>
+    <value>Bibliotekat e palÃ«ve tÃ« treta</value>
   </data>
   <data name="SettingsSetAsDefaultFileManagerDescription" xml:space="preserve">
-    <value>Ky opsion modifikon regjistrin e sistemit dhe mund të ketë efekte anësore të papritura në pajisjen tuaj. Vazhdoni në rrezikun tuaj.</value>
+    <value>Ky opsion modifikon regjistrin e sistemit dhe mund tÃ« ketÃ« efekte anÃ«sore tÃ« papritura nÃ« pajisjen tuaj. Vazhdoni nÃ« rrezikun tuaj.</value>
   </data>
   <data name="ShowFlattenOptionsDescription" xml:space="preserve">
-    <value>Operacionet e sheshimit janë të përhershme dhe nuk rekomandohen. Vazhdoni në rrezikun tuaj.</value>
+    <value>Operacionet e sheshimit janÃ« tÃ« pÃ«rhershme dhe nuk rekomandohen. Vazhdoni nÃ« rrezikun tuaj.</value>
   </data>
   <data name="FolderWidgetCreateNewLibraryDialogTitleText" xml:space="preserve">
-    <value>Krijo Bibliotekë</value>
+    <value>Krijo BibliotekÃ«</value>
   </data>
   <data name="FolderWidgetCreateNewLibraryInputPlaceholderText" xml:space="preserve">
-    <value>Fut emrin e bibliotekës</value>
+    <value>Fut emrin e bibliotekÃ«s</value>
   </data>
   <data name="CalculateFolderSizes" xml:space="preserve">
-    <value>Llogaritni madhësinë e dosjeve</value>
+    <value>Llogaritni madhÃ«sinÃ« e dosjeve</value>
   </data>
   <data name="RecentFiles" xml:space="preserve">
-    <value>Skedarët e fundit</value>
+    <value>SkedarÃ«t e fundit</value>
   </data>
   <data name="SettingsOpenInLogin" xml:space="preserve">
-    <value>Hapni skedarët në fillimin e Windows</value>
+    <value>Hapni skedarÃ«t nÃ« fillimin e Windows</value>
   </data>
   <data name="Attributes" xml:space="preserve">
     <value>Atributet</value>
@@ -1989,13 +1989,13 @@
     <value>I fshehur</value>
   </data>
   <data name="MoreDetails" xml:space="preserve">
-    <value>Më shumë detaje</value>
+    <value>MÃ« shumÃ« detaje</value>
   </data>
   <data name="ReadOnly" xml:space="preserve">
-    <value>Lexo vetëm</value>
+    <value>Lexo vetÃ«m</value>
   </data>
   <data name="CleanupDrive" xml:space="preserve">
-    <value>Pastroni përmbajtjen e diskut</value>
+    <value>Pastroni pÃ«rmbajtjen e diskut</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>Lloji</value>
@@ -2007,16 +2007,16 @@
     <value>Ekstrakt</value>
   </data>
   <data name="ExtractFiles" xml:space="preserve">
-    <value>Ekstrakt skedarët</value>
+    <value>Ekstrakt skedarÃ«t</value>
   </data>
   <data name="ExtractHere" xml:space="preserve">
-    <value>Ekstrakt këtu</value>
+    <value>Ekstrakt kÃ«tu</value>
   </data>
   <data name="ExtractKeyboardAcceleratorTextOverride" xml:space="preserve">
     <value>Ctrl+E</value>
   </data>
   <data name="ExtractToChildFolder" xml:space="preserve">
-    <value>Ekstrakt në {0}</value>
+    <value>Ekstrakt nÃ« {0}</value>
   </data>
   <data name="RunScript" xml:space="preserve">
     <value>Ekzekutoni skriptin</value>
@@ -2025,7 +2025,7 @@
     <value>Ekzekutoni me PowerShell</value>
   </data>
   <data name="ShowFolderSizesWarning" xml:space="preserve">
-    <value>Llogaritja e madhësive të dosjeve kërkon burime intensive dhe mund të shkaktojë rritjen e përdorimit të CPU-së.</value>
+    <value>Llogaritja e madhÃ«sive tÃ« dosjeve kÃ«rkon burime intensive dhe mund tÃ« shkaktojÃ« rritjen e pÃ«rdorimit tÃ« CPU-sÃ«.</value>
   </data>
   <data name="RotateLeft" xml:space="preserve">
     <value>Rrotullo majtas</value>
@@ -2037,25 +2037,25 @@
     <value>Instaloni</value>
   </data>
   <data name="CloseTabsToTheLeft" xml:space="preserve">
-    <value>Mbyllni skedat në të majtë</value>
+    <value>Mbyllni skedat nÃ« tÃ« majtÃ«</value>
   </data>
   <data name="CloseTabsToTheRight" xml:space="preserve">
-    <value>Mbyllni skedat në të djathtë</value>
+    <value>Mbyllni skedat nÃ« tÃ« djathtÃ«</value>
   </data>
   <data name="CloseOtherTabs" xml:space="preserve">
     <value>Mbyllni skedat e tjera</value>
   </data>
   <data name="CloseAllTabs" xml:space="preserve">
-    <value>Mbyllni të gjitha skedat</value>
+    <value>Mbyllni tÃ« gjitha skedat</value>
   </data>
   <data name="Music" xml:space="preserve">
-    <value>Muzikë</value>
+    <value>MuzikÃ«</value>
   </data>
   <data name="Pictures" xml:space="preserve">
     <value>Fotot</value>
   </data>
   <data name="UpdateFiles" xml:space="preserve">
-    <value>Përditëso skedarët</value>
+    <value>PÃ«rditÃ«so skedarÃ«t</value>
   </data>
   <data name="FileTags" xml:space="preserve">
     <value>Etiketat</value>
@@ -2067,16 +2067,16 @@
     <value>p.sh.: {1}, {1}</value>
   </data>
   <data name="SettingsFilesAndFoldersShowThumbnails" xml:space="preserve">
-    <value>Shfaq miniaturë</value>
+    <value>Shfaq miniaturÃ«</value>
   </data>
   <data name="Retry" xml:space="preserve">
-    <value>Provo sërish</value>
+    <value>Provo sÃ«rish</value>
   </data>
   <data name="ErrorDialogUnsupportedMoveOperation" xml:space="preserve">
-    <value>Operacioni i zhvendosjes nuk mbështetet në këtë kontekst. Dëshironi të kopjoni artikujt në vend të kësaj?</value>
+    <value>Operacioni i zhvendosjes nuk mbÃ«shtetet nÃ« kÃ«tÃ« kontekst. DÃ«shironi tÃ« kopjoni artikujt nÃ« vend tÃ« kÃ«saj?</value>
   </data>
   <data name="HiddenItems" xml:space="preserve">
-    <value>Artikuj të fshehur</value>
+    <value>Artikuj tÃ« fshehur</value>
   </data>
   <data name="Custom" xml:space="preserve">
     <value>Me porosi</value>
@@ -2085,10 +2085,10 @@
     <value>Slideshow</value>
   </data>
   <data name="SetAsSlideshow" xml:space="preserve">
-    <value>Cakto si rrëshqitje në desktop</value>
+    <value>Cakto si rrÃ«shqitje nÃ« desktop</value>
   </data>
   <data name="SizeAllColumnsToFit" xml:space="preserve">
-    <value>Madhësia e të gjitha kolonave për t'u përshtatur</value>
+    <value>MadhÃ«sia e tÃ« gjitha kolonave pÃ«r t'u pÃ«rshtatur</value>
   </data>
   <data name="AutoFitColumns" xml:space="preserve">
     <value>Auto-fit columns</value>
@@ -2103,31 +2103,31 @@
     <value>Paraqitja adaptive</value>
   </data>
   <data name="AdaptiveShortcutTooltip" xml:space="preserve">
-    <value>Struktura përshtatëse (Ctrl+Shift+7)</value>
+    <value>Struktura pÃ«rshtatÃ«se (Ctrl+Shift+7)</value>
   </data>
   <data name="BaseLayoutContextFlyoutAdaptive.KeyboardAcceleratorTextOverride" xml:space="preserve">
     <value>Ctrl+Shift+7</value>
   </data>
   <data name="ShowAlternateStreams" xml:space="preserve">
-    <value>Shfaq rrjedhjet alternative të të dhënave</value>
+    <value>Shfaq rrjedhjet alternative tÃ« tÃ« dhÃ«nave</value>
   </data>
   <data name="Behaviors" xml:space="preserve">
     <value>Sjelljet</value>
   </data>
   <data name="Hello" xml:space="preserve">
-    <value>Përshëndetje!</value>
+    <value>PÃ«rshÃ«ndetje!</value>
   </data>
   <data name="ReviewFilesSubtitle" xml:space="preserve">
-    <value>Të pëlqejnë skedarët? Ju lutemi, merrni parasysh rishikimin në Dyqanin e Microsoft.</value>
+    <value>TÃ« pÃ«lqejnÃ« skedarÃ«t? Ju lutemi, merrni parasysh rishikimin nÃ« Dyqanin e Microsoft.</value>
   </data>
   <data name="SponsorSubtitle" xml:space="preserve">
-    <value>Të pëlqejnë skedarët? Ju lutemi merrni parasysh mbështetjen e projektit në GitHub.</value>
+    <value>TÃ« pÃ«lqejnÃ« skedarÃ«t? Ju lutemi merrni parasysh mbÃ«shtetjen e projektit nÃ« GitHub.</value>
   </data>
   <data name="Sponsor" xml:space="preserve">
     <value>Sponsor</value>
   </data>
   <data name="RateUs" xml:space="preserve">
-    <value>Na vlerësoni</value>
+    <value>Na vlerÃ«soni</value>
   </data>
   <data name="Dismiss" xml:space="preserve">
     <value>Largoje</value>
@@ -2136,31 +2136,31 @@
     <value>Cakto si sfond</value>
   </data>
   <data name="SetAsBackground" xml:space="preserve">
-    <value>Cakto si sfond të desktopit</value>
+    <value>Cakto si sfond tÃ« desktopit</value>
   </data>
   <data name="SetAsDefault" xml:space="preserve">
     <value>Cakto si parazgjedhje</value>
   </data>
   <data name="DateColumn" xml:space="preserve">
-    <value>Kolona e datës</value>
+    <value>Kolona e datÃ«s</value>
   </data>
   <data name="DateCreatedColumn" xml:space="preserve">
-    <value>Kolona e datës së krijimit</value>
+    <value>Kolona e datÃ«s sÃ« krijimit</value>
   </data>
   <data name="SizeColumn" xml:space="preserve">
-    <value>Kolona e madhësisë</value>
+    <value>Kolona e madhÃ«sisÃ«</value>
   </data>
   <data name="TagColumn" xml:space="preserve">
-    <value>Kolona etiketë</value>
+    <value>Kolona etiketÃ«</value>
   </data>
   <data name="TypeColumn" xml:space="preserve">
-    <value>Lloji kolonë</value>
+    <value>Lloji kolonÃ«</value>
   </data>
   <data name="Lockscreen" xml:space="preserve">
-    <value>Ekrani i kyçur</value>
+    <value>Ekrani i kyÃ§ur</value>
   </data>
   <data name="OpenFolderWithOneClick" xml:space="preserve">
-    <value>Hapni dosjet me një klik të vetëm</value>
+    <value>Hapni dosjet me njÃ« klik tÃ« vetÃ«m</value>
   </data>
   <data name="OpenFolderWithOneClickInColumnsView" xml:space="preserve">
     <value>Open folders with a single click in Columns View</value>
@@ -2178,7 +2178,7 @@
     <value>Kompresoni</value>
   </data>
   <data name="FlattenFolderDescription" xml:space="preserve">
-    <value>Zhvendosni të gjitha përmbajtjet nga nëndosjet në vendndodhjen e zgjedhur</value>
+    <value>Zhvendosni tÃ« gjitha pÃ«rmbajtjet nga nÃ«ndosjet nÃ« vendndodhjen e zgjedhur</value>
   </data>
   <data name="FlattenFolder" xml:space="preserve">
     <value>Rrafshoni dosjen</value>
@@ -2187,43 +2187,43 @@
     <value>Rrafshoj</value>
   </data>
   <data name="FlattenFolderDialogContent" xml:space="preserve">
-    <value>Rrafshimi i një dosjeje do të zhvendosë të gjithë përmbajtjen nga nëndosjet e tij në vendndodhjen e zgjedhur. Ky operacion është i përhershëm dhe nuk mund të zhbëhet. Duke përdorur këtë veçori eksperimentale, ju e pranoni rrezikun dhe pranoni të mos mbani përgjegjës ekipin e Files për çdo humbje të të dhënave.</value>
+    <value>Rrafshimi i njÃ« dosjeje do tÃ« zhvendosÃ« tÃ« gjithÃ« pÃ«rmbajtjen nga nÃ«ndosjet e tij nÃ« vendndodhjen e zgjedhur. Ky operacion Ã«shtÃ« i pÃ«rhershÃ«m dhe nuk mund tÃ« zhbÃ«het. Duke pÃ«rdorur kÃ«tÃ« veÃ§ori eksperimentale, ju e pranoni rrezikun dhe pranoni tÃ« mos mbani pÃ«rgjegjÃ«s ekipin e Files pÃ«r Ã§do humbje tÃ« tÃ« dhÃ«nave.</value>
   </data>
   <data name="ShowFlattenOptions" xml:space="preserve">
     <value>Shfaq opsionet e rrafshimit</value>
   </data>
   <data name="SelectFilesAndFoldersOnHover" xml:space="preserve">
-    <value>Zgjidhni skedarët dhe dosjet kur rri pezull mbi to</value>
+    <value>Zgjidhni skedarÃ«t dhe dosjet kur rri pezull mbi to</value>
   </data>
   <data name="ConfirmRestoreBinDialogContent" xml:space="preserve">
-    <value>Jeni i sigurt që dëshironi të rivendosni të gjithë artikujt në koshin e riciklimit?</value>
+    <value>Jeni i sigurt qÃ« dÃ«shironi tÃ« rivendosni tÃ« gjithÃ« artikujt nÃ« koshin e riciklimit?</value>
   </data>
   <data name="ConfirmRestoreBinDialogTitle" xml:space="preserve">
-    <value>Rivendos të gjithë artikujt</value>
+    <value>Rivendos tÃ« gjithÃ« artikujt</value>
   </data>
   <data name="ConfirmRestoreSelectionBinDialogContent" xml:space="preserve">
     <value>Do you want to restore the {0, plural, one {selected item} other {{0} selected items}}?</value>
   </data>
   <data name="ConfirmRestoreSelectionBinDialogTitle" xml:space="preserve">
-    <value>Rivendos përzgjedhjen</value>
+    <value>Rivendos pÃ«rzgjedhjen</value>
   </data>
   <data name="RestoreAllItems" xml:space="preserve">
-    <value>Rivendos të gjithë artikujt</value>
+    <value>Rivendos tÃ« gjithÃ« artikujt</value>
   </data>
   <data name="Restore" xml:space="preserve">
     <value>Rivendos</value>
   </data>
   <data name="ShortcutCannotBeOpened" xml:space="preserve">
-    <value>Shkurtorja nuk mund të hapet</value>
+    <value>Shkurtorja nuk mund tÃ« hapet</value>
   </data>
   <data name="DeleteShortcutDescription" xml:space="preserve">
-    <value>Destinacioni i synuar nuk mund të gjendet {0}. Dëshiron ta fshish këtë shkurtore?</value>
+    <value>Destinacioni i synuar nuk mund tÃ« gjendet {0}. DÃ«shiron ta fshish kÃ«tÃ« shkurtore?</value>
   </data>
   <data name="AccessDeniedToFolder" xml:space="preserve">
-    <value>Ju nuk keni leje për të hyrë në këtë dosje.</value>
+    <value>Ju nuk keni leje pÃ«r tÃ« hyrÃ« nÃ« kÃ«tÃ« dosje.</value>
   </data>
   <data name="ArchivePassword" xml:space="preserve">
-    <value>Fjalëkalimi i arkivit</value>
+    <value>FjalÃ«kalimi i arkivit</value>
   </data>
   <data name="Encoding" xml:space="preserve">
     <value>Kodimi</value>
@@ -2259,7 +2259,7 @@
     <value>Krijo {0}</value>
   </data>
   <data name="EnterName" xml:space="preserve">
-    <value>Fut një emër</value>
+    <value>Fut njÃ« emÃ«r</value>
   </data>
   <data name="CompressionLevel" xml:space="preserve">
     <value>Niveli i kompresimit</value>
@@ -2268,22 +2268,22 @@
     <value>Ultra</value>
   </data>
   <data name="CompressionLevelHigh" xml:space="preserve">
-    <value>Lartë</value>
+    <value>LartÃ«</value>
   </data>
   <data name="CompressionLevelNormal" xml:space="preserve">
     <value>Normale</value>
   </data>
   <data name="CompressionLevelLow" xml:space="preserve">
-    <value>E ulët</value>
+    <value>E ulÃ«t</value>
   </data>
   <data name="CompressionLevelFast" xml:space="preserve">
     <value>Shpejt</value>
   </data>
   <data name="CompressionLevelNone" xml:space="preserve">
-    <value>Asnjë</value>
+    <value>AsnjÃ«</value>
   </data>
   <data name="SplittingSize" xml:space="preserve">
-    <value>Madhësia e ndarjes</value>
+    <value>MadhÃ«sia e ndarjes</value>
   </data>
   <data name="DoNotSplit" xml:space="preserve">
     <value>Mos u ndani</value>
@@ -2292,13 +2292,13 @@
     <value>Automatik</value>
   </data>
   <data name="DictionarySize" xml:space="preserve">
-    <value>MadhÃ«sia e fjalorit</value>
+    <value>MadhÃƒÂ«sia e fjalorit</value>
   </data>
   <data name="WordSize" xml:space="preserve">
-    <value>MadhÃ«sia e fjalÃ«s</value>
+    <value>MadhÃƒÂ«sia e fjalÃƒÂ«s</value>
   </data>
   <data name="EstimatedMemoryUsage" xml:space="preserve">
-    <value>PÃ«rdorimi i vlerÃ«suar i memories: {0}</value>
+    <value>PÃƒÂ«rdorimi i vlerÃƒÂ«suar i memories: {0}</value>
   </data>
   <data name="AvailableMemory" xml:space="preserve">
     <value>Memoria e disponueshme: {0}</value>
@@ -2319,13 +2319,13 @@
     <value>Enkriptimi</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value>Fjalëkalimi</value>
+    <value>FjalÃ«kalimi</value>
   </data>
   <data name="Format" xml:space="preserve">
     <value>Formati</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowSyncStatus.Text" xml:space="preserve">
-    <value>Sinkronizoni kolonën e statusit</value>
+    <value>Sinkronizoni kolonÃ«n e statusit</value>
   </data>
   <data name="GroupBy" xml:space="preserve">
     <value>Grupi sipas</value>
@@ -2334,76 +2334,76 @@
     <value>Rendit sipas</value>
   </data>
   <data name="GroupInDescendingOrder" xml:space="preserve">
-    <value>Grupi në rend zbritës</value>
+    <value>Grupi nÃ« rend zbritÃ«s</value>
   </data>
   <data name="SortInDescendingOrder" xml:space="preserve">
-    <value>Renditni në rend zbritës</value>
+    <value>Renditni nÃ« rend zbritÃ«s</value>
   </data>
   <data name="NewShortcutDialogTitle" xml:space="preserve">
-    <value>Krijo një shkurtore të re</value>
+    <value>Krijo njÃ« shkurtore tÃ« re</value>
   </data>
   <data name="NewShortcutDialogDescription" xml:space="preserve">
-    <value>Krijoni shkurtore për programet lokale ose të rrjetit, skedarët, dosjet, kompjuterët ose adresat e internetit.</value>
+    <value>Krijoni shkurtore pÃ«r programet lokale ose tÃ« rrjetit, skedarÃ«t, dosjet, kompjuterÃ«t ose adresat e internetit.</value>
   </data>
   <data name="NewShortcutDialogPrompt" xml:space="preserve">
     <value>Shkruani vendndodhjen e artikullit:</value>
   </data>
   <data name="AddDialogListShortcutSubHeader" xml:space="preserve">
-    <value>Krijon një shkurtore</value>
+    <value>Krijon njÃ« shkurtore</value>
   </data>
   <data name="RecentFilesDisabledOnWindowsWarning" xml:space="preserve">
-    <value>Skedarët e përdorur së fundi janë aktualisht të çaktivizuara në Windows File Explorer.</value>
+    <value>SkedarÃ«t e pÃ«rdorur sÃ« fundi janÃ« aktualisht tÃ« Ã§aktivizuara nÃ« Windows File Explorer.</value>
   </data>
   <data name="EditSettingsFile" xml:space="preserve">
-    <value>Redakto skedarin e cilësimeve</value>
+    <value>Redakto skedarin e cilÃ«simeve</value>
   </data>
   <data name="EditSettingsFileDescription" xml:space="preserve">
-    <value>Hapni skedarin e cilësimeve në redaktorin tuaj të paracaktuar</value>
+    <value>Hapni skedarin e cilÃ«simeve nÃ« redaktorin tuaj tÃ« paracaktuar</value>
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
-    <value>Shënimet e publikimit</value>
+    <value>ShÃ«nimet e publikimit</value>
   </data>
   <data name="ReleaseNotesDescription" xml:space="preserve">
-    <value>Hapni Shënimet e publikimit</value>
+    <value>Hapni ShÃ«nimet e publikimit</value>
   </data>
   <data name="CannotCreateShortcutDialogTitle" xml:space="preserve">
-    <value>Krijimi i një shkurtoreje në këtë vendndodhje kërkon privilegje administratori</value>
+    <value>Krijimi i njÃ« shkurtoreje nÃ« kÃ«tÃ« vendndodhje kÃ«rkon privilegje administratori</value>
   </data>
   <data name="CannotCreateShortcutDialogMessage" xml:space="preserve">
-    <value>Dëshironi të krijoni shkurtoren në desktop?</value>
+    <value>DÃ«shironi tÃ« krijoni shkurtoren nÃ« desktop?</value>
   </data>
   <data name="ErrorDialogNameNotAllowed" xml:space="preserve">
-    <value>Emri i artikullit të specifikuar është i pavlefshëm</value>
+    <value>Emri i artikullit tÃ« specifikuar Ã«shtÃ« i pavlefshÃ«m</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Cilësimet</value>
+    <value>CilÃ«simet</value>
   </data>
   <data name="DoubleClickBlankSpaceToGoUp" xml:space="preserve">
-    <value>Klikoni dy herë në një hapësirë boshe për të ngjitur një drejtori</value>
+    <value>Klikoni dy herÃ« nÃ« njÃ« hapÃ«sirÃ« boshe pÃ«r tÃ« ngjitur njÃ« drejtori</value>
   </data>
   <data name="ViewMore" xml:space="preserve">
-    <value>Shiko më shumë</value>
+    <value>Shiko mÃ« shumÃ«</value>
   </data>
   <data name="ShowEditTagsMenu" xml:space="preserve">
-    <value>Shfaq etiketat e redaktimit që fluturojnë</value>
+    <value>Shfaq etiketat e redaktimit qÃ« fluturojnÃ«</value>
   </data>
   <data name="ShowCompressionOptions" xml:space="preserve">
     <value>Shfaq opsionet e kompresimit</value>
   </data>
   <data name="ShowSendToMenu" xml:space="preserve">
-    <value>Shfaq dërgo te menyja</value>
+    <value>Shfaq dÃ«rgo te menyja</value>
   </data>
   <data name="ShowOpenInNewTab" xml:space="preserve">
-    <value>Shfaq opsionin për të hapur dosjet në një skedë të re</value>
+    <value>Shfaq opsionin pÃ«r tÃ« hapur dosjet nÃ« njÃ« skedÃ« tÃ« re</value>
   </data>
   <data name="ShowOpenInNewWindow" xml:space="preserve">
-    <value>Shfaq opsionin për të hapur dosjet në një dritare të re</value>
+    <value>Shfaq opsionin pÃ«r tÃ« hapur dosjet nÃ« njÃ« dritare tÃ« re</value>
   </data>
   <data name="QuickAccess" xml:space="preserve">
-    <value>Qasje e shpejtë</value>
+    <value>Qasje e shpejtÃ«</value>
   </data>
   <data name="NetworkAuthenticationDialogMessage" xml:space="preserve">
-    <value>Futni kredencialet tuaja për t'u lidhur me: {0}</value>
+    <value>Futni kredencialet tuaja pÃ«r t'u lidhur me: {0}</value>
   </data>
   <data name="NetworkAuthenticationDialogTitle" xml:space="preserve">
     <value>Futni kredencialet e rrjetit</value>
@@ -2412,7 +2412,7 @@
     <value>Mbani mend kredencialet e mia</value>
   </data>
   <data name="NetworkFolderErrorDialogTitle" xml:space="preserve">
-    <value>Gabim i dosjes së rrjetit</value>
+    <value>Gabim i dosjes sÃ« rrjetit</value>
   </data>
   <data name="AppVersion" xml:space="preserve">
     <value>Versioni i aplikacionit</value>
@@ -2421,43 +2421,43 @@
     <value>Versioni i Windows</value>
   </data>
   <data name="Always" xml:space="preserve">
-    <value>Gjithmonë</value>
+    <value>GjithmonÃ«</value>
   </data>
   <data name="PermanentDeletionOnly" xml:space="preserve">
-    <value>Vetëm fshirje e përhershme</value>
+    <value>VetÃ«m fshirje e pÃ«rhershme</value>
   </data>
   <data name="Never" xml:space="preserve">
-    <value>kurrë</value>
+    <value>kurrÃ«</value>
   </data>
   <data name="TagColor" xml:space="preserve">
-    <value>Ngjyra e etiketës</value>
+    <value>Ngjyra e etiketÃ«s</value>
   </data>
   <data name="NewTag" xml:space="preserve">
-    <value>Etiketë e re</value>
+    <value>EtiketÃ« e re</value>
   </data>
   <data name="CreateNewTag" xml:space="preserve">
-    <value>Krijo etiketë të re</value>
+    <value>Krijo etiketÃ« tÃ« re</value>
   </data>
   <data name="Loading" xml:space="preserve">
     <value>Po ngarkohet...</value>
   </data>
   <data name="ContextMenuOptions" xml:space="preserve">
-    <value>Opsionet e menysë së kontekstit</value>
+    <value>Opsionet e menysÃ« sÃ« kontekstit</value>
   </data>
   <data name="ShowFileExtensions" xml:space="preserve">
-    <value>Zgjerimet e skedarëve</value>
+    <value>Zgjerimet e skedarÃ«ve</value>
   </data>
   <data name="FormatDriveText" xml:space="preserve">
     <value>Formati</value>
   </data>
   <data name="Help" xml:space="preserve">
-    <value>Ndihmë</value>
+    <value>NdihmÃ«</value>
   </data>
   <data name="FullScreen" xml:space="preserve">
-    <value>Ekrani i plotë</value>
+    <value>Ekrani i plotÃ«</value>
   </data>
   <data name="ConfirmDeleteTag" xml:space="preserve">
-    <value>Jeni i sigurt që dëshironi ta fshini këtë etiketë?</value>
+    <value>Jeni i sigurt qÃ« dÃ«shironi ta fshini kÃ«tÃ« etiketÃ«?</value>
   </data>
   <data name="PlayAll" xml:space="preserve">
     <value>Play All</value>
@@ -2466,40 +2466,40 @@
     <value>Play</value>
   </data>
   <data name="Height" xml:space="preserve">
-    <value>Lartësia</value>
+    <value>LartÃ«sia</value>
   </data>
   <data name="Width" xml:space="preserve">
-    <value>Gjerësia</value>
+    <value>GjerÃ«sia</value>
   </data>
   <data name="ApplyToAllConflictingItems" xml:space="preserve">
-    <value>Zbato këtë veprim për të gjithë artikujt në konflikt</value>
+    <value>Zbato kÃ«tÃ« veprim pÃ«r tÃ« gjithÃ« artikujt nÃ« konflikt</value>
   </data>
   <data name="OpenTerminal" xml:space="preserve">
-    <value>Hapni në Windows Terminal</value>
+    <value>Hapni nÃ« Windows Terminal</value>
   </data>
   <data name="OpenTerminalAsAdmin" xml:space="preserve">
-    <value>Hape në Windows Terminal si administrator</value>
+    <value>Hape nÃ« Windows Terminal si administrator</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Ruaj</value>
   </data>
   <data name="MultiSelect" xml:space="preserve">
-    <value>Zgjedhja e shumëfishtë</value>
+    <value>Zgjedhja e shumÃ«fishtÃ«</value>
   </data>
   <data name="ReorderSidebarItemsDialogText" xml:space="preserve">
-    <value>Renditni sërish artikujt e shiritit anësor</value>
+    <value>Renditni sÃ«rish artikujt e shiritit anÃ«sor</value>
   </data>
   <data name="Hashes" xml:space="preserve">
     <value>Hashe</value>
   </data>
   <data name="CalculationError" xml:space="preserve">
-    <value>Ndodhi një gabim gjatë llogaritjes</value>
+    <value>Ndodhi njÃ« gabim gjatÃ« llogaritjes</value>
   </data>
   <data name="CalculationErrorFileIsOpen" xml:space="preserve">
-    <value>Llogaritja e hash-it dështoi, mbylle skedarin dhe provo sërish.</value>
+    <value>Llogaritja e hash-it dÃ«shtoi, mbylle skedarin dhe provo sÃ«rish.</value>
   </data>
   <data name="CalculationOnlineFileHashError" xml:space="preserve">
-    <value>Hash-et nuk ofrohen për skedarët në linjë</value>
+    <value>Hash-et nuk ofrohen pÃ«r skedarÃ«t nÃ« linjÃ«</value>
   </data>
   <data name="Algorithm" xml:space="preserve">
     <value>Algoritmi</value>
@@ -2508,7 +2508,7 @@
     <value>Vlera hash</value>
   </data>
   <data name="SelectHashesToShow" xml:space="preserve">
-    <value>Zgjidh hash-et për të shfaqur</value>
+    <value>Zgjidh hash-et pÃ«r tÃ« shfaqur</value>
   </data>
   <data name="Calculating" xml:space="preserve">
     <value>Po llogaritet...</value>
@@ -2517,19 +2517,19 @@
     <value>Artikujt e gozhduar</value>
   </data>
   <data name="DecreaseSize" xml:space="preserve">
-    <value>Zvogëloni madhësinë</value>
+    <value>ZvogÃ«loni madhÃ«sinÃ«</value>
   </data>
   <data name="IncreaseSize" xml:space="preserve">
-    <value>Rritja e madhësisë</value>
+    <value>Rritja e madhÃ«sisÃ«</value>
   </data>
   <data name="ToggleSortDirection" xml:space="preserve">
     <value>Rendit drejtimin</value>
   </data>
   <data name="InvalidTagNameWarning" xml:space="preserve">
-    <value>Emër i pavlefshëm</value>
+    <value>EmÃ«r i pavlefshÃ«m</value>
   </data>
   <data name="TagNameRules" xml:space="preserve">
-    <value>Emri nuk duhet të jetë bosh ose të fillojë ose të përfundojë me një pikë.</value>
+    <value>Emri nuk duhet tÃ« jetÃ« bosh ose tÃ« fillojÃ« ose tÃ« pÃ«rfundojÃ« me njÃ« pikÃ«.</value>
   </data>
   <data name="Categories" xml:space="preserve">
     <value>Categories</value>
@@ -2555,19 +2555,19 @@
     <value>Videot</value>
   </data>
   <data name="LaunchPreviewPopup" xml:space="preserve">
-    <value>Parapamje kërcyese</value>
+    <value>Parapamje kÃ«rcyese</value>
   </data>
   <data name="ToggleCompactOverlay" xml:space="preserve">
     <value>Ndrysho mbivendosjen kompakte</value>
   </data>
   <data name="OpenHelpDescription" xml:space="preserve">
-    <value>Hapni faqen e ndihmës në internet në shfletuesin tuaj</value>
+    <value>Hapni faqen e ndihmÃ«s nÃ« internet nÃ« shfletuesin tuaj</value>
   </data>
   <data name="ToggleFullScreenDescription" xml:space="preserve">
-    <value>Ndrysho modalitetin e ekranit të plotë</value>
+    <value>Ndrysho modalitetin e ekranit tÃ« plotÃ«</value>
   </data>
   <data name="EnterCompactOverlayDescription" xml:space="preserve">
-    <value>Hyni në modalitetin e mbivendosjes kompakte</value>
+    <value>Hyni nÃ« modalitetin e mbivendosjes kompakte</value>
   </data>
   <data name="ExitCompactOverlayDescription" xml:space="preserve">
     <value>Dilni nga modaliteti i mbivendosjes kompakte</value>
@@ -2591,76 +2591,76 @@
     <value>Switch to System Theme</value>
   </data>
   <data name="SearchDescription" xml:space="preserve">
-    <value>Filloni kërkimin në OmniBar</value>
+    <value>Filloni kÃ«rkimin nÃ« OmniBar</value>
   </data>
   <data name="ToggleShowHiddenItemsDescription" xml:space="preserve">
-    <value>Ndrysho dukshmërinë e artikujve të fshehur</value>
+    <value>Ndrysho dukshmÃ«rinÃ« e artikujve tÃ« fshehur</value>
   </data>
   <data name="ToggleDotFilesSettingDescription" xml:space="preserve">
-    <value>Ndrysho dukshmërinë e skedarëve me pika</value>
+    <value>Ndrysho dukshmÃ«rinÃ« e skedarÃ«ve me pika</value>
   </data>
   <data name="ToggleShowFileExtensionsDescription" xml:space="preserve">
-    <value>Ndrysho dukshmërinë e shtesave të skedarëve</value>
+    <value>Ndrysho dukshmÃ«rinÃ« e shtesave tÃ« skedarÃ«ve</value>
   </data>
   <data name="TogglePreviewPaneDescription" xml:space="preserve">
-    <value>Ndryshoni panelin e shikimit paraprak për të parë pamjet paraprake të skedarëve</value>
+    <value>Ndryshoni panelin e shikimit paraprak pÃ«r tÃ« parÃ« pamjet paraprake tÃ« skedarÃ«ve</value>
   </data>
   <data name="ToggleSidebarDescription" xml:space="preserve">
-    <value>Ndrysho nëse do të shfaqet shiriti anësor</value>
+    <value>Ndrysho nÃ«se do tÃ« shfaqet shiriti anÃ«sor</value>
   </data>
   <data name="CopyItemDescription" xml:space="preserve">
     <value>Kopjo selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="CopyPathDescription" xml:space="preserve">
-    <value>Kopjoni rrugën e drejtorisë aktuale</value>
+    <value>Kopjoni rrugÃ«n e drejtorisÃ« aktuale</value>
   </data>
   <data name="CopyItemPathDescription" xml:space="preserve">
-    <value>Kopjoni rrugën e artikujve të zgjedhur</value>
+    <value>Kopjoni rrugÃ«n e artikujve tÃ« zgjedhur</value>
   </data>
   <data name="CopyItemPathWithQuotesDescription" xml:space="preserve">
-    <value>Kopjoni rrugën e artikujve të zgjedhur me thonjëza</value>
+    <value>Kopjoni rrugÃ«n e artikujve tÃ« zgjedhur me thonjÃ«za</value>
   </data>
   <data name="CopyPathWithQuotesDescription" xml:space="preserve">
-    <value>Kopjoni rrugën e drejtorisë aktuale me thonjëza</value>
+    <value>Kopjoni rrugÃ«n e drejtorisÃ« aktuale me thonjÃ«za</value>
   </data>
   <data name="CutItemDescription" xml:space="preserve">
     <value>Pritini selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="PasteItemDescription" xml:space="preserve">
-    <value>Ngjitni artikujt në dosjen aktuale</value>
+    <value>Ngjitni artikujt nÃ« dosjen aktuale</value>
   </data>
   <data name="PasteShortcutDescription" xml:space="preserve">
-    <value>Ngjitni artikujt në dosjen aktuale si shkurtore</value>
+    <value>Ngjitni artikujt nÃ« dosjen aktuale si shkurtore</value>
   </data>
   <data name="PasteItemToSelectionDescription" xml:space="preserve">
-    <value>Ngjitni artikujt në dosjen e zgjedhur</value>
+    <value>Ngjitni artikujt nÃ« dosjen e zgjedhur</value>
   </data>
   <data name="PasteToSelectedFolder" xml:space="preserve">
-    <value>Ngjitni në dosjen e zgjedhur</value>
+    <value>Ngjitni nÃ« dosjen e zgjedhur</value>
   </data>
   <data name="DeleteItemDescription" xml:space="preserve">
     <value>Fshi selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="CreateFolderDescription" xml:space="preserve">
-    <value>Krijo dosje të re</value>
+    <value>Krijo dosje tÃ« re</value>
   </data>
   <data name="CreateShortcutDescription" xml:space="preserve">
     <value>Create new {0, plural, one {shortcut} other {shortcuts}} to selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="CreateShortcutFromDialogDescription" xml:space="preserve">
-    <value>Krijo shkurtore të re për çdo artikull</value>
+    <value>Krijo shkurtore tÃ« re pÃ«r Ã§do artikull</value>
   </data>
   <data name="EmptyRecycleBinDescription" xml:space="preserve">
-    <value>Zbrazni përmbajtjen e koshit të riciklimit</value>
+    <value>Zbrazni pÃ«rmbajtjen e koshit tÃ« riciklimit</value>
   </data>
   <data name="FormatDriveDescription" xml:space="preserve">
-    <value>Hap menynë "Format Drive" për artikullin e zgjedhur</value>
+    <value>Hap menynÃ« "Format Drive" pÃ«r artikullin e zgjedhur</value>
   </data>
   <data name="RestoreRecycleBinDescription" xml:space="preserve">
     <value>Rivendos selected {0, plural, one {item} other {items}} nga koshi i riciklimit</value>
   </data>
   <data name="RestoreAllRecycleBinDescription" xml:space="preserve">
-    <value>Rivendos të gjithë artikujt nga koshi i riciklimit</value>
+    <value>Rivendos tÃ« gjithÃ« artikujt nga koshi i riciklimit</value>
   </data>
   <data name="OpenItemDescription" xml:space="preserve">
     <value>Open {0, plural, one {artikull} other {items}}</value>
@@ -2669,16 +2669,16 @@
     <value>Open {0, plural, one {artikull} other {items}} me aplikacionin e zgjedhur</value>
   </data>
   <data name="OpenParentFolderDescription" xml:space="preserve">
-    <value>Hap dosjen prind të artikullit të kërkuar</value>
+    <value>Hap dosjen prind tÃ« artikullit tÃ« kÃ«rkuar</value>
   </data>
   <data name="RefreshItemsDescription" xml:space="preserve">
-    <value>Rifresko përmbajtjen e faqes</value>
+    <value>Rifresko pÃ«rmbajtjen e faqes</value>
   </data>
   <data name="RenameDescription" xml:space="preserve">
-    <value>Riemërto artikullin e zgjedhur</value>
+    <value>RiemÃ«rto artikullin e zgjedhur</value>
   </data>
   <data name="SelectAllDescription" xml:space="preserve">
-    <value>Zgjidhni të gjithë artikujt</value>
+    <value>Zgjidhni tÃ« gjithÃ« artikujt</value>
   </data>
   <data name="InvertSelectionDescription" xml:space="preserve">
     <value>Inverto artikujt e zgjedhur</value>
@@ -2690,31 +2690,31 @@
     <value>Ndrysho zgjedhjen e artikullit</value>
   </data>
   <data name="ShareItemDescription" xml:space="preserve">
-    <value>Ndani selected {0, plural, one {file} other {files}} me të tjerët</value>
+    <value>Ndani selected {0, plural, one {file} other {files}} me tÃ« tjerÃ«t</value>
   </data>
   <data name="PinToStartDescription" xml:space="preserve">
-    <value>Pin {0, plural, one {artikull} other {items}} në menynë Start</value>
+    <value>Pin {0, plural, one {artikull} other {items}} nÃ« menynÃ« Start</value>
   </data>
   <data name="UnpinFromStartDescription" xml:space="preserve">
     <value>Unpin {0, plural, one {artikull} other {items}} nga menyja Start</value>
   </data>
   <data name="PinFolderToSidebarDescription" xml:space="preserve">
-    <value>Pin {0, plural, one {folder} other {folders}} në shiritin anësor</value>
+    <value>Pin {0, plural, one {folder} other {folders}} nÃ« shiritin anÃ«sor</value>
   </data>
   <data name="UnpinFolderFromSidebarDescription" xml:space="preserve">
-    <value>Unpin {0, plural, one {folder} other {folders}} nga Shiriti anësor</value>
+    <value>Unpin {0, plural, one {folder} other {folders}} nga Shiriti anÃ«sor</value>
   </data>
   <data name="SetAsWallpaperBackgroundDescription" xml:space="preserve">
-    <value>Cakto foton e zgjedhur si sfond të desktopit</value>
+    <value>Cakto foton e zgjedhur si sfond tÃ« desktopit</value>
   </data>
   <data name="SetAsSlideshowBackgroundDescription" xml:space="preserve">
-    <value>Cakto fotografitë e zgjedhura si rrëshqitje në desktop</value>
+    <value>Cakto fotografitÃ« e zgjedhura si rrÃ«shqitje nÃ« desktop</value>
   </data>
   <data name="SetAsLockscreenBackgroundDescription" xml:space="preserve">
-    <value>Cakto fotografinë e zgjedhur si sfond të ekranit të kyçur</value>
+    <value>Cakto fotografinÃ« e zgjedhur si sfond tÃ« ekranit tÃ« kyÃ§ur</value>
   </data>
   <data name="SetAsAppBackgroundDescription" xml:space="preserve">
-    <value>Cakto fotografinë e zgjedhur si sfond të aplikacionit</value>
+    <value>Cakto fotografinÃ« e zgjedhur si sfond tÃ« aplikacionit</value>
   </data>
   <data name="InstallFont" xml:space="preserve">
     <value>Instaloni fontin</value>
@@ -2723,7 +2723,7 @@
     <value>Instaloni shoferin</value>
   </data>
   <data name="InstallCertificate" xml:space="preserve">
-    <value>Instaloni certifikatën</value>
+    <value>Instaloni certifikatÃ«n</value>
   </data>
   <data name="InstallFontDescription" xml:space="preserve">
     <value>Install selected {0, plural, one {font} other {fonts}}</value>
@@ -2738,13 +2738,13 @@
     <value>Ekzekutoni aplikacionin e zgjedhur si administrator</value>
   </data>
   <data name="RunAsAnotherUserDescription" xml:space="preserve">
-    <value>Ekzekutoni aplikacionin e zgjedhur si një përdorues tjetër</value>
+    <value>Ekzekutoni aplikacionin e zgjedhur si njÃ« pÃ«rdorues tjetÃ«r</value>
   </data>
   <data name="RunWithPowershellDescription" xml:space="preserve">
-    <value>Ekzekutoni skriptin e zgjedhur të PowerShell</value>
+    <value>Ekzekutoni skriptin e zgjedhur tÃ« PowerShell</value>
   </data>
   <data name="LaunchPreviewPopupDescription" xml:space="preserve">
-    <value>Nis pamjen paraprake në dritaren kërcyese</value>
+    <value>Nis pamjen paraprake nÃ« dritaren kÃ«rcyese</value>
   </data>
   <data name="CompressIntoArchiveDescription" xml:space="preserve">
     <value>Create archive with selected {0, plural, one {item} other {items}}</value>
@@ -2756,13 +2756,13 @@
     <value>Create zip archive with selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="DecompressArchiveDescription" xml:space="preserve">
-    <value>Ekstrakt selected {0, plural, one {archive} other {archives}} në çdo dosje</value>
+    <value>Ekstrakt selected {0, plural, one {archive} other {archives}} nÃ« Ã§do dosje</value>
   </data>
   <data name="DecompressArchiveHereDescription" xml:space="preserve">
-    <value>Ekstrakt selected {0, plural, one {archive} other {archives}} në dosjen aktuale</value>
+    <value>Ekstrakt selected {0, plural, one {archive} other {archives}} nÃ« dosjen aktuale</value>
   </data>
   <data name="DecompressArchiveToChildFolderDescription" xml:space="preserve">
-    <value>Ekstrakt selected {0, plural, one {archive} other {archives}} në dosje të re</value>
+    <value>Ekstrakt selected {0, plural, one {archive} other {archives}} nÃ« dosje tÃ« re</value>
   </data>
   <data name="RotateLeftDescription" xml:space="preserve">
     <value>Rotate selected {0, plural, one {image} other {images}} to the left</value>
@@ -2771,19 +2771,19 @@
     <value>Rotate selected {0, plural, one {image} other {images}} to the right</value>
   </data>
   <data name="OpenSettingsDescription" xml:space="preserve">
-    <value>Hapni faqen e cilësimeve</value>
+    <value>Hapni faqen e cilÃ«simeve</value>
   </data>
   <data name="OpenTerminalDescription" xml:space="preserve">
-    <value>Hapni dosjen në terminal</value>
+    <value>Hapni dosjen nÃ« terminal</value>
   </data>
   <data name="OpenTerminalAsAdminDescription" xml:space="preserve">
-    <value>Hapni dosjen në terminal si administrator</value>
+    <value>Hapni dosjen nÃ« terminal si administrator</value>
   </data>
   <data name="LayoutDecreaseSizeDescription" xml:space="preserve">
-    <value>Zvogëloni madhësinë e artikullit në pamjen aktuale</value>
+    <value>ZvogÃ«loni madhÃ«sinÃ« e artikullit nÃ« pamjen aktuale</value>
   </data>
   <data name="LayoutIncreaseSizeDescription" xml:space="preserve">
-    <value>Rritni madhësinë e artikullit në pamjen aktuale</value>
+    <value>Rritni madhÃ«sinÃ« e artikullit nÃ« pamjen aktuale</value>
   </data>
   <data name="LayoutDetailsDescription" xml:space="preserve">
     <value>Kalo te pamja e detajeve</value>
@@ -2792,7 +2792,7 @@
     <value>Kalo te pamja e kartave</value>
   </data>
   <data name="LayoutListDescription" xml:space="preserve">
-    <value>Kalo në pamjen e listës</value>
+    <value>Kalo nÃ« pamjen e listÃ«s</value>
   </data>
   <data name="List" xml:space="preserve">
     <value>Lista</value>
@@ -2801,31 +2801,31 @@
     <value>Rrjeti</value>
   </data>
   <data name="LayoutGridDescription" xml:space="preserve">
-    <value>Kalo në pamjen e rrjetit</value>
+    <value>Kalo nÃ« pamjen e rrjetit</value>
   </data>
   <data name="LayoutColumnsDescription" xml:space="preserve">
     <value>Kalo te pamja e kolonave</value>
   </data>
   <data name="LayoutAdaptiveDescription" xml:space="preserve">
-    <value>Ndërroni pamjet në mënyrë adaptive</value>
+    <value>NdÃ«rroni pamjet nÃ« mÃ«nyrÃ« adaptive</value>
   </data>
   <data name="SortByNameDescription" xml:space="preserve">
     <value>Rendit artikujt sipas emrit</value>
   </data>
   <data name="SortByDateModifiedDescription" xml:space="preserve">
-    <value>Rendit artikujt sipas datës së modifikimit</value>
+    <value>Rendit artikujt sipas datÃ«s sÃ« modifikimit</value>
   </data>
   <data name="SortByDateCreatedDescription" xml:space="preserve">
-    <value>Rendit artikujt sipas datës së krijimit</value>
+    <value>Rendit artikujt sipas datÃ«s sÃ« krijimit</value>
   </data>
   <data name="SortBySizeDescription" xml:space="preserve">
-    <value>Renditni artikujt sipas madhësisë</value>
+    <value>Renditni artikujt sipas madhÃ«sisÃ«</value>
   </data>
   <data name="SortByTypeDescription" xml:space="preserve">
     <value>Rendit artikujt sipas llojit</value>
   </data>
   <data name="SortBySyncStatusDescription" xml:space="preserve">
-    <value>Rendit artikujt sipas statusit të sinkronizimit</value>
+    <value>Rendit artikujt sipas statusit tÃ« sinkronizimit</value>
   </data>
   <data name="SortByTagDescription" xml:space="preserve">
     <value>Rendit artikujt sipas etiketave</value>
@@ -2834,16 +2834,16 @@
     <value>Rendit artikujt sipas dosjes origjinale</value>
   </data>
   <data name="SortByDateDeletedDescription" xml:space="preserve">
-    <value>Rendit artikujt sipas datës së fshirjes</value>
+    <value>Rendit artikujt sipas datÃ«s sÃ« fshirjes</value>
   </data>
   <data name="SortAscendingDescription" xml:space="preserve">
-    <value>Renditni artikujt në rend rritës</value>
+    <value>Renditni artikujt nÃ« rend rritÃ«s</value>
   </data>
   <data name="SortDescendingDescription" xml:space="preserve">
-    <value>Renditni artikujt në rend zbritës</value>
+    <value>Renditni artikujt nÃ« rend zbritÃ«s</value>
   </data>
   <data name="ToggleSortDirectionDescription" xml:space="preserve">
-    <value>Ndrysho drejtimin e renditjes së artikullit</value>
+    <value>Ndrysho drejtimin e renditjes sÃ« artikullit</value>
   </data>
   <data name="GroupByNoneDescription" xml:space="preserve">
     <value>Listoni artikujt pa grupim</value>
@@ -2852,19 +2852,19 @@
     <value>Gruponi artikujt sipas emrave</value>
   </data>
   <data name="GroupByDateModifiedDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas datës së modifikuar</value>
+    <value>Gruponi artikujt sipas datÃ«s sÃ« modifikuar</value>
   </data>
   <data name="GroupByDateCreatedDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas datës së krijimit</value>
+    <value>Gruponi artikujt sipas datÃ«s sÃ« krijimit</value>
   </data>
   <data name="GroupBySizeDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas madhësisë</value>
+    <value>Gruponi artikujt sipas madhÃ«sisÃ«</value>
   </data>
   <data name="GroupByTypeDescription" xml:space="preserve">
     <value>Gruponi artikujt sipas llojit</value>
   </data>
   <data name="GroupBySyncStatusDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas statusit të sinkronizimit</value>
+    <value>Gruponi artikujt sipas statusit tÃ« sinkronizimit</value>
   </data>
   <data name="GroupByTagDescription" xml:space="preserve">
     <value>Gruponi artikujt sipas etiketave</value>
@@ -2873,70 +2873,70 @@
     <value>Gruponi artikujt sipas dosjes origjinale</value>
   </data>
   <data name="GroupByDateDeletedDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas datës së fshirjes</value>
+    <value>Gruponi artikujt sipas datÃ«s sÃ« fshirjes</value>
   </data>
   <data name="GroupByFolderPathDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas rrugës së dosjes</value>
+    <value>Gruponi artikujt sipas rrugÃ«s sÃ« dosjes</value>
   </data>
   <data name="GroupAscendingDescription" xml:space="preserve">
-    <value>Rendit grupet në rend rritës</value>
+    <value>Rendit grupet nÃ« rend rritÃ«s</value>
   </data>
   <data name="GroupDescendingDescription" xml:space="preserve">
-    <value>Rendit grupet në rend zbritës</value>
+    <value>Rendit grupet nÃ« rend zbritÃ«s</value>
   </data>
   <data name="ToggleGroupDirectionDescription" xml:space="preserve">
-    <value>Ndrysho drejtimin e renditjes në grup</value>
+    <value>Ndrysho drejtimin e renditjes nÃ« grup</value>
   </data>
   <data name="NewTabDescription" xml:space="preserve">
-    <value>Hap njÃ« skedÃ« tÃ« re</value>
+    <value>Hap njÃƒÂ« skedÃƒÂ« tÃƒÂ« re</value>
   </data>
   <data name="NavigateBackDescription" xml:space="preserve">
     <value>Navigoni prapa</value>
   </data>
   <data name="NavigateForwardDescription" xml:space="preserve">
-    <value>Navigoni përpara</value>
+    <value>Navigoni pÃ«rpara</value>
   </data>
   <data name="NavigateUpDescription" xml:space="preserve">
-    <value>Lundroni lart një drejtori</value>
+    <value>Lundroni lart njÃ« drejtori</value>
   </data>
   <data name="DuplicateSelectedTabDescription" xml:space="preserve">
-    <value>Dubliko skedën e zgjedhur</value>
+    <value>Dubliko skedÃ«n e zgjedhur</value>
   </data>
   <data name="CloseTabsToTheLeftSelectedDescription" xml:space="preserve">
-    <value>Mbyllni skedat në të majtë të skedës së zgjedhur</value>
+    <value>Mbyllni skedat nÃ« tÃ« majtÃ« tÃ« skedÃ«s sÃ« zgjedhur</value>
   </data>
   <data name="CloseTabsToTheRightSelectedDescription" xml:space="preserve">
-    <value>Mbyllni skedat në të djathtë të skedës së zgjedhur</value>
+    <value>Mbyllni skedat nÃ« tÃ« djathtÃ« tÃ« skedÃ«s sÃ« zgjedhur</value>
   </data>
   <data name="CloseOtherTabsSelectedDescription" xml:space="preserve">
-    <value>Mbyllni skeda të tjera nga skeda e zgjedhur</value>
+    <value>Mbyllni skeda tÃ« tjera nga skeda e zgjedhur</value>
   </data>
   <data name="CloseAllTabsDescription" xml:space="preserve">
-    <value>Mbyllni të gjitha skedat duke përfshirë skedën aktuale</value>
+    <value>Mbyllni tÃ« gjitha skedat duke pÃ«rfshirÃ« skedÃ«n aktuale</value>
   </data>
   <data name="ReopenClosedTabDescription" xml:space="preserve">
-    <value>Rihap skedën e mbyllur së fundmi</value>
+    <value>Rihap skedÃ«n e mbyllur sÃ« fundmi</value>
   </data>
   <data name="PreviousTabDescription" xml:space="preserve">
-    <value>Kaloni në skedën e mëparshme</value>
+    <value>Kaloni nÃ« skedÃ«n e mÃ«parshme</value>
   </data>
   <data name="NextTabDescription" xml:space="preserve">
-    <value>Kaloni në skedën tjetër</value>
+    <value>Kaloni nÃ« skedÃ«n tjetÃ«r</value>
   </data>
   <data name="CloseSelectedTabDescription" xml:space="preserve">
-    <value>Mbyll skedën aktuale</value>
+    <value>Mbyll skedÃ«n aktuale</value>
   </data>
   <data name="CloseActivePaneDescription" xml:space="preserve">
     <value>Mbyllni panelin aktiv</value>
   </data>
   <data name="FocusOtherPane" xml:space="preserve">
-    <value>Fokusoni panelin tjetër</value>
+    <value>Fokusoni panelin tjetÃ«r</value>
   </data>
   <data name="FocusOtherPaneDescription" xml:space="preserve">
-    <value>Kaloni fokusin në panelin tjetër</value>
+    <value>Kaloni fokusin nÃ« panelin tjetÃ«r</value>
   </data>
   <data name="ToggleSidebar" xml:space="preserve">
-    <value>Ndrysho shiritin anësor</value>
+    <value>Ndrysho shiritin anÃ«sor</value>
   </data>
   <data name="Key.Menu" xml:space="preserve">
     <value>Alt</value>
@@ -2947,7 +2947,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Shift" xml:space="preserve">
-    <value>Ndërrimi</value>
+    <value>NdÃ«rrimi</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Windows" xml:space="preserve">
@@ -2959,7 +2959,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Space" xml:space="preserve">
-    <value>Hapësirë</value>
+    <value>HapÃ«sirÃ«</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Escape" xml:space="preserve">
@@ -2991,7 +2991,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Down" xml:space="preserve">
-    <value>Poshtë</value>
+    <value>PoshtÃ«</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Up" xml:space="preserve">
@@ -2999,7 +2999,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Home" xml:space="preserve">
-    <value>Shtëpi</value>
+    <value>ShtÃ«pi</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.End" xml:space="preserve">
@@ -3027,7 +3027,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Clear" xml:space="preserve">
-    <value>E qartë</value>
+    <value>E qartÃ«</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Print" xml:space="preserve">
@@ -3035,7 +3035,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Help" xml:space="preserve">
-    <value>Ndihmë</value>
+    <value>NdihmÃ«</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Mouse4" xml:space="preserve">
@@ -3059,7 +3059,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Mail" xml:space="preserve">
-    <value>Postë</value>
+    <value>PostÃ«</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserGoHome" xml:space="preserve">
@@ -3083,11 +3083,11 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserSearch" xml:space="preserve">
-    <value>KÃ«rko</value>
+    <value>KÃƒÂ«rko</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserFavorites" xml:space="preserve">
-    <value>Të preferuarat</value>
+    <value>TÃ« preferuarat</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaPlayPause" xml:space="preserve">
@@ -3103,7 +3103,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaNextTrack" xml:space="preserve">
-    <value>Tjetër Track</value>
+    <value>TjetÃ«r Track</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaSelect" xml:space="preserve">
@@ -3129,7 +3129,7 @@
     <value>Ndrysho zgjedhjen</value>
   </data>
   <data name="ShowFileExtensionWarning" xml:space="preserve">
-    <value>Shfaq paralajmërimin kur ndryshoni shtesat e skedarëve</value>
+    <value>Shfaq paralajmÃ«rimin kur ndryshoni shtesat e skedarÃ«ve</value>
   </data>
   <data name="ThisPC" xml:space="preserve">
     <value>Ky PC</value>
@@ -3141,67 +3141,67 @@
     <value>I pa etiketuar</value>
   </data>
   <data name="PreviousTab" xml:space="preserve">
-    <value>Skeda e mëparshme</value>
+    <value>Skeda e mÃ«parshme</value>
   </data>
   <data name="NextTab" xml:space="preserve">
-    <value>Skeda tjetër</value>
+    <value>Skeda tjetÃ«r</value>
   </data>
   <data name="CloseTab" xml:space="preserve">
-    <value>Mbyll skedën</value>
+    <value>Mbyll skedÃ«n</value>
   </data>
   <data name="EditPath" xml:space="preserve">
-    <value>Redakto rrugën</value>
+    <value>Redakto rrugÃ«n</value>
   </data>
   <data name="Redo" xml:space="preserve">
-    <value>Ribëje</value>
+    <value>RibÃ«je</value>
   </data>
   <data name="Undo" xml:space="preserve">
-    <value>Zhbër</value>
+    <value>ZhbÃ«r</value>
   </data>
   <data name="InvalidLocation" xml:space="preserve">
     <value>Vendndodhja e pavlefshme</value>
   </data>
   <data name="CopyFileWithoutProperties" xml:space="preserve">
-    <value>Jeni i sigurt që dëshironi t'i kopjoni këta skedarë pa vetitë e tyre?</value>
+    <value>Jeni i sigurt qÃ« dÃ«shironi t'i kopjoni kÃ«ta skedarÃ« pa vetitÃ« e tyre?</value>
   </data>
   <data name="FilePropertiesCannotBeCopied" xml:space="preserve">
-    <value>Këta skedarë kanë veti që nuk mund të kopjohen në vendndodhjen e re</value>
+    <value>KÃ«ta skedarÃ« kanÃ« veti qÃ« nuk mund tÃ« kopjohen nÃ« vendndodhjen e re</value>
   </data>
   <data name="FilePropertiesCannotBeMoved" xml:space="preserve">
-    <value>Këta skedarë kanë veti që nuk mund të zhvendosen në vendndodhjen e re</value>
+    <value>KÃ«ta skedarÃ« kanÃ« veti qÃ« nuk mund tÃ« zhvendosen nÃ« vendndodhjen e re</value>
   </data>
   <data name="MoveFileWithoutProperties" xml:space="preserve">
-    <value>Jeni i sigurt që dëshironi t'i zhvendosni këta skedarë pa vetitë e tyre?</value>
+    <value>Jeni i sigurt qÃ« dÃ«shironi t'i zhvendosni kÃ«ta skedarÃ« pa vetitÃ« e tyre?</value>
   </data>
   <data name="ShowCheckboxesWhenSelectingItems" xml:space="preserve">
-    <value>Shfaq kutitë e zgjedhjes kur zgjidhni artikuj</value>
+    <value>Shfaq kutitÃ« e zgjedhjes kur zgjidhni artikuj</value>
   </data>
   <data name="EditPathDescription" xml:space="preserve">
-    <value>Ndrysho shtegun në OmniBar</value>
+    <value>Ndrysho shtegun nÃ« OmniBar</value>
   </data>
   <data name="AddItemDescription" xml:space="preserve">
-    <value>Krijo artikull të ri</value>
+    <value>Krijo artikull tÃ« ri</value>
   </data>
   <data name="SecurityNoAccessControlEntriesText" xml:space="preserve">
-    <value>Asnjë grup ose përdorues nuk ka leje për të hyrë në këtë objekt. Megjithatë, pronari i këtij objekti mund të caktojë leje.</value>
+    <value>AsnjÃ« grup ose pÃ«rdorues nuk ka leje pÃ«r tÃ« hyrÃ« nÃ« kÃ«tÃ« objekt. MegjithatÃ«, pronari i kÃ«tij objekti mund tÃ« caktojÃ« leje.</value>
   </data>
   <data name="OpenFileLocationDescription" xml:space="preserve">
     <value>Hapni vendndodhjen e artikullit</value>
   </data>
   <data name="DeletePermanently" xml:space="preserve">
-    <value>Fshije përgjithmonë</value>
+    <value>Fshije pÃ«rgjithmonÃ«</value>
   </data>
   <data name="DeleteItemPermanentlyDescription" xml:space="preserve">
-    <value>Fshi selected {0, plural, one {item} other {items}} përgjithmonë</value>
+    <value>Fshi selected {0, plural, one {item} other {items}} pÃ«rgjithmonÃ«</value>
   </data>
   <data name="PlayAllDescription" xml:space="preserve">
-    <value>Luaj skedarët e zgjedhur të mediave</value>
+    <value>Luaj skedarÃ«t e zgjedhur tÃ« mediave</value>
   </data>
   <data name="UndoDescription" xml:space="preserve">
-    <value>Zhbër operacionin e fundit të skedarit</value>
+    <value>ZhbÃ«r operacionin e fundit tÃ« skedarit</value>
   </data>
   <data name="RedoDescription" xml:space="preserve">
-    <value>Ribëni operacionin e fundit të skedarit</value>
+    <value>RibÃ«ni operacionin e fundit tÃ« skedarit</value>
   </data>
   <data name="Location" xml:space="preserve">
     <value>Vendndodhja:</value>
@@ -3219,118 +3219,118 @@
     <value>Dita</value>
   </data>
   <data name="ToggleGroupByDateUnitDescription" xml:space="preserve">
-    <value>Ndrysho njësinë për grupimin sipas datës</value>
+    <value>Ndrysho njÃ«sinÃ« pÃ«r grupimin sipas datÃ«s</value>
   </data>
   <data name="ToggleGroupingUnit" xml:space="preserve">
-    <value>Ndrysho njësinë e grupimit</value>
+    <value>Ndrysho njÃ«sinÃ« e grupimit</value>
   </data>
   <data name="Year" xml:space="preserve">
     <value>viti</value>
   </data>
   <data name="GroupByDateUnit" xml:space="preserve">
-    <value>Grupi sipas njësisë së datës</value>
+    <value>Grupi sipas njÃ«sisÃ« sÃ« datÃ«s</value>
   </data>
   <data name="GroupByDateCreatedDayDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas ditës së datës së krijimit</value>
+    <value>Gruponi artikujt sipas ditÃ«s sÃ« datÃ«s sÃ« krijimit</value>
   </data>
   <data name="GroupByDateCreatedMonthDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas muajit të datës së krijuar</value>
+    <value>Gruponi artikujt sipas muajit tÃ« datÃ«s sÃ« krijuar</value>
   </data>
   <data name="GroupByDateCreatedYearDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas vitit të datës së krijuar</value>
+    <value>Gruponi artikujt sipas vitit tÃ« datÃ«s sÃ« krijuar</value>
   </data>
   <data name="GroupByDateDeletedDayDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas ditës së datës së fshirë</value>
+    <value>Gruponi artikujt sipas ditÃ«s sÃ« datÃ«s sÃ« fshirÃ«</value>
   </data>
   <data name="GroupByDateDeletedMonthDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas muajit të datës që u fshinë</value>
+    <value>Gruponi artikujt sipas muajit tÃ« datÃ«s qÃ« u fshinÃ«</value>
   </data>
   <data name="GroupByDateDeletedYearDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas vitit të datës u fshinë</value>
+    <value>Gruponi artikujt sipas vitit tÃ« datÃ«s u fshinÃ«</value>
   </data>
   <data name="GroupByDateModifiedDayDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas ditës së datës së modifikuar</value>
+    <value>Gruponi artikujt sipas ditÃ«s sÃ« datÃ«s sÃ« modifikuar</value>
   </data>
   <data name="GroupByDateModifiedMonthDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas muajit të datës së modifikuar</value>
+    <value>Gruponi artikujt sipas muajit tÃ« datÃ«s sÃ« modifikuar</value>
   </data>
   <data name="GroupByDateModifiedYearDescription" xml:space="preserve">
-    <value>Gruponi artikujt sipas vitit të datës të modifikuar</value>
+    <value>Gruponi artikujt sipas vitit tÃ« datÃ«s tÃ« modifikuar</value>
   </data>
   <data name="SecurityClickAdvancedPermissions" xml:space="preserve">
-    <value>Klikoni "Lejet e avancuara" për të vazhduar.</value>
+    <value>Klikoni "Lejet e avancuara" pÃ«r tÃ« vazhduar.</value>
   </data>
   <data name="SecurityRequireReadPermissions" xml:space="preserve">
-    <value>Duhet të kesh leje leximi për të parë vetitë e këtij artikulli.</value>
+    <value>Duhet tÃ« kesh leje leximi pÃ«r tÃ« parÃ« vetitÃ« e kÃ«tij artikulli.</value>
   </data>
   <data name="SecuritySuggestToTakeOwnership" xml:space="preserve">
-    <value>Për të provuar të merrni pronësinë e artikullit, i cili përfshin lejen për të parë vetitë e tij, kliko "Ndrysho" më lart.</value>
+    <value>PÃ«r tÃ« provuar tÃ« merrni pronÃ«sinÃ« e artikullit, i cili pÃ«rfshin lejen pÃ«r tÃ« parÃ« vetitÃ« e tij, kliko "Ndrysho" mÃ« lart.</value>
   </data>
   <data name="SecurityUnableToDisplayPermissions" xml:space="preserve">
-    <value>Nuk mund të shfaqen lejet.</value>
+    <value>Nuk mund tÃ« shfaqen lejet.</value>
   </data>
   <data name="StashChanges" xml:space="preserve">
-    <value>Lëri ndryshimet e mia në '{0}'</value>
+    <value>LÃ«ri ndryshimet e mia nÃ« '{0}'</value>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Hidhni poshtë ndryshimet e mia</value>
+    <value>Hidhni poshtÃ« ndryshimet e mia</value>
   </data>
   <data name="BringChanges" xml:space="preserve">
-    <value>Sill ndryshimet e mia në '{0}'</value>
+    <value>Sill ndryshimet e mia nÃ« '{0}'</value>
   </data>
   <data name="UncommittedChanges" xml:space="preserve">
-    <value>Ju keni ndryshime të pazbatuara në këtë degë. Çfarë do të dëshironit të bënit me ta?</value>
+    <value>Ju keni ndryshime tÃ« pazbatuara nÃ« kÃ«tÃ« degÃ«. Ã‡farÃ« do tÃ« dÃ«shironit tÃ« bÃ«nit me ta?</value>
   </data>
   <data name="MergeInProgress" xml:space="preserve">
-    <value>Ju keni një bashkim të vazhdueshëm me konflikte të pazgjidhura. Ju lutemi zgjidhni konfliktet ose anuloni bashkimin për të ndërruar degët.</value>
+    <value>Ju keni njÃ« bashkim tÃ« vazhdueshÃ«m me konflikte tÃ« pazgjidhura. Ju lutemi zgjidhni konfliktet ose anuloni bashkimin pÃ«r tÃ« ndÃ«rruar degÃ«t.</value>
   </data>
   <data name="AbortMergeAndSwitch" xml:space="preserve">
-    <value>Anuloni bashkimin dhe kaloni në '{0}'</value>
+    <value>Anuloni bashkimin dhe kaloni nÃ« '{0}'</value>
   </data>
   <data name="StayAndResolveConflicts" xml:space="preserve">
-    <value>Qëndroni në '{0}' dhe zgjidhni konfliktet</value>
+    <value>QÃ«ndroni nÃ« '{0}' dhe zgjidhni konfliktet</value>
   </data>
   <data name="SwitchBranch" xml:space="preserve">
-    <value>Ndërroni degën</value>
+    <value>NdÃ«rroni degÃ«n</value>
   </data>
   <data name="Branches" xml:space="preserve">
-    <value>Degët</value>
+    <value>DegÃ«t</value>
   </data>
   <data name="Switch" xml:space="preserve">
-    <value>Ndërro</value>
+    <value>NdÃ«rro</value>
   </data>
   <data name="NewBranch" xml:space="preserve">
     <value>Dega e re</value>
   </data>
   <data name="InvalidBranchName" xml:space="preserve">
-    <value>Emër i pavlefshëm dege</value>
+    <value>EmÃ«r i pavlefshÃ«m dege</value>
   </data>
   <data name="CreateBranch" xml:space="preserve">
-    <value>Krijo degë</value>
+    <value>Krijo degÃ«</value>
   </data>
   <data name="CreateNewBranch" xml:space="preserve">
-    <value>Krijo degë</value>
+    <value>Krijo degÃ«</value>
   </data>
   <data name="BasedOn" xml:space="preserve">
-    <value>Bazuar në</value>
+    <value>Bazuar nÃ«</value>
   </data>
   <data name="SwitchToNewBranch" xml:space="preserve">
-    <value>Kalo në degë të re</value>
+    <value>Kalo nÃ« degÃ« tÃ« re</value>
   </data>
   <data name="CreateFolderWithSelectionDescription" xml:space="preserve">
     <value>Create a folder with the currently selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="OpenProperties" xml:space="preserve">
-    <value>CilÃ«simet</value>
+    <value>CilÃƒÂ«simet</value>
   </data>
   <data name="OpenClassicProperties" xml:space="preserve">
-    <value>Hapni vetitë e File Explorer</value>
+    <value>Hapni vetitÃ« e File Explorer</value>
   </data>
   <data name="OpenPropertiesDescription" xml:space="preserve">
     <value>Hap dritaren e vetive</value>
   </data>
   <data name="OpenClassicPropertiesDescription" xml:space="preserve">
-    <value>Hap dritaren e vetive të File Explorer</value>
+    <value>Hap dritaren e vetive tÃ« File Explorer</value>
   </data>
   <data name="Locals" xml:space="preserve">
     <value>vendasit</value>
@@ -3339,19 +3339,19 @@
     <value>Telekomanda</value>
   </data>
   <data name="ImproveTranslation" xml:space="preserve">
-    <value>Përkthe në Crowdin</value>
+    <value>PÃ«rkthe nÃ« Crowdin</value>
   </data>
   <data name="GitFetch" xml:space="preserve">
     <value>Merr</value>
   </data>
   <data name="GitPull" xml:space="preserve">
-    <value>Tërhiqe</value>
+    <value>TÃ«rhiqe</value>
   </data>
   <data name="GitFetchDescription" xml:space="preserve">
     <value>Ekzekuto git fetch</value>
   </data>
   <data name="GitCloneDescription" xml:space="preserve">
-    <value>Klononi një depo git</value>
+    <value>Klononi njÃ« depo git</value>
   </data>
   <data name="GitPullDescription" xml:space="preserve">
     <value>Run git pull</value>
@@ -3366,13 +3366,13 @@
     <value>Gabim Git</value>
   </data>
   <data name="PullTimeoutError" xml:space="preserve">
-    <value>tërheqja e git dështoi për shkak të një gabimi kohor</value>
+    <value>tÃ«rheqja e git dÃ«shtoi pÃ«r shkak tÃ« njÃ« gabimi kohor</value>
   </data>
   <data name="PullUncommittedChangesError" xml:space="preserve">
     <value>Can't pull because your uncommitted changes would be overwritten. Commit, stash, or discard your changes, then try again.</value>
   </data>
   <data name="MultipleValues" xml:space="preserve">
-    <value>(vlera të shumta)</value>
+    <value>(vlera tÃ« shumta)</value>
     <comment>Text indicating that multiple selected files have different metadata values.</comment>
   </data>
   <data name="Author" xml:space="preserve">
@@ -3403,10 +3403,10 @@
     <value>Sfondi</value>
   </data>
   <data name="Solid" xml:space="preserve">
-    <value>Të ngurta</value>
+    <value>TÃ« ngurta</value>
   </data>
   <data name="ManageBranches" xml:space="preserve">
-    <value>Menaxhoni degët</value>
+    <value>Menaxhoni degÃ«t</value>
   </data>
   <data name="Push" xml:space="preserve">
     <value>Shtyni</value>
@@ -3418,31 +3418,31 @@
     <value>Sinkronizimi</value>
   </data>
   <data name="GitSyncDescription" xml:space="preserve">
-    <value>Run git pull dhe më pas git push</value>
+    <value>Run git pull dhe mÃ« pas git push</value>
   </data>
   <data name="GitSyncStatusExtendedInfo" xml:space="preserve">
-    <value>{1} në dalje / {1} kryerje hyrëse</value>
+    <value>{1} nÃ« dalje / {1} kryerje hyrÃ«se</value>
   </data>
   <data name="ConnectGitHub" xml:space="preserve">
     <value>Lidhu me GitHub</value>
   </data>
   <data name="ConnectGitHubDescription" xml:space="preserve">
-    <value>Futni kodin e mëposhtëm në lidhjen më poshtë për të filluar punën me depot e GitHub.</value>
+    <value>Futni kodin e mÃ«poshtÃ«m nÃ« lidhjen mÃ« poshtÃ« pÃ«r tÃ« filluar punÃ«n me depot e GitHub.</value>
   </data>
   <data name="CannotReachGitHubError" xml:space="preserve">
-    <value>Skedarët nuk mund të hyjnë në GitHub për momentin.</value>
+    <value>SkedarÃ«t nuk mund tÃ« hyjnÃ« nÃ« GitHub pÃ«r momentin.</value>
   </data>
   <data name="OpenInIDE" xml:space="preserve">
-    <value>Hap dosjen në {0}</value>
+    <value>Hap dosjen nÃ« {0}</value>
   </data>
   <data name="OpenInIDEDescription" xml:space="preserve">
-    <value>Hap direktorinë aktuale në {0}</value>
+    <value>Hap direktorinÃ« aktuale nÃ« {0}</value>
   </data>
   <data name="OpenRepoInIDE" xml:space="preserve">
-    <value>Hap depon në {0}</value>
+    <value>Hap depon nÃ« {0}</value>
   </data>
   <data name="OpenRepoInIDEDescription" xml:space="preserve">
-    <value>Hapni rrënjën e repos Git në {0}</value>
+    <value>Hapni rrÃ«njÃ«n e repos Git nÃ« {0}</value>
   </data>
   <data name="CopyCode" xml:space="preserve">
     <value>Kopjo kodin</value>
@@ -3451,7 +3451,7 @@
     <value>Shtuar</value>
   </data>
   <data name="Deleted" xml:space="preserve">
-    <value>Fshirë</value>
+    <value>FshirÃ«</value>
   </data>
   <data name="Modified" xml:space="preserve">
     <value>Modifikuar</value>
@@ -3460,31 +3460,31 @@
     <value>E pa gjurmuar</value>
   </data>
   <data name="UnableToDisplayOwner" xml:space="preserve">
-    <value>Nuk mund të shfaqet pronari aktual.</value>
+    <value>Nuk mund tÃ« shfaqet pronari aktual.</value>
   </data>
   <data name="AuthorizationSucceded" xml:space="preserve">
-    <value>E shkëlqyeshme! Tani jeni i autorizuar.</value>
+    <value>E shkÃ«lqyeshme! Tani jeni i autorizuar.</value>
   </data>
   <data name="InitRepo" xml:space="preserve">
     <value>Inicializoni repo</value>
   </data>
   <data name="InitRepoDescription" xml:space="preserve">
-    <value>Inicializoni dosjen aktuale si një depo git</value>
+    <value>Inicializoni dosjen aktuale si njÃ« depo git</value>
   </data>
   <data name="GitOriginRepositoryName" xml:space="preserve">
-    <value>Emri i depove në distancë</value>
+    <value>Emri i depove nÃ« distancÃ«</value>
   </data>
   <data name="GitCurrentBranch" xml:space="preserve">
     <value>Dega aktuale</value>
   </data>
   <data name="PathColumn" xml:space="preserve">
-    <value>Kolona e rrugës</value>
+    <value>Kolona e rrugÃ«s</value>
   </data>
   <data name="SortByPathDescription" xml:space="preserve">
-    <value>Rendit artikujt sipas rrugës</value>
+    <value>Rendit artikujt sipas rrugÃ«s</value>
   </data>
   <data name="OpenDirectoryInNewPaneDescription" xml:space="preserve">
-    <value>Hapni drejtorinë e zgjedhur në një panel të ri</value>
+    <value>Hapni drejtorinÃ« e zgjedhur nÃ« njÃ« panel tÃ« ri</value>
   </data>
   <data name="OpenDirectoryInOtherPaneDescription" xml:space="preserve">
     <value>Open selected directory in the other pane</value>
@@ -3493,41 +3493,41 @@
     <value>Open the current folder in the other pane</value>
   </data>
   <data name="OpenDirectoryInNewTabDescription" xml:space="preserve">
-    <value>Hapni drejtorinë e zgjedhur në një skedë të re</value>
+    <value>Hapni drejtorinÃ« e zgjedhur nÃ« njÃ« skedÃ« tÃ« re</value>
   </data>
   <data name="OpenInNewWindowDescription" xml:space="preserve">
-    <value>Hapni drejtorinë e zgjedhur në një dritare të re</value>
+    <value>Hapni drejtorinÃ« e zgjedhur nÃ« njÃ« dritare tÃ« re</value>
   </data>
   <data name="OpenAllTaggedItems" xml:space="preserve">
-    <value>Hap të gjitha</value>
+    <value>Hap tÃ« gjitha</value>
   </data>
   <data name="OpenAllTaggedItemsDescription" xml:space="preserve">
-    <value>Hapni të gjithë artikujt e etiketuar</value>
+    <value>Hapni tÃ« gjithÃ« artikujt e etiketuar</value>
   </data>
   <data name="DriveWithLetter" xml:space="preserve">
-    <value>Me makinë ({0})</value>
+    <value>Me makinÃ« ({0})</value>
     <comment>{0} is the drive letter.</comment>
   </data>
   <data name="InvalidCommand" xml:space="preserve">
     <value>Komanda e pavlefshme</value>
   </data>
   <data name="InvalidCommandContent" xml:space="preserve">
-    <value>'{0}' nuk njihet si komandë.</value>
+    <value>'{0}' nuk njihet si komandÃ«.</value>
   </data>
   <data name="CommandNotExecutable" xml:space="preserve">
-    <value>Komanda nuk është e ekzekutueshme</value>
+    <value>Komanda nuk Ã«shtÃ« e ekzekutueshme</value>
   </data>
   <data name="CommandNotExecutableContent" xml:space="preserve">
-    <value>Komanda '{0}' nuk është gati për t'u ekzekutuar.</value>
+    <value>Komanda '{0}' nuk Ã«shtÃ« gati pÃ«r t'u ekzekutuar.</value>
   </data>
   <data name="CommandPalette" xml:space="preserve">
     <value>Paleta e komandave</value>
   </data>
   <data name="OpenCommandPaletteDescription" xml:space="preserve">
-    <value>Hapni paletën e komandave në OmniBar</value>
+    <value>Hapni paletÃ«n e komandave nÃ« OmniBar</value>
   </data>
   <data name="ShortcutItemWorkingDir" xml:space="preserve">
-    <value>Filloni në:</value>
+    <value>Filloni nÃ«:</value>
   </data>
   <data name="TurnOnBitLocker" xml:space="preserve">
     <value>Aktivizo BitLocker</value>
@@ -3536,22 +3536,22 @@
     <value>Menaxho BitLocker</value>
   </data>
   <data name="CopyFailureFileToLarge" xml:space="preserve">
-    <value>Artikujt e mëposhtëm janë shumë të mëdhenj për t'u kopjuar në këtë disk</value>
+    <value>Artikujt e mÃ«poshtÃ«m janÃ« shumÃ« tÃ« mÃ«dhenj pÃ«r t'u kopjuar nÃ« kÃ«tÃ« disk</value>
   </data>
   <data name="FormatDrive" xml:space="preserve">
     <value>Formatoni diskun</value>
   </data>
   <data name="DontShowAgain" xml:space="preserve">
-    <value>Mos u shfaq më</value>
+    <value>Mos u shfaq mÃ«</value>
   </data>
   <data name="FilesRunningAsAdmin" xml:space="preserve">
     <value>Files po ekzekutohet si administrator</value>
   </data>
   <data name="FilesRunningAsAdminContent" xml:space="preserve">
-    <value>Për shkak të një kufizimi me Windows dhe WinAppSdk, tërhiq dhe lësho nuk ofrohet kur ekzekuton Files si administrator. Nëse dëshironi të përdorni drag and drop, mund të zgjidhni këtë kufizim duke hapur UAC (User Account Control) nga menyja Start dhe duke zgjedhur nivelin e tretë dhe duke rifilluar Windows. Përndryshe, mund të vazhdoni të përdorni skedarët pa zvarritje dhe lëshim.</value>
+    <value>PÃ«r shkak tÃ« njÃ« kufizimi me Windows dhe WinAppSdk, tÃ«rhiq dhe lÃ«sho nuk ofrohet kur ekzekuton Files si administrator. NÃ«se dÃ«shironi tÃ« pÃ«rdorni drag and drop, mund tÃ« zgjidhni kÃ«tÃ« kufizim duke hapur UAC (User Account Control) nga menyja Start dhe duke zgjedhur nivelin e tretÃ« dhe duke rifilluar Windows. PÃ«rndryshe, mund tÃ« vazhdoni tÃ« pÃ«rdorni skedarÃ«t pa zvarritje dhe lÃ«shim.</value>
   </data>
   <data name="SettingsLeaveAppRunning" xml:space="preserve">
-    <value>Lëreni aplikacionin të funksionojë në sfond kur dritarja është e mbyllur</value>
+    <value>LÃ«reni aplikacionin tÃ« funksionojÃ« nÃ« sfond kur dritarja Ã«shtÃ« e mbyllur</value>
   </data>
   <data name="Blue" xml:space="preserve">
     <value>Blu</value>
@@ -3570,7 +3570,7 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="CoolBlueBright" xml:space="preserve">
-    <value>E ftohtë Blu e ndritshme</value>
+    <value>E ftohtÃ« Blu e ndritshme</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Gray" xml:space="preserve">
@@ -3578,11 +3578,11 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="GrayDark" xml:space="preserve">
-    <value>Gri E errët</value>
+    <value>Gri E errÃ«t</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Green" xml:space="preserve">
-    <value>E gjelbër</value>
+    <value>E gjelbÃ«r</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="IrisPastel" xml:space="preserve">
@@ -3614,7 +3614,7 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Seafoam" xml:space="preserve">
-    <value>Shkumë deti</value>
+    <value>ShkumÃ« deti</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Storm" xml:space="preserve">
@@ -3630,20 +3630,20 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="ClearCompleted" xml:space="preserve">
-    <value>Pastrimi i përfunduar</value>
+    <value>Pastrimi i pÃ«rfunduar</value>
   </data>
   <data name="NameWithColon" xml:space="preserve">
     <value>Emrit:</value>
   </data>
   <data name="StatusCenter_ProcessedSize_Header" xml:space="preserve">
-    <value>{1} nga {1} të përpunuara</value>
+    <value>{1} nga {1} tÃ« pÃ«rpunuara</value>
     <comment>Shown in a StatusCenter card. Used as "64 MB of 1 GB processed"</comment>
   </data>
   <data name="ItemsLower" xml:space="preserve">
     <value>artikuj</value>
   </data>
   <data name="CannotInitializeGitRepo" xml:space="preserve">
-    <value>Skedarët nuk mund ta inicializojnë këtë direktori si një depo Git.</value>
+    <value>SkedarÃ«t nuk mund ta inicializojnÃ« kÃ«tÃ« direktori si njÃ« depo Git.</value>
   </data>
   <data name="ContributingArtist" xml:space="preserve">
     <value>Artist kontribues</value>
@@ -3652,20 +3652,20 @@
     <value>Shto faqe</value>
   </data>
   <data name="ProcessingItems" xml:space="preserve">
-    <value>Po përpunohen artikujt...</value>
+    <value>Po pÃ«rpunohen artikujt...</value>
   </data>
   <data name="DiscoveringItems" xml:space="preserve">
     <value>Po zbulohen artikujt...</value>
   </data>
   <data name="SpeedWithColon" xml:space="preserve">
-    <value>Shpejtësia:</value>
+    <value>ShpejtÃ«sia:</value>
   </data>
   <data name="StatusCenter_CompressCanceled_Header" xml:space="preserve">
-    <value>Kompresimi i {1} artikujve në "{1}" u anulua</value>
+    <value>Kompresimi i {1} artikujve nÃ« "{1}" u anulua</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CompressCanceled_SubHeader" xml:space="preserve">
-    <value>Kompresimi i {2} artikujve u anulua nga "{2}" në "{2}"</value>
+    <value>Kompresimi i {2} artikujve u anulua nga "{2}" nÃ« "{2}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CompressComplete_Header" xml:space="preserve">
@@ -3693,35 +3693,35 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_GitCloneCanceled_Header" xml:space="preserve">
-    <value>Klonimi u anulua {1} në "{1}"</value>
+    <value>Klonimi u anulua {1} nÃ« "{1}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the repository and {1} is the destination folder.</comment>
   </data>
   <data name="StatusCenter_GitCloneCanceled_SubHeader" xml:space="preserve">
-    <value>Klonimi u anulua {2} nga "{2}" në "{2}"</value>
+    <value>Klonimi u anulua {2} nga "{2}" nÃ« "{2}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the Git object count, {1} is the repository, and {2} is the destination path.</comment>
   </data>
   <data name="StatusCenter_GitCloneComplete_Header" xml:space="preserve">
-    <value>Klonuar "{1}" në "{1}"</value>
+    <value>Klonuar "{1}" nÃ« "{1}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the repository and {1} is the destination folder.</comment>
   </data>
   <data name="StatusCenter_GitCloneComplete_SubHeader" xml:space="preserve">
-    <value>Klonuar {2} nga "{2}" në "{2}"</value>
+    <value>Klonuar {2} nga "{2}" nÃ« "{2}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the Git object count, {1} is the repository, and {2} is the destination path.</comment>
   </data>
   <data name="StatusCenter_GitCloneFailed_Header" xml:space="preserve">
-    <value>Gabim në klonimin "{1}" në "{1}"</value>
+    <value>Gabim nÃ« klonimin "{1}" nÃ« "{1}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the repository and {1} is the destination folder.</comment>
   </data>
   <data name="StatusCenter_GitCloneFailed_SubHeader" xml:space="preserve">
-    <value>Dështoi në klonimin e {2} nga "{2}" në "{2}"</value>
+    <value>DÃ«shtoi nÃ« klonimin e {2} nga "{2}" nÃ« "{2}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the Git object count, {1} is the repository, and {2} is the destination path.</comment>
   </data>
   <data name="StatusCenter_GitCloneInProgress_Header" xml:space="preserve">
-    <value>Klonimi "{1}" në "{1}"</value>
+    <value>Klonimi "{1}" nÃ« "{1}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the repository and {1} is the destination folder.</comment>
   </data>
   <data name="StatusCenter_GitCloneInProgress_SubHeader" xml:space="preserve">
-    <value>Klonimi {2} nga "{2}" në "{2}"</value>
+    <value>Klonimi {2} nga "{2}" nÃ« "{2}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the Git object count, {1} is the repository, and {2} is the destination path.</comment>
   </data>
   <data name="StatusCenter_GitCheckoutCanceled_Header" xml:space="preserve">
@@ -3877,35 +3877,35 @@
     <comment>Shown in a StatusCenter card during file discovery phase.</comment>
   </data>
   <data name="StatusCenter_DecompressCanceled_Header" xml:space="preserve">
-    <value>U anulua nxjerrja e "{1}" në "{1}"</value>
+    <value>U anulua nxjerrja e "{1}" nÃ« "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressCanceled_SubHeader" xml:space="preserve">
-    <value>U anulua nxjerrja e "{2}" nga "{2}" në "{2}"</value>
+    <value>U anulua nxjerrja e "{2}" nga "{2}" nÃ« "{2}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressComplete_Header" xml:space="preserve">
-    <value>U nxorr "{1}" në "{1}"</value>
+    <value>U nxorr "{1}" nÃ« "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressComplete_SubHeader" xml:space="preserve">
-    <value>U nxorr "{2}" nga "{2}" në "{2}"</value>
+    <value>U nxorr "{2}" nga "{2}" nÃ« "{2}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressFailed_Header" xml:space="preserve">
-    <value>Gabim gjatë nxjerrjes së "{1}" në "{1}"</value>
+    <value>Gabim gjatÃ« nxjerrjes sÃ« "{1}" nÃ« "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressFailed_SubHeader" xml:space="preserve">
-    <value>Dështoi nxjerrja e "{2}" nga "{2}" në "{2}"</value>
+    <value>DÃ«shtoi nxjerrja e "{2}" nga "{2}" nÃ« "{2}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressInProgress_Header" xml:space="preserve">
-    <value>Duke nxjerrë "{1}" në "{1}"</value>
+    <value>Duke nxjerrÃ« "{1}" nÃ« "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressInProgress_SubHeader" xml:space="preserve">
-    <value>Duke nxjerrë "{2}" nga "{2}" në "{2}"</value>
+    <value>Duke nxjerrÃ« "{2}" nga "{2}" nÃ« "{2}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DeleteCanceled_Header" xml:space="preserve">
@@ -3921,7 +3921,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DeleteFailed_SubHeader" xml:space="preserve">
-    <value>Dështoi në delete {0, plural, one {# artikull} other {# artikuj}} nga "{1}"</value>
+    <value>DÃ«shtoi nÃ« delete {0, plural, one {# artikull} other {# artikuj}} nga "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DeleteInProgress_Header" xml:space="preserve">
@@ -3961,7 +3961,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinCancel_Header" xml:space="preserve">
-    <value>Zbrazja e koshit të riciklimit u anulua</value>
+    <value>Zbrazja e koshit tÃ« riciklimit u anulua</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinComplete_Header" xml:space="preserve">
@@ -3969,19 +3969,19 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinInProgress_Header" xml:space="preserve">
-    <value>Zbrazja e koshit të riciklimit</value>
+    <value>Zbrazja e koshit tÃ« riciklimit</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinFailed_Header" xml:space="preserve">
-    <value>Gabim gjatë zbrazjes së koshit të riciklimit</value>
+    <value>Gabim gjatÃ« zbrazjes sÃ« koshit tÃ« riciklimit</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinFailed_SubHeader" xml:space="preserve">
-    <value>Zbrazja e koshit të riciklimit dështoi</value>
+    <value>Zbrazja e koshit tÃ« riciklimit dÃ«shtoi</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_Prepare_Header" xml:space="preserve">
-    <value>Përgatitja e operacionit...</value>
+    <value>PÃ«rgatitja e operacionit...</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_ProcessedItems_Header" xml:space="preserve">
@@ -3992,25 +3992,25 @@
     <value>Zhblloko skedarin e shkarkuar</value>
   </data>
   <data name="NoFileOperations" xml:space="preserve">
-    <value>Nuk ka operacione të vazhdueshme të skedarëve</value>
+    <value>Nuk ka operacione tÃ« vazhdueshme tÃ« skedarÃ«ve</value>
   </data>
   <data name="OpenOnStartupDisabled" xml:space="preserve">
-    <value>Opsioni për të hapur skedarët në fillimin e Windows nuk është i disponueshëm për shkak të cilësimeve të sistemit ose politikës së grupit. Për ta riaktivizuar, hapni faqen e nisjes në Task Manager.</value>
+    <value>Opsioni pÃ«r tÃ« hapur skedarÃ«t nÃ« fillimin e Windows nuk Ã«shtÃ« i disponueshÃ«m pÃ«r shkak tÃ« cilÃ«simeve tÃ« sistemit ose politikÃ«s sÃ« grupit. PÃ«r ta riaktivizuar, hapni faqen e nisjes nÃ« Task Manager.</value>
   </data>
   <data name="FailedToRestore" xml:space="preserve">
-    <value>Rivendosja e artikujve nga koshi i riciklimit dështoi</value>
+    <value>Rivendosja e artikujve nga koshi i riciklimit dÃ«shtoi</value>
   </data>
   <data name="FailedToSetBackground" xml:space="preserve">
-    <value>Vendosja e sfondit të sfondit dështoi</value>
+    <value>Vendosja e sfondit tÃ« sfondit dÃ«shtoi</value>
   </data>
   <data name="FailedToOpenSettingsFile" xml:space="preserve">
-    <value>Dështoi në hapjen e skedarit të cilësimeve</value>
+    <value>DÃ«shtoi nÃ« hapjen e skedarit tÃ« cilÃ«simeve</value>
   </data>
   <data name="GitDeleteBranch" xml:space="preserve">
-    <value>Fshi degën Git</value>
+    <value>Fshi degÃ«n Git</value>
   </data>
   <data name="GitDeleteBranchSubtitle" xml:space="preserve">
-    <value>Jeni i sigurt që dëshironi të fshini përgjithmonë degën "{0}"?</value>
+    <value>Jeni i sigurt qÃ« dÃ«shironi tÃ« fshini pÃ«rgjithmonÃ« degÃ«n "{0}"?</value>
   </data>
   <data name="ConnectedToGitHub" xml:space="preserve">
     <value>Lidhur me GitHub</value>
@@ -4025,73 +4025,73 @@
     <value>Identifikohu</value>
   </data>
   <data name="ErrorApplyingTagContent" xml:space="preserve">
-    <value>Etiketat janë aktualisht të përputhshme vetëm në disqet e formatuar si NTFS.</value>
+    <value>Etiketat janÃ« aktualisht tÃ« pÃ«rputhshme vetÃ«m nÃ« disqet e formatuar si NTFS.</value>
   </data>
   <data name="ErrorApplyingTagTitle" xml:space="preserve">
-    <value>Pati një gabim gjatë aplikimit të kësaj etikete</value>
+    <value>Pati njÃ« gabim gjatÃ« aplikimit tÃ« kÃ«saj etikete</value>
   </data>
   <data name="DecompressArchiveHereSmartDescription" xml:space="preserve">
-    <value>Ekstrakt selected {0, plural, one {archive} other {archives}} këtu për një artikull të vetëm ose në dosjen e re për shumë artikuj</value>
+    <value>Ekstrakt selected {0, plural, one {archive} other {archives}} kÃ«tu pÃ«r njÃ« artikull tÃ« vetÃ«m ose nÃ« dosjen e re pÃ«r shumÃ« artikuj</value>
   </data>
   <data name="ExtractHereSmart" xml:space="preserve">
-    <value>Ekstrakt këtu (Smart)</value>
+    <value>Ekstrakt kÃ«tu (Smart)</value>
   </data>
   <data name="SortFilesAndFoldersTogether" xml:space="preserve">
-    <value>Rendit skedarët dhe dosjet së bashku</value>
+    <value>Rendit skedarÃ«t dhe dosjet sÃ« bashku</value>
   </data>
   <data name="SortFilesAndFoldersTogetherDescription" xml:space="preserve">
-    <value>Renditni skedarët dhe dosjet në të njëjtën listë</value>
+    <value>Renditni skedarÃ«t dhe dosjet nÃ« tÃ« njÃ«jtÃ«n listÃ«</value>
   </data>
   <data name="SortFilesFirst" xml:space="preserve">
-    <value>Rendit skedarët së pari</value>
+    <value>Rendit skedarÃ«t sÃ« pari</value>
   </data>
   <data name="SortFilesFirstDescription" xml:space="preserve">
-    <value>Renditni skedarët së pari, pastaj dosjet</value>
+    <value>Renditni skedarÃ«t sÃ« pari, pastaj dosjet</value>
   </data>
   <data name="SortFoldersFirst" xml:space="preserve">
-    <value>Renditni dosjet së pari</value>
+    <value>Renditni dosjet sÃ« pari</value>
   </data>
   <data name="SortFoldersFirstDescription" xml:space="preserve">
-    <value>Renditni së pari dosjet dhe më pas skedarët</value>
+    <value>Renditni sÃ« pari dosjet dhe mÃ« pas skedarÃ«t</value>
   </data>
   <data name="SortPriority" xml:space="preserve">
     <value>Rendit prioritetin</value>
   </data>
   <data name="FailedToRotateImage" xml:space="preserve">
-    <value>Rrotullimi i imazhit dështoi</value>
+    <value>Rrotullimi i imazhit dÃ«shtoi</value>
   </data>
   <data name="Restart" xml:space="preserve">
     <value>Rinis</value>
   </data>
   <data name="Quit" xml:space="preserve">
-    <value>Hiq dorë</value>
+    <value>Hiq dorÃ«</value>
   </data>
   <data name="FaildToShareItems" xml:space="preserve">
-    <value>Ndarja e artikujve dështoi</value>
+    <value>Ndarja e artikujve dÃ«shtoi</value>
   </data>
   <data name="ScrollToPreviousFolderWhenNavigatingUp" xml:space="preserve">
-    <value>Lëvizni te dosja e mëparshme kur lundroni lart</value>
+    <value>LÃ«vizni te dosja e mÃ«parshme kur lundroni lart</value>
   </data>
   <data name="NewWindowDescription" xml:space="preserve">
     <value>Hap dritaren e re</value>
   </data>
   <data name="ChangeAlbumCover" xml:space="preserve">
-    <value>Ndrysho kopertinën e albumit</value>
+    <value>Ndrysho kopertinÃ«n e albumit</value>
   </data>
   <data name="RemoveAlbumCover" xml:space="preserve">
     <value>Remove album cover</value>
   </data>
   <data name="ItemRenameFailed" xml:space="preserve">
-    <value>Riemërtimi i artikullit dështoi</value>
+    <value>RiemÃ«rtimi i artikullit dÃ«shtoi</value>
   </data>
   <data name="HigherPermissionsRequired" xml:space="preserve">
-    <value>Redaktimi i "{0}" kërkon leje shtesë</value>
+    <value>Redaktimi i "{0}" kÃ«rkon leje shtesÃ«</value>
   </data>
   <data name="EditPermissions" xml:space="preserve">
     <value>Redakto lejet</value>
   </data>
   <data name="BackgroundRunningNotificationBody" xml:space="preserve">
-    <value>Files po ekzekutohet ende në sfond për të përmirësuar performancën e nisjes.</value>
+    <value>Files po ekzekutohet ende nÃ« sfond pÃ«r tÃ« pÃ«rmirÃ«suar performancÃ«n e nisjes.</value>
   </data>
   <data name="BackgroundRunningNotificationHeader" xml:space="preserve">
     <value>Ku shkuan Files?</value>
@@ -4104,7 +4104,7 @@
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Small" xml:space="preserve">
-    <value>I vogël</value>
+    <value>I vogÃ«l</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium" xml:space="preserve">
@@ -4148,7 +4148,7 @@
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="ExtraLarge" xml:space="preserve">
-    <value>Tepër i madh</value>
+    <value>TepÃ«r i madh</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="DetailsView" xml:space="preserve">
@@ -4167,22 +4167,22 @@
     <value>Komandat</value>
   </data>
   <data name="AddCommand" xml:space="preserve">
-    <value>Shto komandë</value>
+    <value>Shto komandÃ«</value>
   </data>
   <data name="RestoreDefaults" xml:space="preserve">
     <value>Rikthe standardet</value>
   </data>
   <data name="ChooseAnAction" xml:space="preserve">
-    <value>Zgjidhni një veprim</value>
+    <value>Zgjidhni njÃ« veprim</value>
   </data>
   <data name="RestoreDefaultKeybindingsConfirmation" xml:space="preserve">
-    <value>Jeni i sigurt që dëshironi të rivendosni lidhjet e paracaktuara të çelësave? Ky veprim nuk mund të zhbëhet.</value>
+    <value>Jeni i sigurt qÃ« dÃ«shironi tÃ« rivendosni lidhjet e paracaktuara tÃ« Ã§elÃ«save? Ky veprim nuk mund tÃ« zhbÃ«het.</value>
   </data>
   <data name="KeybindingAlreadyUsedNotification" xml:space="preserve">
-    <value>Kjo lidhje kyçe po përdoret tashmë, ju lutemi zgjidhni një lidhje tjetër çelësi për të vazhduar.</value>
+    <value>Kjo lidhje kyÃ§e po pÃ«rdoret tashmÃ«, ju lutemi zgjidhni njÃ« lidhje tjetÃ«r Ã§elÃ«si pÃ«r tÃ« vazhduar.</value>
   </data>
   <data name="KeybindingInvalidKeyNotification" xml:space="preserve">
-    <value>Lidhja e çelësit që zgjidhni nuk mund të përdoret, ju lutemi provoni përsëri duke përdorur një lidhje tjetër çelësi.</value>
+    <value>Lidhja e Ã§elÃ«sit qÃ« zgjidhni nuk mund tÃ« pÃ«rdoret, ju lutemi provoni pÃ«rsÃ«ri duke pÃ«rdorur njÃ« lidhje tjetÃ«r Ã§elÃ«si.</value>
   </data>
   <data name="KeyboardShortcuts" xml:space="preserve">
     <value>Keyboard shortcuts</value>
@@ -4191,16 +4191,16 @@
     <value>Are you sure you want to remove this key binding?</value>
   </data>
   <data name="Customized" xml:space="preserve">
-    <value>Të personalizuara</value>
+    <value>TÃ« personalizuara</value>
   </data>
   <data name="AdaptiveLayoutDisabledNotification" xml:space="preserve">
-    <value>Struktura përshtatëse nuk disponohet kur preferencat sinkronizohen, paraqitja e paracaktuar është ndryshuar në Detaje.</value>
+    <value>Struktura pÃ«rshtatÃ«se nuk disponohet kur preferencat sinkronizohen, paraqitja e paracaktuar Ã«shtÃ« ndryshuar nÃ« Detaje.</value>
   </data>
   <data name="BackgroundImage" xml:space="preserve">
     <value>Imazhi i sfondit</value>
   </data>
   <data name="Bottom" xml:space="preserve">
-    <value>Poshtë</value>
+    <value>PoshtÃ«</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Center" xml:space="preserve">
@@ -4208,14 +4208,14 @@
     <comment>Image alignment type</comment>
   </data>
   <data name="Fill" xml:space="preserve">
-    <value>Plotësoni</value>
+    <value>PlotÃ«soni</value>
     <comment>Image stretch type</comment>
   </data>
   <data name="HorizontalAlignment" xml:space="preserve">
     <value>Rreshtimi horizontal</value>
   </data>
   <data name="ImageFit" xml:space="preserve">
-    <value>Përshtatja e imazhit</value>
+    <value>PÃ«rshtatja e imazhit</value>
   </data>
   <data name="Left" xml:space="preserve">
     <value>Majtas</value>
@@ -4233,32 +4233,32 @@
     <comment>Image alignment type</comment>
   </data>
   <data name="Uniform" xml:space="preserve">
-    <value>Uniformë</value>
+    <value>UniformÃ«</value>
     <comment>Image stretch type</comment>
   </data>
   <data name="UniformToFill" xml:space="preserve">
-    <value>Uniformë për të mbushur</value>
+    <value>UniformÃ« pÃ«r tÃ« mbushur</value>
     <comment>Image stretch type</comment>
   </data>
   <data name="VerticalAlignment" xml:space="preserve">
     <value>Rreshtimi vertikal</value>
   </data>
   <data name="ThinAcrylic" xml:space="preserve">
-    <value>Akrilik i hollë</value>
+    <value>Akrilik i hollÃ«</value>
     <comment>This is a type of backdrop for the application background</comment>
   </data>
   <data name="AllLocations" xml:space="preserve">
-    <value>Shfaq për të gjitha vendndodhjet</value>
+    <value>Shfaq pÃ«r tÃ« gjitha vendndodhjet</value>
     <comment>Setting where users can choose to display "Open IDE" button for Git Repos</comment>
   </data>
   <data name="DevTools" xml:space="preserve">
     <value>Mjetet e zhvilluesit</value>
   </data>
   <data name="DisplayOpenIDE" xml:space="preserve">
-    <value>Konfiguro butonin "Open IDE" në shiritin e statusit</value>
+    <value>Konfiguro butonin "Open IDE" nÃ« shiritin e statusit</value>
   </data>
   <data name="GitRepos" xml:space="preserve">
-    <value>Shfaq për depot e Git</value>
+    <value>Shfaq pÃ«r depot e Git</value>
     <comment>Setting where users can choose to display "Open IDE" button for all locations.</comment>
   </data>
   <data name="ApplicationExtension" xml:space="preserve">
@@ -4278,11 +4278,11 @@
     <comment>This is the friendly name for ZIP files.</comment>
   </data>
   <data name="BitmapFiles" xml:space="preserve">
-    <value>Skedarët Bitmap</value>
+    <value>SkedarÃ«t Bitmap</value>
     <comment>This is the friendly name for bitmap files.</comment>
   </data>
   <data name="ImageFiles" xml:space="preserve">
-    <value>Skedarët e imazhit</value>
+    <value>SkedarÃ«t e imazhit</value>
     <comment>This is the friendly name for image files.</comment>
   </data>
   <data name="AllSupportedFiles" xml:space="preserve">
@@ -4301,16 +4301,16 @@
     <value>Vendndodhjet e rrjetit</value>
   </data>
   <data name="NoNetworkLocationsInfo" xml:space="preserve">
-    <value>Nuk ka vendndodhje rrjeti. Nëse nuk përdorni vendndodhjet e rrjetit, mund ta çaktivizoni miniaplikacionin.</value>
+    <value>Nuk ka vendndodhje rrjeti. NÃ«se nuk pÃ«rdorni vendndodhjet e rrjetit, mund ta Ã§aktivizoni miniaplikacionin.</value>
   </data>
   <data name="Disable" xml:space="preserve">
-    <value>Çaktivizo</value>
+    <value>Ã‡aktivizo</value>
   </data>
   <data name="EditInNotepad" xml:space="preserve">
-    <value>Redakto në Notepad</value>
+    <value>Redakto nÃ« Notepad</value>
   </data>
   <data name="EditInNotepadDescription" xml:space="preserve">
-    <value>Redaktoni skedarin e zgjedhur në Notepad</value>
+    <value>Redaktoni skedarin e zgjedhur nÃ« Notepad</value>
   </data>
   <data name="PropertyDimensionsColon" xml:space="preserve">
     <value>Dimensionet:</value>
@@ -4323,10 +4323,10 @@
     <comment>Setting that controls if the toolbar is shown in the main view</comment>
   </data>
   <data name="TabActions" xml:space="preserve">
-    <value>Menyja e veprimeve të skedës</value>
+    <value>Menyja e veprimeve tÃ« skedÃ«s</value>
   </data>
   <data name="SplitPaneVertically" xml:space="preserve">
-    <value>Ndarë vertikalisht</value>
+    <value>NdarÃ« vertikalisht</value>
   </data>
   <data name="AddVerticalPaneDescription" xml:space="preserve">
     <value>Ndarja e panelit vertikalisht</value>
@@ -4350,19 +4350,19 @@
     <value>Rregulloni xhamat horizontalisht</value>
   </data>
   <data name="SplitPane" xml:space="preserve">
-    <value>Xhami i ndarë</value>
+    <value>Xhami i ndarÃ«</value>
   </data>
   <data name="ShowTabActions" xml:space="preserve">
-    <value>Shfaq butonin e veprimeve të skedës në shiritin e titullit</value>
+    <value>Shfaq butonin e veprimeve tÃ« skedÃ«s nÃ« shiritin e titullit</value>
   </data>
   <data name="ArrangePanes" xml:space="preserve">
     <value>Rregulloni xhamat</value>
   </data>
   <data name="DualPaneSplitDirection" xml:space="preserve">
-    <value>Drejtimi i parazgjedhur i ndarjes së panelit të dyfishtë</value>
+    <value>Drejtimi i parazgjedhur i ndarjes sÃ« panelit tÃ« dyfishtÃ«</value>
   </data>
   <data name="DualPane" xml:space="preserve">
-    <value>Modaliteti i panelit të dyfishtë</value>
+    <value>Modaliteti i panelit tÃ« dyfishtÃ«</value>
   </data>
   <data name="Horizontal" xml:space="preserve">
     <value>Horizontale</value>
@@ -4371,61 +4371,61 @@
     <value>Vertikale</value>
   </data>
   <data name="ShowSystemTrayIcon" xml:space="preserve">
-    <value>Shfaq ikonën Files në System Tray</value>
+    <value>Shfaq ikonÃ«n Files nÃ« System Tray</value>
   </data>
   <data name="CPUThreads" xml:space="preserve">
-    <value>Fijet e CPU-së</value>
+    <value>Fijet e CPU-sÃ«</value>
   </data>
   <data name="NavigateHomeDescription" xml:space="preserve">
-    <value>Navigoni në faqen kryesore</value>
+    <value>Navigoni nÃ« faqen kryesore</value>
   </data>
   <data name="AddressBar" xml:space="preserve">
     <value>Address bar</value>
   </data>
   <data name="UserID" xml:space="preserve">
-    <value>ID e përdoruesit</value>
+    <value>ID e pÃ«rdoruesit</value>
   </data>
   <data name="BulkRename" xml:space="preserve">
-    <value>Riemërtimi në masë</value>
+    <value>RiemÃ«rtimi nÃ« masÃ«</value>
   </data>
   <data name="CompressContents" xml:space="preserve">
-    <value>Kompresoni përmbajtjen</value>
+    <value>Kompresoni pÃ«rmbajtjen</value>
   </data>
   <data name="ShowCreateAlternateDataStream" xml:space="preserve">
-    <value>Shfaq opsionin për të krijuar rrymë alternative të të dhënave</value>
+    <value>Shfaq opsionin pÃ«r tÃ« krijuar rrymÃ« alternative tÃ« tÃ« dhÃ«nave</value>
   </data>
   <data name="CreateAlternateDataStream" xml:space="preserve">
-    <value>Krijo rrymë alternative të të dhënave</value>
+    <value>Krijo rrymÃ« alternative tÃ« tÃ« dhÃ«nave</value>
   </data>
   <data name="CreateAlternateDataStreamDescription" xml:space="preserve">
     <value>Create alternate data stream for the selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="EnterDataStreamName" xml:space="preserve">
-    <value>Fut emrin e transmetimit të të dhënave</value>
+    <value>Fut emrin e transmetimit tÃ« tÃ« dhÃ«nave</value>
   </data>
   <data name="ErrorCreatingDataStreamTitle" xml:space="preserve">
-    <value>Pati një gabim në krijimin e rrjedhës alternative të të dhënave</value>
+    <value>Pati njÃ« gabim nÃ« krijimin e rrjedhÃ«s alternative tÃ« tÃ« dhÃ«nave</value>
   </data>
   <data name="ErrorCreatingDataStreamDescription" xml:space="preserve">
-    <value>Ju lutemi vini re se transmetimet alternative të të dhënave funksionojnë vetëm në disqet e formatuar si NTFS.</value>
+    <value>Ju lutemi vini re se transmetimet alternative tÃ« tÃ« dhÃ«nave funksionojnÃ« vetÃ«m nÃ« disqet e formatuar si NTFS.</value>
   </data>
   <data name="DataStreamsAreHiddenTitle" xml:space="preserve">
-    <value>Transmetimet alternative të të dhënave janë aktualisht të fshehura</value>
+    <value>Transmetimet alternative tÃ« tÃ« dhÃ«nave janÃ« aktualisht tÃ« fshehura</value>
   </data>
   <data name="DataStreamsAreHiddenDescription" xml:space="preserve">
-    <value>Dëshironi të shfaqni transmetime alternative të të dhënave? Mund ta modifikoni këtë cilësim në çdo kohë nga faqja e cilësimeve të skedarëve dhe dosjeve.</value>
+    <value>DÃ«shironi tÃ« shfaqni transmetime alternative tÃ« tÃ« dhÃ«nave? Mund ta modifikoni kÃ«tÃ« cilÃ«sim nÃ« Ã§do kohÃ« nga faqja e cilÃ«simeve tÃ« skedarÃ«ve dhe dosjeve.</value>
   </data>
   <data name="ManageTags" xml:space="preserve">
     <value>Menaxho etiketat</value>
   </data>
   <data name="Available" xml:space="preserve">
-    <value>Në dispozicion</value>
+    <value>NÃ« dispozicion</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Gjithsej</value>
   </data>
   <data name="AlwaysSwitchToNewlyOpenedTab" xml:space="preserve">
-    <value>Gjithmonë ndërroni fokusin në skedën e krijuar rishtazi</value>
+    <value>GjithmonÃ« ndÃ«rroni fokusin nÃ« skedÃ«n e krijuar rishtazi</value>
   </data>
   <data name="ReverseTabScrollDirection" xml:space="preserve">
     <value>Reverse tab scroll direction</value>
@@ -4440,10 +4440,10 @@
     <value>Ndrysho panelin e raftit</value>
   </data>
   <data name="ToggleShelfPaneDescription" xml:space="preserve">
-    <value>Ndrysho dukshmërinë e panelit të raftit</value>
+    <value>Ndrysho dukshmÃ«rinÃ« e panelit tÃ« raftit</value>
   </data>
   <data name="ShowShelfPaneButtonInAddressBar" xml:space="preserve">
-    <value>Shfaq ndryshimin e panelit të raftit në shiritin e adresave</value>
+    <value>Shfaq ndryshimin e panelit tÃ« raftit nÃ« shiritin e adresave</value>
   </data>
   <data name="Shelf" xml:space="preserve">
     <value>Raft</value>
@@ -4459,11 +4459,11 @@
     <value>Hiqeni nga rafti</value>
   </data>
   <data name="AddToShelf" xml:space="preserve">
-    <value>Shto në raft</value>
+    <value>Shto nÃ« raft</value>
     <comment>Tooltip that displays when dragging items to the Shelf Pane</comment>
   </data>
   <data name="EnterHashToCompare" xml:space="preserve">
-    <value>Fut një hash për të krahasuar</value>
+    <value>Fut njÃ« hash pÃ«r tÃ« krahasuar</value>
     <comment>Placeholder that appears in the compare hash text box</comment>
   </data>
   <data name="HashesMatch" xml:space="preserve">
@@ -4471,26 +4471,26 @@
     <comment>Appears when two compared hashes match, e.g. "Matches SHA256"</comment>
   </data>
   <data name="HashesDoNotMatch" xml:space="preserve">
-    <value>Nuk u gjet asnjë përputhje</value>
+    <value>Nuk u gjet asnjÃ« pÃ«rputhje</value>
     <comment>Appears when two compared hashes don't match</comment>
   </data>
   <data name="PathOrAlias" xml:space="preserve">
     <value>Rruga ose pseudonimi</value>
   </data>
   <data name="InvalidPath" xml:space="preserve">
-    <value>Rrugë e pavlefshme</value>
+    <value>RrugÃ« e pavlefshme</value>
   </data>
   <data name="TestIntegration" xml:space="preserve">
     <value>Integrimi i testit</value>
   </data>
   <data name="IDENotLocatedContent" xml:space="preserve">
-    <value>{0} nuk mund të gjendej. Ju lutemi kontrolloni cilësimet tuaja dhe provoni përsëri.</value>
+    <value>{0} nuk mund tÃ« gjendej. Ju lutemi kontrolloni cilÃ«simet tuaja dhe provoni pÃ«rsÃ«ri.</value>
   </data>
   <data name="IDENotLocatedTitle" xml:space="preserve">
-    <value>IDE e konfiguruar nuk mund të gjendet</value>
+    <value>IDE e konfiguruar nuk mund tÃ« gjendet</value>
   </data>
   <data name="OpenSettings" xml:space="preserve">
-    <value>Hap cilësimet</value>
+    <value>Hap cilÃ«simet</value>
   </data>
   <data name="NetworkDiscoveryTurnedOffInfoBarMessage" xml:space="preserve">
     <value>Network discovery is turned off. Network computers and devices are not visible.</value>
@@ -4505,10 +4505,10 @@
     <value>Kodi Visual Studio</value>
   </data>
   <data name="IDEPathPlaceholder" xml:space="preserve">
-    <value>Fut një shteg ose nis pseudonimin</value>
+    <value>Fut njÃ« shteg ose nis pseudonimin</value>
   </data>
   <data name="InvalidIDENameError" xml:space="preserve">
-    <value>Ju lutemi shkruani një emër për IDE</value>
+    <value>Ju lutemi shkruani njÃ« emÃ«r pÃ«r IDE</value>
   </data>
   <data name="CloneRepo" xml:space="preserve">
     <value>Repo e klonimit</value>
@@ -4523,15 +4523,15 @@
     <comment>URL textbox header in the clone repo dialog</comment>
   </data>
   <data name="CannotCloneRepoTitle" xml:space="preserve">
-    <value>Repo nuk mund të klonohet</value>
+    <value>Repo nuk mund tÃ« klonohet</value>
     <comment>Cannot clone repo dialog title</comment>
   </data>
   <data name="CompareFile" xml:space="preserve">
-    <value>Krahasoni një skedar</value>
+    <value>Krahasoni njÃ« skedar</value>
     <comment>Button that appears in file hash properties that allows the user to compare two files</comment>
   </data>
   <data name="SizeFormat" xml:space="preserve">
-    <value>Formati i madhësisë</value>
+    <value>Formati i madhÃ«sisÃ«</value>
   </data>
   <data name="Binary" xml:space="preserve">
     <value>Binar</value>
@@ -4540,90 +4540,90 @@
     <value>dhjetore</value>
   </data>
   <data name="SectionsHiddenMessage" xml:space="preserve">
-    <value>Ju mund të shtoni seksione në shiritin anësor duke klikuar me të djathtën dhe duke zgjedhur seksionet që dëshironi të shtoni</value>
+    <value>Ju mund tÃ« shtoni seksione nÃ« shiritin anÃ«sor duke klikuar me tÃ« djathtÃ«n dhe duke zgjedhur seksionet qÃ« dÃ«shironi tÃ« shtoni</value>
   </data>
   <data name="EmptyShelfText" xml:space="preserve">
-    <value>Zvarritni skedarët ose dosjet këtu për të bashkëvepruar me ta nëpër skeda të ndryshme</value>
+    <value>Zvarritni skedarÃ«t ose dosjet kÃ«tu pÃ«r tÃ« bashkÃ«vepruar me ta nÃ«pÃ«r skeda tÃ« ndryshme</value>
   </data>
   <data name="OmnibarPathModeTextPlaceholder" xml:space="preserve">
-    <value>Fut një shteg për të lundruar te...</value>
+    <value>Fut njÃ« shteg pÃ«r tÃ« lundruar te...</value>
   </data>
   <data name="OmnibarCommandPaletteModeTextPlaceholder" xml:space="preserve">
-    <value>Gjeni veçori dhe komanda...</value>
+    <value>Gjeni veÃ§ori dhe komanda...</value>
   </data>
   <data name="OmnibarSearchModeTextPlaceholder" xml:space="preserve">
-    <value>Kërko për skedarë dhe dosje...</value>
+    <value>KÃ«rko pÃ«r skedarÃ« dhe dosje...</value>
   </data>
   <data name="DuringOngoingFileOperations" xml:space="preserve">
-    <value>Gjatë operacioneve të skedarëve</value>
+    <value>GjatÃ« operacioneve tÃ« skedarÃ«ve</value>
   </data>
   <data name="ShowStatusCenterButton" xml:space="preserve">
-    <value>Shfaq butonin e qendrës së statusit</value>
+    <value>Shfaq butonin e qendrÃ«s sÃ« statusit</value>
   </data>
   <data name="StatusCenterProgressRing" xml:space="preserve">
-    <value>Unaza e përparimit të qendrës së statusit</value>
+    <value>Unaza e pÃ«rparimit tÃ« qendrÃ«s sÃ« statusit</value>
     <comment>Screen reader name for the status center progress ring</comment>
   </data>
   <data name="IconFiles" xml:space="preserve">
-    <value>Skedarët e ikonave</value>
+    <value>SkedarÃ«t e ikonave</value>
     <comment>This is the friendly name for a variety of different icon files.</comment>
   </data>
   <data name="BreadcrumbBarEllipsisButtonToolTip" xml:space="preserve">
-    <value>Shfaq copëzat e bukës së shtegut të palosur</value>
+    <value>Shfaq copÃ«zat e bukÃ«s sÃ« shtegut tÃ« palosur</value>
   </data>
   <data name="BreadcrumbBarChevronButtonToolTip" xml:space="preserve">
-    <value>Shfaq dosjet në {0}</value>
+    <value>Shfaq dosjet nÃ« {0}</value>
   </data>
   <data name="BreadcrumbBarRootChevronButtonToolTip" xml:space="preserve">
-    <value>Shfaq dosjet në Home</value>
+    <value>Shfaq dosjet nÃ« Home</value>
   </data>
   <data name="NoCommandsFound" xml:space="preserve">
-    <value>Nuk ka komanda që përmbajnë {0}</value>
+    <value>Nuk ka komanda qÃ« pÃ«rmbajnÃ« {0}</value>
   </data>
   <data name="SeeMore" xml:space="preserve">
-    <value>Shih më shumë</value>
+    <value>Shih mÃ« shumÃ«</value>
   </data>
   <data name="FilteringFor" xml:space="preserve">
-    <value>Filtrimi për</value>
+    <value>Filtrimi pÃ«r</value>
   </data>
   <data name="Filename" xml:space="preserve">
     <value>Emri i skedarit</value>
   </data>
   <data name="Signatures" xml:space="preserve">
-    <value>Nënshkrimet</value>
+    <value>NÃ«nshkrimet</value>
   </data>
   <data name="SignatureList" xml:space="preserve">
-    <value>Lista e nënshkrimeve</value>
+    <value>Lista e nÃ«nshkrimeve</value>
   </data>
   <data name="IssuedBy" xml:space="preserve">
-    <value>Lëshuar nga:</value>
+    <value>LÃ«shuar nga:</value>
   </data>
   <data name="IssuedTo" xml:space="preserve">
-    <value>Lëshuar për:</value>
+    <value>LÃ«shuar pÃ«r:</value>
   </data>
   <data name="ValidFrom" xml:space="preserve">
     <value>E vlefshme nga:</value>
   </data>
   <data name="ValidTo" xml:space="preserve">
-    <value>E vlefshme për:</value>
+    <value>E vlefshme pÃ«r:</value>
   </data>
   <data name="NoSignatureFound" xml:space="preserve">
-    <value>Nuk u gjet asnjë nënshkrim.</value>
+    <value>Nuk u gjet asnjÃ« nÃ«nshkrim.</value>
   </data>
   <data name="ShowOpenTerminal" xml:space="preserve">
-    <value>Shfaq opsionin për të hapur dosjet në Windows Terminal</value>
+    <value>Shfaq opsionin pÃ«r tÃ« hapur dosjet nÃ« Windows Terminal</value>
   </data>
   <data name="OpenLogFile" xml:space="preserve">
     <value>Hap skedarin e regjistrit</value>
   </data>
   <data name="OpenLogFileDescription" xml:space="preserve">
-    <value>Hapni skedarin e regjistrit në redaktorin tuaj të paracaktuar</value>
+    <value>Hapni skedarin e regjistrit nÃ« redaktorin tuaj tÃ« paracaktuar</value>
   </data>
   <data name="OpenLogFileLocationDescription" xml:space="preserve">
-    <value>Hapni vendndodhjen e skedarit të regjistrit në menaxherin tuaj të paracaktuar të skedarëve</value>
+    <value>Hapni vendndodhjen e skedarit tÃ« regjistrit nÃ« menaxherin tuaj tÃ« paracaktuar tÃ« skedarÃ«ve</value>
   </data>
   <data name="FailedToOpenLogFile" xml:space="preserve">
-    <value>Skedari i regjistrit nuk mund të hapet</value>
+    <value>Skedari i regjistrit nuk mund tÃ« hapet</value>
   </data>
   <data name="ShowStatusBar" xml:space="preserve">
     <value>Shfaq shiritin e statusit</value>
@@ -4638,16 +4638,16 @@
     <value>E re {0}</value>
   </data>
   <data name="EnableSmoothScrolling" xml:space="preserve">
-    <value>Aktivizo lëvizjen e qetë</value>
+    <value>Aktivizo lÃ«vizjen e qetÃ«</value>
   </data>
   <data name="Scrolling" xml:space="preserve">
-    <value>Lëvizje</value>
+    <value>LÃ«vizje</value>
   </data>
   <data name="ShowPinToSideBar" xml:space="preserve">
-    <value>Shfaq opsionin për të gozhduar në shiritin anësor</value>
+    <value>Shfaq opsionin pÃ«r tÃ« gozhduar nÃ« shiritin anÃ«sor</value>
   </data>
   <data name="ShowPinToStart" xml:space="preserve">
-    <value>Shfaq opsionin për të gozhduar në menynë e fillimit</value>
+    <value>Shfaq opsionin pÃ«r tÃ« gozhduar nÃ« menynÃ« e fillimit</value>
   </data>
   <data name="Toolbar" xml:space="preserve">
     <value>Toolbar</value>
@@ -4759,5 +4759,25 @@
   </data>
   <data name="ConfirmRemoveTagsDialogContent" xml:space="preserve">
     <value>Are you sure you want to remove tags from the selected items?</value>
+  </data>  <data name="SharedTagsPath" xml:space="preserve">
+    <value>Tags &amp; categories storage path</value>
+  </data>
+  <data name="SharedTagsPathDescription" xml:space="preserve">
+    <value>Requires app restart</value>
+  </data>
+  <data name="SharedTagsPathNotSet" xml:space="preserve">
+    <value>Not set (default path)</value>
+  </data>
+  <data name="SharedTagsPathInvalid" xml:space="preserve">
+    <value>Invalid path</value>
+  </data>
+  <data name="SharedTagsPathInvalidDescription" xml:space="preserve">
+    <value>The selected path is not a valid directory.</value>
+  </data>
+  <data name="SharedTagsPathRestartTitle" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="SharedTagsPathRestartMessage" xml:space="preserve">
+    <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
 </root>

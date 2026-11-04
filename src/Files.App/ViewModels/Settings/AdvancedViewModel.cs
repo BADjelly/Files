@@ -4,6 +4,7 @@
 using Microsoft.Extensions.Logging;
 using Microsoft.Win32;
 using SevenZip;
+using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -12,6 +13,7 @@ using Windows.ApplicationModel;
 using Windows.Storage;
 using Windows.Storage.Pickers;
 using Windows.Win32.Storage.FileSystem;
+using Files.App.Helpers;
 
 namespace Files.App.ViewModels.Settings
 {
@@ -29,6 +31,8 @@ namespace Files.App.ViewModels.Settings
 		public ICommand ImportSettingsCommand { get; }
 		public AsyncRelayCommand OpenFilesOnWindowsStartupCommand { get; }
 		public ICommand ClearThumbnailCacheCommand { get; }
+		public AsyncRelayCommand BrowseSharedTagsPathCommand { get; }
+		public AsyncRelayCommand ClearSharedTagsPathCommand { get; }
 
 
 		public AdvancedViewModel()
@@ -42,6 +46,8 @@ namespace Files.App.ViewModels.Settings
 			ImportSettingsCommand = new AsyncRelayCommand(ImportSettingsAsync);
 			OpenFilesOnWindowsStartupCommand = new AsyncRelayCommand(OpenFilesOnWindowsStartupAsync);
 			ClearThumbnailCacheCommand = new AsyncRelayCommand(ClearThumbnailCacheAsync);
+			BrowseSharedTagsPathCommand = new AsyncRelayCommand(BrowseSharedTagsPathAsync);
+			ClearSharedTagsPathCommand = new AsyncRelayCommand(ClearSharedTagsPathAsync);
 
 			_ = DetectOpenFilesAtStartupAsync();
 			_ = UpdateCacheSizeAsync();
@@ -501,6 +507,67 @@ namespace Files.App.ViewModels.Settings
 				App.Logger?.LogWarning(ex, "RPC server unavailable, returning default state");
 				return StartupTaskState.Disabled;
 			}
+		}
+
+		public string SharedTagsPathDisplay
+		{
+			get => UserSettingsService.GeneralSettingsService.SharedTagsPath ?? Strings.SharedTagsPathNotSet.GetLocalizedResource();
+		}
+
+		private async Task BrowseSharedTagsPathAsync()
+		{
+			bool result = CommonDialogService.Open_FileOpenDialog(
+				MainWindow.Instance.WindowHandle,
+				pickFoldersOnly: true,
+				filters: Array.Empty<string>(),
+				defaultFolder: Environment.SpecialFolder.Desktop,
+				filePath: out var folderPath);
+
+			if (!result || string.IsNullOrEmpty(folderPath))
+				return;
+
+			if (!Directory.Exists(folderPath))
+			{
+				await DialogDisplayHelper.ShowDialogAsync(
+					Strings.SharedTagsPathInvalid.GetLocalizedResource(),
+					Strings.SharedTagsPathInvalidDescription.GetLocalizedResource());
+				return;
+			}
+
+			UserSettingsService.GeneralSettingsService.SharedTagsPath = folderPath;
+			OnPropertyChanged(nameof(SharedTagsPathDisplay));
+			await RequestRestartAsync();
+		}
+
+		private async Task ClearSharedTagsPathAsync()
+		{
+			UserSettingsService.GeneralSettingsService.SharedTagsPath = null;
+			OnPropertyChanged(nameof(SharedTagsPathDisplay));
+			await RequestRestartAsync();
+		}
+
+		private async Task RequestRestartAsync()
+		{
+			var confirmed = await DialogDisplayHelper.ShowDialogAsync(
+				Strings.SharedTagsPathRestartTitle.GetLocalizedResource(),
+				Strings.SharedTagsPathRestartMessage.GetLocalizedResource(),
+				"Restart app",
+				"Cancel");
+
+			if (!confirmed)
+				return;
+
+			// Flush all settings before restart
+			_ = SafetyExtensions.IgnoreExceptions(() =>
+			{
+				Server.SettingsService.FlushAllSettings();
+			}, App.Logger);
+
+			// Restart using the WinRT app lifecycle API
+			_ = SafetyExtensions.IgnoreExceptions(() =>
+			{
+				Microsoft.Windows.AppLifecycle.AppInstance.Restart("");
+			}, App.Logger);
 		}
 	}
 }

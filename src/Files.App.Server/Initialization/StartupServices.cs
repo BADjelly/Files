@@ -1,6 +1,8 @@
 // Copyright (c) Files Community
 // Licensed under the MIT License.
 
+using System.Text.Json;
+
 namespace Files.App.Server;
 
 internal static class StartupServices
@@ -9,6 +11,21 @@ internal static class StartupServices
 
 	internal static async Task InitializeAsync()
 	{
+		// Read the shared tags directory from user_settings.json before any tags stores are accessed.
+		// The user store is always local, so this is safe to read here.
+		var userStore = SettingsStore.Get("user_settings.json");
+		string? sharedPath = null;
+		try
+		{
+			sharedPath = userStore.ReadString("SharedTagsPath");
+		}
+		catch
+		{
+			// Ignore errors reading the shared path; fall back to default location.
+		}
+
+		SettingsStore.SharedTagsDirectory = sharedPath;
+
 		CatalogWatchers.Initialize();
 		_ = SafetyExtensions.IgnoreExceptions(UpdateCatalog.InitializeAsync, Program.Logger);
 		_ = menuInitialization.Value;

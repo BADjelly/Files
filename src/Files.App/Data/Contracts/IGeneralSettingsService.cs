@@ -368,5 +368,10 @@ namespace Files.App.Data.Contracts
 		/// Gets or sets a value indicating whether smooth scrolling is enabled.
 		/// </summary>
 		bool EnableSmoothScrolling { get; set; }
+
+		/// <summary>
+		/// Gets or sets an alternative path for tags and categories JSON files. Null means use local storage.
+		/// </summary>
+		string? SharedTagsPath { get; set; }
 	}
 }

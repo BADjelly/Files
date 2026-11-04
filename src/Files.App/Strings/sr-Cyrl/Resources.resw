@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,67 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NewWindow" xml:space="preserve">
-    <value>Нов прозор</value>
+    <value>ÐÐ¾Ð² Ð¿Ñ€Ð¾Ð·Ð¾Ñ€</value>
   </data>
   <data name="CopyPath" xml:space="preserve">
-    <value>Копирај путању</value>
+    <value>ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ñ˜ Ð¿ÑƒÑ‚Ð°ÑšÑƒ</value>
   </data>
   <data name="CopyItemPath" xml:space="preserve">
-    <value>Копирај путању ставке</value>
+    <value>ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ñ˜ Ð¿ÑƒÑ‚Ð°ÑšÑƒ ÑÑ‚Ð°Ð²ÐºÐµ</value>
   </data>
   <data name="CopyPathWithQuotes" xml:space="preserve">
-    <value>Копирај путању са наводницима</value>
+    <value>ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ñ˜ Ð¿ÑƒÑ‚Ð°ÑšÑƒ ÑÐ° Ð½Ð°Ð²Ð¾Ð´Ð½Ð¸Ñ†Ð¸Ð¼Ð°</value>
   </data>
   <data name="CopyItemPathWithQuotes" xml:space="preserve">
-    <value>Копирај путању ставке са наводницима</value>
+    <value>ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ñ˜ Ð¿ÑƒÑ‚Ð°ÑšÑƒ ÑÑ‚Ð°Ð²ÐºÐµ ÑÐ° Ð½Ð°Ð²Ð¾Ð´Ð½Ð¸Ñ†Ð¸Ð¼Ð°</value>
   </data>
   <data name="Browse" xml:space="preserve">
-    <value>Потражи</value>
+    <value>ÐŸÐ¾Ñ‚Ñ€Ð°Ð¶Ð¸</value>
   </data>
   <data name="Size" xml:space="preserve">
-    <value>Величина</value>
+    <value>Ð’ÐµÐ»Ð¸Ñ‡Ð¸Ð½Ð°</value>
   </data>
   <data name="PropertiesCreated.Text" xml:space="preserve">
-    <value>Направљено:</value>
+    <value>ÐÐ°Ð¿Ñ€Ð°Ð²Ñ™ÐµÐ½Ð¾:</value>
   </data>
   <data name="Path" xml:space="preserve">
-    <value>Путања</value>
+    <value>ÐŸÑƒÑ‚Ð°ÑšÐ°</value>
   </data>
   <data name="SizeLabel" xml:space="preserve">
-    <value>Величина:</value>
+    <value>Ð’ÐµÐ»Ð¸Ñ‡Ð¸Ð½Ð°:</value>
   </data>
   <data name="SizeOnDiskLabel" xml:space="preserve">
-    <value>Величина на диску:</value>
+    <value>Ð’ÐµÐ»Ð¸Ñ‡Ð¸Ð½Ð° Ð½Ð° Ð´Ð¸ÑÐºÑƒ:</value>
   </data>
   <data name="UncompressedSize" xml:space="preserve">
-    <value>Некомпромитована величина:</value>
+    <value>ÐÐµÐºÐ¾Ð¼Ð¿Ñ€Ð¾Ð¼Ð¸Ñ‚Ð¾Ð²Ð°Ð½Ð° Ð²ÐµÐ»Ð¸Ñ‡Ð¸Ð½Ð°:</value>
   </data>
   <data name="ErrorDialogThisActionCannotBeDone" xml:space="preserve">
-    <value>Није могуће извршити ову радњу</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ Ð¸Ð·Ð²Ñ€ÑˆÐ¸Ñ‚Ð¸ Ð¾Ð²Ñƒ Ñ€Ð°Ð´ÑšÑƒ</value>
   </data>
   <data name="ErrorDialogTheDestinationFolder" xml:space="preserve">
-    <value>Одредишна фасцикла</value>
+    <value>ÐžÐ´Ñ€ÐµÐ´Ð¸ÑˆÐ½Ð° Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð°</value>
   </data>
   <data name="ErrorDialogIsASubfolder" xml:space="preserve">
-    <value>је подфасцикла изворне фасцикле</value>
+    <value>Ñ˜Ðµ Ð¿Ð¾Ð´Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð° Ð¸Ð·Ð²Ð¾Ñ€Ð½Ðµ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ðµ</value>
   </data>
   <data name="Skip" xml:space="preserve">
-    <value>Прескочи</value>
+    <value>ÐŸÑ€ÐµÑÐºÐ¾Ñ‡Ð¸</value>
   </data>
   <data name="SelectAll" xml:space="preserve">
-    <value>Изабери све</value>
+    <value>Ð˜Ð·Ð°Ð±ÐµÑ€Ð¸ ÑÐ²Ðµ</value>
   </data>
   <data name="InvertSelection" xml:space="preserve">
-    <value>Обрни селекцију</value>
+    <value>ÐžÐ±Ñ€Ð½Ð¸ ÑÐµÐ»ÐµÐºÑ†Ð¸Ñ˜Ñƒ</value>
   </data>
   <data name="ClearSelection" xml:space="preserve">
-    <value>Поништи селекцију</value>
+    <value>ÐŸÐ¾Ð½Ð¸ÑˆÑ‚Ð¸ ÑÐµÐ»ÐµÐºÑ†Ð¸Ñ˜Ñƒ</value>
   </data>
   <data name="PropertiesModified.Text" xml:space="preserve">
-    <value>Измењено:</value>
+    <value>Ð˜Ð·Ð¼ÐµÑšÐµÐ½Ð¾:</value>
   </data>
   <data name="Accessed" xml:space="preserve">
-    <value>Приступљено:</value>
+    <value>ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿Ñ™ÐµÐ½Ð¾:</value>
   </data>
   <data name="RecentItemClearAllText" xml:space="preserve">
     <value>Clear all items</value>
@@ -187,7 +187,7 @@
     <value>Enter a path to navigate to or type "&gt;" to open the command palette</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Претражи</value>
+    <value>ÐŸÑ€ÐµÑ‚Ñ€Ð°Ð¶Ð¸</value>
   </data>
   <data name="SearchSettings" xml:space="preserve">
     <value>Search settings...</value>
@@ -196,46 +196,46 @@
     <value>No settings match your search.</value>
   </data>
   <data name="RecentItemDescription.Text" xml:space="preserve">
-    <value>Овде ће се појављивати датотеке којима сте скоро приступили</value>
+    <value>ÐžÐ²Ð´Ðµ Ñ›Ðµ ÑÐµ Ð¿Ð¾Ñ˜Ð°Ð²Ñ™Ð¸Ð²Ð°Ñ‚Ð¸ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ ÐºÐ¾Ñ˜Ð¸Ð¼Ð° ÑÑ‚Ðµ ÑÐºÐ¾Ñ€Ð¾ Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿Ð¸Ð»Ð¸</value>
   </data>
   <data name="RecentItemRemoveText" xml:space="preserve">
     <value>Remove this item</value>
   </data>
   <data name="OpenGitHubRepo" xml:space="preserve">
-    <value>Репозиторијум на платформи GitHub</value>
+    <value>Ð ÐµÐ¿Ð¾Ð·Ð¸Ñ‚Ð¾Ñ€Ð¸Ñ˜ÑƒÐ¼ Ð½Ð° Ð¿Ð»Ð°Ñ‚Ñ„Ð¾Ñ€Ð¼Ð¸ GitHub</value>
   </data>
   <data name="About" xml:space="preserve">
-    <value>О апликацији</value>
+    <value>Ðž Ð°Ð¿Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð¸</value>
   </data>
   <data name="OpenSource" xml:space="preserve">
-    <value>Отворени код</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€ÐµÐ½Ð¸ ÐºÐ¾Ð´</value>
   </data>
   <data name="DateFormat" xml:space="preserve">
-    <value>Формат датума</value>
+    <value>Ð¤Ð¾Ñ€Ð¼Ð°Ñ‚ Ð´Ð°Ñ‚ÑƒÐ¼Ð°</value>
   </data>
   <data name="SettingsAppearanceTheme" xml:space="preserve">
-    <value>Изглед</value>
+    <value>Ð˜Ð·Ð³Ð»ÐµÐ´</value>
   </data>
   <data name="Font" xml:space="preserve">
     <value>Font</value>
   </data>
   <data name="SettingsFilesAndFoldersShowFileExtensions" xml:space="preserve">
-    <value>Прикажи екстензије за познате типове датотека</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ ÐµÐºÑÑ‚ÐµÐ½Ð·Ð¸Ñ˜Ðµ Ð·Ð° Ð¿Ð¾Ð·Ð½Ð°Ñ‚Ðµ Ñ‚Ð¸Ð¿Ð¾Ð²Ðµ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="SettingsFilesAndFoldersShowHiddenItems" xml:space="preserve">
-    <value>Прикажи скривене датотеке и фасцикле</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ ÑÐºÑ€Ð¸Ð²ÐµÐ½Ðµ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ Ð¸ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ðµ</value>
   </data>
   <data name="ShowDotFiles" xml:space="preserve">
-    <value>Прикажи фајлове који почињу са тачком</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ñ„Ð°Ñ˜Ð»Ð¾Ð²Ðµ ÐºÐ¾Ñ˜Ð¸ Ð¿Ð¾Ñ‡Ð¸ÑšÑƒ ÑÐ° Ñ‚Ð°Ñ‡ÐºÐ¾Ð¼</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>Изглед</value>
+    <value>Ð˜Ð·Ð³Ð»ÐµÐ´</value>
   </data>
   <data name="BackgroundColor" xml:space="preserve">
-    <value>Позадинска боја</value>
+    <value>ÐŸÐ¾Ð·Ð°Ð´Ð¸Ð½ÑÐºÐ° Ð±Ð¾Ñ˜Ð°</value>
   </data>
   <data name="Advanced" xml:space="preserve">
-    <value>Напредна подешавања</value>
+    <value>ÐÐ°Ð¿Ñ€ÐµÐ´Ð½Ð° Ð¿Ð¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ°</value>
   </data>
   <data name="CacheThumbnails" xml:space="preserve">
     <value>Cache thumbnails</value>
@@ -256,85 +256,85 @@
     <value>Clear cache</value>
   </data>
   <data name="SettingsOnStartupContinueWhereYouLeftOff.Content" xml:space="preserve">
-    <value>Настави од задњег пута</value>
+    <value>ÐÐ°ÑÑ‚Ð°Ð²Ð¸ Ð¾Ð´ Ð·Ð°Ð´ÑšÐµÐ³ Ð¿ÑƒÑ‚Ð°</value>
   </data>
   <data name="SettingsOnStartupOpenANewTab.Content" xml:space="preserve">
-    <value>Отвори нову картицу</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸ Ð½Ð¾Ð²Ñƒ ÐºÐ°Ñ€Ñ‚Ð¸Ñ†Ñƒ</value>
   </data>
   <data name="SettingsOnStartupOpenASpecificPage.Content" xml:space="preserve">
-    <value>Отвори одређену страницу или странице</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸ Ð¾Ð´Ñ€ÐµÑ’ÐµÐ½Ñƒ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñƒ Ð¸Ð»Ð¸ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ðµ</value>
   </data>
   <data name="Desktop" xml:space="preserve">
-    <value>Радна површина</value>
+    <value>Ð Ð°Ð´Ð½Ð° Ð¿Ð¾Ð²Ñ€ÑˆÐ¸Ð½Ð°</value>
   </data>
   <data name="Documents" xml:space="preserve">
-    <value>Документа</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð°</value>
   </data>
   <data name="Downloads" xml:space="preserve">
-    <value>Преузимања</value>
+    <value>ÐŸÑ€ÐµÑƒÐ·Ð¸Ð¼Ð°ÑšÐ°</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Назив</value>
+    <value>ÐÐ°Ð·Ð¸Ð²</value>
   </data>
   <data name="Ascending" xml:space="preserve">
-    <value>Од растућег</value>
+    <value>ÐžÐ´ Ñ€Ð°ÑÑ‚ÑƒÑ›ÐµÐ³</value>
   </data>
   <data name="Paste" xml:space="preserve">
-    <value>Налепи</value>
+    <value>ÐÐ°Ð»ÐµÐ¿Ð¸</value>
   </data>
   <data name="PasteShortcut" xml:space="preserve">
-    <value>Пречица за лепљење</value>
+    <value>ÐŸÑ€ÐµÑ‡Ð¸Ñ†Ð° Ð·Ð° Ð»ÐµÐ¿Ñ™ÐµÑšÐµ</value>
   </data>
   <data name="BaseLayoutContextFlyoutNew.Label" xml:space="preserve">
-    <value>Нов</value>
+    <value>ÐÐ¾Ð²</value>
   </data>
   <data name="Properties" xml:space="preserve">
-    <value>Подаци о датотеци</value>
+    <value>ÐŸÐ¾Ð´Ð°Ñ†Ð¸ Ð¾ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÑ†Ð¸</value>
   </data>
   <data name="Open" xml:space="preserve">
-    <value>Отвори</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸</value>
   </data>
   <data name="OpenInNewTab" xml:space="preserve">
-    <value>Отвори у новом табу</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸ Ñƒ Ð½Ð¾Ð²Ð¾Ð¼ Ñ‚Ð°Ð±Ñƒ</value>
   </data>
   <data name="OpenInNewWindow" xml:space="preserve">
-    <value>Отвори у новом прозору</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸ Ñƒ Ð½Ð¾Ð²Ð¾Ð¼ Ð¿Ñ€Ð¾Ð·Ð¾Ñ€Ñƒ</value>
   </data>
   <data name="Share" xml:space="preserve">
-    <value>Подели</value>
+    <value>ÐŸÐ¾Ð´ÐµÐ»Ð¸</value>
   </data>
   <data name="Cut" xml:space="preserve">
-    <value>Исеци</value>
+    <value>Ð˜ÑÐµÑ†Ð¸</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Обриши</value>
+    <value>ÐžÐ±Ñ€Ð¸ÑˆÐ¸</value>
   </data>
   <data name="PinFolderToSidebar" xml:space="preserve">
-    <value>Закачи на леву траку</value>
+    <value>Ð—Ð°ÐºÐ°Ñ‡Ð¸ Ð½Ð° Ð»ÐµÐ²Ñƒ Ñ‚Ñ€Ð°ÐºÑƒ</value>
   </data>
   <data name="WelcomeDialogTitle" xml:space="preserve">
     <value>Welcome to Files!</value>
   </data>
   <data name="WelcomeDialog.PrimaryButtonText" xml:space="preserve">
-    <value>Дозволи</value>
+    <value>Ð”Ð¾Ð·Ð²Ð¾Ð»Ð¸</value>
   </data>
   <data name="WelcomeDialogTextBlockText" xml:space="preserve">
     <value>To get started, you'll need to grant us permission to display your files. This will open a Settings page where you can grant us this permission. You'll need to reopen the app once you've completed this step. </value>
   </data>
   <data name="Display" xml:space="preserve">
-    <value>Приказ</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð·</value>
   </data>
   <data name="EnterAnItemName" xml:space="preserve">
-    <value>Унеси нови назив</value>
+    <value>Ð£Ð½ÐµÑÐ¸ Ð½Ð¾Ð²Ð¸ Ð½Ð°Ð·Ð¸Ð²</value>
   </data>
   <data name="CreateNewItemTitle" xml:space="preserve">
-    <value>Креирај нову {0}</value>
+    <value>ÐšÑ€ÐµÐ¸Ñ€Ð°Ñ˜ Ð½Ð¾Ð²Ñƒ {0}</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>Светла тема</value>
+    <value>Ð¡Ð²ÐµÑ‚Ð»Ð° Ñ‚ÐµÐ¼Ð°</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>Тамна тема</value>
+    <value>Ð¢Ð°Ð¼Ð½Ð° Ñ‚ÐµÐ¼Ð°</value>
   </data>
   <data name="DefaultTheme" xml:space="preserve">
     <value>System Theme</value>
@@ -346,49 +346,49 @@
     <value>Dark Theme</value>
   </data>
   <data name="UseSystemSetting" xml:space="preserve">
-    <value>Користи системска подешавања</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÑ‚Ð¸ ÑÐ¸ÑÑ‚ÐµÐ¼ÑÐºÐ° Ð¿Ð¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ°</value>
   </data>
   <data name="Application" xml:space="preserve">
-    <value>Формат по апликацији</value>
+    <value>Ð¤Ð¾Ñ€Ð¼Ð°Ñ‚ Ð¿Ð¾ Ð°Ð¿Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð¸</value>
   </data>
   <data name="SystemTimeStyle" xml:space="preserve">
-    <value>Формат по систему</value>
+    <value>Ð¤Ð¾Ñ€Ð¼Ð°Ñ‚ Ð¿Ð¾ ÑÐ¸ÑÑ‚ÐµÐ¼Ñƒ</value>
   </data>
   <data name="NewFolder" xml:space="preserve">
-    <value>Нова фасцикла</value>
+    <value>ÐÐ¾Ð²Ð° Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð°</value>
   </data>
   <data name="NewFile" xml:space="preserve">
-    <value>Нова датотека</value>
+    <value>ÐÐ¾Ð²Ð° Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="EmptyFolder.Text" xml:space="preserve">
-    <value>Ова фасцикла је празна.</value>
+    <value>ÐžÐ²Ð° Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð° Ñ˜Ðµ Ð¿Ñ€Ð°Ð·Ð½Ð°.</value>
   </data>
   <data name="Back" xml:space="preserve">
-    <value>Назад</value>
+    <value>ÐÐ°Ð·Ð°Ð´</value>
   </data>
   <data name="Forward" xml:space="preserve">
-    <value>Напред</value>
+    <value>ÐÐ°Ð¿Ñ€ÐµÐ´</value>
   </data>
   <data name="Up" xml:space="preserve">
-    <value>Претходна фасцикла</value>
+    <value>ÐŸÑ€ÐµÑ‚Ñ…Ð¾Ð´Ð½Ð° Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð°</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Освежи</value>
+    <value>ÐžÑÐ²ÐµÐ¶Ð¸</value>
   </data>
   <data name="ItemAlreadyExistsDialogContent" xml:space="preserve">
-    <value>Датотека са овим именом већ постоји у овој фасцикли.</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° ÑÐ° Ð¾Ð²Ð¸Ð¼ Ð¸Ð¼ÐµÐ½Ð¾Ð¼ Ð²ÐµÑ› Ð¿Ð¾ÑÑ‚Ð¾Ñ˜Ð¸ Ñƒ Ð¾Ð²Ð¾Ñ˜ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð¸.</value>
   </data>
   <data name="ItemAlreadyExistsDialogSecondaryButtonText" xml:space="preserve">
-    <value>Замени постојећу датотеку са овом</value>
+    <value>Ð—Ð°Ð¼ÐµÐ½Ð¸ Ð¿Ð¾ÑÑ‚Ð¾Ñ˜ÐµÑ›Ñƒ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÑƒ ÑÐ° Ð¾Ð²Ð¾Ð¼</value>
   </data>
   <data name="ItemAlreadyExistsDialogTitle" xml:space="preserve">
-    <value>Датотека већ постоји</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° Ð²ÐµÑ› Ð¿Ð¾ÑÑ‚Ð¾Ñ˜Ð¸</value>
   </data>
   <data name="SetAsLockscreen" xml:space="preserve">
-    <value>Постави као позадина закључаног екрана</value>
+    <value>ÐŸÐ¾ÑÑ‚Ð°Ð²Ð¸ ÐºÐ°Ð¾ Ð¿Ð¾Ð·Ð°Ð´Ð¸Ð½Ð° Ð·Ð°ÐºÑ™ÑƒÑ‡Ð°Ð½Ð¾Ð³ ÐµÐºÑ€Ð°Ð½Ð°</value>
   </data>
   <data name="SetAsAppBackground" xml:space="preserve">
-    <value>Постави као позадина апликације</value>
+    <value>ÐŸÐ¾ÑÑ‚Ð°Ð²Ð¸ ÐºÐ°Ð¾ Ð¿Ð¾Ð·Ð°Ð´Ð¸Ð½Ð° Ð°Ð¿Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="AccessDeniedDeleteDialogText" xml:space="preserve">
     <value>We weren't able to delete this item</value>
@@ -403,10 +403,10 @@
     <value>The file you are attempting to access may have been moved or deleted.</value>
   </data>
   <data name="CannotAccessPropertiesTitle" xml:space="preserve">
-    <value>Није могуће приказати својства за ову датотеку</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ Ð¿Ñ€Ð¸ÐºÐ°Ð·Ð°Ñ‚Ð¸ ÑÐ²Ð¾Ñ˜ÑÑ‚Ð²Ð° Ð·Ð° Ð¾Ð²Ñƒ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÑƒ</value>
   </data>
   <data name="CannotAccessPropertiesContent" xml:space="preserve">
-    <value>Датотека којој покушавате да приступите је можда премештена или обрисана.</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° ÐºÐ¾Ñ˜Ð¾Ñ˜ Ð¿Ð¾ÐºÑƒÑˆÐ°Ð²Ð°Ñ‚Ðµ Ð´Ð° Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿Ð¸Ñ‚Ðµ Ñ˜Ðµ Ð¼Ð¾Ð¶Ð´Ð° Ð¿Ñ€ÐµÐ¼ÐµÑˆÑ‚ÐµÐ½Ð° Ð¸Ð»Ð¸ Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½Ð°.</value>
   </data>
   <data name="FileNotFoundDialogTitle" xml:space="preserve">
     <value>File Not Found</value>
@@ -433,64 +433,64 @@
     <value>To find a version for your PC, check with the software publisher.</value>
   </data>
   <data name="Layout" xml:space="preserve">
-    <value>Распоред</value>
+    <value>Ð Ð°ÑÐ¿Ð¾Ñ€ÐµÐ´</value>
   </data>
   <data name="PropertiesDialogReadOnly.Text" xml:space="preserve">
-    <value>Само за читање</value>
+    <value>Ð¡Ð°Ð¼Ð¾ Ð·Ð° Ñ‡Ð¸Ñ‚Ð°ÑšÐµ</value>
   </data>
   <data name="DaysAgo" xml:space="preserve">
-    <value>{0, plural, one {# дан} other {# дана}}</value>
+    <value>{0, plural, one {# Ð´Ð°Ð½} other {# Ð´Ð°Ð½Ð°}}</value>
   </data>
   <data name="DaysAgo_Singular" xml:space="preserve">
-    <value>Пре једног дана</value>
+    <value>ÐŸÑ€Ðµ Ñ˜ÐµÐ´Ð½Ð¾Ð³ Ð´Ð°Ð½Ð°</value>
   </data>
   <data name="DaysAgo_Plural" xml:space="preserve">
-    <value>Пре {0} дана</value>
+    <value>ÐŸÑ€Ðµ {0} Ð´Ð°Ð½Ð°</value>
   </data>
   <data name="HoursAgo" xml:space="preserve">
-    <value>{0, plural, one {пре # сат} few {пре # сата} other {пре # сати}}</value>
+    <value>{0, plural, one {Ð¿Ñ€Ðµ # ÑÐ°Ñ‚} few {Ð¿Ñ€Ðµ # ÑÐ°Ñ‚Ð°} other {Ð¿Ñ€Ðµ # ÑÐ°Ñ‚Ð¸}}</value>
   </data>
   <data name="HoursAgo_Singular" xml:space="preserve">
-    <value>Пре сат времена</value>
+    <value>ÐŸÑ€Ðµ ÑÐ°Ñ‚ Ð²Ñ€ÐµÐ¼ÐµÐ½Ð°</value>
   </data>
   <data name="HoursAgo_Plural" xml:space="preserve">
-    <value>Пре {0} сата</value>
+    <value>ÐŸÑ€Ðµ {0} ÑÐ°Ñ‚Ð°</value>
   </data>
   <data name="MinutesAgo" xml:space="preserve">
-    <value>{0, plural, one {пре # минут} other {пре # минута}}</value>
+    <value>{0, plural, one {Ð¿Ñ€Ðµ # Ð¼Ð¸Ð½ÑƒÑ‚} other {Ð¿Ñ€Ðµ # Ð¼Ð¸Ð½ÑƒÑ‚Ð°}}</value>
   </data>
   <data name="MinutesAgo_Singular" xml:space="preserve">
-    <value>Пре једног минута</value>
+    <value>ÐŸÑ€Ðµ Ñ˜ÐµÐ´Ð½Ð¾Ð³ Ð¼Ð¸Ð½ÑƒÑ‚Ð°</value>
   </data>
   <data name="MinutesAgo_Plural" xml:space="preserve">
-    <value>Пре {0} минута</value>
+    <value>ÐŸÑ€Ðµ {0} Ð¼Ð¸Ð½ÑƒÑ‚Ð°</value>
   </data>
   <data name="SecondsAgo" xml:space="preserve">
-    <value>{0, plural, one {пре # секунд} few {пре # секунде} other {пре # секунди}}</value>
+    <value>{0, plural, one {Ð¿Ñ€Ðµ # ÑÐµÐºÑƒÐ½Ð´} few {Ð¿Ñ€Ðµ # ÑÐµÐºÑƒÐ½Ð´Ðµ} other {Ð¿Ñ€Ðµ # ÑÐµÐºÑƒÐ½Ð´Ð¸}}</value>
   </data>
   <data name="SecondsAgo_Singular" xml:space="preserve">
-    <value>Пре једне секунде</value>
+    <value>ÐŸÑ€Ðµ Ñ˜ÐµÐ´Ð½Ðµ ÑÐµÐºÑƒÐ½Ð´Ðµ</value>
   </data>
   <data name="SecondsAgo_Plural" xml:space="preserve">
-    <value>Пре {0} секунди</value>
+    <value>ÐŸÑ€Ðµ {0} ÑÐµÐºÑƒÐ½Ð´Ð¸</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>Сада</value>
+    <value>Ð¡Ð°Ð´Ð°</value>
   </data>
   <data name="ErrorDialogUnsupportedOperation" xml:space="preserve">
-    <value>Затражена радња није подржана</value>
+    <value>Ð—Ð°Ñ‚Ñ€Ð°Ð¶ÐµÐ½Ð° Ñ€Ð°Ð´ÑšÐ° Ð½Ð¸Ñ˜Ðµ Ð¿Ð¾Ð´Ñ€Ð¶Ð°Ð½Ð°</value>
   </data>
   <data name="DriveFreeSpaceAndCapacity" xml:space="preserve">
-    <value>{0} слободно од {1}</value>
+    <value>{0} ÑÐ»Ð¾Ð±Ð¾Ð´Ð½Ð¾ Ð¾Ð´ {1}</value>
   </data>
   <data name="SendTo" xml:space="preserve">
-    <value>Пошаљи</value>
+    <value>ÐŸÐ¾ÑˆÐ°Ñ™Ð¸</value>
   </data>
   <data name="FileNameTeachingTip.Subtitle" xml:space="preserve">
-    <value>Име ставке не сме да садржи следеће карактере: \ / : * ? " &lt; &gt; |</value>
+    <value>Ð˜Ð¼Ðµ ÑÑ‚Ð°Ð²ÐºÐµ Ð½Ðµ ÑÐ¼Ðµ Ð´Ð° ÑÐ°Ð´Ñ€Ð¶Ð¸ ÑÐ»ÐµÐ´ÐµÑ›Ðµ ÐºÐ°Ñ€Ð°ÐºÑ‚ÐµÑ€Ðµ: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="InvalidFilename.Text" xml:space="preserve">
-    <value>Дато име ставке није валидно</value>
+    <value>Ð”Ð°Ñ‚Ð¾ Ð¸Ð¼Ðµ ÑÑ‚Ð°Ð²ÐºÐµ Ð½Ð¸Ñ˜Ðµ Ð²Ð°Ð»Ð¸Ð´Ð½Ð¾</value>
   </data>
   <data name="SelectedItems" xml:space="preserve">
     <value>{0, plural, one {# item selected} few {# items selected} other {# items selected}}</value>
@@ -501,16 +501,16 @@
     <comment>ICU format for plurals, more information here: https://support.crowdin.com/icu-message-syntax/#plural</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Да</value>
+    <value>Ð”Ð°</value>
   </data>
   <data name="ConfirmEmptyBinDialogContent" xml:space="preserve">
-    <value>Да ли сте сигурни да желите да трајно обришете све ове ставке?</value>
+    <value>Ð”Ð° Ð»Ð¸ ÑÑ‚Ðµ ÑÐ¸Ð³ÑƒÑ€Ð½Ð¸ Ð´Ð° Ð¶ÐµÐ»Ð¸Ñ‚Ðµ Ð´Ð° Ñ‚Ñ€Ð°Ñ˜Ð½Ð¾ Ð¾Ð±Ñ€Ð¸ÑˆÐµÑ‚Ðµ ÑÐ²Ðµ Ð¾Ð²Ðµ ÑÑ‚Ð°Ð²ÐºÐµ?</value>
   </data>
   <data name="ConfirmEmptyBinDialogTitle" xml:space="preserve">
-    <value>Испразни корпу за отпатке</value>
+    <value>Ð˜ÑÐ¿Ñ€Ð°Ð·Ð½Ð¸ ÐºÐ¾Ñ€Ð¿Ñƒ Ð·Ð° Ð¾Ñ‚Ð¿Ð°Ñ‚ÐºÐµ</value>
   </data>
   <data name="ItemSizeBytes" xml:space="preserve">
-    <value>бајт(ова)</value>
+    <value>Ð±Ð°Ñ˜Ñ‚(Ð¾Ð²Ð°)</value>
   </data>
   <data name="KiloByteSymbol" xml:space="preserve">
     <value>KB</value>
@@ -531,121 +531,121 @@
     <value>B</value>
   </data>
   <data name="PropertiesFilesAndFoldersCountString" xml:space="preserve">
-    <value>{0, number} {0, plural, one {фајл} other {фајлова}} и {1, number} {1, plural, one {фасцикла} few {фасцикле} other {фасцикли}}</value>
+    <value>{0, number} {0, plural, one {Ñ„Ð°Ñ˜Ð»} other {Ñ„Ð°Ñ˜Ð»Ð¾Ð²Ð°}} Ð¸ {1, number} {1, plural, one {Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð°} few {Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ðµ} other {Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð¸}}</value>
   </data>
   <data name="PropertiesFilesAndFoldersAndLocationsCount" xml:space="preserve">
-    <value>{0, number} {0, plural, one {фајл} other {фајлова}}, {1, number} {1, plural, one {фасцикла} few {фасцикле} other {фасцикли}} са {2, number} {2, plural, one {локације} few{локације} other {локација}}</value>
+    <value>{0, number} {0, plural, one {Ñ„Ð°Ñ˜Ð»} other {Ñ„Ð°Ñ˜Ð»Ð¾Ð²Ð°}}, {1, number} {1, plural, one {Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð°} few {Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ðµ} other {Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð¸}} ÑÐ° {2, number} {2, plural, one {Ð»Ð¾ÐºÐ°Ñ†Ð¸Ñ˜Ðµ} few{Ð»Ð¾ÐºÐ°Ñ†Ð¸Ñ˜Ðµ} other {Ð»Ð¾ÐºÐ°Ñ†Ð¸Ñ˜Ð°}}</value>
   </data>
   <data name="BaseLayoutContextFlyoutRunAsAnotherUserText" xml:space="preserve">
     <value>Run as another user</value>
   </data>
   <data name="PropertiesDriveItemTypesEquals" xml:space="preserve">
-    <value>Сви типови {0}</value>
+    <value>Ð¡Ð²Ð¸ Ñ‚Ð¸Ð¿Ð¾Ð²Ð¸ {0}</value>
   </data>
   <data name="PropertiesDriveItemTypeDifferent" xml:space="preserve">
-    <value>Друге врсте</value>
+    <value>Ð”Ñ€ÑƒÐ³Ðµ Ð²Ñ€ÑÑ‚Ðµ</value>
   </data>
   <data name="PropertiesCombinedItemLocation" xml:space="preserve">
-    <value>Све у {0}</value>
+    <value>Ð¡Ð²Ðµ Ñƒ {0}</value>
   </data>
   <data name="PropertiesDriveUsedSpace.Text" xml:space="preserve">
-    <value>Искоришћени простор:</value>
+    <value>Ð˜ÑÐºÐ¾Ñ€Ð¸ÑˆÑ›ÐµÐ½Ð¸ Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ñ€:</value>
   </data>
   <data name="PropertiesDriveFreeSpace.Text" xml:space="preserve">
-    <value>Слободни простор:</value>
+    <value>Ð¡Ð»Ð¾Ð±Ð¾Ð´Ð½Ð¸ Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ñ€:</value>
   </data>
   <data name="PropertiesDriveCapacity.Text" xml:space="preserve">
-    <value>Капацитет:</value>
+    <value>ÐšÐ°Ð¿Ð°Ñ†Ð¸Ñ‚ÐµÑ‚:</value>
   </data>
   <data name="PropertiesDriveFileSystem.Text" xml:space="preserve">
-    <value>Систем датотека:</value>
+    <value>Ð¡Ð¸ÑÑ‚ÐµÐ¼ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°:</value>
   </data>
   <data name="JumpListRecentGroupHeader" xml:space="preserve">
-    <value>Недавно</value>
+    <value>ÐÐµÐ´Ð°Ð²Ð½Ð¾</value>
   </data>
   <data name="TabStripDragAndDropUIOverrideCaption" xml:space="preserve">
-    <value>Помери картицу овде</value>
+    <value>ÐŸÐ¾Ð¼ÐµÑ€Ð¸ ÐºÐ°Ñ€Ñ‚Ð¸Ñ†Ñƒ Ð¾Ð²Ð´Ðµ</value>
   </data>
   <data name="Status" xml:space="preserve">
-    <value>Стање</value>
+    <value>Ð¡Ñ‚Ð°ÑšÐµ</value>
   </data>
   <data name="NavigationToolbarVisiblePathNoResults" xml:space="preserve">
-    <value>Нема резултата</value>
+    <value>ÐÐµÐ¼Ð° Ñ€ÐµÐ·ÑƒÐ»Ñ‚Ð°Ñ‚Ð°</value>
   </data>
   <data name="SubDirectoryAccessDenied" xml:space="preserve">
-    <value>Не може да се приступи било којим ставкама да се прикажу</value>
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ðµ Ð´Ð° ÑÐµ Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿Ð¸ Ð±Ð¸Ð»Ð¾ ÐºÐ¾Ñ˜Ð¸Ð¼ ÑÑ‚Ð°Ð²ÐºÐ°Ð¼Ð° Ð´Ð° ÑÐµ Ð¿Ñ€Ð¸ÐºÐ°Ð¶Ñƒ</value>
   </data>
   <data name="MoveToFolderCaptionText" xml:space="preserve">
-    <value>Помери у {0}</value>
+    <value>ÐŸÐ¾Ð¼ÐµÑ€Ð¸ Ñƒ {0}</value>
   </data>
   <data name="CopyToFolderCaptionText" xml:space="preserve">
-    <value>Копирај у {0}</value>
+    <value>ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ñ˜ Ñƒ {0}</value>
   </data>
   <data name="CloneToFolderCaptionText" xml:space="preserve">
-    <value>Копирај у {0}</value>
+    <value>ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ñ˜ Ñƒ {0}</value>
   </data>
   <data name="CreateShortcut" xml:space="preserve">
-    <value>Направи пречицу</value>
+    <value>ÐÐ°Ð¿Ñ€Ð°Ð²Ð¸ Ð¿Ñ€ÐµÑ‡Ð¸Ñ†Ñƒ</value>
   </data>
   <data name="OpenFileLocation" xml:space="preserve">
-    <value>Отвори извор датотеке</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸ Ð¸Ð·Ð²Ð¾Ñ€ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
   <data name="PropertiesShortcutItemArgs.Text" xml:space="preserve">
-    <value>Аргументи:</value>
+    <value>ÐÑ€Ð³ÑƒÐ¼ÐµÐ½Ñ‚Ð¸:</value>
   </data>
   <data name="PropertiesShortcutItemPath.Text" xml:space="preserve">
-    <value>Одредиште:</value>
+    <value>ÐžÐ´Ñ€ÐµÐ´Ð¸ÑˆÑ‚Ðµ:</value>
   </data>
   <data name="PropertiesShortcutItemType.Text" xml:space="preserve">
-    <value>Врста пречице:</value>
+    <value>Ð’Ñ€ÑÑ‚Ð° Ð¿Ñ€ÐµÑ‡Ð¸Ñ†Ðµ:</value>
   </data>
   <data name="PropertiesShortcutTypeLink" xml:space="preserve">
-    <value>Веб линк</value>
+    <value>Ð’ÐµÐ± Ð»Ð¸Ð½Ðº</value>
   </data>
   <data name="General" xml:space="preserve">
-    <value>Општа</value>
+    <value>ÐžÐ¿ÑˆÑ‚Ð°</value>
   </data>
   <data name="Shortcut" xml:space="preserve">
-    <value>Пречицa</value>
+    <value>ÐŸÑ€ÐµÑ‡Ð¸Ñ†a</value>
   </data>
   <data name="ShortcutWebLinkFileType" xml:space="preserve">
-    <value>Интернет пречица</value>
+    <value>Ð˜Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚ Ð¿Ñ€ÐµÑ‡Ð¸Ñ†Ð°</value>
   </data>
   <data name="ShortcutCreateNewSuffix" xml:space="preserve">
-    <value>{0} - пречица</value>
+    <value>{0} - Ð¿Ñ€ÐµÑ‡Ð¸Ñ†Ð°</value>
   </data>
   <data name="ExceptionNotificationBody" xml:space="preserve">
-    <value>Files је наишао на проблем за који се програмери нису спремили.</value>
+    <value>Files Ñ˜Ðµ Ð½Ð°Ð¸ÑˆÐ°Ð¾ Ð½Ð° Ð¿Ñ€Ð¾Ð±Ð»ÐµÐ¼ Ð·Ð° ÐºÐ¾Ñ˜Ð¸ ÑÐµ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼ÐµÑ€Ð¸ Ð½Ð¸ÑÑƒ ÑÐ¿Ñ€ÐµÐ¼Ð¸Ð»Ð¸.</value>
   </data>
   <data name="ExceptionNotificationHeader" xml:space="preserve">
-    <value>Нешто је пошло по злу!</value>
+    <value>ÐÐµÑˆÑ‚Ð¾ Ñ˜Ðµ Ð¿Ð¾ÑˆÐ»Ð¾ Ð¿Ð¾ Ð·Ð»Ñƒ!</value>
   </data>
   <data name="ExceptionNotificationReportButton" xml:space="preserve">
-    <value>Пријави овај проблем</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð¸ Ð¾Ð²Ð°Ñ˜ Ð¿Ñ€Ð¾Ð±Ð»ÐµÐ¼</value>
   </data>
   <data name="InvalidItemDialogContent" xml:space="preserve">
-    <value>Ставка која је референцирана или није валидна или је неприступачна. {0}Порука грешке: {0}{1}</value>
+    <value>Ð¡Ñ‚Ð°Ð²ÐºÐ° ÐºÐ¾Ñ˜Ð° Ñ˜Ðµ Ñ€ÐµÑ„ÐµÑ€ÐµÐ½Ñ†Ð¸Ñ€Ð°Ð½Ð° Ð¸Ð»Ð¸ Ð½Ð¸Ñ˜Ðµ Ð²Ð°Ð»Ð¸Ð´Ð½Ð° Ð¸Ð»Ð¸ Ñ˜Ðµ Ð½ÐµÐ¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿Ð°Ñ‡Ð½Ð°. {0}ÐŸÐ¾Ñ€ÑƒÐºÐ° Ð³Ñ€ÐµÑˆÐºÐµ: {0}{1}</value>
   </data>
   <data name="InvalidItemDialogTitle" xml:space="preserve">
-    <value>Неважећа ставка</value>
+    <value>ÐÐµÐ²Ð°Ð¶ÐµÑ›Ð° ÑÑ‚Ð°Ð²ÐºÐ°</value>
   </data>
   <data name="SettingsAboutVersionTitle" xml:space="preserve">
-    <value>Верзија:</value>
+    <value>Ð’ÐµÑ€Ð·Ð¸Ñ˜Ð°:</value>
   </data>
   <data name="ShareDialogFailMessage" xml:space="preserve">
-    <value>Нема ништа да се подели тренутно...</value>
+    <value>ÐÐµÐ¼Ð° Ð½Ð¸ÑˆÑ‚Ð° Ð´Ð° ÑÐµ Ð¿Ð¾Ð´ÐµÐ»Ð¸ Ñ‚Ñ€ÐµÐ½ÑƒÑ‚Ð½Ð¾...</value>
   </data>
   <data name="ShareDialogMultipleItemsDescription" xml:space="preserve">
-    <value>Ставке које сте изабрали ће бити подељене</value>
+    <value>Ð¡Ñ‚Ð°Ð²ÐºÐµ ÐºÐ¾Ñ˜Ðµ ÑÑ‚Ðµ Ð¸Ð·Ð°Ð±Ñ€Ð°Ð»Ð¸ Ñ›Ðµ Ð±Ð¸Ñ‚Ð¸ Ð¿Ð¾Ð´ÐµÑ™ÐµÐ½Ðµ</value>
   </data>
   <data name="ShareDialogSingleItemDescription" xml:space="preserve">
-    <value>Изабрана ставка ће бити дељена</value>
+    <value>Ð˜Ð·Ð°Ð±Ñ€Ð°Ð½Ð° ÑÑ‚Ð°Ð²ÐºÐ° Ñ›Ðµ Ð±Ð¸Ñ‚Ð¸ Ð´ÐµÑ™ÐµÐ½Ð°</value>
   </data>
   <data name="ShareDialogTitle" xml:space="preserve">
-    <value>Дељење {0}</value>
+    <value>Ð”ÐµÑ™ÐµÑšÐµ {0}</value>
   </data>
   <data name="ShareDialogTitleMultipleItems" xml:space="preserve">
-    <value>Дељење {0} {1}</value>
+    <value>Ð”ÐµÑ™ÐµÑšÐµ {0} {1}</value>
   </data>
   <data name="RenameErrorItemDeletedText" xml:space="preserve">
     <value>The item you're attempting to rename no longer exists. Please verify the correct location of the item you need to rename.</value>
@@ -666,61 +666,61 @@
     <value>Item name was too long</value>
   </data>
   <data name="ShowMoreOptions" xml:space="preserve">
-    <value>Остале опције...</value>
+    <value>ÐžÑÑ‚Ð°Ð»Ðµ Ð¾Ð¿Ñ†Ð¸Ñ˜Ðµ...</value>
   </data>
   <data name="RestartNotificationText.Text" xml:space="preserve">
-    <value>Потребно је поново покренути програм како бисте применили ова подешавања. Да ли желите да поново покренете програм?</value>
+    <value>ÐŸÐ¾Ñ‚Ñ€ÐµÐ±Ð½Ð¾ Ñ˜Ðµ Ð¿Ð¾Ð½Ð¾Ð²Ð¾ Ð¿Ð¾ÐºÑ€ÐµÐ½ÑƒÑ‚Ð¸ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼ ÐºÐ°ÐºÐ¾ Ð±Ð¸ÑÑ‚Ðµ Ð¿Ñ€Ð¸Ð¼ÐµÐ½Ð¸Ð»Ð¸ Ð¾Ð²Ð° Ð¿Ð¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ°. Ð”Ð° Ð»Ð¸ Ð¶ÐµÐ»Ð¸Ñ‚Ðµ Ð´Ð° Ð¿Ð¾Ð½Ð¾Ð²Ð¾ Ð¿Ð¾ÐºÑ€ÐµÐ½ÐµÑ‚Ðµ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼?</value>
   </data>
   <data name="SponsorUsOnGitHub" xml:space="preserve">
-    <value>Спонзориши нас на GitHub-у</value>
+    <value>Ð¡Ð¿Ð¾Ð½Ð·Ð¾Ñ€Ð¸ÑˆÐ¸ Ð½Ð°Ñ Ð½Ð° GitHub-Ñƒ</value>
   </data>
   <data name="AccessDeniedCreateDialogText" xml:space="preserve">
     <value>We weren't able to create this item</value>
   </data>
   <data name="AccessDenied" xml:space="preserve">
-    <value>Забрањен приступ</value>
+    <value>Ð—Ð°Ð±Ñ€Ð°ÑšÐµÐ½ Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutSetAsText" xml:space="preserve">
     <value>Set as</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>Откажи</value>
+    <value>ÐžÑ‚ÐºÐ°Ð¶Ð¸</value>
   </data>
   <data name="AddDialog.Title" xml:space="preserve">
-    <value>Направи нову датотеку</value>
+    <value>ÐÐ°Ð¿Ñ€Ð°Ð²Ð¸ Ð½Ð¾Ð²Ñƒ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÑƒ</value>
   </data>
   <data name="AddDialogDescription.Text" xml:space="preserve">
-    <value>Одаберите тип датотеке за нову ставку испод</value>
+    <value>ÐžÐ´Ð°Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ñ‚Ð¸Ð¿ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ Ð·Ð° Ð½Ð¾Ð²Ñƒ ÑÑ‚Ð°Ð²ÐºÑƒ Ð¸ÑÐ¿Ð¾Ð´</value>
   </data>
   <data name="File" xml:space="preserve">
-    <value>Датотека</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="Files" xml:space="preserve">
     <value>Files</value>
   </data>
   <data name="AddDialogListFileSubHeader" xml:space="preserve">
-    <value>Прави празну датотеку</value>
+    <value>ÐŸÑ€Ð°Ð²Ð¸ Ð¿Ñ€Ð°Ð·Ð½Ñƒ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÑƒ</value>
   </data>
   <data name="Folder" xml:space="preserve">
-    <value>Фасцикла</value>
+    <value>Ð¤Ð°ÑÑ†Ð¸ÐºÐ»Ð°</value>
   </data>
   <data name="Folders" xml:space="preserve">
     <value>Folders</value>
   </data>
   <data name="AddDialogListFolderSubHeader" xml:space="preserve">
-    <value>Прави празну фасциклу</value>
+    <value>ÐŸÑ€Ð°Ð²Ð¸ Ð¿Ñ€Ð°Ð·Ð½Ñƒ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ñƒ</value>
   </data>
   <data name="NavResfreshButton.AutomationProperties.Name" xml:space="preserve">
-    <value>Освежи директоријум</value>
+    <value>ÐžÑÐ²ÐµÐ¶Ð¸ Ð´Ð¸Ñ€ÐµÐºÑ‚Ð¾Ñ€Ð¸Ñ˜ÑƒÐ¼</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>Језик</value>
+    <value>ÐˆÐµÐ·Ð¸Ðº</value>
   </data>
   <data name="SettingsContextMenuOverflow" xml:space="preserve">
-    <value>Проширења окружења смести у подмени</value>
+    <value>ÐŸÑ€Ð¾ÑˆÐ¸Ñ€ÐµÑšÐ° Ð¾ÐºÑ€ÑƒÐ¶ÐµÑšÐ° ÑÐ¼ÐµÑÑ‚Ð¸ Ñƒ Ð¿Ð¾Ð´Ð¼ÐµÐ½Ð¸</value>
   </data>
   <data name="ShowConfirmationWhenDeletingItems" xml:space="preserve">
-    <value>Питај још једном пре брисања датотека</value>
+    <value>ÐŸÐ¸Ñ‚Ð°Ñ˜ Ñ˜Ð¾Ñˆ Ñ˜ÐµÐ´Ð½Ð¾Ð¼ Ð¿Ñ€Ðµ Ð±Ñ€Ð¸ÑÐ°ÑšÐ° Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="PropertySaveErrorMessageText" xml:space="preserve">
     <value>There was an issue saving some properties.</value>
@@ -729,58 +729,58 @@
     <value>Error</value>
   </data>
   <data name="PropertySaveErrorDialog.SecondaryButtonText" xml:space="preserve">
-    <value>Ипак затвори</value>
+    <value>Ð˜Ð¿Ð°Ðº Ð·Ð°Ñ‚Ð²Ð¾Ñ€Ð¸</value>
   </data>
   <data name="PropertyRatingText" xml:space="preserve">
-    <value>Оцена</value>
+    <value>ÐžÑ†ÐµÐ½Ð°</value>
   </data>
   <data name="PropertyParsingPath" xml:space="preserve">
-    <value>Путања датотеке</value>
+    <value>ÐŸÑƒÑ‚Ð°ÑšÐ° Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
   <data name="PropertyItemTypeText" xml:space="preserve">
-    <value>Врста ставке</value>
+    <value>Ð’Ñ€ÑÑ‚Ð° ÑÑ‚Ð°Ð²ÐºÐµ</value>
   </data>
   <data name="PropertyTitle" xml:space="preserve">
-    <value>Наслов</value>
+    <value>ÐÐ°ÑÐ»Ð¾Ð²</value>
   </data>
   <data name="PropertySubject" xml:space="preserve">
-    <value>Предмет</value>
+    <value>ÐŸÑ€ÐµÐ´Ð¼ÐµÑ‚</value>
   </data>
   <data name="PropertyComment" xml:space="preserve">
-    <value>Коментар</value>
+    <value>ÐšÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€</value>
   </data>
   <data name="PropertyCopyright" xml:space="preserve">
     <value>Copyright</value>
   </data>
   <data name="PropertyDateModified" xml:space="preserve">
-    <value>Датум измене</value>
+    <value>Ð”Ð°Ñ‚ÑƒÐ¼ Ð¸Ð·Ð¼ÐµÐ½Ðµ</value>
   </data>
   <data name="PropertyBitDepth" xml:space="preserve">
-    <value>Дубина битова</value>
+    <value>Ð”ÑƒÐ±Ð¸Ð½Ð° Ð±Ð¸Ñ‚Ð¾Ð²Ð°</value>
   </data>
   <data name="PropertyDimensions" xml:space="preserve">
-    <value>Димензије</value>
+    <value>Ð”Ð¸Ð¼ÐµÐ½Ð·Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="PropertyHorizontalSize" xml:space="preserve">
-    <value>Хоризонтална дужина</value>
+    <value>Ð¥Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»Ð½Ð° Ð´ÑƒÐ¶Ð¸Ð½Ð°</value>
   </data>
   <data name="PropertyVerticalSize" xml:space="preserve">
-    <value>Вертикална висина</value>
+    <value>Ð’ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»Ð½Ð° Ð²Ð¸ÑÐ¸Ð½Ð°</value>
   </data>
   <data name="PropertyHorizontalResolution" xml:space="preserve">
-    <value>Хоризонтална резолуција</value>
+    <value>Ð¥Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»Ð½Ð° Ñ€ÐµÐ·Ð¾Ð»ÑƒÑ†Ð¸Ñ˜Ð°</value>
   </data>
   <data name="PropertyVerticalResolution" xml:space="preserve">
-    <value>Вертикална резолуција</value>
+    <value>Ð’ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»Ð½Ð° Ñ€ÐµÐ·Ð¾Ð»ÑƒÑ†Ð¸Ñ˜Ð°</value>
   </data>
   <data name="PropertyColorSpace" xml:space="preserve">
-    <value>Распон боја</value>
+    <value>Ð Ð°ÑÐ¿Ð¾Ð½ Ð±Ð¾Ñ˜Ð°</value>
   </data>
   <data name="PropertyColorSpace_Value0" xml:space="preserve">
     <value>sRGB</value>
   </data>
   <data name="PropertyColorSpace_Value65535" xml:space="preserve">
-    <value>није наведено</value>
+    <value>Ð½Ð¸Ñ˜Ðµ Ð½Ð°Ð²ÐµÐ´ÐµÐ½Ð¾</value>
   </data>
   <data name="PropertyLongitudeDecimal" xml:space="preserve">
     <value>Longitude Decimal</value>
@@ -789,19 +789,19 @@
     <value>Latitude Decimal</value>
   </data>
   <data name="PropertyAltitude" xml:space="preserve">
-    <value>Висина</value>
+    <value>Ð’Ð¸ÑÐ¸Ð½Ð°</value>
   </data>
   <data name="PropertyDateTaken" xml:space="preserve">
-    <value>Датум сликања</value>
+    <value>Ð”Ð°Ñ‚ÑƒÐ¼ ÑÐ»Ð¸ÐºÐ°ÑšÐ°</value>
   </data>
   <data name="PropertyCameraManufacturer" xml:space="preserve">
-    <value>Произвођач камере</value>
+    <value>ÐŸÑ€Ð¾Ð¸Ð·Ð²Ð¾Ñ’Ð°Ñ‡ ÐºÐ°Ð¼ÐµÑ€Ðµ</value>
   </data>
   <data name="PropertyCameraModel" xml:space="preserve">
-    <value>Модел камере</value>
+    <value>ÐœÐ¾Ð´ÐµÐ» ÐºÐ°Ð¼ÐµÑ€Ðµ</value>
   </data>
   <data name="PropertyExposureTime" xml:space="preserve">
-    <value>Време Експозиције</value>
+    <value>Ð’Ñ€ÐµÐ¼Ðµ Ð•ÐºÑÐ¿Ð¾Ð·Ð¸Ñ†Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="PropertyFocalLength" xml:space="preserve">
     <value>Focal Length</value>
@@ -810,31 +810,31 @@
     <value>Aperture</value>
   </data>
   <data name="PropertyPeopleNames" xml:space="preserve">
-    <value>Имена људи</value>
+    <value>Ð˜Ð¼ÐµÐ½Ð° Ñ™ÑƒÐ´Ð¸</value>
   </data>
   <data name="PropertyChannelCount" xml:space="preserve">
-    <value>Број канала</value>
+    <value>Ð‘Ñ€Ð¾Ñ˜ ÐºÐ°Ð½Ð°Ð»Ð°</value>
   </data>
   <data name="PropertyFormat" xml:space="preserve">
-    <value>Формат</value>
+    <value>Ð¤Ð¾Ñ€Ð¼Ð°Ñ‚</value>
   </data>
   <data name="PropertySampleRate" xml:space="preserve">
     <value>Sample Rate</value>
   </data>
   <data name="PropertyAlbumArtist" xml:space="preserve">
-    <value>Извођач албума</value>
+    <value>Ð˜Ð·Ð²Ð¾Ñ’Ð°Ñ‡ Ð°Ð»Ð±ÑƒÐ¼Ð°</value>
   </data>
   <data name="PropertyAlbumTitle" xml:space="preserve">
-    <value>Наслов албума</value>
+    <value>ÐÐ°ÑÐ»Ð¾Ð² Ð°Ð»Ð±ÑƒÐ¼Ð°</value>
   </data>
   <data name="Artist" xml:space="preserve">
-    <value>Извођач</value>
+    <value>Ð˜Ð·Ð²Ð¾Ñ’Ð°Ñ‡</value>
   </data>
   <data name="PropertyBeatsPerMinute" xml:space="preserve">
-    <value>Ударца по секунди</value>
+    <value>Ð£Ð´Ð°Ñ€Ñ†Ð° Ð¿Ð¾ ÑÐµÐºÑƒÐ½Ð´Ð¸</value>
   </data>
   <data name="PropertyComposer" xml:space="preserve">
-    <value>Композитор</value>
+    <value>ÐšÐ¾Ð¼Ð¿Ð¾Ð·Ð¸Ñ‚Ð¾Ñ€</value>
   </data>
   <data name="Conductor" xml:space="preserve">
     <value>Conductor</value>
@@ -843,49 +843,49 @@
     <value>Disc Number</value>
   </data>
   <data name="PropertyGenre" xml:space="preserve">
-    <value>Жанр</value>
+    <value>Ð–Ð°Ð½Ñ€</value>
   </data>
   <data name="PropertyTrackNumber" xml:space="preserve">
-    <value>Број нумере</value>
+    <value>Ð‘Ñ€Ð¾Ñ˜ Ð½ÑƒÐ¼ÐµÑ€Ðµ</value>
   </data>
   <data name="PropertyDuration" xml:space="preserve">
-    <value>Трајање</value>
+    <value>Ð¢Ñ€Ð°Ñ˜Ð°ÑšÐµ</value>
   </data>
   <data name="PropertyFrameCount" xml:space="preserve">
     <value>Frame Count</value>
   </data>
   <data name="PropertyProtectionType" xml:space="preserve">
-    <value>Врста заштите</value>
+    <value>Ð’Ñ€ÑÑ‚Ð° Ð·Ð°ÑˆÑ‚Ð¸Ñ‚Ðµ</value>
   </data>
   <data name="PropertyAuthorUrl" xml:space="preserve">
-    <value>Веб адреса креатора</value>
+    <value>Ð’ÐµÐ± Ð°Ð´Ñ€ÐµÑÐ° ÐºÑ€ÐµÐ°Ñ‚Ð¾Ñ€Ð°</value>
   </data>
   <data name="PropertyContentDistributor" xml:space="preserve">
-    <value>Дистрибутер садржаја</value>
+    <value>Ð”Ð¸ÑÑ‚Ñ€Ð¸Ð±ÑƒÑ‚ÐµÑ€ ÑÐ°Ð´Ñ€Ð¶Ð°Ñ˜Ð°</value>
   </data>
   <data name="PropertyDateReleased" xml:space="preserve">
-    <value>Датум издавања</value>
+    <value>Ð”Ð°Ñ‚ÑƒÐ¼ Ð¸Ð·Ð´Ð°Ð²Ð°ÑšÐ°</value>
   </data>
   <data name="PropertySeriesName" xml:space="preserve">
-    <value>Наслов серије</value>
+    <value>ÐÐ°ÑÐ»Ð¾Ð² ÑÐµÑ€Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="PropertySeasonNumber" xml:space="preserve">
-    <value>Редни број сезоне</value>
+    <value>Ð ÐµÐ´Ð½Ð¸ Ð±Ñ€Ð¾Ñ˜ ÑÐµÐ·Ð¾Ð½Ðµ</value>
   </data>
   <data name="PropertyEpisodeNumber" xml:space="preserve">
-    <value>Редни број епизоде</value>
+    <value>Ð ÐµÐ´Ð½Ð¸ Ð±Ñ€Ð¾Ñ˜ ÐµÐ¿Ð¸Ð·Ð¾Ð´Ðµ</value>
   </data>
   <data name="PropertyProducer" xml:space="preserve">
-    <value>Продуцент</value>
+    <value>ÐŸÑ€Ð¾Ð´ÑƒÑ†ÐµÐ½Ñ‚</value>
   </data>
   <data name="PropertyPromotionUrl" xml:space="preserve">
-    <value>Промотивни веб-сајт</value>
+    <value>ÐŸÑ€Ð¾Ð¼Ð¾Ñ‚Ð¸Ð²Ð½Ð¸ Ð²ÐµÐ±-ÑÐ°Ñ˜Ñ‚</value>
   </data>
   <data name="PropertyProviderStyle" xml:space="preserve">
     <value>Provider Style</value>
   </data>
   <data name="PropertyPublisher" xml:space="preserve">
-    <value>Издавач</value>
+    <value>Ð˜Ð·Ð´Ð°Ð²Ð°Ñ‡</value>
   </data>
   <data name="PropertyThumbnailLargePath" xml:space="preserve">
     <value>Thumbnail Large Path</value>
@@ -903,55 +903,55 @@
     <value>User Web Url</value>
   </data>
   <data name="PropertyWriter" xml:space="preserve">
-    <value>Писац</value>
+    <value>ÐŸÐ¸ÑÐ°Ñ†</value>
   </data>
   <data name="PropertyYear" xml:space="preserve">
-    <value>Година</value>
+    <value>Ð“Ð¾Ð´Ð¸Ð½Ð°</value>
   </data>
   <data name="PropertyContributor" xml:space="preserve">
-    <value>Сарадник</value>
+    <value>Ð¡Ð°Ñ€Ð°Ð´Ð½Ð¸Ðº</value>
   </data>
   <data name="PropertyLastAuthor" xml:space="preserve">
     <value>Last Author</value>
   </data>
   <data name="PropertyRevisionNumber" xml:space="preserve">
-    <value>Број ревизије</value>
+    <value>Ð‘Ñ€Ð¾Ñ˜ Ñ€ÐµÐ²Ð¸Ð·Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="PropertyVersion" xml:space="preserve">
-    <value>Верзија</value>
+    <value>Ð’ÐµÑ€Ð·Ð¸Ñ˜Ð°</value>
   </data>
   <data name="PropertyDateCreated" xml:space="preserve">
-    <value>Датум прављења</value>
+    <value>Ð”Ð°Ñ‚ÑƒÐ¼ Ð¿Ñ€Ð°Ð²Ñ™ÐµÑšÐ°</value>
   </data>
   <data name="PropertyTotalEditingTime" xml:space="preserve">
-    <value>Укупно време уређивања</value>
+    <value>Ð£ÐºÑƒÐ¿Ð½Ð¾ Ð²Ñ€ÐµÐ¼Ðµ ÑƒÑ€ÐµÑ’Ð¸Ð²Ð°ÑšÐ°</value>
   </data>
   <data name="PropertyTemplate" xml:space="preserve">
-    <value>Образац</value>
+    <value>ÐžÐ±Ñ€Ð°Ð·Ð°Ñ†</value>
   </data>
   <data name="PropertyWordCount" xml:space="preserve">
-    <value>Број речи</value>
+    <value>Ð‘Ñ€Ð¾Ñ˜ Ñ€ÐµÑ‡Ð¸</value>
   </data>
   <data name="PropertyCharacterCount" xml:space="preserve">
-    <value>Број карактера</value>
+    <value>Ð‘Ñ€Ð¾Ñ˜ ÐºÐ°Ñ€Ð°ÐºÑ‚ÐµÑ€Ð°</value>
   </data>
   <data name="PropertyLineCount" xml:space="preserve">
-    <value>Број редова</value>
+    <value>Ð‘Ñ€Ð¾Ñ˜ Ñ€ÐµÐ´Ð¾Ð²Ð°</value>
   </data>
   <data name="PropertyParagraphCount" xml:space="preserve">
-    <value>Број параграфа</value>
+    <value>Ð‘Ñ€Ð¾Ñ˜ Ð¿Ð°Ñ€Ð°Ð³Ñ€Ð°Ñ„Ð°</value>
   </data>
   <data name="PropertyPageCount" xml:space="preserve">
-    <value>Број страница</value>
+    <value>Ð‘Ñ€Ð¾Ñ˜ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ð°</value>
   </data>
   <data name="PropertySlideCount" xml:space="preserve">
-    <value>Број слајдова</value>
+    <value>Ð‘Ñ€Ð¾Ñ˜ ÑÐ»Ð°Ñ˜Ð´Ð¾Ð²Ð°</value>
   </data>
   <data name="PropertyFrameRate" xml:space="preserve">
     <value>FPS</value>
   </data>
   <data name="PropertyEncodingBitrate" xml:space="preserve">
-    <value>Битрејт</value>
+    <value>Ð‘Ð¸Ñ‚Ñ€ÐµÑ˜Ñ‚</value>
   </data>
   <data name="PropertyPreviewAudioEncodingBitrate" xml:space="preserve">
     <value>Audio Encoding Bitrate</value>
@@ -960,76 +960,76 @@
     <value>Video Encoding Bitrate</value>
   </data>
   <data name="Compression" xml:space="preserve">
-    <value>Компримовање</value>
+    <value>ÐšÐ¾Ð¼Ð¿Ñ€Ð¸Ð¼Ð¾Ð²Ð°ÑšÐµ</value>
   </data>
   <data name="PropertyFrameWidth" xml:space="preserve">
-    <value>Дужина кадра</value>
+    <value>Ð”ÑƒÐ¶Ð¸Ð½Ð° ÐºÐ°Ð´Ñ€Ð°</value>
   </data>
   <data name="PropertyFrameHeight" xml:space="preserve">
-    <value>Висина кадра</value>
+    <value>Ð’Ð¸ÑÐ¸Ð½Ð° ÐºÐ°Ð´Ñ€Ð°</value>
   </data>
   <data name="PropertyOrientation" xml:space="preserve">
-    <value>Оријентација</value>
+    <value>ÐžÑ€Ð¸Ñ˜ÐµÐ½Ñ‚Ð°Ñ†Ð¸Ñ˜Ð°</value>
   </data>
   <data name="PropertySectionCore" xml:space="preserve">
-    <value>Језгро</value>
+    <value>ÐˆÐµÐ·Ð³Ñ€Ð¾</value>
   </data>
   <data name="PropertySectionImage" xml:space="preserve">
-    <value>Слика</value>
+    <value>Ð¡Ð»Ð¸ÐºÐ°</value>
   </data>
   <data name="PropertySectionPhoto" xml:space="preserve">
-    <value>Фотографија</value>
+    <value>Ð¤Ð¾Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ñ˜Ð°</value>
   </data>
   <data name="PropertySectionGPS" xml:space="preserve">
     <value>GPS</value>
   </data>
   <data name="PropertySectionMedia" xml:space="preserve">
-    <value>Мултимедија</value>
+    <value>ÐœÑƒÐ»Ñ‚Ð¸Ð¼ÐµÐ´Ð¸Ñ˜Ð°</value>
   </data>
   <data name="PropertySectionAudio" xml:space="preserve">
-    <value>Аудио</value>
+    <value>ÐÑƒÐ´Ð¸Ð¾</value>
   </data>
   <data name="PropertySectionMusic" xml:space="preserve">
-    <value>Музика</value>
+    <value>ÐœÑƒÐ·Ð¸ÐºÐ°</value>
   </data>
   <data name="PropertySectionVideo" xml:space="preserve">
-    <value>Видео</value>
+    <value>Ð’Ð¸Ð´ÐµÐ¾</value>
   </data>
   <data name="Document" xml:space="preserve">
-    <value>Документ</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚</value>
   </data>
   <data name="Address" xml:space="preserve">
-    <value>Адреса</value>
+    <value>ÐÐ´Ñ€ÐµÑÐ°</value>
   </data>
   <data name="SelectionOptions" xml:space="preserve">
     <value>Selection options</value>
   </data>
   <data name="NavToolbarSelectionOptions.Label" xml:space="preserve">
-    <value>Одабери</value>
+    <value>ÐžÐ´Ð°Ð±ÐµÑ€Ð¸</value>
   </data>
   <data name="RecycleBinItemAutomation" xml:space="preserve">
-    <value>Ставка у корпи за отпатке</value>
+    <value>Ð¡Ñ‚Ð°Ð²ÐºÐ° Ñƒ ÐºÐ¾Ñ€Ð¿Ð¸ Ð·Ð° Ð¾Ñ‚Ð¿Ð°Ñ‚ÐºÐµ</value>
   </data>
   <data name="ShortcutItemAutomation" xml:space="preserve">
-    <value>Пречица</value>
+    <value>ÐŸÑ€ÐµÑ‡Ð¸Ñ†Ð°</value>
   </data>
   <data name="Drives" xml:space="preserve">
-    <value>Дискови</value>
+    <value>Ð”Ð¸ÑÐºÐ¾Ð²Ð¸</value>
   </data>
   <data name="PinToSidebarByDraggingCaptionText" xml:space="preserve">
-    <value>Премести овде</value>
+    <value>ÐŸÑ€ÐµÐ¼ÐµÑÑ‚Ð¸ Ð¾Ð²Ð´Ðµ</value>
   </data>
   <data name="EjectNotificationHeader" xml:space="preserve">
-    <value>Безбедно уклањање уређаја</value>
+    <value>Ð‘ÐµÐ·Ð±ÐµÐ´Ð½Ð¾ ÑƒÐºÐ»Ð°ÑšÐ°ÑšÐµ ÑƒÑ€ÐµÑ’Ð°Ñ˜Ð°</value>
   </data>
   <data name="EjectNotificationBody" xml:space="preserve">
-    <value>Сада можете уклонити уређај из рачунара.</value>
+    <value>Ð¡Ð°Ð´Ð° Ð¼Ð¾Ð¶ÐµÑ‚Ðµ ÑƒÐºÐ»Ð¾Ð½Ð¸Ñ‚Ð¸ ÑƒÑ€ÐµÑ’Ð°Ñ˜ Ð¸Ð· Ñ€Ð°Ñ‡ÑƒÐ½Ð°Ñ€Ð°.</value>
   </data>
   <data name="EjectNotificationErrorDialogHeader" xml:space="preserve">
-    <value>Проблем приликом избацивања уређаја</value>
+    <value>ÐŸÑ€Ð¾Ð±Ð»ÐµÐ¼ Ð¿Ñ€Ð¸Ð»Ð¸ÐºÐ¾Ð¼ Ð¸Ð·Ð±Ð°Ñ†Ð¸Ð²Ð°ÑšÐ° ÑƒÑ€ÐµÑ’Ð°Ñ˜Ð°</value>
   </data>
   <data name="EjectNotificationErrorDialogBody" xml:space="preserve">
-    <value>Овај уређај је тренутно у употреби. Затворите било које програме који можда користе уређај, потом покушајте поново.</value>
+    <value>ÐžÐ²Ð°Ñ˜ ÑƒÑ€ÐµÑ’Ð°Ñ˜ Ñ˜Ðµ Ñ‚Ñ€ÐµÐ½ÑƒÑ‚Ð½Ð¾ Ñƒ ÑƒÐ¿Ð¾Ñ‚Ñ€ÐµÐ±Ð¸. Ð—Ð°Ñ‚Ð²Ð¾Ñ€Ð¸Ñ‚Ðµ Ð±Ð¸Ð»Ð¾ ÐºÐ¾Ñ˜Ðµ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ðµ ÐºÐ¾Ñ˜Ð¸ Ð¼Ð¾Ð¶Ð´Ð° ÐºÐ¾Ñ€Ð¸ÑÑ‚Ðµ ÑƒÑ€ÐµÑ’Ð°Ñ˜, Ð¿Ð¾Ñ‚Ð¾Ð¼ Ð¿Ð¾ÐºÑƒÑˆÐ°Ñ˜Ñ‚Ðµ Ð¿Ð¾Ð½Ð¾Ð²Ð¾.</value>
   </data>
   <data name="Eject" xml:space="preserve">
     <value>Eject</value>
@@ -1038,25 +1038,25 @@
     <value>Duplicate tab</value>
   </data>
   <data name="HorizontalMultitaskingControlMoveTabToNewWindow.Text" xml:space="preserve">
-    <value>Премести картицу у нови прозор</value>
+    <value>ÐŸÑ€ÐµÐ¼ÐµÑÑ‚Ð¸ ÐºÐ°Ñ€Ñ‚Ð¸Ñ†Ñƒ Ñƒ Ð½Ð¾Ð²Ð¸ Ð¿Ñ€Ð¾Ð·Ð¾Ñ€</value>
   </data>
   <data name="NewTab" xml:space="preserve">
     <value>New tab</value>
   </data>
   <data name="ClearPropertiesFlyoutText.Text" xml:space="preserve">
-    <value>Нека од својстава можда садрже личне податке.</value>
+    <value>ÐÐµÐºÐ° Ð¾Ð´ ÑÐ²Ð¾Ñ˜ÑÑ‚Ð°Ð²Ð° Ð¼Ð¾Ð¶Ð´Ð° ÑÐ°Ð´Ñ€Ð¶Ðµ Ð»Ð¸Ñ‡Ð½Ðµ Ð¿Ð¾Ð´Ð°Ñ‚ÐºÐµ.</value>
   </data>
   <data name="ClearPropertiesButton.Content" xml:space="preserve">
-    <value>Очисти сва својства</value>
+    <value>ÐžÑ‡Ð¸ÑÑ‚Ð¸ ÑÐ²Ð° ÑÐ²Ð¾Ñ˜ÑÑ‚Ð²Ð°</value>
   </data>
   <data name="OngoingTasksTeachingTip.Subtitle" xml:space="preserve">
-    <value>Проверите статус радњи овде</value>
+    <value>ÐŸÑ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚Ðµ ÑÑ‚Ð°Ñ‚ÑƒÑ Ñ€Ð°Ð´ÑšÐ¸ Ð¾Ð²Ð´Ðµ</value>
   </data>
   <data name="OngoingTasksTeachingTip.Title" xml:space="preserve">
     <value>Status center</value>
   </data>
   <data name="SearchPagePathBoxOverrideText" xml:space="preserve">
-    <value>Резултати претраге "{0}" у фасцикли {1}</value>
+    <value>Ð ÐµÐ·ÑƒÐ»Ñ‚Ð°Ñ‚Ð¸ Ð¿Ñ€ÐµÑ‚Ñ€Ð°Ð³Ðµ "{0}" Ñƒ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð¸ {1}</value>
   </data>
   <data name="SearchResultsFor" xml:space="preserve">
     <value>Search results for `{0}`</value>
@@ -1065,16 +1065,16 @@
     <value>Details</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>Не</value>
+    <value>ÐÐµ</value>
   </data>
   <data name="ShowProtectedSystemFiles" xml:space="preserve">
-    <value>Прикажи заштићене системске датотеке</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ð·Ð°ÑˆÑ‚Ð¸Ñ›ÐµÐ½Ðµ ÑÐ¸ÑÑ‚ÐµÐ¼ÑÐºÐµ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
   <data name="SyncFolderPreferencesAcrossDirectories" xml:space="preserve">
     <value>Sync layout and sorting preferences across directories</value>
   </data>
   <data name="SettingsContextMenu.Text" xml:space="preserve">
-    <value>Подеси мени за десни клик</value>
+    <value>ÐŸÐ¾Ð´ÐµÑÐ¸ Ð¼ÐµÐ½Ð¸ Ð·Ð° Ð´ÐµÑÐ½Ð¸ ÐºÐ»Ð¸Ðº</value>
   </data>
   <data name="OriginalPath" xml:space="preserve">
     <value>Original path</value>
@@ -1089,25 +1089,25 @@
     <value>Remove</value>
   </data>
   <data name="SettingsMultitaskingAlwaysOpenDualPane" xml:space="preserve">
-    <value>Отварај табове на другој страни прозора</value>
+    <value>ÐžÑ‚Ð²Ð°Ñ€Ð°Ñ˜ Ñ‚Ð°Ð±Ð¾Ð²Ðµ Ð½Ð° Ð´Ñ€ÑƒÐ³Ð¾Ñ˜ ÑÑ‚Ñ€Ð°Ð½Ð¸ Ð¿Ñ€Ð¾Ð·Ð¾Ñ€Ð°</value>
   </data>
   <data name="ShowOpenInNewPane" xml:space="preserve">
-    <value>Прикажи опцију за отварање фасцикли у новој траци</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ð¾Ð¿Ñ†Ð¸Ñ˜Ñƒ Ð·Ð° Ð¾Ñ‚Ð²Ð°Ñ€Ð°ÑšÐµ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð¸ Ñƒ Ð½Ð¾Ð²Ð¾Ñ˜ Ñ‚Ñ€Ð°Ñ†Ð¸</value>
   </data>
   <data name="ShowCopyPath" xml:space="preserve">
-    <value>Прикажи опцију за копирање путање</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ð¾Ð¿Ñ†Ð¸Ñ˜Ñƒ Ð·Ð° ÐºÐ¾Ð¿Ð¸Ñ€Ð°ÑšÐµ Ð¿ÑƒÑ‚Ð°ÑšÐµ</value>
   </data>
   <data name="ShowCreateFolderWithSelection" xml:space="preserve">
-    <value>Прикажи опцију за прављење фасцикле са изабраним датотекама</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ð¾Ð¿Ñ†Ð¸Ñ˜Ñƒ Ð·Ð° Ð¿Ñ€Ð°Ð²Ñ™ÐµÑšÐµ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ðµ ÑÐ° Ð¸Ð·Ð°Ð±Ñ€Ð°Ð½Ð¸Ð¼ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°Ð¼Ð°</value>
   </data>
   <data name="ShowCreateShortcut" xml:space="preserve">
-    <value>Прикажи опцију за прављење пречице</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ð¾Ð¿Ñ†Ð¸Ñ˜Ñƒ Ð·Ð° Ð¿Ñ€Ð°Ð²Ñ™ÐµÑšÐµ Ð¿Ñ€ÐµÑ‡Ð¸Ñ†Ðµ</value>
   </data>
   <data name="NavigationToolbarNewPane.Label" xml:space="preserve">
     <value>New pane</value>
   </data>
   <data name="OpenInNewPane" xml:space="preserve">
-    <value>Отвори у новој траци</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸ Ñƒ Ð½Ð¾Ð²Ð¾Ñ˜ Ñ‚Ñ€Ð°Ñ†Ð¸</value>
   </data>
   <data name="OpenInOtherPane" xml:space="preserve">
     <value>Open in other pane</value>
@@ -1116,7 +1116,7 @@
     <value>Open current folder in other pane</value>
   </data>
   <data name="FilesAndFolders" xml:space="preserve">
-    <value>Датотеке и фасцикле</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ Ð¸ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ðµ</value>
   </data>
   <data name="NavToolbarDetails.ToolTipService.ToolTip" xml:space="preserve">
     <value>Details (Ctrl+Shift+1)</value>
@@ -1128,10 +1128,10 @@
     <value>Cloud Drives</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>Потврди</value>
+    <value>ÐŸÐ¾Ñ‚Ð²Ñ€Ð´Ð¸</value>
   </data>
   <data name="DesiredName" xml:space="preserve">
-    <value>Жељено име</value>
+    <value>Ð–ÐµÑ™ÐµÐ½Ð¾ Ð¸Ð¼Ðµ</value>
   </data>
   <data name="TogglePreviewPane" xml:space="preserve">
     <value>Toggle the preview pane</value>
@@ -1167,58 +1167,58 @@
     <value>Toggle dual pane mode</value>
   </data>
   <data name="DetailsPanePreviewNotAvaliableText" xml:space="preserve">
-    <value>Брзи преглед датотеке није доступан</value>
+    <value>Ð‘Ñ€Ð·Ð¸ Ð¿Ñ€ÐµÐ³Ð»ÐµÐ´ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ Ð½Ð¸Ñ˜Ðµ Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð°Ð½</value>
   </data>
   <data name="PropertyItemName" xml:space="preserve">
-    <value>Име ставке</value>
+    <value>Ð˜Ð¼Ðµ ÑÑ‚Ð°Ð²ÐºÐµ</value>
   </data>
   <data name="Unpin" xml:space="preserve">
     <value>Unpin</value>
   </data>
   <data name="UnpinFolderFromSidebar" xml:space="preserve">
-    <value>Откачи са леве траке</value>
+    <value>ÐžÑ‚ÐºÐ°Ñ‡Ð¸ ÑÐ° Ð»ÐµÐ²Ðµ Ñ‚Ñ€Ð°ÐºÐµ</value>
   </data>
   <data name="Network" xml:space="preserve">
-    <value>Мрежа</value>
+    <value>ÐœÑ€ÐµÐ¶Ð°</value>
   </data>
   <data name="PreviewPaneFileDetails.AutomationProperties.Name" xml:space="preserve">
-    <value>Детаљи о датотеци</value>
+    <value>Ð”ÐµÑ‚Ð°Ñ™Ð¸ Ð¾ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÑ†Ð¸</value>
   </data>
   <data name="PreviewPaneFilePreview.AutomationProperties.Name" xml:space="preserve">
-    <value>Брзи преглед датотеке</value>
+    <value>Ð‘Ñ€Ð·Ð¸ Ð¿Ñ€ÐµÐ³Ð»ÐµÐ´ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
   <data name="SelectedFilePreviewPane.AutomationProperties.Name" xml:space="preserve">
-    <value>Изабран је пано за брзо прегледање датотека</value>
+    <value>Ð˜Ð·Ð°Ð±Ñ€Ð°Ð½ Ñ˜Ðµ Ð¿Ð°Ð½Ð¾ Ð·Ð° Ð±Ñ€Ð·Ð¾ Ð¿Ñ€ÐµÐ³Ð»ÐµÐ´Ð°ÑšÐµ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="Feedback" xml:space="preserve">
-    <value>Повратне информације</value>
+    <value>ÐŸÐ¾Ð²Ñ€Ð°Ñ‚Ð½Ðµ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="CloudDriveSyncStatus_Online" xml:space="preserve">
-    <value>Доступно на мрежи</value>
+    <value>Ð”Ð¾ÑÑ‚ÑƒÐ¿Ð½Ð¾ Ð½Ð° Ð¼Ñ€ÐµÐ¶Ð¸</value>
   </data>
   <data name="Documentation" xml:space="preserve">
-    <value>Документација</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð°Ñ†Ð¸Ñ˜Ð°</value>
   </data>
   <data name="CloudDriveSyncStatus_Offline" xml:space="preserve">
-    <value>Доступно офлајн</value>
+    <value>Ð”Ð¾ÑÑ‚ÑƒÐ¿Ð½Ð¾ Ð¾Ñ„Ð»Ð°Ñ˜Ð½</value>
   </data>
   <data name="CloudDriveSyncStatus_PartialOffline" xml:space="preserve">
-    <value>Делом доступно офлајн</value>
+    <value>Ð”ÐµÐ»Ð¾Ð¼ Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð½Ð¾ Ð¾Ñ„Ð»Ð°Ñ˜Ð½</value>
   </data>
   <data name="CloudDriveSyncStatus_Sync" xml:space="preserve">
-    <value>Синхронизација у току</value>
+    <value>Ð¡Ð¸Ð½Ñ…Ñ€Ð¾Ð½Ð¸Ð·Ð°Ñ†Ð¸Ñ˜Ð° Ñƒ Ñ‚Ð¾ÐºÑƒ</value>
   </data>
   <data name="CloudDriveSyncStatus_Excluded" xml:space="preserve">
-    <value>Изузето од синхронизовања</value>
+    <value>Ð˜Ð·ÑƒÐ·ÐµÑ‚Ð¾ Ð¾Ð´ ÑÐ¸Ð½Ñ…Ñ€Ð¾Ð½Ð¸Ð·Ð¾Ð²Ð°ÑšÐ°</value>
   </data>
   <data name="ItemSizeNotCalculated" xml:space="preserve">
-    <value>Није израчунато</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¸Ð·Ñ€Ð°Ñ‡ÑƒÐ½Ð°Ñ‚Ð¾</value>
   </data>
   <data name="ViewSize" xml:space="preserve">
     <value>View size</value>
   </data>
   <data name="CloudDriveSyncStatus_Unknown" xml:space="preserve">
-    <value>Непознато</value>
+    <value>ÐÐµÐ¿Ð¾Ð·Ð½Ð°Ñ‚Ð¾</value>
   </data>
   <data name="RenameFileDialogText" xml:space="preserve">
     <value>If you change a file extension, the file might become unusable. Are you sure you want to change it?</value>
@@ -1248,28 +1248,28 @@
     <value>Removable Storage Device</value>
   </data>
   <data name="DriveTypeUnknown" xml:space="preserve">
-    <value>Непознато</value>
+    <value>ÐÐµÐ¿Ð¾Ð·Ð½Ð°Ñ‚Ð¾</value>
   </data>
   <data name="DriveTypeVirtualDrive" xml:space="preserve">
     <value>Virtual Drive</value>
   </data>
   <data name="DateCreated" xml:space="preserve">
-    <value>Датум креирања</value>
+    <value>Ð”Ð°Ñ‚ÑƒÐ¼ ÐºÑ€ÐµÐ¸Ñ€Ð°ÑšÐ°</value>
   </data>
   <data name="MoreOptions" xml:space="preserve">
-    <value>Остале опције...</value>
+    <value>ÐžÑÑ‚Ð°Ð»Ðµ Ð¾Ð¿Ñ†Ð¸Ñ˜Ðµ...</value>
   </data>
   <data name="DrivesWidgetOptionsFlyoutMapNetDriveMenuItemText" xml:space="preserve">
     <value>Map network drive</value>
   </data>
   <data name="Pinned" xml:space="preserve">
-    <value>Закачено</value>
+    <value>Ð—Ð°ÐºÐ°Ñ‡ÐµÐ½Ð¾</value>
   </data>
   <data name="SidebarLibraries" xml:space="preserve">
-    <value>Библиотеке</value>
+    <value>Ð‘Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
   <data name="NoItemSelected" xml:space="preserve">
-    <value>Нема изабраних датотека</value>
+    <value>ÐÐµÐ¼Ð° Ð¸Ð·Ð°Ð±Ñ€Ð°Ð½Ð¸Ñ… Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="PropertyItemTarget" xml:space="preserve">
     <value>Target</value>
@@ -1278,19 +1278,19 @@
     <value>Arguments</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>Подразумевана тема</value>
+    <value>ÐŸÐ¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ð° Ñ‚ÐµÐ¼Ð°</value>
   </data>
   <data name="PropertyItemCount" xml:space="preserve">
-    <value>Број датотека</value>
+    <value>Ð‘Ñ€Ð¾Ñ˜ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="ElevateConfirmDialog.Title" xml:space="preserve">
-    <value>Потребна је дозвола администратора</value>
+    <value>ÐŸÐ¾Ñ‚Ñ€ÐµÐ±Ð½Ð° Ñ˜Ðµ Ð´Ð¾Ð·Ð²Ð¾Ð»Ð° Ð°Ð´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€Ð°</value>
   </data>
   <data name="ElevateConfirmDialog.Content" xml:space="preserve">
-    <value>Желиш ли да наставиш као администратор?</value>
+    <value>Ð–ÐµÐ»Ð¸Ñˆ Ð»Ð¸ Ð´Ð° Ð½Ð°ÑÑ‚Ð°Ð²Ð¸Ñˆ ÐºÐ°Ð¾ Ð°Ð´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€?</value>
   </data>
   <data name="ColumnsShortcutTooltip" xml:space="preserve">
-    <value>Колоне (Ctrl+Shift+6)</value>
+    <value>ÐšÐ¾Ð»Ð¾Ð½Ðµ (Ctrl+Shift+6)</value>
   </data>
   <data name="PinItemToStartText" xml:space="preserve">
     <value>Pin to the Start Menu</value>
@@ -1299,31 +1299,31 @@
     <value>Unpin from the Start Menu</value>
   </data>
   <data name="Library" xml:space="preserve">
-    <value>Библиотека</value>
+    <value>Ð‘Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="LibraryLocations.Text" xml:space="preserve">
-    <value>Путање:</value>
+    <value>ÐŸÑƒÑ‚Ð°ÑšÐµ:</value>
   </data>
   <data name="SetAsDefaultSavePath" xml:space="preserve">
-    <value>Постави као подразумевану путању чувања</value>
+    <value>ÐŸÐ¾ÑÑ‚Ð°Ð²Ð¸ ÐºÐ°Ð¾ Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ñƒ Ð¿ÑƒÑ‚Ð°ÑšÑƒ Ñ‡ÑƒÐ²Ð°ÑšÐ°</value>
   </data>
   <data name="LibraryNoLocations.Text" xml:space="preserve">
-    <value>Без путање</value>
+    <value>Ð‘ÐµÐ· Ð¿ÑƒÑ‚Ð°ÑšÐµ</value>
   </data>
   <data name="ErrorInputEmpty" xml:space="preserve">
-    <value>Поље не сме бити празно!</value>
+    <value>ÐŸÐ¾Ñ™Ðµ Ð½Ðµ ÑÐ¼Ðµ Ð±Ð¸Ñ‚Ð¸ Ð¿Ñ€Ð°Ð·Ð½Ð¾!</value>
   </data>
   <data name="ErrorNameInputRestrictedCharacters" xml:space="preserve">
-    <value>Назив не сме садржати следеће карактере: \ / : * ? " &lt; &gt; |</value>
+    <value>ÐÐ°Ð·Ð¸Ð² Ð½Ðµ ÑÐ¼Ðµ ÑÐ°Ð´Ñ€Ð¶Ð°Ñ‚Ð¸ ÑÐ»ÐµÐ´ÐµÑ›Ðµ ÐºÐ°Ñ€Ð°ÐºÑ‚ÐµÑ€Ðµ: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="ErrorNameInputRestricted" xml:space="preserve">
-    <value>Овај назив није дозвољен!</value>
+    <value>ÐžÐ²Ð°Ñ˜ Ð½Ð°Ð·Ð¸Ð² Ð½Ð¸Ñ˜Ðµ Ð´Ð¾Ð·Ð²Ð¾Ñ™ÐµÐ½!</value>
   </data>
   <data name="CreateLibraryErrorAlreadyExists" xml:space="preserve">
-    <value>Библиотека са овим називом већ постоји!</value>
+    <value>Ð‘Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÐ° ÑÐ° Ð¾Ð²Ð¸Ð¼ Ð½Ð°Ð·Ð¸Ð²Ð¾Ð¼ Ð²ÐµÑ› Ð¿Ð¾ÑÑ‚Ð¾Ñ˜Ð¸!</value>
   </data>
   <data name="OpenStorageSense" xml:space="preserve">
-    <value>Отвори подешавања Storage Sense</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸ Ð¿Ð¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Storage Sense</value>
   </data>
   <data name="OpenStorageSenseDescription" xml:space="preserve">
     <value>Open the Storage Sense page in Windows Settings</value>
@@ -1332,7 +1332,7 @@
     <value>Cleanup</value>
   </data>
   <data name="Copy" xml:space="preserve">
-    <value>Копирај</value>
+    <value>ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ñ˜</value>
   </data>
   <data name="CopyItemsDialogTitle" xml:space="preserve">
     <value>Copy {0, plural, one {item} other {items}}</value>
@@ -1341,7 +1341,7 @@
     <value>Delete {0, plural, one {item} other {items}}</value>
   </data>
   <data name="MoveItemsDialogPrimaryButtonText" xml:space="preserve">
-    <value>Премести</value>
+    <value>ÐŸÑ€ÐµÐ¼ÐµÑÑ‚Ð¸</value>
   </data>
   <data name="MoveItemsDialogSubtitle" xml:space="preserve">
     <value>{0, plural, one {One item will be moved} other {# items will be moved}}</value>
@@ -1368,7 +1368,7 @@
     <value>{0, plural, one {One item will be copied} other {# items will be copied}}</value>
   </data>
   <data name="DeleteItemsDialogPermanentlyDeleteCheckBox.Content" xml:space="preserve">
-    <value>Трајно обриши</value>
+    <value>Ð¢Ñ€Ð°Ñ˜Ð½Ð¾ Ð¾Ð±Ñ€Ð¸ÑˆÐ¸</value>
   </data>
   <data name="PropertyISO" xml:space="preserve">
     <value>ISO speed</value>
@@ -1446,118 +1446,118 @@
     <value>Future</value>
   </data>
   <data name="Today" xml:space="preserve">
-    <value>Данас</value>
+    <value>Ð”Ð°Ð½Ð°Ñ</value>
   </data>
   <data name="Yesterday" xml:space="preserve">
-    <value>Јуче</value>
+    <value>ÐˆÑƒÑ‡Ðµ</value>
   </data>
   <data name="EarlierThisWeek" xml:space="preserve">
-    <value>Раније ове недеље</value>
+    <value>Ð Ð°Ð½Ð¸Ñ˜Ðµ Ð¾Ð²Ðµ Ð½ÐµÐ´ÐµÑ™Ðµ</value>
   </data>
   <data name="LastWeek" xml:space="preserve">
-    <value>Прошле недеље</value>
+    <value>ÐŸÑ€Ð¾ÑˆÐ»Ðµ Ð½ÐµÐ´ÐµÑ™Ðµ</value>
   </data>
   <data name="EarlierThisMonth" xml:space="preserve">
-    <value>Раније овог месеца</value>
+    <value>Ð Ð°Ð½Ð¸Ñ˜Ðµ Ð¾Ð²Ð¾Ð³ Ð¼ÐµÑÐµÑ†Ð°</value>
   </data>
   <data name="LastMonth" xml:space="preserve">
-    <value>Прошлог месеца</value>
+    <value>ÐŸÑ€Ð¾ÑˆÐ»Ð¾Ð³ Ð¼ÐµÑÐµÑ†Ð°</value>
   </data>
   <data name="EarlierThisYear" xml:space="preserve">
-    <value>Раније ове године</value>
+    <value>Ð Ð°Ð½Ð¸Ñ˜Ðµ Ð¾Ð²Ðµ Ð³Ð¾Ð´Ð¸Ð½Ðµ</value>
   </data>
   <data name="LastYear" xml:space="preserve">
-    <value>Прошле године</value>
+    <value>ÐŸÑ€Ð¾ÑˆÐ»Ðµ Ð³Ð¾Ð´Ð¸Ð½Ðµ</value>
   </data>
   <data name="YearN" xml:space="preserve">
-    <value>Године {0}.</value>
+    <value>Ð“Ð¾Ð´Ð¸Ð½Ðµ {0}.</value>
   </data>
   <data name="GroupItemsCount_Singular" xml:space="preserve">
-    <value>{0} датотека</value>
+    <value>{0} Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="GroupItemsCount_Plural" xml:space="preserve">
-    <value>{0} датотеке</value>
+    <value>{0} Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
   <data name="ReopenClosedTab" xml:space="preserve">
     <value>Reopen tab</value>
   </data>
   <data name="Rename" xml:space="preserve">
-    <value>Преименовање</value>
+    <value>ÐŸÑ€ÐµÐ¸Ð¼ÐµÐ½Ð¾Ð²Ð°ÑšÐµ</value>
   </data>
   <data name="Privacy" xml:space="preserve">
-    <value>Приватност</value>
+    <value>ÐŸÑ€Ð¸Ð²Ð°Ñ‚Ð½Ð¾ÑÑ‚</value>
   </data>
   <data name="TheRecycleBin" xml:space="preserve">
-    <value>Корпа за отпатке</value>
+    <value>ÐšÐ¾Ñ€Ð¿Ð° Ð·Ð° Ð¾Ñ‚Ð¿Ð°Ñ‚ÐºÐµ</value>
   </data>
   <data name="Canceling" xml:space="preserve">
-    <value>Радња се поништава</value>
+    <value>Ð Ð°Ð´ÑšÐ° ÑÐµ Ð¿Ð¾Ð½Ð¸ÑˆÑ‚Ð°Ð²Ð°</value>
   </data>
   <data name="Clear" xml:space="preserve">
-    <value>Очисти</value>
+    <value>ÐžÑ‡Ð¸ÑÑ‚Ð¸</value>
   </data>
   <data name="Widgets" xml:space="preserve">
-    <value>Виџети</value>
+    <value>Ð’Ð¸ÑŸÐµÑ‚Ð¸</value>
   </data>
   <data name="SyncStatus" xml:space="preserve">
-    <value>Статус синхронизацаије</value>
+    <value>Ð¡Ñ‚Ð°Ñ‚ÑƒÑ ÑÐ¸Ð½Ñ…Ñ€Ð¾Ð½Ð¸Ð·Ð°Ñ†Ð°Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="Security" xml:space="preserve">
-    <value>Безбедност</value>
+    <value>Ð‘ÐµÐ·Ð±ÐµÐ´Ð½Ð¾ÑÑ‚</value>
   </data>
   <data name="AdvancedPermissions" xml:space="preserve">
-    <value>Напредне дозволе</value>
+    <value>ÐÐ°Ð¿Ñ€ÐµÐ´Ð½Ðµ Ð´Ð¾Ð·Ð²Ð¾Ð»Ðµ</value>
   </data>
   <data name="Allow" xml:space="preserve">
-    <value>Дозволи</value>
+    <value>Ð”Ð¾Ð·Ð²Ð¾Ð»Ð¸</value>
   </data>
   <data name="Deny" xml:space="preserve">
-    <value>Одбиј</value>
+    <value>ÐžÐ´Ð±Ð¸Ñ˜</value>
   </data>
   <data name="SecurityFullControlLabel.Text" xml:space="preserve">
-    <value>Пун приступ</value>
+    <value>ÐŸÑƒÐ½ Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿</value>
   </data>
   <data name="SecurityListDirectoryLabel.Text" xml:space="preserve">
-    <value>Прикажи садржај фасцикле</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ ÑÐ°Ð´Ñ€Ð¶Ð°Ñ˜ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ðµ</value>
   </data>
   <data name="Modify" xml:space="preserve">
-    <value>Измени</value>
+    <value>Ð˜Ð·Ð¼ÐµÐ½Ð¸</value>
   </data>
   <data name="SecurityPermissionsHeaderText" xml:space="preserve">
-    <value>Дозволе за датотеку {0}</value>
+    <value>Ð”Ð¾Ð·Ð²Ð¾Ð»Ðµ Ð·Ð° Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÑƒ {0}</value>
   </data>
   <data name="SecurityReadAndExecuteLabel.Text" xml:space="preserve">
-    <value>Приступи и отвори</value>
+    <value>ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿Ð¸ Ð¸ Ð¾Ñ‚Ð²Ð¾Ñ€Ð¸</value>
   </data>
   <data name="SecurityReadLabel.Text" xml:space="preserve">
-    <value>Приступи</value>
+    <value>ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿Ð¸</value>
   </data>
   <data name="SecurityUsersGroupLabel.Text" xml:space="preserve">
-    <value>Група или корисничка имена</value>
+    <value>Ð“Ñ€ÑƒÐ¿Ð° Ð¸Ð»Ð¸ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ‡ÐºÐ° Ð¸Ð¼ÐµÐ½Ð°</value>
   </data>
   <data name="Write" xml:space="preserve">
-    <value>Измени</value>
+    <value>Ð˜Ð·Ð¼ÐµÐ½Ð¸</value>
   </data>
   <data name="SecurityUnknownAccount" xml:space="preserve">
-    <value>Непознат налог</value>
+    <value>ÐÐµÐ¿Ð¾Ð·Ð½Ð°Ñ‚ Ð½Ð°Ð»Ð¾Ð³</value>
   </data>
   <data name="SecurityCannotReadPropertiesText" xml:space="preserve">
     <value>You do not have permissions to view the security properties of this object. Click "Advanced permissions" to proceed.</value>
   </data>
   <data name="SecurityOwnerLabel.Text" xml:space="preserve">
-    <value>Власник:</value>
+    <value>Ð’Ð»Ð°ÑÐ½Ð¸Ðº:</value>
   </data>
   <data name="SecurityUnknownOwnerTextText" xml:space="preserve">
     <value>Unknown owner</value>
   </data>
   <data name="ExtractArchive" xml:space="preserve">
-    <value>Отпакуј архиву</value>
+    <value>ÐžÑ‚Ð¿Ð°ÐºÑƒÑ˜ Ð°Ñ€Ñ…Ð¸Ð²Ñƒ</value>
   </data>
   <data name="DecompressArchiveDialogOpenDestinationWhenComplete.Content" xml:space="preserve">
-    <value>Отвори фасциклу чим се архива отпакује</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ñƒ Ñ‡Ð¸Ð¼ ÑÐµ Ð°Ñ€Ñ…Ð¸Ð²Ð° Ð¾Ñ‚Ð¿Ð°ÐºÑƒÑ˜Ðµ</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutExtractToChildFolder" xml:space="preserve">
-    <value>Отпакуј у фасциклу {0}\</value>
+    <value>ÐžÑ‚Ð¿Ð°ÐºÑƒÑ˜ Ñƒ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ñƒ {0}\</value>
   </data>
   <data name="SideBarCreateNewLibraryText" xml:space="preserve">
     <value>Create new library</value>
@@ -1566,37 +1566,37 @@
     <value>Restore default libraries</value>
   </data>
   <data name="DialogRestoreLibrariesSubtitleText" xml:space="preserve">
-    <value>Желиш ли да вратиш подразумеване библиотеке? Твоје датотеке ће бити нетакнуте.</value>
+    <value>Ð–ÐµÐ»Ð¸Ñˆ Ð»Ð¸ Ð´Ð° Ð²Ñ€Ð°Ñ‚Ð¸Ñˆ Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ðµ Ð±Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÐµ? Ð¢Ð²Ð¾Ñ˜Ðµ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ Ñ›Ðµ Ð±Ð¸Ñ‚Ð¸ Ð½ÐµÑ‚Ð°ÐºÐ½ÑƒÑ‚Ðµ.</value>
   </data>
   <data name="DialogRestoreLibrariesTitleText" xml:space="preserve">
-    <value>Врати подразумеване библиотеке</value>
+    <value>Ð’Ñ€Ð°Ñ‚Ð¸ Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ðµ Ð±Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
   <data name="PropertyFileOwner" xml:space="preserve">
-    <value>Власник</value>
+    <value>Ð’Ð»Ð°ÑÐ½Ð¸Ðº</value>
   </data>
   <data name="SecuritySpecialLabelText" xml:space="preserve">
     <value>Special</value>
   </data>
   <data name="Access" xml:space="preserve">
-    <value>Приступ</value>
+    <value>ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿</value>
   </data>
   <data name="SecurityAdvancedAppliesTo" xml:space="preserve">
-    <value>Односи се на</value>
+    <value>ÐžÐ´Ð½Ð¾ÑÐ¸ ÑÐµ Ð½Ð°</value>
   </data>
   <data name="Principal" xml:space="preserve">
-    <value>Главни</value>
+    <value>Ð“Ð»Ð°Ð²Ð½Ð¸</value>
   </data>
   <data name="SecurityAdvancedFlagsFilesLabel" xml:space="preserve">
-    <value>датотеке</value>
+    <value>Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
   <data name="SecurityAdvancedFlagsFolderLabel" xml:space="preserve">
-    <value>ова фасцикла</value>
+    <value>Ð¾Ð²Ð° Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð°</value>
   </data>
   <data name="SecurityAdvancedFlagsSubfoldersLabel" xml:space="preserve">
-    <value>подфасцикле</value>
+    <value>Ð¿Ð¾Ð´Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ðµ</value>
   </data>
   <data name="Inherited" xml:space="preserve">
-    <value>Наслеђено</value>
+    <value>ÐÐ°ÑÐ»ÐµÑ’ÐµÐ½Ð¾</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Permissions</value>
@@ -1701,7 +1701,7 @@
     <value>Company</value>
   </data>
   <data name="PropertyLanguage" xml:space="preserve">
-    <value>Језик</value>
+    <value>ÐˆÐµÐ·Ð¸Ðº</value>
   </data>
   <data name="PropertyTrademarks" xml:space="preserve">
     <value>Trademarks</value>
@@ -1746,28 +1746,28 @@
     <value>Home</value>
   </data>
   <data name="ArchiveExtractionCompletedSuccessfullyText" xml:space="preserve">
-    <value>Архива је успешно отпакована.</value>
+    <value>ÐÑ€Ñ…Ð¸Ð²Ð° Ñ˜Ðµ ÑƒÑÐ¿ÐµÑˆÐ½Ð¾ Ð¾Ñ‚Ð¿Ð°ÐºÐ¾Ð²Ð°Ð½Ð°.</value>
   </data>
   <data name="ExtractingArchiveText" xml:space="preserve">
-    <value>У току је отпакивање архиве...</value>
+    <value>Ð£ Ñ‚Ð¾ÐºÑƒ Ñ˜Ðµ Ð¾Ñ‚Ð¿Ð°ÐºÐ¸Ð²Ð°ÑšÐµ Ð°Ñ€Ñ…Ð¸Ð²Ðµ...</value>
   </data>
   <data name="ExtractingCompleteText" xml:space="preserve">
-    <value>Отпакивање завршено!</value>
+    <value>ÐžÑ‚Ð¿Ð°ÐºÐ¸Ð²Ð°ÑšÐµ Ð·Ð°Ð²Ñ€ÑˆÐµÐ½Ð¾!</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutOpenParentFolderText" xml:space="preserve">
     <value>Open parent folder</value>
   </data>
   <data name="Unknown" xml:space="preserve">
-    <value>Непознато</value>
+    <value>ÐÐµÐ¿Ð¾Ð·Ð½Ð°Ñ‚Ð¾</value>
   </data>
   <data name="EditTags" xml:space="preserve">
-    <value>Измени ознаке</value>
+    <value>Ð˜Ð·Ð¼ÐµÐ½Ð¸ Ð¾Ð·Ð½Ð°ÐºÐµ</value>
   </data>
   <data name="PropertyPartOfSet" xml:space="preserve">
-    <value>Део</value>
+    <value>Ð”ÐµÐ¾</value>
   </data>
   <data name="InsertDiscDialog.OpenDriveButton" xml:space="preserve">
-    <value>Отвори диск</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸ Ð´Ð¸ÑÐº</value>
   </data>
   <data name="InsertDiscDialogText" xml:space="preserve">
     <value>Please insert a disc into drive {0}</value>
@@ -1776,16 +1776,16 @@
     <value>Insert a disc</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>У реду</value>
+    <value>Ð£ Ñ€ÐµÐ´Ñƒ</value>
   </data>
   <data name="AskCredentialDialog.Title" xml:space="preserve">
-    <value>Лозинка је потребна</value>
+    <value>Ð›Ð¾Ð·Ð¸Ð½ÐºÐ° Ñ˜Ðµ Ð¿Ð¾Ñ‚Ñ€ÐµÐ±Ð½Ð°</value>
   </data>
   <data name="CredentialDialogAnonymous.Content" xml:space="preserve">
-    <value>Непознат</value>
+    <value>ÐÐµÐ¿Ð¾Ð·Ð½Ð°Ñ‚</value>
   </data>
   <data name="CredentialDialogDescription.Text" xml:space="preserve">
-    <value>Унеси податке:</value>
+    <value>Ð£Ð½ÐµÑÐ¸ Ð¿Ð¾Ð´Ð°Ñ‚ÐºÐµ:</value>
   </data>
   <data name="CredentialDialogIncorrectPassword" xml:space="preserve">
     <value>The password is incorrect. Try again.</value>
@@ -1797,7 +1797,7 @@
     <value>This location is password protected. Refresh to enter the password.</value>
   </data>
   <data name="CredentialDialogUserName.PlaceholderText" xml:space="preserve">
-    <value>Корисничко име</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ‡ÐºÐ¾ Ð¸Ð¼Ðµ</value>
   </data>
   <data name="NoSearchResultsFound" xml:space="preserve">
     <value>No items found</value>
@@ -1881,7 +1881,7 @@
     <value>Restore default</value>
   </data>
   <data name="OpenTabInExistingInstance" xml:space="preserve">
-    <value>Отвори таб у већ отвореној инстанци када се апликација отвара из другог извора</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸ Ñ‚Ð°Ð± Ñƒ Ð²ÐµÑ› Ð¾Ñ‚Ð²Ð¾Ñ€ÐµÐ½Ð¾Ñ˜ Ð¸Ð½ÑÑ‚Ð°Ð½Ñ†Ð¸ ÐºÐ°Ð´Ð° ÑÐµ Ð°Ð¿Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð° Ð¾Ñ‚Ð²Ð°Ñ€Ð° Ð¸Ð· Ð´Ñ€ÑƒÐ³Ð¾Ð³ Ð¸Ð·Ð²Ð¾Ñ€Ð°</value>
   </data>
   <data name="StartupSettings" xml:space="preserve">
     <value>Startup settings</value>
@@ -1899,7 +1899,7 @@
     <value>On this program start</value>
   </data>
   <data name="System" xml:space="preserve">
-    <value>Формат по систему</value>
+    <value>Ð¤Ð¾Ñ€Ð¼Ð°Ñ‚ Ð¿Ð¾ ÑÐ¸ÑÑ‚ÐµÐ¼Ñƒ</value>
   </data>
   <data name="CompatibilitySystemEnhanced" xml:space="preserve">
     <value>System (Enhanced)</value>
@@ -1938,7 +1938,7 @@
     <value>Maximized</value>
   </data>
   <data name="RunAsAdministrator" xml:space="preserve">
-    <value>Покрени као администратор</value>
+    <value>ÐŸÐ¾ÐºÑ€ÐµÐ½Ð¸ ÐºÐ°Ð¾ Ð°Ð´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€</value>
   </data>
   <data name="CompatibilityRunTroubleshooter" xml:space="preserve">
     <value>Run compatibility troubleshooter</value>
@@ -1974,7 +1974,7 @@
     <value>Enter Library name</value>
   </data>
   <data name="CalculateFolderSizes" xml:space="preserve">
-    <value>Рачунај величине фасцикли</value>
+    <value>Ð Ð°Ñ‡ÑƒÐ½Ð°Ñ˜ Ð²ÐµÐ»Ð¸Ñ‡Ð¸Ð½Ðµ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð¸</value>
   </data>
   <data name="RecentFiles" xml:space="preserve">
     <value>Recent files</value>
@@ -1986,7 +1986,7 @@
     <value>Attributes</value>
   </data>
   <data name="Hidden" xml:space="preserve">
-    <value>Сакривено</value>
+    <value>Ð¡Ð°ÐºÑ€Ð¸Ð²ÐµÐ½Ð¾</value>
   </data>
   <data name="MoreDetails" xml:space="preserve">
     <value>More details</value>
@@ -2004,7 +2004,7 @@
     <value>Bytes</value>
   </data>
   <data name="Extract" xml:space="preserve">
-    <value>Отпакуј</value>
+    <value>ÐžÑ‚Ð¿Ð°ÐºÑƒÑ˜</value>
   </data>
   <data name="ExtractFiles" xml:space="preserve">
     <value>Extract files</value>
@@ -2025,7 +2025,7 @@
     <value>Run with PowerShell</value>
   </data>
   <data name="ShowFolderSizesWarning" xml:space="preserve">
-    <value>Рачунање величина фасцикли је захтевно и можда ће повисити употребу процесора.</value>
+    <value>Ð Ð°Ñ‡ÑƒÐ½Ð°ÑšÐµ Ð²ÐµÐ»Ð¸Ñ‡Ð¸Ð½Ð° Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð¸ Ñ˜Ðµ Ð·Ð°Ñ…Ñ‚ÐµÐ²Ð½Ð¾ Ð¸ Ð¼Ð¾Ð¶Ð´Ð° Ñ›Ðµ Ð¿Ð¾Ð²Ð¸ÑÐ¸Ñ‚Ð¸ ÑƒÐ¿Ð¾Ñ‚Ñ€ÐµÐ±Ñƒ Ð¿Ñ€Ð¾Ñ†ÐµÑÐ¾Ñ€Ð°.</value>
   </data>
   <data name="RotateLeft" xml:space="preserve">
     <value>Rotate left</value>
@@ -2049,7 +2049,7 @@
     <value>Close all tabs</value>
   </data>
   <data name="Music" xml:space="preserve">
-    <value>Музика</value>
+    <value>ÐœÑƒÐ·Ð¸ÐºÐ°</value>
   </data>
   <data name="Pictures" xml:space="preserve">
     <value>Pictures</value>
@@ -2058,16 +2058,16 @@
     <value>Update Files</value>
   </data>
   <data name="FileTags" xml:space="preserve">
-    <value>Ознаке</value>
+    <value>ÐžÐ·Ð½Ð°ÐºÐµ</value>
   </data>
   <data name="Universal" xml:space="preserve">
-    <value>Универзални формат</value>
+    <value>Ð£Ð½Ð¸Ð²ÐµÑ€Ð·Ð°Ð»Ð½Ð¸ Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚</value>
   </data>
   <data name="DateFormatSample" xml:space="preserve">
     <value>ex: {0}, {1}</value>
   </data>
   <data name="SettingsFilesAndFoldersShowThumbnails" xml:space="preserve">
-    <value>Прикажи сличице</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ ÑÐ»Ð¸Ñ‡Ð¸Ñ†Ðµ</value>
   </data>
   <data name="Retry" xml:space="preserve">
     <value>Retry</value>
@@ -2076,7 +2076,7 @@
     <value>Move operation is not supported in this context. Do you want to copy the items instead?</value>
   </data>
   <data name="HiddenItems" xml:space="preserve">
-    <value>Скривене ставке</value>
+    <value>Ð¡ÐºÑ€Ð¸Ð²ÐµÐ½Ðµ ÑÑ‚Ð°Ð²ÐºÐµ</value>
   </data>
   <data name="Custom" xml:space="preserve">
     <value>Custom</value>
@@ -2112,7 +2112,7 @@
     <value>Show alternate data streams</value>
   </data>
   <data name="Behaviors" xml:space="preserve">
-    <value>Понашање</value>
+    <value>ÐŸÐ¾Ð½Ð°ÑˆÐ°ÑšÐµ</value>
   </data>
   <data name="Hello" xml:space="preserve">
     <value>Hello!</value>
@@ -2172,7 +2172,7 @@
     <value>Folders in Columns View</value>
   </data>
   <data name="OpeningItems" xml:space="preserve">
-    <value>При отварању датотека</value>
+    <value>ÐŸÑ€Ð¸ Ð¾Ñ‚Ð²Ð°Ñ€Ð°ÑšÑƒ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="Compress" xml:space="preserve">
     <value>Compress</value>
@@ -2193,7 +2193,7 @@
     <value>Show flatten options</value>
   </data>
   <data name="SelectFilesAndFoldersOnHover" xml:space="preserve">
-    <value>Селектуј датотеке и фасцикле преласком миша</value>
+    <value>Ð¡ÐµÐ»ÐµÐºÑ‚ÑƒÑ˜ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ Ð¸ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ðµ Ð¿Ñ€ÐµÐ»Ð°ÑÐºÐ¾Ð¼ Ð¼Ð¸ÑˆÐ°</value>
   </data>
   <data name="ConfirmRestoreBinDialogContent" xml:space="preserve">
     <value>Are you sure you want to restore all items in the recycle bin?</value>
@@ -2253,7 +2253,7 @@
     <value>Create 7z archive</value>
   </data>
   <data name="Create" xml:space="preserve">
-    <value>Креирај</value>
+    <value>ÐšÑ€ÐµÐ¸Ñ€Ð°Ñ˜</value>
   </data>
   <data name="CreateNamedArchive" xml:space="preserve">
     <value>Create {0}</value>
@@ -2322,16 +2322,16 @@
     <value>Password</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Формат</value>
+    <value>Ð¤Ð¾Ñ€Ð¼Ð°Ñ‚</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowSyncStatus.Text" xml:space="preserve">
     <value>Sync status column</value>
   </data>
   <data name="GroupBy" xml:space="preserve">
-    <value>Групиши по</value>
+    <value>Ð“Ñ€ÑƒÐ¿Ð¸ÑˆÐ¸ Ð¿Ð¾</value>
   </data>
   <data name="SortBy" xml:space="preserve">
-    <value>Сортирај по</value>
+    <value>Ð¡Ð¾Ñ€Ñ‚Ð¸Ñ€Ð°Ñ˜ Ð¿Ð¾</value>
   </data>
   <data name="GroupInDescendingOrder" xml:space="preserve">
     <value>Group in descending order</value>
@@ -2376,28 +2376,28 @@
     <value>The specified item name is invalid</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Подешавања</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ°</value>
   </data>
   <data name="DoubleClickBlankSpaceToGoUp" xml:space="preserve">
-    <value>Дуплим кликом на празан простор врати се корак уназад</value>
+    <value>Ð”ÑƒÐ¿Ð»Ð¸Ð¼ ÐºÐ»Ð¸ÐºÐ¾Ð¼ Ð½Ð° Ð¿Ñ€Ð°Ð·Ð°Ð½ Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ñ€ Ð²Ñ€Ð°Ñ‚Ð¸ ÑÐµ ÐºÐ¾Ñ€Ð°Ðº ÑƒÐ½Ð°Ð·Ð°Ð´</value>
   </data>
   <data name="ViewMore" xml:space="preserve">
     <value>View more</value>
   </data>
   <data name="ShowEditTagsMenu" xml:space="preserve">
-    <value>Прикажи опције за измену ознака</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ð¾Ð¿Ñ†Ð¸Ñ˜Ðµ Ð·Ð° Ð¸Ð·Ð¼ÐµÐ½Ñƒ Ð¾Ð·Ð½Ð°ÐºÐ°</value>
   </data>
   <data name="ShowCompressionOptions" xml:space="preserve">
-    <value>Прикажи опције за архивирање</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ð¾Ð¿Ñ†Ð¸Ñ˜Ðµ Ð·Ð° Ð°Ñ€Ñ…Ð¸Ð²Ð¸Ñ€Ð°ÑšÐµ</value>
   </data>
   <data name="ShowSendToMenu" xml:space="preserve">
-    <value>Прикажи мени "Пошаљи у"</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ð¼ÐµÐ½Ð¸ "ÐŸÐ¾ÑˆÐ°Ñ™Ð¸ Ñƒ"</value>
   </data>
   <data name="ShowOpenInNewTab" xml:space="preserve">
-    <value>Прикажи опцију за отварање фасцикли у новом табу</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ð¾Ð¿Ñ†Ð¸Ñ˜Ñƒ Ð·Ð° Ð¾Ñ‚Ð²Ð°Ñ€Ð°ÑšÐµ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð¸ Ñƒ Ð½Ð¾Ð²Ð¾Ð¼ Ñ‚Ð°Ð±Ñƒ</value>
   </data>
   <data name="ShowOpenInNewWindow" xml:space="preserve">
-    <value>Прикажи опцију за отварање фасцикли у новом прозору</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ð¾Ð¿Ñ†Ð¸Ñ˜Ñƒ Ð·Ð° Ð¾Ñ‚Ð²Ð°Ñ€Ð°ÑšÐµ Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð¸ Ñƒ Ð½Ð¾Ð²Ð¾Ð¼ Ð¿Ñ€Ð¾Ð·Ð¾Ñ€Ñƒ</value>
   </data>
   <data name="QuickAccess" xml:space="preserve">
     <value>Quick access</value>
@@ -2421,7 +2421,7 @@
     <value>Windows version</value>
   </data>
   <data name="Always" xml:space="preserve">
-    <value>Увек</value>
+    <value>Ð£Ð²ÐµÐº</value>
   </data>
   <data name="PermanentDeletionOnly" xml:space="preserve">
     <value>Permanent deletion only</value>
@@ -2433,22 +2433,22 @@
     <value>Tag color</value>
   </data>
   <data name="NewTag" xml:space="preserve">
-    <value>Нова ознака</value>
+    <value>ÐÐ¾Ð²Ð° Ð¾Ð·Ð½Ð°ÐºÐ°</value>
   </data>
   <data name="CreateNewTag" xml:space="preserve">
-    <value>Креирај нову ознаку</value>
+    <value>ÐšÑ€ÐµÐ¸Ñ€Ð°Ñ˜ Ð½Ð¾Ð²Ñƒ Ð¾Ð·Ð½Ð°ÐºÑƒ</value>
   </data>
   <data name="Loading" xml:space="preserve">
     <value>Loading...</value>
   </data>
   <data name="ContextMenuOptions" xml:space="preserve">
-    <value>Подешавања контекстуалног менија</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° ÐºÐ¾Ð½Ñ‚ÐµÐºÑÑ‚ÑƒÐ°Ð»Ð½Ð¾Ð³ Ð¼ÐµÐ½Ð¸Ñ˜Ð°</value>
   </data>
   <data name="ShowFileExtensions" xml:space="preserve">
     <value>File extensions</value>
   </data>
   <data name="FormatDriveText" xml:space="preserve">
-    <value>Формат</value>
+    <value>Ð¤Ð¾Ñ€Ð¼Ð°Ñ‚</value>
   </data>
   <data name="Help" xml:space="preserve">
     <value>Help</value>
@@ -2481,7 +2481,7 @@
     <value>Open in Windows Terminal as administrator</value>
   </data>
   <data name="Save" xml:space="preserve">
-    <value>Сачувај</value>
+    <value>Ð¡Ð°Ñ‡ÑƒÐ²Ð°Ñ˜</value>
   </data>
   <data name="MultiSelect" xml:space="preserve">
     <value>Multiselect</value>
@@ -2888,7 +2888,7 @@
     <value>Toggle group sort direction</value>
   </data>
   <data name="NewTabDescription" xml:space="preserve">
-    <value>Отвори нову картицу</value>
+    <value>ÐžÑ‚Ð²Ð¾Ñ€Ð¸ Ð½Ð¾Ð²Ñƒ ÐºÐ°Ñ€Ñ‚Ð¸Ñ†Ñƒ</value>
   </data>
   <data name="NavigateBackDescription" xml:space="preserve">
     <value>Navigate backward</value>
@@ -2995,7 +2995,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Up" xml:space="preserve">
-    <value>Претходна фасцикла</value>
+    <value>ÐŸÑ€ÐµÑ‚Ñ…Ð¾Ð´Ð½Ð° Ñ„Ð°ÑÑ†Ð¸ÐºÐ»Ð°</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Home" xml:space="preserve">
@@ -3027,7 +3027,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Clear" xml:space="preserve">
-    <value>Очисти</value>
+    <value>ÐžÑ‡Ð¸ÑÑ‚Ð¸</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Print" xml:space="preserve">
@@ -3083,7 +3083,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserSearch" xml:space="preserve">
-    <value>Претражи</value>
+    <value>ÐŸÑ€ÐµÑ‚Ñ€Ð°Ð¶Ð¸</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserFavorites" xml:space="preserve">
@@ -3129,7 +3129,7 @@
     <value>Toggle selection</value>
   </data>
   <data name="ShowFileExtensionWarning" xml:space="preserve">
-    <value>Упозори приликом промене екстензије датотеке</value>
+    <value>Ð£Ð¿Ð¾Ð·Ð¾Ñ€Ð¸ Ð¿Ñ€Ð¸Ð»Ð¸ÐºÐ¾Ð¼ Ð¿Ñ€Ð¾Ð¼ÐµÐ½Ðµ ÐµÐºÑÑ‚ÐµÐ½Ð·Ð¸Ñ˜Ðµ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
   <data name="ThisPC" xml:space="preserve">
     <value>This PC</value>
@@ -3174,7 +3174,7 @@
     <value>Are you sure you want to move these files without their properties?</value>
   </data>
   <data name="ShowCheckboxesWhenSelectingItems" xml:space="preserve">
-    <value>Прикажи опције за селектовање приликом селектовања ставки</value>
+    <value>ÐŸÑ€Ð¸ÐºÐ°Ð¶Ð¸ Ð¾Ð¿Ñ†Ð¸Ñ˜Ðµ Ð·Ð° ÑÐµÐ»ÐµÐºÑ‚Ð¾Ð²Ð°ÑšÐµ Ð¿Ñ€Ð¸Ð»Ð¸ÐºÐ¾Ð¼ ÑÐµÐ»ÐµÐºÑ‚Ð¾Ð²Ð°ÑšÐ° ÑÑ‚Ð°Ð²ÐºÐ¸</value>
   </data>
   <data name="EditPathDescription" xml:space="preserve">
     <value>Edit path in the OmniBar</value>
@@ -3225,7 +3225,7 @@
     <value>Toggle grouping unit</value>
   </data>
   <data name="Year" xml:space="preserve">
-    <value>Година</value>
+    <value>Ð“Ð¾Ð´Ð¸Ð½Ð°</value>
   </data>
   <data name="GroupByDateUnit" xml:space="preserve">
     <value>Group by date unit</value>
@@ -3321,7 +3321,7 @@
     <value>Create a folder with the currently selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="OpenProperties" xml:space="preserve">
-    <value>Подаци о датотеци</value>
+    <value>ÐŸÐ¾Ð´Ð°Ñ†Ð¸ Ð¾ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÑ†Ð¸</value>
   </data>
   <data name="OpenClassicProperties" xml:space="preserve">
     <value>Open File Explorer properties</value>
@@ -3533,7 +3533,7 @@
     <value>Turn on BitLocker</value>
   </data>
   <data name="ManageBitLocker" xml:space="preserve">
-    <value>Управљај BitLocker подешавањима</value>
+    <value>Ð£Ð¿Ñ€Ð°Ð²Ñ™Ð°Ñ˜ BitLocker Ð¿Ð¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ¸Ð¼Ð°</value>
   </data>
   <data name="CopyFailureFileToLarge" xml:space="preserve">
     <value>The following items are too large to be copied to this drive</value>
@@ -3640,7 +3640,7 @@
     <comment>Shown in a StatusCenter card. Used as "64 MB of 1 GB processed"</comment>
   </data>
   <data name="ItemsLower" xml:space="preserve">
-    <value>ставке</value>
+    <value>ÑÑ‚Ð°Ð²ÐºÐµ</value>
   </data>
   <data name="CannotInitializeGitRepo" xml:space="preserve">
     <value>Files can't initialize this directory as a Git repository.</value>
@@ -4158,7 +4158,7 @@
     <value>Layout type</value>
   </data>
   <data name="Actions" xml:space="preserve">
-    <value>Тастерске пречице</value>
+    <value>Ð¢Ð°ÑÑ‚ÐµÑ€ÑÐºÐµ Ð¿Ñ€ÐµÑ‡Ð¸Ñ†Ðµ</value>
   </data>
   <data name="Action" xml:space="preserve">
     <value>Action</value>
@@ -4759,5 +4759,25 @@
   </data>
   <data name="ConfirmRemoveTagsDialogContent" xml:space="preserve">
     <value>Are you sure you want to remove tags from the selected items?</value>
+  </data>  <data name="SharedTagsPath" xml:space="preserve">
+    <value>Tags &amp; categories storage path</value>
+  </data>
+  <data name="SharedTagsPathDescription" xml:space="preserve">
+    <value>Requires app restart</value>
+  </data>
+  <data name="SharedTagsPathNotSet" xml:space="preserve">
+    <value>Not set (default path)</value>
+  </data>
+  <data name="SharedTagsPathInvalid" xml:space="preserve">
+    <value>Invalid path</value>
+  </data>
+  <data name="SharedTagsPathInvalidDescription" xml:space="preserve">
+    <value>The selected path is not a valid directory.</value>
+  </data>
+  <data name="SharedTagsPathRestartTitle" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="SharedTagsPathRestartMessage" xml:space="preserve">
+    <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
 </root>

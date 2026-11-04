@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,226 +118,226 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NewWindow" xml:space="preserve">
-    <value>Новае акно</value>
+    <value>ÐÐ¾Ð²Ð°Ðµ Ð°ÐºÐ½Ð¾</value>
   </data>
   <data name="CopyPath" xml:space="preserve">
-    <value>Скапіяваць шлях</value>
+    <value>Ð¡ÐºÐ°Ð¿Ñ–ÑÐ²Ð°Ñ†ÑŒ ÑˆÐ»ÑÑ…</value>
   </data>
   <data name="CopyItemPath" xml:space="preserve">
-    <value>Скапіяваць шлях файла</value>
+    <value>Ð¡ÐºÐ°Ð¿Ñ–ÑÐ²Ð°Ñ†ÑŒ ÑˆÐ»ÑÑ… Ñ„Ð°Ð¹Ð»Ð°</value>
   </data>
   <data name="CopyPathWithQuotes" xml:space="preserve">
-    <value>Скапіяваць шлях з двукоссем</value>
+    <value>Ð¡ÐºÐ°Ð¿Ñ–ÑÐ²Ð°Ñ†ÑŒ ÑˆÐ»ÑÑ… Ð· Ð´Ð²ÑƒÐºÐ¾ÑÑÐµÐ¼</value>
   </data>
   <data name="CopyItemPathWithQuotes" xml:space="preserve">
-    <value>Скапіяваць шлях выбранага файла ў двукоссях</value>
+    <value>Ð¡ÐºÐ°Ð¿Ñ–ÑÐ²Ð°Ñ†ÑŒ ÑˆÐ»ÑÑ… Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð°Ð³Ð° Ñ„Ð°Ð¹Ð»Ð° Ñž Ð´Ð²ÑƒÐºÐ¾ÑÑÑÑ…</value>
   </data>
   <data name="Browse" xml:space="preserve">
-    <value>Агляд</value>
+    <value>ÐÐ³Ð»ÑÐ´</value>
   </data>
   <data name="Size" xml:space="preserve">
-    <value>Памер</value>
+    <value>ÐŸÐ°Ð¼ÐµÑ€</value>
   </data>
   <data name="PropertiesCreated.Text" xml:space="preserve">
-    <value>Створана:</value>
+    <value>Ð¡Ñ‚Ð²Ð¾Ñ€Ð°Ð½Ð°:</value>
   </data>
   <data name="Path" xml:space="preserve">
-    <value>Шлях</value>
+    <value>Ð¨Ð»ÑÑ…</value>
   </data>
   <data name="SizeLabel" xml:space="preserve">
-    <value>Памер:</value>
+    <value>ÐŸÐ°Ð¼ÐµÑ€:</value>
   </data>
   <data name="SizeOnDiskLabel" xml:space="preserve">
-    <value>Памер на дыску:</value>
+    <value>ÐŸÐ°Ð¼ÐµÑ€ Ð½Ð° Ð´Ñ‹ÑÐºÑƒ:</value>
   </data>
   <data name="UncompressedSize" xml:space="preserve">
-    <value>Памер без сціскання:</value>
+    <value>ÐŸÐ°Ð¼ÐµÑ€ Ð±ÐµÐ· ÑÑ†Ñ–ÑÐºÐ°Ð½Ð½Ñ:</value>
   </data>
   <data name="ErrorDialogThisActionCannotBeDone" xml:space="preserve">
-    <value>Немагчыма выканаць гэта дзеянне</value>
+    <value>ÐÐµÐ¼Ð°Ð³Ñ‡Ñ‹Ð¼Ð° Ð²Ñ‹ÐºÐ°Ð½Ð°Ñ†ÑŒ Ð³ÑÑ‚Ð° Ð´Ð·ÐµÑÐ½Ð½Ðµ</value>
   </data>
   <data name="ErrorDialogTheDestinationFolder" xml:space="preserve">
-    <value>Папка назначэння</value>
+    <value>ÐŸÐ°Ð¿ÐºÐ° Ð½Ð°Ð·Ð½Ð°Ñ‡ÑÐ½Ð½Ñ</value>
   </data>
   <data name="ErrorDialogIsASubfolder" xml:space="preserve">
-    <value>гэта ўкладзеная папка зыходнай папкі</value>
+    <value>Ð³ÑÑ‚Ð° ÑžÐºÐ»Ð°Ð´Ð·ÐµÐ½Ð°Ñ Ð¿Ð°Ð¿ÐºÐ° Ð·Ñ‹Ñ…Ð¾Ð´Ð½Ð°Ð¹ Ð¿Ð°Ð¿ÐºÑ–</value>
   </data>
   <data name="Skip" xml:space="preserve">
-    <value>Прапусціць</value>
+    <value>ÐŸÑ€Ð°Ð¿ÑƒÑÑ†Ñ–Ñ†ÑŒ</value>
   </data>
   <data name="SelectAll" xml:space="preserve">
-    <value>Выбраць усё</value>
+    <value>Ð’Ñ‹Ð±Ñ€Ð°Ñ†ÑŒ ÑƒÑÑ‘</value>
   </data>
   <data name="InvertSelection" xml:space="preserve">
-    <value>Інвертаваць выбранае</value>
+    <value>Ð†Ð½Ð²ÐµÑ€Ñ‚Ð°Ð²Ð°Ñ†ÑŒ Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð°Ðµ</value>
   </data>
   <data name="ClearSelection" xml:space="preserve">
-    <value>Ачысціць выбар</value>
+    <value>ÐÑ‡Ñ‹ÑÑ†Ñ–Ñ†ÑŒ Ð²Ñ‹Ð±Ð°Ñ€</value>
   </data>
   <data name="PropertiesModified.Text" xml:space="preserve">
-    <value>Зменена:</value>
+    <value>Ð—Ð¼ÐµÐ½ÐµÐ½Ð°:</value>
   </data>
   <data name="Accessed" xml:space="preserve">
-    <value>Апошні доступ:</value>
+    <value>ÐÐ¿Ð¾ÑˆÐ½Ñ– Ð´Ð¾ÑÑ‚ÑƒÐ¿:</value>
   </data>
   <data name="RecentItemClearAllText" xml:space="preserve">
-    <value>Ачысціць усе элементы</value>
+    <value>ÐÑ‡Ñ‹ÑÑ†Ñ–Ñ†ÑŒ ÑƒÑÐµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹</value>
   </data>
   <data name="NavigationToolbarVisiblePathPlaceholderText" xml:space="preserve">
-    <value>Увядзіце шлях для пераходу або "&gt;" каб адкрыць палітру каманд</value>
+    <value>Ð£Ð²ÑÐ´Ð·Ñ–Ñ†Ðµ ÑˆÐ»ÑÑ… Ð´Ð»Ñ Ð¿ÐµÑ€Ð°Ñ…Ð¾Ð´Ñƒ Ð°Ð±Ð¾ "&gt;" ÐºÐ°Ð± Ð°Ð´ÐºÑ€Ñ‹Ñ†ÑŒ Ð¿Ð°Ð»Ñ–Ñ‚Ñ€Ñƒ ÐºÐ°Ð¼Ð°Ð½Ð´</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Пошук</value>
+    <value>ÐŸÐ¾ÑˆÑƒÐº</value>
   </data>
   <data name="SearchSettings" xml:space="preserve">
-    <value>Знайсці налады...</value>
+    <value>Ð—Ð½Ð°Ð¹ÑÑ†Ñ– Ð½Ð°Ð»Ð°Ð´Ñ‹...</value>
   </data>
   <data name="NoSearchResults" xml:space="preserve">
-    <value>Няма налад якія падыходзяць твайму запросу.</value>
+    <value>ÐÑÐ¼Ð° Ð½Ð°Ð»Ð°Ð´ ÑÐºÑ–Ñ Ð¿Ð°Ð´Ñ‹Ñ…Ð¾Ð´Ð·ÑÑ†ÑŒ Ñ‚Ð²Ð°Ð¹Ð¼Ñƒ Ð·Ð°Ð¿Ñ€Ð¾ÑÑƒ.</value>
   </data>
   <data name="RecentItemDescription.Text" xml:space="preserve">
-    <value>Тут будуць паказаны файлы, якія вы раней адкрывалі</value>
+    <value>Ð¢ÑƒÑ‚ Ð±ÑƒÐ´ÑƒÑ†ÑŒ Ð¿Ð°ÐºÐ°Ð·Ð°Ð½Ñ‹ Ñ„Ð°Ð¹Ð»Ñ‹, ÑÐºÑ–Ñ Ð²Ñ‹ Ñ€Ð°Ð½ÐµÐ¹ Ð°Ð´ÐºÑ€Ñ‹Ð²Ð°Ð»Ñ–</value>
   </data>
   <data name="RecentItemRemoveText" xml:space="preserve">
-    <value>Выдаліць гэты элемент</value>
+    <value>Ð’Ñ‹Ð´Ð°Ð»Ñ–Ñ†ÑŒ Ð³ÑÑ‚Ñ‹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚</value>
   </data>
   <data name="OpenGitHubRepo" xml:space="preserve">
-    <value>Рэпазіторый GitHub</value>
+    <value>Ð ÑÐ¿Ð°Ð·Ñ–Ñ‚Ð¾Ñ€Ñ‹Ð¹ GitHub</value>
   </data>
   <data name="About" xml:space="preserve">
-    <value>Аб праграме</value>
+    <value>ÐÐ± Ð¿Ñ€Ð°Ð³Ñ€Ð°Ð¼Ðµ</value>
   </data>
   <data name="OpenSource" xml:space="preserve">
-    <value>Адкрыты зыходны код</value>
+    <value>ÐÐ´ÐºÑ€Ñ‹Ñ‚Ñ‹ Ð·Ñ‹Ñ…Ð¾Ð´Ð½Ñ‹ ÐºÐ¾Ð´</value>
   </data>
   <data name="DateFormat" xml:space="preserve">
-    <value>Фармат даты</value>
+    <value>Ð¤Ð°Ñ€Ð¼Ð°Ñ‚ Ð´Ð°Ñ‚Ñ‹</value>
   </data>
   <data name="SettingsAppearanceTheme" xml:space="preserve">
-    <value>Тэма</value>
+    <value>Ð¢ÑÐ¼Ð°</value>
   </data>
   <data name="Font" xml:space="preserve">
-    <value>Шрыфт</value>
+    <value>Ð¨Ñ€Ñ‹Ñ„Ñ‚</value>
   </data>
   <data name="SettingsFilesAndFoldersShowFileExtensions" xml:space="preserve">
-    <value>Паказваць пашырэнні для вядомых тыпаў файлаў</value>
+    <value>ÐŸÐ°ÐºÐ°Ð·Ð²Ð°Ñ†ÑŒ Ð¿Ð°ÑˆÑ‹Ñ€ÑÐ½Ð½Ñ– Ð´Ð»Ñ Ð²ÑÐ´Ð¾Ð¼Ñ‹Ñ… Ñ‚Ñ‹Ð¿Ð°Ñž Ñ„Ð°Ð¹Ð»Ð°Ñž</value>
   </data>
   <data name="SettingsFilesAndFoldersShowHiddenItems" xml:space="preserve">
-    <value>Паказваць схаваныя файлы і папкі</value>
+    <value>ÐŸÐ°ÐºÐ°Ð·Ð²Ð°Ñ†ÑŒ ÑÑ…Ð°Ð²Ð°Ð½Ñ‹Ñ Ñ„Ð°Ð¹Ð»Ñ‹ Ñ– Ð¿Ð°Ð¿ÐºÑ–</value>
   </data>
   <data name="ShowDotFiles" xml:space="preserve">
-    <value>Паказваць тыпы файлаў якія вядомы</value>
+    <value>ÐŸÐ°ÐºÐ°Ð·Ð²Ð°Ñ†ÑŒ Ñ‚Ñ‹Ð¿Ñ‹ Ñ„Ð°Ð¹Ð»Ð°Ñž ÑÐºÑ–Ñ Ð²ÑÐ´Ð¾Ð¼Ñ‹</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>Выгляд</value>
+    <value>Ð’Ñ‹Ð³Ð»ÑÐ´</value>
   </data>
   <data name="BackgroundColor" xml:space="preserve">
-    <value>Колер фону</value>
+    <value>ÐšÐ¾Ð»ÐµÑ€ Ñ„Ð¾Ð½Ñƒ</value>
   </data>
   <data name="Advanced" xml:space="preserve">
-    <value>Пашыраныя налады</value>
+    <value>ÐŸÐ°ÑˆÑ‹Ñ€Ð°Ð½Ñ‹Ñ Ð½Ð°Ð»Ð°Ð´Ñ‹</value>
   </data>
   <data name="CacheThumbnails" xml:space="preserve">
-    <value>Кэшаваць мініяцюры</value>
+    <value>ÐšÑÑˆÐ°Ð²Ð°Ñ†ÑŒ Ð¼Ñ–Ð½Ñ–ÑÑ†ÑŽÑ€Ñ‹</value>
   </data>
   <data name="CacheSizeLimitDescription" xml:space="preserve">
-    <value>Максімальны аб'ём дыска для кэша мініяцюр (100–5000 МіБ).</value>
+    <value>ÐœÐ°ÐºÑÑ–Ð¼Ð°Ð»ÑŒÐ½Ñ‹ Ð°Ð±'Ñ‘Ð¼ Ð´Ñ‹ÑÐºÐ° Ð´Ð»Ñ ÐºÑÑˆÐ° Ð¼Ñ–Ð½Ñ–ÑÑ†ÑŽÑ€ (100â€“5000 ÐœÑ–Ð‘).</value>
   </data>
   <data name="CacheSizeLimit" xml:space="preserve">
-    <value>Абмежаванне памеру кэша</value>
+    <value>ÐÐ±Ð¼ÐµÐ¶Ð°Ð²Ð°Ð½Ð½Ðµ Ð¿Ð°Ð¼ÐµÑ€Ñƒ ÐºÑÑˆÐ°</value>
   </data>
   <data name="ClearCachedThumbnails" xml:space="preserve">
-    <value>Ачысціць кэш мініяцюр, каб вызваліць месца</value>
+    <value>ÐÑ‡Ñ‹ÑÑ†Ñ–Ñ†ÑŒ ÐºÑÑˆ Ð¼Ñ–Ð½Ñ–ÑÑ†ÑŽÑ€, ÐºÐ°Ð± Ð²Ñ‹Ð·Ð²Ð°Ð»Ñ–Ñ†ÑŒ Ð¼ÐµÑÑ†Ð°</value>
   </data>
   <data name="CurrentCacheSize" xml:space="preserve">
-    <value>Бягучы памер кэша: </value>
+    <value>Ð‘ÑÐ³ÑƒÑ‡Ñ‹ Ð¿Ð°Ð¼ÐµÑ€ ÐºÑÑˆÐ°: </value>
   </data>
   <data name="ClearCache" xml:space="preserve">
-    <value>Ачысціць кэш</value>
+    <value>ÐÑ‡Ñ‹ÑÑ†Ñ–Ñ†ÑŒ ÐºÑÑˆ</value>
   </data>
   <data name="SettingsOnStartupContinueWhereYouLeftOff.Content" xml:space="preserve">
-    <value>Працягваць з таго, на чым спыніліся</value>
+    <value>ÐŸÑ€Ð°Ñ†ÑÐ³Ð²Ð°Ñ†ÑŒ Ð· Ñ‚Ð°Ð³Ð¾, Ð½Ð° Ñ‡Ñ‹Ð¼ ÑÐ¿Ñ‹Ð½Ñ–Ð»Ñ–ÑÑ</value>
   </data>
   <data name="SettingsOnStartupOpenANewTab.Content" xml:space="preserve">
-    <value>Адкрываць новую ўкладку</value>
+    <value>ÐÐ´ÐºÑ€Ñ‹Ð²Ð°Ñ†ÑŒ Ð½Ð¾Ð²ÑƒÑŽ ÑžÐºÐ»Ð°Ð´ÐºÑƒ</value>
   </data>
   <data name="SettingsOnStartupOpenASpecificPage.Content" xml:space="preserve">
-    <value>Адкрываць вызначаныя старонкі</value>
+    <value>ÐÐ´ÐºÑ€Ñ‹Ð²Ð°Ñ†ÑŒ Ð²Ñ‹Ð·Ð½Ð°Ñ‡Ð°Ð½Ñ‹Ñ ÑÑ‚Ð°Ñ€Ð¾Ð½ÐºÑ–</value>
   </data>
   <data name="Desktop" xml:space="preserve">
-    <value>Працоўны стол</value>
+    <value>ÐŸÑ€Ð°Ñ†Ð¾ÑžÐ½Ñ‹ ÑÑ‚Ð¾Ð»</value>
   </data>
   <data name="Documents" xml:space="preserve">
-    <value>Дакументы</value>
+    <value>Ð”Ð°ÐºÑƒÐ¼ÐµÐ½Ñ‚Ñ‹</value>
   </data>
   <data name="Downloads" xml:space="preserve">
-    <value>Спампоўкі</value>
+    <value>Ð¡Ð¿Ð°Ð¼Ð¿Ð¾ÑžÐºÑ–</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Назва</value>
+    <value>ÐÐ°Ð·Ð²Ð°</value>
   </data>
   <data name="Ascending" xml:space="preserve">
-    <value>Па ўзрастанні</value>
+    <value>ÐŸÐ° ÑžÐ·Ñ€Ð°ÑÑ‚Ð°Ð½Ð½Ñ–</value>
   </data>
   <data name="Paste" xml:space="preserve">
-    <value>Уставіць</value>
+    <value>Ð£ÑÑ‚Ð°Ð²Ñ–Ñ†ÑŒ</value>
   </data>
   <data name="PasteShortcut" xml:space="preserve">
-    <value>Уставіць ярлык</value>
+    <value>Ð£ÑÑ‚Ð°Ð²Ñ–Ñ†ÑŒ ÑÑ€Ð»Ñ‹Ðº</value>
   </data>
   <data name="BaseLayoutContextFlyoutNew.Label" xml:space="preserve">
-    <value>Новы</value>
+    <value>ÐÐ¾Ð²Ñ‹</value>
   </data>
   <data name="Properties" xml:space="preserve">
-    <value>Уласцівасці</value>
+    <value>Ð£Ð»Ð°ÑÑ†Ñ–Ð²Ð°ÑÑ†Ñ–</value>
   </data>
   <data name="Open" xml:space="preserve">
-    <value>Адкрыць</value>
+    <value>ÐÐ´ÐºÑ€Ñ‹Ñ†ÑŒ</value>
   </data>
   <data name="OpenInNewTab" xml:space="preserve">
-    <value>Адкрыць у новай укладцы</value>
+    <value>ÐÐ´ÐºÑ€Ñ‹Ñ†ÑŒ Ñƒ Ð½Ð¾Ð²Ð°Ð¹ ÑƒÐºÐ»Ð°Ð´Ñ†Ñ‹</value>
   </data>
   <data name="OpenInNewWindow" xml:space="preserve">
-    <value>Адкрыць у новым акне</value>
+    <value>ÐÐ´ÐºÑ€Ñ‹Ñ†ÑŒ Ñƒ Ð½Ð¾Ð²Ñ‹Ð¼ Ð°ÐºÐ½Ðµ</value>
   </data>
   <data name="Share" xml:space="preserve">
-    <value>Падзяліцца</value>
+    <value>ÐŸÐ°Ð´Ð·ÑÐ»Ñ–Ñ†Ñ†Ð°</value>
   </data>
   <data name="Cut" xml:space="preserve">
-    <value>Выразаць</value>
+    <value>Ð’Ñ‹Ñ€Ð°Ð·Ð°Ñ†ÑŒ</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Выдаліць</value>
+    <value>Ð’Ñ‹Ð´Ð°Ð»Ñ–Ñ†ÑŒ</value>
   </data>
   <data name="PinFolderToSidebar" xml:space="preserve">
-    <value>Замацаваць збоку</value>
+    <value>Ð—Ð°Ð¼Ð°Ñ†Ð°Ð²Ð°Ñ†ÑŒ Ð·Ð±Ð¾ÐºÑƒ</value>
   </data>
   <data name="WelcomeDialogTitle" xml:space="preserve">
-    <value>Вітаем у Files!</value>
+    <value>Ð’Ñ–Ñ‚Ð°ÐµÐ¼ Ñƒ Files!</value>
   </data>
   <data name="WelcomeDialog.PrimaryButtonText" xml:space="preserve">
-    <value>Даць дазвол</value>
+    <value>Ð”Ð°Ñ†ÑŒ Ð´Ð°Ð·Ð²Ð¾Ð»</value>
   </data>
   <data name="WelcomeDialogTextBlockText" xml:space="preserve">
-    <value>Каб пачаць, трэба даць нам дазвол на паказ вашых файлаў. Зараз адкрыецца старонка налад, дзе можна выдаць гэты дазвол. Пасля выканання гэтага кроку праграму трэба будзе перазапусціць. </value>
+    <value>ÐšÐ°Ð± Ð¿Ð°Ñ‡Ð°Ñ†ÑŒ, Ñ‚Ñ€ÑÐ±Ð° Ð´Ð°Ñ†ÑŒ Ð½Ð°Ð¼ Ð´Ð°Ð·Ð²Ð¾Ð» Ð½Ð° Ð¿Ð°ÐºÐ°Ð· Ð²Ð°ÑˆÑ‹Ñ… Ñ„Ð°Ð¹Ð»Ð°Ñž. Ð—Ð°Ñ€Ð°Ð· Ð°Ð´ÐºÑ€Ñ‹ÐµÑ†Ñ†Ð° ÑÑ‚Ð°Ñ€Ð¾Ð½ÐºÐ° Ð½Ð°Ð»Ð°Ð´, Ð´Ð·Ðµ Ð¼Ð¾Ð¶Ð½Ð° Ð²Ñ‹Ð´Ð°Ñ†ÑŒ Ð³ÑÑ‚Ñ‹ Ð´Ð°Ð·Ð²Ð¾Ð». ÐŸÐ°ÑÐ»Ñ Ð²Ñ‹ÐºÐ°Ð½Ð°Ð½Ð½Ñ Ð³ÑÑ‚Ð°Ð³Ð° ÐºÑ€Ð¾ÐºÑƒ Ð¿Ñ€Ð°Ð³Ñ€Ð°Ð¼Ñƒ Ñ‚Ñ€ÑÐ±Ð° Ð±ÑƒÐ´Ð·Ðµ Ð¿ÐµÑ€Ð°Ð·Ð°Ð¿ÑƒÑÑ†Ñ–Ñ†ÑŒ. </value>
   </data>
   <data name="Display" xml:space="preserve">
-    <value>Выгляд</value>
+    <value>Ð’Ñ‹Ð³Ð»ÑÐ´</value>
   </data>
   <data name="EnterAnItemName" xml:space="preserve">
-    <value>Увядзіце назву элемента</value>
+    <value>Ð£Ð²ÑÐ´Ð·Ñ–Ñ†Ðµ Ð½Ð°Ð·Ð²Ñƒ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°</value>
   </data>
   <data name="CreateNewItemTitle" xml:space="preserve">
-    <value>Стварыць новы {0}</value>
+    <value>Ð¡Ñ‚Ð²Ð°Ñ€Ñ‹Ñ†ÑŒ Ð½Ð¾Ð²Ñ‹ {0}</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>Светлая</value>
+    <value>Ð¡Ð²ÐµÑ‚Ð»Ð°Ñ</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>Цёмная</value>
+    <value>Ð¦Ñ‘Ð¼Ð½Ð°Ñ</value>
   </data>
   <data name="DefaultTheme" xml:space="preserve">
-    <value>Сістэмная тэма</value>
+    <value>Ð¡Ñ–ÑÑ‚ÑÐ¼Ð½Ð°Ñ Ñ‚ÑÐ¼Ð°</value>
   </data>
   <data name="LightThemeLabel" xml:space="preserve">
     <value>Light Theme</value>
@@ -346,765 +346,765 @@
     <value>Dark Theme</value>
   </data>
   <data name="UseSystemSetting" xml:space="preserve">
-    <value>Выкарыстоўваць сістэмныя налады</value>
+    <value>Ð’Ñ‹ÐºÐ°Ñ€Ñ‹ÑÑ‚Ð¾ÑžÐ²Ð°Ñ†ÑŒ ÑÑ–ÑÑ‚ÑÐ¼Ð½Ñ‹Ñ Ð½Ð°Ð»Ð°Ð´Ñ‹</value>
   </data>
   <data name="Application" xml:space="preserve">
-    <value>Прыкладання</value>
+    <value>ÐŸÑ€Ñ‹ÐºÐ»Ð°Ð´Ð°Ð½Ð½Ñ</value>
   </data>
   <data name="SystemTimeStyle" xml:space="preserve">
-    <value>Сістэмны</value>
+    <value>Ð¡Ñ–ÑÑ‚ÑÐ¼Ð½Ñ‹</value>
   </data>
   <data name="NewFolder" xml:space="preserve">
-    <value>Новая папка</value>
+    <value>ÐÐ¾Ð²Ð°Ñ Ð¿Ð°Ð¿ÐºÐ°</value>
   </data>
   <data name="NewFile" xml:space="preserve">
-    <value>Новы файл</value>
+    <value>ÐÐ¾Ð²Ñ‹ Ñ„Ð°Ð¹Ð»</value>
   </data>
   <data name="EmptyFolder.Text" xml:space="preserve">
-    <value>Гэта папка пустая.</value>
+    <value>Ð“ÑÑ‚Ð° Ð¿Ð°Ð¿ÐºÐ° Ð¿ÑƒÑÑ‚Ð°Ñ.</value>
   </data>
   <data name="Back" xml:space="preserve">
-    <value>Назад</value>
+    <value>ÐÐ°Ð·Ð°Ð´</value>
   </data>
   <data name="Forward" xml:space="preserve">
-    <value>Уперад</value>
+    <value>Ð£Ð¿ÐµÑ€Ð°Ð´</value>
   </data>
   <data name="Up" xml:space="preserve">
-    <value>Уверх</value>
+    <value>Ð£Ð²ÐµÑ€Ñ…</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Абнавіць</value>
+    <value>ÐÐ±Ð½Ð°Ð²Ñ–Ñ†ÑŒ</value>
   </data>
   <data name="ItemAlreadyExistsDialogContent" xml:space="preserve">
-    <value>У бягучай папцы ўжо існуе элемент з такой назвай.</value>
+    <value>Ð£ Ð±ÑÐ³ÑƒÑ‡Ð°Ð¹ Ð¿Ð°Ð¿Ñ†Ñ‹ ÑžÐ¶Ð¾ Ñ–ÑÐ½ÑƒÐµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð· Ñ‚Ð°ÐºÐ¾Ð¹ Ð½Ð°Ð·Ð²Ð°Ð¹.</value>
   </data>
   <data name="ItemAlreadyExistsDialogSecondaryButtonText" xml:space="preserve">
-    <value>Замяніць існуючы элемент</value>
+    <value>Ð—Ð°Ð¼ÑÐ½Ñ–Ñ†ÑŒ Ñ–ÑÐ½ÑƒÑŽÑ‡Ñ‹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚</value>
   </data>
   <data name="ItemAlreadyExistsDialogTitle" xml:space="preserve">
-    <value>Элемент ужо існуе</value>
+    <value>Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ ÑƒÐ¶Ð¾ Ñ–ÑÐ½ÑƒÐµ</value>
   </data>
   <data name="SetAsLockscreen" xml:space="preserve">
-    <value>Зрабіць фонам экрана блакіроўкі</value>
+    <value>Ð—Ñ€Ð°Ð±Ñ–Ñ†ÑŒ Ñ„Ð¾Ð½Ð°Ð¼ ÑÐºÑ€Ð°Ð½Ð° Ð±Ð»Ð°ÐºÑ–Ñ€Ð¾ÑžÐºÑ–</value>
   </data>
   <data name="SetAsAppBackground" xml:space="preserve">
-    <value>Зрабіць фонам прыкладання</value>
+    <value>Ð—Ñ€Ð°Ð±Ñ–Ñ†ÑŒ Ñ„Ð¾Ð½Ð°Ð¼ Ð¿Ñ€Ñ‹ÐºÐ»Ð°Ð´Ð°Ð½Ð½Ñ</value>
   </data>
   <data name="AccessDeniedDeleteDialogText" xml:space="preserve">
-    <value>Не ўдалося выдаліць гэты элемент</value>
+    <value>ÐÐµ ÑžÐ´Ð°Ð»Ð¾ÑÑ Ð²Ñ‹Ð´Ð°Ð»Ñ–Ñ†ÑŒ Ð³ÑÑ‚Ñ‹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚</value>
   </data>
   <data name="DriveUnpluggedDialogText" xml:space="preserve">
-    <value>Падключыце патрэбны дыск, каб атрымаць доступ да гэтага элемента.</value>
+    <value>ÐŸÐ°Ð´ÐºÐ»ÑŽÑ‡Ñ‹Ñ†Ðµ Ð¿Ð°Ñ‚Ñ€ÑÐ±Ð½Ñ‹ Ð´Ñ‹ÑÐº, ÐºÐ°Ð± Ð°Ñ‚Ñ€Ñ‹Ð¼Ð°Ñ†ÑŒ Ð´Ð¾ÑÑ‚ÑƒÐ¿ Ð´Ð° Ð³ÑÑ‚Ð°Ð³Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°.</value>
   </data>
   <data name="DriveUnpluggedDialogTitle" xml:space="preserve">
-    <value>Дыск адключаны</value>
+    <value>Ð”Ñ‹ÑÐº Ð°Ð´ÐºÐ»ÑŽÑ‡Ð°Ð½Ñ‹</value>
   </data>
   <data name="FileNotFoundDialogText" xml:space="preserve">
-    <value>Файл, да якога вы спрабуеце атрымаць доступ, магчыма, быў перамешчаны або выдалены.</value>
+    <value>Ð¤Ð°Ð¹Ð», Ð´Ð° ÑÐºÐ¾Ð³Ð° Ð²Ñ‹ ÑÐ¿Ñ€Ð°Ð±ÑƒÐµÑ†Ðµ Ð°Ñ‚Ñ€Ñ‹Ð¼Ð°Ñ†ÑŒ Ð´Ð¾ÑÑ‚ÑƒÐ¿, Ð¼Ð°Ð³Ñ‡Ñ‹Ð¼Ð°, Ð±Ñ‹Ñž Ð¿ÐµÑ€Ð°Ð¼ÐµÑˆÑ‡Ð°Ð½Ñ‹ Ð°Ð±Ð¾ Ð²Ñ‹Ð´Ð°Ð»ÐµÐ½Ñ‹.</value>
   </data>
   <data name="CannotAccessPropertiesTitle" xml:space="preserve">
-    <value>Немагчыма адкрыць уласцівасці гэтага файла</value>
+    <value>ÐÐµÐ¼Ð°Ð³Ñ‡Ñ‹Ð¼Ð° Ð°Ð´ÐºÑ€Ñ‹Ñ†ÑŒ ÑƒÐ»Ð°ÑÑ†Ñ–Ð²Ð°ÑÑ†Ñ– Ð³ÑÑ‚Ð°Ð³Ð° Ñ„Ð°Ð¹Ð»Ð°</value>
   </data>
   <data name="CannotAccessPropertiesContent" xml:space="preserve">
-    <value>Файл, да якога вы спрабуеце атрымаць доступ, мог быць перамешчаны або выдалены.</value>
+    <value>Ð¤Ð°Ð¹Ð», Ð´Ð° ÑÐºÐ¾Ð³Ð° Ð²Ñ‹ ÑÐ¿Ñ€Ð°Ð±ÑƒÐµÑ†Ðµ Ð°Ñ‚Ñ€Ñ‹Ð¼Ð°Ñ†ÑŒ Ð´Ð¾ÑÑ‚ÑƒÐ¿, Ð¼Ð¾Ð³ Ð±Ñ‹Ñ†ÑŒ Ð¿ÐµÑ€Ð°Ð¼ÐµÑˆÑ‡Ð°Ð½Ñ‹ Ð°Ð±Ð¾ Ð²Ñ‹Ð´Ð°Ð»ÐµÐ½Ñ‹.</value>
   </data>
   <data name="FileNotFoundDialogTitle" xml:space="preserve">
-    <value>Файл не знойдзены</value>
+    <value>Ð¤Ð°Ð¹Ð» Ð½Ðµ Ð·Ð½Ð¾Ð¹Ð´Ð·ÐµÐ½Ñ‹</value>
   </data>
   <data name="FolderNotFoundDialogText" xml:space="preserve">
-    <value>Папка, да якой вы спрабуеце атрымаць доступ, магчыма, была перамешчана або выдалена.</value>
+    <value>ÐŸÐ°Ð¿ÐºÐ°, Ð´Ð° ÑÐºÐ¾Ð¹ Ð²Ñ‹ ÑÐ¿Ñ€Ð°Ð±ÑƒÐµÑ†Ðµ Ð°Ñ‚Ñ€Ñ‹Ð¼Ð°Ñ†ÑŒ Ð´Ð¾ÑÑ‚ÑƒÐ¿, Ð¼Ð°Ð³Ñ‡Ñ‹Ð¼Ð°, Ð±Ñ‹Ð»Ð° Ð¿ÐµÑ€Ð°Ð¼ÐµÑˆÑ‡Ð°Ð½Ð° Ð°Ð±Ð¾ Ð²Ñ‹Ð´Ð°Ð»ÐµÐ½Ð°.</value>
   </data>
   <data name="FolderNotFoundDialogTitle" xml:space="preserve">
-    <value>Вы выдалілі гэтую папку?</value>
+    <value>Ð’Ñ‹ Ð²Ñ‹Ð´Ð°Ð»Ñ–Ð»Ñ– Ð³ÑÑ‚ÑƒÑŽ Ð¿Ð°Ð¿ÐºÑƒ?</value>
   </data>
   <data name="FileInUseByDialogText" xml:space="preserve">
-    <value>Файл, да якога вы спрабуеце атрымаць доступ, зараз выкарыстоўваецца {0}</value>
+    <value>Ð¤Ð°Ð¹Ð», Ð´Ð° ÑÐºÐ¾Ð³Ð° Ð²Ñ‹ ÑÐ¿Ñ€Ð°Ð±ÑƒÐµÑ†Ðµ Ð°Ñ‚Ñ€Ñ‹Ð¼Ð°Ñ†ÑŒ Ð´Ð¾ÑÑ‚ÑƒÐ¿, Ð·Ð°Ñ€Ð°Ð· Ð²Ñ‹ÐºÐ°Ñ€Ñ‹ÑÑ‚Ð¾ÑžÐ²Ð°ÐµÑ†Ñ†Ð° {0}</value>
   </data>
   <data name="FileInUseDialogText" xml:space="preserve">
-    <value>Файл, да якога вы спрабуеце атрымаць доступ, зараз выкарыстоўваецца іншай праграмай</value>
+    <value>Ð¤Ð°Ð¹Ð», Ð´Ð° ÑÐºÐ¾Ð³Ð° Ð²Ñ‹ ÑÐ¿Ñ€Ð°Ð±ÑƒÐµÑ†Ðµ Ð°Ñ‚Ñ€Ñ‹Ð¼Ð°Ñ†ÑŒ Ð´Ð¾ÑÑ‚ÑƒÐ¿, Ð·Ð°Ñ€Ð°Ð· Ð²Ñ‹ÐºÐ°Ñ€Ñ‹ÑÑ‚Ð¾ÑžÐ²Ð°ÐµÑ†Ñ†Ð° Ñ–Ð½ÑˆÐ°Ð¹ Ð¿Ñ€Ð°Ð³Ñ€Ð°Ð¼Ð°Ð¹</value>
   </data>
   <data name="FileInUseDialogTitle" xml:space="preserve">
-    <value>Файл выкарыстоўваецца</value>
+    <value>Ð¤Ð°Ð¹Ð» Ð²Ñ‹ÐºÐ°Ñ€Ñ‹ÑÑ‚Ð¾ÑžÐ²Ð°ÐµÑ†Ñ†Ð°</value>
   </data>
   <data name="CannotRunFileDialogTitle" xml:space="preserve">
-    <value>Гэта праграма не можа працаваць на вашым ПК</value>
+    <value>Ð“ÑÑ‚Ð° Ð¿Ñ€Ð°Ð³Ñ€Ð°Ð¼Ð° Ð½Ðµ Ð¼Ð¾Ð¶Ð° Ð¿Ñ€Ð°Ñ†Ð°Ð²Ð°Ñ†ÑŒ Ð½Ð° Ð²Ð°ÑˆÑ‹Ð¼ ÐŸÐš</value>
   </data>
   <data name="CannotRunFileDialogText" xml:space="preserve">
-    <value>Каб знайсці версію для вашага ПК, звярніцеся да выдаўца праграмы.</value>
+    <value>ÐšÐ°Ð± Ð·Ð½Ð°Ð¹ÑÑ†Ñ– Ð²ÐµÑ€ÑÑ–ÑŽ Ð´Ð»Ñ Ð²Ð°ÑˆÐ°Ð³Ð° ÐŸÐš, Ð·Ð²ÑÑ€Ð½Ñ–Ñ†ÐµÑÑ Ð´Ð° Ð²Ñ‹Ð´Ð°ÑžÑ†Ð° Ð¿Ñ€Ð°Ð³Ñ€Ð°Ð¼Ñ‹.</value>
   </data>
   <data name="Layout" xml:space="preserve">
-    <value>Макет</value>
+    <value>ÐœÐ°ÐºÐµÑ‚</value>
   </data>
   <data name="PropertiesDialogReadOnly.Text" xml:space="preserve">
-    <value>Толькі чытанне</value>
+    <value>Ð¢Ð¾Ð»ÑŒÐºÑ– Ñ‡Ñ‹Ñ‚Ð°Ð½Ð½Ðµ</value>
   </data>
   <data name="DaysAgo" xml:space="preserve">
-    <value>{0, plural, one {# дзень назад} other {# дзён назад}}</value>
+    <value>{0, plural, one {# Ð´Ð·ÐµÐ½ÑŒ Ð½Ð°Ð·Ð°Ð´} other {# Ð´Ð·Ñ‘Ð½ Ð½Ð°Ð·Ð°Ð´}}</value>
   </data>
   <data name="DaysAgo_Singular" xml:space="preserve">
-    <value>1 дзень назад</value>
+    <value>1 Ð´Ð·ÐµÐ½ÑŒ Ð½Ð°Ð·Ð°Ð´</value>
   </data>
   <data name="DaysAgo_Plural" xml:space="preserve">
-    <value>{0} дзён назад</value>
+    <value>{0} Ð´Ð·Ñ‘Ð½ Ð½Ð°Ð·Ð°Ð´</value>
   </data>
   <data name="HoursAgo" xml:space="preserve">
-    <value>{0, plural, one {# гадзіну назад} other {# гадзін назад}}</value>
+    <value>{0, plural, one {# Ð³Ð°Ð´Ð·Ñ–Ð½Ñƒ Ð½Ð°Ð·Ð°Ð´} other {# Ð³Ð°Ð´Ð·Ñ–Ð½ Ð½Ð°Ð·Ð°Ð´}}</value>
   </data>
   <data name="HoursAgo_Singular" xml:space="preserve">
-    <value>1 гадзіну назад</value>
+    <value>1 Ð³Ð°Ð´Ð·Ñ–Ð½Ñƒ Ð½Ð°Ð·Ð°Ð´</value>
   </data>
   <data name="HoursAgo_Plural" xml:space="preserve">
-    <value>{0} гадзін назад</value>
+    <value>{0} Ð³Ð°Ð´Ð·Ñ–Ð½ Ð½Ð°Ð·Ð°Ð´</value>
   </data>
   <data name="MinutesAgo" xml:space="preserve">
-    <value>{0, plural, one {# хвіліну таму} few {# хвіліны таму} many {# хвілін таму} other {# хвіліны таму}}</value>
+    <value>{0, plural, one {# Ñ…Ð²Ñ–Ð»Ñ–Ð½Ñƒ Ñ‚Ð°Ð¼Ñƒ} few {# Ñ…Ð²Ñ–Ð»Ñ–Ð½Ñ‹ Ñ‚Ð°Ð¼Ñƒ} many {# Ñ…Ð²Ñ–Ð»Ñ–Ð½ Ñ‚Ð°Ð¼Ñƒ} other {# Ñ…Ð²Ñ–Ð»Ñ–Ð½Ñ‹ Ñ‚Ð°Ð¼Ñƒ}}</value>
   </data>
   <data name="MinutesAgo_Singular" xml:space="preserve">
-    <value>1 хвіліну таму</value>
+    <value>1 Ñ…Ð²Ñ–Ð»Ñ–Ð½Ñƒ Ñ‚Ð°Ð¼Ñƒ</value>
   </data>
   <data name="MinutesAgo_Plural" xml:space="preserve">
-    <value>{0} хвілін таму</value>
+    <value>{0} Ñ…Ð²Ñ–Ð»Ñ–Ð½ Ñ‚Ð°Ð¼Ñƒ</value>
   </data>
   <data name="SecondsAgo" xml:space="preserve">
-    <value>{0, plural, one {# секунду таму} few {# секунды таму} many {# секунд таму} other {# секунды таму}}</value>
+    <value>{0, plural, one {# ÑÐµÐºÑƒÐ½Ð´Ñƒ Ñ‚Ð°Ð¼Ñƒ} few {# ÑÐµÐºÑƒÐ½Ð´Ñ‹ Ñ‚Ð°Ð¼Ñƒ} many {# ÑÐµÐºÑƒÐ½Ð´ Ñ‚Ð°Ð¼Ñƒ} other {# ÑÐµÐºÑƒÐ½Ð´Ñ‹ Ñ‚Ð°Ð¼Ñƒ}}</value>
   </data>
   <data name="SecondsAgo_Singular" xml:space="preserve">
-    <value>1 секунду таму</value>
+    <value>1 ÑÐµÐºÑƒÐ½Ð´Ñƒ Ñ‚Ð°Ð¼Ñƒ</value>
   </data>
   <data name="SecondsAgo_Plural" xml:space="preserve">
-    <value>{0} секунд таму</value>
+    <value>{0} ÑÐµÐºÑƒÐ½Ð´ Ñ‚Ð°Ð¼Ñƒ</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>Зараз</value>
+    <value>Ð—Ð°Ñ€Ð°Ð·</value>
   </data>
   <data name="ErrorDialogUnsupportedOperation" xml:space="preserve">
-    <value>Даны запрос на аперацыю не падтрымліваецца</value>
+    <value>Ð”Ð°Ð½Ñ‹ Ð·Ð°Ð¿Ñ€Ð¾Ñ Ð½Ð° Ð°Ð¿ÐµÑ€Ð°Ñ†Ñ‹ÑŽ Ð½Ðµ Ð¿Ð°Ð´Ñ‚Ñ€Ñ‹Ð¼Ð»Ñ–Ð²Ð°ÐµÑ†Ñ†Ð°</value>
   </data>
   <data name="DriveFreeSpaceAndCapacity" xml:space="preserve">
-    <value>{0} вольна з {1}</value>
+    <value>{0} Ð²Ð¾Ð»ÑŒÐ½Ð° Ð· {1}</value>
   </data>
   <data name="SendTo" xml:space="preserve">
-    <value>Адправіць у</value>
+    <value>ÐÐ´Ð¿Ñ€Ð°Ð²Ñ–Ñ†ÑŒ Ñƒ</value>
   </data>
   <data name="FileNameTeachingTip.Subtitle" xml:space="preserve">
-    <value>Назва прадмета не павінна змяшчаць наступныя сімвалы: \ / : * ? " &lt; &gt; |</value>
+    <value>ÐÐ°Ð·Ð²Ð° Ð¿Ñ€Ð°Ð´Ð¼ÐµÑ‚Ð° Ð½Ðµ Ð¿Ð°Ð²Ñ–Ð½Ð½Ð° Ð·Ð¼ÑÑˆÑ‡Ð°Ñ†ÑŒ Ð½Ð°ÑÑ‚ÑƒÐ¿Ð½Ñ‹Ñ ÑÑ–Ð¼Ð²Ð°Ð»Ñ‹: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="InvalidFilename.Text" xml:space="preserve">
-    <value>Пазначаная назва элемента няправільная</value>
+    <value>ÐŸÐ°Ð·Ð½Ð°Ñ‡Ð°Ð½Ð°Ñ Ð½Ð°Ð·Ð²Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ð½ÑÐ¿Ñ€Ð°Ð²Ñ–Ð»ÑŒÐ½Ð°Ñ</value>
   </data>
   <data name="SelectedItems" xml:space="preserve">
-    <value>{0, plural, one {выбраны # элемент} few {выбрана # элементы} many {выбрана # элементаў} other {выбрана # элемента}}</value>
+    <value>{0, plural, one {Ð²Ñ‹Ð±Ñ€Ð°Ð½Ñ‹ # ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚} few {Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð° # ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹} many {Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð° # ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°Ñž} other {Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð° # ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°}}</value>
     <comment>ICU format for plurals, more information here: https://support.crowdin.com/icu-message-syntax/#plural</comment>
   </data>
   <data name="Items" xml:space="preserve">
-    <value>{0, plural, one {элемент} few {элементы} many {элементаў} other {элемента}}</value>
+    <value>{0, plural, one {ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚} few {ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹} many {ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°Ñž} other {ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°}}</value>
     <comment>ICU format for plurals, more information here: https://support.crowdin.com/icu-message-syntax/#plural</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Так</value>
+    <value>Ð¢Ð°Ðº</value>
   </data>
   <data name="ConfirmEmptyBinDialogContent" xml:space="preserve">
-    <value>Вы ўпэўненыя, што хочаце назаўсёды выдаліць гэтыя элементы?</value>
+    <value>Ð’Ñ‹ ÑžÐ¿ÑÑžÐ½ÐµÐ½Ñ‹Ñ, ÑˆÑ‚Ð¾ Ñ…Ð¾Ñ‡Ð°Ñ†Ðµ Ð½Ð°Ð·Ð°ÑžÑÑ‘Ð´Ñ‹ Ð²Ñ‹Ð´Ð°Ð»Ñ–Ñ†ÑŒ Ð³ÑÑ‚Ñ‹Ñ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹?</value>
   </data>
   <data name="ConfirmEmptyBinDialogTitle" xml:space="preserve">
-    <value>Ачыстка сметніцы</value>
+    <value>ÐÑ‡Ñ‹ÑÑ‚ÐºÐ° ÑÐ¼ÐµÑ‚Ð½Ñ–Ñ†Ñ‹</value>
   </data>
   <data name="ItemSizeBytes" xml:space="preserve">
-    <value>байтаў</value>
+    <value>Ð±Ð°Ð¹Ñ‚Ð°Ñž</value>
   </data>
   <data name="KiloByteSymbol" xml:space="preserve">
-    <value>КБ</value>
+    <value>ÐšÐ‘</value>
   </data>
   <data name="MegaByteSymbol" xml:space="preserve">
-    <value>МБ</value>
+    <value>ÐœÐ‘</value>
   </data>
   <data name="GigaByteSymbol" xml:space="preserve">
-    <value>ГБ</value>
+    <value>Ð“Ð‘</value>
   </data>
   <data name="TeraByteSymbol" xml:space="preserve">
-    <value>ТБ</value>
+    <value>Ð¢Ð‘</value>
   </data>
   <data name="PetaByteSymbol" xml:space="preserve">
-    <value>ПБ</value>
+    <value>ÐŸÐ‘</value>
   </data>
   <data name="ByteSymbol" xml:space="preserve">
-    <value>Б</value>
+    <value>Ð‘</value>
   </data>
   <data name="PropertiesFilesAndFoldersCountString" xml:space="preserve">
-    <value>{0, number} {0, plural, one {файл} few {файлы} many {файлаў} other {файла}}, {1, number} {1, plural, one {папка} few {папкі} many {папак} other {папкі}}</value>
+    <value>{0, number} {0, plural, one {Ñ„Ð°Ð¹Ð»} few {Ñ„Ð°Ð¹Ð»Ñ‹} many {Ñ„Ð°Ð¹Ð»Ð°Ñž} other {Ñ„Ð°Ð¹Ð»Ð°}}, {1, number} {1, plural, one {Ð¿Ð°Ð¿ÐºÐ°} few {Ð¿Ð°Ð¿ÐºÑ–} many {Ð¿Ð°Ð¿Ð°Ðº} other {Ð¿Ð°Ð¿ÐºÑ–}}</value>
   </data>
   <data name="PropertiesFilesAndFoldersAndLocationsCount" xml:space="preserve">
-    <value>{0, number} {0, plural, one {файл} few {файлы} many {файлаў} other {файла}}, {1, number} {1, plural, one {папка} few {папкі} many {папак} other {папкі}} з {2, number} {2, plural, one {размяшчэння} few {размяшчэнняў} many {размяшчэнняў} other {размяшчэння}}</value>
+    <value>{0, number} {0, plural, one {Ñ„Ð°Ð¹Ð»} few {Ñ„Ð°Ð¹Ð»Ñ‹} many {Ñ„Ð°Ð¹Ð»Ð°Ñž} other {Ñ„Ð°Ð¹Ð»Ð°}}, {1, number} {1, plural, one {Ð¿Ð°Ð¿ÐºÐ°} few {Ð¿Ð°Ð¿ÐºÑ–} many {Ð¿Ð°Ð¿Ð°Ðº} other {Ð¿Ð°Ð¿ÐºÑ–}} Ð· {2, number} {2, plural, one {Ñ€Ð°Ð·Ð¼ÑÑˆÑ‡ÑÐ½Ð½Ñ} few {Ñ€Ð°Ð·Ð¼ÑÑˆÑ‡ÑÐ½Ð½ÑÑž} many {Ñ€Ð°Ð·Ð¼ÑÑˆÑ‡ÑÐ½Ð½ÑÑž} other {Ñ€Ð°Ð·Ð¼ÑÑˆÑ‡ÑÐ½Ð½Ñ}}</value>
   </data>
   <data name="BaseLayoutContextFlyoutRunAsAnotherUserText" xml:space="preserve">
-    <value>Запусціць ад імя іншага карыстальніка</value>
+    <value>Ð—Ð°Ð¿ÑƒÑÑ†Ñ–Ñ†ÑŒ Ð°Ð´ Ñ–Ð¼Ñ Ñ–Ð½ÑˆÐ°Ð³Ð° ÐºÐ°Ñ€Ñ‹ÑÑ‚Ð°Ð»ÑŒÐ½Ñ–ÐºÐ°</value>
   </data>
   <data name="PropertiesDriveItemTypesEquals" xml:space="preserve">
-    <value>Усе тыпу {0}</value>
+    <value>Ð£ÑÐµ Ñ‚Ñ‹Ð¿Ñƒ {0}</value>
   </data>
   <data name="PropertiesDriveItemTypeDifferent" xml:space="preserve">
-    <value>Розныя тыпы</value>
+    <value>Ð Ð¾Ð·Ð½Ñ‹Ñ Ñ‚Ñ‹Ð¿Ñ‹</value>
   </data>
   <data name="PropertiesCombinedItemLocation" xml:space="preserve">
-    <value>Усе ў {0}</value>
+    <value>Ð£ÑÐµ Ñž {0}</value>
   </data>
   <data name="PropertiesDriveUsedSpace.Text" xml:space="preserve">
-    <value>Выкарыстанае месца:</value>
+    <value>Ð’Ñ‹ÐºÐ°Ñ€Ñ‹ÑÑ‚Ð°Ð½Ð°Ðµ Ð¼ÐµÑÑ†Ð°:</value>
   </data>
   <data name="PropertiesDriveFreeSpace.Text" xml:space="preserve">
-    <value>Вольнае месца:</value>
+    <value>Ð’Ð¾Ð»ÑŒÐ½Ð°Ðµ Ð¼ÐµÑÑ†Ð°:</value>
   </data>
   <data name="PropertiesDriveCapacity.Text" xml:space="preserve">
-    <value>Ёмістасць:</value>
+    <value>ÐÐ¼Ñ–ÑÑ‚Ð°ÑÑ†ÑŒ:</value>
   </data>
   <data name="PropertiesDriveFileSystem.Text" xml:space="preserve">
-    <value>Файлавая сістэма:</value>
+    <value>Ð¤Ð°Ð¹Ð»Ð°Ð²Ð°Ñ ÑÑ–ÑÑ‚ÑÐ¼Ð°:</value>
   </data>
   <data name="JumpListRecentGroupHeader" xml:space="preserve">
-    <value>Апошняе</value>
+    <value>ÐÐ¿Ð¾ÑˆÐ½ÑÐµ</value>
   </data>
   <data name="TabStripDragAndDropUIOverrideCaption" xml:space="preserve">
-    <value>Перамясціць укладку сюды</value>
+    <value>ÐŸÐµÑ€Ð°Ð¼ÑÑÑ†Ñ–Ñ†ÑŒ ÑƒÐºÐ»Ð°Ð´ÐºÑƒ ÑÑŽÐ´Ñ‹</value>
   </data>
   <data name="Status" xml:space="preserve">
-    <value>Статус</value>
+    <value>Ð¡Ñ‚Ð°Ñ‚ÑƒÑ</value>
   </data>
   <data name="NavigationToolbarVisiblePathNoResults" xml:space="preserve">
-    <value>Няма вынікаў</value>
+    <value>ÐÑÐ¼Ð° Ð²Ñ‹Ð½Ñ–ÐºÐ°Ñž</value>
   </data>
   <data name="SubDirectoryAccessDenied" xml:space="preserve">
-    <value>Няма доступу да элементаў для паказу</value>
+    <value>ÐÑÐ¼Ð° Ð´Ð¾ÑÑ‚ÑƒÐ¿Ñƒ Ð´Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°Ñž Ð´Ð»Ñ Ð¿Ð°ÐºÐ°Ð·Ñƒ</value>
   </data>
   <data name="MoveToFolderCaptionText" xml:space="preserve">
-    <value>Перамясціць у {0}</value>
+    <value>ÐŸÐµÑ€Ð°Ð¼ÑÑÑ†Ñ–Ñ†ÑŒ Ñƒ {0}</value>
   </data>
   <data name="CopyToFolderCaptionText" xml:space="preserve">
-    <value>Капіраваць у {0}</value>
+    <value>ÐšÐ°Ð¿Ñ–Ñ€Ð°Ð²Ð°Ñ†ÑŒ Ñƒ {0}</value>
   </data>
   <data name="CloneToFolderCaptionText" xml:space="preserve">
-    <value>Кланіраваць у {0}</value>
+    <value>ÐšÐ»Ð°Ð½Ñ–Ñ€Ð°Ð²Ð°Ñ†ÑŒ Ñƒ {0}</value>
   </data>
   <data name="CreateShortcut" xml:space="preserve">
-    <value>Стварыць ярлык</value>
+    <value>Ð¡Ñ‚Ð²Ð°Ñ€Ñ‹Ñ†ÑŒ ÑÑ€Ð»Ñ‹Ðº</value>
   </data>
   <data name="OpenFileLocation" xml:space="preserve">
-    <value>Адкрыць месца размяшчэння файла</value>
+    <value>ÐÐ´ÐºÑ€Ñ‹Ñ†ÑŒ Ð¼ÐµÑÑ†Ð° Ñ€Ð°Ð·Ð¼ÑÑˆÑ‡ÑÐ½Ð½Ñ Ñ„Ð°Ð¹Ð»Ð°</value>
   </data>
   <data name="PropertiesShortcutItemArgs.Text" xml:space="preserve">
-    <value>Аргументы:</value>
+    <value>ÐÑ€Ð³ÑƒÐ¼ÐµÐ½Ñ‚Ñ‹:</value>
   </data>
   <data name="PropertiesShortcutItemPath.Text" xml:space="preserve">
-    <value>Прызначэнне:</value>
+    <value>ÐŸÑ€Ñ‹Ð·Ð½Ð°Ñ‡ÑÐ½Ð½Ðµ:</value>
   </data>
   <data name="PropertiesShortcutItemType.Text" xml:space="preserve">
-    <value>Тып ярлыка:</value>
+    <value>Ð¢Ñ‹Ð¿ ÑÑ€Ð»Ñ‹ÐºÐ°:</value>
   </data>
   <data name="PropertiesShortcutTypeLink" xml:space="preserve">
-    <value>Інтэрнэт спасылка</value>
+    <value>Ð†Ð½Ñ‚ÑÑ€Ð½ÑÑ‚ ÑÐ¿Ð°ÑÑ‹Ð»ÐºÐ°</value>
   </data>
   <data name="General" xml:space="preserve">
-    <value>Агульныя</value>
+    <value>ÐÐ³ÑƒÐ»ÑŒÐ½Ñ‹Ñ</value>
   </data>
   <data name="Shortcut" xml:space="preserve">
-    <value>Ярлык</value>
+    <value>Ð¯Ñ€Ð»Ñ‹Ðº</value>
   </data>
   <data name="ShortcutWebLinkFileType" xml:space="preserve">
-    <value>Інтэрнэт ярлык</value>
+    <value>Ð†Ð½Ñ‚ÑÑ€Ð½ÑÑ‚ ÑÑ€Ð»Ñ‹Ðº</value>
   </data>
   <data name="ShortcutCreateNewSuffix" xml:space="preserve">
-    <value>{0} — ярлык</value>
+    <value>{0} â€” ÑÑ€Ð»Ñ‹Ðº</value>
   </data>
   <data name="ExceptionNotificationBody" xml:space="preserve">
-    <value>У Files узнікла праблема, да якой распрацоўшчыкі яшчэ не падрыхтаваліся.</value>
+    <value>Ð£ Files ÑƒÐ·Ð½Ñ–ÐºÐ»Ð° Ð¿Ñ€Ð°Ð±Ð»ÐµÐ¼Ð°, Ð´Ð° ÑÐºÐ¾Ð¹ Ñ€Ð°ÑÐ¿Ñ€Ð°Ñ†Ð¾ÑžÑˆÑ‡Ñ‹ÐºÑ– ÑÑˆÑ‡Ñ Ð½Ðµ Ð¿Ð°Ð´Ñ€Ñ‹Ñ…Ñ‚Ð°Ð²Ð°Ð»Ñ–ÑÑ.</value>
   </data>
   <data name="ExceptionNotificationHeader" xml:space="preserve">
-    <value>Нешта пайшло не так!</value>
+    <value>ÐÐµÑˆÑ‚Ð° Ð¿Ð°Ð¹ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!</value>
   </data>
   <data name="ExceptionNotificationReportButton" xml:space="preserve">
-    <value>Паведамі пра гэту праблему</value>
+    <value>ÐŸÐ°Ð²ÐµÐ´Ð°Ð¼Ñ– Ð¿Ñ€Ð° Ð³ÑÑ‚Ñƒ Ð¿Ñ€Ð°Ð±Ð»ÐµÐ¼Ñƒ</value>
   </data>
   <data name="InvalidItemDialogContent" xml:space="preserve">
-    <value>Указаны элемент несапраўдны або недаступны.{0}Паведамленне пра памылку:{0}{1}</value>
+    <value>Ð£ÐºÐ°Ð·Ð°Ð½Ñ‹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð½ÐµÑÐ°Ð¿Ñ€Ð°ÑžÐ´Ð½Ñ‹ Ð°Ð±Ð¾ Ð½ÐµÐ´Ð°ÑÑ‚ÑƒÐ¿Ð½Ñ‹.{0}ÐŸÐ°Ð²ÐµÐ´Ð°Ð¼Ð»ÐµÐ½Ð½Ðµ Ð¿Ñ€Ð° Ð¿Ð°Ð¼Ñ‹Ð»ÐºÑƒ:{0}{1}</value>
   </data>
   <data name="InvalidItemDialogTitle" xml:space="preserve">
-    <value>Няправільны прадмет</value>
+    <value>ÐÑÐ¿Ñ€Ð°Ð²Ñ–Ð»ÑŒÐ½Ñ‹ Ð¿Ñ€Ð°Ð´Ð¼ÐµÑ‚</value>
   </data>
   <data name="SettingsAboutVersionTitle" xml:space="preserve">
-    <value>Версія:</value>
+    <value>Ð’ÐµÑ€ÑÑ–Ñ:</value>
   </data>
   <data name="ShareDialogFailMessage" xml:space="preserve">
-    <value>Зараз няма чым падзяліцца...</value>
+    <value>Ð—Ð°Ñ€Ð°Ð· Ð½ÑÐ¼Ð° Ñ‡Ñ‹Ð¼ Ð¿Ð°Ð´Ð·ÑÐ»Ñ–Ñ†Ñ†Ð°...</value>
   </data>
   <data name="ShareDialogMultipleItemsDescription" xml:space="preserve">
-    <value>Выбраныя элементы будуць адпраўлены</value>
+    <value>Ð’Ñ‹Ð±Ñ€Ð°Ð½Ñ‹Ñ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð±ÑƒÐ´ÑƒÑ†ÑŒ Ð°Ð´Ð¿Ñ€Ð°ÑžÐ»ÐµÐ½Ñ‹</value>
   </data>
   <data name="ShareDialogSingleItemDescription" xml:space="preserve">
-    <value>Выбраны элемент будзе адпраўлены</value>
+    <value>Ð’Ñ‹Ð±Ñ€Ð°Ð½Ñ‹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð±ÑƒÐ´Ð·Ðµ Ð°Ð´Ð¿Ñ€Ð°ÑžÐ»ÐµÐ½Ñ‹</value>
   </data>
   <data name="ShareDialogTitle" xml:space="preserve">
-    <value>Абагульванне {0}</value>
+    <value>ÐÐ±Ð°Ð³ÑƒÐ»ÑŒÐ²Ð°Ð½Ð½Ðµ {0}</value>
   </data>
   <data name="ShareDialogTitleMultipleItems" xml:space="preserve">
-    <value>Абагульванне {0} {1}</value>
+    <value>ÐÐ±Ð°Ð³ÑƒÐ»ÑŒÐ²Ð°Ð½Ð½Ðµ {0} {1}</value>
   </data>
   <data name="RenameErrorItemDeletedText" xml:space="preserve">
-    <value>Элемент, які вы спрабуеце перайменаваць, больш не існуе. Праверце правільнае размяшчэнне патрэбнага элемента.</value>
+    <value>Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚, ÑÐºÑ– Ð²Ñ‹ ÑÐ¿Ñ€Ð°Ð±ÑƒÐµÑ†Ðµ Ð¿ÐµÑ€Ð°Ð¹Ð¼ÐµÐ½Ð°Ð²Ð°Ñ†ÑŒ, Ð±Ð¾Ð»ÑŒÑˆ Ð½Ðµ Ñ–ÑÐ½ÑƒÐµ. ÐŸÑ€Ð°Ð²ÐµÑ€Ñ†Ðµ Ð¿Ñ€Ð°Ð²Ñ–Ð»ÑŒÐ½Ð°Ðµ Ñ€Ð°Ð·Ð¼ÑÑˆÑ‡ÑÐ½Ð½Ðµ Ð¿Ð°Ñ‚Ñ€ÑÐ±Ð½Ð°Ð³Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°.</value>
   </data>
   <data name="RenameErrorItemDeletedTitle" xml:space="preserve">
-    <value>Элемент больш не існуе</value>
+    <value>Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ Ð±Ð¾Ð»ÑŒÑˆ Ð½Ðµ Ñ–ÑÐ½ÑƒÐµ</value>
   </data>
   <data name="RenameErrorNameInvalidText" xml:space="preserve">
-    <value>Указана несапраўдная назва. Праверце патрэбную назву элемента і паўтарыце спробу.</value>
+    <value>Ð£ÐºÐ°Ð·Ð°Ð½Ð° Ð½ÐµÑÐ°Ð¿Ñ€Ð°ÑžÐ´Ð½Ð°Ñ Ð½Ð°Ð·Ð²Ð°. ÐŸÑ€Ð°Ð²ÐµÑ€Ñ†Ðµ Ð¿Ð°Ñ‚Ñ€ÑÐ±Ð½ÑƒÑŽ Ð½Ð°Ð·Ð²Ñƒ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ñ– Ð¿Ð°ÑžÑ‚Ð°Ñ€Ñ‹Ñ†Ðµ ÑÐ¿Ñ€Ð¾Ð±Ñƒ.</value>
   </data>
   <data name="RenameErrorNameInvalidTitle" xml:space="preserve">
-    <value>Несапраўдная назва элемента</value>
+    <value>ÐÐµÑÐ°Ð¿Ñ€Ð°ÑžÐ´Ð½Ð°Ñ Ð½Ð°Ð·Ð²Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°</value>
   </data>
   <data name="RenameErrorTooLongText" xml:space="preserve">
-    <value>Даўжыня ўказанай назвы перавышае максімальны ліміт. Праверце патрэбную назву і паўтарыце спробу.</value>
+    <value>Ð”Ð°ÑžÐ¶Ñ‹Ð½Ñ ÑžÐºÐ°Ð·Ð°Ð½Ð°Ð¹ Ð½Ð°Ð·Ð²Ñ‹ Ð¿ÐµÑ€Ð°Ð²Ñ‹ÑˆÐ°Ðµ Ð¼Ð°ÐºÑÑ–Ð¼Ð°Ð»ÑŒÐ½Ñ‹ Ð»Ñ–Ð¼Ñ–Ñ‚. ÐŸÑ€Ð°Ð²ÐµÑ€Ñ†Ðµ Ð¿Ð°Ñ‚Ñ€ÑÐ±Ð½ÑƒÑŽ Ð½Ð°Ð·Ð²Ñƒ Ñ– Ð¿Ð°ÑžÑ‚Ð°Ñ€Ñ‹Ñ†Ðµ ÑÐ¿Ñ€Ð¾Ð±Ñƒ.</value>
   </data>
   <data name="RenameErrorTooLongTitle" xml:space="preserve">
-    <value>Назва элемента занадта доўгая</value>
+    <value>ÐÐ°Ð·Ð²Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ð·Ð°Ð½Ð°Ð´Ñ‚Ð° Ð´Ð¾ÑžÐ³Ð°Ñ</value>
   </data>
   <data name="ShowMoreOptions" xml:space="preserve">
-    <value>Паказаць больш параметраў</value>
+    <value>ÐŸÐ°ÐºÐ°Ð·Ð°Ñ†ÑŒ Ð±Ð¾Ð»ÑŒÑˆ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ð°Ñž</value>
   </data>
   <data name="RestartNotificationText.Text" xml:space="preserve">
-    <value>Каб прымяніць гэтыя налады, праграму трэба перазапусціць. Перазапусціць зараз?</value>
+    <value>ÐšÐ°Ð± Ð¿Ñ€Ñ‹Ð¼ÑÐ½Ñ–Ñ†ÑŒ Ð³ÑÑ‚Ñ‹Ñ Ð½Ð°Ð»Ð°Ð´Ñ‹, Ð¿Ñ€Ð°Ð³Ñ€Ð°Ð¼Ñƒ Ñ‚Ñ€ÑÐ±Ð° Ð¿ÐµÑ€Ð°Ð·Ð°Ð¿ÑƒÑÑ†Ñ–Ñ†ÑŒ. ÐŸÐµÑ€Ð°Ð·Ð°Ð¿ÑƒÑÑ†Ñ–Ñ†ÑŒ Ð·Ð°Ñ€Ð°Ð·?</value>
   </data>
   <data name="SponsorUsOnGitHub" xml:space="preserve">
-    <value>Падтрымайце нас на GitHub</value>
+    <value>ÐŸÐ°Ð´Ñ‚Ñ€Ñ‹Ð¼Ð°Ð¹Ñ†Ðµ Ð½Ð°Ñ Ð½Ð° GitHub</value>
   </data>
   <data name="AccessDeniedCreateDialogText" xml:space="preserve">
-    <value>Не ўдалося стварыць гэты элемент</value>
+    <value>ÐÐµ ÑžÐ´Ð°Ð»Ð¾ÑÑ ÑÑ‚Ð²Ð°Ñ€Ñ‹Ñ†ÑŒ Ð³ÑÑ‚Ñ‹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚</value>
   </data>
   <data name="AccessDenied" xml:space="preserve">
-    <value>Доступ забаронены</value>
+    <value>Ð”Ð¾ÑÑ‚ÑƒÐ¿ Ð·Ð°Ð±Ð°Ñ€Ð¾Ð½ÐµÐ½Ñ‹</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutSetAsText" xml:space="preserve">
-    <value>Усталяваць як</value>
+    <value>Ð£ÑÑ‚Ð°Ð»ÑÐ²Ð°Ñ†ÑŒ ÑÐº</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>Скасаваць</value>
+    <value>Ð¡ÐºÐ°ÑÐ°Ð²Ð°Ñ†ÑŒ</value>
   </data>
   <data name="AddDialog.Title" xml:space="preserve">
-    <value>Стварыць новы элемент</value>
+    <value>Ð¡Ñ‚Ð²Ð°Ñ€Ñ‹Ñ†ÑŒ Ð½Ð¾Ð²Ñ‹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚</value>
   </data>
   <data name="AddDialogDescription.Text" xml:space="preserve">
-    <value>Выберыце тып новага элемента ніжэй</value>
+    <value>Ð’Ñ‹Ð±ÐµÑ€Ñ‹Ñ†Ðµ Ñ‚Ñ‹Ð¿ Ð½Ð¾Ð²Ð°Ð³Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ð½Ñ–Ð¶ÑÐ¹</value>
   </data>
   <data name="File" xml:space="preserve">
-    <value>Файл</value>
+    <value>Ð¤Ð°Ð¹Ð»</value>
   </data>
   <data name="Files" xml:space="preserve">
-    <value>Файлы</value>
+    <value>Ð¤Ð°Ð¹Ð»Ñ‹</value>
   </data>
   <data name="AddDialogListFileSubHeader" xml:space="preserve">
-    <value>Стварае пусты файл</value>
+    <value>Ð¡Ñ‚Ð²Ð°Ñ€Ð°Ðµ Ð¿ÑƒÑÑ‚Ñ‹ Ñ„Ð°Ð¹Ð»</value>
   </data>
   <data name="Folder" xml:space="preserve">
-    <value>Папка</value>
+    <value>ÐŸÐ°Ð¿ÐºÐ°</value>
   </data>
   <data name="Folders" xml:space="preserve">
-    <value>Папкі</value>
+    <value>ÐŸÐ°Ð¿ÐºÑ–</value>
   </data>
   <data name="AddDialogListFolderSubHeader" xml:space="preserve">
-    <value>Стварае пустую папку</value>
+    <value>Ð¡Ñ‚Ð²Ð°Ñ€Ð°Ðµ Ð¿ÑƒÑÑ‚ÑƒÑŽ Ð¿Ð°Ð¿ÐºÑƒ</value>
   </data>
   <data name="NavResfreshButton.AutomationProperties.Name" xml:space="preserve">
-    <value>Абнавіць каталог</value>
+    <value>ÐÐ±Ð½Ð°Ð²Ñ–Ñ†ÑŒ ÐºÐ°Ñ‚Ð°Ð»Ð¾Ð³</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>Мова</value>
+    <value>ÐœÐ¾Ð²Ð°</value>
   </data>
   <data name="SettingsContextMenuOverflow" xml:space="preserve">
-    <value>Перамяшчаць пашырэнні абалонкі ў падменю</value>
+    <value>ÐŸÐµÑ€Ð°Ð¼ÑÑˆÑ‡Ð°Ñ†ÑŒ Ð¿Ð°ÑˆÑ‹Ñ€ÑÐ½Ð½Ñ– Ð°Ð±Ð°Ð»Ð¾Ð½ÐºÑ– Ñž Ð¿Ð°Ð´Ð¼ÐµÐ½ÑŽ</value>
   </data>
   <data name="ShowConfirmationWhenDeletingItems" xml:space="preserve">
-    <value>Паказваць дыялог пацвярджэння пры выдаленні элементаў</value>
+    <value>ÐŸÐ°ÐºÐ°Ð·Ð²Ð°Ñ†ÑŒ Ð´Ñ‹ÑÐ»Ð¾Ð³ Ð¿Ð°Ñ†Ð²ÑÑ€Ð´Ð¶ÑÐ½Ð½Ñ Ð¿Ñ€Ñ‹ Ð²Ñ‹Ð´Ð°Ð»ÐµÐ½Ð½Ñ– ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°Ñž</value>
   </data>
   <data name="PropertySaveErrorMessageText" xml:space="preserve">
-    <value>Узнікла праблема пры захаванні некаторых уласцівасцей.</value>
+    <value>Ð£Ð·Ð½Ñ–ÐºÐ»Ð° Ð¿Ñ€Ð°Ð±Ð»ÐµÐ¼Ð° Ð¿Ñ€Ñ‹ Ð·Ð°Ñ…Ð°Ð²Ð°Ð½Ð½Ñ– Ð½ÐµÐºÐ°Ñ‚Ð¾Ñ€Ñ‹Ñ… ÑƒÐ»Ð°ÑÑ†Ñ–Ð²Ð°ÑÑ†ÐµÐ¹.</value>
   </data>
   <data name="PropertySaveErrorDialogTitle" xml:space="preserve">
-    <value>Памылка</value>
+    <value>ÐŸÐ°Ð¼Ñ‹Ð»ÐºÐ°</value>
   </data>
   <data name="PropertySaveErrorDialog.SecondaryButtonText" xml:space="preserve">
-    <value>Закрыць усё роўна</value>
+    <value>Ð—Ð°ÐºÑ€Ñ‹Ñ†ÑŒ ÑƒÑÑ‘ Ñ€Ð¾ÑžÐ½Ð°</value>
   </data>
   <data name="PropertyRatingText" xml:space="preserve">
-    <value>Рэйтынг</value>
+    <value>Ð ÑÐ¹Ñ‚Ñ‹Ð½Ð³</value>
   </data>
   <data name="PropertyParsingPath" xml:space="preserve">
-    <value>Пуць да прадмета</value>
+    <value>ÐŸÑƒÑ†ÑŒ Ð´Ð° Ð¿Ñ€Ð°Ð´Ð¼ÐµÑ‚Ð°</value>
   </data>
   <data name="PropertyItemTypeText" xml:space="preserve">
-    <value>Тып прадмета</value>
+    <value>Ð¢Ñ‹Ð¿ Ð¿Ñ€Ð°Ð´Ð¼ÐµÑ‚Ð°</value>
   </data>
   <data name="PropertyTitle" xml:space="preserve">
-    <value>Назва</value>
+    <value>ÐÐ°Ð·Ð²Ð°</value>
   </data>
   <data name="PropertySubject" xml:space="preserve">
-    <value>Тэма</value>
+    <value>Ð¢ÑÐ¼Ð°</value>
   </data>
   <data name="PropertyComment" xml:space="preserve">
-    <value>Каментарый</value>
+    <value>ÐšÐ°Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ñ‹Ð¹</value>
   </data>
   <data name="PropertyCopyright" xml:space="preserve">
-    <value>Аўтарскае права</value>
+    <value>ÐÑžÑ‚Ð°Ñ€ÑÐºÐ°Ðµ Ð¿Ñ€Ð°Ð²Ð°</value>
   </data>
   <data name="PropertyDateModified" xml:space="preserve">
-    <value>Дата змянення</value>
+    <value>Ð”Ð°Ñ‚Ð° Ð·Ð¼ÑÐ½ÐµÐ½Ð½Ñ</value>
   </data>
   <data name="PropertyBitDepth" xml:space="preserve">
-    <value>Глыбіня колеру</value>
+    <value>Ð“Ð»Ñ‹Ð±Ñ–Ð½Ñ ÐºÐ¾Ð»ÐµÑ€Ñƒ</value>
   </data>
   <data name="PropertyDimensions" xml:space="preserve">
-    <value>Памеры</value>
+    <value>ÐŸÐ°Ð¼ÐµÑ€Ñ‹</value>
   </data>
   <data name="PropertyHorizontalSize" xml:space="preserve">
-    <value>Гарызантальны памер</value>
+    <value>Ð“Ð°Ñ€Ñ‹Ð·Ð°Ð½Ñ‚Ð°Ð»ÑŒÐ½Ñ‹ Ð¿Ð°Ð¼ÐµÑ€</value>
   </data>
   <data name="PropertyVerticalSize" xml:space="preserve">
-    <value>Вертыкальны памер</value>
+    <value>Ð’ÐµÑ€Ñ‚Ñ‹ÐºÐ°Ð»ÑŒÐ½Ñ‹ Ð¿Ð°Ð¼ÐµÑ€</value>
   </data>
   <data name="PropertyHorizontalResolution" xml:space="preserve">
-    <value>Гарызантальнае разрозненне</value>
+    <value>Ð“Ð°Ñ€Ñ‹Ð·Ð°Ð½Ñ‚Ð°Ð»ÑŒÐ½Ð°Ðµ Ñ€Ð°Ð·Ñ€Ð¾Ð·Ð½ÐµÐ½Ð½Ðµ</value>
   </data>
   <data name="PropertyVerticalResolution" xml:space="preserve">
-    <value>Вертыкальнае разрозненне</value>
+    <value>Ð’ÐµÑ€Ñ‚Ñ‹ÐºÐ°Ð»ÑŒÐ½Ð°Ðµ Ñ€Ð°Ð·Ñ€Ð¾Ð·Ð½ÐµÐ½Ð½Ðµ</value>
   </data>
   <data name="PropertyColorSpace" xml:space="preserve">
-    <value>Каляровая прастора</value>
+    <value>ÐšÐ°Ð»ÑÑ€Ð¾Ð²Ð°Ñ Ð¿Ñ€Ð°ÑÑ‚Ð¾Ñ€Ð°</value>
   </data>
   <data name="PropertyColorSpace_Value0" xml:space="preserve">
     <value>sRGB</value>
   </data>
   <data name="PropertyColorSpace_Value65535" xml:space="preserve">
-    <value>Не вызначана</value>
+    <value>ÐÐµ Ð²Ñ‹Ð·Ð½Ð°Ñ‡Ð°Ð½Ð°</value>
   </data>
   <data name="PropertyLongitudeDecimal" xml:space="preserve">
-    <value>Даўгата (дзесятковая)</value>
+    <value>Ð”Ð°ÑžÐ³Ð°Ñ‚Ð° (Ð´Ð·ÐµÑÑÑ‚ÐºÐ¾Ð²Ð°Ñ)</value>
   </data>
   <data name="PropertyLatitudeDecimal" xml:space="preserve">
-    <value>Шырата (дзесятковая)</value>
+    <value>Ð¨Ñ‹Ñ€Ð°Ñ‚Ð° (Ð´Ð·ÐµÑÑÑ‚ÐºÐ¾Ð²Ð°Ñ)</value>
   </data>
   <data name="PropertyAltitude" xml:space="preserve">
-    <value>Вышыня</value>
+    <value>Ð’Ñ‹ÑˆÑ‹Ð½Ñ</value>
   </data>
   <data name="PropertyDateTaken" xml:space="preserve">
-    <value>Дата здымка</value>
+    <value>Ð”Ð°Ñ‚Ð° Ð·Ð´Ñ‹Ð¼ÐºÐ°</value>
   </data>
   <data name="PropertyCameraManufacturer" xml:space="preserve">
-    <value>Вытворца камеры</value>
+    <value>Ð’Ñ‹Ñ‚Ð²Ð¾Ñ€Ñ†Ð° ÐºÐ°Ð¼ÐµÑ€Ñ‹</value>
   </data>
   <data name="PropertyCameraModel" xml:space="preserve">
-    <value>Мадэль камеры</value>
+    <value>ÐœÐ°Ð´ÑÐ»ÑŒ ÐºÐ°Ð¼ÐµÑ€Ñ‹</value>
   </data>
   <data name="PropertyExposureTime" xml:space="preserve">
-    <value>Вытрымка</value>
+    <value>Ð’Ñ‹Ñ‚Ñ€Ñ‹Ð¼ÐºÐ°</value>
   </data>
   <data name="PropertyFocalLength" xml:space="preserve">
-    <value>Фокусная адлегласць</value>
+    <value>Ð¤Ð¾ÐºÑƒÑÐ½Ð°Ñ Ð°Ð´Ð»ÐµÐ³Ð»Ð°ÑÑ†ÑŒ</value>
   </data>
   <data name="PropertyAperture" xml:space="preserve">
-    <value>Дыяфрагма</value>
+    <value>Ð”Ñ‹ÑÑ„Ñ€Ð°Ð³Ð¼Ð°</value>
   </data>
   <data name="PropertyPeopleNames" xml:space="preserve">
-    <value>Імёны людзей</value>
+    <value>Ð†Ð¼Ñ‘Ð½Ñ‹ Ð»ÑŽÐ´Ð·ÐµÐ¹</value>
   </data>
   <data name="PropertyChannelCount" xml:space="preserve">
-    <value>Колькасць каналаў</value>
+    <value>ÐšÐ¾Ð»ÑŒÐºÐ°ÑÑ†ÑŒ ÐºÐ°Ð½Ð°Ð»Ð°Ñž</value>
   </data>
   <data name="PropertyFormat" xml:space="preserve">
-    <value>Фармат</value>
+    <value>Ð¤Ð°Ñ€Ð¼Ð°Ñ‚</value>
   </data>
   <data name="PropertySampleRate" xml:space="preserve">
-    <value>Частата дыскрэтызацыі</value>
+    <value>Ð§Ð°ÑÑ‚Ð°Ñ‚Ð° Ð´Ñ‹ÑÐºÑ€ÑÑ‚Ñ‹Ð·Ð°Ñ†Ñ‹Ñ–</value>
   </data>
   <data name="PropertyAlbumArtist" xml:space="preserve">
-    <value>Выканаўца альбома</value>
+    <value>Ð’Ñ‹ÐºÐ°Ð½Ð°ÑžÑ†Ð° Ð°Ð»ÑŒÐ±Ð¾Ð¼Ð°</value>
   </data>
   <data name="PropertyAlbumTitle" xml:space="preserve">
-    <value>Назва альбома</value>
+    <value>ÐÐ°Ð·Ð²Ð° Ð°Ð»ÑŒÐ±Ð¾Ð¼Ð°</value>
   </data>
   <data name="Artist" xml:space="preserve">
-    <value>Выканаўца</value>
+    <value>Ð’Ñ‹ÐºÐ°Ð½Ð°ÑžÑ†Ð°</value>
   </data>
   <data name="PropertyBeatsPerMinute" xml:space="preserve">
-    <value>Удараў за хвіліну</value>
+    <value>Ð£Ð´Ð°Ñ€Ð°Ñž Ð·Ð° Ñ…Ð²Ñ–Ð»Ñ–Ð½Ñƒ</value>
   </data>
   <data name="PropertyComposer" xml:space="preserve">
-    <value>Кампазітар</value>
+    <value>ÐšÐ°Ð¼Ð¿Ð°Ð·Ñ–Ñ‚Ð°Ñ€</value>
   </data>
   <data name="Conductor" xml:space="preserve">
-    <value>Дырыжор</value>
+    <value>Ð”Ñ‹Ñ€Ñ‹Ð¶Ð¾Ñ€</value>
   </data>
   <data name="PropertyDiscNumber" xml:space="preserve">
-    <value>Нумар дыска</value>
+    <value>ÐÑƒÐ¼Ð°Ñ€ Ð´Ñ‹ÑÐºÐ°</value>
   </data>
   <data name="PropertyGenre" xml:space="preserve">
-    <value>Жанр</value>
+    <value>Ð–Ð°Ð½Ñ€</value>
   </data>
   <data name="PropertyTrackNumber" xml:space="preserve">
-    <value>Нумар трэка</value>
+    <value>ÐÑƒÐ¼Ð°Ñ€ Ñ‚Ñ€ÑÐºÐ°</value>
   </data>
   <data name="PropertyDuration" xml:space="preserve">
-    <value>Працягласць</value>
+    <value>ÐŸÑ€Ð°Ñ†ÑÐ³Ð»Ð°ÑÑ†ÑŒ</value>
   </data>
   <data name="PropertyFrameCount" xml:space="preserve">
-    <value>Колькасць кадраў</value>
+    <value>ÐšÐ¾Ð»ÑŒÐºÐ°ÑÑ†ÑŒ ÐºÐ°Ð´Ñ€Ð°Ñž</value>
   </data>
   <data name="PropertyProtectionType" xml:space="preserve">
-    <value>Тып абароны</value>
+    <value>Ð¢Ñ‹Ð¿ Ð°Ð±Ð°Ñ€Ð¾Ð½Ñ‹</value>
   </data>
   <data name="PropertyAuthorUrl" xml:space="preserve">
-    <value>URL аўтара</value>
+    <value>URL Ð°ÑžÑ‚Ð°Ñ€Ð°</value>
   </data>
   <data name="PropertyContentDistributor" xml:space="preserve">
-    <value>Распаўсюднік змесціва</value>
+    <value>Ð Ð°ÑÐ¿Ð°ÑžÑÑŽÐ´Ð½Ñ–Ðº Ð·Ð¼ÐµÑÑ†Ñ–Ð²Ð°</value>
   </data>
   <data name="PropertyDateReleased" xml:space="preserve">
-    <value>Дата выпуску</value>
+    <value>Ð”Ð°Ñ‚Ð° Ð²Ñ‹Ð¿ÑƒÑÐºÑƒ</value>
   </data>
   <data name="PropertySeriesName" xml:space="preserve">
-    <value>Назва серыяла</value>
+    <value>ÐÐ°Ð·Ð²Ð° ÑÐµÑ€Ñ‹ÑÐ»Ð°</value>
   </data>
   <data name="PropertySeasonNumber" xml:space="preserve">
-    <value>Нумар сезона</value>
+    <value>ÐÑƒÐ¼Ð°Ñ€ ÑÐµÐ·Ð¾Ð½Ð°</value>
   </data>
   <data name="PropertyEpisodeNumber" xml:space="preserve">
-    <value>Нумар эпізода</value>
+    <value>ÐÑƒÐ¼Ð°Ñ€ ÑÐ¿Ñ–Ð·Ð¾Ð´Ð°</value>
   </data>
   <data name="PropertyProducer" xml:space="preserve">
-    <value>Прадзюсар</value>
+    <value>ÐŸÑ€Ð°Ð´Ð·ÑŽÑÐ°Ñ€</value>
   </data>
   <data name="PropertyPromotionUrl" xml:space="preserve">
-    <value>URL прасоўвання</value>
+    <value>URL Ð¿Ñ€Ð°ÑÐ¾ÑžÐ²Ð°Ð½Ð½Ñ</value>
   </data>
   <data name="PropertyProviderStyle" xml:space="preserve">
-    <value>Стыль пастаўшчыка</value>
+    <value>Ð¡Ñ‚Ñ‹Ð»ÑŒ Ð¿Ð°ÑÑ‚Ð°ÑžÑˆÑ‡Ñ‹ÐºÐ°</value>
   </data>
   <data name="PropertyPublisher" xml:space="preserve">
-    <value>Выдавец</value>
+    <value>Ð’Ñ‹Ð´Ð°Ð²ÐµÑ†</value>
   </data>
   <data name="PropertyThumbnailLargePath" xml:space="preserve">
-    <value>Шлях да вялікай мініяцюры</value>
+    <value>Ð¨Ð»ÑÑ… Ð´Ð° Ð²ÑÐ»Ñ–ÐºÐ°Ð¹ Ð¼Ñ–Ð½Ñ–ÑÑ†ÑŽÑ€Ñ‹</value>
   </data>
   <data name="PropertyThumbnailLargeUri" xml:space="preserve">
-    <value>URI вялікай мініяцюры</value>
+    <value>URI Ð²ÑÐ»Ñ–ÐºÐ°Ð¹ Ð¼Ñ–Ð½Ñ–ÑÑ†ÑŽÑ€Ñ‹</value>
   </data>
   <data name="PropertyThumbnailSmallPath" xml:space="preserve">
-    <value>Шлях да малой мініяцюры</value>
+    <value>Ð¨Ð»ÑÑ… Ð´Ð° Ð¼Ð°Ð»Ð¾Ð¹ Ð¼Ñ–Ð½Ñ–ÑÑ†ÑŽÑ€Ñ‹</value>
   </data>
   <data name="PropertyThumbnailSmallUri" xml:space="preserve">
-    <value>URI малой мініяцюры</value>
+    <value>URI Ð¼Ð°Ð»Ð¾Ð¹ Ð¼Ñ–Ð½Ñ–ÑÑ†ÑŽÑ€Ñ‹</value>
   </data>
   <data name="PropertyUserWebUrl" xml:space="preserve">
-    <value>Вэб-адрас карыстальніка</value>
+    <value>Ð’ÑÐ±-Ð°Ð´Ñ€Ð°Ñ ÐºÐ°Ñ€Ñ‹ÑÑ‚Ð°Ð»ÑŒÐ½Ñ–ÐºÐ°</value>
   </data>
   <data name="PropertyWriter" xml:space="preserve">
-    <value>Пісьменнік</value>
+    <value>ÐŸÑ–ÑÑŒÐ¼ÐµÐ½Ð½Ñ–Ðº</value>
   </data>
   <data name="PropertyYear" xml:space="preserve">
-    <value>Год</value>
+    <value>Ð“Ð¾Ð´</value>
   </data>
   <data name="PropertyContributor" xml:space="preserve">
-    <value>Удзельнік</value>
+    <value>Ð£Ð´Ð·ÐµÐ»ÑŒÐ½Ñ–Ðº</value>
   </data>
   <data name="PropertyLastAuthor" xml:space="preserve">
-    <value>Апошні аўтар</value>
+    <value>ÐÐ¿Ð¾ÑˆÐ½Ñ– Ð°ÑžÑ‚Ð°Ñ€</value>
   </data>
   <data name="PropertyRevisionNumber" xml:space="preserve">
-    <value>Нумар рэдакцыі</value>
+    <value>ÐÑƒÐ¼Ð°Ñ€ Ñ€ÑÐ´Ð°ÐºÑ†Ñ‹Ñ–</value>
   </data>
   <data name="PropertyVersion" xml:space="preserve">
-    <value>Версія</value>
+    <value>Ð’ÐµÑ€ÑÑ–Ñ</value>
   </data>
   <data name="PropertyDateCreated" xml:space="preserve">
-    <value>Дата стварэння</value>
+    <value>Ð”Ð°Ñ‚Ð° ÑÑ‚Ð²Ð°Ñ€ÑÐ½Ð½Ñ</value>
   </data>
   <data name="PropertyTotalEditingTime" xml:space="preserve">
-    <value>Агульны час рэдагавання</value>
+    <value>ÐÐ³ÑƒÐ»ÑŒÐ½Ñ‹ Ñ‡Ð°Ñ Ñ€ÑÐ´Ð°Ð³Ð°Ð²Ð°Ð½Ð½Ñ</value>
   </data>
   <data name="PropertyTemplate" xml:space="preserve">
-    <value>Шаблон</value>
+    <value>Ð¨Ð°Ð±Ð»Ð¾Ð½</value>
   </data>
   <data name="PropertyWordCount" xml:space="preserve">
-    <value>Колькасць слоў</value>
+    <value>ÐšÐ¾Ð»ÑŒÐºÐ°ÑÑ†ÑŒ ÑÐ»Ð¾Ñž</value>
   </data>
   <data name="PropertyCharacterCount" xml:space="preserve">
-    <value>Колькасць літар</value>
+    <value>ÐšÐ¾Ð»ÑŒÐºÐ°ÑÑ†ÑŒ Ð»Ñ–Ñ‚Ð°Ñ€</value>
   </data>
   <data name="PropertyLineCount" xml:space="preserve">
-    <value>Колькасць ліній</value>
+    <value>ÐšÐ¾Ð»ÑŒÐºÐ°ÑÑ†ÑŒ Ð»Ñ–Ð½Ñ–Ð¹</value>
   </data>
   <data name="PropertyParagraphCount" xml:space="preserve">
-    <value>Колькасць чырвоных радкоў</value>
+    <value>ÐšÐ¾Ð»ÑŒÐºÐ°ÑÑ†ÑŒ Ñ‡Ñ‹Ñ€Ð²Ð¾Ð½Ñ‹Ñ… Ñ€Ð°Ð´ÐºÐ¾Ñž</value>
   </data>
   <data name="PropertyPageCount" xml:space="preserve">
-    <value>Колькасць старонак</value>
+    <value>ÐšÐ¾Ð»ÑŒÐºÐ°ÑÑ†ÑŒ ÑÑ‚Ð°Ñ€Ð¾Ð½Ð°Ðº</value>
   </data>
   <data name="PropertySlideCount" xml:space="preserve">
-    <value>Колькасць слайдаў</value>
+    <value>ÐšÐ¾Ð»ÑŒÐºÐ°ÑÑ†ÑŒ ÑÐ»Ð°Ð¹Ð´Ð°Ñž</value>
   </data>
   <data name="PropertyFrameRate" xml:space="preserve">
-    <value>Частата кадраў</value>
+    <value>Ð§Ð°ÑÑ‚Ð°Ñ‚Ð° ÐºÐ°Ð´Ñ€Ð°Ñž</value>
   </data>
   <data name="PropertyEncodingBitrate" xml:space="preserve">
-    <value>Бітрэйт кадзіравання</value>
+    <value>Ð‘Ñ–Ñ‚Ñ€ÑÐ¹Ñ‚ ÐºÐ°Ð´Ð·Ñ–Ñ€Ð°Ð²Ð°Ð½Ð½Ñ</value>
   </data>
   <data name="PropertyPreviewAudioEncodingBitrate" xml:space="preserve">
-    <value>Бітрэйт аўдыё</value>
+    <value>Ð‘Ñ–Ñ‚Ñ€ÑÐ¹Ñ‚ Ð°ÑžÐ´Ñ‹Ñ‘</value>
   </data>
   <data name="PropertyPreviewVideoEncodingBitrate" xml:space="preserve">
-    <value>Бітрэйт відэа</value>
+    <value>Ð‘Ñ–Ñ‚Ñ€ÑÐ¹Ñ‚ Ð²Ñ–Ð´ÑÐ°</value>
   </data>
   <data name="Compression" xml:space="preserve">
-    <value>Сцісканне</value>
+    <value>Ð¡Ñ†Ñ–ÑÐºÐ°Ð½Ð½Ðµ</value>
   </data>
   <data name="PropertyFrameWidth" xml:space="preserve">
-    <value>Шырыня кадра</value>
+    <value>Ð¨Ñ‹Ñ€Ñ‹Ð½Ñ ÐºÐ°Ð´Ñ€Ð°</value>
   </data>
   <data name="PropertyFrameHeight" xml:space="preserve">
-    <value>Вышыня кадра</value>
+    <value>Ð’Ñ‹ÑˆÑ‹Ð½Ñ ÐºÐ°Ð´Ñ€Ð°</value>
   </data>
   <data name="PropertyOrientation" xml:space="preserve">
-    <value>Арыентацыя</value>
+    <value>ÐÑ€Ñ‹ÐµÐ½Ñ‚Ð°Ñ†Ñ‹Ñ</value>
   </data>
   <data name="PropertySectionCore" xml:space="preserve">
-    <value>Асноўнае</value>
+    <value>ÐÑÐ½Ð¾ÑžÐ½Ð°Ðµ</value>
   </data>
   <data name="PropertySectionImage" xml:space="preserve">
-    <value>Малюнак</value>
+    <value>ÐœÐ°Ð»ÑŽÐ½Ð°Ðº</value>
   </data>
   <data name="PropertySectionPhoto" xml:space="preserve">
-    <value>Фота</value>
+    <value>Ð¤Ð¾Ñ‚Ð°</value>
   </data>
   <data name="PropertySectionGPS" xml:space="preserve">
     <value>GPS</value>
   </data>
   <data name="PropertySectionMedia" xml:space="preserve">
-    <value>Медыя</value>
+    <value>ÐœÐµÐ´Ñ‹Ñ</value>
   </data>
   <data name="PropertySectionAudio" xml:space="preserve">
-    <value>Аўдыё</value>
+    <value>ÐÑžÐ´Ñ‹Ñ‘</value>
   </data>
   <data name="PropertySectionMusic" xml:space="preserve">
-    <value>Музыка</value>
+    <value>ÐœÑƒÐ·Ñ‹ÐºÐ°</value>
   </data>
   <data name="PropertySectionVideo" xml:space="preserve">
-    <value>Відэа</value>
+    <value>Ð’Ñ–Ð´ÑÐ°</value>
   </data>
   <data name="Document" xml:space="preserve">
-    <value>Дакумент</value>
+    <value>Ð”Ð°ÐºÑƒÐ¼ÐµÐ½Ñ‚</value>
   </data>
   <data name="Address" xml:space="preserve">
-    <value>Адрас</value>
+    <value>ÐÐ´Ñ€Ð°Ñ</value>
   </data>
   <data name="SelectionOptions" xml:space="preserve">
-    <value>Параметры вылучэння</value>
+    <value>ÐŸÐ°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹ Ð²Ñ‹Ð»ÑƒÑ‡ÑÐ½Ð½Ñ</value>
   </data>
   <data name="NavToolbarSelectionOptions.Label" xml:space="preserve">
-    <value>Выбраць</value>
+    <value>Ð’Ñ‹Ð±Ñ€Ð°Ñ†ÑŒ</value>
   </data>
   <data name="RecycleBinItemAutomation" xml:space="preserve">
-    <value>Элемент кошыка</value>
+    <value>Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ ÐºÐ¾ÑˆÑ‹ÐºÐ°</value>
   </data>
   <data name="ShortcutItemAutomation" xml:space="preserve">
-    <value>Ярлык</value>
+    <value>Ð¯Ñ€Ð»Ñ‹Ðº</value>
   </data>
   <data name="Drives" xml:space="preserve">
-    <value>Дыскі</value>
+    <value>Ð”Ñ‹ÑÐºÑ–</value>
   </data>
   <data name="PinToSidebarByDraggingCaptionText" xml:space="preserve">
-    <value>Перамясціць сюды</value>
+    <value>ÐŸÐµÑ€Ð°Ð¼ÑÑÑ†Ñ–Ñ†ÑŒ ÑÑŽÐ´Ñ‹</value>
   </data>
   <data name="EjectNotificationHeader" xml:space="preserve">
-    <value>Абсталяванне можна бяспечна выняць</value>
+    <value>ÐÐ±ÑÑ‚Ð°Ð»ÑÐ²Ð°Ð½Ð½Ðµ Ð¼Ð¾Ð¶Ð½Ð° Ð±ÑÑÐ¿ÐµÑ‡Ð½Ð° Ð²Ñ‹Ð½ÑÑ†ÑŒ</value>
   </data>
   <data name="EjectNotificationBody" xml:space="preserve">
-    <value>Устройства можа быць адключана бяспечна.</value>
+    <value>Ð£ÑÑ‚Ñ€Ð¾Ð¹ÑÑ‚Ð²Ð° Ð¼Ð¾Ð¶Ð° Ð±Ñ‹Ñ†ÑŒ Ð°Ð´ÐºÐ»ÑŽÑ‡Ð°Ð½Ð° Ð±ÑÑÐ¿ÐµÑ‡Ð½Ð°.</value>
   </data>
   <data name="EjectNotificationErrorDialogHeader" xml:space="preserve">
-    <value>Праблема з выманнем устройства</value>
+    <value>ÐŸÑ€Ð°Ð±Ð»ÐµÐ¼Ð° Ð· Ð²Ñ‹Ð¼Ð°Ð½Ð½ÐµÐ¼ ÑƒÑÑ‚Ñ€Ð¾Ð¹ÑÑ‚Ð²Ð°</value>
   </data>
   <data name="EjectNotificationErrorDialogBody" xml:space="preserve">
-    <value>Устройства выкарыстоўваецца. Закрыйце праграму ці ўкладкі, якія могуць выкарыстоўваць устройства, і затым паспрабуйце яшчэ раз.</value>
+    <value>Ð£ÑÑ‚Ñ€Ð¾Ð¹ÑÑ‚Ð²Ð° Ð²Ñ‹ÐºÐ°Ñ€Ñ‹ÑÑ‚Ð¾ÑžÐ²Ð°ÐµÑ†Ñ†Ð°. Ð—Ð°ÐºÑ€Ñ‹Ð¹Ñ†Ðµ Ð¿Ñ€Ð°Ð³Ñ€Ð°Ð¼Ñƒ Ñ†Ñ– ÑžÐºÐ»Ð°Ð´ÐºÑ–, ÑÐºÑ–Ñ Ð¼Ð¾Ð³ÑƒÑ†ÑŒ Ð²Ñ‹ÐºÐ°Ñ€Ñ‹ÑÑ‚Ð¾ÑžÐ²Ð°Ñ†ÑŒ ÑƒÑÑ‚Ñ€Ð¾Ð¹ÑÑ‚Ð²Ð°, Ñ– Ð·Ð°Ñ‚Ñ‹Ð¼ Ð¿Ð°ÑÐ¿Ñ€Ð°Ð±ÑƒÐ¹Ñ†Ðµ ÑÑˆÑ‡Ñ Ñ€Ð°Ð·.</value>
   </data>
   <data name="Eject" xml:space="preserve">
-    <value>Выняць</value>
+    <value>Ð’Ñ‹Ð½ÑÑ†ÑŒ</value>
   </data>
   <data name="DuplicateTab" xml:space="preserve">
-    <value>Дубляваць укладку</value>
+    <value>Ð”ÑƒÐ±Ð»ÑÐ²Ð°Ñ†ÑŒ ÑƒÐºÐ»Ð°Ð´ÐºÑƒ</value>
   </data>
   <data name="HorizontalMultitaskingControlMoveTabToNewWindow.Text" xml:space="preserve">
-    <value>Перамясціць укладку ў новае акно</value>
+    <value>ÐŸÐµÑ€Ð°Ð¼ÑÑÑ†Ñ–Ñ†ÑŒ ÑƒÐºÐ»Ð°Ð´ÐºÑƒ Ñž Ð½Ð¾Ð²Ð°Ðµ Ð°ÐºÐ½Ð¾</value>
   </data>
   <data name="NewTab" xml:space="preserve">
-    <value>Новая ўкладка</value>
+    <value>ÐÐ¾Ð²Ð°Ñ ÑžÐºÐ»Ð°Ð´ÐºÐ°</value>
   </data>
   <data name="ClearPropertiesFlyoutText.Text" xml:space="preserve">
-    <value>Некаторыя ўласцівасці могуць змяшчаць асабістую інфармацыю.</value>
+    <value>ÐÐµÐºÐ°Ñ‚Ð¾Ñ€Ñ‹Ñ ÑžÐ»Ð°ÑÑ†Ñ–Ð²Ð°ÑÑ†Ñ– Ð¼Ð¾Ð³ÑƒÑ†ÑŒ Ð·Ð¼ÑÑˆÑ‡Ð°Ñ†ÑŒ Ð°ÑÐ°Ð±Ñ–ÑÑ‚ÑƒÑŽ Ñ–Ð½Ñ„Ð°Ñ€Ð¼Ð°Ñ†Ñ‹ÑŽ.</value>
   </data>
   <data name="ClearPropertiesButton.Content" xml:space="preserve">
-    <value>Ачысціць усе ўласцівасці</value>
+    <value>ÐÑ‡Ñ‹ÑÑ†Ñ–Ñ†ÑŒ ÑƒÑÐµ ÑžÐ»Ð°ÑÑ†Ñ–Ð²Ð°ÑÑ†Ñ–</value>
   </data>
   <data name="OngoingTasksTeachingTip.Subtitle" xml:space="preserve">
-    <value>Тут можна праверыць стан файлавых аперацый</value>
+    <value>Ð¢ÑƒÑ‚ Ð¼Ð¾Ð¶Ð½Ð° Ð¿Ñ€Ð°Ð²ÐµÑ€Ñ‹Ñ†ÑŒ ÑÑ‚Ð°Ð½ Ñ„Ð°Ð¹Ð»Ð°Ð²Ñ‹Ñ… Ð°Ð¿ÐµÑ€Ð°Ñ†Ñ‹Ð¹</value>
   </data>
   <data name="OngoingTasksTeachingTip.Title" xml:space="preserve">
-    <value>Цэнтр стану</value>
+    <value>Ð¦ÑÐ½Ñ‚Ñ€ ÑÑ‚Ð°Ð½Ñƒ</value>
   </data>
   <data name="SearchPagePathBoxOverrideText" xml:space="preserve">
-    <value>Вынікі пошуку {0} у {1}</value>
+    <value>Ð’Ñ‹Ð½Ñ–ÐºÑ– Ð¿Ð¾ÑˆÑƒÐºÑƒ {0} Ñƒ {1}</value>
   </data>
   <data name="SearchResultsFor" xml:space="preserve">
-    <value>Вынікі пошуку для `{0}`</value>
+    <value>Ð’Ñ‹Ð½Ñ–ÐºÑ– Ð¿Ð¾ÑˆÑƒÐºÑƒ Ð´Ð»Ñ `{0}`</value>
   </data>
   <data name="Details" xml:space="preserve">
-    <value>Падрабязнасці</value>
+    <value>ÐŸÐ°Ð´Ñ€Ð°Ð±ÑÐ·Ð½Ð°ÑÑ†Ñ–</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>Не</value>
+    <value>ÐÐµ</value>
   </data>
   <data name="ShowProtectedSystemFiles" xml:space="preserve">
-    <value>Паказваць абароненыя сістэмныя файлы</value>
+    <value>ÐŸÐ°ÐºÐ°Ð·Ð²Ð°Ñ†ÑŒ Ð°Ð±Ð°Ñ€Ð¾Ð½ÐµÐ½Ñ‹Ñ ÑÑ–ÑÑ‚ÑÐ¼Ð½Ñ‹Ñ Ñ„Ð°Ð¹Ð»Ñ‹</value>
   </data>
   <data name="SyncFolderPreferencesAcrossDirectories" xml:space="preserve">
-    <value>Сінхранізаваць макет і сартаванне паміж каталогамі</value>
+    <value>Ð¡Ñ–Ð½Ñ…Ñ€Ð°Ð½Ñ–Ð·Ð°Ð²Ð°Ñ†ÑŒ Ð¼Ð°ÐºÐµÑ‚ Ñ– ÑÐ°Ñ€Ñ‚Ð°Ð²Ð°Ð½Ð½Ðµ Ð¿Ð°Ð¼Ñ–Ð¶ ÐºÐ°Ñ‚Ð°Ð»Ð¾Ð³Ð°Ð¼Ñ–</value>
   </data>
   <data name="SettingsContextMenu.Text" xml:space="preserve">
-    <value>Наладзіць кантэкстнае меню правай кнопкі мышы</value>
+    <value>ÐÐ°Ð»Ð°Ð´Ð·Ñ–Ñ†ÑŒ ÐºÐ°Ð½Ñ‚ÑÐºÑÑ‚Ð½Ð°Ðµ Ð¼ÐµÐ½ÑŽ Ð¿Ñ€Ð°Ð²Ð°Ð¹ ÐºÐ½Ð¾Ð¿ÐºÑ– Ð¼Ñ‹ÑˆÑ‹</value>
   </data>
   <data name="OriginalPath" xml:space="preserve">
-    <value>Зыходны шлях</value>
+    <value>Ð—Ñ‹Ñ…Ð¾Ð´Ð½Ñ‹ ÑˆÐ»ÑÑ…</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>Дадаць</value>
+    <value>Ð”Ð°Ð´Ð°Ñ†ÑŒ</value>
   </data>
   <data name="Edit" xml:space="preserve">
-    <value>Рэдагаваць</value>
+    <value>Ð ÑÐ´Ð°Ð³Ð°Ð²Ð°Ñ†ÑŒ</value>
   </data>
   <data name="Remove" xml:space="preserve">
-    <value>Выдаліць</value>
+    <value>Ð’Ñ‹Ð´Ð°Ð»Ñ–Ñ†ÑŒ</value>
   </data>
   <data name="SettingsMultitaskingAlwaysOpenDualPane" xml:space="preserve">
-    <value>Адкрываць укладкі ў рэжыме дзвюх панэляў</value>
+    <value>ÐÐ´ÐºÑ€Ñ‹Ð²Ð°Ñ†ÑŒ ÑƒÐºÐ»Ð°Ð´ÐºÑ– Ñž Ñ€ÑÐ¶Ñ‹Ð¼Ðµ Ð´Ð·Ð²ÑŽÑ… Ð¿Ð°Ð½ÑÐ»ÑÑž</value>
   </data>
   <data name="ShowOpenInNewPane" xml:space="preserve">
-    <value>Паказваць параметр адкрыцця папак у новай панэлі</value>
+    <value>ÐŸÐ°ÐºÐ°Ð·Ð²Ð°Ñ†ÑŒ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€ Ð°Ð´ÐºÑ€Ñ‹Ñ†Ñ†Ñ Ð¿Ð°Ð¿Ð°Ðº Ñƒ Ð½Ð¾Ð²Ð°Ð¹ Ð¿Ð°Ð½ÑÐ»Ñ–</value>
   </data>
   <data name="ShowCopyPath" xml:space="preserve">
-    <value>Паказваць параметр капіявання шляху</value>
+    <value>ÐŸÐ°ÐºÐ°Ð·Ð²Ð°Ñ†ÑŒ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€ ÐºÐ°Ð¿Ñ–ÑÐ²Ð°Ð½Ð½Ñ ÑˆÐ»ÑÑ…Ñƒ</value>
   </data>
   <data name="ShowCreateFolderWithSelection" xml:space="preserve">
-    <value>Паказваць параметр стварэння папкі з вылучанага</value>
+    <value>ÐŸÐ°ÐºÐ°Ð·Ð²Ð°Ñ†ÑŒ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€ ÑÑ‚Ð²Ð°Ñ€ÑÐ½Ð½Ñ Ð¿Ð°Ð¿ÐºÑ– Ð· Ð²Ñ‹Ð»ÑƒÑ‡Ð°Ð½Ð°Ð³Ð°</value>
   </data>
   <data name="ShowCreateShortcut" xml:space="preserve">
-    <value>Паказваць параметр стварэння ярлыка</value>
+    <value>ÐŸÐ°ÐºÐ°Ð·Ð²Ð°Ñ†ÑŒ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€ ÑÑ‚Ð²Ð°Ñ€ÑÐ½Ð½Ñ ÑÑ€Ð»Ñ‹ÐºÐ°</value>
   </data>
   <data name="NavigationToolbarNewPane.Label" xml:space="preserve">
-    <value>Новая панэль</value>
+    <value>ÐÐ¾Ð²Ð°Ñ Ð¿Ð°Ð½ÑÐ»ÑŒ</value>
   </data>
   <data name="OpenInNewPane" xml:space="preserve">
     <value>Open in new pane</value>
@@ -1128,7 +1128,7 @@
     <value>Cloud Drives</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>Пацвердзіць</value>
+    <value>ÐŸÐ°Ñ†Ð²ÐµÑ€Ð´Ð·Ñ–Ñ†ÑŒ</value>
   </data>
   <data name="DesiredName" xml:space="preserve">
     <value>Desired name</value>
@@ -1191,13 +1191,13 @@
     <value>Selected file preview pane</value>
   </data>
   <data name="Feedback" xml:space="preserve">
-    <value>Зваротная сувязь</value>
+    <value>Ð—Ð²Ð°Ñ€Ð¾Ñ‚Ð½Ð°Ñ ÑÑƒÐ²ÑÐ·ÑŒ</value>
   </data>
   <data name="CloudDriveSyncStatus_Online" xml:space="preserve">
     <value>Available when online</value>
   </data>
   <data name="Documentation" xml:space="preserve">
-    <value>Дакументацыя</value>
+    <value>Ð”Ð°ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð°Ñ†Ñ‹Ñ</value>
   </data>
   <data name="CloudDriveSyncStatus_Offline" xml:space="preserve">
     <value>Available offline</value>
@@ -1278,7 +1278,7 @@
     <value>Arguments</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>Звычайныя</value>
+    <value>Ð—Ð²Ñ‹Ñ‡Ð°Ð¹Ð½Ñ‹Ñ</value>
   </data>
   <data name="PropertyItemCount" xml:space="preserve">
     <value>Item count</value>
@@ -1332,7 +1332,7 @@
     <value>Cleanup</value>
   </data>
   <data name="Copy" xml:space="preserve">
-    <value>Капіраваць</value>
+    <value>ÐšÐ°Ð¿Ñ–Ñ€Ð°Ð²Ð°Ñ†ÑŒ</value>
   </data>
   <data name="CopyItemsDialogTitle" xml:space="preserve">
     <value>Copy {0, plural, one {item} other {items}}</value>
@@ -1485,7 +1485,7 @@
     <value>Rename</value>
   </data>
   <data name="Privacy" xml:space="preserve">
-    <value>Прыватнасць</value>
+    <value>ÐŸÑ€Ñ‹Ð²Ð°Ñ‚Ð½Ð°ÑÑ†ÑŒ</value>
   </data>
   <data name="TheRecycleBin" xml:space="preserve">
     <value>the Recycle Bin</value>
@@ -1701,7 +1701,7 @@
     <value>Company</value>
   </data>
   <data name="PropertyLanguage" xml:space="preserve">
-    <value>Мова</value>
+    <value>ÐœÐ¾Ð²Ð°</value>
   </data>
   <data name="PropertyTrademarks" xml:space="preserve">
     <value>Trademarks</value>
@@ -1818,7 +1818,7 @@
     <value>Open folders in new tab</value>
   </data>
   <data name="StatusCenter" xml:space="preserve">
-    <value>Цэнтр стану</value>
+    <value>Ð¦ÑÐ½Ñ‚Ñ€ ÑÑ‚Ð°Ð½Ñƒ</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateCreated.Text" xml:space="preserve">
     <value>Date created column</value>
@@ -1830,13 +1830,13 @@
     <value>Experimental feature flags</value>
   </data>
   <data name="HelpAndSupport" xml:space="preserve">
-    <value>Дапамога і падтрымка</value>
+    <value>Ð”Ð°Ð¿Ð°Ð¼Ð¾Ð³Ð° Ñ– Ð¿Ð°Ð´Ñ‚Ñ€Ñ‹Ð¼ÐºÐ°</value>
   </data>
   <data name="SubmitFeatureRequest" xml:space="preserve">
-    <value>Адправіць запыт на функцыю</value>
+    <value>ÐÐ´Ð¿Ñ€Ð°Ð²Ñ–Ñ†ÑŒ Ð·Ð°Ð¿Ñ‹Ñ‚ Ð½Ð° Ñ„ÑƒÐ½ÐºÑ†Ñ‹ÑŽ</value>
   </data>
   <data name="SubmitBugReport" xml:space="preserve">
-    <value>Адправіць паведамленне пра памылку</value>
+    <value>ÐÐ´Ð¿Ñ€Ð°Ð²Ñ–Ñ†ÑŒ Ð¿Ð°Ð²ÐµÐ´Ð°Ð¼Ð»ÐµÐ½Ð½Ðµ Ð¿Ñ€Ð° Ð¿Ð°Ð¼Ñ‹Ð»ÐºÑƒ</value>
   </data>
   <data name="SettingsSetAsDefaultFileManager" xml:space="preserve">
     <value>Set Files as the default file manager</value>
@@ -1899,7 +1899,7 @@
     <value>On this program start</value>
   </data>
   <data name="System" xml:space="preserve">
-    <value>Сістэмны</value>
+    <value>Ð¡Ñ–ÑÑ‚ÑÐ¼Ð½Ñ‹</value>
   </data>
   <data name="CompatibilitySystemEnhanced" xml:space="preserve">
     <value>System (Enhanced)</value>
@@ -2049,7 +2049,7 @@
     <value>Close all tabs</value>
   </data>
   <data name="Music" xml:space="preserve">
-    <value>Музыка</value>
+    <value>ÐœÑƒÐ·Ñ‹ÐºÐ°</value>
   </data>
   <data name="Pictures" xml:space="preserve">
     <value>Pictures</value>
@@ -2322,7 +2322,7 @@
     <value>Password</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Фармат</value>
+    <value>Ð¤Ð°Ñ€Ð¼Ð°Ñ‚</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowSyncStatus.Text" xml:space="preserve">
     <value>Sync status column</value>
@@ -2448,7 +2448,7 @@
     <value>File extensions</value>
   </data>
   <data name="FormatDriveText" xml:space="preserve">
-    <value>Фармат</value>
+    <value>Ð¤Ð°Ñ€Ð¼Ð°Ñ‚</value>
   </data>
   <data name="Help" xml:space="preserve">
     <value>Help</value>
@@ -2888,7 +2888,7 @@
     <value>Toggle group sort direction</value>
   </data>
   <data name="NewTabDescription" xml:space="preserve">
-    <value>Адкрываць новую ўкладку</value>
+    <value>ÐÐ´ÐºÑ€Ñ‹Ð²Ð°Ñ†ÑŒ Ð½Ð¾Ð²ÑƒÑŽ ÑžÐºÐ»Ð°Ð´ÐºÑƒ</value>
   </data>
   <data name="NavigateBackDescription" xml:space="preserve">
     <value>Navigate backward</value>
@@ -2995,7 +2995,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Up" xml:space="preserve">
-    <value>Уверх</value>
+    <value>Ð£Ð²ÐµÑ€Ñ…</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Home" xml:space="preserve">
@@ -3083,7 +3083,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserSearch" xml:space="preserve">
-    <value>Пошук</value>
+    <value>ÐŸÐ¾ÑˆÑƒÐº</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserFavorites" xml:space="preserve">
@@ -3225,7 +3225,7 @@
     <value>Toggle grouping unit</value>
   </data>
   <data name="Year" xml:space="preserve">
-    <value>Год</value>
+    <value>Ð“Ð¾Ð´</value>
   </data>
   <data name="GroupByDateUnit" xml:space="preserve">
     <value>Group by date unit</value>
@@ -3321,7 +3321,7 @@
     <value>Create a folder with the currently selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="OpenProperties" xml:space="preserve">
-    <value>Уласцівасці</value>
+    <value>Ð£Ð»Ð°ÑÑ†Ñ–Ð²Ð°ÑÑ†Ñ–</value>
   </data>
   <data name="OpenClassicProperties" xml:space="preserve">
     <value>Open File Explorer properties</value>
@@ -3339,7 +3339,7 @@
     <value>Remotes</value>
   </data>
   <data name="ImproveTranslation" xml:space="preserve">
-    <value>Перакладаць на Crowdin</value>
+    <value>ÐŸÐµÑ€Ð°ÐºÐ»Ð°Ð´Ð°Ñ†ÑŒ Ð½Ð° Crowdin</value>
   </data>
   <data name="GitFetch" xml:space="preserve">
     <value>Fetch</value>
@@ -3640,7 +3640,7 @@
     <comment>Shown in a StatusCenter card. Used as "64 MB of 1 GB processed"</comment>
   </data>
   <data name="ItemsLower" xml:space="preserve">
-    <value>элемент(аў)</value>
+    <value>ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚(Ð°Ñž)</value>
   </data>
   <data name="CannotInitializeGitRepo" xml:space="preserve">
     <value>Files can't initialize this directory as a Git repository.</value>
@@ -3725,87 +3725,87 @@
     <comment>Shown in Status Center for Git clone. {0} is the Git object count, {1} is the repository, and {2} is the destination path.</comment>
   </data>
   <data name="StatusCenter_GitCheckoutCanceled_Header" xml:space="preserve">
-    <value>Пераключэнне на "{0}" у "{1}" скасавана</value>
+    <value>ÐŸÐµÑ€Ð°ÐºÐ»ÑŽÑ‡ÑÐ½Ð½Ðµ Ð½Ð° "{0}" Ñƒ "{1}" ÑÐºÐ°ÑÐ°Ð²Ð°Ð½Ð°</value>
     <comment>Shown in Status Center for Git checkout. {0} is the branch and {1} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitCheckoutComplete_Header" xml:space="preserve">
-    <value>Пераключана на "{0}" у "{1}"</value>
+    <value>ÐŸÐµÑ€Ð°ÐºÐ»ÑŽÑ‡Ð°Ð½Ð° Ð½Ð° "{0}" Ñƒ "{1}"</value>
     <comment>Shown in Status Center for Git checkout. {0} is the branch and {1} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitCheckoutFailed_Header" xml:space="preserve">
-    <value>Не ўдалося пераключыцца на "{0}" у "{1}"</value>
+    <value>ÐÐµ ÑžÐ´Ð°Ð»Ð¾ÑÑ Ð¿ÐµÑ€Ð°ÐºÐ»ÑŽÑ‡Ñ‹Ñ†Ñ†Ð° Ð½Ð° "{0}" Ñƒ "{1}"</value>
     <comment>Shown in Status Center for Git checkout. {0} is the branch and {1} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitCheckoutInProgress_Header" xml:space="preserve">
-    <value>Пераключэнне на "{0}" у "{1}"</value>
+    <value>ÐŸÐµÑ€Ð°ÐºÐ»ÑŽÑ‡ÑÐ½Ð½Ðµ Ð½Ð° "{0}" Ñƒ "{1}"</value>
     <comment>Shown in Status Center for Git checkout. {0} is the branch and {1} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitFetchCanceled_Header" xml:space="preserve">
-    <value>Атрыманне аддаленых зменаў для "{0}" скасавана</value>
+    <value>ÐÑ‚Ñ€Ñ‹Ð¼Ð°Ð½Ð½Ðµ Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ… Ð·Ð¼ÐµÐ½Ð°Ñž Ð´Ð»Ñ "{0}" ÑÐºÐ°ÑÐ°Ð²Ð°Ð½Ð°</value>
     <comment>Shown in Status Center for Git fetch. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitFetchComplete_Header" xml:space="preserve">
-    <value>Атрыманы аддаленыя змены для "{0}"</value>
+    <value>ÐÑ‚Ñ€Ñ‹Ð¼Ð°Ð½Ñ‹ Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ Ð·Ð¼ÐµÐ½Ñ‹ Ð´Ð»Ñ "{0}"</value>
     <comment>Shown in Status Center for Git fetch. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitFetchFailed_Header" xml:space="preserve">
-    <value>Не ўдалося атрымаць аддаленыя змены для "{0}"</value>
+    <value>ÐÐµ ÑžÐ´Ð°Ð»Ð¾ÑÑ Ð°Ñ‚Ñ€Ñ‹Ð¼Ð°Ñ†ÑŒ Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ Ð·Ð¼ÐµÐ½Ñ‹ Ð´Ð»Ñ "{0}"</value>
     <comment>Shown in Status Center for Git fetch. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitFetchInProgress_Header" xml:space="preserve">
-    <value>Атрыманне аддаленых зменаў для "{0}"</value>
+    <value>ÐÑ‚Ñ€Ñ‹Ð¼Ð°Ð½Ð½Ðµ Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ… Ð·Ð¼ÐµÐ½Ð°Ñž Ð´Ð»Ñ "{0}"</value>
     <comment>Shown in Status Center for Git fetch. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitOperationProgress" xml:space="preserve">
-    <value>Выканана {0}%</value>
+    <value>Ð’Ñ‹ÐºÐ°Ð½Ð°Ð½Ð° {0}%</value>
     <comment>Shown in Status Center during a Git operation. {0} is the percentage from 0 to 100.</comment>
   </data>
   <data name="StatusCenter_GitPullCanceled_Header" xml:space="preserve">
-    <value>Загрузка аддаленых зменаў у "{0}" скасавана</value>
+    <value>Ð—Ð°Ð³Ñ€ÑƒÐ·ÐºÐ° Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ… Ð·Ð¼ÐµÐ½Ð°Ñž Ñƒ "{0}" ÑÐºÐ°ÑÐ°Ð²Ð°Ð½Ð°</value>
     <comment>Shown in Status Center for Git pull. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitPullComplete_Header" xml:space="preserve">
-    <value>Загружаны аддаленыя змены ў "{0}"</value>
+    <value>Ð—Ð°Ð³Ñ€ÑƒÐ¶Ð°Ð½Ñ‹ Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ Ð·Ð¼ÐµÐ½Ñ‹ Ñž "{0}"</value>
     <comment>Shown in Status Center for Git pull. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitPullFailed_Header" xml:space="preserve">
-    <value>Не ўдалося загрузіць аддаленыя змены ў "{0}"</value>
+    <value>ÐÐµ ÑžÐ´Ð°Ð»Ð¾ÑÑ Ð·Ð°Ð³Ñ€ÑƒÐ·Ñ–Ñ†ÑŒ Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ Ð·Ð¼ÐµÐ½Ñ‹ Ñž "{0}"</value>
     <comment>Shown in Status Center for Git pull. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitPullInProgress_Header" xml:space="preserve">
-    <value>Загрузка аддаленых зменаў у "{0}"</value>
+    <value>Ð—Ð°Ð³Ñ€ÑƒÐ·ÐºÐ° Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ… Ð·Ð¼ÐµÐ½Ð°Ñž Ñƒ "{0}"</value>
     <comment>Shown in Status Center for Git pull. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitPushCanceled_Header" xml:space="preserve">
-    <value>Адпраўка лакальных камітаў з "{0}" скасавана</value>
+    <value>ÐÐ´Ð¿Ñ€Ð°ÑžÐºÐ° Ð»Ð°ÐºÐ°Ð»ÑŒÐ½Ñ‹Ñ… ÐºÐ°Ð¼Ñ–Ñ‚Ð°Ñž Ð· "{0}" ÑÐºÐ°ÑÐ°Ð²Ð°Ð½Ð°</value>
     <comment>Shown in Status Center for Git push. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitPushComplete_Header" xml:space="preserve">
-    <value>Адпраўлены лакальныя каміты з "{0}"</value>
+    <value>ÐÐ´Ð¿Ñ€Ð°ÑžÐ»ÐµÐ½Ñ‹ Ð»Ð°ÐºÐ°Ð»ÑŒÐ½Ñ‹Ñ ÐºÐ°Ð¼Ñ–Ñ‚Ñ‹ Ð· "{0}"</value>
     <comment>Shown in Status Center for Git push. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitPushFailed_Header" xml:space="preserve">
-    <value>Не ўдалося адправіць лакальныя каміты з "{0}"</value>
+    <value>ÐÐµ ÑžÐ´Ð°Ð»Ð¾ÑÑ Ð°Ð´Ð¿Ñ€Ð°Ð²Ñ–Ñ†ÑŒ Ð»Ð°ÐºÐ°Ð»ÑŒÐ½Ñ‹Ñ ÐºÐ°Ð¼Ñ–Ñ‚Ñ‹ Ð· "{0}"</value>
     <comment>Shown in Status Center for Git push. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitPushInProgress_Header" xml:space="preserve">
-    <value>Адпраўка лакальных камітаў з "{0}"</value>
+    <value>ÐÐ´Ð¿Ñ€Ð°ÑžÐºÐ° Ð»Ð°ÐºÐ°Ð»ÑŒÐ½Ñ‹Ñ… ÐºÐ°Ð¼Ñ–Ñ‚Ð°Ñž Ð· "{0}"</value>
     <comment>Shown in Status Center for Git push. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitSyncCanceled_Header" xml:space="preserve">
-    <value>Сінхранізацыя лакальных і аддаленых камітаў для "{0}" скасавана</value>
+    <value>Ð¡Ñ–Ð½Ñ…Ñ€Ð°Ð½Ñ–Ð·Ð°Ñ†Ñ‹Ñ Ð»Ð°ÐºÐ°Ð»ÑŒÐ½Ñ‹Ñ… Ñ– Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ… ÐºÐ°Ð¼Ñ–Ñ‚Ð°Ñž Ð´Ð»Ñ "{0}" ÑÐºÐ°ÑÐ°Ð²Ð°Ð½Ð°</value>
     <comment>Shown in Status Center for Git sync. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitSyncComplete_Header" xml:space="preserve">
-    <value>Сінхранізаваны лакальныя і аддаленыя каміты для "{0}"</value>
+    <value>Ð¡Ñ–Ð½Ñ…Ñ€Ð°Ð½Ñ–Ð·Ð°Ð²Ð°Ð½Ñ‹ Ð»Ð°ÐºÐ°Ð»ÑŒÐ½Ñ‹Ñ Ñ– Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ ÐºÐ°Ð¼Ñ–Ñ‚Ñ‹ Ð´Ð»Ñ "{0}"</value>
     <comment>Shown in Status Center for Git sync. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitSyncFailed_Header" xml:space="preserve">
-    <value>Не ўдалося сінхранізаваць лакальныя і аддаленыя каміты для "{0}"</value>
+    <value>ÐÐµ ÑžÐ´Ð°Ð»Ð¾ÑÑ ÑÑ–Ð½Ñ…Ñ€Ð°Ð½Ñ–Ð·Ð°Ð²Ð°Ñ†ÑŒ Ð»Ð°ÐºÐ°Ð»ÑŒÐ½Ñ‹Ñ Ñ– Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ ÐºÐ°Ð¼Ñ–Ñ‚Ñ‹ Ð´Ð»Ñ "{0}"</value>
     <comment>Shown in Status Center for Git sync. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_GitSyncInProgress_Header" xml:space="preserve">
-    <value>Сінхранізацыя лакальных і аддаленых камітаў для "{0}"</value>
+    <value>Ð¡Ñ–Ð½Ñ…Ñ€Ð°Ð½Ñ–Ð·Ð°Ñ†Ñ‹Ñ Ð»Ð°ÐºÐ°Ð»ÑŒÐ½Ñ‹Ñ… Ñ– Ð°Ð´Ð´Ð°Ð»ÐµÐ½Ñ‹Ñ… ÐºÐ°Ð¼Ñ–Ñ‚Ð°Ñž Ð´Ð»Ñ "{0}"</value>
     <comment>Shown in Status Center for Git sync. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_InstallFontCanceled_Header" xml:space="preserve">
@@ -4097,7 +4097,7 @@
     <value>Where did Files go?</value>
   </data>
   <data name="QuestionsAndDiscussions" xml:space="preserve">
-    <value>Пытанні і дыскусіі</value>
+    <value>ÐŸÑ‹Ñ‚Ð°Ð½Ð½Ñ– Ñ– Ð´Ñ‹ÑÐºÑƒÑÑ–Ñ–</value>
   </data>
   <data name="Compact" xml:space="preserve">
     <value>Compact</value>
@@ -4197,7 +4197,7 @@
     <value>Adaptive layout is not available when preferences are synced, the default layout has been changed to Details.</value>
   </data>
   <data name="BackgroundImage" xml:space="preserve">
-    <value>Малюнак у фоне</value>
+    <value>ÐœÐ°Ð»ÑŽÐ½Ð°Ðº Ñƒ Ñ„Ð¾Ð½Ðµ</value>
   </data>
   <data name="Bottom" xml:space="preserve">
     <value>Bottom</value>
@@ -4759,5 +4759,25 @@
   </data>
   <data name="ConfirmRemoveTagsDialogContent" xml:space="preserve">
     <value>Are you sure you want to remove tags from the selected items?</value>
+  </data>  <data name="SharedTagsPath" xml:space="preserve">
+    <value>Tags &amp; categories storage path</value>
+  </data>
+  <data name="SharedTagsPathDescription" xml:space="preserve">
+    <value>Requires app restart</value>
+  </data>
+  <data name="SharedTagsPathNotSet" xml:space="preserve">
+    <value>Not set (default path)</value>
+  </data>
+  <data name="SharedTagsPathInvalid" xml:space="preserve">
+    <value>Invalid path</value>
+  </data>
+  <data name="SharedTagsPathInvalidDescription" xml:space="preserve">
+    <value>The selected path is not a valid directory.</value>
+  </data>
+  <data name="SharedTagsPathRestartTitle" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="SharedTagsPathRestartMessage" xml:space="preserve">
+    <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
 </root>
