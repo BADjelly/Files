@@ -32,7 +32,8 @@ namespace Files.App.Services.Settings
 			new("Home", "#0072BD", "f7e0e137-2eb5-4fa4-a50d-ddd65df17c34", UncategorizedCategoryId),
 			new("Work", "#D95319", "c84a8131-c4de-47d9-9440-26e859d14b3d", UncategorizedCategoryId),
 			new("Photos", "#EDB120", "d4b8d4bd-ceaf-4e58-ac61-a185fcf96c5d", UncategorizedCategoryId),
-			new("Important", "#77AC30", "79376daf-c44a-4fe4-aa3b-8b30baea453e", UncategorizedCategoryId)
+			new("Important", "#77AC30", "79376daf-c44a-4fe4-aa3b-8b30baea453e", UncategorizedCategoryId),
+			new("Example Tag", "#8B5CF6", "b2e4f8a1-3c7d-4e9f-b0a5-1d2c3e4f5a6b", "a1b2c3d4-e5f6-7890-abcd-ef1234567890")
 		];
 
 		public FileTagsSettingsService()

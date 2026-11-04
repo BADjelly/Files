@@ -25,7 +25,8 @@ namespace Files.App.Services.Settings
 
 		private static readonly List<CategoryViewModel> DefaultFileCategories =
 		[
-			new("Uncategorized", "00000000-0000-0000-0000-000000000000")
+			new("Uncategorized", "00000000-0000-0000-0000-000000000000"),
+			new("Example Category", "a1b2c3d4-e5f6-7890-abcd-ef1234567890")
 		];
 
 		public FileTagsCategoriesSettingsService()
