@@ -12,6 +12,7 @@ using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
 using Windows.System;
 using Windows.UI.Core;
+using Windows.UI.ViewManagement;
 using WinRT;
 
 namespace Files.App.UserControls
@@ -25,6 +26,10 @@ namespace Files.App.UserControls
 		private readonly ICommandManager Commands = Ioc.Default.GetRequiredService<ICommandManager>();
 		private readonly StatusCenterViewModel OngoingTasksViewModel = Ioc.Default.GetRequiredService<StatusCenterViewModel>();
 		private readonly IContentPageContext ContentPageContext = Ioc.Default.GetRequiredService<IContentPageContext>();
+
+		private (OmnibarMode Mode, string Text)? _pendingOmnibarText;
+
+		private static readonly AccessibilitySettings AccessibilitySettings = new();
 
 		// Properties
 
@@ -48,6 +53,9 @@ namespace Files.App.UserControls
 		}
 
 		// Methods
+
+		private void NavToolbar_Loaded(object sender, RoutedEventArgs e)
+			=> this.RunAfterNextRender(() => FindName(nameof(ListaryIntegration)));
 
 		private void NavToolbar_Loading(FrameworkElement _, object e)
 		{
@@ -181,9 +189,26 @@ namespace Files.App.UserControls
 			// Path mode
 			if (mode == OmnibarPathMode)
 			{
-				await viewModel.HandleItemNavigationAsync(args.Text);
-				var pathPaneHolder = ContentPageContext.ShellPage.GetRequiredPaneHolder();
-				pathPaneHolder.FocusActivePane();
+				var submittedText = args.Text;
+				var targetPath = submittedText;
+				if (FolderAliasHelpers.IsAliasQuery(submittedText) &&
+					args.Item is OmnibarPathModeSuggestionModel { IsPlaceholder: false } suggestion)
+				{
+					// The selection can lag behind the last keystroke
+					targetPath = suggestion.Path.StartsWith($"{FolderAliasHelpers.Prefix}{FolderAliasHelpers.GetQuery(submittedText)}", StringComparison.OrdinalIgnoreCase)
+						? suggestion.Path
+						: FolderAliasHelpers.GetMatches(FolderAliasHelpers.Aliases, submittedText).FirstOrDefault() is { } match
+							? $"{FolderAliasHelpers.Prefix}{match.Name}"
+							: submittedText;
+				}
+
+				if (!await viewModel.HandleItemNavigationAsync(targetPath))
+				{
+					RestoreOmnibarText(viewModel, OmnibarPathMode, submittedText);
+					return;
+				}
+
+				ContentPageContext.ShellPage?.PaneHolder?.FocusActivePane();
 				return;
 			}
 
@@ -208,11 +233,11 @@ namespace Files.App.UserControls
 					return;
 				}
 
+				var submittedCommand = args.Text;
 				await DialogDisplayHelper.ShowDialogAsync(Strings.InvalidCommand.GetLocalizedResource(),
-					string.Format(Strings.InvalidCommandContent.GetLocalizedResource(), args.Text));
+					string.Format(Strings.InvalidCommandContent.GetLocalizedResource(), submittedCommand));
 
-				var commandPaneHolder = ContentPageContext.ShellPage.GetRequiredPaneHolder();
-				commandPaneHolder.FocusActivePane();
+				RestoreOmnibarText(viewModel, OmnibarCommandPaletteMode, submittedCommand);
 				return;
 			}
 
@@ -249,7 +274,7 @@ namespace Files.App.UserControls
 					await NavigationHelpers.OpenPath(item.ItemPath, shellPage);
 				else
 				{
-					var searchQuery = args.Item is SuggestionModel x && !string.IsNullOrWhiteSpace(x.Name)
+					var searchQuery = args.Item is SuggestionModel { IsSearchQuery: false } x && !string.IsNullOrWhiteSpace(x.Name)
 						? x.Name
 						: args.Text;
 
@@ -408,20 +433,19 @@ namespace Files.App.UserControls
 			if (ViewModel is not { } viewModel)
 				return;
 
+			var pendingText = TakePendingOmnibarText(e.NewMode);
+
 			if (e.NewMode == OmnibarPathMode)
 			{
 				// Initialize with current working directory or fallback to home path
-				var workingDirectory = ContentPageContext.ShellPage?.ShellViewModel?.WorkingDirectory;
-				viewModel.PathText = string.IsNullOrEmpty(workingDirectory)
-					? Constants.UserEnvironmentPaths.HomePath
-					: workingDirectory;
+				viewModel.PathText = pendingText ?? TakePendingPathModeInput(viewModel) ?? GetDefaultPathText();
 
 				await DispatcherQueue.EnqueueOrInvokeAsync(viewModel.PopulateOmnibarSuggestionsForPathMode);
 			}
 			else if (e.NewMode == OmnibarCommandPaletteMode)
 			{
-				// Clear text and load command suggestions
-				viewModel.OmnibarCommandPaletteModeText = string.Empty;
+				// Restore rejected input or clear text, then load command suggestions
+				viewModel.OmnibarCommandPaletteModeText = pendingText ?? string.Empty;
 
 				await DispatcherQueue.EnqueueOrInvokeAsync(viewModel.PopulateOmnibarSuggestionsForCommandPaletteMode);
 			}
@@ -452,16 +476,15 @@ namespace Files.App.UserControls
 				// Path Mode needs special handling when gaining focus since it has an unfocused state
 				if (Omnibar.CurrentSelectedMode == OmnibarPathMode)
 				{
-					var workingDirectory = ContentPageContext.ShellPage?.ShellViewModel?.WorkingDirectory;
-					viewModel.PathText = string.IsNullOrEmpty(workingDirectory)
-						? Constants.UserEnvironmentPaths.HomePath
-						: workingDirectory;
+					viewModel.PathText = TakePendingOmnibarText(OmnibarPathMode) ?? TakePendingPathModeInput(viewModel) ?? GetDefaultPathText();
 
 					await DispatcherQueue.EnqueueOrInvokeAsync(viewModel.PopulateOmnibarSuggestionsForPathMode);
 				}
 			}
 			else
 			{
+				_pendingOmnibarText = null;
+
 				if (Omnibar.CurrentSelectedMode == OmnibarSearchMode)
 				{
 					ViewModel?.CancelSuggestionSearch();
@@ -472,10 +495,51 @@ namespace Files.App.UserControls
 			}
 		}
 
+		private void RestoreOmnibarText(NavigationToolbarViewModel viewModel, OmnibarMode mode, string text)
+		{
+			_pendingOmnibarText = (mode, text);
+
+			if (Omnibar.CurrentSelectedMode != mode)
+				Omnibar.CurrentSelectedMode = mode;
+			else if (mode == OmnibarPathMode)
+			{
+				viewModel.PathText = text;
+				_ = DispatcherQueue.EnqueueOrInvokeAsync(viewModel.PopulateOmnibarSuggestionsForPathMode);
+			}
+			else if (mode == OmnibarCommandPaletteMode)
+			{
+				viewModel.OmnibarCommandPaletteModeText = text;
+				_ = DispatcherQueue.EnqueueOrInvokeAsync(viewModel.PopulateOmnibarSuggestionsForCommandPaletteMode);
+			}
+
+			Omnibar.FocusWithCaretAtEnd();
+		}
+
+		private string? TakePendingOmnibarText(OmnibarMode mode)
+		{
+			var pending = _pendingOmnibarText;
+			_pendingOmnibarText = null;
+			return pending?.Mode == mode ? pending.Value.Text : null;
+		}
+
+		private string GetDefaultPathText()
+		{
+			var workingDirectory = ContentPageContext.ShellPage?.ShellViewModel?.WorkingDirectory;
+			return string.IsNullOrEmpty(workingDirectory)
+				? Constants.UserEnvironmentPaths.HomePath
+				: workingDirectory;
+		}
+
+		private string? TakePendingPathModeInput(NavigationToolbarViewModel viewModel)
+		{
+			return Omnibar.IsFocused ? viewModel.TakePendingPathModeInput() : null;
+		}
+
 		private void Omnibar_FocusRedirectRequested(Omnibar sender, EventArgs args)
 		{
 			// The omnibar TextBox regained focus on window reactivation; move focus to the active pane so we don't land in
 			// edit mode. Deferred so it runs after the in-progress focus change settles.
+			_pendingOmnibarText = null;
 			DispatcherQueue.TryEnqueue(() => ContentPageContext.ShellPage?.PaneHolder?.FocusActivePane());
 		}
 
@@ -601,6 +665,26 @@ namespace Files.App.UserControls
 
 			flyout.ShowAt(element, new FlyoutShowOptions { Position = e.GetPosition(element) });
 			e.Handled = true;
+		}
+
+		[DynamicWindowsRuntimeCast(typeof(Style))]
+		[DynamicWindowsRuntimeCast(typeof(Brush))]
+		private ThemedIcon GetSearchModeIcon(bool isNaturalLanguageSearchAvailable, bool isActive)
+		{
+			var icon = new ThemedIcon()
+			{
+				Style = (Style)Application.Current.Resources[isNaturalLanguageSearchAvailable ? "App.ThemedIcons.Omnibar.Search.Advanced" : "App.ThemedIcons.Omnibar.Search"],
+				IsFilled = isActive,
+				IconType = ThemedIconTypes.Outline,
+			};
+
+			if (isNaturalLanguageSearchAvailable && !AccessibilitySettings.HighContrast)
+			{
+				icon.IconColorType = ThemedIconColorType.Custom;
+				icon.Color = (Brush)Resources["NaturalLanguageSearchIconBrush"];
+			}
+
+			return icon;
 		}
 	}
 }

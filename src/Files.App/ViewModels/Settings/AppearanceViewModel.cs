@@ -30,6 +30,11 @@ namespace Files.App.ViewModels.Settings
 		public Dictionary<HorizontalAlignment, string> ImageHorizontalAlignmentTypes { get; private set; } = [];
 
 		public Dictionary<StatusCenterVisibility, string> StatusCenterVisibilityOptions { get; private set; } = [];
+		public List<StatusBarItemCountFormatItem> StatusBarItemCountFormats { get; } =
+		[
+			new(Strings.TotalCount.GetLocalizedResource(), $"12 {Strings.Items.GetLocalizedFormatResource(12)}"),
+			new(Strings.SeparateFileAndFolderCounts.GetLocalizedResource(), Strings.PropertiesFilesAndFoldersCountString.GetLocalizedFormatResource(8, 4)),
+		];
 
 		public Dictionary<string, string> AppThemeFontFamilyOptions { get; private set; } = [];
 
@@ -44,6 +49,11 @@ namespace Files.App.ViewModels.Settings
 			UserSettingsService = userSettingsService;
 			ResourcesService = resourcesService;
 			selectedThemeIndex = (int)Enum.Parse<ElementTheme>(AppThemeModeService.AppThemeMode.ToString());
+			AppThemeModeService.AppThemeModeChanged += (_, _) =>
+			{
+				if (SetProperty(ref selectedThemeIndex, (int)AppThemeModeService.AppThemeMode, nameof(SelectedThemeIndex)))
+					OnPropertyChanged(nameof(SelectedElementTheme));
+			};
 
 			Themes =
 			[
@@ -97,6 +107,40 @@ namespace Files.App.ViewModels.Settings
 			SelectImageCommand = new RelayCommand(SelectBackgroundImage);
 			RemoveImageCommand = new RelayCommand(RemoveBackgroundImage);
 			CustomizeToolbarCommand = new AsyncRelayCommand(() => CommandManager.CustomizeToolbar.ExecuteAsync());
+			UserSettingsService.AppearanceSettingsService.PropertyChanged += OnAppearanceSettingChanged;
+		}
+
+		private void OnAppearanceSettingChanged(object? sender, PropertyChangedEventArgs e)
+		{
+			var settings = UserSettingsService.AppearanceSettingsService;
+			switch (e.PropertyName)
+			{
+				case nameof(IAppearanceSettingsService.AppThemeBackgroundColor):
+					UpdateSelectedResource();
+					break;
+				case nameof(IAppearanceSettingsService.AppThemeBackdropMaterial):
+					SetProperty(ref selectedBackdropMaterial, BackdropMaterialTypes[settings.AppThemeBackdropMaterial], nameof(SelectedBackdropMaterial));
+					break;
+				case nameof(IAppearanceSettingsService.AppThemeFontFamily):
+					OnPropertyChanged(nameof(SelectedAppThemeFontFamilyOption));
+					break;
+				case nameof(IAppearanceSettingsService.AppThemeBackgroundImageFit):
+					SetProperty(ref selectedImageStretchType, ImageStretchTypes[settings.AppThemeBackgroundImageFit], nameof(SelectedImageStretchType));
+					break;
+				case nameof(IAppearanceSettingsService.AppThemeBackgroundImageVerticalAlignment):
+					SetProperty(ref selectedImageVerticalAlignmentType, ImageVerticalAlignmentTypes[settings.AppThemeBackgroundImageVerticalAlignment], nameof(SelectedImageVerticalAlignmentType));
+					break;
+				case nameof(IAppearanceSettingsService.AppThemeBackgroundImageHorizontalAlignment):
+					SetProperty(ref selectedImageHorizontalAlignmentType, ImageHorizontalAlignmentTypes[settings.AppThemeBackgroundImageHorizontalAlignment], nameof(SelectedImageHorizontalAlignmentType));
+					break;
+				case nameof(IAppearanceSettingsService.StatusCenterVisibility):
+					SetProperty(ref selectedStatusCenterVisibilityOption, StatusCenterVisibilityOptions[settings.StatusCenterVisibility], nameof(SelectedStatusCenterVisibilityOption));
+					break;
+				case nameof(IAppearanceSettingsService.StatusBarItemCountFormat):
+					OnPropertyChanged(nameof(SelectedStatusBarItemCountFormatIndex));
+					break;
+			}
+			OnPropertyChanged(e.PropertyName);
 		}
 
 		/// <summary>
@@ -406,6 +450,20 @@ namespace Files.App.ViewModels.Settings
 			}
 		}
 
+		public int SelectedStatusBarItemCountFormatIndex
+		{
+			get => (int)UserSettingsService.AppearanceSettingsService.StatusBarItemCountFormat;
+			set
+			{
+				if (value >= 0 && value != (int)UserSettingsService.AppearanceSettingsService.StatusBarItemCountFormat)
+				{
+					UserSettingsService.AppearanceSettingsService.StatusBarItemCountFormat = (StatusBarItemCountFormat)value;
+
+					OnPropertyChanged();
+				}
+			}
+		}
+
 		private string selectedStatusCenterVisibilityOption = null!;
 		public string SelectedStatusCenterVisibilityOption
 		{
@@ -423,5 +481,12 @@ namespace Files.App.ViewModels.Settings
 		{
 			get => AppLifecycleHelper.AppEnvironment is AppEnvironment.Dev;
 		}
+	}
+
+	public sealed class StatusBarItemCountFormatItem(string label, string sample)
+	{
+		public string Label { get; } = label;
+
+		public string Sample { get; } = sample;
 	}
 }

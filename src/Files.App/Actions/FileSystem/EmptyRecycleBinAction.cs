@@ -36,6 +36,7 @@ namespace Files.App.Actions
 			context = Ioc.Default.GetRequiredService<IContentPageContext>();
 
 			context.PropertyChanged += Context_PropertyChanged;
+			StorageTrashBinService.StateChanged += (_, _) => OnPropertyChanged(nameof(IsExecutable));
 		}
 
 		public async Task ExecuteAsync(object? parameter = null)
@@ -58,7 +59,7 @@ namespace Files.App.Actions
 			{
 				var banner = StatusCenterHelper.AddCard_EmptyRecycleBin(ReturnResult.InProgress);
 
-				bool result = await Task.Run(StorageTrashBinService.EmptyTrashBin);
+				bool result = await STATask.Run(StorageTrashBinService.EmptyTrashBin, App.Logger);
 
 				StatusCenterViewModel.RemoveItem(banner);
 

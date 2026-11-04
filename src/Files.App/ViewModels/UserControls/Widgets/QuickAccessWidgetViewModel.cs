@@ -4,6 +4,7 @@
 using Microsoft.UI.Input;
 using Microsoft.UI.Xaml.Controls;
 using System.Collections.Specialized;
+using System.Runtime.InteropServices;
 using Windows.Storage;
 using Windows.System;
 using Windows.UI.Core;
@@ -33,9 +34,10 @@ namespace Files.App.ViewModels.UserControls.Widgets
 
 		// Fields
 
-		// TODO: Replace with IMutableFolder.GetWatcherAsync() once it gets implemented in IWindowsStorable
-		private readonly SystemIO.FileSystemWatcher? _quickAccessFolderWatcher;
+		private readonly EventHandler<ModifyQuickAccessEventArgs> _quickAccessWidgetUpdatedHandler;
 		private bool isDisposed;
+		private int _refreshVersion;
+
 
 		// Constructor
 
@@ -47,52 +49,82 @@ namespace Files.App.ViewModels.UserControls.Widgets
 			PinToSidebarCommand = new AsyncRelayCommand<WidgetFolderCardItem>(ExecutePinToSidebarCommand);
 			UnpinFromSidebarCommand = new AsyncRelayCommand<WidgetFolderCardItem>(ExecuteUnpinFromSidebarCommand);
 
-			var automaticDestinationsPath = SystemIO.Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Microsoft", "Windows", "Recent", "AutomaticDestinations");
-			if (!SystemIO.Directory.Exists(automaticDestinationsPath))
-				return;
-
-			_quickAccessFolderWatcher = new()
+			_quickAccessWidgetUpdatedHandler = async (s, e) =>
 			{
-				Path = automaticDestinationsPath,
-				Filter = "f01b4d95cf55d32a.automaticDestinations-ms",
-				NotifyFilter = SystemIO.NotifyFilters.LastAccess | SystemIO.NotifyFilters.LastWrite | SystemIO.NotifyFilters.FileName
+				if (e.Reorder)
+					await SafetyExtensions.IgnoreExceptions(RefreshWidgetAsync, App.Logger, typeof(COMException));
 			};
+			App.QuickAccessManager.UpdateQuickAccessWidget += _quickAccessWidgetUpdatedHandler;
 
-			_quickAccessFolderWatcher.Changed += QuickAccessFolderWatcher_Changed;
-
-			_quickAccessFolderWatcher.EnableRaisingEvents = true;
+			App.ServerChanged += OnServerChanged;
 		}
 
 		// Methods
 
-		private async void QuickAccessFolderWatcher_Changed(object sender, SystemIO.FileSystemEventArgs e)
+		private async void OnServerChanged(object? sender, string name)
 		{
-			if (!isDisposed)
-				await RefreshWidgetAsync();
+			if (!isDisposed && name == ServerChangeNames.PinnedFolders)
+				await SafetyExtensions.IgnoreExceptions(RefreshWidgetAsync, App.Logger, typeof(COMException));
 		}
 
 		public Task RefreshWidgetAsync()
 		{
+			if (App.QuickAccessManager.Model.IsSyncSuspended)
+				return Task.CompletedTask;
+
 			return MainWindow.Instance.DispatcherQueue.EnqueueOrInvokeAsync(async () =>
 			{
+				if (isDisposed)
+					return;
+
+				var refreshVersion = ++_refreshVersion;
+				var folders = (await Server.PinnedFoldersService.GetPinnedFoldersAsync())?.ToArray();
+
+				if (isDisposed || refreshVersion != _refreshVersion || folders is null)
+					return;
+
+				var newPaths = folders.Select(f => f.ParsingPath).ToList();
+				if (Items.Count == newPaths.Count &&
+					new HashSet<string>(Items.Select(i => i.Path ?? string.Empty), StringComparer.OrdinalIgnoreCase).SetEquals(newPaths) &&
+					Items.All(item => folders.Any(f => string.Equals(f.ParsingPath, item.Path, StringComparison.OrdinalIgnoreCase) && f.IsPinned == item.IsPinned)))
+				{
+					for (int targetIdx = 0; targetIdx < newPaths.Count; targetIdx++)
+					{
+						var currentIdx = -1;
+						for (int j = targetIdx; j < Items.Count; j++)
+						{
+							if (string.Equals(Items[j].Path, newPaths[targetIdx], StringComparison.OrdinalIgnoreCase))
+							{
+								currentIdx = j;
+								break;
+							}
+						}
+
+						if (currentIdx >= 0 && currentIdx != targetIdx)
+							Items.Move(currentIdx, targetIdx);
+					}
+
+					return;
+				}
+
+				var replacements = new List<WidgetFolderCardItem>();
+				foreach (var folder in folders)
+				{
+					SafetyExtensions.IgnoreExceptions(() =>
+					{
+						var name = folder.Name;
+						var path = folder.ParsingPath;
+						var isPinned = folder.IsPinned;
+						using var shellItem = new ShellItem(new ShellPidl(folder.Pidl));
+						replacements.Add(new WidgetFolderCardItem(new WindowsFolder(shellItem.IShellItem), name, path, isPinned));
+					}, App.Logger);
+				}
+
 				foreach (var item in Items)
 					item.Dispose();
-
 				Items.Clear();
-
-				await foreach (IWindowsStorable folder in HomePageContext.HomeFolder.GetQuickAccessFolderAsync(default))
-				{
-					folder.GetPropertyValue<bool>("System.Home.IsPinned", out var isPinned);
-					folder.TryGetShellTooltip(out var tooltip);
-
-					Items.Insert(
-						Items.Count,
-						new WidgetFolderCardItem(
-							folder,
-							folder.GetDisplayName(SIGDN.SIGDN_PARENTRELATIVEFORUI),
-							isPinned,
-							tooltip ?? string.Empty));
-				}
+				foreach (var item in replacements)
+					Items.Add(item);
 			});
 		}
 
@@ -250,7 +282,7 @@ namespace Files.App.ViewModels.UserControls.Widgets
 				return windowsFile.TryInvokeContextMenuVerb("pintohome");
 			}, App.Logger);
 
-			// The file watcher will update the collection automatically
+			// Server notifications update the collection.
 		}
 
 		public override async Task ExecuteUnpinFromSidebarCommand(WidgetCardItem? item)
@@ -279,7 +311,7 @@ namespace Files.App.ViewModels.UserControls.Widgets
 			if (hr.ThrowIfFailedOnDebug().Failed)
 				return;
 
-			// The file watcher will update the collection automatically
+			// Server notifications update the collection.
 		}
 
 		private void ExecuteOpenPropertiesCommand(WidgetFolderCardItem? item)
@@ -331,13 +363,9 @@ namespace Files.App.ViewModels.UserControls.Widgets
 				return;
 
 			isDisposed = true;
+			App.QuickAccessManager.UpdateQuickAccessWidget -= _quickAccessWidgetUpdatedHandler;
 			Items.CollectionChanged -= Items_CollectionChanged;
-			if (_quickAccessFolderWatcher is not null)
-			{
-				_quickAccessFolderWatcher.EnableRaisingEvents = false;
-				_quickAccessFolderWatcher.Changed -= QuickAccessFolderWatcher_Changed;
-				_quickAccessFolderWatcher.Dispose();
-			}
+			App.ServerChanged -= OnServerChanged;
 
 			foreach (var item in Items)
 				item.Dispose();

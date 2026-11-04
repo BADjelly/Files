@@ -56,8 +56,6 @@ namespace Files.App.ViewModels.Settings
 			fileTagsCategoriesSettingsService.FileCategoryList
 				?.Where(c => c.Uid != UncategorizedCategoryId)
 				.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
-
-			isBulkOperation = false;
 		}
 
 		private void Tags_CollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
@@ -141,10 +139,6 @@ namespace Files.App.ViewModels.Settings
 
 		public void DeleteExistingTag(ListedTagViewModel item)
 		{
-			isBulkOperation = true;
-			Tags.Remove(item);
-			isBulkOperation = false;
-
 			fileTagsSettingsService.DeleteTag(item.Tag.Uid);
 		}
 
