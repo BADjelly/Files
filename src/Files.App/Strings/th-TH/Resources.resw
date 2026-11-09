@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,67 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NewWindow" xml:space="preserve">
-    <value>เปิดในหน้าต่างใหม่</value>
+    <value>à¹€à¸›à¸´à¸”à¹ƒà¸™à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="CopyPath" xml:space="preserve">
-    <value>คัดลอกเส้นทาง</value>
+    <value>à¸„à¸±à¸”à¸¥à¸­à¸à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡</value>
   </data>
   <data name="CopyItemPath" xml:space="preserve">
     <value>Copy item path</value>
   </data>
   <data name="CopyPathWithQuotes" xml:space="preserve">
-    <value>คัดลอกเส้นทางพร้อมกับอัญประกาศ</value>
+    <value>à¸„à¸±à¸”à¸¥à¸­à¸à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡à¸žà¸£à¹‰à¸­à¸¡à¸à¸±à¸šà¸­à¸±à¸à¸›à¸£à¸°à¸à¸²à¸¨</value>
   </data>
   <data name="CopyItemPathWithQuotes" xml:space="preserve">
     <value>Copy selected item path with quotes</value>
   </data>
   <data name="Browse" xml:space="preserve">
-    <value>เรียกดู</value>
+    <value>à¹€à¸£à¸µà¸¢à¸à¸”à¸¹</value>
   </data>
   <data name="Size" xml:space="preserve">
-    <value>ขนาด</value>
+    <value>à¸‚à¸™à¸²à¸”</value>
   </data>
   <data name="PropertiesCreated.Text" xml:space="preserve">
-    <value>สร้างเมื่อ:</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¹€à¸¡à¸·à¹ˆà¸­:</value>
   </data>
   <data name="Path" xml:space="preserve">
-    <value>แยกไปที่</value>
+    <value>à¹à¸¢à¸à¹„à¸›à¸—à¸µà¹ˆ</value>
   </data>
   <data name="SizeLabel" xml:space="preserve">
-    <value>ขนาด:</value>
+    <value>à¸‚à¸™à¸²à¸”:</value>
   </data>
   <data name="SizeOnDiskLabel" xml:space="preserve">
-    <value>ขนาดบนดิสก์</value>
+    <value>à¸‚à¸™à¸²à¸”à¸šà¸™à¸”à¸´à¸ªà¸à¹Œ</value>
   </data>
   <data name="UncompressedSize" xml:space="preserve">
-    <value>ขนาดที่ไม่บีบอัด:</value>
+    <value>à¸‚à¸™à¸²à¸”à¸—à¸µà¹ˆà¹„à¸¡à¹ˆà¸šà¸µà¸šà¸­à¸±à¸”:</value>
   </data>
   <data name="ErrorDialogThisActionCannotBeDone" xml:space="preserve">
-    <value>ไม่สามารถปฏิบัติตามที่สั่งไว้ได้</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¸›à¸à¸´à¸šà¸±à¸•à¸´à¸•à¸²à¸¡à¸—à¸µà¹ˆà¸ªà¸±à¹ˆà¸‡à¹„à¸§à¹‰à¹„à¸”à¹‰</value>
   </data>
   <data name="ErrorDialogTheDestinationFolder" xml:space="preserve">
-    <value>โฟลเดอร์ปลายทาง</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸›à¸¥à¸²à¸¢à¸—à¸²à¸‡</value>
   </data>
   <data name="ErrorDialogIsASubfolder" xml:space="preserve">
-    <value>ตั้งอยู่ในโฟล์เดอร์ต้นทาง</value>
+    <value>à¸•à¸±à¹‰à¸‡à¸­à¸¢à¸¹à¹ˆà¹ƒà¸™à¹‚à¸Ÿà¸¥à¹Œà¹€à¸”à¸­à¸£à¹Œà¸•à¹‰à¸™à¸—à¸²à¸‡</value>
   </data>
   <data name="Skip" xml:space="preserve">
-    <value>ข้าม </value>
+    <value>à¸‚à¹‰à¸²à¸¡ </value>
   </data>
   <data name="SelectAll" xml:space="preserve">
     <value>Select all</value>
   </data>
   <data name="InvertSelection" xml:space="preserve">
-    <value>สลับการเลือก</value>
+    <value>à¸ªà¸¥à¸±à¸šà¸à¸²à¸£à¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="ClearSelection" xml:space="preserve">
-    <value>ล้างส่วนที่เลือก</value>
+    <value>à¸¥à¹‰à¸²à¸‡à¸ªà¹ˆà¸§à¸™à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="PropertiesModified.Text" xml:space="preserve">
-    <value>วันที่ปรับเปลี่ยน:</value>
+    <value>à¸§à¸±à¸™à¸—à¸µà¹ˆà¸›à¸£à¸±à¸šà¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™:</value>
   </data>
   <data name="Accessed" xml:space="preserve">
-    <value>เข้าถึงเมื่อ:</value>
+    <value>à¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡à¹€à¸¡à¸·à¹ˆà¸­:</value>
   </data>
   <data name="RecentItemClearAllText" xml:space="preserve">
     <value>Clear all items</value>
@@ -187,7 +187,7 @@
     <value>Enter a path to navigate to or type "&gt;" to open the command palette</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>ค้นหา</value>
+    <value>à¸„à¹‰à¸™à¸«à¸²</value>
   </data>
   <data name="SearchSettings" xml:space="preserve">
     <value>Search settings...</value>
@@ -196,46 +196,46 @@
     <value>No settings match your search.</value>
   </data>
   <data name="RecentItemDescription.Text" xml:space="preserve">
-    <value>รายการไฟล์ที่เคยเข้าถึงจะแสดงในรายการนี้</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¹„à¸Ÿà¸¥à¹Œà¸—à¸µà¹ˆà¹€à¸„à¸¢à¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡à¸ˆà¸°à¹à¸ªà¸”à¸‡à¹ƒà¸™à¸£à¸²à¸¢à¸à¸²à¸£à¸™à¸µà¹‰</value>
   </data>
   <data name="RecentItemRemoveText" xml:space="preserve">
     <value>Remove this item</value>
   </data>
   <data name="OpenGitHubRepo" xml:space="preserve">
-    <value>คลังเก็บ GitHub</value>
+    <value>à¸„à¸¥à¸±à¸‡à¹€à¸à¹‡à¸š GitHub</value>
   </data>
   <data name="About" xml:space="preserve">
-    <value>เกี่ยวกับ</value>
+    <value>à¹€à¸à¸µà¹ˆà¸¢à¸§à¸à¸±à¸š</value>
   </data>
   <data name="OpenSource" xml:space="preserve">
-    <value>โอเพนซอร์ส</value>
+    <value>à¹‚à¸­à¹€à¸žà¸™à¸‹à¸­à¸£à¹Œà¸ª</value>
   </data>
   <data name="DateFormat" xml:space="preserve">
-    <value>รูปแบบวันที่</value>
+    <value>à¸£à¸¹à¸›à¹à¸šà¸šà¸§à¸±à¸™à¸—à¸µà¹ˆ</value>
   </data>
   <data name="SettingsAppearanceTheme" xml:space="preserve">
-    <value>ชุดรูปแบบ</value>
+    <value>à¸Šà¸¸à¸”à¸£à¸¹à¸›à¹à¸šà¸š</value>
   </data>
   <data name="Font" xml:space="preserve">
     <value>Font</value>
   </data>
   <data name="SettingsFilesAndFoldersShowFileExtensions" xml:space="preserve">
-    <value>แสดงนามสกุลสำหรับชนิดไฟล์ที่รู้จัก</value>
+    <value>à¹à¸ªà¸”à¸‡à¸™à¸²à¸¡à¸ªà¸à¸¸à¸¥à¸ªà¸³à¸«à¸£à¸±à¸šà¸Šà¸™à¸´à¸”à¹„à¸Ÿà¸¥à¹Œà¸—à¸µà¹ˆà¸£à¸¹à¹‰à¸ˆà¸±à¸</value>
   </data>
   <data name="SettingsFilesAndFoldersShowHiddenItems" xml:space="preserve">
-    <value>แสดงไฟล์และโฟลเดอร์ที่ซ่อนไว้</value>
+    <value>à¹à¸ªà¸”à¸‡à¹„à¸Ÿà¸¥à¹Œà¹à¸¥à¸°à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸—à¸µà¹ˆà¸‹à¹ˆà¸­à¸™à¹„à¸§à¹‰</value>
   </data>
   <data name="ShowDotFiles" xml:space="preserve">
     <value>Show dot files</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>ตกแต่ง</value>
+    <value>à¸•à¸à¹à¸•à¹ˆà¸‡</value>
   </data>
   <data name="BackgroundColor" xml:space="preserve">
     <value>Background color</value>
   </data>
   <data name="Advanced" xml:space="preserve">
-    <value>ขั้นสูง</value>
+    <value>à¸‚à¸±à¹‰à¸™à¸ªà¸¹à¸‡</value>
   </data>
   <data name="CacheThumbnails" xml:space="preserve">
     <value>Cache thumbnails</value>
@@ -256,130 +256,136 @@
     <value>Clear cache</value>
   </data>
   <data name="SettingsOnStartupContinueWhereYouLeftOff.Content" xml:space="preserve">
-    <value>เปิดแท็บที่ค้างจากครั้งก่อน</value>
+    <value>à¹€à¸›à¸´à¸”à¹à¸—à¹‡à¸šà¸—à¸µà¹ˆà¸„à¹‰à¸²à¸‡à¸ˆà¸²à¸à¸„à¸£à¸±à¹‰à¸‡à¸à¹ˆà¸­à¸™</value>
   </data>
   <data name="SettingsOnStartupOpenANewTab.Content" xml:space="preserve">
-    <value>เปิดแท็บใหม่</value>
+    <value>à¹€à¸›à¸´à¸”à¹à¸—à¹‡à¸šà¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="SettingsOnStartupOpenASpecificPage.Content" xml:space="preserve">
-    <value>เปิดหน้าอื่นที่ระบุไว้</value>
+    <value>à¹€à¸›à¸´à¸”à¸«à¸™à¹‰à¸²à¸­à¸·à¹ˆà¸™à¸—à¸µà¹ˆà¸£à¸°à¸šà¸¸à¹„à¸§à¹‰</value>
   </data>
   <data name="Desktop" xml:space="preserve">
-    <value>เดสก์ท็อป</value>
+    <value>à¹€à¸”à¸ªà¸à¹Œà¸—à¹‡à¸­à¸›</value>
   </data>
   <data name="Documents" xml:space="preserve">
-    <value>เอกสาร</value>
+    <value>à¹€à¸­à¸à¸ªà¸²à¸£</value>
   </data>
   <data name="Downloads" xml:space="preserve">
-    <value>ดาวน์โหลด</value>
+    <value>à¸”à¸²à¸§à¸™à¹Œà¹‚à¸«à¸¥à¸”</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>ชื่อ</value>
+    <value>à¸Šà¸·à¹ˆà¸­</value>
   </data>
   <data name="Ascending" xml:space="preserve">
-    <value>จากน้อยไปหามาก</value>
+    <value>à¸ˆà¸²à¸à¸™à¹‰à¸­à¸¢à¹„à¸›à¸«à¸²à¸¡à¸²à¸</value>
   </data>
   <data name="Paste" xml:space="preserve">
-    <value>วาง</value>
+    <value>à¸§à¸²à¸‡</value>
   </data>
   <data name="PasteShortcut" xml:space="preserve">
     <value>Paste shortcut</value>
   </data>
   <data name="BaseLayoutContextFlyoutNew.Label" xml:space="preserve">
-    <value>สร้าง</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡</value>
   </data>
   <data name="Properties" xml:space="preserve">
-    <value>คุณสมบัติ</value>
+    <value>à¸„à¸¸à¸“à¸ªà¸¡à¸šà¸±à¸•à¸´</value>
   </data>
   <data name="Open" xml:space="preserve">
-    <value>เปิด</value>
+    <value>à¹€à¸›à¸´à¸”</value>
   </data>
   <data name="OpenInNewTab" xml:space="preserve">
-    <value>เปิดในแท็บใหม่</value>
+    <value>à¹€à¸›à¸´à¸”à¹ƒà¸™à¹à¸—à¹‡à¸šà¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="OpenInNewWindow" xml:space="preserve">
-    <value>เปิดในหน้าต่างใหม่</value>
+    <value>à¹€à¸›à¸´à¸”à¹ƒà¸™à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="Share" xml:space="preserve">
-    <value>ใช้ร่วมกัน</value>
+    <value>à¹ƒà¸Šà¹‰à¸£à¹ˆà¸§à¸¡à¸à¸±à¸™</value>
   </data>
   <data name="Cut" xml:space="preserve">
-    <value>ตัด</value>
+    <value>à¸•à¸±à¸”</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>ลบ</value>
+    <value>à¸¥à¸š</value>
   </data>
   <data name="PinFolderToSidebar" xml:space="preserve">
-    <value>ปักไว้ที่แถบด้านข้าง</value>
+    <value>à¸›à¸±à¸à¹„à¸§à¹‰à¸—à¸µà¹ˆà¹à¸–à¸šà¸”à¹‰à¸²à¸™à¸‚à¹‰à¸²à¸‡</value>
   </data>
   <data name="WelcomeDialogTitle" xml:space="preserve">
     <value>Welcome to Files!</value>
   </data>
   <data name="WelcomeDialog.PrimaryButtonText" xml:space="preserve">
-    <value>อนุญาตสิทธิ์การเข้าถึง</value>
+    <value>à¸­à¸™à¸¸à¸à¸²à¸•à¸ªà¸´à¸—à¸˜à¸´à¹Œà¸à¸²à¸£à¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡</value>
   </data>
   <data name="WelcomeDialogTextBlockText" xml:space="preserve">
     <value>To get started, you'll need to grant us permission to display your files. This will open a Settings page where you can grant us this permission. You'll need to reopen the app once you've completed this step. </value>
   </data>
   <data name="Display" xml:space="preserve">
-    <value>การแสดงผล</value>
+    <value>à¸à¸²à¸£à¹à¸ªà¸”à¸‡à¸œà¸¥</value>
   </data>
   <data name="EnterAnItemName" xml:space="preserve">
-    <value>ระบุชื่อใหม่ของรายการ</value>
+    <value>à¸£à¸°à¸šà¸¸à¸Šà¸·à¹ˆà¸­à¹ƒà¸«à¸¡à¹ˆà¸‚à¸­à¸‡à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="CreateNewItemTitle" xml:space="preserve">
     <value>Create new {0}</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>สว่าง</value>
+    <value>à¸ªà¸§à¹ˆà¸²à¸‡</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>มืด</value>
+    <value>à¸¡à¸·à¸”</value>
   </data>
   <data name="DefaultTheme" xml:space="preserve">
     <value>System Theme</value>
+  </data>
+  <data name="LightThemeLabel" xml:space="preserve">
+    <value>Light Theme</value>
+  </data>
+  <data name="DarkThemeLabel" xml:space="preserve">
+    <value>Dark Theme</value>
   </data>
   <data name="UseSystemSetting" xml:space="preserve">
     <value>Use system setting</value>
   </data>
   <data name="Application" xml:space="preserve">
-    <value>โปรแกรมประยุกต์</value>
+    <value>à¹‚à¸›à¸£à¹à¸à¸£à¸¡à¸›à¸£à¸°à¸¢à¸¸à¸à¸•à¹Œ</value>
   </data>
   <data name="SystemTimeStyle" xml:space="preserve">
-    <value>ตามระบบ</value>
+    <value>à¸•à¸²à¸¡à¸£à¸°à¸šà¸š</value>
   </data>
   <data name="NewFolder" xml:space="preserve">
-    <value>โฟลเดอร์ใหม่</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="NewFile" xml:space="preserve">
-    <value>ไฟล์ใหม่</value>
+    <value>à¹„à¸Ÿà¸¥à¹Œà¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="EmptyFolder.Text" xml:space="preserve">
-    <value>โฟลเดอร์นี้ว่างเปล่า</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸™à¸µà¹‰à¸§à¹ˆà¸²à¸‡à¹€à¸›à¸¥à¹ˆà¸²</value>
   </data>
   <data name="Back" xml:space="preserve">
-    <value>ย้อนกลับ (Alt + ลูกศรซ้าย)</value>
+    <value>à¸¢à¹‰à¸­à¸™à¸à¸¥à¸±à¸š (Alt + à¸¥à¸¹à¸à¸¨à¸£à¸‹à¹‰à¸²à¸¢)</value>
   </data>
   <data name="Forward" xml:space="preserve">
-    <value>ไปข้างหน้า (Alt + ลูกศรขวา)</value>
+    <value>à¹„à¸›à¸‚à¹‰à¸²à¸‡à¸«à¸™à¹‰à¸² (Alt + à¸¥à¸¹à¸à¸¨à¸£à¸‚à¸§à¸²)</value>
   </data>
   <data name="Up" xml:space="preserve">
-    <value>ขึ้นไป (Alt + ลูกศรขึ้น)</value>
+    <value>à¸‚à¸¶à¹‰à¸™à¹„à¸› (Alt + à¸¥à¸¹à¸à¸¨à¸£à¸‚à¸¶à¹‰à¸™)</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>รีเฟรช</value>
+    <value>à¸£à¸µà¹€à¸Ÿà¸£à¸Š</value>
   </data>
   <data name="ItemAlreadyExistsDialogContent" xml:space="preserve">
-    <value>ในโฟลเดอร์นี้มีรายการที่ใช้ชื่อนี้ไปแล้ว.</value>
+    <value>à¹ƒà¸™à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸™à¸µà¹‰à¸¡à¸µà¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¹ƒà¸Šà¹‰à¸Šà¸·à¹ˆà¸­à¸™à¸µà¹‰à¹„à¸›à¹à¸¥à¹‰à¸§.</value>
   </data>
   <data name="ItemAlreadyExistsDialogSecondaryButtonText" xml:space="preserve">
-    <value>แทนที่รายการที่มีอยู่</value>
+    <value>à¹à¸—à¸™à¸—à¸µà¹ˆà¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¸¡à¸µà¸­à¸¢à¸¹à¹ˆ</value>
   </data>
   <data name="ItemAlreadyExistsDialogTitle" xml:space="preserve">
-    <value>รายการนี้ซ้ำกับรายการที่มีอยู่แล้ว</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¸™à¸µà¹‰à¸‹à¹‰à¸³à¸à¸±à¸šà¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¸¡à¸µà¸­à¸¢à¸¹à¹ˆà¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="SetAsLockscreen" xml:space="preserve">
-    <value>ตั้งเป็นพื้นหลังหน้าจอล็อค</value>
+    <value>à¸•à¸±à¹‰à¸‡à¹€à¸›à¹‡à¸™à¸žà¸·à¹‰à¸™à¸«à¸¥à¸±à¸‡à¸«à¸™à¹‰à¸²à¸ˆà¸­à¸¥à¹‡à¸­à¸„</value>
   </data>
   <data name="SetAsAppBackground" xml:space="preserve">
     <value>Set as app background</value>
@@ -397,10 +403,10 @@
     <value>The file you are attempting to access may have been moved or deleted.</value>
   </data>
   <data name="CannotAccessPropertiesTitle" xml:space="preserve">
-    <value>ไม่สามารถเปิดดูคุณสมบัติของไฟล์นี้ได้</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¹€à¸›à¸´à¸”à¸”à¸¹à¸„à¸¸à¸“à¸ªà¸¡à¸šà¸±à¸•à¸´à¸‚à¸­à¸‡à¹„à¸Ÿà¸¥à¹Œà¸™à¸µà¹‰à¹„à¸”à¹‰</value>
   </data>
   <data name="CannotAccessPropertiesContent" xml:space="preserve">
-    <value>ไฟล์ที่ต้องการเข้าถึงนั้นได้ถูกย้ายหรือลบไปแล้ว</value>
+    <value>à¹„à¸Ÿà¸¥à¹Œà¸—à¸µà¹ˆà¸•à¹‰à¸­à¸‡à¸à¸²à¸£à¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡à¸™à¸±à¹‰à¸™à¹„à¸”à¹‰à¸–à¸¹à¸à¸¢à¹‰à¸²à¸¢à¸«à¸£à¸·à¸­à¸¥à¸šà¹„à¸›à¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="FileNotFoundDialogTitle" xml:space="preserve">
     <value>File Not Found</value>
@@ -427,10 +433,10 @@
     <value>To find a version for your PC, check with the software publisher.</value>
   </data>
   <data name="Layout" xml:space="preserve">
-    <value>เค้าโครง</value>
+    <value>à¹€à¸„à¹‰à¸²à¹‚à¸„à¸£à¸‡</value>
   </data>
   <data name="PropertiesDialogReadOnly.Text" xml:space="preserve">
-    <value>อ่านอย่างเดียว</value>
+    <value>à¸­à¹ˆà¸²à¸™à¸­à¸¢à¹ˆà¸²à¸‡à¹€à¸”à¸µà¸¢à¸§</value>
   </data>
   <data name="DaysAgo" xml:space="preserve">
     <value>{0, plural, one {# day ago} other {# days ago}}</value>
@@ -466,25 +472,25 @@
     <value>1 second ago</value>
   </data>
   <data name="SecondsAgo_Plural" xml:space="preserve">
-    <value>{0} วินาทีที่แล้ว</value>
+    <value>{0} à¸§à¸´à¸™à¸²à¸—à¸µà¸—à¸µà¹ˆà¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>ขณะนี้</value>
+    <value>à¸‚à¸“à¸°à¸™à¸µà¹‰</value>
   </data>
   <data name="ErrorDialogUnsupportedOperation" xml:space="preserve">
-    <value>ไม่สามารถทำได้อย่างไม่ทราบสาเหตุ</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¸—à¸³à¹„à¸”à¹‰à¸­à¸¢à¹ˆà¸²à¸‡à¹„à¸¡à¹ˆà¸—à¸£à¸²à¸šà¸ªà¸²à¹€à¸«à¸•à¸¸</value>
   </data>
   <data name="DriveFreeSpaceAndCapacity" xml:space="preserve">
-    <value>ว่าง {0} จากทั้งหมด {1}</value>
+    <value>à¸§à¹ˆà¸²à¸‡ {0} à¸ˆà¸²à¸à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸” {1}</value>
   </data>
   <data name="SendTo" xml:space="preserve">
-    <value>ส่งไปยัง</value>
+    <value>à¸ªà¹ˆà¸‡à¹„à¸›à¸¢à¸±à¸‡</value>
   </data>
   <data name="FileNameTeachingTip.Subtitle" xml:space="preserve">
-    <value>ชื่อไฟล์ไม่สามารถมีอักขระต่อไปนี้ได้: \ / : * ? " &lt; &gt; |</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¹„à¸Ÿà¸¥à¹Œà¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¸¡à¸µà¸­à¸±à¸à¸‚à¸£à¸°à¸•à¹ˆà¸­à¹„à¸›à¸™à¸µà¹‰à¹„à¸”à¹‰: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="InvalidFilename.Text" xml:space="preserve">
-    <value>ชื่อรายการที่ระบุไม่ถูกต้อง</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¸£à¸°à¸šà¸¸à¹„à¸¡à¹ˆà¸–à¸¹à¸à¸•à¹‰à¸­à¸‡</value>
   </data>
   <data name="SelectedItems" xml:space="preserve">
     <value>{0, plural, other {# items selected}}</value>
@@ -495,16 +501,16 @@
     <comment>ICU format for plurals, more information here: https://support.crowdin.com/icu-message-syntax/#plural</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>ใช่</value>
+    <value>à¹ƒà¸Šà¹ˆ</value>
   </data>
   <data name="ConfirmEmptyBinDialogContent" xml:space="preserve">
-    <value>คุณแน่ใจเหรอว่าคุณต้องการลบรายการเหล่านี้อย่างถาวร?</value>
+    <value>à¸„à¸¸à¸“à¹à¸™à¹ˆà¹ƒà¸ˆà¹€à¸«à¸£à¸­à¸§à¹ˆà¸²à¸„à¸¸à¸“à¸•à¹‰à¸­à¸‡à¸à¸²à¸£à¸¥à¸šà¸£à¸²à¸¢à¸à¸²à¸£à¹€à¸«à¸¥à¹ˆà¸²à¸™à¸µà¹‰à¸­à¸¢à¹ˆà¸²à¸‡à¸–à¸²à¸§à¸£?</value>
   </data>
   <data name="ConfirmEmptyBinDialogTitle" xml:space="preserve">
-    <value>ล้างข้อมูลในถังรีไซเคิล</value>
+    <value>à¸¥à¹‰à¸²à¸‡à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¹ƒà¸™à¸–à¸±à¸‡à¸£à¸µà¹„à¸‹à¹€à¸„à¸´à¸¥</value>
   </data>
   <data name="ItemSizeBytes" xml:space="preserve">
-    <value>ไบต์</value>
+    <value>à¹„à¸šà¸•à¹Œ</value>
   </data>
   <data name="KiloByteSymbol" xml:space="preserve">
     <value>KB</value>
@@ -534,112 +540,112 @@
     <value>Run as another user</value>
   </data>
   <data name="PropertiesDriveItemTypesEquals" xml:space="preserve">
-    <value>ทุกขนิด {0}</value>
+    <value>à¸—à¸¸à¸à¸‚à¸™à¸´à¸” {0}</value>
   </data>
   <data name="PropertiesDriveItemTypeDifferent" xml:space="preserve">
-    <value>หลาย ๆ ชนิด</value>
+    <value>à¸«à¸¥à¸²à¸¢ à¹† à¸Šà¸™à¸´à¸”</value>
   </data>
   <data name="PropertiesCombinedItemLocation" xml:space="preserve">
-    <value>ทั้งหมดใน {0}</value>
+    <value>à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”à¹ƒà¸™ {0}</value>
   </data>
   <data name="PropertiesDriveUsedSpace.Text" xml:space="preserve">
-    <value>พื้นที่ใช้ไป:</value>
+    <value>à¸žà¸·à¹‰à¸™à¸—à¸µà¹ˆà¹ƒà¸Šà¹‰à¹„à¸›:</value>
   </data>
   <data name="PropertiesDriveFreeSpace.Text" xml:space="preserve">
-    <value>พื้นที่ว่าง:</value>
+    <value>à¸žà¸·à¹‰à¸™à¸—à¸µà¹ˆà¸§à¹ˆà¸²à¸‡:</value>
   </data>
   <data name="PropertiesDriveCapacity.Text" xml:space="preserve">
-    <value>ความจุ:</value>
+    <value>à¸„à¸§à¸²à¸¡à¸ˆà¸¸:</value>
   </data>
   <data name="PropertiesDriveFileSystem.Text" xml:space="preserve">
-    <value>ระบบแฟ้ม:</value>
+    <value>à¸£à¸°à¸šà¸šà¹à¸Ÿà¹‰à¸¡:</value>
   </data>
   <data name="JumpListRecentGroupHeader" xml:space="preserve">
-    <value>ใช้บ่อย</value>
+    <value>à¹ƒà¸Šà¹‰à¸šà¹ˆà¸­à¸¢</value>
   </data>
   <data name="TabStripDragAndDropUIOverrideCaption" xml:space="preserve">
-    <value>ย้ายแท็บมาไว้ที่นี่</value>
+    <value>à¸¢à¹‰à¸²à¸¢à¹à¸—à¹‡à¸šà¸¡à¸²à¹„à¸§à¹‰à¸—à¸µà¹ˆà¸™à¸µà¹ˆ</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="NavigationToolbarVisiblePathNoResults" xml:space="preserve">
-    <value>ไม่มีรายการนี้</value>
+    <value>à¹„à¸¡à¹ˆà¸¡à¸µà¸£à¸²à¸¢à¸à¸²à¸£à¸™à¸µà¹‰</value>
   </data>
   <data name="SubDirectoryAccessDenied" xml:space="preserve">
-    <value>ไม่มีสิทธิ์เข้าถึงโฟลเดอร์นี้</value>
+    <value>à¹„à¸¡à¹ˆà¸¡à¸µà¸ªà¸´à¸—à¸˜à¸´à¹Œà¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸™à¸µà¹‰</value>
   </data>
   <data name="MoveToFolderCaptionText" xml:space="preserve">
-    <value>ย้ายไปที่ {0}</value>
+    <value>à¸¢à¹‰à¸²à¸¢à¹„à¸›à¸—à¸µà¹ˆ {0}</value>
   </data>
   <data name="CopyToFolderCaptionText" xml:space="preserve">
-    <value>คัดลอกไปที่ {0}</value>
+    <value>à¸„à¸±à¸”à¸¥à¸­à¸à¹„à¸›à¸—à¸µà¹ˆ {0}</value>
   </data>
   <data name="CloneToFolderCaptionText" xml:space="preserve">
     <value>Clone to {0}</value>
   </data>
   <data name="CreateShortcut" xml:space="preserve">
-    <value>สร้างทางลัด</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¸—à¸²à¸‡à¸¥à¸±à¸”</value>
   </data>
   <data name="OpenFileLocation" xml:space="preserve">
-    <value>เปิดตำแหน่งที่ตั้งไฟล์</value>
+    <value>à¹€à¸›à¸´à¸”à¸•à¸³à¹à¸«à¸™à¹ˆà¸‡à¸—à¸µà¹ˆà¸•à¸±à¹‰à¸‡à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="PropertiesShortcutItemArgs.Text" xml:space="preserve">
-    <value>ตัวเลือกการเริ่ม:</value>
+    <value>à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸à¸à¸²à¸£à¹€à¸£à¸´à¹ˆà¸¡:</value>
   </data>
   <data name="PropertiesShortcutItemPath.Text" xml:space="preserve">
-    <value>เป้าหมาย:</value>
+    <value>à¹€à¸›à¹‰à¸²à¸«à¸¡à¸²à¸¢:</value>
   </data>
   <data name="PropertiesShortcutItemType.Text" xml:space="preserve">
-    <value>ชนิดของทางลัด:</value>
+    <value>à¸Šà¸™à¸´à¸”à¸‚à¸­à¸‡à¸—à¸²à¸‡à¸¥à¸±à¸”:</value>
   </data>
   <data name="PropertiesShortcutTypeLink" xml:space="preserve">
-    <value>ทางลัดอินเตอร์เน็ต</value>
+    <value>à¸—à¸²à¸‡à¸¥à¸±à¸”à¸­à¸´à¸™à¹€à¸•à¸­à¸£à¹Œà¹€à¸™à¹‡à¸•</value>
   </data>
   <data name="General" xml:space="preserve">
-    <value>ทั่วไป</value>
+    <value>à¸—à¸±à¹ˆà¸§à¹„à¸›</value>
   </data>
   <data name="Shortcut" xml:space="preserve">
-    <value>ทางลัด</value>
+    <value>à¸—à¸²à¸‡à¸¥à¸±à¸”</value>
   </data>
   <data name="ShortcutWebLinkFileType" xml:space="preserve">
-    <value>ทางลัดอินเตอร์เน็ต</value>
+    <value>à¸—à¸²à¸‡à¸¥à¸±à¸”à¸­à¸´à¸™à¹€à¸•à¸­à¸£à¹Œà¹€à¸™à¹‡à¸•</value>
   </data>
   <data name="ShortcutCreateNewSuffix" xml:space="preserve">
-    <value>{0} - ทางลัด</value>
+    <value>{0} - à¸—à¸²à¸‡à¸¥à¸±à¸”</value>
   </data>
   <data name="ExceptionNotificationBody" xml:space="preserve">
-    <value>โปรแกรมจัดการไฟล์เจอปัญหาที่ไม่เคยเจอมาก่อน.</value>
+    <value>à¹‚à¸›à¸£à¹à¸à¸£à¸¡à¸ˆà¸±à¸”à¸à¸²à¸£à¹„à¸Ÿà¸¥à¹Œà¹€à¸ˆà¸­à¸›à¸±à¸à¸«à¸²à¸—à¸µà¹ˆà¹„à¸¡à¹ˆà¹€à¸„à¸¢à¹€à¸ˆà¸­à¸¡à¸²à¸à¹ˆà¸­à¸™.</value>
   </data>
   <data name="ExceptionNotificationHeader" xml:space="preserve">
-    <value>เกิดบางอย่างผิดพลาดขึ้น!</value>
+    <value>à¹€à¸à¸´à¸”à¸šà¸²à¸‡à¸­à¸¢à¹ˆà¸²à¸‡à¸œà¸´à¸”à¸žà¸¥à¸²à¸”à¸‚à¸¶à¹‰à¸™!</value>
   </data>
   <data name="ExceptionNotificationReportButton" xml:space="preserve">
-    <value>รายงานปัญหานี้</value>
+    <value>à¸£à¸²à¸¢à¸‡à¸²à¸™à¸›à¸±à¸à¸«à¸²à¸™à¸µà¹‰</value>
   </data>
   <data name="InvalidItemDialogContent" xml:space="preserve">
-    <value>รายการที่ระบุนี้ไม่มีอยู่จริงหรือไม่สามารถเข้าถึงได้อีกต่อไป. {0}เกิดข้อผิดพลาด:{0}{1}</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¸£à¸°à¸šà¸¸à¸™à¸µà¹‰à¹„à¸¡à¹ˆà¸¡à¸µà¸­à¸¢à¸¹à¹ˆà¸ˆà¸£à¸´à¸‡à¸«à¸£à¸·à¸­à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡à¹„à¸”à¹‰à¸­à¸µà¸à¸•à¹ˆà¸­à¹„à¸›. {0}à¹€à¸à¸´à¸”à¸‚à¹‰à¸­à¸œà¸´à¸”à¸žà¸¥à¸²à¸”:{0}{1}</value>
   </data>
   <data name="InvalidItemDialogTitle" xml:space="preserve">
-    <value>รายการที่ไม่มีจริง</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¹„à¸¡à¹ˆà¸¡à¸µà¸ˆà¸£à¸´à¸‡</value>
   </data>
   <data name="SettingsAboutVersionTitle" xml:space="preserve">
-    <value>เวอร์ชั่น:</value>
+    <value>à¹€à¸§à¸­à¸£à¹Œà¸Šà¸±à¹ˆà¸™:</value>
   </data>
   <data name="ShareDialogFailMessage" xml:space="preserve">
-    <value>ยังไม่มีอะไรจะแบ่งปัน ณ ตอนนี้...</value>
+    <value>à¸¢à¸±à¸‡à¹„à¸¡à¹ˆà¸¡à¸µà¸­à¸°à¹„à¸£à¸ˆà¸°à¹à¸šà¹ˆà¸‡à¸›à¸±à¸™ à¸“ à¸•à¸­à¸™à¸™à¸µà¹‰...</value>
   </data>
   <data name="ShareDialogMultipleItemsDescription" xml:space="preserve">
-    <value>รายการเหล่านี้ที่คุณเลือกกำลังจะถูกแบ่งปัน</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¹€à¸«à¸¥à¹ˆà¸²à¸™à¸µà¹‰à¸—à¸µà¹ˆà¸„à¸¸à¸“à¹€à¸¥à¸·à¸­à¸à¸à¸³à¸¥à¸±à¸‡à¸ˆà¸°à¸–à¸¹à¸à¹à¸šà¹ˆà¸‡à¸›à¸±à¸™</value>
   </data>
   <data name="ShareDialogSingleItemDescription" xml:space="preserve">
-    <value>รายการที่คุณเลือกกำลังจะถูกแบ่งปัน</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¸„à¸¸à¸“à¹€à¸¥à¸·à¸­à¸à¸à¸³à¸¥à¸±à¸‡à¸ˆà¸°à¸–à¸¹à¸à¹à¸šà¹ˆà¸‡à¸›à¸±à¸™</value>
   </data>
   <data name="ShareDialogTitle" xml:space="preserve">
-    <value>แบ่งปัน {0}</value>
+    <value>à¹à¸šà¹ˆà¸‡à¸›à¸±à¸™ {0}</value>
   </data>
   <data name="ShareDialogTitleMultipleItems" xml:space="preserve">
-    <value>แบ่งปัน {0} {1}</value>
+    <value>à¹à¸šà¹ˆà¸‡à¸›à¸±à¸™ {0} {1}</value>
   </data>
   <data name="RenameErrorItemDeletedText" xml:space="preserve">
     <value>The item you're attempting to rename no longer exists. Please verify the correct location of the item you need to rename.</value>
@@ -660,61 +666,61 @@
     <value>Item name was too long</value>
   </data>
   <data name="ShowMoreOptions" xml:space="preserve">
-    <value>แสดงตัวเลือกเพิ่มเติม</value>
+    <value>à¹à¸ªà¸”à¸‡à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸à¹€à¸žà¸´à¹ˆà¸¡à¹€à¸•à¸´à¸¡</value>
   </data>
   <data name="RestartNotificationText.Text" xml:space="preserve">
-    <value>โปรแกรมต้องเริ่มใหม่เพื่อให้การตั้งค่านี้มีผล, คุณต้องการจะปิดโปรแกรมนี้เพื่อเริ่มใหม่และนำการตั้งค่านี้ไปใช้ ตอนนี้เลยหรือไม่?</value>
+    <value>à¹‚à¸›à¸£à¹à¸à¸£à¸¡à¸•à¹‰à¸­à¸‡à¹€à¸£à¸´à¹ˆà¸¡à¹ƒà¸«à¸¡à¹ˆà¹€à¸žà¸·à¹ˆà¸­à¹ƒà¸«à¹‰à¸à¸²à¸£à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¸™à¸µà¹‰à¸¡à¸µà¸œà¸¥, à¸„à¸¸à¸“à¸•à¹‰à¸­à¸‡à¸à¸²à¸£à¸ˆà¸°à¸›à¸´à¸”à¹‚à¸›à¸£à¹à¸à¸£à¸¡à¸™à¸µà¹‰à¹€à¸žà¸·à¹ˆà¸­à¹€à¸£à¸´à¹ˆà¸¡à¹ƒà¸«à¸¡à¹ˆà¹à¸¥à¸°à¸™à¸³à¸à¸²à¸£à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¸™à¸µà¹‰à¹„à¸›à¹ƒà¸Šà¹‰ à¸•à¸­à¸™à¸™à¸µà¹‰à¹€à¸¥à¸¢à¸«à¸£à¸·à¸­à¹„à¸¡à¹ˆ?</value>
   </data>
   <data name="SponsorUsOnGitHub" xml:space="preserve">
-    <value>สนับสนุนเราบน GitHub</value>
+    <value>à¸ªà¸™à¸±à¸šà¸ªà¸™à¸¸à¸™à¹€à¸£à¸²à¸šà¸™ GitHub</value>
   </data>
   <data name="AccessDeniedCreateDialogText" xml:space="preserve">
     <value>We weren't able to create this item</value>
   </data>
   <data name="AccessDenied" xml:space="preserve">
-    <value>การเข้าถึงถูกกีดกัน</value>
+    <value>à¸à¸²à¸£à¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡à¸–à¸¹à¸à¸à¸µà¸”à¸à¸±à¸™</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutSetAsText" xml:space="preserve">
     <value>Set as</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>ยกเลิก</value>
+    <value>à¸¢à¸à¹€à¸¥à¸´à¸</value>
   </data>
   <data name="AddDialog.Title" xml:space="preserve">
-    <value>สร้างรายการใหม่</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="AddDialogDescription.Text" xml:space="preserve">
-    <value>เลือกประเภทของรายการที่จะสร้างใหม่</value>
+    <value>à¹€à¸¥à¸·à¸­à¸à¸›à¸£à¸°à¹€à¸ à¸—à¸‚à¸­à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¸ˆà¸°à¸ªà¸£à¹‰à¸²à¸‡à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="File" xml:space="preserve">
-    <value>ไฟล์</value>
+    <value>à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="Files" xml:space="preserve">
     <value>Files</value>
   </data>
   <data name="AddDialogListFileSubHeader" xml:space="preserve">
-    <value>สร้างไฟล์เปล่า</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¹„à¸Ÿà¸¥à¹Œà¹€à¸›à¸¥à¹ˆà¸²</value>
   </data>
   <data name="Folder" xml:space="preserve">
-    <value>โฟลเดอร์</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œ</value>
   </data>
   <data name="Folders" xml:space="preserve">
     <value>Folders</value>
   </data>
   <data name="AddDialogListFolderSubHeader" xml:space="preserve">
-    <value>สร้างโฟลเดอร์เปล่า</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹€à¸›à¸¥à¹ˆà¸²</value>
   </data>
   <data name="NavResfreshButton.AutomationProperties.Name" xml:space="preserve">
-    <value>รีเฟรช</value>
+    <value>à¸£à¸µà¹€à¸Ÿà¸£à¸Š</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>ภาษา</value>
+    <value>à¸ à¸²à¸©à¸²</value>
   </data>
   <data name="SettingsContextMenuOverflow" xml:space="preserve">
-    <value>ย้ายส่วนขยายเชลล์ทั้งหมดไปที่เมนูย่อย</value>
+    <value>à¸¢à¹‰à¸²à¸¢à¸ªà¹ˆà¸§à¸™à¸‚à¸¢à¸²à¸¢à¹€à¸Šà¸¥à¸¥à¹Œà¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”à¹„à¸›à¸—à¸µà¹ˆà¹€à¸¡à¸™à¸¹à¸¢à¹ˆà¸­à¸¢</value>
   </data>
   <data name="ShowConfirmationWhenDeletingItems" xml:space="preserve">
-    <value>แสดงกล่องโต้ตอบการยืนยันลบเมื่อลบไฟล์หรือโฟล์เดอร์</value>
+    <value>à¹à¸ªà¸”à¸‡à¸à¸¥à¹ˆà¸­à¸‡à¹‚à¸•à¹‰à¸•à¸­à¸šà¸à¸²à¸£à¸¢à¸·à¸™à¸¢à¸±à¸™à¸¥à¸šà¹€à¸¡à¸·à¹ˆà¸­à¸¥à¸šà¹„à¸Ÿà¸¥à¹Œà¸«à¸£à¸·à¸­à¹‚à¸Ÿà¸¥à¹Œà¹€à¸”à¸­à¸£à¹Œ</value>
   </data>
   <data name="PropertySaveErrorMessageText" xml:space="preserve">
     <value>There was an issue saving some properties.</value>
@@ -723,229 +729,229 @@
     <value>Error</value>
   </data>
   <data name="PropertySaveErrorDialog.SecondaryButtonText" xml:space="preserve">
-    <value>ละเลยและปิด</value>
+    <value>à¸¥à¸°à¹€à¸¥à¸¢à¹à¸¥à¸°à¸›à¸´à¸”</value>
   </data>
   <data name="PropertyRatingText" xml:space="preserve">
-    <value>การจัดอันดับ</value>
+    <value>à¸à¸²à¸£à¸ˆà¸±à¸”à¸­à¸±à¸™à¸”à¸±à¸š</value>
   </data>
   <data name="PropertyParsingPath" xml:space="preserve">
-    <value>เส้นทางโฟลเดอร์</value>
+    <value>à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œ</value>
   </data>
   <data name="PropertyItemTypeText" xml:space="preserve">
-    <value>ชนิดรายการ</value>
+    <value>à¸Šà¸™à¸´à¸”à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="PropertyTitle" xml:space="preserve">
-    <value>ชื่อเรื่อง</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¹€à¸£à¸·à¹ˆà¸­à¸‡</value>
   </data>
   <data name="PropertySubject" xml:space="preserve">
-    <value>หัวข้อ</value>
+    <value>à¸«à¸±à¸§à¸‚à¹‰à¸­</value>
   </data>
   <data name="PropertyComment" xml:space="preserve">
-    <value>ข้อคิดเห็น</value>
+    <value>à¸‚à¹‰à¸­à¸„à¸´à¸”à¹€à¸«à¹‡à¸™</value>
   </data>
   <data name="PropertyCopyright" xml:space="preserve">
-    <value>ลิขสิทธื์</value>
+    <value>à¸¥à¸´à¸‚à¸ªà¸´à¸—à¸˜à¸·à¹Œ</value>
   </data>
   <data name="PropertyDateModified" xml:space="preserve">
-    <value>วันที่ปรับเปลี่ยน</value>
+    <value>à¸§à¸±à¸™à¸—à¸µà¹ˆà¸›à¸£à¸±à¸šà¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™</value>
   </data>
   <data name="PropertyBitDepth" xml:space="preserve">
-    <value>ความลึกของบิต</value>
+    <value>à¸„à¸§à¸²à¸¡à¸¥à¸¶à¸à¸‚à¸­à¸‡à¸šà¸´à¸•</value>
   </data>
   <data name="PropertyDimensions" xml:space="preserve">
-    <value>มิติ</value>
+    <value>à¸¡à¸´à¸•à¸´</value>
   </data>
   <data name="PropertyHorizontalSize" xml:space="preserve">
-    <value>ขนาดแนวนอน</value>
+    <value>à¸‚à¸™à¸²à¸”à¹à¸™à¸§à¸™à¸­à¸™</value>
   </data>
   <data name="PropertyVerticalSize" xml:space="preserve">
-    <value>ขนาดแนวตั้ง</value>
+    <value>à¸‚à¸™à¸²à¸”à¹à¸™à¸§à¸•à¸±à¹‰à¸‡</value>
   </data>
   <data name="PropertyHorizontalResolution" xml:space="preserve">
-    <value>ความละเอียดแนวนอน</value>
+    <value>à¸„à¸§à¸²à¸¡à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”à¹à¸™à¸§à¸™à¸­à¸™</value>
   </data>
   <data name="PropertyVerticalResolution" xml:space="preserve">
-    <value>ความละเอียดแนวตั้ง</value>
+    <value>à¸„à¸§à¸²à¸¡à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”à¹à¸™à¸§à¸•à¸±à¹‰à¸‡</value>
   </data>
   <data name="PropertyColorSpace" xml:space="preserve">
-    <value>การแสดงสี</value>
+    <value>à¸à¸²à¸£à¹à¸ªà¸”à¸‡à¸ªà¸µ</value>
   </data>
   <data name="PropertyColorSpace_Value0" xml:space="preserve">
     <value>sRGB</value>
   </data>
   <data name="PropertyColorSpace_Value65535" xml:space="preserve">
-    <value>ไม่ระบุ</value>
+    <value>à¹„à¸¡à¹ˆà¸£à¸°à¸šà¸¸</value>
   </data>
   <data name="PropertyLongitudeDecimal" xml:space="preserve">
-    <value>ละติจูต</value>
+    <value>à¸¥à¸°à¸•à¸´à¸ˆà¸¹à¸•</value>
   </data>
   <data name="PropertyLatitudeDecimal" xml:space="preserve">
-    <value>ลองจิจูต</value>
+    <value>à¸¥à¸­à¸‡à¸ˆà¸´à¸ˆà¸¹à¸•</value>
   </data>
   <data name="PropertyAltitude" xml:space="preserve">
-    <value>ระดับความสูง</value>
+    <value>à¸£à¸°à¸”à¸±à¸šà¸„à¸§à¸²à¸¡à¸ªà¸¹à¸‡</value>
   </data>
   <data name="PropertyDateTaken" xml:space="preserve">
-    <value>วันที่ถ่าย</value>
+    <value>à¸§à¸±à¸™à¸—à¸µà¹ˆà¸–à¹ˆà¸²à¸¢</value>
   </data>
   <data name="PropertyCameraManufacturer" xml:space="preserve">
-    <value>ยี่ห้อกล้อง</value>
+    <value>à¸¢à¸µà¹ˆà¸«à¹‰à¸­à¸à¸¥à¹‰à¸­à¸‡</value>
   </data>
   <data name="PropertyCameraModel" xml:space="preserve">
-    <value>รุ่นของกล้อง</value>
+    <value>à¸£à¸¸à¹ˆà¸™à¸‚à¸­à¸‡à¸à¸¥à¹‰à¸­à¸‡</value>
   </data>
   <data name="PropertyExposureTime" xml:space="preserve">
-    <value>การตั้งค่าการเปิดรับแสง</value>
+    <value>à¸à¸²à¸£à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¸à¸²à¸£à¹€à¸›à¸´à¸”à¸£à¸±à¸šà¹à¸ªà¸‡</value>
   </data>
   <data name="PropertyFocalLength" xml:space="preserve">
-    <value>ระยะโฟกัส</value>
+    <value>à¸£à¸°à¸¢à¸°à¹‚à¸Ÿà¸à¸±à¸ª</value>
   </data>
   <data name="PropertyAperture" xml:space="preserve">
-    <value>ช่อง</value>
+    <value>à¸Šà¹ˆà¸­à¸‡</value>
   </data>
   <data name="PropertyPeopleNames" xml:space="preserve">
-    <value>รายชื่อผู้คน</value>
+    <value>à¸£à¸²à¸¢à¸Šà¸·à¹ˆà¸­à¸œà¸¹à¹‰à¸„à¸™</value>
   </data>
   <data name="PropertyChannelCount" xml:space="preserve">
-    <value>จำนวนช่อง</value>
+    <value>à¸ˆà¸³à¸™à¸§à¸™à¸Šà¹ˆà¸­à¸‡</value>
   </data>
   <data name="PropertyFormat" xml:space="preserve">
-    <value>รูปแบบ</value>
+    <value>à¸£à¸¹à¸›à¹à¸šà¸š</value>
   </data>
   <data name="PropertySampleRate" xml:space="preserve">
-    <value>อัตราการสุ่มตัวอย่าง</value>
+    <value>à¸­à¸±à¸•à¸£à¸²à¸à¸²à¸£à¸ªà¸¸à¹ˆà¸¡à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡</value>
   </data>
   <data name="PropertyAlbumArtist" xml:space="preserve">
-    <value>อัลบัมศิลปิน</value>
+    <value>à¸­à¸±à¸¥à¸šà¸±à¸¡à¸¨à¸´à¸¥à¸›à¸´à¸™</value>
   </data>
   <data name="PropertyAlbumTitle" xml:space="preserve">
-    <value>ชื่ออัลบัม</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¸­à¸±à¸¥à¸šà¸±à¸¡</value>
   </data>
   <data name="Artist" xml:space="preserve">
-    <value>ศิลปิน</value>
+    <value>à¸¨à¸´à¸¥à¸›à¸´à¸™</value>
   </data>
   <data name="PropertyBeatsPerMinute" xml:space="preserve">
-    <value>จังหวะต่อนาที</value>
+    <value>à¸ˆà¸±à¸‡à¸«à¸§à¸°à¸•à¹ˆà¸­à¸™à¸²à¸—à¸µ</value>
   </data>
   <data name="PropertyComposer" xml:space="preserve">
-    <value>ผู้ประพันธ์</value>
+    <value>à¸œà¸¹à¹‰à¸›à¸£à¸°à¸žà¸±à¸™à¸˜à¹Œ</value>
   </data>
   <data name="Conductor" xml:space="preserve">
-    <value>ผู้ควบคุมวง</value>
+    <value>à¸œà¸¹à¹‰à¸„à¸§à¸šà¸„à¸¸à¸¡à¸§à¸‡</value>
   </data>
   <data name="PropertyDiscNumber" xml:space="preserve">
-    <value>แผ่นที่</value>
+    <value>à¹à¸œà¹ˆà¸™à¸—à¸µà¹ˆ</value>
   </data>
   <data name="PropertyGenre" xml:space="preserve">
-    <value>หมวด</value>
+    <value>à¸«à¸¡à¸§à¸”</value>
   </data>
   <data name="PropertyTrackNumber" xml:space="preserve">
-    <value>หมายเลขแทร็ก</value>
+    <value>à¸«à¸¡à¸²à¸¢à¹€à¸¥à¸‚à¹à¸—à¸£à¹‡à¸</value>
   </data>
   <data name="PropertyDuration" xml:space="preserve">
-    <value>ความยาว</value>
+    <value>à¸„à¸§à¸²à¸¡à¸¢à¸²à¸§</value>
   </data>
   <data name="PropertyFrameCount" xml:space="preserve">
-    <value>อัตราเฟรม</value>
+    <value>à¸­à¸±à¸•à¸£à¸²à¹€à¸Ÿà¸£à¸¡</value>
   </data>
   <data name="PropertyProtectionType" xml:space="preserve">
-    <value>รูปแบบการป้องกัน</value>
+    <value>à¸£à¸¹à¸›à¹à¸šà¸šà¸à¸²à¸£à¸›à¹‰à¸­à¸‡à¸à¸±à¸™</value>
   </data>
   <data name="PropertyAuthorUrl" xml:space="preserve">
-    <value>Url ผู้เขียน</value>
+    <value>Url à¸œà¸¹à¹‰à¹€à¸‚à¸µà¸¢à¸™</value>
   </data>
   <data name="PropertyContentDistributor" xml:space="preserve">
-    <value>ผู้จัดจำหน่ายเนื้อหา</value>
+    <value>à¸œà¸¹à¹‰à¸ˆà¸±à¸”à¸ˆà¸³à¸«à¸™à¹ˆà¸²à¸¢à¹€à¸™à¸·à¹‰à¸­à¸«à¸²</value>
   </data>
   <data name="PropertyDateReleased" xml:space="preserve">
-    <value>วันที่จัดจำหน่าย</value>
+    <value>à¸§à¸±à¸™à¸—à¸µà¹ˆà¸ˆà¸±à¸”à¸ˆà¸³à¸«à¸™à¹ˆà¸²à¸¢</value>
   </data>
   <data name="PropertySeriesName" xml:space="preserve">
-    <value>ชื่อชุด</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¸Šà¸¸à¸”</value>
   </data>
   <data name="PropertySeasonNumber" xml:space="preserve">
-    <value>ชุดที่</value>
+    <value>à¸Šà¸¸à¸”à¸—à¸µà¹ˆ</value>
   </data>
   <data name="PropertyEpisodeNumber" xml:space="preserve">
-    <value>ตอนที่</value>
+    <value>à¸•à¸­à¸™à¸—à¸µà¹ˆ</value>
   </data>
   <data name="PropertyProducer" xml:space="preserve">
-    <value>ผู้ผลิต</value>
+    <value>à¸œà¸¹à¹‰à¸œà¸¥à¸´à¸•</value>
   </data>
   <data name="PropertyPromotionUrl" xml:space="preserve">
-    <value>Url สำหรับการโปรโมท</value>
+    <value>Url à¸ªà¸³à¸«à¸£à¸±à¸šà¸à¸²à¸£à¹‚à¸›à¸£à¹‚à¸¡à¸—</value>
   </data>
   <data name="PropertyProviderStyle" xml:space="preserve">
-    <value>รูปแบบการจัดจำหน่าย</value>
+    <value>à¸£à¸¹à¸›à¹à¸šà¸šà¸à¸²à¸£à¸ˆà¸±à¸”à¸ˆà¸³à¸«à¸™à¹ˆà¸²à¸¢</value>
   </data>
   <data name="PropertyPublisher" xml:space="preserve">
-    <value>ผู้จัดจำหน่าย</value>
+    <value>à¸œà¸¹à¹‰à¸ˆà¸±à¸”à¸ˆà¸³à¸«à¸™à¹ˆà¸²à¸¢</value>
   </data>
   <data name="PropertyThumbnailLargePath" xml:space="preserve">
-    <value>ตำแหน่งรูปย่อขนาดใหญ่</value>
+    <value>à¸•à¸³à¹à¸«à¸™à¹ˆà¸‡à¸£à¸¹à¸›à¸¢à¹ˆà¸­à¸‚à¸™à¸²à¸”à¹ƒà¸«à¸à¹ˆ</value>
   </data>
   <data name="PropertyThumbnailLargeUri" xml:space="preserve">
-    <value>Uri รูปย่อขนาดใหญ่</value>
+    <value>Uri à¸£à¸¹à¸›à¸¢à¹ˆà¸­à¸‚à¸™à¸²à¸”à¹ƒà¸«à¸à¹ˆ</value>
   </data>
   <data name="PropertyThumbnailSmallPath" xml:space="preserve">
-    <value>ตำแหน่งรูปย่อขนาดเล็ก</value>
+    <value>à¸•à¸³à¹à¸«à¸™à¹ˆà¸‡à¸£à¸¹à¸›à¸¢à¹ˆà¸­à¸‚à¸™à¸²à¸”à¹€à¸¥à¹‡à¸</value>
   </data>
   <data name="PropertyThumbnailSmallUri" xml:space="preserve">
-    <value>Uri รูปย่อขนาดเล็ก</value>
+    <value>Uri à¸£à¸¹à¸›à¸¢à¹ˆà¸­à¸‚à¸™à¸²à¸”à¹€à¸¥à¹‡à¸</value>
   </data>
   <data name="PropertyUserWebUrl" xml:space="preserve">
-    <value>Url ผู้ใช้</value>
+    <value>Url à¸œà¸¹à¹‰à¹ƒà¸Šà¹‰</value>
   </data>
   <data name="PropertyWriter" xml:space="preserve">
-    <value>ผู้เขียน</value>
+    <value>à¸œà¸¹à¹‰à¹€à¸‚à¸µà¸¢à¸™</value>
   </data>
   <data name="PropertyYear" xml:space="preserve">
-    <value>ปี</value>
+    <value>à¸›à¸µ</value>
   </data>
   <data name="PropertyContributor" xml:space="preserve">
-    <value>ผู้สนับสนุน</value>
+    <value>à¸œà¸¹à¹‰à¸ªà¸™à¸±à¸šà¸ªà¸™à¸¸à¸™</value>
   </data>
   <data name="PropertyLastAuthor" xml:space="preserve">
-    <value>ผู้เขียนสุดท้าย</value>
+    <value>à¸œà¸¹à¹‰à¹€à¸‚à¸µà¸¢à¸™à¸ªà¸¸à¸”à¸—à¹‰à¸²à¸¢</value>
   </data>
   <data name="PropertyRevisionNumber" xml:space="preserve">
-    <value>พิมพ์ครั้งที่</value>
+    <value>à¸žà¸´à¸¡à¸žà¹Œà¸„à¸£à¸±à¹‰à¸‡à¸—à¸µà¹ˆ</value>
   </data>
   <data name="PropertyVersion" xml:space="preserve">
-    <value>เวอร์ชั่น</value>
+    <value>à¹€à¸§à¸­à¸£à¹Œà¸Šà¸±à¹ˆà¸™</value>
   </data>
   <data name="PropertyDateCreated" xml:space="preserve">
-    <value>วันที่สร้าง</value>
+    <value>à¸§à¸±à¸™à¸—à¸µà¹ˆà¸ªà¸£à¹‰à¸²à¸‡</value>
   </data>
   <data name="PropertyTotalEditingTime" xml:space="preserve">
-    <value>ระยะเวลาแก้ไข</value>
+    <value>à¸£à¸°à¸¢à¸°à¹€à¸§à¸¥à¸²à¹à¸à¹‰à¹„à¸‚</value>
   </data>
   <data name="PropertyTemplate" xml:space="preserve">
-    <value>ต้นฉบับ</value>
+    <value>à¸•à¹‰à¸™à¸‰à¸šà¸±à¸š</value>
   </data>
   <data name="PropertyWordCount" xml:space="preserve">
-    <value>จำนวนคำ</value>
+    <value>à¸ˆà¸³à¸™à¸§à¸™à¸„à¸³</value>
   </data>
   <data name="PropertyCharacterCount" xml:space="preserve">
-    <value>จำนวนตัวอักษร</value>
+    <value>à¸ˆà¸³à¸™à¸§à¸™à¸•à¸±à¸§à¸­à¸±à¸à¸©à¸£</value>
   </data>
   <data name="PropertyLineCount" xml:space="preserve">
-    <value>จำนวนบรรทัด</value>
+    <value>à¸ˆà¸³à¸™à¸§à¸™à¸šà¸£à¸£à¸—à¸±à¸”</value>
   </data>
   <data name="PropertyParagraphCount" xml:space="preserve">
-    <value>จำนวนย่อหน้า</value>
+    <value>à¸ˆà¸³à¸™à¸§à¸™à¸¢à¹ˆà¸­à¸«à¸™à¹‰à¸²</value>
   </data>
   <data name="PropertyPageCount" xml:space="preserve">
-    <value>จำนวนหน้า</value>
+    <value>à¸ˆà¸³à¸™à¸§à¸™à¸«à¸™à¹‰à¸²</value>
   </data>
   <data name="PropertySlideCount" xml:space="preserve">
-    <value>จำนวนสไลด์</value>
+    <value>à¸ˆà¸³à¸™à¸§à¸™à¸ªà¹„à¸¥à¸”à¹Œ</value>
   </data>
   <data name="PropertyFrameRate" xml:space="preserve">
-    <value>อัตราเฟรม</value>
+    <value>à¸­à¸±à¸•à¸£à¸²à¹€à¸Ÿà¸£à¸¡</value>
   </data>
   <data name="PropertyEncodingBitrate" xml:space="preserve">
-    <value>อัตราบิตรวม</value>
+    <value>à¸­à¸±à¸•à¸£à¸²à¸šà¸´à¸•à¸£à¸§à¸¡</value>
   </data>
   <data name="PropertyPreviewAudioEncodingBitrate" xml:space="preserve">
     <value>Audio Encoding Bitrate</value>
@@ -954,154 +960,154 @@
     <value>Video Encoding Bitrate</value>
   </data>
   <data name="Compression" xml:space="preserve">
-    <value>บีบอัด</value>
+    <value>à¸šà¸µà¸šà¸­à¸±à¸”</value>
   </data>
   <data name="PropertyFrameWidth" xml:space="preserve">
-    <value>ความกว้างของเฟรม</value>
+    <value>à¸„à¸§à¸²à¸¡à¸à¸§à¹‰à¸²à¸‡à¸‚à¸­à¸‡à¹€à¸Ÿà¸£à¸¡</value>
   </data>
   <data name="PropertyFrameHeight" xml:space="preserve">
-    <value>ความสูงของเฟรม</value>
+    <value>à¸„à¸§à¸²à¸¡à¸ªà¸¹à¸‡à¸‚à¸­à¸‡à¹€à¸Ÿà¸£à¸¡</value>
   </data>
   <data name="PropertyOrientation" xml:space="preserve">
-    <value>แนว</value>
+    <value>à¹à¸™à¸§</value>
   </data>
   <data name="PropertySectionCore" xml:space="preserve">
-    <value>พื้นฐาน</value>
+    <value>à¸žà¸·à¹‰à¸™à¸à¸²à¸™</value>
   </data>
   <data name="PropertySectionImage" xml:space="preserve">
-    <value>ภาพ</value>
+    <value>à¸ à¸²à¸ž</value>
   </data>
   <data name="PropertySectionPhoto" xml:space="preserve">
-    <value>รูป</value>
+    <value>à¸£à¸¹à¸›</value>
   </data>
   <data name="PropertySectionGPS" xml:space="preserve">
-    <value>ตำแหน่ง</value>
+    <value>à¸•à¸³à¹à¸«à¸™à¹ˆà¸‡</value>
   </data>
   <data name="PropertySectionMedia" xml:space="preserve">
-    <value>สื่อ</value>
+    <value>à¸ªà¸·à¹ˆà¸­</value>
   </data>
   <data name="PropertySectionAudio" xml:space="preserve">
-    <value>เสียง</value>
+    <value>à¹€à¸ªà¸µà¸¢à¸‡</value>
   </data>
   <data name="PropertySectionMusic" xml:space="preserve">
-    <value>เพลง</value>
+    <value>à¹€à¸žà¸¥à¸‡</value>
   </data>
   <data name="PropertySectionVideo" xml:space="preserve">
-    <value>วีดีโอ</value>
+    <value>à¸§à¸µà¸”à¸µà¹‚à¸­</value>
   </data>
   <data name="Document" xml:space="preserve">
-    <value>เอกสาร</value>
+    <value>à¹€à¸­à¸à¸ªà¸²à¸£</value>
   </data>
   <data name="Address" xml:space="preserve">
-    <value>ที่ตั้ง</value>
+    <value>à¸—à¸µà¹ˆà¸•à¸±à¹‰à¸‡</value>
   </data>
   <data name="SelectionOptions" xml:space="preserve">
-    <value>การเลือก</value>
+    <value>à¸à¸²à¸£à¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="NavToolbarSelectionOptions.Label" xml:space="preserve">
-    <value>เลือก</value>
+    <value>à¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="RecycleBinItemAutomation" xml:space="preserve">
-    <value>รายการที่ถูกรีไซเคิล</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¸–à¸¹à¸à¸£à¸µà¹„à¸‹à¹€à¸„à¸´à¸¥</value>
   </data>
   <data name="ShortcutItemAutomation" xml:space="preserve">
-    <value>รายการทางลัด</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸²à¸‡à¸¥à¸±à¸”</value>
   </data>
   <data name="Drives" xml:space="preserve">
-    <value>ไดร์ฟ</value>
+    <value>à¹„à¸”à¸£à¹Œà¸Ÿ</value>
   </data>
   <data name="PinToSidebarByDraggingCaptionText" xml:space="preserve">
-    <value>ย้ายมาที่นี่</value>
+    <value>à¸¢à¹‰à¸²à¸¢à¸¡à¸²à¸—à¸µà¹ˆà¸™à¸µà¹ˆ</value>
   </data>
   <data name="EjectNotificationHeader" xml:space="preserve">
-    <value>อุปกรณ์ถอดออกได้อย่างปลอดภัยแล้ว</value>
+    <value>à¸­à¸¸à¸›à¸à¸£à¸“à¹Œà¸–à¸­à¸”à¸­à¸­à¸à¹„à¸”à¹‰à¸­à¸¢à¹ˆà¸²à¸‡à¸›à¸¥à¸­à¸”à¸ à¸±à¸¢à¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="EjectNotificationBody" xml:space="preserve">
-    <value>อุปกรณ์สามารถถอดออกอย่างปลอดภัยได้แล้ว</value>
+    <value>à¸­à¸¸à¸›à¸à¸£à¸“à¹Œà¸ªà¸²à¸¡à¸²à¸£à¸–à¸–à¸­à¸”à¸­à¸­à¸à¸­à¸¢à¹ˆà¸²à¸‡à¸›à¸¥à¸­à¸”à¸ à¸±à¸¢à¹„à¸”à¹‰à¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="EjectNotificationErrorDialogHeader" xml:space="preserve">
-    <value>ไม่สามารถถอดอุปกรณ์ออกได้</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¸–à¸­à¸”à¸­à¸¸à¸›à¸à¸£à¸“à¹Œà¸­à¸­à¸à¹„à¸”à¹‰</value>
   </data>
   <data name="EjectNotificationErrorDialogBody" xml:space="preserve">
-    <value>อุปกรณ์กำลังถูกใช้งานอยู่. กรุณาปิดทุกโปรแกรมที่กำลังใช้งานอุปกรณ์นี้อยู่.</value>
+    <value>à¸­à¸¸à¸›à¸à¸£à¸“à¹Œà¸à¸³à¸¥à¸±à¸‡à¸–à¸¹à¸à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸­à¸¢à¸¹à¹ˆ. à¸à¸£à¸¸à¸“à¸²à¸›à¸´à¸”à¸—à¸¸à¸à¹‚à¸›à¸£à¹à¸à¸£à¸¡à¸—à¸µà¹ˆà¸à¸³à¸¥à¸±à¸‡à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸­à¸¸à¸›à¸à¸£à¸“à¹Œà¸™à¸µà¹‰à¸­à¸¢à¸¹à¹ˆ.</value>
   </data>
   <data name="Eject" xml:space="preserve">
-    <value>ถอด</value>
+    <value>à¸–à¸­à¸”</value>
   </data>
   <data name="DuplicateTab" xml:space="preserve">
-    <value>ทำซ้ำแท็บ</value>
+    <value>à¸—à¸³à¸‹à¹‰à¸³à¹à¸—à¹‡à¸š</value>
   </data>
   <data name="HorizontalMultitaskingControlMoveTabToNewWindow.Text" xml:space="preserve">
-    <value>ย้ายแท็บไปหน้าต่างใหม่</value>
+    <value>à¸¢à¹‰à¸²à¸¢à¹à¸—à¹‡à¸šà¹„à¸›à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="NewTab" xml:space="preserve">
-    <value>แท็บใหม่</value>
+    <value>à¹à¸—à¹‡à¸šà¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="ClearPropertiesFlyoutText.Text" xml:space="preserve">
-    <value>รายละเอียดอาจมีข้อมูลที่เป็นส่วนบุคคล</value>
+    <value>à¸£à¸²à¸¢à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”à¸­à¸²à¸ˆà¸¡à¸µà¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸—à¸µà¹ˆà¹€à¸›à¹‡à¸™à¸ªà¹ˆà¸§à¸™à¸šà¸¸à¸„à¸„à¸¥</value>
   </data>
   <data name="ClearPropertiesButton.Content" xml:space="preserve">
-    <value>ล้างรายละเอียดทุกอย่าง</value>
+    <value>à¸¥à¹‰à¸²à¸‡à¸£à¸²à¸¢à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”à¸—à¸¸à¸à¸­à¸¢à¹ˆà¸²à¸‡</value>
   </data>
   <data name="OngoingTasksTeachingTip.Subtitle" xml:space="preserve">
-    <value>เช็คสถานะของการถ่ายโอนไฟล์ที่นี่</value>
+    <value>à¹€à¸Šà¹‡à¸„à¸ªà¸–à¸²à¸™à¸°à¸‚à¸­à¸‡à¸à¸²à¸£à¸–à¹ˆà¸²à¸¢à¹‚à¸­à¸™à¹„à¸Ÿà¸¥à¹Œà¸—à¸µà¹ˆà¸™à¸µà¹ˆ</value>
   </data>
   <data name="OngoingTasksTeachingTip.Title" xml:space="preserve">
-    <value>ศูนย์รวมสถานะ</value>
+    <value>à¸¨à¸¹à¸™à¸¢à¹Œà¸£à¸§à¸¡à¸ªà¸–à¸²à¸™à¸°</value>
   </data>
   <data name="SearchPagePathBoxOverrideText" xml:space="preserve">
-    <value>ผลการค้นหา {0} ใน {1}</value>
+    <value>à¸œà¸¥à¸à¸²à¸£à¸„à¹‰à¸™à¸«à¸² {0} à¹ƒà¸™ {1}</value>
   </data>
   <data name="SearchResultsFor" xml:space="preserve">
     <value>Search results for `{0}`</value>
   </data>
   <data name="Details" xml:space="preserve">
-    <value>รายละเอียด</value>
+    <value>à¸£à¸²à¸¢à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>ไม่</value>
+    <value>à¹„à¸¡à¹ˆ</value>
   </data>
   <data name="ShowProtectedSystemFiles" xml:space="preserve">
-    <value>แสดงไฟล์ระบบที่ถูกปกป้องไว้</value>
+    <value>à¹à¸ªà¸”à¸‡à¹„à¸Ÿà¸¥à¹Œà¸£à¸°à¸šà¸šà¸—à¸µà¹ˆà¸–à¸¹à¸à¸›à¸à¸›à¹‰à¸­à¸‡à¹„à¸§à¹‰</value>
   </data>
   <data name="SyncFolderPreferencesAcrossDirectories" xml:space="preserve">
-    <value>ซิงค์ตั้งค่าเค้าโครงและการเรียงให้เหมือนกันในทุกไดเร็กทอรี</value>
+    <value>à¸‹à¸´à¸‡à¸„à¹Œà¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¹€à¸„à¹‰à¸²à¹‚à¸„à¸£à¸‡à¹à¸¥à¸°à¸à¸²à¸£à¹€à¸£à¸µà¸¢à¸‡à¹ƒà¸«à¹‰à¹€à¸«à¸¡à¸·à¸­à¸™à¸à¸±à¸™à¹ƒà¸™à¸—à¸¸à¸à¹„à¸”à¹€à¸£à¹‡à¸à¸—à¸­à¸£à¸µ</value>
   </data>
   <data name="SettingsContextMenu.Text" xml:space="preserve">
-    <value>ปรับแต่งรายการคลิกขวา</value>
+    <value>à¸›à¸£à¸±à¸šà¹à¸•à¹ˆà¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸„à¸¥à¸´à¸à¸‚à¸§à¸²</value>
   </data>
   <data name="OriginalPath" xml:space="preserve">
-    <value>ต้นทาง</value>
+    <value>à¸•à¹‰à¸™à¸—à¸²à¸‡</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>เพิ่ม</value>
+    <value>à¹€à¸žà¸´à¹ˆà¸¡</value>
   </data>
   <data name="Edit" xml:space="preserve">
-    <value>แก้ไข</value>
+    <value>à¹à¸à¹‰à¹„à¸‚</value>
   </data>
   <data name="Remove" xml:space="preserve">
-    <value>ลบ</value>
+    <value>à¸¥à¸š</value>
   </data>
   <data name="SettingsMultitaskingAlwaysOpenDualPane" xml:space="preserve">
-    <value>เปิดแท็บในโหมดบานหน้าต่างคู่</value>
+    <value>à¹€à¸›à¸´à¸”à¹à¸—à¹‡à¸šà¹ƒà¸™à¹‚à¸«à¸¡à¸”à¸šà¸²à¸™à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¸„à¸¹à¹ˆ</value>
   </data>
   <data name="ShowOpenInNewPane" xml:space="preserve">
-    <value>แสดงตัวเลือก เปิดโฟลเดอร์ในบางหน้าต่างใหม่</value>
+    <value>à¹à¸ªà¸”à¸‡à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸ à¹€à¸›à¸´à¸”à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹ƒà¸™à¸šà¸²à¸‡à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="ShowCopyPath" xml:space="preserve">
-    <value>แสดงตัวเลือก คัดคอกเส้นทาง</value>
+    <value>à¹à¸ªà¸”à¸‡à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸ à¸„à¸±à¸”à¸„à¸­à¸à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡</value>
   </data>
   <data name="ShowCreateFolderWithSelection" xml:space="preserve">
-    <value>แสดงตัวเลือก สร้างโฟลเดอร์จากส่วนที่เลือก</value>
+    <value>à¹à¸ªà¸”à¸‡à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸ à¸ªà¸£à¹‰à¸²à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸ˆà¸²à¸à¸ªà¹ˆà¸§à¸™à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="ShowCreateShortcut" xml:space="preserve">
-    <value>แสดงตัวเลือก สร้างทางลัด</value>
+    <value>à¹à¸ªà¸”à¸‡à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸ à¸ªà¸£à¹‰à¸²à¸‡à¸—à¸²à¸‡à¸¥à¸±à¸”</value>
   </data>
   <data name="NavigationToolbarNewPane.Label" xml:space="preserve">
-    <value>เพิ่มหน้าต่างแยก</value>
+    <value>à¹€à¸žà¸´à¹ˆà¸¡à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¹à¸¢à¸</value>
   </data>
   <data name="OpenInNewPane" xml:space="preserve">
-    <value>เปิดในบานหน้าต่างใหม่</value>
+    <value>à¹€à¸›à¸´à¸”à¹ƒà¸™à¸šà¸²à¸™à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="OpenInOtherPane" xml:space="preserve">
     <value>Open in other pane</value>
@@ -1110,25 +1116,25 @@
     <value>Open current folder in other pane</value>
   </data>
   <data name="FilesAndFolders" xml:space="preserve">
-    <value>ไฟล์และโฟลเดอร์</value>
+    <value>à¹„à¸Ÿà¸¥à¹Œà¹à¸¥à¸°à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œ</value>
   </data>
   <data name="NavToolbarDetails.ToolTipService.ToolTip" xml:space="preserve">
-    <value>รายละเอียด (Ctrl+Shift+1)</value>
+    <value>à¸£à¸²à¸¢à¸¥à¸°à¹€à¸­à¸µà¸¢à¸” (Ctrl+Shift+1)</value>
   </data>
   <data name="DateDeleted" xml:space="preserve">
-    <value>วันที่ลบ</value>
+    <value>à¸§à¸±à¸™à¸—à¸µà¹ˆà¸¥à¸š</value>
   </data>
   <data name="SidebarCloudDrives" xml:space="preserve">
-    <value>ไดร์ฟออนไลน์</value>
+    <value>à¹„à¸”à¸£à¹Œà¸Ÿà¸­à¸­à¸™à¹„à¸¥à¸™à¹Œ</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>ยืนยัน</value>
+    <value>à¸¢à¸·à¸™à¸¢à¸±à¸™</value>
   </data>
   <data name="DesiredName" xml:space="preserve">
-    <value>ชื่อที่ต้องการ</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¸—à¸µà¹ˆà¸•à¹‰à¸­à¸‡à¸à¸²à¸£</value>
   </data>
   <data name="TogglePreviewPane" xml:space="preserve">
-    <value>เปิดปิดบานหน้าต่างแสดงตัวอย่าง</value>
+    <value>à¹€à¸›à¸´à¸”à¸›à¸´à¸”à¸šà¸²à¸™à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¹à¸ªà¸”à¸‡à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡</value>
   </data>
   <data name="ToggleDetailsPane" xml:space="preserve">
     <value>Toggle the details pane</value>
@@ -1161,130 +1167,130 @@
     <value>Toggle dual pane mode</value>
   </data>
   <data name="DetailsPanePreviewNotAvaliableText" xml:space="preserve">
-    <value>ไม่มีตัวอย่างให้ดู</value>
+    <value>à¹„à¸¡à¹ˆà¸¡à¸µà¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¹ƒà¸«à¹‰à¸”à¸¹</value>
   </data>
   <data name="PropertyItemName" xml:space="preserve">
-    <value>ชื่อไอเทม</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¹„à¸­à¹€à¸—à¸¡</value>
   </data>
   <data name="Unpin" xml:space="preserve">
     <value>Unpin</value>
   </data>
   <data name="UnpinFolderFromSidebar" xml:space="preserve">
-    <value>นำออกจากแถบด้านข้าง</value>
+    <value>à¸™à¸³à¸­à¸­à¸à¸ˆà¸²à¸à¹à¸–à¸šà¸”à¹‰à¸²à¸™à¸‚à¹‰à¸²à¸‡</value>
   </data>
   <data name="Network" xml:space="preserve">
-    <value>เครือข่าย</value>
+    <value>à¹€à¸„à¸£à¸·à¸­à¸‚à¹ˆà¸²à¸¢</value>
   </data>
   <data name="PreviewPaneFileDetails.AutomationProperties.Name" xml:space="preserve">
-    <value>รายละเอียดไฟล์</value>
+    <value>à¸£à¸²à¸¢à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="PreviewPaneFilePreview.AutomationProperties.Name" xml:space="preserve">
-    <value>ตัวอย่างไฟล์</value>
+    <value>à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="SelectedFilePreviewPane.AutomationProperties.Name" xml:space="preserve">
-    <value>บานหน้าต่างแสดงรายละเอียดไฟล์ที่เลือก</value>
+    <value>à¸šà¸²à¸™à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¹à¸ªà¸”à¸‡à¸£à¸²à¸¢à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”à¹„à¸Ÿà¸¥à¹Œà¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="Feedback" xml:space="preserve">
-    <value>ข้อเสนอแนะ</value>
+    <value>à¸‚à¹‰à¸­à¹€à¸ªà¸™à¸­à¹à¸™à¸°</value>
   </data>
   <data name="CloudDriveSyncStatus_Online" xml:space="preserve">
-    <value>พร้อมใช้งานขณะออนไลน์</value>
+    <value>à¸žà¸£à¹‰à¸­à¸¡à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸‚à¸“à¸°à¸­à¸­à¸™à¹„à¸¥à¸™à¹Œ</value>
   </data>
   <data name="Documentation" xml:space="preserve">
-    <value>เอกสารประกอบ</value>
+    <value>à¹€à¸­à¸à¸ªà¸²à¸£à¸›à¸£à¸°à¸à¸­à¸š</value>
   </data>
   <data name="CloudDriveSyncStatus_Offline" xml:space="preserve">
-    <value>พร้อมใช้งานแล้ว</value>
+    <value>à¸žà¸£à¹‰à¸­à¸¡à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="CloudDriveSyncStatus_PartialOffline" xml:space="preserve">
-    <value>พร้อมใช้งานเป็นบางส่วน</value>
+    <value>à¸žà¸£à¹‰à¸­à¸¡à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹€à¸›à¹‡à¸™à¸šà¸²à¸‡à¸ªà¹ˆà¸§à¸™</value>
   </data>
   <data name="CloudDriveSyncStatus_Sync" xml:space="preserve">
-    <value>กำลังซิงค์</value>
+    <value>à¸à¸³à¸¥à¸±à¸‡à¸‹à¸´à¸‡à¸„à¹Œ</value>
   </data>
   <data name="CloudDriveSyncStatus_Excluded" xml:space="preserve">
-    <value>ถูกห้ามไม่ให้ซิงค์</value>
+    <value>à¸–à¸¹à¸à¸«à¹‰à¸²à¸¡à¹„à¸¡à¹ˆà¹ƒà¸«à¹‰à¸‹à¸´à¸‡à¸„à¹Œ</value>
   </data>
   <data name="ItemSizeNotCalculated" xml:space="preserve">
-    <value>ยังไม่ทราบ</value>
+    <value>à¸¢à¸±à¸‡à¹„à¸¡à¹ˆà¸—à¸£à¸²à¸š</value>
   </data>
   <data name="ViewSize" xml:space="preserve">
     <value>View size</value>
   </data>
   <data name="CloudDriveSyncStatus_Unknown" xml:space="preserve">
-    <value>ไม่ทราบ</value>
+    <value>à¹„à¸¡à¹ˆà¸—à¸£à¸²à¸š</value>
   </data>
   <data name="RenameFileDialogText" xml:space="preserve">
     <value>If you change a file extension, the file might become unusable. Are you sure you want to change it?</value>
   </data>
   <data name="DriveTypeCDRom" xml:space="preserve">
-    <value>ไดร์ฟซีดีรอม</value>
+    <value>à¹„à¸”à¸£à¹Œà¸Ÿà¸‹à¸µà¸”à¸µà¸£à¸­à¸¡</value>
   </data>
   <data name="DriveTypeCloudDrive" xml:space="preserve">
-    <value>ไดร์ฟออนไลน์</value>
+    <value>à¹„à¸”à¸£à¹Œà¸Ÿà¸­à¸­à¸™à¹„à¸¥à¸™à¹Œ</value>
   </data>
   <data name="DriveTypeFixed" xml:space="preserve">
-    <value>ไดร์ฟฝังเครื่อง</value>
+    <value>à¹„à¸”à¸£à¹Œà¸Ÿà¸à¸±à¸‡à¹€à¸„à¸£à¸·à¹ˆà¸­à¸‡</value>
   </data>
   <data name="DriveTypeFloppyDisk" xml:space="preserve">
-    <value>ฟล็อปปี้ดิสก์</value>
+    <value>à¸Ÿà¸¥à¹‡à¸­à¸›à¸›à¸µà¹‰à¸”à¸´à¸ªà¸à¹Œ</value>
   </data>
   <data name="DriveTypeNetwork" xml:space="preserve">
-    <value>ไดร์ฟเครือข่าย</value>
+    <value>à¹„à¸”à¸£à¹Œà¸Ÿà¹€à¸„à¸£à¸·à¸­à¸‚à¹ˆà¸²à¸¢</value>
   </data>
   <data name="DriveTypeNoRootDirectory" xml:space="preserve">
-    <value>ไดร์ฟที่ถอดไปแล้ว</value>
+    <value>à¹„à¸”à¸£à¹Œà¸Ÿà¸—à¸µà¹ˆà¸–à¸­à¸”à¹„à¸›à¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="DriveTypeRam" xml:space="preserve">
-    <value>ไดร์ฟบนแรม</value>
+    <value>à¹„à¸”à¸£à¹Œà¸Ÿà¸šà¸™à¹à¸£à¸¡</value>
   </data>
   <data name="DriveTypeRemovable" xml:space="preserve">
-    <value>ไดร์ฟพกพา</value>
+    <value>à¹„à¸”à¸£à¹Œà¸Ÿà¸žà¸à¸žà¸²</value>
   </data>
   <data name="DriveTypeUnknown" xml:space="preserve">
-    <value>ไม่ทราบ</value>
+    <value>à¹„à¸¡à¹ˆà¸—à¸£à¸²à¸š</value>
   </data>
   <data name="DriveTypeVirtualDrive" xml:space="preserve">
-    <value>ไดร์ฟจำลอง</value>
+    <value>à¹„à¸”à¸£à¹Œà¸Ÿà¸ˆà¸³à¸¥à¸­à¸‡</value>
   </data>
   <data name="DateCreated" xml:space="preserve">
-    <value>สร้างเมื่อ</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¹€à¸¡à¸·à¹ˆà¸­</value>
   </data>
   <data name="MoreOptions" xml:space="preserve">
-    <value>ตัวเลือกเพิ่มเติม...</value>
+    <value>à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸à¹€à¸žà¸´à¹ˆà¸¡à¹€à¸•à¸´à¸¡...</value>
   </data>
   <data name="DrivesWidgetOptionsFlyoutMapNetDriveMenuItemText" xml:space="preserve">
     <value>Map network drive</value>
   </data>
   <data name="Pinned" xml:space="preserve">
-    <value>ปักหมุดไว้</value>
+    <value>à¸›à¸±à¸à¸«à¸¡à¸¸à¸”à¹„à¸§à¹‰</value>
   </data>
   <data name="SidebarLibraries" xml:space="preserve">
-    <value>คลัง</value>
+    <value>à¸„à¸¥à¸±à¸‡</value>
   </data>
   <data name="NoItemSelected" xml:space="preserve">
-    <value>ไม่มีรายการที่เลือก</value>
+    <value>à¹„à¸¡à¹ˆà¸¡à¸µà¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="PropertyItemTarget" xml:space="preserve">
-    <value>เป้าหมาย</value>
+    <value>à¹€à¸›à¹‰à¸²à¸«à¸¡à¸²à¸¢</value>
   </data>
   <data name="Arguments" xml:space="preserve">
-    <value>อากิวเม้นต์</value>
+    <value>à¸­à¸²à¸à¸´à¸§à¹€à¸¡à¹‰à¸™à¸•à¹Œ</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>ค่าเริ่มต้น</value>
+    <value>à¸„à¹ˆà¸²à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™</value>
   </data>
   <data name="PropertyItemCount" xml:space="preserve">
-    <value>จำนวนรายการ</value>
+    <value>à¸ˆà¸³à¸™à¸§à¸™à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="ElevateConfirmDialog.Title" xml:space="preserve">
-    <value>การกระทำนี้ต้องการสิทธ์จากผู้ดูแล</value>
+    <value>à¸à¸²à¸£à¸à¸£à¸°à¸—à¸³à¸™à¸µà¹‰à¸•à¹‰à¸­à¸‡à¸à¸²à¸£à¸ªà¸´à¸—à¸˜à¹Œà¸ˆà¸²à¸à¸œà¸¹à¹‰à¸”à¸¹à¹à¸¥</value>
   </data>
   <data name="ElevateConfirmDialog.Content" xml:space="preserve">
-    <value>คุณต้องการขอสิทธิ์ผู้ดูแลเลยไหม?</value>
+    <value>à¸„à¸¸à¸“à¸•à¹‰à¸­à¸‡à¸à¸²à¸£à¸‚à¸­à¸ªà¸´à¸—à¸˜à¸´à¹Œà¸œà¸¹à¹‰à¸”à¸¹à¹à¸¥à¹€à¸¥à¸¢à¹„à¸«à¸¡?</value>
   </data>
   <data name="ColumnsShortcutTooltip" xml:space="preserve">
-    <value>แถวเรียง (Ctrl+Shift+6)</value>
+    <value>à¹à¸–à¸§à¹€à¸£à¸µà¸¢à¸‡ (Ctrl+Shift+6)</value>
   </data>
   <data name="PinItemToStartText" xml:space="preserve">
     <value>Pin to the Start Menu</value>
@@ -1293,31 +1299,31 @@
     <value>Unpin from the Start Menu</value>
   </data>
   <data name="Library" xml:space="preserve">
-    <value>คลัง</value>
+    <value>à¸„à¸¥à¸±à¸‡</value>
   </data>
   <data name="LibraryLocations.Text" xml:space="preserve">
-    <value>ที่ตั้ง:</value>
+    <value>à¸—à¸µà¹ˆà¸•à¸±à¹‰à¸‡:</value>
   </data>
   <data name="SetAsDefaultSavePath" xml:space="preserve">
-    <value>ตั้งเป็นจุดบันทึกไฟล์เริ่มต้น</value>
+    <value>à¸•à¸±à¹‰à¸‡à¹€à¸›à¹‡à¸™à¸ˆà¸¸à¸”à¸šà¸±à¸™à¸—à¸¶à¸à¹„à¸Ÿà¸¥à¹Œà¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™</value>
   </data>
   <data name="LibraryNoLocations.Text" xml:space="preserve">
-    <value>ยังไม่ได้ระบุตำแหน่ง</value>
+    <value>à¸¢à¸±à¸‡à¹„à¸¡à¹ˆà¹„à¸”à¹‰à¸£à¸°à¸šà¸¸à¸•à¸³à¹à¸«à¸™à¹ˆà¸‡</value>
   </data>
   <data name="ErrorInputEmpty" xml:space="preserve">
-    <value>ชื่อกลุ่มไม่สามารถเว้นว่างได้</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¸à¸¥à¸¸à¹ˆà¸¡à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¹€à¸§à¹‰à¸™à¸§à¹ˆà¸²à¸‡à¹„à¸”à¹‰</value>
   </data>
   <data name="ErrorNameInputRestrictedCharacters" xml:space="preserve">
-    <value>ไม่สามารถมีอักษรเหล่านี้ในชื่อได้: \ / : * ? " &lt; &gt; |</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¸¡à¸µà¸­à¸±à¸à¸©à¸£à¹€à¸«à¸¥à¹ˆà¸²à¸™à¸µà¹‰à¹ƒà¸™à¸Šà¸·à¹ˆà¸­à¹„à¸”à¹‰: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="ErrorNameInputRestricted" xml:space="preserve">
-    <value>ไม่สามารถใช้ชื่อนี้ได้!</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¹ƒà¸Šà¹‰à¸Šà¸·à¹ˆà¸­à¸™à¸µà¹‰à¹„à¸”à¹‰!</value>
   </data>
   <data name="CreateLibraryErrorAlreadyExists" xml:space="preserve">
-    <value>คลังอื่นใช้ชื่อนี้ไปแล้ว!</value>
+    <value>à¸„à¸¥à¸±à¸‡à¸­à¸·à¹ˆà¸™à¹ƒà¸Šà¹‰à¸Šà¸·à¹ˆà¸­à¸™à¸µà¹‰à¹„à¸›à¹à¸¥à¹‰à¸§!</value>
   </data>
   <data name="OpenStorageSense" xml:space="preserve">
-    <value>เปิดที่เก็บข้อมูลอัจฉรียะ</value>
+    <value>à¹€à¸›à¸´à¸”à¸—à¸µà¹ˆà¹€à¸à¹‡à¸šà¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸­à¸±à¸ˆà¸‰à¸£à¸µà¸¢à¸°</value>
   </data>
   <data name="OpenStorageSenseDescription" xml:space="preserve">
     <value>Open the Storage Sense page in Windows Settings</value>
@@ -1326,7 +1332,7 @@
     <value>Cleanup</value>
   </data>
   <data name="Copy" xml:space="preserve">
-    <value>คัดลอก</value>
+    <value>à¸„à¸±à¸”à¸¥à¸­à¸</value>
   </data>
   <data name="CopyItemsDialogTitle" xml:space="preserve">
     <value>Copy {0, plural, one {item} other {items}}</value>
@@ -1335,7 +1341,7 @@
     <value>Delete {0, plural, one {item} other {items}}</value>
   </data>
   <data name="MoveItemsDialogPrimaryButtonText" xml:space="preserve">
-    <value>ย้าย</value>
+    <value>à¸¢à¹‰à¸²à¸¢</value>
   </data>
   <data name="MoveItemsDialogSubtitle" xml:space="preserve">
     <value>{0, plural, one {One item will be moved} other {# items will be moved}}</value>
@@ -1347,7 +1353,7 @@
     <value>{0, plural, one {One item will be deleted} other {# items will be deleted}}</value>
   </data>
   <data name="ConflictingItemsDialogPrimaryButtonText" xml:space="preserve">
-    <value>ทำต่อไป</value>
+    <value>à¸—à¸³à¸•à¹ˆà¸­à¹„à¸›</value>
   </data>
   <data name="ConflictingItemsDialogSubtitleConflicts" xml:space="preserve">
     <value>{0, plural, one {There is one conflicting file name} other {There are # conflicting file names}}</value>
@@ -1362,196 +1368,196 @@
     <value>{0, plural, one {One item will be copied} other {# items will be copied}}</value>
   </data>
   <data name="DeleteItemsDialogPermanentlyDeleteCheckBox.Content" xml:space="preserve">
-    <value>ลบถาวร</value>
+    <value>à¸¥à¸šà¸–à¸²à¸§à¸£</value>
   </data>
   <data name="PropertyISO" xml:space="preserve">
-    <value>ความเร็ว ISO</value>
+    <value>à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§ ISO</value>
   </data>
   <data name="ReplaceExisting" xml:space="preserve">
-    <value>แทนที่ของเดิม</value>
+    <value>à¹à¸—à¸™à¸—à¸µà¹ˆà¸‚à¸­à¸‡à¹€à¸”à¸´à¸¡</value>
   </data>
   <data name="GenerateNewName" xml:space="preserve">
-    <value>สุ่มชื่อใหม่ขึ้นมา</value>
+    <value>à¸ªà¸¸à¹ˆà¸¡à¸Šà¸·à¹ˆà¸­à¹ƒà¸«à¸¡à¹ˆà¸‚à¸¶à¹‰à¸™à¸¡à¸²</value>
   </data>
   <data name="CreateFolderWithSelection" xml:space="preserve">
-    <value>สร้างโฟลเดอร์จากส่วนที่เลือก</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸ˆà¸²à¸à¸ªà¹ˆà¸§à¸™à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="CreateShortcutWithSelection" xml:space="preserve">
     <value>Create shortcuts with selection</value>
   </data>
   <data name="ItemType" xml:space="preserve">
-    <value>ชนิดไฟล์:</value>
+    <value>à¸Šà¸™à¸´à¸”à¹„à¸Ÿà¸¥à¹Œ:</value>
   </data>
   <data name="ToolTipDescriptionDate" xml:space="preserve">
-    <value>วันที่ปรับเปลี่ยน:</value>
+    <value>à¸§à¸±à¸™à¸—à¸µà¹ˆà¸›à¸£à¸±à¸šà¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™:</value>
   </data>
   <data name="OpenWith" xml:space="preserve">
-    <value>เปิดด้วย</value>
+    <value>à¹€à¸›à¸´à¸”à¸”à¹‰à¸§à¸¢</value>
   </data>
   <data name="ChooseAnotherApp" xml:space="preserve">
     <value>Choose another app</value>
   </data>
   <data name="FileBrowserThumbnailIconColumnGrid.AutomationProperties.Name" xml:space="preserve">
-    <value>ไอคอมไฟล์</value>
+    <value>à¹„à¸­à¸„à¸­à¸¡à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowOriginalPath.Text" xml:space="preserve">
-    <value>แถวเส้นทางต้นฉบับ</value>
+    <value>à¹à¸–à¸§à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡à¸•à¹‰à¸™à¸‰à¸šà¸±à¸š</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowItemType.Text" xml:space="preserve">
-    <value>แถวประเภทแฟ้ม</value>
+    <value>à¹à¸–à¸§à¸›à¸£à¸°à¹€à¸ à¸—à¹à¸Ÿà¹‰à¸¡</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateModified.Text" xml:space="preserve">
-    <value>แถววันที่ปรับเปลี่ยน</value>
+    <value>à¹à¸–à¸§à¸§à¸±à¸™à¸—à¸µà¹ˆà¸›à¸£à¸±à¸šà¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateDeleted.Text" xml:space="preserve">
-    <value>แถววันที่ถูกลบ</value>
+    <value>à¹à¸–à¸§à¸§à¸±à¸™à¸—à¸µà¹ˆà¸–à¸¹à¸à¸¥à¸š</value>
   </data>
   <data name="Sort" xml:space="preserve">
-    <value>เรียง</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡</value>
   </data>
   <data name="DateModifiedLowerCase" xml:space="preserve">
-    <value>วันที่ปรับเปลี่ยน</value>
+    <value>à¸§à¸±à¸™à¸—à¸µà¹ˆà¸›à¸£à¸±à¸šà¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™</value>
   </data>
   <data name="OriginalFolder" xml:space="preserve">
-    <value>โฟลเดอร์ต้นฉบับ</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸•à¹‰à¸™à¸‰à¸šà¸±à¸š</value>
   </data>
   <data name="Descending" xml:space="preserve">
-    <value>จากมากไปน้อย</value>
+    <value>à¸ˆà¸²à¸à¸¡à¸²à¸à¹„à¸›à¸™à¹‰à¸­à¸¢</value>
   </data>
   <data name="ItemSizeText_Huge" xml:space="preserve">
-    <value>ใหญ่มาก ๆ</value>
+    <value>à¹ƒà¸«à¸à¹ˆà¸¡à¸²à¸ à¹†</value>
   </data>
   <data name="ItemSizeText_VeryLarge" xml:space="preserve">
-    <value>ใหญ่มาก</value>
+    <value>à¹ƒà¸«à¸à¹ˆà¸¡à¸²à¸</value>
   </data>
   <data name="ItemSizeText_Large" xml:space="preserve">
-    <value>ใหญ่</value>
+    <value>à¹ƒà¸«à¸à¹ˆ</value>
   </data>
   <data name="ItemSizeText_Medium" xml:space="preserve">
-    <value>กลาง</value>
+    <value>à¸à¸¥à¸²à¸‡</value>
   </data>
   <data name="ItemSizeText_Small" xml:space="preserve">
-    <value>เล็ก</value>
+    <value>à¹€à¸¥à¹‡à¸</value>
   </data>
   <data name="ItemSizeText_Tiny" xml:space="preserve">
-    <value>เล็กจิ๋ว</value>
+    <value>à¹€à¸¥à¹‡à¸à¸ˆà¸´à¹‹à¸§</value>
   </data>
   <data name="Future" xml:space="preserve">
-    <value>อนาคต</value>
+    <value>à¸­à¸™à¸²à¸„à¸•</value>
   </data>
   <data name="Today" xml:space="preserve">
-    <value>วันนี้</value>
+    <value>à¸§à¸±à¸™à¸™à¸µà¹‰</value>
   </data>
   <data name="Yesterday" xml:space="preserve">
-    <value>เมื่อวาน</value>
+    <value>à¹€à¸¡à¸·à¹ˆà¸­à¸§à¸²à¸™</value>
   </data>
   <data name="EarlierThisWeek" xml:space="preserve">
-    <value>อาทิตย์นี้</value>
+    <value>à¸­à¸²à¸—à¸´à¸•à¸¢à¹Œà¸™à¸µà¹‰</value>
   </data>
   <data name="LastWeek" xml:space="preserve">
-    <value>อาทิตย์ที่แล้ว</value>
+    <value>à¸­à¸²à¸—à¸´à¸•à¸¢à¹Œà¸—à¸µà¹ˆà¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="EarlierThisMonth" xml:space="preserve">
-    <value>ในเดือนนี้</value>
+    <value>à¹ƒà¸™à¹€à¸”à¸·à¸­à¸™à¸™à¸µà¹‰</value>
   </data>
   <data name="LastMonth" xml:space="preserve">
-    <value>เดือนก่อน</value>
+    <value>à¹€à¸”à¸·à¸­à¸™à¸à¹ˆà¸­à¸™</value>
   </data>
   <data name="EarlierThisYear" xml:space="preserve">
-    <value>ในปีนี้</value>
+    <value>à¹ƒà¸™à¸›à¸µà¸™à¸µà¹‰</value>
   </data>
   <data name="LastYear" xml:space="preserve">
-    <value>ปีที่แล้ว</value>
+    <value>à¸›à¸µà¸—à¸µà¹ˆà¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="YearN" xml:space="preserve">
-    <value>ปี {0}</value>
+    <value>à¸›à¸µ {0}</value>
   </data>
   <data name="GroupItemsCount_Singular" xml:space="preserve">
-    <value>{0} รายการ</value>
+    <value>{0} à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="GroupItemsCount_Plural" xml:space="preserve">
-    <value>{0} รายการ</value>
+    <value>{0} à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="ReopenClosedTab" xml:space="preserve">
     <value>Reopen tab</value>
   </data>
   <data name="Rename" xml:space="preserve">
-    <value>เปลี่ยนชื่อ</value>
+    <value>à¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™à¸Šà¸·à¹ˆà¸­</value>
   </data>
   <data name="Privacy" xml:space="preserve">
-    <value>ความเป็นส่วนตัว</value>
+    <value>à¸„à¸§à¸²à¸¡à¹€à¸›à¹‡à¸™à¸ªà¹ˆà¸§à¸™à¸•à¸±à¸§</value>
   </data>
   <data name="TheRecycleBin" xml:space="preserve">
-    <value>รีไซเคิล</value>
+    <value>à¸£à¸µà¹„à¸‹à¹€à¸„à¸´à¸¥</value>
   </data>
   <data name="Canceling" xml:space="preserve">
-    <value>กำลังยกเลิก</value>
+    <value>à¸à¸³à¸¥à¸±à¸‡à¸¢à¸à¹€à¸¥à¸´à¸</value>
   </data>
   <data name="Clear" xml:space="preserve">
-    <value>ล้าง</value>
+    <value>à¸¥à¹‰à¸²à¸‡</value>
   </data>
   <data name="Widgets" xml:space="preserve">
-    <value>วิตเจท</value>
+    <value>à¸§à¸´à¸•à¹€à¸ˆà¸—</value>
   </data>
   <data name="SyncStatus" xml:space="preserve">
-    <value>สถานะการซิงค์</value>
+    <value>à¸ªà¸–à¸²à¸™à¸°à¸à¸²à¸£à¸‹à¸´à¸‡à¸„à¹Œ</value>
   </data>
   <data name="Security" xml:space="preserve">
-    <value>ความปลอดภัย</value>
+    <value>à¸„à¸§à¸²à¸¡à¸›à¸¥à¸­à¸”à¸ à¸±à¸¢</value>
   </data>
   <data name="AdvancedPermissions" xml:space="preserve">
-    <value>สิทธิ์ขั้นสูง</value>
+    <value>à¸ªà¸´à¸—à¸˜à¸´à¹Œà¸‚à¸±à¹‰à¸™à¸ªà¸¹à¸‡</value>
   </data>
   <data name="Allow" xml:space="preserve">
-    <value>อนุญาต</value>
+    <value>à¸­à¸™à¸¸à¸à¸²à¸•</value>
   </data>
   <data name="Deny" xml:space="preserve">
-    <value>ปฏิเสธ</value>
+    <value>à¸›à¸à¸´à¹€à¸ªà¸˜</value>
   </data>
   <data name="SecurityFullControlLabel.Text" xml:space="preserve">
-    <value>ควบคุมทั้งหมด</value>
+    <value>à¸„à¸§à¸šà¸„à¸¸à¸¡à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”</value>
   </data>
   <data name="SecurityListDirectoryLabel.Text" xml:space="preserve">
-    <value>แสดงรายการเนื้อหาโฟลเดอร์</value>
+    <value>à¹à¸ªà¸”à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¹€à¸™à¸·à¹‰à¸­à¸«à¸²à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œ</value>
   </data>
   <data name="Modify" xml:space="preserve">
-    <value>ปรับเปลี่ยน</value>
+    <value>à¸›à¸£à¸±à¸šà¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™</value>
   </data>
   <data name="SecurityPermissionsHeaderText" xml:space="preserve">
-    <value>สิทธิสำหรับ {0}</value>
+    <value>à¸ªà¸´à¸—à¸˜à¸´à¸ªà¸³à¸«à¸£à¸±à¸š {0}</value>
   </data>
   <data name="SecurityReadAndExecuteLabel.Text" xml:space="preserve">
-    <value>อ่านและดำเนินการ</value>
+    <value>à¸­à¹ˆà¸²à¸™à¹à¸¥à¸°à¸”à¸³à¹€à¸™à¸´à¸™à¸à¸²à¸£</value>
   </data>
   <data name="SecurityReadLabel.Text" xml:space="preserve">
-    <value>อ่าน</value>
+    <value>à¸­à¹ˆà¸²à¸™</value>
   </data>
   <data name="SecurityUsersGroupLabel.Text" xml:space="preserve">
-    <value>ชื่อกลุ่มหรือชื่อผู้ใช้</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¸à¸¥à¸¸à¹ˆà¸¡à¸«à¸£à¸·à¸­à¸Šà¸·à¹ˆà¸­à¸œà¸¹à¹‰à¹ƒà¸Šà¹‰</value>
   </data>
   <data name="Write" xml:space="preserve">
-    <value>เขียน</value>
+    <value>à¹€à¸‚à¸µà¸¢à¸™</value>
   </data>
   <data name="SecurityUnknownAccount" xml:space="preserve">
-    <value>นิรนาม</value>
+    <value>à¸™à¸´à¸£à¸™à¸²à¸¡</value>
   </data>
   <data name="SecurityCannotReadPropertiesText" xml:space="preserve">
     <value>You do not have permissions to view the security properties of this object. Click "Advanced permissions" to proceed.</value>
   </data>
   <data name="SecurityOwnerLabel.Text" xml:space="preserve">
-    <value>เจ้าของ:</value>
+    <value>à¹€à¸ˆà¹‰à¸²à¸‚à¸­à¸‡:</value>
   </data>
   <data name="SecurityUnknownOwnerTextText" xml:space="preserve">
     <value>Unknown owner</value>
   </data>
   <data name="ExtractArchive" xml:space="preserve">
-    <value>การแยกไฟล์</value>
+    <value>à¸à¸²à¸£à¹à¸¢à¸à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="DecompressArchiveDialogOpenDestinationWhenComplete.Content" xml:space="preserve">
-    <value>เปิดโฟลเดอร์ปลายทางเมื่อแยกไฟล์เสร็จ</value>
+    <value>à¹€à¸›à¸´à¸”à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸›à¸¥à¸²à¸¢à¸—à¸²à¸‡à¹€à¸¡à¸·à¹ˆà¸­à¹à¸¢à¸à¹„à¸Ÿà¸¥à¹Œà¹€à¸ªà¸£à¹‡à¸ˆ</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutExtractToChildFolder" xml:space="preserve">
-    <value>แยกไฟล์ไปที่ {0}\</value>
+    <value>à¹à¸¢à¸à¹„à¸Ÿà¸¥à¹Œà¹„à¸›à¸—à¸µà¹ˆ {0}\</value>
   </data>
   <data name="SideBarCreateNewLibraryText" xml:space="preserve">
     <value>Create new library</value>
@@ -1560,64 +1566,64 @@
     <value>Restore default libraries</value>
   </data>
   <data name="DialogRestoreLibrariesSubtitleText" xml:space="preserve">
-    <value>คุณแน่แล้วใช่หรือไม่ที่จะเรียกคืนคลังเป็นค่าเริ่มต้นตามเดิม? ไฟล์ในคลังจะไม่หายไปไหน.</value>
+    <value>à¸„à¸¸à¸“à¹à¸™à¹ˆà¹à¸¥à¹‰à¸§à¹ƒà¸Šà¹ˆà¸«à¸£à¸·à¸­à¹„à¸¡à¹ˆà¸—à¸µà¹ˆà¸ˆà¸°à¹€à¸£à¸µà¸¢à¸à¸„à¸·à¸™à¸„à¸¥à¸±à¸‡à¹€à¸›à¹‡à¸™à¸„à¹ˆà¸²à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™à¸•à¸²à¸¡à¹€à¸”à¸´à¸¡? à¹„à¸Ÿà¸¥à¹Œà¹ƒà¸™à¸„à¸¥à¸±à¸‡à¸ˆà¸°à¹„à¸¡à¹ˆà¸«à¸²à¸¢à¹„à¸›à¹„à¸«à¸™.</value>
   </data>
   <data name="DialogRestoreLibrariesTitleText" xml:space="preserve">
-    <value>คืนค่าคลัง</value>
+    <value>à¸„à¸·à¸™à¸„à¹ˆà¸²à¸„à¸¥à¸±à¸‡</value>
   </data>
   <data name="PropertyFileOwner" xml:space="preserve">
-    <value>เจ้าของ</value>
+    <value>à¹€à¸ˆà¹‰à¸²à¸‚à¸­à¸‡</value>
   </data>
   <data name="SecuritySpecialLabelText" xml:space="preserve">
     <value>Special</value>
   </data>
   <data name="Access" xml:space="preserve">
-    <value>การเข้าถึง</value>
+    <value>à¸à¸²à¸£à¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡</value>
   </data>
   <data name="SecurityAdvancedAppliesTo" xml:space="preserve">
-    <value>นำไปใช้กับ</value>
+    <value>à¸™à¸³à¹„à¸›à¹ƒà¸Šà¹‰à¸à¸±à¸š</value>
   </data>
   <data name="Principal" xml:space="preserve">
-    <value>รายการหลัก</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¸«à¸¥à¸±à¸</value>
   </data>
   <data name="SecurityAdvancedFlagsFilesLabel" xml:space="preserve">
-    <value>ไฟล์</value>
+    <value>à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="SecurityAdvancedFlagsFolderLabel" xml:space="preserve">
-    <value>โฟลเดอร์นี้</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸™à¸µà¹‰</value>
   </data>
   <data name="SecurityAdvancedFlagsSubfoldersLabel" xml:space="preserve">
-    <value>โฟลเดอร์ย่อย</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸¢à¹ˆà¸­à¸¢</value>
   </data>
   <data name="Inherited" xml:space="preserve">
-    <value>สืบทอด</value>
+    <value>à¸ªà¸·à¸šà¸—à¸­à¸”</value>
   </data>
   <data name="Permissions" xml:space="preserve">
-    <value>รายการสิทธิ</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¸ªà¸´à¸—à¸˜à¸´</value>
   </data>
   <data name="SecurityAdvancedCannotReadPropertiesText" xml:space="preserve">
     <value>You do not have permissions to view the security properties of this object. You can try to take ownership of this object.</value>
   </data>
   <data name="SecurityAdvancedFolderFiles.Text" xml:space="preserve">
-    <value>โฟลเดอร์นี้และไฟล์ในโฟลเดอร์นี้</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸™à¸µà¹‰à¹à¸¥à¸°à¹„à¸Ÿà¸¥à¹Œà¹ƒà¸™à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸™à¸µà¹‰</value>
   </data>
   <data name="SecurityAdvancedFolderSubfoldersFiles.Text" xml:space="preserve">
-    <value>โฟลเดอร์นี้, โฟลเดอร์ย่อย, และไฟล์ทุกอัน</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸™à¸µà¹‰, à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸¢à¹ˆà¸­à¸¢, à¹à¸¥à¸°à¹„à¸Ÿà¸¥à¹Œà¸—à¸¸à¸à¸­à¸±à¸™</value>
   </data>
   <data name="SecurityAdvancedOnlyFiles.Text" xml:space="preserve">
-    <value>ไฟล์เท่านั้น</value>
+    <value>à¹„à¸Ÿà¸¥à¹Œà¹€à¸—à¹ˆà¸²à¸™à¸±à¹‰à¸™</value>
   </data>
   <data name="SecurityAdvancedOnlySubfolders.Text" xml:space="preserve">
-    <value>โฟลเดอร์ย่อยเท่านั้น</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸¢à¹ˆà¸­à¸¢à¹€à¸—à¹ˆà¸²à¸™à¸±à¹‰à¸™</value>
   </data>
   <data name="SecurityAdvancedOnlySubfoldersFiles.Text" xml:space="preserve">
-    <value>แค่โฟลเดอร์และไฟล์ข้างใน</value>
+    <value>à¹à¸„à¹ˆà¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹à¸¥à¸°à¹„à¸Ÿà¸¥à¹Œà¸‚à¹‰à¸²à¸‡à¹ƒà¸™</value>
   </data>
   <data name="SecurityAdvancedOnlyThisFolder.Text" xml:space="preserve">
-    <value>แค่โฟลเดอร์เท่านั้น</value>
+    <value>à¹à¸„à¹ˆà¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹€à¸—à¹ˆà¸²à¸™à¸±à¹‰à¸™</value>
   </data>
   <data name="SecurityAdvancedFolderSubfolders.Text" xml:space="preserve">
-    <value>โฟลเดอร์นี้และไฟล์ข้างใน</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸™à¸µà¹‰à¹à¸¥à¸°à¹„à¸Ÿà¸¥à¹Œà¸‚à¹‰à¸²à¸‡à¹ƒà¸™</value>
   </data>
   <data name="SecurityAppendDataLabelText" xml:space="preserve">
     <value>Append data</value>
@@ -1665,55 +1671,55 @@
     <value>Write extended attributes</value>
   </data>
   <data name="SecurityAdvancedInheritedConvert.Text" xml:space="preserve">
-    <value>เปลี่ยนสิทธิการสืบทอดเป็นสิทธิระบุเอง</value>
+    <value>à¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™à¸ªà¸´à¸—à¸˜à¸´à¸à¸²à¸£à¸ªà¸·à¸šà¸—à¸­à¸”à¹€à¸›à¹‡à¸™à¸ªà¸´à¸—à¸˜à¸´à¸£à¸°à¸šà¸¸à¹€à¸­à¸‡</value>
   </data>
   <data name="SecurityAdvancedInheritedEnable.Text" xml:space="preserve">
-    <value>เปิดสิทธิสืบทอด</value>
+    <value>à¹€à¸›à¸´à¸”à¸ªà¸´à¸—à¸˜à¸´à¸ªà¸·à¸šà¸—à¸­à¸”</value>
   </data>
   <data name="SecurityAdvancedInheritedRemove.Text" xml:space="preserve">
-    <value>ลบสิทธิสืบทอดทั้งหมด</value>
+    <value>à¸¥à¸šà¸ªà¸´à¸—à¸˜à¸´à¸ªà¸·à¸šà¸—à¸­à¸”à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”</value>
   </data>
   <data name="SecurityAdvancedReplaceChildPermissions.Text" xml:space="preserve">
-    <value>รีเซทสิทธิผู้สืบทอด</value>
+    <value>à¸£à¸µà¹€à¸‹à¸—à¸ªà¸´à¸—à¸˜à¸´à¸œà¸¹à¹‰à¸ªà¸·à¸šà¸—à¸­à¸”</value>
   </data>
   <data name="SecurityAdvancedReplaceChildPermissions2.ToolTipService.ToolTip" xml:space="preserve">
-    <value>แทนที่สิทธิผู้สืบทอดทั้งหมดด้วยการตั้งสิทธิ์สืบทอดจากสิ่งนี้</value>
+    <value>à¹à¸—à¸™à¸—à¸µà¹ˆà¸ªà¸´à¸—à¸˜à¸´à¸œà¸¹à¹‰à¸ªà¸·à¸šà¸—à¸­à¸”à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”à¸”à¹‰à¸§à¸¢à¸à¸²à¸£à¸•à¸±à¹‰à¸‡à¸ªà¸´à¸—à¸˜à¸´à¹Œà¸ªà¸·à¸šà¸—à¸­à¸”à¸ˆà¸²à¸à¸ªà¸´à¹ˆà¸‡à¸™à¸µà¹‰</value>
   </data>
   <data name="CloseActivePane" xml:space="preserve">
     <value>Close pane</value>
   </data>
   <data name="EnterCompactOverlay" xml:space="preserve">
-    <value>เปิดใช้งานหน้าต่างย่อ</value>
+    <value>à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¸¢à¹ˆà¸­</value>
   </data>
   <data name="ExitCompactOverlay" xml:space="preserve">
-    <value>ออกจากหน้าต่างย่อ</value>
+    <value>à¸­à¸­à¸à¸ˆà¸²à¸à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¸¢à¹ˆà¸­</value>
   </data>
   <data name="PropertyFileDescription" xml:space="preserve">
-    <value>คำอธิบายไฟล์</value>
+    <value>à¸„à¸³à¸­à¸˜à¸´à¸šà¸²à¸¢à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="PropertyCompany" xml:space="preserve">
-    <value>บริษัท</value>
+    <value>à¸šà¸£à¸´à¸©à¸±à¸—</value>
   </data>
   <data name="PropertyLanguage" xml:space="preserve">
-    <value>ภาษา</value>
+    <value>à¸ à¸²à¸©à¸²</value>
   </data>
   <data name="PropertyTrademarks" xml:space="preserve">
-    <value>เครื่องหมายการค้า</value>
+    <value>à¹€à¸„à¸£à¸·à¹ˆà¸­à¸‡à¸«à¸¡à¸²à¸¢à¸à¸²à¸£à¸„à¹‰à¸²</value>
   </data>
   <data name="PropertyFileVersion" xml:space="preserve">
-    <value>เวอร์ชั่นไฟล์</value>
+    <value>à¹€à¸§à¸­à¸£à¹Œà¸Šà¸±à¹ˆà¸™à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="PreviewPaneLoadCloudItemButton.Text" xml:space="preserve">
-    <value>แสดงตัวอย่างแบบเต็ม</value>
+    <value>à¹à¸ªà¸”à¸‡à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¹à¸šà¸šà¹€à¸•à¹‡à¸¡</value>
   </data>
   <data name="PreviewPaneLoadCloudItemButton.ToolTipService.ToolTip" xml:space="preserve">
-    <value>ดาวน์โหลดไฟล์จากออนไลน์และแสดงภาพตัวอย่างขนาดเล็ก</value>
+    <value>à¸”à¸²à¸§à¸™à¹Œà¹‚à¸«à¸¥à¸”à¹„à¸Ÿà¸¥à¹Œà¸ˆà¸²à¸à¸­à¸­à¸™à¹„à¸¥à¸™à¹Œà¹à¸¥à¸°à¹à¸ªà¸”à¸‡à¸ à¸²à¸žà¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¸‚à¸™à¸²à¸”à¹€à¸¥à¹‡à¸</value>
   </data>
   <data name="DetailsArchiveItems" xml:space="preserve">
     <value>{0, plural, one {# item} other {# items}} ({1, plural, one {# file} other {# files}}, {2, plural, one {# folder} other {# folders}})</value>
   </data>
   <data name="PropertyUncompressedSize" xml:space="preserve">
-    <value>ขนาดที่ไม่บีบอัด</value>
+    <value>à¸‚à¸™à¸²à¸”à¸—à¸µà¹ˆà¹„à¸¡à¹ˆà¸šà¸µà¸šà¸­à¸±à¸”</value>
   </data>
   <data name="WSL" xml:space="preserve">
     <value>WSL</value>
@@ -1722,46 +1728,46 @@
     <value>Hide {0} section</value>
   </data>
   <data name="AddFile" xml:space="preserve">
-    <value>เพิ่มไฟล์</value>
+    <value>à¹€à¸žà¸´à¹ˆà¸¡à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="ConsentDialogTitle" xml:space="preserve">
-    <value>มีการอัพเดตใหม่</value>
+    <value>à¸¡à¸µà¸à¸²à¸£à¸­à¸±à¸žà¹€à¸”à¸•à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="ConsentDialogContent" xml:space="preserve">
-    <value>อัพเดตพร้อมติดตั้งแล้ว</value>
+    <value>à¸­à¸±à¸žà¹€à¸”à¸•à¸žà¸£à¹‰à¸­à¸¡à¸•à¸´à¸”à¸•à¸±à¹‰à¸‡à¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="Close" xml:space="preserve">
-    <value>ปิด</value>
+    <value>à¸›à¸´à¸”</value>
   </data>
   <data name="ConsentDialogPrimaryButtonText" xml:space="preserve">
-    <value>อัพเดต</value>
+    <value>à¸­à¸±à¸žà¹€à¸”à¸•</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>หน้าแรก</value>
+    <value>à¸«à¸™à¹‰à¸²à¹à¸£à¸</value>
   </data>
   <data name="ArchiveExtractionCompletedSuccessfullyText" xml:space="preserve">
-    <value>แยกไฟล์เสร็จสมบูรณ์</value>
+    <value>à¹à¸¢à¸à¹„à¸Ÿà¸¥à¹Œà¹€à¸ªà¸£à¹‡à¸ˆà¸ªà¸¡à¸šà¸¹à¸£à¸“à¹Œ</value>
   </data>
   <data name="ExtractingArchiveText" xml:space="preserve">
-    <value>กำลังแยกไฟล์</value>
+    <value>à¸à¸³à¸¥à¸±à¸‡à¹à¸¢à¸à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="ExtractingCompleteText" xml:space="preserve">
-    <value>แยกไฟล์เสร็จแล้ว</value>
+    <value>à¹à¸¢à¸à¹„à¸Ÿà¸¥à¹Œà¹€à¸ªà¸£à¹‡à¸ˆà¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutOpenParentFolderText" xml:space="preserve">
     <value>Open parent folder</value>
   </data>
   <data name="Unknown" xml:space="preserve">
-    <value>ไม่ทราบ</value>
+    <value>à¹„à¸¡à¹ˆà¸—à¸£à¸²à¸š</value>
   </data>
   <data name="EditTags" xml:space="preserve">
-    <value>แก้ไขแท็ก</value>
+    <value>à¹à¸à¹‰à¹„à¸‚à¹à¸—à¹‡à¸</value>
   </data>
   <data name="PropertyPartOfSet" xml:space="preserve">
-    <value>ส่วนของชุด</value>
+    <value>à¸ªà¹ˆà¸§à¸™à¸‚à¸­à¸‡à¸Šà¸¸à¸”</value>
   </data>
   <data name="InsertDiscDialog.OpenDriveButton" xml:space="preserve">
-    <value>เปิดไดร์ฟ</value>
+    <value>à¹€à¸›à¸´à¸”à¹„à¸”à¸£à¹Œà¸Ÿ</value>
   </data>
   <data name="InsertDiscDialogText" xml:space="preserve">
     <value>Please insert a disc into drive {0}</value>
@@ -1770,16 +1776,16 @@
     <value>Insert a disc</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>ตกลง</value>
+    <value>à¸•à¸à¸¥à¸‡</value>
   </data>
   <data name="AskCredentialDialog.Title" xml:space="preserve">
-    <value>ต้องการข้อมูลประจำตัว</value>
+    <value>à¸•à¹‰à¸­à¸‡à¸à¸²à¸£à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸›à¸£à¸°à¸ˆà¸³à¸•à¸±à¸§</value>
   </data>
   <data name="CredentialDialogAnonymous.Content" xml:space="preserve">
-    <value>นิรนาม</value>
+    <value>à¸™à¸´à¸£à¸™à¸²à¸¡</value>
   </data>
   <data name="CredentialDialogDescription.Text" xml:space="preserve">
-    <value>กรอกข้อมูลเข้าสู่ระบบ:</value>
+    <value>à¸à¸£à¸­à¸à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¹€à¸‚à¹‰à¸²à¸ªà¸¹à¹ˆà¸£à¸°à¸šà¸š:</value>
   </data>
   <data name="CredentialDialogIncorrectPassword" xml:space="preserve">
     <value>The password is incorrect. Try again.</value>
@@ -1791,133 +1797,133 @@
     <value>This location is password protected. Refresh to enter the password.</value>
   </data>
   <data name="CredentialDialogUserName.PlaceholderText" xml:space="preserve">
-    <value>ชื่อผู้ใช้</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¸œà¸¹à¹‰à¹ƒà¸Šà¹‰</value>
   </data>
   <data name="NoSearchResultsFound" xml:space="preserve">
-    <value>ไม่มีรายการที่ค้น</value>
+    <value>à¹„à¸¡à¹ˆà¸¡à¸µà¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¸„à¹‰à¸™</value>
   </data>
   <data name="OpenLogLocation" xml:space="preserve">
-    <value>เปิดที่ตั้งไฟล์บันทึก</value>
+    <value>à¹€à¸›à¸´à¸”à¸—à¸µà¹ˆà¸•à¸±à¹‰à¸‡à¹„à¸Ÿà¸¥à¹Œà¸šà¸±à¸™à¸—à¸¶à¸</value>
   </data>
   <data name="LinkToFolderCaptionText" xml:space="preserve">
-    <value>สร้างทางลัดไว้ใน {0}</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¸—à¸²à¸‡à¸¥à¸±à¸”à¹„à¸§à¹‰à¹ƒà¸™ {0}</value>
   </data>
   <data name="Columns" xml:space="preserve">
-    <value>คอลัมน์</value>
+    <value>à¸„à¸­à¸¥à¸±à¸¡à¸™à¹Œ</value>
   </data>
   <data name="Cards" xml:space="preserve">
     <value>Cards</value>
   </data>
   <data name="OpenFoldersInNewTab" xml:space="preserve">
-    <value>เปิดโฟลเดอร์ในแท็บใหม่</value>
+    <value>à¹€à¸›à¸´à¸”à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹ƒà¸™à¹à¸—à¹‡à¸šà¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="StatusCenter" xml:space="preserve">
-    <value>ศูนย์รวมสถานะ</value>
+    <value>à¸¨à¸¹à¸™à¸¢à¹Œà¸£à¸§à¸¡à¸ªà¸–à¸²à¸™à¸°</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateCreated.Text" xml:space="preserve">
-    <value>แถววันที่สร้าง</value>
+    <value>à¹à¸–à¸§à¸§à¸±à¸™à¸—à¸µà¹ˆà¸ªà¸£à¹‰à¸²à¸‡</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowItemSize.Text" xml:space="preserve">
-    <value>แถวขนาดแฟ้ม</value>
+    <value>à¹à¸–à¸§à¸‚à¸™à¸²à¸”à¹à¸Ÿà¹‰à¸¡</value>
   </data>
   <data name="ExperimentalFeatureFlags" xml:space="preserve">
-    <value>คุณลักษณะทดลอง</value>
+    <value>à¸„à¸¸à¸“à¸¥à¸±à¸à¸©à¸“à¸°à¸—à¸”à¸¥à¸­à¸‡</value>
   </data>
   <data name="HelpAndSupport" xml:space="preserve">
-    <value>ความช่วยเหลือและการสนับสนุน</value>
+    <value>à¸„à¸§à¸²à¸¡à¸Šà¹ˆà¸§à¸¢à¹€à¸«à¸¥à¸·à¸­à¹à¸¥à¸°à¸à¸²à¸£à¸ªà¸™à¸±à¸šà¸ªà¸™à¸¸à¸™</value>
   </data>
   <data name="SubmitFeatureRequest" xml:space="preserve">
-    <value>ส่งคำร้องขอคุณสมบัติ</value>
+    <value>à¸ªà¹ˆà¸‡à¸„à¸³à¸£à¹‰à¸­à¸‡à¸‚à¸­à¸„à¸¸à¸“à¸ªà¸¡à¸šà¸±à¸•à¸´</value>
   </data>
   <data name="SubmitBugReport" xml:space="preserve">
-    <value>ส่งรายงานข้อผิดพลาด</value>
+    <value>à¸ªà¹ˆà¸‡à¸£à¸²à¸¢à¸‡à¸²à¸™à¸‚à¹‰à¸­à¸œà¸´à¸”à¸žà¸¥à¸²à¸”</value>
   </data>
   <data name="SettingsSetAsDefaultFileManager" xml:space="preserve">
-    <value>ตั้งโปรแกรมนี้เป็นโปรแกรมจัดการไฟล์เริ่มต้น</value>
+    <value>à¸•à¸±à¹‰à¸‡à¹‚à¸›à¸£à¹à¸à¸£à¸¡à¸™à¸µà¹‰à¹€à¸›à¹‡à¸™à¹‚à¸›à¸£à¹à¸à¸£à¸¡à¸ˆà¸±à¸”à¸à¸²à¸£à¹„à¸Ÿà¸¥à¹Œà¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™</value>
   </data>
   <data name="SettingsSetAsOpenDialog" xml:space="preserve">
-    <value>ใช้โปรแกรมนี้เป็นโปรแกรมระบุหาไฟล์</value>
+    <value>à¹ƒà¸Šà¹‰à¹‚à¸›à¸£à¹à¸à¸£à¸¡à¸™à¸µà¹‰à¹€à¸›à¹‡à¸™à¹‚à¸›à¸£à¹à¸à¸£à¸¡à¸£à¸°à¸šà¸¸à¸«à¸²à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="Tag" xml:space="preserve">
-    <value>แท็ก</value>
+    <value>à¹à¸—à¹‡à¸</value>
   </data>
   <data name="OpenFilesWithOneClick" xml:space="preserve">
     <value>Open files with a single click</value>
   </data>
   <data name="FolderPath" xml:space="preserve">
-    <value>เส้นทางโฟลเดอร์</value>
+    <value>à¹€à¸ªà¹‰à¸™à¸—à¸²à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œ</value>
   </data>
   <data name="ExportSettings" xml:space="preserve">
-    <value>ส่งออกการตั้งค่า</value>
+    <value>à¸ªà¹ˆà¸‡à¸­à¸­à¸à¸à¸²à¸£à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²</value>
   </data>
   <data name="ImportSettings" xml:space="preserve">
-    <value>นำเข้าการตั้งค่า</value>
+    <value>à¸™à¸³à¹€à¸‚à¹‰à¸²à¸à¸²à¸£à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²</value>
   </data>
   <data name="SettingsImportErrorDescription" xml:space="preserve">
-    <value>ไม่สามารถนำเข้าตั้งค่า. ไฟล์ตั้งค่าเสียหาย</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¸™à¸³à¹€à¸‚à¹‰à¸²à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸². à¹„à¸Ÿà¸¥à¹Œà¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¹€à¸ªà¸µà¸¢à¸«à¸²à¸¢</value>
   </data>
   <data name="SettingsImportErrorTitle" xml:space="preserve">
-    <value>ไม่สามารถนำเข้าตั้งค่าได้</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¸™à¸³à¹€à¸‚à¹‰à¸²à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¹„à¸”à¹‰</value>
   </data>
   <data name="EmptyRecycleBin" xml:space="preserve">
-    <value>ล้างข้อมูลในถังรีไซเคิล</value>
+    <value>à¸¥à¹‰à¸²à¸‡à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¹ƒà¸™à¸–à¸±à¸‡à¸£à¸µà¹„à¸‹à¹€à¸„à¸´à¸¥</value>
   </data>
   <data name="Sidebar" xml:space="preserve">
-    <value>แถบด้านข้าง</value>
+    <value>à¹à¸–à¸šà¸”à¹‰à¸²à¸™à¸‚à¹‰à¸²à¸‡</value>
   </data>
   <data name="ChooseCustomIcon" xml:space="preserve">
-    <value>เลือกไอคอนใหม่สำหรับโฟลเดอร์</value>
+    <value>à¹€à¸¥à¸·à¸­à¸à¹„à¸­à¸„à¸­à¸™à¹ƒà¸«à¸¡à¹ˆà¸ªà¸³à¸«à¸£à¸±à¸šà¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œ</value>
   </data>
   <data name="Customization" xml:space="preserve">
-    <value>ปรับแต่ง</value>
+    <value>à¸›à¸£à¸±à¸šà¹à¸•à¹ˆà¸‡</value>
   </data>
   <data name="RestoreDefault" xml:space="preserve">
-    <value>คืนค่าเริ่มต้น</value>
+    <value>à¸„à¸·à¸™à¸„à¹ˆà¸²à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™</value>
   </data>
   <data name="OpenTabInExistingInstance" xml:space="preserve">
     <value>Open tab in existing instance when opening Files from another app</value>
   </data>
   <data name="StartupSettings" xml:space="preserve">
-    <value>การตั้งค่าเมื่อเริ่มต้น</value>
+    <value>à¸à¸²à¸£à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¹€à¸¡à¸·à¹ˆà¸­à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™</value>
   </data>
   <data name="Compatibility" xml:space="preserve">
-    <value>ความเข้ากันได้</value>
+    <value>à¸„à¸§à¸²à¸¡à¹€à¸‚à¹‰à¸²à¸à¸±à¸™à¹„à¸”à¹‰</value>
   </data>
   <data name="None" xml:space="preserve">
-    <value>ไม่มี</value>
+    <value>à¹„à¸¡à¹ˆà¸¡à¸µ</value>
   </data>
   <data name="CompatibilityOnWindowsLogin" xml:space="preserve">
-    <value>เมื่อเข้าสู่ระบบ</value>
+    <value>à¹€à¸¡à¸·à¹ˆà¸­à¹€à¸‚à¹‰à¸²à¸ªà¸¹à¹ˆà¸£à¸°à¸šà¸š</value>
   </data>
   <data name="CompatibilityOnProgramStart" xml:space="preserve">
-    <value>เมื่อโปรแกรมนี้เริ่มทำงาน</value>
+    <value>à¹€à¸¡à¸·à¹ˆà¸­à¹‚à¸›à¸£à¹à¸à¸£à¸¡à¸™à¸µà¹‰à¹€à¸£à¸´à¹ˆà¸¡à¸—à¸³à¸‡à¸²à¸™</value>
   </data>
   <data name="System" xml:space="preserve">
-    <value>ระบบ</value>
+    <value>à¸£à¸°à¸šà¸š</value>
   </data>
   <data name="CompatibilitySystemEnhanced" xml:space="preserve">
-    <value>ระบบ (ขั้นสูง)</value>
+    <value>à¸£à¸°à¸šà¸š (à¸‚à¸±à¹‰à¸™à¸ªà¸¹à¸‡)</value>
   </data>
   <data name="CompatibilityReducedColorModeColor16bit" xml:space="preserve">
-    <value>16 บิต (65536) สี</value>
+    <value>16 à¸šà¸´à¸• (65536) à¸ªà¸µ</value>
   </data>
   <data name="CompatibilityReducedColorModeColor8bit" xml:space="preserve">
-    <value>8 บิต (256) สี</value>
+    <value>8 à¸šà¸´à¸• (256) à¸ªà¸µ</value>
   </data>
   <data name="CompatibilityDisableFullscreenOptimizations" xml:space="preserve">
-    <value>ปิดใช้งานการปรับการทำงานเต็มจอให้เหมาะสมที่สุด</value>
+    <value>à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸à¸²à¸£à¸›à¸£à¸±à¸šà¸à¸²à¸£à¸—à¸³à¸‡à¸²à¸™à¹€à¸•à¹‡à¸¡à¸ˆà¸­à¹ƒà¸«à¹‰à¹€à¸«à¸¡à¸²à¸°à¸ªà¸¡à¸—à¸µà¹ˆà¸ªà¸¸à¸”</value>
   </data>
   <data name="CompatibilityRunIn640x480Resolution" xml:space="preserve">
-    <value>ทำงานในความละเอียดหน้าจอ 640 x 480</value>
+    <value>à¸—à¸³à¸‡à¸²à¸™à¹ƒà¸™à¸„à¸§à¸²à¸¡à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”à¸«à¸™à¹‰à¸²à¸ˆà¸­ 640 x 480</value>
   </data>
   <data name="CompatibilityOverrideHighDPIBehavior" xml:space="preserve">
-    <value>เปลี่ยนรูปแบบพฤติกรรมการปรับเปลี่ยนขนาดตาม DPI</value>
+    <value>à¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™à¸£à¸¹à¸›à¹à¸šà¸šà¸žà¸¤à¸•à¸´à¸à¸£à¸£à¸¡à¸à¸²à¸£à¸›à¸£à¸±à¸šà¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™à¸‚à¸™à¸²à¸”à¸•à¸²à¸¡ DPI</value>
   </data>
   <data name="CompatibilityReducedColorMode" xml:space="preserve">
-    <value>โหมดลดปริมาณสี</value>
+    <value>à¹‚à¸«à¸¡à¸”à¸¥à¸”à¸›à¸£à¸´à¸¡à¸²à¸“à¸ªà¸µ</value>
   </data>
   <data name="CompatibilityRegisterThisProgramForRestart" xml:space="preserve">
-    <value>ลงทะเบียนโปรแกรมนี้สำหรับการเริ่มต้นใหม่</value>
+    <value>à¸¥à¸‡à¸—à¸°à¹€à¸šà¸µà¸¢à¸™à¹‚à¸›à¸£à¹à¸à¸£à¸¡à¸™à¸µà¹‰à¸ªà¸³à¸«à¸£à¸±à¸šà¸à¸²à¸£à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="StartWindow" xml:space="preserve">
     <value>Start window</value>
@@ -1932,154 +1938,154 @@
     <value>Maximized</value>
   </data>
   <data name="RunAsAdministrator" xml:space="preserve">
-    <value>เรียกใช้ในฐานะผู้ดูแล</value>
+    <value>à¹€à¸£à¸µà¸¢à¸à¹ƒà¸Šà¹‰à¹ƒà¸™à¸à¸²à¸™à¸°à¸œà¸¹à¹‰à¸”à¸¹à¹à¸¥</value>
   </data>
   <data name="CompatibilityRunTroubleshooter" xml:space="preserve">
-    <value>เรียกใช้ตัวแก้ปัญหาความเข้ากันได้</value>
+    <value>à¹€à¸£à¸µà¸¢à¸à¹ƒà¸Šà¹‰à¸•à¸±à¸§à¹à¸à¹‰à¸›à¸±à¸à¸«à¸²à¸„à¸§à¸²à¸¡à¹€à¸‚à¹‰à¸²à¸à¸±à¸™à¹„à¸”à¹‰</value>
   </data>
   <data name="CompatibilityUseDPISettings" xml:space="preserve">
-    <value>ใช้การตั้งค่า DPI เดียวกับจอแสดงผลหลัก</value>
+    <value>à¹ƒà¸Šà¹‰à¸à¸²à¸£à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸² DPI à¹€à¸”à¸µà¸¢à¸§à¸à¸±à¸šà¸ˆà¸­à¹à¸ªà¸”à¸‡à¸œà¸¥à¸«à¸¥à¸±à¸</value>
   </data>
   <data name="CompatibilityDoNotAdjustDPI" xml:space="preserve">
-    <value>ไม่ต้องปรับ DPI</value>
+    <value>à¹„à¸¡à¹ˆà¸•à¹‰à¸­à¸‡à¸›à¸£à¸±à¸š DPI</value>
   </data>
   <data name="CompatibilityDoNotOverrideDPI" xml:space="preserve">
-    <value>ไม่ต้องแทนที่ DPI</value>
+    <value>à¹„à¸¡à¹ˆà¸•à¹‰à¸­à¸‡à¹à¸—à¸™à¸—à¸µà¹ˆ DPI</value>
   </data>
   <data name="CompatibilityMode" xml:space="preserve">
-    <value>โหมดความเข้ากันได้</value>
+    <value>à¹‚à¸«à¸¡à¸”à¸„à¸§à¸²à¸¡à¹€à¸‚à¹‰à¸²à¸à¸±à¸™à¹„à¸”à¹‰</value>
   </data>
   <data name="CompatibilityNoReducedColor" xml:space="preserve">
-    <value>ไม่มีการลดสี</value>
+    <value>à¹„à¸¡à¹ˆà¸¡à¸µà¸à¸²à¸£à¸¥à¸”à¸ªà¸µ</value>
   </data>
   <data name="ThirdPartyLibraries" xml:space="preserve">
     <value>Third party libraries</value>
   </data>
   <data name="SettingsSetAsDefaultFileManagerDescription" xml:space="preserve">
-    <value>ตัวเลือกนี้แก้ไขรีจิสทรีของระบบซึ่งอาจทำให้เกิดผลข้างเคียงขึ้นได้ ดำเนินการต่อด้วยความเสี่ยงของคุณเอง</value>
+    <value>à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸à¸™à¸µà¹‰à¹à¸à¹‰à¹„à¸‚à¸£à¸µà¸ˆà¸´à¸ªà¸—à¸£à¸µà¸‚à¸­à¸‡à¸£à¸°à¸šà¸šà¸‹à¸¶à¹ˆà¸‡à¸­à¸²à¸ˆà¸—à¸³à¹ƒà¸«à¹‰à¹€à¸à¸´à¸”à¸œà¸¥à¸‚à¹‰à¸²à¸‡à¹€à¸„à¸µà¸¢à¸‡à¸‚à¸¶à¹‰à¸™à¹„à¸”à¹‰ à¸”à¸³à¹€à¸™à¸´à¸™à¸à¸²à¸£à¸•à¹ˆà¸­à¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸ªà¸µà¹ˆà¸¢à¸‡à¸‚à¸­à¸‡à¸„à¸¸à¸“à¹€à¸­à¸‡</value>
   </data>
   <data name="ShowFlattenOptionsDescription" xml:space="preserve">
     <value>The flatten operations are permanent and not recommended. Continue at your own risk.</value>
   </data>
   <data name="FolderWidgetCreateNewLibraryDialogTitleText" xml:space="preserve">
-    <value>สร้างคลัง</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¸„à¸¥à¸±à¸‡</value>
   </data>
   <data name="FolderWidgetCreateNewLibraryInputPlaceholderText" xml:space="preserve">
-    <value>ระบุชื่อคลัง</value>
+    <value>à¸£à¸°à¸šà¸¸à¸Šà¸·à¹ˆà¸­à¸„à¸¥à¸±à¸‡</value>
   </data>
   <data name="CalculateFolderSizes" xml:space="preserve">
-    <value>คำนวณขนาดของโฟลเดอร์</value>
+    <value>à¸„à¸³à¸™à¸§à¸“à¸‚à¸™à¸²à¸”à¸‚à¸­à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œ</value>
   </data>
   <data name="RecentFiles" xml:space="preserve">
-    <value>ไฟล์ล่าสุด</value>
+    <value>à¹„à¸Ÿà¸¥à¹Œà¸¥à¹ˆà¸²à¸ªà¸¸à¸”</value>
   </data>
   <data name="SettingsOpenInLogin" xml:space="preserve">
-    <value>เปิด Files เมื่อวินโดว์เริ่มทำงาน</value>
+    <value>à¹€à¸›à¸´à¸” Files à¹€à¸¡à¸·à¹ˆà¸­à¸§à¸´à¸™à¹‚à¸”à¸§à¹Œà¹€à¸£à¸´à¹ˆà¸¡à¸—à¸³à¸‡à¸²à¸™</value>
   </data>
   <data name="Attributes" xml:space="preserve">
-    <value>คุณสมบัติ</value>
+    <value>à¸„à¸¸à¸“à¸ªà¸¡à¸šà¸±à¸•à¸´</value>
   </data>
   <data name="Hidden" xml:space="preserve">
-    <value>ซ่อน</value>
+    <value>à¸‹à¹ˆà¸­à¸™</value>
   </data>
   <data name="MoreDetails" xml:space="preserve">
-    <value>รายละเอียดเพิ่มเติม</value>
+    <value>à¸£à¸²à¸¢à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”à¹€à¸žà¸´à¹ˆà¸¡à¹€à¸•à¸´à¸¡</value>
   </data>
   <data name="ReadOnly" xml:space="preserve">
-    <value>อ่านอย่างเดียว</value>
+    <value>à¸­à¹ˆà¸²à¸™à¸­à¸¢à¹ˆà¸²à¸‡à¹€à¸”à¸µà¸¢à¸§</value>
   </data>
   <data name="CleanupDrive" xml:space="preserve">
     <value>Cleanup your drive contents</value>
   </data>
   <data name="Type" xml:space="preserve">
-    <value>ประเภท</value>
+    <value>à¸›à¸£à¸°à¹€à¸ à¸—</value>
   </data>
   <data name="Bytes" xml:space="preserve">
-    <value>ไบต์</value>
+    <value>à¹„à¸šà¸•à¹Œ</value>
   </data>
   <data name="Extract" xml:space="preserve">
-    <value>แยกไฟล์</value>
+    <value>à¹à¸¢à¸à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="ExtractFiles" xml:space="preserve">
-    <value>แยกไฟล์ออกมา</value>
+    <value>à¹à¸¢à¸à¹„à¸Ÿà¸¥à¹Œà¸­à¸­à¸à¸¡à¸²</value>
   </data>
   <data name="ExtractHere" xml:space="preserve">
-    <value>แยกไฟล์ที่นี่</value>
+    <value>à¹à¸¢à¸à¹„à¸Ÿà¸¥à¹Œà¸—à¸µà¹ˆà¸™à¸µà¹ˆ</value>
   </data>
   <data name="ExtractKeyboardAcceleratorTextOverride" xml:space="preserve">
     <value>Ctrl+E</value>
   </data>
   <data name="ExtractToChildFolder" xml:space="preserve">
-    <value>แยกไฟล์ไปที่ {0}</value>
+    <value>à¹à¸¢à¸à¹„à¸Ÿà¸¥à¹Œà¹„à¸›à¸—à¸µà¹ˆ {0}</value>
   </data>
   <data name="RunScript" xml:space="preserve">
-    <value>เรียกใช้สคริปต์</value>
+    <value>à¹€à¸£à¸µà¸¢à¸à¹ƒà¸Šà¹‰à¸ªà¸„à¸£à¸´à¸›à¸•à¹Œ</value>
   </data>
   <data name="RunWithPowerShell" xml:space="preserve">
     <value>Run with PowerShell</value>
   </data>
   <data name="ShowFolderSizesWarning" xml:space="preserve">
-    <value>การคำนวณขนาดของโฟลเดอร์ใช้ทรัพยากรค่อนข้างสูง</value>
+    <value>à¸à¸²à¸£à¸„à¸³à¸™à¸§à¸“à¸‚à¸™à¸²à¸”à¸‚à¸­à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹ƒà¸Šà¹‰à¸—à¸£à¸±à¸žà¸¢à¸²à¸à¸£à¸„à¹ˆà¸­à¸™à¸‚à¹‰à¸²à¸‡à¸ªà¸¹à¸‡</value>
   </data>
   <data name="RotateLeft" xml:space="preserve">
-    <value>หมุน​ไปทางซ้าย</value>
+    <value>à¸«à¸¡à¸¸à¸™â€‹à¹„à¸›à¸—à¸²à¸‡à¸‹à¹‰à¸²à¸¢</value>
   </data>
   <data name="RotateRight" xml:space="preserve">
-    <value>หมุน​ไปทางขวา</value>
+    <value>à¸«à¸¡à¸¸à¸™â€‹à¹„à¸›à¸—à¸²à¸‡à¸‚à¸§à¸²</value>
   </data>
   <data name="Install" xml:space="preserve">
-    <value>ติดตั้ง</value>
+    <value>à¸•à¸´à¸”à¸•à¸±à¹‰à¸‡</value>
   </data>
   <data name="CloseTabsToTheLeft" xml:space="preserve">
-    <value>ปิดแท็บทั้งหมดที่อยู่ด้านซ้าย</value>
+    <value>à¸›à¸´à¸”à¹à¸—à¹‡à¸šà¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”à¸—à¸µà¹ˆà¸­à¸¢à¸¹à¹ˆà¸”à¹‰à¸²à¸™à¸‹à¹‰à¸²à¸¢</value>
   </data>
   <data name="CloseTabsToTheRight" xml:space="preserve">
-    <value>ปิดแท็บทั้งหมดที่อยู่ด้านขวา</value>
+    <value>à¸›à¸´à¸”à¹à¸—à¹‡à¸šà¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”à¸—à¸µà¹ˆà¸­à¸¢à¸¹à¹ˆà¸”à¹‰à¸²à¸™à¸‚à¸§à¸²</value>
   </data>
   <data name="CloseOtherTabs" xml:space="preserve">
-    <value>ปิดแท็บอื่น ๆ ทั้งหมด</value>
+    <value>à¸›à¸´à¸”à¹à¸—à¹‡à¸šà¸­à¸·à¹ˆà¸™ à¹† à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”</value>
   </data>
   <data name="CloseAllTabs" xml:space="preserve">
     <value>Close all tabs</value>
   </data>
   <data name="Music" xml:space="preserve">
-    <value>เพลง</value>
+    <value>à¹€à¸žà¸¥à¸‡</value>
   </data>
   <data name="Pictures" xml:space="preserve">
-    <value>รูปภาพ</value>
+    <value>à¸£à¸¹à¸›à¸ à¸²à¸ž</value>
   </data>
   <data name="UpdateFiles" xml:space="preserve">
-    <value>อัปเดต Files</value>
+    <value>à¸­à¸±à¸›à¹€à¸”à¸• Files</value>
   </data>
   <data name="FileTags" xml:space="preserve">
-    <value>แท็ก</value>
+    <value>à¹à¸—à¹‡à¸</value>
   </data>
   <data name="Universal" xml:space="preserve">
-    <value>สากล</value>
+    <value>à¸ªà¸²à¸à¸¥</value>
   </data>
   <data name="DateFormatSample" xml:space="preserve">
-    <value>ตัวอย่างเช่น: {0}, {1}</value>
+    <value>à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¹€à¸Šà¹ˆà¸™: {0}, {1}</value>
   </data>
   <data name="SettingsFilesAndFoldersShowThumbnails" xml:space="preserve">
-    <value>แสดงภาพขนาดย่อ</value>
+    <value>à¹à¸ªà¸”à¸‡à¸ à¸²à¸žà¸‚à¸™à¸²à¸”à¸¢à¹ˆà¸­</value>
   </data>
   <data name="Retry" xml:space="preserve">
-    <value>ลองอีกครั้ง</value>
+    <value>à¸¥à¸­à¸‡à¸­à¸µà¸à¸„à¸£à¸±à¹‰à¸‡</value>
   </data>
   <data name="ErrorDialogUnsupportedMoveOperation" xml:space="preserve">
-    <value>การย้ายไม่รองรับในบริบทนี้ ต้องการคัดลอกแทนหรือไม่</value>
+    <value>à¸à¸²à¸£à¸¢à¹‰à¸²à¸¢à¹„à¸¡à¹ˆà¸£à¸­à¸‡à¸£à¸±à¸šà¹ƒà¸™à¸šà¸£à¸´à¸šà¸—à¸™à¸µà¹‰ à¸•à¹‰à¸­à¸‡à¸à¸²à¸£à¸„à¸±à¸”à¸¥à¸­à¸à¹à¸—à¸™à¸«à¸£à¸·à¸­à¹„à¸¡à¹ˆ</value>
   </data>
   <data name="HiddenItems" xml:space="preserve">
-    <value>รายการที่ซ่อนอยู่</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¸‹à¹ˆà¸­à¸™à¸­à¸¢à¸¹à¹ˆ</value>
   </data>
   <data name="Custom" xml:space="preserve">
-    <value>กำหนดเอง</value>
+    <value>à¸à¸³à¸«à¸™à¸”à¹€à¸­à¸‡</value>
   </data>
   <data name="Slideshow" xml:space="preserve">
     <value>Slideshow</value>
   </data>
   <data name="SetAsSlideshow" xml:space="preserve">
-    <value>ตั้งเป็นสไลด์โชว์เดสก์ท็อป</value>
+    <value>à¸•à¸±à¹‰à¸‡à¹€à¸›à¹‡à¸™à¸ªà¹„à¸¥à¸”à¹Œà¹‚à¸Šà¸§à¹Œà¹€à¸”à¸ªà¸à¹Œà¸—à¹‡à¸­à¸›</value>
   </data>
   <data name="SizeAllColumnsToFit" xml:space="preserve">
     <value>Size all columns to fit</value>
@@ -2094,7 +2100,7 @@
     <value>Automatically fit columns to content</value>
   </data>
   <data name="Adaptive" xml:space="preserve">
-    <value>เลือกเค้าโครงที่ดีที่สุดโดยอัตโนมัติ</value>
+    <value>à¹€à¸¥à¸·à¸­à¸à¹€à¸„à¹‰à¸²à¹‚à¸„à¸£à¸‡à¸—à¸µà¹ˆà¸”à¸µà¸—à¸µà¹ˆà¸ªà¸¸à¸”à¹‚à¸”à¸¢à¸­à¸±à¸•à¹‚à¸™à¸¡à¸±à¸•à¸´</value>
   </data>
   <data name="AdaptiveShortcutTooltip" xml:space="preserve">
     <value>Adaptive (Ctrl+Shift+7)</value>
@@ -2103,10 +2109,10 @@
     <value>Ctrl+Shift+7</value>
   </data>
   <data name="ShowAlternateStreams" xml:space="preserve">
-    <value>แสดง Alternate Data Streams</value>
+    <value>à¹à¸ªà¸”à¸‡ Alternate Data Streams</value>
   </data>
   <data name="Behaviors" xml:space="preserve">
-    <value>ลักษณะการทำงาน</value>
+    <value>à¸¥à¸±à¸à¸©à¸“à¸°à¸à¸²à¸£à¸—à¸³à¸‡à¸²à¸™</value>
   </data>
   <data name="Hello" xml:space="preserve">
     <value>Hello!</value>
@@ -2127,31 +2133,31 @@
     <value>Dismiss</value>
   </data>
   <data name="SetAsBackgroundFlyout" xml:space="preserve">
-    <value>ตั้งเป็นพื้นหลัง</value>
+    <value>à¸•à¸±à¹‰à¸‡à¹€à¸›à¹‡à¸™à¸žà¸·à¹‰à¸™à¸«à¸¥à¸±à¸‡</value>
   </data>
   <data name="SetAsBackground" xml:space="preserve">
-    <value>ตั้งเป็นพื้นหลังของเดสก์ท็อป</value>
+    <value>à¸•à¸±à¹‰à¸‡à¹€à¸›à¹‡à¸™à¸žà¸·à¹‰à¸™à¸«à¸¥à¸±à¸‡à¸‚à¸­à¸‡à¹€à¸”à¸ªà¸à¹Œà¸—à¹‡à¸­à¸›</value>
   </data>
   <data name="SetAsDefault" xml:space="preserve">
-    <value>ตั้งเป็นค่าเริ่มต้น</value>
+    <value>à¸•à¸±à¹‰à¸‡à¹€à¸›à¹‡à¸™à¸„à¹ˆà¸²à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™</value>
   </data>
   <data name="DateColumn" xml:space="preserve">
-    <value>แถววันที่</value>
+    <value>à¹à¸–à¸§à¸§à¸±à¸™à¸—à¸µà¹ˆ</value>
   </data>
   <data name="DateCreatedColumn" xml:space="preserve">
-    <value>แถววันที่สร้าง</value>
+    <value>à¹à¸–à¸§à¸§à¸±à¸™à¸—à¸µà¹ˆà¸ªà¸£à¹‰à¸²à¸‡</value>
   </data>
   <data name="SizeColumn" xml:space="preserve">
-    <value>แถวขนาด</value>
+    <value>à¹à¸–à¸§à¸‚à¸™à¸²à¸”</value>
   </data>
   <data name="TagColumn" xml:space="preserve">
-    <value>แถวแท็ก</value>
+    <value>à¹à¸–à¸§à¹à¸—à¹‡à¸</value>
   </data>
   <data name="TypeColumn" xml:space="preserve">
-    <value>แถวประเภท</value>
+    <value>à¹à¸–à¸§à¸›à¸£à¸°à¹€à¸ à¸—</value>
   </data>
   <data name="Lockscreen" xml:space="preserve">
-    <value>หน้าจอล็อก</value>
+    <value>à¸«à¸™à¹‰à¸²à¸ˆà¸­à¸¥à¹‡à¸­à¸</value>
   </data>
   <data name="OpenFolderWithOneClick" xml:space="preserve">
     <value>Open folders with a single click</value>
@@ -2166,10 +2172,10 @@
     <value>Folders in Columns View</value>
   </data>
   <data name="OpeningItems" xml:space="preserve">
-    <value>การเปิดรายการ</value>
+    <value>à¸à¸²à¸£à¹€à¸›à¸´à¸”à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="Compress" xml:space="preserve">
-    <value>บีดอัด</value>
+    <value>à¸šà¸µà¸”à¸­à¸±à¸”</value>
   </data>
   <data name="FlattenFolderDescription" xml:space="preserve">
     <value>Move all contents from subfolders into the selected location</value>
@@ -2193,31 +2199,31 @@
     <value>Are you sure you want to restore all items in the recycle bin?</value>
   </data>
   <data name="ConfirmRestoreBinDialogTitle" xml:space="preserve">
-    <value>คืนค่ารายการทั้งหมด</value>
+    <value>à¸„à¸·à¸™à¸„à¹ˆà¸²à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”</value>
   </data>
   <data name="ConfirmRestoreSelectionBinDialogContent" xml:space="preserve">
     <value>Do you want to restore the {0, plural, one {selected item} other {{0} selected items}}?</value>
   </data>
   <data name="ConfirmRestoreSelectionBinDialogTitle" xml:space="preserve">
-    <value>คืนค่าส่วนที่เลือก</value>
+    <value>à¸„à¸·à¸™à¸„à¹ˆà¸²à¸ªà¹ˆà¸§à¸™à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="RestoreAllItems" xml:space="preserve">
-    <value>คืนค่ารายการทั้งหมด</value>
+    <value>à¸„à¸·à¸™à¸„à¹ˆà¸²à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”</value>
   </data>
   <data name="Restore" xml:space="preserve">
-    <value>คืนค่า</value>
+    <value>à¸„à¸·à¸™à¸„à¹ˆà¸²</value>
   </data>
   <data name="ShortcutCannotBeOpened" xml:space="preserve">
-    <value>ไม่สามารถเปิดใช้ทางลัดได้</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸—à¸²à¸‡à¸¥à¸±à¸”à¹„à¸”à¹‰</value>
   </data>
   <data name="DeleteShortcutDescription" xml:space="preserve">
     <value>The target destination cannot be found {0}. Do you want to delete this shortcut?</value>
   </data>
   <data name="AccessDeniedToFolder" xml:space="preserve">
-    <value>คุณไม่มีสิทธิ์ในการเข้าถึงโฟลเดอร์นี้</value>
+    <value>à¸„à¸¸à¸“à¹„à¸¡à¹ˆà¸¡à¸µà¸ªà¸´à¸—à¸˜à¸´à¹Œà¹ƒà¸™à¸à¸²à¸£à¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸™à¸µà¹‰</value>
   </data>
   <data name="ArchivePassword" xml:space="preserve">
-    <value>รหัสผ่านไฟล์จัดเก็บ</value>
+    <value>à¸£à¸«à¸±à¸ªà¸œà¹ˆà¸²à¸™à¹„à¸Ÿà¸¥à¹Œà¸ˆà¸±à¸”à¹€à¸à¹‡à¸š</value>
   </data>
   <data name="Encoding" xml:space="preserve">
     <value>Encoding</value>
@@ -2226,13 +2232,13 @@
     <value>{0} (detected)</value>
   </data>
   <data name="ExtractToPath" xml:space="preserve">
-    <value>แยกไปที่</value>
+    <value>à¹à¸¢à¸à¹„à¸›à¸—à¸µà¹ˆ</value>
   </data>
   <data name="SortingAndGrouping" xml:space="preserve">
-    <value>การเรียงลำดับและการจัดกลุ่ม...</value>
+    <value>à¸à¸²à¸£à¹€à¸£à¸µà¸¢à¸‡à¸¥à¸³à¸”à¸±à¸šà¹à¸¥à¸°à¸à¸²à¸£à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡...</value>
   </data>
   <data name="CreateArchive" xml:space="preserve">
-    <value>สร้างไฟล์จัดเก็บ</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¹„à¸Ÿà¸¥à¹Œà¸ˆà¸±à¸”à¹€à¸à¹‡à¸š</value>
   </data>
   <data name="CompressSkippedItemsDialogTitle" xml:space="preserve">
     <value>Some items can't be compressed</value>
@@ -2247,37 +2253,37 @@
     <value>Create 7z archive</value>
   </data>
   <data name="Create" xml:space="preserve">
-    <value>สร้าง</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡</value>
   </data>
   <data name="CreateNamedArchive" xml:space="preserve">
-    <value>สร้าง {0}</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡ {0}</value>
   </data>
   <data name="EnterName" xml:space="preserve">
-    <value>ใส่ชื่อ</value>
+    <value>à¹ƒà¸ªà¹ˆà¸Šà¸·à¹ˆà¸­</value>
   </data>
   <data name="CompressionLevel" xml:space="preserve">
-    <value>ระดับการบีบอัด</value>
+    <value>à¸£à¸°à¸”à¸±à¸šà¸à¸²à¸£à¸šà¸µà¸šà¸­à¸±à¸”</value>
   </data>
   <data name="CompressionLevelUltra" xml:space="preserve">
-    <value>สูงสุด</value>
+    <value>à¸ªà¸¹à¸‡à¸ªà¸¸à¸”</value>
   </data>
   <data name="CompressionLevelHigh" xml:space="preserve">
-    <value>สูง</value>
+    <value>à¸ªà¸¹à¸‡</value>
   </data>
   <data name="CompressionLevelNormal" xml:space="preserve">
-    <value>ปกติ</value>
+    <value>à¸›à¸à¸•à¸´</value>
   </data>
   <data name="CompressionLevelLow" xml:space="preserve">
-    <value>ตํ่า</value>
+    <value>à¸•à¹à¹ˆà¸²</value>
   </data>
   <data name="CompressionLevelFast" xml:space="preserve">
-    <value>รวดเร็ว</value>
+    <value>à¸£à¸§à¸”à¹€à¸£à¹‡à¸§</value>
   </data>
   <data name="CompressionLevelNone" xml:space="preserve">
-    <value>ไม่มี</value>
+    <value>à¹„à¸¡à¹ˆà¸¡à¸µ</value>
   </data>
   <data name="SplittingSize" xml:space="preserve">
-    <value>ขนาดแบ่งส่วน</value>
+    <value>à¸‚à¸™à¸²à¸”à¹à¸šà¹ˆà¸‡à¸ªà¹ˆà¸§à¸™</value>
   </data>
   <data name="DoNotSplit" xml:space="preserve">
     <value>Do not split</value>
@@ -2310,46 +2316,46 @@
     <value>Blu-ray</value>
   </data>
   <data name="Encryption" xml:space="preserve">
-    <value>การเข้ารหัส</value>
+    <value>à¸à¸²à¸£à¹€à¸‚à¹‰à¸²à¸£à¸«à¸±à¸ª</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value>รหัสผ่าน</value>
+    <value>à¸£à¸«à¸±à¸ªà¸œà¹ˆà¸²à¸™</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>รูปแบบ</value>
+    <value>à¸£à¸¹à¸›à¹à¸šà¸š</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowSyncStatus.Text" xml:space="preserve">
     <value>Sync status column</value>
   </data>
   <data name="GroupBy" xml:space="preserve">
-    <value>จัดกลุ่มโดย</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¹‚à¸”à¸¢</value>
   </data>
   <data name="SortBy" xml:space="preserve">
-    <value>เรียงลำดับตาม</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸¥à¸³à¸”à¸±à¸šà¸•à¸²à¸¡</value>
   </data>
   <data name="GroupInDescendingOrder" xml:space="preserve">
-    <value>จัดกลุ่มจากมากไปน้อย</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸ˆà¸²à¸à¸¡à¸²à¸à¹„à¸›à¸™à¹‰à¸­à¸¢</value>
   </data>
   <data name="SortInDescendingOrder" xml:space="preserve">
-    <value>เรียงลำดับจากมากไปน้อย</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸¥à¸³à¸”à¸±à¸šà¸ˆà¸²à¸à¸¡à¸²à¸à¹„à¸›à¸™à¹‰à¸­à¸¢</value>
   </data>
   <data name="NewShortcutDialogTitle" xml:space="preserve">
-    <value>สร้างทางลัดใหม่</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¸—à¸²à¸‡à¸¥à¸±à¸”à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="NewShortcutDialogDescription" xml:space="preserve">
-    <value>สร้างทางลัดไปยังโปรแกรม, ไฟล์, โฟลเดอร์, คอมพิวเตอร์, หรือที่อยู่อินเทอร์เน็ต ที่อยู่ในคอมพิวเตอร์หรือเครือข่ายของคุณ</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¸—à¸²à¸‡à¸¥à¸±à¸”à¹„à¸›à¸¢à¸±à¸‡à¹‚à¸›à¸£à¹à¸à¸£à¸¡, à¹„à¸Ÿà¸¥à¹Œ, à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œ, à¸„à¸­à¸¡à¸žà¸´à¸§à¹€à¸•à¸­à¸£à¹Œ, à¸«à¸£à¸·à¸­à¸—à¸µà¹ˆà¸­à¸¢à¸¹à¹ˆà¸­à¸´à¸™à¹€à¸—à¸­à¸£à¹Œà¹€à¸™à¹‡à¸• à¸—à¸µà¹ˆà¸­à¸¢à¸¹à¹ˆà¹ƒà¸™à¸„à¸­à¸¡à¸žà¸´à¸§à¹€à¸•à¸­à¸£à¹Œà¸«à¸£à¸·à¸­à¹€à¸„à¸£à¸·à¸­à¸‚à¹ˆà¸²à¸¢à¸‚à¸­à¸‡à¸„à¸¸à¸“</value>
   </data>
   <data name="NewShortcutDialogPrompt" xml:space="preserve">
-    <value>ป้อนที่อยู่ของรายการ</value>
+    <value>à¸›à¹‰à¸­à¸™à¸—à¸µà¹ˆà¸­à¸¢à¸¹à¹ˆà¸‚à¸­à¸‡à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="AddDialogListShortcutSubHeader" xml:space="preserve">
-    <value>สร้างทางลัด</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¸—à¸²à¸‡à¸¥à¸±à¸”</value>
   </data>
   <data name="RecentFilesDisabledOnWindowsWarning" xml:space="preserve">
     <value>Recently used files is currently disabled in Windows File Explorer.</value>
   </data>
   <data name="EditSettingsFile" xml:space="preserve">
-    <value>แก้ไขไฟล์ตั้งค่า</value>
+    <value>à¹à¸à¹‰à¹„à¸‚à¹„à¸Ÿà¸¥à¹Œà¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²</value>
   </data>
   <data name="EditSettingsFileDescription" xml:space="preserve">
     <value>Open settings file in your default editor</value>
@@ -2361,7 +2367,7 @@
     <value>Open Release Notes</value>
   </data>
   <data name="CannotCreateShortcutDialogTitle" xml:space="preserve">
-    <value>การสร้างทางลัดไปยังที่ตั้งนี้จำเป็นต้องใช้สิทธิ์ผู้ดูแลระบบ</value>
+    <value>à¸à¸²à¸£à¸ªà¸£à¹‰à¸²à¸‡à¸—à¸²à¸‡à¸¥à¸±à¸”à¹„à¸›à¸¢à¸±à¸‡à¸—à¸µà¹ˆà¸•à¸±à¹‰à¸‡à¸™à¸µà¹‰à¸ˆà¸³à¹€à¸›à¹‡à¸™à¸•à¹‰à¸­à¸‡à¹ƒà¸Šà¹‰à¸ªà¸´à¸—à¸˜à¸´à¹Œà¸œà¸¹à¹‰à¸”à¸¹à¹à¸¥à¸£à¸°à¸šà¸š</value>
   </data>
   <data name="CannotCreateShortcutDialogMessage" xml:space="preserve">
     <value>Would you like to create the shortcut on the desktop instead?</value>
@@ -2370,70 +2376,70 @@
     <value>The specified item name is invalid</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>ตั้งค่า</value>
+    <value>à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²</value>
   </data>
   <data name="DoubleClickBlankSpaceToGoUp" xml:space="preserve">
-    <value>คลิกสองครั้งตรงที่ว่างเพื่อขึ้นไปหนึ่งไดเรกทอรี</value>
+    <value>à¸„à¸¥à¸´à¸à¸ªà¸­à¸‡à¸„à¸£à¸±à¹‰à¸‡à¸•à¸£à¸‡à¸—à¸µà¹ˆà¸§à¹ˆà¸²à¸‡à¹€à¸žà¸·à¹ˆà¸­à¸‚à¸¶à¹‰à¸™à¹„à¸›à¸«à¸™à¸¶à¹ˆà¸‡à¹„à¸”à¹€à¸£à¸à¸—à¸­à¸£à¸µ</value>
   </data>
   <data name="ViewMore" xml:space="preserve">
-    <value>ดูเพิ่มเติม</value>
+    <value>à¸”à¸¹à¹€à¸žà¸´à¹ˆà¸¡à¹€à¸•à¸´à¸¡</value>
   </data>
   <data name="ShowEditTagsMenu" xml:space="preserve">
-    <value>แสดงเมนูแก้ไขแท็ก</value>
+    <value>à¹à¸ªà¸”à¸‡à¹€à¸¡à¸™à¸¹à¹à¸à¹‰à¹„à¸‚à¹à¸—à¹‡à¸</value>
   </data>
   <data name="ShowCompressionOptions" xml:space="preserve">
-    <value>แสดงตัวเลือกการบีบอัด</value>
+    <value>à¹à¸ªà¸”à¸‡à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸à¸à¸²à¸£à¸šà¸µà¸šà¸­à¸±à¸”</value>
   </data>
   <data name="ShowSendToMenu" xml:space="preserve">
-    <value>แสดงเมนูส่งไปยัง</value>
+    <value>à¹à¸ªà¸”à¸‡à¹€à¸¡à¸™à¸¹à¸ªà¹ˆà¸‡à¹„à¸›à¸¢à¸±à¸‡</value>
   </data>
   <data name="ShowOpenInNewTab" xml:space="preserve">
-    <value>แสดงตัวเลือก เปิดโฟลเดอร์ในแท็บใหม่</value>
+    <value>à¹à¸ªà¸”à¸‡à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸ à¹€à¸›à¸´à¸”à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹ƒà¸™à¹à¸—à¹‡à¸šà¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="ShowOpenInNewWindow" xml:space="preserve">
-    <value>แสดงตัวเลือก เปิดโฟลเดอร์ในหน้าต่างใหม่</value>
+    <value>à¹à¸ªà¸”à¸‡à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸ à¹€à¸›à¸´à¸”à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹ƒà¸™à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="QuickAccess" xml:space="preserve">
-    <value>การเข้าถึงด่วน</value>
+    <value>à¸à¸²à¸£à¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡à¸”à¹ˆà¸§à¸™</value>
   </data>
   <data name="NetworkAuthenticationDialogMessage" xml:space="preserve">
-    <value>ป้อนข้อมูลประจำตัวเครือข่ายเพื่อเชื่อมต่อไปยัง {0}</value>
+    <value>à¸›à¹‰à¸­à¸™à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸›à¸£à¸°à¸ˆà¸³à¸•à¸±à¸§à¹€à¸„à¸£à¸·à¸­à¸‚à¹ˆà¸²à¸¢à¹€à¸žà¸·à¹ˆà¸­à¹€à¸Šà¸·à¹ˆà¸­à¸¡à¸•à¹ˆà¸­à¹„à¸›à¸¢à¸±à¸‡ {0}</value>
   </data>
   <data name="NetworkAuthenticationDialogTitle" xml:space="preserve">
-    <value>ป้อนข้อมูลประจำตัวเครือข่าย</value>
+    <value>à¸›à¹‰à¸­à¸™à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸›à¸£à¸°à¸ˆà¸³à¸•à¸±à¸§à¹€à¸„à¸£à¸·à¸­à¸‚à¹ˆà¸²à¸¢</value>
   </data>
   <data name="NetworkAuthenticationSaveCheckbox" xml:space="preserve">
-    <value>จดจำข้อมูลประจำตัวของฉัน</value>
+    <value>à¸ˆà¸”à¸ˆà¸³à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸›à¸£à¸°à¸ˆà¸³à¸•à¸±à¸§à¸‚à¸­à¸‡à¸‰à¸±à¸™</value>
   </data>
   <data name="NetworkFolderErrorDialogTitle" xml:space="preserve">
-    <value>โฟลเดอร์เครือข่ายผิดพลาด</value>
+    <value>à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹€à¸„à¸£à¸·à¸­à¸‚à¹ˆà¸²à¸¢à¸œà¸´à¸”à¸žà¸¥à¸²à¸”</value>
   </data>
   <data name="AppVersion" xml:space="preserve">
-    <value>เวอร์ชันแอป</value>
+    <value>à¹€à¸§à¸­à¸£à¹Œà¸Šà¸±à¸™à¹à¸­à¸›</value>
   </data>
   <data name="WindowsVersion" xml:space="preserve">
-    <value>เวอร์ชั่นวินโดวส์</value>
+    <value>à¹€à¸§à¸­à¸£à¹Œà¸Šà¸±à¹ˆà¸™à¸§à¸´à¸™à¹‚à¸”à¸§à¸ªà¹Œ</value>
   </data>
   <data name="Always" xml:space="preserve">
-    <value>เสมอ</value>
+    <value>à¹€à¸ªà¸¡à¸­</value>
   </data>
   <data name="PermanentDeletionOnly" xml:space="preserve">
-    <value>ลบถาวรเท่านั้น</value>
+    <value>à¸¥à¸šà¸–à¸²à¸§à¸£à¹€à¸—à¹ˆà¸²à¸™à¸±à¹‰à¸™</value>
   </data>
   <data name="Never" xml:space="preserve">
-    <value>ไม่เลย</value>
+    <value>à¹„à¸¡à¹ˆà¹€à¸¥à¸¢</value>
   </data>
   <data name="TagColor" xml:space="preserve">
-    <value>สีแท็ก</value>
+    <value>à¸ªà¸µà¹à¸—à¹‡à¸</value>
   </data>
   <data name="NewTag" xml:space="preserve">
-    <value>แท็กใหม่</value>
+    <value>à¹à¸—à¹‡à¸à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="CreateNewTag" xml:space="preserve">
-    <value>สร้างแท็กใหม่</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¹à¸—à¹‡à¸à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="Loading" xml:space="preserve">
-    <value>กำลังโหลด...</value>
+    <value>à¸à¸³à¸¥à¸±à¸‡à¹‚à¸«à¸¥à¸”...</value>
   </data>
   <data name="ContextMenuOptions" xml:space="preserve">
     <value>Context menu options</value>
@@ -2442,16 +2448,16 @@
     <value>File extensions</value>
   </data>
   <data name="FormatDriveText" xml:space="preserve">
-    <value>รูปแบบ</value>
+    <value>à¸£à¸¹à¸›à¹à¸šà¸š</value>
   </data>
   <data name="Help" xml:space="preserve">
-    <value>ช่วยเหลือ</value>
+    <value>à¸Šà¹ˆà¸§à¸¢à¹€à¸«à¸¥à¸·à¸­</value>
   </data>
   <data name="FullScreen" xml:space="preserve">
     <value>Full screen</value>
   </data>
   <data name="ConfirmDeleteTag" xml:space="preserve">
-    <value>คุณแน่ใจแล้วใช่ไหมที่จะลบแท็กนี้?</value>
+    <value>à¸„à¸¸à¸“à¹à¸™à¹ˆà¹ƒà¸ˆà¹à¸¥à¹‰à¸§à¹ƒà¸Šà¹ˆà¹„à¸«à¸¡à¸—à¸µà¹ˆà¸ˆà¸°à¸¥à¸šà¹à¸—à¹‡à¸à¸™à¸µà¹‰?</value>
   </data>
   <data name="PlayAll" xml:space="preserve">
     <value>Play All</value>
@@ -2460,70 +2466,70 @@
     <value>Play</value>
   </data>
   <data name="Height" xml:space="preserve">
-    <value>ความสูง</value>
+    <value>à¸„à¸§à¸²à¸¡à¸ªà¸¹à¸‡</value>
   </data>
   <data name="Width" xml:space="preserve">
-    <value>ความกว้าง</value>
+    <value>à¸„à¸§à¸²à¸¡à¸à¸§à¹‰à¸²à¸‡</value>
   </data>
   <data name="ApplyToAllConflictingItems" xml:space="preserve">
     <value>Apply this action to all conflicting items</value>
   </data>
   <data name="OpenTerminal" xml:space="preserve">
-    <value>เปิดในวินโดว์เทอร์มินัล</value>
+    <value>à¹€à¸›à¸´à¸”à¹ƒà¸™à¸§à¸´à¸™à¹‚à¸”à¸§à¹Œà¹€à¸—à¸­à¸£à¹Œà¸¡à¸´à¸™à¸±à¸¥</value>
   </data>
   <data name="OpenTerminalAsAdmin" xml:space="preserve">
-    <value>เปิดในวินโดว์เทอร์มินัล (ผู้ดูแลระบบ)</value>
+    <value>à¹€à¸›à¸´à¸”à¹ƒà¸™à¸§à¸´à¸™à¹‚à¸”à¸§à¹Œà¹€à¸—à¸­à¸£à¹Œà¸¡à¸´à¸™à¸±à¸¥ (à¸œà¸¹à¹‰à¸”à¸¹à¹à¸¥à¸£à¸°à¸šà¸š)</value>
   </data>
   <data name="Save" xml:space="preserve">
-    <value>บันทึก</value>
+    <value>à¸šà¸±à¸™à¸—à¸¶à¸</value>
   </data>
   <data name="MultiSelect" xml:space="preserve">
-    <value>เลือกด้วยการกาเช็ค</value>
+    <value>à¹€à¸¥à¸·à¸­à¸à¸”à¹‰à¸§à¸¢à¸à¸²à¸£à¸à¸²à¹€à¸Šà¹‡à¸„</value>
   </data>
   <data name="ReorderSidebarItemsDialogText" xml:space="preserve">
-    <value>เรียงรายการแถบด้านข้าง</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¹à¸–à¸šà¸”à¹‰à¸²à¸™à¸‚à¹‰à¸²à¸‡</value>
   </data>
   <data name="Hashes" xml:space="preserve">
-    <value>แฮช</value>
+    <value>à¹à¸®à¸Š</value>
   </data>
   <data name="CalculationError" xml:space="preserve">
-    <value>เกิดข้อผิดพลาดในระหว่างการคำนวณ</value>
+    <value>à¹€à¸à¸´à¸”à¸‚à¹‰à¸­à¸œà¸´à¸”à¸žà¸¥à¸²à¸”à¹ƒà¸™à¸£à¸°à¸«à¸§à¹ˆà¸²à¸‡à¸à¸²à¸£à¸„à¸³à¸™à¸§à¸“</value>
   </data>
   <data name="CalculationErrorFileIsOpen" xml:space="preserve">
-    <value>ไม่สามารถคำนวณแฮชได้ กรุณาลองปิดไฟล์นั้นแล้วลองใหม่อีกครั้ง</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¸„à¸³à¸™à¸§à¸“à¹à¸®à¸Šà¹„à¸”à¹‰ à¸à¸£à¸¸à¸“à¸²à¸¥à¸­à¸‡à¸›à¸´à¸”à¹„à¸Ÿà¸¥à¹Œà¸™à¸±à¹‰à¸™à¹à¸¥à¹‰à¸§à¸¥à¸­à¸‡à¹ƒà¸«à¸¡à¹ˆà¸­à¸µà¸à¸„à¸£à¸±à¹‰à¸‡</value>
   </data>
   <data name="CalculationOnlineFileHashError" xml:space="preserve">
     <value>Hashes aren't available for online files</value>
   </data>
   <data name="Algorithm" xml:space="preserve">
-    <value>อัลกอริทึม</value>
+    <value>à¸­à¸±à¸¥à¸à¸­à¸£à¸´à¸—à¸¶à¸¡</value>
   </data>
   <data name="HashValue" xml:space="preserve">
-    <value>ค่าแฮช</value>
+    <value>à¸„à¹ˆà¸²à¹à¸®à¸Š</value>
   </data>
   <data name="SelectHashesToShow" xml:space="preserve">
-    <value>เลือกแฮชที่ต้องการแสดง</value>
+    <value>à¹€à¸¥à¸·à¸­à¸à¹à¸®à¸Šà¸—à¸µà¹ˆà¸•à¹‰à¸­à¸‡à¸à¸²à¸£à¹à¸ªà¸”à¸‡</value>
   </data>
   <data name="Calculating" xml:space="preserve">
-    <value>กำลังคำนวณ</value>
+    <value>à¸à¸³à¸¥à¸±à¸‡à¸„à¸³à¸™à¸§à¸“</value>
   </data>
   <data name="JumpListPinnedGroupHeader" xml:space="preserve">
-    <value>รายการที่ปักหมุดไว้</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¸›à¸±à¸à¸«à¸¡à¸¸à¸”à¹„à¸§à¹‰</value>
   </data>
   <data name="DecreaseSize" xml:space="preserve">
-    <value>ลดขนาด</value>
+    <value>à¸¥à¸”à¸‚à¸™à¸²à¸”</value>
   </data>
   <data name="IncreaseSize" xml:space="preserve">
-    <value>เพิ่มขนาด</value>
+    <value>à¹€à¸žà¸´à¹ˆà¸¡à¸‚à¸™à¸²à¸”</value>
   </data>
   <data name="ToggleSortDirection" xml:space="preserve">
     <value>Sort direction</value>
   </data>
   <data name="InvalidTagNameWarning" xml:space="preserve">
-    <value>ชื่อไม่ถูกต้อง</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¹„à¸¡à¹ˆà¸–à¸¹à¸à¸•à¹‰à¸­à¸‡</value>
   </data>
   <data name="TagNameRules" xml:space="preserve">
-    <value>ชื่อต้องไม่เว้นว่างหรือเริ่ม/จบด้วยมหัพภาค</value>
+    <value>à¸Šà¸·à¹ˆà¸­à¸•à¹‰à¸­à¸‡à¹„à¸¡à¹ˆà¹€à¸§à¹‰à¸™à¸§à¹ˆà¸²à¸‡à¸«à¸£à¸·à¸­à¹€à¸£à¸´à¹ˆà¸¡/à¸ˆà¸šà¸”à¹‰à¸§à¸¢à¸¡à¸«à¸±à¸žà¸ à¸²à¸„</value>
   </data>
   <data name="Categories" xml:space="preserve">
     <value>Categories</value>
@@ -2546,7 +2552,7 @@
   <data name="CategoryNameRules" xml:space="preserve">
     <value>Name must not be empty or start or end with a period.</value>
   </data><data name="Videos" xml:space="preserve">
-    <value>วีดีโอ</value>
+    <value>à¸§à¸µà¸”à¸µà¹‚à¸­</value>
   </data>
   <data name="LaunchPreviewPopup" xml:space="preserve">
     <value>Preview popup</value>
@@ -2636,7 +2642,7 @@
     <value>Delete selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="CreateFolderDescription" xml:space="preserve">
-    <value>สร้างโฟลเดอร์ใหม่</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="CreateShortcutDescription" xml:space="preserve">
     <value>Create new {0, plural, one {shortcut} other {shortcuts}} to selected {0, plural, one {item} other {items}}</value>
@@ -2666,13 +2672,13 @@
     <value>Open parent folder of searched item</value>
   </data>
   <data name="RefreshItemsDescription" xml:space="preserve">
-    <value>รีเฟรชเนื้อหาของหน้า</value>
+    <value>à¸£à¸µà¹€à¸Ÿà¸£à¸Šà¹€à¸™à¸·à¹‰à¸­à¸«à¸²à¸‚à¸­à¸‡à¸«à¸™à¹‰à¸²</value>
   </data>
   <data name="RenameDescription" xml:space="preserve">
-    <value>เปลี่ยนชื่อรายการที่เลือก</value>
+    <value>à¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™à¸Šà¸·à¹ˆà¸­à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="SelectAllDescription" xml:space="preserve">
-    <value>เลือกรายการทั้งหมด</value>
+    <value>à¹€à¸¥à¸·à¸­à¸à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”</value>
   </data>
   <data name="InvertSelectionDescription" xml:space="preserve">
     <value>Invert selected items</value>
@@ -2699,13 +2705,13 @@
     <value>Unpin {0, plural, one {folder} other {folders}} from Sidebar</value>
   </data>
   <data name="SetAsWallpaperBackgroundDescription" xml:space="preserve">
-    <value>ตั้งค่าพื้นหลังเดสก์ท็อปจากรูปที่เลือก</value>
+    <value>à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¸žà¸·à¹‰à¸™à¸«à¸¥à¸±à¸‡à¹€à¸”à¸ªà¸à¹Œà¸—à¹‡à¸­à¸›à¸ˆà¸²à¸à¸£à¸¹à¸›à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="SetAsSlideshowBackgroundDescription" xml:space="preserve">
-    <value>ตั้งค่าสไลด์โชว์เดสก์ท็อปจากรูปที่เลือก</value>
+    <value>à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¸ªà¹„à¸¥à¸”à¹Œà¹‚à¸Šà¸§à¹Œà¹€à¸”à¸ªà¸à¹Œà¸—à¹‡à¸­à¸›à¸ˆà¸²à¸à¸£à¸¹à¸›à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="SetAsLockscreenBackgroundDescription" xml:space="preserve">
-    <value>ตั้งค่าพื้นหลังหน้าจอล็อคจากรูปที่เลือก</value>
+    <value>à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¸žà¸·à¹‰à¸™à¸«à¸¥à¸±à¸‡à¸«à¸™à¹‰à¸²à¸ˆà¸­à¸¥à¹‡à¸­à¸„à¸ˆà¸²à¸à¸£à¸¹à¸›à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="SetAsAppBackgroundDescription" xml:space="preserve">
     <value>Set selected picture as the app background</value>
@@ -2765,13 +2771,13 @@
     <value>Rotate selected {0, plural, one {image} other {images}} to the right</value>
   </data>
   <data name="OpenSettingsDescription" xml:space="preserve">
-    <value>เปิดแผงตั้งค่า</value>
+    <value>à¹€à¸›à¸´à¸”à¹à¸œà¸‡à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²</value>
   </data>
   <data name="OpenTerminalDescription" xml:space="preserve">
-    <value>เปิดโฟลเดอร์ในเทอร์มินัล</value>
+    <value>à¹€à¸›à¸´à¸”à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹ƒà¸™à¹€à¸—à¸­à¸£à¹Œà¸¡à¸´à¸™à¸±à¸¥</value>
   </data>
   <data name="OpenTerminalAsAdminDescription" xml:space="preserve">
-    <value>เปิดโฟลเดอร์ในเทอร์มินัล (ผู้ดูแลระบบ)</value>
+    <value>à¹€à¸›à¸´à¸”à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹ƒà¸™à¹€à¸—à¸­à¸£à¹Œà¸¡à¸´à¸™à¸±à¸¥ (à¸œà¸¹à¹‰à¸”à¸¹à¹à¸¥à¸£à¸°à¸šà¸š)</value>
   </data>
   <data name="LayoutDecreaseSizeDescription" xml:space="preserve">
     <value>Decrease item size in the current view</value>
@@ -2780,22 +2786,22 @@
     <value>Increase item size in the current view</value>
   </data>
   <data name="LayoutDetailsDescription" xml:space="preserve">
-    <value>สลับเป็นเค้าโครงละเอียด</value>
+    <value>à¸ªà¸¥à¸±à¸šà¹€à¸›à¹‡à¸™à¹€à¸„à¹‰à¸²à¹‚à¸„à¸£à¸‡à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”</value>
   </data>
   <data name="LayoutCardsDescription" xml:space="preserve">
     <value>Switch to cards view</value>
   </data>
   <data name="LayoutListDescription" xml:space="preserve">
-    <value>สลับเป็นเค้าโครงรายการ</value>
+    <value>à¸ªà¸¥à¸±à¸šà¹€à¸›à¹‡à¸™à¹€à¸„à¹‰à¸²à¹‚à¸„à¸£à¸‡à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="List" xml:space="preserve">
-    <value>รายการ</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="Grid" xml:space="preserve">
-    <value>ตาราง</value>
+    <value>à¸•à¸²à¸£à¸²à¸‡</value>
   </data>
   <data name="LayoutGridDescription" xml:space="preserve">
-    <value>สลับเป็นเค้าโครงตาราง</value>
+    <value>à¸ªà¸¥à¸±à¸šà¹€à¸›à¹‡à¸™à¹€à¸„à¹‰à¸²à¹‚à¸„à¸£à¸‡à¸•à¸²à¸£à¸²à¸‡</value>
   </data>
   <data name="LayoutColumnsDescription" xml:space="preserve">
     <value>Switch to columns view</value>
@@ -2804,37 +2810,37 @@
     <value>Switch views adaptively</value>
   </data>
   <data name="SortByNameDescription" xml:space="preserve">
-    <value>เรียงรายการตามชื่อ</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸Šà¸·à¹ˆà¸­</value>
   </data>
   <data name="SortByDateModifiedDescription" xml:space="preserve">
-    <value>เรียงรายการตามวันที่ปรับเปลี่ยน</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸§à¸±à¸™à¸—à¸µà¹ˆà¸›à¸£à¸±à¸šà¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™</value>
   </data>
   <data name="SortByDateCreatedDescription" xml:space="preserve">
-    <value>เรียงรายการตามวันที่สร้าง</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸§à¸±à¸™à¸—à¸µà¹ˆà¸ªà¸£à¹‰à¸²à¸‡</value>
   </data>
   <data name="SortBySizeDescription" xml:space="preserve">
-    <value>เรียงรายการตามขนาด</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸‚à¸™à¸²à¸”</value>
   </data>
   <data name="SortByTypeDescription" xml:space="preserve">
-    <value>เรียงรายการตามประเภท</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸›à¸£à¸°à¹€à¸ à¸—</value>
   </data>
   <data name="SortBySyncStatusDescription" xml:space="preserve">
-    <value>เรียงรายการตามสถานะการซิงค์</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸ªà¸–à¸²à¸™à¸°à¸à¸²à¸£à¸‹à¸´à¸‡à¸„à¹Œ</value>
   </data>
   <data name="SortByTagDescription" xml:space="preserve">
-    <value>เรียงรายการตามแท็ก</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¹à¸—à¹‡à¸</value>
   </data>
   <data name="SortByOriginalFolderDescription" xml:space="preserve">
     <value>Sort items by original folder</value>
   </data>
   <data name="SortByDateDeletedDescription" xml:space="preserve">
-    <value>เรียงรายการตามวันที่ลบ</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸§à¸±à¸™à¸—à¸µà¹ˆà¸¥à¸š</value>
   </data>
   <data name="SortAscendingDescription" xml:space="preserve">
-    <value>เรียงรายการจากน้อยไปมาก</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸ˆà¸²à¸à¸™à¹‰à¸­à¸¢à¹„à¸›à¸¡à¸²à¸</value>
   </data>
   <data name="SortDescendingDescription" xml:space="preserve">
-    <value>เรียงรายการจากมากไปน้อย</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸ˆà¸²à¸à¸¡à¸²à¸à¹„à¸›à¸™à¹‰à¸­à¸¢</value>
   </data>
   <data name="ToggleSortDirectionDescription" xml:space="preserve">
     <value>Toggle item sort direction</value>
@@ -2843,46 +2849,46 @@
     <value>List items without grouping</value>
   </data>
   <data name="GroupByNameDescription" xml:space="preserve">
-    <value>จัดกลุ่มรายการตามชื่อ</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸Šà¸·à¹ˆà¸­</value>
   </data>
   <data name="GroupByDateModifiedDescription" xml:space="preserve">
-    <value>จัดกลุ่มรายการตามวันที่ปรับเปลี่ยน</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸§à¸±à¸™à¸—à¸µà¹ˆà¸›à¸£à¸±à¸šà¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™</value>
   </data>
   <data name="GroupByDateCreatedDescription" xml:space="preserve">
-    <value>จัดกลุ่มรายการตามวันที่สร้าง</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸§à¸±à¸™à¸—à¸µà¹ˆà¸ªà¸£à¹‰à¸²à¸‡</value>
   </data>
   <data name="GroupBySizeDescription" xml:space="preserve">
-    <value>จัดกลุ่มรายการตามขนาด</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸‚à¸™à¸²à¸”</value>
   </data>
   <data name="GroupByTypeDescription" xml:space="preserve">
-    <value>จัดกลุ่มรายการตามประเภท</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸›à¸£à¸°à¹€à¸ à¸—</value>
   </data>
   <data name="GroupBySyncStatusDescription" xml:space="preserve">
-    <value>จัดกลุ่มรายการตามสถานะการซิงค์</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸ªà¸–à¸²à¸™à¸°à¸à¸²à¸£à¸‹à¸´à¸‡à¸„à¹Œ</value>
   </data>
   <data name="GroupByTagDescription" xml:space="preserve">
-    <value>จัดกลุ่มรายการตามแท็ก</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¹à¸—à¹‡à¸</value>
   </data>
   <data name="GroupByOriginalFolderDescription" xml:space="preserve">
     <value>Group items by original folder</value>
   </data>
   <data name="GroupByDateDeletedDescription" xml:space="preserve">
-    <value>จัดกลุ่มรายการตามวันที่ลบ</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸§à¸±à¸™à¸—à¸µà¹ˆà¸¥à¸š</value>
   </data>
   <data name="GroupByFolderPathDescription" xml:space="preserve">
-    <value>จัดกลุ่มรายการตามอยู่ที่โฟลเดอร์</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸£à¸²à¸¢à¸à¸²à¸£à¸•à¸²à¸¡à¸­à¸¢à¸¹à¹ˆà¸—à¸µà¹ˆà¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œ</value>
   </data>
   <data name="GroupAscendingDescription" xml:space="preserve">
-    <value>เรียงกลุ่มจากน้อยไปมาก</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸à¸¥à¸¸à¹ˆà¸¡à¸ˆà¸²à¸à¸™à¹‰à¸­à¸¢à¹„à¸›à¸¡à¸²à¸</value>
   </data>
   <data name="GroupDescendingDescription" xml:space="preserve">
-    <value>เรียงกลุ่มจากมากไปน้อย</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸à¸¥à¸¸à¹ˆà¸¡à¸ˆà¸²à¸à¸¡à¸²à¸à¹„à¸›à¸™à¹‰à¸­à¸¢</value>
   </data>
   <data name="ToggleGroupDirectionDescription" xml:space="preserve">
     <value>Toggle group sort direction</value>
   </data>
   <data name="NewTabDescription" xml:space="preserve">
-    <value>เปิดแท็บใหม่</value>
+    <value>à¹€à¸›à¸´à¸”à¹à¸—à¹‡à¸šà¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="NavigateBackDescription" xml:space="preserve">
     <value>Navigate backward</value>
@@ -2894,7 +2900,7 @@
     <value>Navigate up one directory</value>
   </data>
   <data name="DuplicateSelectedTabDescription" xml:space="preserve">
-    <value>ทำซ้ำแท็บที่เลือก</value>
+    <value>à¸—à¸³à¸‹à¹‰à¸³à¹à¸—à¹‡à¸šà¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="CloseTabsToTheLeftSelectedDescription" xml:space="preserve">
     <value>Close tabs to the left of selected tab</value>
@@ -2918,7 +2924,7 @@
     <value>Move to the next tab</value>
   </data>
   <data name="CloseSelectedTabDescription" xml:space="preserve">
-    <value>ปิดแท็บปัจจุบัน</value>
+    <value>à¸›à¸´à¸”à¹à¸—à¹‡à¸šà¸›à¸±à¸ˆà¸ˆà¸¸à¸šà¸±à¸™</value>
   </data>
   <data name="CloseActivePaneDescription" xml:space="preserve">
     <value>Close the active pane</value>
@@ -2945,7 +2951,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Windows" xml:space="preserve">
-    <value>วินโดว์</value>
+    <value>à¸§à¸´à¸™à¹‚à¸”à¸§à¹Œ</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Enter" xml:space="preserve">
@@ -2953,7 +2959,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Space" xml:space="preserve">
-    <value>เว้นวรรค</value>
+    <value>à¹€à¸§à¹‰à¸™à¸§à¸£à¸£à¸„</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Escape" xml:space="preserve">
@@ -2961,11 +2967,11 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Back" xml:space="preserve">
-    <value>ถอยหลัง</value>
+    <value>à¸–à¸­à¸¢à¸«à¸¥à¸±à¸‡</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Tab" xml:space="preserve">
-    <value>แท็บ</value>
+    <value>à¹à¸—à¹‡à¸š</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Insert" xml:space="preserve">
@@ -2977,23 +2983,23 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Left" xml:space="preserve">
-    <value>ลูกศรซ้าย</value>
+    <value>à¸¥à¸¹à¸à¸¨à¸£à¸‹à¹‰à¸²à¸¢</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Right" xml:space="preserve">
-    <value>ลูกศรขวา</value>
+    <value>à¸¥à¸¹à¸à¸¨à¸£à¸‚à¸§à¸²</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Down" xml:space="preserve">
-    <value>ลูกศรลง</value>
+    <value>à¸¥à¸¹à¸à¸¨à¸£à¸¥à¸‡</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Up" xml:space="preserve">
-    <value>ขึ้นไป (Alt+Up Arrow)</value>
+    <value>à¸‚à¸¶à¹‰à¸™à¹„à¸› (Alt+Up Arrow)</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Home" xml:space="preserve">
-    <value>หน้าแรก</value>
+    <value>à¸«à¸™à¹‰à¸²à¹à¸£à¸</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.End" xml:space="preserve">
@@ -3001,11 +3007,11 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.PageDown" xml:space="preserve">
-    <value>หน้าลง</value>
+    <value>à¸«à¸™à¹‰à¸²à¸¥à¸‡</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.PageUp" xml:space="preserve">
-    <value>หน้าขึ้น</value>
+    <value>à¸«à¸™à¹‰à¸²à¸‚à¸¶à¹‰à¸™</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Separator" xml:space="preserve">
@@ -3021,15 +3027,15 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Clear" xml:space="preserve">
-    <value>ล้าง</value>
+    <value>à¸¥à¹‰à¸²à¸‡</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Print" xml:space="preserve">
-    <value>พิมพ์</value>
+    <value>à¸žà¸´à¸¡à¸žà¹Œ</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Help" xml:space="preserve">
-    <value>ช่วยเหลือ</value>
+    <value>à¸Šà¹ˆà¸§à¸¢à¹€à¸«à¸¥à¸·à¸­</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Mouse4" xml:space="preserve">
@@ -3041,35 +3047,35 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Application" xml:space="preserve">
-    <value>แอป</value>
+    <value>à¹à¸­à¸›</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Application1" xml:space="preserve">
-    <value>แอป1</value>
+    <value>à¹à¸­à¸›1</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Application2" xml:space="preserve">
-    <value>แอป2</value>
+    <value>à¹à¸­à¸›2</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Mail" xml:space="preserve">
-    <value>เมล</value>
+    <value>à¹€à¸¡à¸¥</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserGoHome" xml:space="preserve">
-    <value>กลับบ้าน</value>
+    <value>à¸à¸¥à¸±à¸šà¸šà¹‰à¸²à¸™</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserGoBack" xml:space="preserve">
-    <value>กลับ</value>
+    <value>à¸à¸¥à¸±à¸š</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserGoForward" xml:space="preserve">
-    <value>ไปข้างหน้า</value>
+    <value>à¹„à¸›à¸‚à¹‰à¸²à¸‡à¸«à¸™à¹‰à¸²</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserRefresh" xml:space="preserve">
-    <value>รีเฟรช (Ctrl + R, F5)</value>
+    <value>à¸£à¸µà¹€à¸Ÿà¸£à¸Š (Ctrl + R, F5)</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserStop" xml:space="preserve">
@@ -3077,15 +3083,15 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserSearch" xml:space="preserve">
-    <value>ค้นหา</value>
+    <value>à¸„à¹‰à¸™à¸«à¸²</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserFavorites" xml:space="preserve">
-    <value>รายการโปรด</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¹‚à¸›à¸£à¸”</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaPlayPause" xml:space="preserve">
-    <value>เล่นพัก</value>
+    <value>à¹€à¸¥à¹ˆà¸™à¸žà¸±à¸</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaStop" xml:space="preserve">
@@ -3113,26 +3119,26 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaVolumeUp" xml:space="preserve">
-    <value>เพิ่มเสียง</value>
+    <value>à¹€à¸žà¸´à¹ˆà¸¡à¹€à¸ªà¸µà¸¢à¸‡</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Change" xml:space="preserve">
-    <value>เปลี่ยน</value>
+    <value>à¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™</value>
   </data>
   <data name="ToggleSelect" xml:space="preserve">
     <value>Toggle selection</value>
   </data>
   <data name="ShowFileExtensionWarning" xml:space="preserve">
-    <value>แสดงคำเตือนเมื่อเปลี่ยนนามสกุลไฟล์</value>
+    <value>à¹à¸ªà¸”à¸‡à¸„à¸³à¹€à¸•à¸·à¸­à¸™à¹€à¸¡à¸·à¹ˆà¸­à¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™à¸™à¸²à¸¡à¸ªà¸à¸¸à¸¥à¹„à¸Ÿà¸¥à¹Œ</value>
   </data>
   <data name="ThisPC" xml:space="preserve">
-    <value>พีซีเครื่องนี้</value>
+    <value>à¸žà¸µà¸‹à¸µà¹€à¸„à¸£à¸·à¹ˆà¸­à¸‡à¸™à¸µà¹‰</value>
   </data>
   <data name="RecycleBin" xml:space="preserve">
-    <value>ถังขยะ</value>
+    <value>à¸–à¸±à¸‡à¸‚à¸¢à¸°</value>
   </data>
   <data name="Untagged" xml:space="preserve">
-    <value>ไม่​ได้​แท็ก</value>
+    <value>à¹„à¸¡à¹ˆâ€‹à¹„à¸”à¹‰â€‹à¹à¸—à¹‡à¸</value>
   </data>
   <data name="PreviousTab" xml:space="preserve">
     <value>Previous tab</value>
@@ -3147,13 +3153,13 @@
     <value>Edit path</value>
   </data>
   <data name="Redo" xml:space="preserve">
-    <value>ทำใหม่</value>
+    <value>à¸—à¸³à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="Undo" xml:space="preserve">
-    <value>เลิกทำ</value>
+    <value>à¹€à¸¥à¸´à¸à¸—à¸³</value>
   </data>
   <data name="InvalidLocation" xml:space="preserve">
-    <value>ที่ตั้งไม่ถูกต้อง</value>
+    <value>à¸—à¸µà¹ˆà¸•à¸±à¹‰à¸‡à¹„à¸¡à¹ˆà¸–à¸¹à¸à¸•à¹‰à¸­à¸‡</value>
   </data>
   <data name="CopyFileWithoutProperties" xml:space="preserve">
     <value>Are you sure you want to copy these files without their properties?</value>
@@ -3168,49 +3174,49 @@
     <value>Are you sure you want to move these files without their properties?</value>
   </data>
   <data name="ShowCheckboxesWhenSelectingItems" xml:space="preserve">
-    <value>แสดงช่องเครื่องหมายเมื่อเลือกรายการ</value>
+    <value>à¹à¸ªà¸”à¸‡à¸Šà¹ˆà¸­à¸‡à¹€à¸„à¸£à¸·à¹ˆà¸­à¸‡à¸«à¸¡à¸²à¸¢à¹€à¸¡à¸·à¹ˆà¸­à¹€à¸¥à¸·à¸­à¸à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="EditPathDescription" xml:space="preserve">
     <value>Edit path in the OmniBar</value>
   </data>
   <data name="AddItemDescription" xml:space="preserve">
-    <value>สร้างรายการใหม่</value>
+    <value>à¸ªà¸£à¹‰à¸²à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="SecurityNoAccessControlEntriesText" xml:space="preserve">
-    <value>ไม่มีกลุ่มหรือผู้ใช้ที่สามารถเข้าถึงวัตถุนี้ได้ อย่างไรก็ตามเจ้าวัตถุนี้สามารถกำหนดสิทธิ์ได้</value>
+    <value>à¹„à¸¡à¹ˆà¸¡à¸µà¸à¸¥à¸¸à¹ˆà¸¡à¸«à¸£à¸·à¸­à¸œà¸¹à¹‰à¹ƒà¸Šà¹‰à¸—à¸µà¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¹€à¸‚à¹‰à¸²à¸–à¸¶à¸‡à¸§à¸±à¸•à¸–à¸¸à¸™à¸µà¹‰à¹„à¸”à¹‰ à¸­à¸¢à¹ˆà¸²à¸‡à¹„à¸£à¸à¹‡à¸•à¸²à¸¡à¹€à¸ˆà¹‰à¸²à¸§à¸±à¸•à¸–à¸¸à¸™à¸µà¹‰à¸ªà¸²à¸¡à¸²à¸£à¸–à¸à¸³à¸«à¸™à¸”à¸ªà¸´à¸—à¸˜à¸´à¹Œà¹„à¸”à¹‰</value>
   </data>
   <data name="OpenFileLocationDescription" xml:space="preserve">
     <value>Open the item's location</value>
   </data>
   <data name="DeletePermanently" xml:space="preserve">
-    <value>ลบอย่างถาวร</value>
+    <value>à¸¥à¸šà¸­à¸¢à¹ˆà¸²à¸‡à¸–à¸²à¸§à¸£</value>
   </data>
   <data name="DeleteItemPermanentlyDescription" xml:space="preserve">
     <value>Delete selected {0, plural, one {item} other {items}} permanently</value>
   </data>
   <data name="PlayAllDescription" xml:space="preserve">
-    <value>เล่นไฟล์สื่อที่เลือก</value>
+    <value>à¹€à¸¥à¹ˆà¸™à¹„à¸Ÿà¸¥à¹Œà¸ªà¸·à¹ˆà¸­à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸</value>
   </data>
   <data name="UndoDescription" xml:space="preserve">
-    <value>เลิกทำกระบวนการล่าสุด</value>
+    <value>à¹€à¸¥à¸´à¸à¸—à¸³à¸à¸£à¸°à¸šà¸§à¸™à¸à¸²à¸£à¸¥à¹ˆà¸²à¸ªà¸¸à¸”</value>
   </data>
   <data name="RedoDescription" xml:space="preserve">
-    <value>ทำซ้ำกระบวนการล่าสุด</value>
+    <value>à¸—à¸³à¸‹à¹‰à¸³à¸à¸£à¸°à¸šà¸§à¸™à¸à¸²à¸£à¸¥à¹ˆà¸²à¸ªà¸¸à¸”</value>
   </data>
   <data name="Location" xml:space="preserve">
-    <value>ที่ตั้ง:</value>
+    <value>à¸—à¸µà¹ˆà¸•à¸±à¹‰à¸‡:</value>
   </data>
   <data name="GroupByMonthDescription" xml:space="preserve">
-    <value>จัดกลุ่มตามเดือน</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸•à¸²à¸¡à¹€à¸”à¸·à¸­à¸™</value>
   </data>
   <data name="GroupByYearDescription" xml:space="preserve">
-    <value>จัดกลุ่มตามปี</value>
+    <value>à¸ˆà¸±à¸”à¸à¸¥à¸¸à¹ˆà¸¡à¸•à¸²à¸¡à¸›à¸µ</value>
   </data>
   <data name="Month" xml:space="preserve">
-    <value>เดือน</value>
+    <value>à¹€à¸”à¸·à¸­à¸™</value>
   </data>
   <data name="Day" xml:space="preserve">
-    <value>วัน</value>
+    <value>à¸§à¸±à¸™</value>
   </data>
   <data name="ToggleGroupByDateUnitDescription" xml:space="preserve">
     <value>Toggle unit for grouping by date</value>
@@ -3219,7 +3225,7 @@
     <value>Toggle grouping unit</value>
   </data>
   <data name="Year" xml:space="preserve">
-    <value>ปี</value>
+    <value>à¸›à¸µ</value>
   </data>
   <data name="GroupByDateUnit" xml:space="preserve">
     <value>Group by date unit</value>
@@ -3255,7 +3261,7 @@
     <value>Click 'Advanced permissions' to continue.</value>
   </data>
   <data name="SecurityRequireReadPermissions" xml:space="preserve">
-    <value>คุณต้องมีสิทธิ์อ่านเพื่อดูคุณสมบัติของรายการนี้</value>
+    <value>à¸„à¸¸à¸“à¸•à¹‰à¸­à¸‡à¸¡à¸µà¸ªà¸´à¸—à¸˜à¸´à¹Œà¸­à¹ˆà¸²à¸™à¹€à¸žà¸·à¹ˆà¸­à¸”à¸¹à¸„à¸¸à¸“à¸ªà¸¡à¸šà¸±à¸•à¸´à¸‚à¸­à¸‡à¸£à¸²à¸¢à¸à¸²à¸£à¸™à¸µà¹‰</value>
   </data>
   <data name="SecuritySuggestToTakeOwnership" xml:space="preserve">
     <value>To try taking ownership of the item, which includes permission to view its properties, click Change above.</value>
@@ -3315,13 +3321,13 @@
     <value>Create a folder with the currently selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="OpenProperties" xml:space="preserve">
-    <value>คุณสมบัติ</value>
+    <value>à¸„à¸¸à¸“à¸ªà¸¡à¸šà¸±à¸•à¸´</value>
   </data>
   <data name="OpenClassicProperties" xml:space="preserve">
     <value>Open File Explorer properties</value>
   </data>
   <data name="OpenPropertiesDescription" xml:space="preserve">
-    <value>เปิดหน้าต่างคุณสมบัติ</value>
+    <value>à¹€à¸›à¸´à¸”à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¸„à¸¸à¸“à¸ªà¸¡à¸šà¸±à¸•à¸´</value>
   </data>
   <data name="OpenClassicPropertiesDescription" xml:space="preserve">
     <value>Open File Explorer properties window</value>
@@ -3333,7 +3339,7 @@
     <value>Remotes</value>
   </data>
   <data name="ImproveTranslation" xml:space="preserve">
-    <value>แปลภาษาบน Crowdin</value>
+    <value>à¹à¸›à¸¥à¸ à¸²à¸©à¸²à¸šà¸™ Crowdin</value>
   </data>
   <data name="GitFetch" xml:space="preserve">
     <value>Fetch</value>
@@ -3351,10 +3357,10 @@
     <value>Run git pull</value>
   </data>
   <data name="Preview" xml:space="preserve">
-    <value>ตัวอย่าง</value>
+    <value>à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡</value>
   </data>
   <data name="GitStatus" xml:space="preserve">
-    <value>สถานะ Git</value>
+    <value>à¸ªà¸–à¸²à¸™à¸° Git</value>
   </data>
   <data name="GitError" xml:space="preserve">
     <value>Git error</value>
@@ -3370,7 +3376,7 @@
     <comment>Text indicating that multiple selected files have different metadata values.</comment>
   </data>
   <data name="Author" xml:space="preserve">
-    <value>ผู้เขียน</value>
+    <value>à¸œà¸¹à¹‰à¹€à¸‚à¸µà¸¢à¸™</value>
   </data>
   <data name="DateCommitted" xml:space="preserve">
     <value>Date committed</value>
@@ -3385,7 +3391,7 @@
     <value>Git</value>
   </data>
   <data name="Acrylic" xml:space="preserve">
-    <value>อะคริลิค</value>
+    <value>à¸­à¸°à¸„à¸£à¸´à¸¥à¸´à¸„</value>
   </data>
   <data name="Mica" xml:space="preserve">
     <value>Mica</value>
@@ -3418,10 +3424,10 @@
     <value>{0} outgoing / {1} incoming commits</value>
   </data>
   <data name="ConnectGitHub" xml:space="preserve">
-    <value>เชื่อมต่อกับ GitHub</value>
+    <value>à¹€à¸Šà¸·à¹ˆà¸­à¸¡à¸•à¹ˆà¸­à¸à¸±à¸š GitHub</value>
   </data>
   <data name="ConnectGitHubDescription" xml:space="preserve">
-    <value>ป้อนรหัสพวกนี้ไปยังลิงก์ที่อยู่ด้านล่างเพื่อเริ่มต้นทำงานกับคลังเก็บที่อยู่ใน GitHub</value>
+    <value>à¸›à¹‰à¸­à¸™à¸£à¸«à¸±à¸ªà¸žà¸§à¸à¸™à¸µà¹‰à¹„à¸›à¸¢à¸±à¸‡à¸¥à¸´à¸‡à¸à¹Œà¸—à¸µà¹ˆà¸­à¸¢à¸¹à¹ˆà¸”à¹‰à¸²à¸™à¸¥à¹ˆà¸²à¸‡à¹€à¸žà¸·à¹ˆà¸­à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™à¸—à¸³à¸‡à¸²à¸™à¸à¸±à¸šà¸„à¸¥à¸±à¸‡à¹€à¸à¹‡à¸šà¸—à¸µà¹ˆà¸­à¸¢à¸¹à¹ˆà¹ƒà¸™ GitHub</value>
   </data>
   <data name="CannotReachGitHubError" xml:space="preserve">
     <value>Files cannot access GitHub right now.</value>
@@ -3439,7 +3445,7 @@
     <value>Open the root of the Git repo in {0}</value>
   </data>
   <data name="CopyCode" xml:space="preserve">
-    <value>คัดลอกรหัส</value>
+    <value>à¸„à¸±à¸”à¸¥à¸­à¸à¸£à¸«à¸±à¸ª</value>
   </data>
   <data name="Added" xml:space="preserve">
     <value>Added</value>
@@ -3454,10 +3460,10 @@
     <value>Untracked</value>
   </data>
   <data name="UnableToDisplayOwner" xml:space="preserve">
-    <value>ไม่สามารถแสดงเจ้าของปัจจุบันได้</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¹à¸ªà¸”à¸‡à¹€à¸ˆà¹‰à¸²à¸‚à¸­à¸‡à¸›à¸±à¸ˆà¸ˆà¸¸à¸šà¸±à¸™à¹„à¸”à¹‰</value>
   </data>
   <data name="AuthorizationSucceded" xml:space="preserve">
-    <value>เยี่ยม คุณได้รับอนุญาตแล้ว</value>
+    <value>à¹€à¸¢à¸µà¹ˆà¸¢à¸¡ à¸„à¸¸à¸“à¹„à¸”à¹‰à¸£à¸±à¸šà¸­à¸™à¸¸à¸à¸²à¸•à¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="InitRepo" xml:space="preserve">
     <value>Initialize repo</value>
@@ -3524,19 +3530,19 @@
     <value>Start in:</value>
   </data>
   <data name="TurnOnBitLocker" xml:space="preserve">
-    <value>เปิดใช้ BitLocker</value>
+    <value>à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰ BitLocker</value>
   </data>
   <data name="ManageBitLocker" xml:space="preserve">
-    <value>จัดการ BitLocker</value>
+    <value>à¸ˆà¸±à¸”à¸à¸²à¸£ BitLocker</value>
   </data>
   <data name="CopyFailureFileToLarge" xml:space="preserve">
-    <value>รายการดังต่อไปนี้มีขนาดใหญ่เกินไปที่จะสามารถคัดลอกไปยังไดรฟ์นี้ได้</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£à¸”à¸±à¸‡à¸•à¹ˆà¸­à¹„à¸›à¸™à¸µà¹‰à¸¡à¸µà¸‚à¸™à¸²à¸”à¹ƒà¸«à¸à¹ˆà¹€à¸à¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸ˆà¸°à¸ªà¸²à¸¡à¸²à¸£à¸–à¸„à¸±à¸”à¸¥à¸­à¸à¹„à¸›à¸¢à¸±à¸‡à¹„à¸”à¸£à¸Ÿà¹Œà¸™à¸µà¹‰à¹„à¸”à¹‰</value>
   </data>
   <data name="FormatDrive" xml:space="preserve">
-    <value>จัดรูปแบบไดรฟ์</value>
+    <value>à¸ˆà¸±à¸”à¸£à¸¹à¸›à¹à¸šà¸šà¹„à¸”à¸£à¸Ÿà¹Œ</value>
   </data>
   <data name="DontShowAgain" xml:space="preserve">
-    <value>ไม่ต้องแสดงอีก</value>
+    <value>à¹„à¸¡à¹ˆà¸•à¹‰à¸­à¸‡à¹à¸ªà¸”à¸‡à¸­à¸µà¸</value>
   </data>
   <data name="FilesRunningAsAdmin" xml:space="preserve">
     <value>Files is running as administrator</value>
@@ -3545,22 +3551,22 @@
     <value>Due to a limitation with Windows and WinAppSdk, drag and drop isn't available when running Files as admin. If you wish to use drag and drop, you can work around this limitation by opening UAC (User Account Control) from the Start Menu and selecting the third level, and restarting Windows. Otherwise, you can keep using Files without drag &amp; drop.</value>
   </data>
   <data name="SettingsLeaveAppRunning" xml:space="preserve">
-    <value>ให้แอปทำงานต่อในพื้นหลังเมื่อปิดหน้าต่างไปแล้ว</value>
+    <value>à¹ƒà¸«à¹‰à¹à¸­à¸›à¸—à¸³à¸‡à¸²à¸™à¸•à¹ˆà¸­à¹ƒà¸™à¸žà¸·à¹‰à¸™à¸«à¸¥à¸±à¸‡à¹€à¸¡à¸·à¹ˆà¸­à¸›à¸´à¸”à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¹„à¸›à¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="Blue" xml:space="preserve">
-    <value>น้ำเงิน</value>
+    <value>à¸™à¹‰à¸³à¹€à¸‡à¸´à¸™</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="BlueGray" xml:space="preserve">
-    <value>น้ำเงินเทา</value>
+    <value>à¸™à¹‰à¸³à¹€à¸‡à¸´à¸™à¹€à¸—à¸²</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="BrickRed" xml:space="preserve">
-    <value>อิฐแดง</value>
+    <value>à¸­à¸´à¸à¹à¸”à¸‡</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Camouflage" xml:space="preserve">
-    <value>ลายพราง</value>
+    <value>à¸¥à¸²à¸¢à¸žà¸£à¸²à¸‡</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="CoolBlueBright" xml:space="preserve">
@@ -3568,15 +3574,15 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Gray" xml:space="preserve">
-    <value>เทา</value>
+    <value>à¹€à¸—à¸²</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="GrayDark" xml:space="preserve">
-    <value>เทาเข้ม</value>
+    <value>à¹€à¸—à¸²à¹€à¸‚à¹‰à¸¡</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Green" xml:space="preserve">
-    <value>เขียว</value>
+    <value>à¹€à¸‚à¸µà¸¢à¸§</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="IrisPastel" xml:space="preserve">
@@ -3584,7 +3590,7 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="MintLight" xml:space="preserve">
-    <value>สะระแหน่อ่อน</value>
+    <value>à¸ªà¸°à¸£à¸°à¹à¸«à¸™à¹ˆà¸­à¹ˆà¸­à¸™</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="ModRed" xml:space="preserve">
@@ -3592,7 +3598,7 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="OrangeBright" xml:space="preserve">
-    <value>ส้มสว่าง</value>
+    <value>à¸ªà¹‰à¸¡à¸ªà¸§à¹ˆà¸²à¸‡</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Overcast" xml:space="preserve">
@@ -3600,11 +3606,11 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Red" xml:space="preserve">
-    <value>แดง</value>
+    <value>à¹à¸”à¸‡</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="RoseBright" xml:space="preserve">
-    <value>กุหลาบสดใส</value>
+    <value>à¸à¸¸à¸«à¸¥à¸²à¸šà¸ªà¸”à¹ƒà¸ª</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Seafoam" xml:space="preserve">
@@ -3620,21 +3626,21 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="YellowGold" xml:space="preserve">
-    <value>เหลืองทอง</value>
+    <value>à¹€à¸«à¸¥à¸·à¸­à¸‡à¸—à¸­à¸‡</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="ClearCompleted" xml:space="preserve">
     <value>Clear completed</value>
   </data>
   <data name="NameWithColon" xml:space="preserve">
-    <value>ชื่อ:</value>
+    <value>à¸Šà¸·à¹ˆà¸­:</value>
   </data>
   <data name="StatusCenter_ProcessedSize_Header" xml:space="preserve">
-    <value>{0} ของ {1} ถูกประมวลผลแล้ว</value>
+    <value>{0} à¸‚à¸­à¸‡ {1} à¸–à¸¹à¸à¸›à¸£à¸°à¸¡à¸§à¸¥à¸œà¸¥à¹à¸¥à¹‰à¸§</value>
     <comment>Shown in a StatusCenter card. Used as "64 MB of 1 GB processed"</comment>
   </data>
   <data name="ItemsLower" xml:space="preserve">
-    <value>รายการ</value>
+    <value>à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="CannotInitializeGitRepo" xml:space="preserve">
     <value>Files can't initialize this directory as a Git repository.</value>
@@ -3646,13 +3652,13 @@
     <value>Add page</value>
   </data>
   <data name="ProcessingItems" xml:space="preserve">
-    <value>กำลังประมวลผลรายการ</value>
+    <value>à¸à¸³à¸¥à¸±à¸‡à¸›à¸£à¸°à¸¡à¸§à¸¥à¸œà¸¥à¸£à¸²à¸¢à¸à¸²à¸£</value>
   </data>
   <data name="DiscoveringItems" xml:space="preserve">
     <value>Discovering items...</value>
   </data>
   <data name="SpeedWithColon" xml:space="preserve">
-    <value>ความเร็ว:</value>
+    <value>à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§:</value>
   </data>
   <data name="StatusCenter_CompressCanceled_Header" xml:space="preserve">
     <value>Canceled compressing {0} items to "{1}"</value>
@@ -3975,7 +3981,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_Prepare_Header" xml:space="preserve">
-    <value>กำลังเตรียมกระบวนการ</value>
+    <value>à¸à¸³à¸¥à¸±à¸‡à¹€à¸•à¸£à¸µà¸¢à¸¡à¸à¸£à¸°à¸šà¸§à¸™à¸à¸²à¸£</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_ProcessedItems_Header" xml:space="preserve">
@@ -3983,13 +3989,13 @@
     <comment>Shown in a StatusCenter card. Used as "8/20 items processed"</comment>
   </data>
   <data name="UnblockDownloadedFile" xml:space="preserve">
-    <value>ยกเลิกบล็อกไฟล์ที่ดาวน์โหลด</value>
+    <value>à¸¢à¸à¹€à¸¥à¸´à¸à¸šà¸¥à¹‡à¸­à¸à¹„à¸Ÿà¸¥à¹Œà¸—à¸µà¹ˆà¸”à¸²à¸§à¸™à¹Œà¹‚à¸«à¸¥à¸”</value>
   </data>
   <data name="NoFileOperations" xml:space="preserve">
-    <value>ยังไม่กระบวนการใด ๆ ในตอนนี้</value>
+    <value>à¸¢à¸±à¸‡à¹„à¸¡à¹ˆà¸à¸£à¸°à¸šà¸§à¸™à¸à¸²à¸£à¹ƒà¸” à¹† à¹ƒà¸™à¸•à¸­à¸™à¸™à¸µà¹‰</value>
   </data>
   <data name="OpenOnStartupDisabled" xml:space="preserve">
-    <value>ตัวเลือกเปิด Files เมื่อวินโดว์เริ่มทำงานไม่สามารถใช้งานได้เนื่องจากการตั้งค่าหรือนโยบายระบบของคุณ หากต้องการเปิดใช้งานให้เปิดตัวจัดการงานแล้วไปที่หน้าเริ่มต้น</value>
+    <value>à¸•à¸±à¸§à¹€à¸¥à¸·à¸­à¸à¹€à¸›à¸´à¸” Files à¹€à¸¡à¸·à¹ˆà¸­à¸§à¸´à¸™à¹‚à¸”à¸§à¹Œà¹€à¸£à¸´à¹ˆà¸¡à¸—à¸³à¸‡à¸²à¸™à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹„à¸”à¹‰à¹€à¸™à¸·à¹ˆà¸­à¸‡à¸ˆà¸²à¸à¸à¸²à¸£à¸•à¸±à¹‰à¸‡à¸„à¹ˆà¸²à¸«à¸£à¸·à¸­à¸™à¹‚à¸¢à¸šà¸²à¸¢à¸£à¸°à¸šà¸šà¸‚à¸­à¸‡à¸„à¸¸à¸“ à¸«à¸²à¸à¸•à¹‰à¸­à¸‡à¸à¸²à¸£à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹ƒà¸«à¹‰à¹€à¸›à¸´à¸”à¸•à¸±à¸§à¸ˆà¸±à¸”à¸à¸²à¸£à¸‡à¸²à¸™à¹à¸¥à¹‰à¸§à¹„à¸›à¸—à¸µà¹ˆà¸«à¸™à¹‰à¸²à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™</value>
   </data>
   <data name="FailedToRestore" xml:space="preserve">
     <value>Failed to restore items from Recycle Bin</value>
@@ -4007,16 +4013,16 @@
     <value>Are you sure you want to permanently delete "{0}" branch?</value>
   </data>
   <data name="ConnectedToGitHub" xml:space="preserve">
-    <value>เชื่อมต่อกับ GitHub แล้ว</value>
+    <value>à¹€à¸Šà¸·à¹ˆà¸­à¸¡à¸•à¹ˆà¸­à¸à¸±à¸š GitHub à¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="Logout" xml:space="preserve">
-    <value>ออกจากระบบ</value>
+    <value>à¸­à¸­à¸à¸ˆà¸²à¸à¸£à¸°à¸šà¸š</value>
   </data>
   <data name="ConnectToGitHub" xml:space="preserve">
-    <value>เชื่อมต่อกับ GitHub</value>
+    <value>à¹€à¸Šà¸·à¹ˆà¸­à¸¡à¸•à¹ˆà¸­à¸à¸±à¸š GitHub</value>
   </data>
   <data name="Login" xml:space="preserve">
-    <value>เข้าสู่ระบบ</value>
+    <value>à¹€à¸‚à¹‰à¸²à¸ªà¸¹à¹ˆà¸£à¸°à¸šà¸š</value>
   </data>
   <data name="ErrorApplyingTagContent" xml:space="preserve">
     <value>Tags are currently only compatible on drives formatted as NTFS.</value>
@@ -4028,128 +4034,128 @@
     <value>Extract selected {0, plural, one {archive} other {archives}} here for single-item or to new folder for multi-item</value>
   </data>
   <data name="ExtractHereSmart" xml:space="preserve">
-    <value>แยกไฟล์ที่นี้ (อัจฉริยะ)</value>
+    <value>à¹à¸¢à¸à¹„à¸Ÿà¸¥à¹Œà¸—à¸µà¹ˆà¸™à¸µà¹‰ (à¸­à¸±à¸ˆà¸‰à¸£à¸´à¸¢à¸°)</value>
   </data>
   <data name="SortFilesAndFoldersTogether" xml:space="preserve">
-    <value>เรียงไฟล์และโฟลเดอร์เข้าด้วยกัน</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¹„à¸Ÿà¸¥à¹Œà¹à¸¥à¸°à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¹€à¸‚à¹‰à¸²à¸”à¹‰à¸§à¸¢à¸à¸±à¸™</value>
   </data>
   <data name="SortFilesAndFoldersTogetherDescription" xml:space="preserve">
     <value>Sort files and folders in the same list</value>
   </data>
   <data name="SortFilesFirst" xml:space="preserve">
-    <value>เรียงไฟล์ก่อน</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¹„à¸Ÿà¸¥à¹Œà¸à¹ˆà¸­à¸™</value>
   </data>
   <data name="SortFilesFirstDescription" xml:space="preserve">
-    <value>เรียงไฟล์ก่อน โฟลเดอร์ที่หลัง</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¹„à¸Ÿà¸¥à¹Œà¸à¹ˆà¸­à¸™ à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸—à¸µà¹ˆà¸«à¸¥à¸±à¸‡</value>
   </data>
   <data name="SortFoldersFirst" xml:space="preserve">
-    <value>เรียงโฟลเดอร์ก่อน</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸à¹ˆà¸­à¸™</value>
   </data>
   <data name="SortFoldersFirstDescription" xml:space="preserve">
-    <value>เรียงโฟลเดอร์ก่อน ไฟล์ที่หลัง</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸à¹ˆà¸­à¸™ à¹„à¸Ÿà¸¥à¹Œà¸—à¸µà¹ˆà¸«à¸¥à¸±à¸‡</value>
   </data>
   <data name="SortPriority" xml:space="preserve">
-    <value>เรียงตามความสำคัญ</value>
+    <value>à¹€à¸£à¸µà¸¢à¸‡à¸•à¸²à¸¡à¸„à¸§à¸²à¸¡à¸ªà¸³à¸„à¸±à¸</value>
   </data>
   <data name="FailedToRotateImage" xml:space="preserve">
-    <value>ไม่สามารถมุมรูปภาพได้</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¸¡à¸¸à¸¡à¸£à¸¹à¸›à¸ à¸²à¸žà¹„à¸”à¹‰</value>
   </data>
   <data name="Restart" xml:space="preserve">
-    <value>เริ่มต้นใหม่</value>
+    <value>à¹€à¸£à¸´à¹ˆà¸¡à¸•à¹‰à¸™à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="Quit" xml:space="preserve">
-    <value>ออก</value>
+    <value>à¸­à¸­à¸</value>
   </data>
   <data name="FaildToShareItems" xml:space="preserve">
-    <value>ไม่สามารถแชร์รายการได้</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¹à¸Šà¸£à¹Œà¸£à¸²à¸¢à¸à¸²à¸£à¹„à¸”à¹‰</value>
   </data>
   <data name="ScrollToPreviousFolderWhenNavigatingUp" xml:space="preserve">
     <value>Scroll to previous folder when navigating up</value>
   </data>
   <data name="NewWindowDescription" xml:space="preserve">
-    <value>เปิดหน้าต่างใหม่</value>
+    <value>à¹€à¸›à¸´à¸”à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡à¹ƒà¸«à¸¡à¹ˆ</value>
   </data>
   <data name="ChangeAlbumCover" xml:space="preserve">
-    <value>เปลี่ยนปกอัลบั้ม</value>
+    <value>à¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™à¸›à¸à¸­à¸±à¸¥à¸šà¸±à¹‰à¸¡</value>
   </data>
   <data name="RemoveAlbumCover" xml:space="preserve">
     <value>Remove album cover</value>
   </data>
   <data name="ItemRenameFailed" xml:space="preserve">
-    <value>ไม่สามารถเปลี่ยนชื่อรายการได้</value>
+    <value>à¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™à¸Šà¸·à¹ˆà¸­à¸£à¸²à¸¢à¸à¸²à¸£à¹„à¸”à¹‰</value>
   </data>
   <data name="HigherPermissionsRequired" xml:space="preserve">
-    <value>การแก้ไข "{0}" จำเป็นต้องใช้สิทธิ์เพิ่มเติม</value>
+    <value>à¸à¸²à¸£à¹à¸à¹‰à¹„à¸‚ "{0}" à¸ˆà¸³à¹€à¸›à¹‡à¸™à¸•à¹‰à¸­à¸‡à¹ƒà¸Šà¹‰à¸ªà¸´à¸—à¸˜à¸´à¹Œà¹€à¸žà¸´à¹ˆà¸¡à¹€à¸•à¸´à¸¡</value>
   </data>
   <data name="EditPermissions" xml:space="preserve">
-    <value>แก้ไขสิทธิ</value>
+    <value>à¹à¸à¹‰à¹„à¸‚à¸ªà¸´à¸—à¸˜à¸´</value>
   </data>
   <data name="BackgroundRunningNotificationBody" xml:space="preserve">
-    <value>Files ยังคงทำงานอยู่ในพื้นหลังเพื่อลดเวลาที่ใช้การเปิดโปรแกรม</value>
+    <value>Files à¸¢à¸±à¸‡à¸„à¸‡à¸—à¸³à¸‡à¸²à¸™à¸­à¸¢à¸¹à¹ˆà¹ƒà¸™à¸žà¸·à¹‰à¸™à¸«à¸¥à¸±à¸‡à¹€à¸žà¸·à¹ˆà¸­à¸¥à¸”à¹€à¸§à¸¥à¸²à¸—à¸µà¹ˆà¹ƒà¸Šà¹‰à¸à¸²à¸£à¹€à¸›à¸´à¸”à¹‚à¸›à¸£à¹à¸à¸£à¸¡</value>
   </data>
   <data name="BackgroundRunningNotificationHeader" xml:space="preserve">
-    <value>Files หายไปไหนแล้ว</value>
+    <value>Files à¸«à¸²à¸¢à¹„à¸›à¹„à¸«à¸™à¹à¸¥à¹‰à¸§</value>
   </data>
   <data name="QuestionsAndDiscussions" xml:space="preserve">
-    <value>ตั้งคำถามสนทนา</value>
+    <value>à¸•à¸±à¹‰à¸‡à¸„à¸³à¸–à¸²à¸¡à¸ªà¸™à¸—à¸™à¸²</value>
   </data>
   <data name="Compact" xml:space="preserve">
-    <value>กะทัดรัด</value>
+    <value>à¸à¸°à¸—à¸±à¸”à¸£à¸±à¸”</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Small" xml:space="preserve">
-    <value>เล็ก</value>
+    <value>à¹€à¸¥à¹‡à¸</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium" xml:space="preserve">
-    <value>กลาง</value>
+    <value>à¸à¸¥à¸²à¸‡</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium+" xml:space="preserve">
-    <value>กลาง +</value>
+    <value>à¸à¸¥à¸²à¸‡ +</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium++" xml:space="preserve">
-    <value>กลาง ++</value>
+    <value>à¸à¸¥à¸²à¸‡ ++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium+++" xml:space="preserve">
-    <value>กลาง +++</value>
+    <value>à¸à¸¥à¸²à¸‡ +++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium++++" xml:space="preserve">
-    <value>กลาง ++++</value>
+    <value>à¸à¸¥à¸²à¸‡ ++++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium+++++" xml:space="preserve">
-    <value>กลาง +++++</value>
+    <value>à¸à¸¥à¸²à¸‡ +++++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large" xml:space="preserve">
-    <value>ใหญ่</value>
+    <value>à¹ƒà¸«à¸à¹ˆ</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large+" xml:space="preserve">
-    <value>ใหญ่ +</value>
+    <value>à¹ƒà¸«à¸à¹ˆ +</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large++" xml:space="preserve">
-    <value>ใหญ่ ++</value>
+    <value>à¹ƒà¸«à¸à¹ˆ ++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large+++" xml:space="preserve">
-    <value>ใหญ่ +++</value>
+    <value>à¹ƒà¸«à¸à¹ˆ +++</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="ExtraLarge" xml:space="preserve">
-    <value>ใหญ่พิเศษ</value>
+    <value>à¹ƒà¸«à¸à¹ˆà¸žà¸´à¹€à¸¨à¸©</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="DetailsView" xml:space="preserve">
-    <value>มุมมองละเอียด</value>
+    <value>à¸¡à¸¸à¸¡à¸¡à¸­à¸‡à¸¥à¸°à¹€à¸­à¸µà¸¢à¸”</value>
   </data>
   <data name="LayoutType" xml:space="preserve">
-    <value>ประเภทเค้าโครง</value>
+    <value>à¸›à¸£à¸°à¹€à¸ à¸—à¹€à¸„à¹‰à¸²à¹‚à¸„à¸£à¸‡</value>
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Actions</value>
@@ -4177,6 +4183,12 @@
   </data>
   <data name="KeybindingInvalidKeyNotification" xml:space="preserve">
     <value>The key binding you choose cannot be used, please try again using a different key binding.</value>
+  </data>
+  <data name="KeyboardShortcuts" xml:space="preserve">
+    <value>Keyboard shortcuts</value>
+  </data>
+  <data name="DeleteKeyBindingConfirmation" xml:space="preserve">
+    <value>Are you sure you want to remove this key binding?</value>
   </data>
   <data name="Customized" xml:space="preserve">
     <value>Customized</value>
@@ -4206,14 +4218,14 @@
     <value>Image fit</value>
   </data>
   <data name="Left" xml:space="preserve">
-    <value>ลูกศรซ้าย</value>
+    <value>à¸¥à¸¹à¸à¸¨à¸£à¸‹à¹‰à¸²à¸¢</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Opacity" xml:space="preserve">
     <value>Opacity</value>
   </data>
   <data name="Right" xml:space="preserve">
-    <value>ลูกศรขวา</value>
+    <value>à¸¥à¸¹à¸à¸¨à¸£à¸‚à¸§à¸²</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Top" xml:space="preserve">
@@ -4338,7 +4350,7 @@
     <value>Arrange panes horizontally</value>
   </data>
   <data name="SplitPane" xml:space="preserve">
-    <value>แบ่งหน้าต่าง</value>
+    <value>à¹à¸šà¹ˆà¸‡à¸«à¸™à¹‰à¸²à¸•à¹ˆà¸²à¸‡</value>
   </data>
   <data name="ShowTabActions" xml:space="preserve">
     <value>Show tab actions button in the title bar</value>
@@ -4747,5 +4759,25 @@
   </data>
   <data name="ConfirmRemoveTagsDialogContent" xml:space="preserve">
     <value>Are you sure you want to remove tags from the selected items?</value>
+  </data>  <data name="SharedTagsPath" xml:space="preserve">
+    <value>Tags &amp; categories storage path</value>
+  </data>
+  <data name="SharedTagsPathDescription" xml:space="preserve">
+    <value>Requires app restart</value>
+  </data>
+  <data name="SharedTagsPathNotSet" xml:space="preserve">
+    <value>Not set (default path)</value>
+  </data>
+  <data name="SharedTagsPathInvalid" xml:space="preserve">
+    <value>Invalid path</value>
+  </data>
+  <data name="SharedTagsPathInvalidDescription" xml:space="preserve">
+    <value>The selected path is not a valid directory.</value>
+  </data>
+  <data name="SharedTagsPathRestartTitle" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="SharedTagsPathRestartMessage" xml:space="preserve">
+    <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
 </root>

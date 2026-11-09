@@ -56,8 +56,6 @@ namespace Files.App.ViewModels.Settings
 			fileTagsCategoriesSettingsService.FileCategoryList
 				?.Where(c => c.Uid != UncategorizedCategoryId)
 				.ForEach(category => Categories.Add(new ListedCategoryViewModel(category)));
-
-			isBulkOperation = false;
 		}
 
 		private void Tags_CollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)

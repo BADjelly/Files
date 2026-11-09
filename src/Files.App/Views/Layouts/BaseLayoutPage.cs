@@ -1076,7 +1076,9 @@ namespace Files.App.Views.Layouts
 				var sortedItems = SortingHelper.OrderFileList(itemList, folderSettings.DirectorySortOption, folderSettings.DirectorySortDirection, folderSettings.SortDirectoriesAlongsideFiles, folderSettings.SortFilesFirst).ToList();
 				var orderedItems = sortedItems.SkipWhile(x => x != firstItem).Concat(sortedItems.TakeWhile(x => x != firstItem)).ToList();
 
-				var shellItemList = SafetyExtensions.IgnoreExceptions(() => orderedItems.Select(item => new ShellItem(item.GetRequiredPath())).ToArray());
+				var shellItemList = SafetyExtensions.IgnoreExceptions(() => orderedItems.Select(item => new ShellItem(item.IsRecycleBinItem
+					? ShellPath.GetRecycleBinParsingName(item.GetRequiredPath())
+					: item.GetRequiredPath())).ToArray());
 				try
 				{
 					if (shellItemList?[0].FileSystemPath is not null && !instanceViewModel.IsPageTypeSearchResults)
@@ -1148,7 +1150,12 @@ namespace Files.App.Views.Layouts
 
 					var draggedItems = await FilesystemHelpers.GetDraggedStorageItems(e.DataView);
 
-					if (draggedItems.Any(draggedItem => draggedItem.Path == item.ItemPath))
+					// Dropping onto an executable or a script opens the dragged items with it, so only the item itself is rejected there
+					var isOpenWithTarget = item.IsExecutable || item.IsScriptFile;
+
+					if (isOpenWithTarget
+						? draggedItems.ContainsDestinationPath(item.ItemPath)
+						: draggedItems.ContainsDestinationOrAncestor(item.ItemPath))
 					{
 						e.AcceptedOperation = DataPackageOperation.None;
 					}
@@ -1420,23 +1427,39 @@ namespace Files.App.Views.Layouts
 				InitializeDrag(container, listedItem);
 
 				if (listedItem.PreloadedIconData is not null && listedItem.FileImage is null)
-					_ = ParentShellPageInstance.GetRequiredShellViewModel().ApplyCachedThumbnailOrPreloadedIconAsync(listedItem);
+					EnqueueItemLoad(container, listedItem, shellViewModel => shellViewModel.ApplyCachedThumbnailOrPreloadedIconAsync(listedItem));
 
 				if (!listedItem.ItemPropertiesInitialized)
 				{
 					uint callbackPhase = 3;
-					args.RegisterUpdateCallback(callbackPhase, async (s, c) =>
+					args.RegisterUpdateCallback(callbackPhase, (s, c) => EnqueueItemLoad(container, listedItem, shellViewModel =>
 					{
-						var shellViewModel = ParentShellPageInstance.GetRequiredShellViewModel();
-
 						// Rows realized mid-scroll are mostly flung past before the gesture ends; the settle pass loads the ones still visible
-						if (shellViewModel.IsScrollInFlight)
-							return;
+						if (shellViewModel.IsScrollInFlight || listedItem.ItemPropertiesInitialized)
+							return Task.CompletedTask;
 
-						await LoadItemExtendedPropertiesAsync(listedItem, shellViewModel);
-					});
+						return LoadItemExtendedPropertiesAsync(listedItem, shellViewModel);
+					}));
 				}
 			}
+		}
+
+		private void EnqueueItemLoad(SelectorItem container, ListedItem item, Func<ShellViewModel, Task> load)
+		{
+			if (ParentShellPageInstance?.ShellViewModel is not { } shellViewModel)
+				return;
+
+			// Always enqueue: loaders can pump COM messages and must run after container realization returns.
+			DispatcherQueue.TryEnqueue(Microsoft.UI.Dispatching.DispatcherQueuePriority.Low, () =>
+			{
+				_ = SafetyExtensions.IgnoreExceptions(async () =>
+				{
+					if (ParentShellPageInstance?.ShellViewModel != shellViewModel || !ReferenceEquals(ItemsControl.ItemFromContainer(container), item))
+						return;
+
+					await load(shellViewModel);
+				}, App.Logger);
+			});
 		}
 
 		[DynamicWindowsRuntimeCast(typeof(FrameworkElement))]

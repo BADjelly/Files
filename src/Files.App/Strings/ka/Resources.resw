@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -133,13 +133,13 @@
     <value>Copy selected item path with quotes</value>
   </data>
   <data name="Browse" xml:space="preserve">
-    <value>გადათვალიერება</value>
+    <value>áƒ’áƒáƒ“áƒáƒ—áƒ•áƒáƒšáƒ˜áƒ”áƒ áƒ”áƒ‘áƒ</value>
   </data>
   <data name="Size" xml:space="preserve">
-    <value>ზომა</value>
+    <value>áƒ–áƒáƒ›áƒ</value>
   </data>
   <data name="PropertiesCreated.Text" xml:space="preserve">
-    <value>შექმნილია:</value>
+    <value>áƒ¨áƒ”áƒ¥áƒ›áƒœáƒ˜áƒšáƒ˜áƒ:</value>
   </data>
   <data name="Path" xml:space="preserve">
     <value>Path</value>
@@ -154,16 +154,16 @@
     <value>Uncompressed size:</value>
   </data>
   <data name="ErrorDialogThisActionCannotBeDone" xml:space="preserve">
-    <value>ეს მოქმედება ვერ განხორციელდება</value>
+    <value>áƒ”áƒ¡ áƒ›áƒáƒ¥áƒ›áƒ”áƒ“áƒ”áƒ‘áƒ áƒ•áƒ”áƒ  áƒ’áƒáƒœáƒ®áƒáƒ áƒªáƒ˜áƒ”áƒšáƒ“áƒ”áƒ‘áƒ</value>
   </data>
   <data name="ErrorDialogTheDestinationFolder" xml:space="preserve">
-    <value>დანიშნულების საქაღალდე</value>
+    <value>áƒ“áƒáƒœáƒ˜áƒ¨áƒœáƒ£áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”</value>
   </data>
   <data name="ErrorDialogIsASubfolder" xml:space="preserve">
-    <value>არის წყაროს საქაღალდის ქვე-საქაღალდე</value>
+    <value>áƒáƒ áƒ˜áƒ¡ áƒ¬áƒ§áƒáƒ áƒáƒ¡ áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ˜áƒ¡ áƒ¥áƒ•áƒ”-áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”</value>
   </data>
   <data name="Skip" xml:space="preserve">
-    <value>გამოტოვება</value>
+    <value>áƒ’áƒáƒ›áƒáƒ¢áƒáƒ•áƒ”áƒ‘áƒ</value>
   </data>
   <data name="SelectAll" xml:space="preserve">
     <value>Select all</value>
@@ -175,10 +175,10 @@
     <value>Clear selection</value>
   </data>
   <data name="PropertiesModified.Text" xml:space="preserve">
-    <value>განახლდა:</value>
+    <value>áƒ’áƒáƒœáƒáƒ®áƒšáƒ“áƒ:</value>
   </data>
   <data name="Accessed" xml:space="preserve">
-    <value>წვდომა:</value>
+    <value>áƒ¬áƒ•áƒ“áƒáƒ›áƒ:</value>
   </data>
   <data name="RecentItemClearAllText" xml:space="preserve">
     <value>Clear all items</value>
@@ -196,7 +196,7 @@
     <value>No settings match your search.</value>
   </data>
   <data name="RecentItemDescription.Text" xml:space="preserve">
-    <value>საქაღალდეებზე, რომლებზეც წვდომა ადრე გქონდათ აქ გამოჩნდებიან</value>
+    <value>áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”áƒ”áƒ‘áƒ–áƒ”, áƒ áƒáƒ›áƒšáƒ”áƒ‘áƒ–áƒ”áƒª áƒ¬áƒ•áƒ“áƒáƒ›áƒ áƒáƒ“áƒ áƒ” áƒ’áƒ¥áƒáƒœáƒ“áƒáƒ— áƒáƒ¥ áƒ’áƒáƒ›áƒáƒ©áƒœáƒ“áƒ”áƒ‘áƒ˜áƒáƒœ</value>
   </data>
   <data name="RecentItemRemoveText" xml:space="preserve">
     <value>Remove this item</value>
@@ -205,13 +205,13 @@
     <value>GitHub repository</value>
   </data>
   <data name="About" xml:space="preserve">
-    <value>შესახებ</value>
+    <value>áƒ¨áƒ”áƒ¡áƒáƒ®áƒ”áƒ‘</value>
   </data>
   <data name="OpenSource" xml:space="preserve">
     <value>Open source</value>
   </data>
   <data name="DateFormat" xml:space="preserve">
-    <value>თარიღის ფორმატი</value>
+    <value>áƒ—áƒáƒ áƒ˜áƒ¦áƒ˜áƒ¡ áƒ¤áƒáƒ áƒ›áƒáƒ¢áƒ˜</value>
   </data>
   <data name="SettingsAppearanceTheme" xml:space="preserve">
     <value>Theme</value>
@@ -220,16 +220,16 @@
     <value>Font</value>
   </data>
   <data name="SettingsFilesAndFoldersShowFileExtensions" xml:space="preserve">
-    <value>გაფართოებების ჩვენება ცნობილი ფაილის ნიმუშებისთვის</value>
+    <value>áƒ’áƒáƒ¤áƒáƒ áƒ—áƒáƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ©áƒ•áƒ”áƒœáƒ”áƒ‘áƒ áƒªáƒœáƒáƒ‘áƒ˜áƒšáƒ˜ áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒœáƒ˜áƒ›áƒ£áƒ¨áƒ”áƒ‘áƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡</value>
   </data>
   <data name="SettingsFilesAndFoldersShowHiddenItems" xml:space="preserve">
-    <value>დამალული ფაილების და საქაღალდეების ჩვენება</value>
+    <value>áƒ“áƒáƒ›áƒáƒšáƒ£áƒšáƒ˜ áƒ¤áƒáƒ˜áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒ“áƒ áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”áƒ”áƒ‘áƒ˜áƒ¡ áƒ©áƒ•áƒ”áƒœáƒ”áƒ‘áƒ</value>
   </data>
   <data name="ShowDotFiles" xml:space="preserve">
     <value>Show dot files</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>შესახედაობა</value>
+    <value>áƒ¨áƒ”áƒ¡áƒáƒ®áƒ”áƒ“áƒáƒáƒ‘áƒ</value>
   </data>
   <data name="BackgroundColor" xml:space="preserve">
     <value>Background color</value>
@@ -256,28 +256,28 @@
     <value>Clear cache</value>
   </data>
   <data name="SettingsOnStartupContinueWhereYouLeftOff.Content" xml:space="preserve">
-    <value>გააგრძელეთ იქ სადაც შეჩერდით</value>
+    <value>áƒ’áƒáƒáƒ’áƒ áƒ«áƒ”áƒšáƒ”áƒ— áƒ˜áƒ¥ áƒ¡áƒáƒ“áƒáƒª áƒ¨áƒ”áƒ©áƒ”áƒ áƒ“áƒ˜áƒ—</value>
   </data>
   <data name="SettingsOnStartupOpenANewTab.Content" xml:space="preserve">
-    <value>ახალი ჩანართის გახსნა</value>
+    <value>áƒáƒ®áƒáƒšáƒ˜ áƒ©áƒáƒœáƒáƒ áƒ—áƒ˜áƒ¡ áƒ’áƒáƒ®áƒ¡áƒœáƒ</value>
   </data>
   <data name="SettingsOnStartupOpenASpecificPage.Content" xml:space="preserve">
-    <value>კონკრეტული გვერდის ან გვერდების გახსნა</value>
+    <value>áƒ™áƒáƒœáƒ™áƒ áƒ”áƒ¢áƒ£áƒšáƒ˜ áƒ’áƒ•áƒ”áƒ áƒ“áƒ˜áƒ¡ áƒáƒœ áƒ’áƒ•áƒ”áƒ áƒ“áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ®áƒ¡áƒœáƒ</value>
   </data>
   <data name="Desktop" xml:space="preserve">
-    <value>სამუშაო მაგიდა</value>
+    <value>áƒ¡áƒáƒ›áƒ£áƒ¨áƒáƒ áƒ›áƒáƒ’áƒ˜áƒ“áƒ</value>
   </data>
   <data name="Documents" xml:space="preserve">
-    <value>დოკუმენტები</value>
+    <value>áƒ“áƒáƒ™áƒ£áƒ›áƒ”áƒœáƒ¢áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="Downloads" xml:space="preserve">
-    <value>გადმოწერილები</value>
+    <value>áƒ’áƒáƒ“áƒ›áƒáƒ¬áƒ”áƒ áƒ˜áƒšáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>სახელი</value>
+    <value>áƒ¡áƒáƒ®áƒ”áƒšáƒ˜</value>
   </data>
   <data name="Ascending" xml:space="preserve">
-    <value>ზრდადობის მიხედვით</value>
+    <value>áƒ–áƒ áƒ“áƒáƒ“áƒáƒ‘áƒ˜áƒ¡ áƒ›áƒ˜áƒ®áƒ”áƒ“áƒ•áƒ˜áƒ—</value>
   </data>
   <data name="Paste" xml:space="preserve">
     <value>Paste</value>
@@ -286,13 +286,13 @@
     <value>Paste shortcut</value>
   </data>
   <data name="BaseLayoutContextFlyoutNew.Label" xml:space="preserve">
-    <value>ახალი</value>
+    <value>áƒáƒ®áƒáƒšáƒ˜</value>
   </data>
   <data name="Properties" xml:space="preserve">
     <value>Properties</value>
   </data>
   <data name="Open" xml:space="preserve">
-    <value>გახსნა</value>
+    <value>áƒ’áƒáƒ®áƒ¡áƒœáƒ</value>
   </data>
   <data name="OpenInNewTab" xml:space="preserve">
     <value>Open in new tab</value>
@@ -301,13 +301,13 @@
     <value>Open in new window</value>
   </data>
   <data name="Share" xml:space="preserve">
-    <value>გაზიარება</value>
+    <value>áƒ’áƒáƒ–áƒ˜áƒáƒ áƒ”áƒ‘áƒ</value>
   </data>
   <data name="Cut" xml:space="preserve">
     <value>Cut</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>წაშლა</value>
+    <value>áƒ¬áƒáƒ¨áƒšáƒ</value>
   </data>
   <data name="PinFolderToSidebar" xml:space="preserve">
     <value>Pin to Sidebar</value>
@@ -331,22 +331,28 @@
     <value>Create new {0}</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>ნათელი</value>
+    <value>áƒœáƒáƒ—áƒ”áƒšáƒ˜</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>ბნელი</value>
+    <value>áƒ‘áƒœáƒ”áƒšáƒ˜</value>
   </data>
   <data name="DefaultTheme" xml:space="preserve">
     <value>System Theme</value>
+  </data>
+  <data name="LightThemeLabel" xml:space="preserve">
+    <value>Light Theme</value>
+  </data>
+  <data name="DarkThemeLabel" xml:space="preserve">
+    <value>Dark Theme</value>
   </data>
   <data name="UseSystemSetting" xml:space="preserve">
     <value>Use system setting</value>
   </data>
   <data name="Application" xml:space="preserve">
-    <value>აპლიკაცია</value>
+    <value>áƒáƒžáƒšáƒ˜áƒ™áƒáƒªáƒ˜áƒ</value>
   </data>
   <data name="SystemTimeStyle" xml:space="preserve">
-    <value>სისტემა</value>
+    <value>áƒ¡áƒ˜áƒ¡áƒ¢áƒ”áƒ›áƒ</value>
   </data>
   <data name="NewFolder" xml:space="preserve">
     <value>New folder</value>
@@ -355,28 +361,28 @@
     <value>New file</value>
   </data>
   <data name="EmptyFolder.Text" xml:space="preserve">
-    <value>ეს საქაღალდე ცარიელია.</value>
+    <value>áƒ”áƒ¡ áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ” áƒªáƒáƒ áƒ˜áƒ”áƒšáƒ˜áƒ.</value>
   </data>
   <data name="Back" xml:space="preserve">
-    <value>უკან (Alt+Left Arrow)</value>
+    <value>áƒ£áƒ™áƒáƒœ (Alt+Left Arrow)</value>
   </data>
   <data name="Forward" xml:space="preserve">
-    <value>წინ (Alt+Right Arrow)</value>
+    <value>áƒ¬áƒ˜áƒœ (Alt+Right Arrow)</value>
   </data>
   <data name="Up" xml:space="preserve">
-    <value>ზემოთ (Alt+Up Arrow)</value>
+    <value>áƒ–áƒ”áƒ›áƒáƒ— (Alt+Up Arrow)</value>
   </data>
   <data name="Refresh" xml:space="preserve">
     <value>Refresh</value>
   </data>
   <data name="ItemAlreadyExistsDialogContent" xml:space="preserve">
-    <value>ამ სახელწოდების მქონე ნივთი უკვე არსებობს ამ კატალოგში.</value>
+    <value>áƒáƒ› áƒ¡áƒáƒ®áƒ”áƒšáƒ¬áƒáƒ“áƒ”áƒ‘áƒ˜áƒ¡ áƒ›áƒ¥áƒáƒœáƒ” áƒœáƒ˜áƒ•áƒ—áƒ˜ áƒ£áƒ™áƒ•áƒ” áƒáƒ áƒ¡áƒ”áƒ‘áƒáƒ‘áƒ¡ áƒáƒ› áƒ™áƒáƒ¢áƒáƒšáƒáƒ’áƒ¨áƒ˜.</value>
   </data>
   <data name="ItemAlreadyExistsDialogSecondaryButtonText" xml:space="preserve">
-    <value>არსებული ნივთის ჩანაცვლება</value>
+    <value>áƒáƒ áƒ¡áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒœáƒ˜áƒ•áƒ—áƒ˜áƒ¡ áƒ©áƒáƒœáƒáƒªáƒ•áƒšáƒ”áƒ‘áƒ</value>
   </data>
   <data name="ItemAlreadyExistsDialogTitle" xml:space="preserve">
-    <value>ნივთი უკვე არსებობს</value>
+    <value>áƒœáƒ˜áƒ•áƒ—áƒ˜ áƒ£áƒ™áƒ•áƒ” áƒáƒ áƒ¡áƒ”áƒ‘áƒáƒ‘áƒ¡</value>
   </data>
   <data name="SetAsLockscreen" xml:space="preserve">
     <value>Set as lockscreen background</value>
@@ -400,7 +406,7 @@
     <value>Cannot open properties for this file</value>
   </data>
   <data name="CannotAccessPropertiesContent" xml:space="preserve">
-    <value>ფაილი, რომელზეც თქვენ ცდილობთ წვდომას, შეიძლება გადატანილი ან წაშლილი იყოს.</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜, áƒ áƒáƒ›áƒ”áƒšáƒ–áƒ”áƒª áƒ—áƒ¥áƒ•áƒ”áƒœ áƒªáƒ“áƒ˜áƒšáƒáƒ‘áƒ— áƒ¬áƒ•áƒ“áƒáƒ›áƒáƒ¡, áƒ¨áƒ”áƒ˜áƒ«áƒšáƒ”áƒ‘áƒ áƒ’áƒáƒ“áƒáƒ¢áƒáƒœáƒ˜áƒšáƒ˜ áƒáƒœ áƒ¬áƒáƒ¨áƒšáƒ˜áƒšáƒ˜ áƒ˜áƒ§áƒáƒ¡.</value>
   </data>
   <data name="FileNotFoundDialogTitle" xml:space="preserve">
     <value>File Not Found</value>
@@ -430,7 +436,7 @@
     <value>Layout</value>
   </data>
   <data name="PropertiesDialogReadOnly.Text" xml:space="preserve">
-    <value>წაიკითხეთ-მხოლოდ</value>
+    <value>áƒ¬áƒáƒ˜áƒ™áƒ˜áƒ—áƒ®áƒ”áƒ—-áƒ›áƒ®áƒáƒšáƒáƒ“</value>
   </data>
   <data name="DaysAgo" xml:space="preserve">
     <value>{0, plural, one {# day ago} other {# days ago}}</value>
@@ -472,16 +478,16 @@
     <value>Now</value>
   </data>
   <data name="ErrorDialogUnsupportedOperation" xml:space="preserve">
-    <value>მოთხოვნილი მოქმედება მხარდაჭერილი არ არის</value>
+    <value>áƒ›áƒáƒ—áƒ®áƒáƒ•áƒœáƒ˜áƒšáƒ˜ áƒ›áƒáƒ¥áƒ›áƒ”áƒ“áƒ”áƒ‘áƒ áƒ›áƒ®áƒáƒ áƒ“áƒáƒ­áƒ”áƒ áƒ˜áƒšáƒ˜ áƒáƒ  áƒáƒ áƒ˜áƒ¡</value>
   </data>
   <data name="DriveFreeSpaceAndCapacity" xml:space="preserve">
-    <value>{1} -დან თავისუფალია {0}</value>
+    <value>{1} -áƒ“áƒáƒœ áƒ—áƒáƒ•áƒ˜áƒ¡áƒ£áƒ¤áƒáƒšáƒ˜áƒ {0}</value>
   </data>
   <data name="SendTo" xml:space="preserve">
     <value>Send to</value>
   </data>
   <data name="FileNameTeachingTip.Subtitle" xml:space="preserve">
-    <value>ნივთის სახელი არ უნდა შეიცავდეს შემდეგ სიმბოლოებს: \ / : * ? " &lt; &gt; |</value>
+    <value>áƒœáƒ˜áƒ•áƒ—áƒ˜áƒ¡ áƒ¡áƒáƒ®áƒ”áƒšáƒ˜ áƒáƒ  áƒ£áƒœáƒ“áƒ áƒ¨áƒ”áƒ˜áƒªáƒáƒ•áƒ“áƒ”áƒ¡ áƒ¨áƒ”áƒ›áƒ“áƒ”áƒ’ áƒ¡áƒ˜áƒ›áƒ‘áƒáƒšáƒáƒ”áƒ‘áƒ¡: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="InvalidFilename.Text" xml:space="preserve">
     <value>The item name specified is invalid</value>
@@ -495,16 +501,16 @@
     <comment>ICU format for plurals, more information here: https://support.crowdin.com/icu-message-syntax/#plural</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>დიახ</value>
+    <value>áƒ“áƒ˜áƒáƒ®</value>
   </data>
   <data name="ConfirmEmptyBinDialogContent" xml:space="preserve">
-    <value>დარწმუნებული ხართ, რომ გსურთ ყველა ამ ნივთის სამუდამოდ წაშლა?</value>
+    <value>áƒ“áƒáƒ áƒ¬áƒ›áƒ£áƒœáƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ®áƒáƒ áƒ—, áƒ áƒáƒ› áƒ’áƒ¡áƒ£áƒ áƒ— áƒ§áƒ•áƒ”áƒšáƒ áƒáƒ› áƒœáƒ˜áƒ•áƒ—áƒ˜áƒ¡ áƒ¡áƒáƒ›áƒ£áƒ“áƒáƒ›áƒáƒ“ áƒ¬áƒáƒ¨áƒšáƒ?</value>
   </data>
   <data name="ConfirmEmptyBinDialogTitle" xml:space="preserve">
-    <value>სანაგვე ყუთის გასუფთავება</value>
+    <value>áƒ¡áƒáƒœáƒáƒ’áƒ•áƒ” áƒ§áƒ£áƒ—áƒ˜áƒ¡ áƒ’áƒáƒ¡áƒ£áƒ¤áƒ—áƒáƒ•áƒ”áƒ‘áƒ</value>
   </data>
   <data name="ItemSizeBytes" xml:space="preserve">
-    <value>ბაიტი</value>
+    <value>áƒ‘áƒáƒ˜áƒ¢áƒ˜</value>
   </data>
   <data name="KiloByteSymbol" xml:space="preserve">
     <value>KB</value>
@@ -534,46 +540,46 @@
     <value>Run as another user</value>
   </data>
   <data name="PropertiesDriveItemTypesEquals" xml:space="preserve">
-    <value>ყველა ტიპის {0}</value>
+    <value>áƒ§áƒ•áƒ”áƒšáƒ áƒ¢áƒ˜áƒžáƒ˜áƒ¡ {0}</value>
   </data>
   <data name="PropertiesDriveItemTypeDifferent" xml:space="preserve">
-    <value>განსხვავებული ნიმუშები</value>
+    <value>áƒ’áƒáƒœáƒ¡áƒ®áƒ•áƒáƒ•áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒœáƒ˜áƒ›áƒ£áƒ¨áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="PropertiesCombinedItemLocation" xml:space="preserve">
     <value>All in {0}</value>
   </data>
   <data name="PropertiesDriveUsedSpace.Text" xml:space="preserve">
-    <value>გამოყენებული სივრცე:</value>
+    <value>áƒ’áƒáƒ›áƒáƒ§áƒ”áƒœáƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ¡áƒ˜áƒ•áƒ áƒªáƒ”:</value>
   </data>
   <data name="PropertiesDriveFreeSpace.Text" xml:space="preserve">
-    <value>თავისუფალი სივრცე:</value>
+    <value>áƒ—áƒáƒ•áƒ˜áƒ¡áƒ£áƒ¤áƒáƒšáƒ˜ áƒ¡áƒ˜áƒ•áƒ áƒªáƒ”:</value>
   </data>
   <data name="PropertiesDriveCapacity.Text" xml:space="preserve">
-    <value>მოცულობა:</value>
+    <value>áƒ›áƒáƒªáƒ£áƒšáƒáƒ‘áƒ:</value>
   </data>
   <data name="PropertiesDriveFileSystem.Text" xml:space="preserve">
-    <value>ფაილის სისტემა:</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒ¡áƒ˜áƒ¡áƒ¢áƒ”áƒ›áƒ:</value>
   </data>
   <data name="JumpListRecentGroupHeader" xml:space="preserve">
-    <value>ბოლოდროინდელი</value>
+    <value>áƒ‘áƒáƒšáƒáƒ“áƒ áƒáƒ˜áƒœáƒ“áƒ”áƒšáƒ˜</value>
   </data>
   <data name="TabStripDragAndDropUIOverrideCaption" xml:space="preserve">
-    <value>ჩანართის გადმოტანა აქ</value>
+    <value>áƒ©áƒáƒœáƒáƒ áƒ—áƒ˜áƒ¡ áƒ’áƒáƒ“áƒ›áƒáƒ¢áƒáƒœáƒ áƒáƒ¥</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="NavigationToolbarVisiblePathNoResults" xml:space="preserve">
-    <value>შედეგები არ არის</value>
+    <value>áƒ¨áƒ”áƒ“áƒ”áƒ’áƒ”áƒ‘áƒ˜ áƒáƒ  áƒáƒ áƒ˜áƒ¡</value>
   </data>
   <data name="SubDirectoryAccessDenied" xml:space="preserve">
-    <value>საჩვენებლად ვერცერთ ნივთზე ვერ ხერხდება წვდომა</value>
+    <value>áƒ¡áƒáƒ©áƒ•áƒ”áƒœáƒ”áƒ‘áƒšáƒáƒ“ áƒ•áƒ”áƒ áƒªáƒ”áƒ áƒ— áƒœáƒ˜áƒ•áƒ—áƒ–áƒ” áƒ•áƒ”áƒ  áƒ®áƒ”áƒ áƒ®áƒ“áƒ”áƒ‘áƒ áƒ¬áƒ•áƒ“áƒáƒ›áƒ</value>
   </data>
   <data name="MoveToFolderCaptionText" xml:space="preserve">
-    <value>გადატანა {0} -ში</value>
+    <value>áƒ’áƒáƒ“áƒáƒ¢áƒáƒœáƒ {0} -áƒ¨áƒ˜</value>
   </data>
   <data name="CopyToFolderCaptionText" xml:space="preserve">
-    <value>ასლის გადატანა {0} -ში</value>
+    <value>áƒáƒ¡áƒšáƒ˜áƒ¡ áƒ’áƒáƒ“áƒáƒ¢áƒáƒœáƒ {0} -áƒ¨áƒ˜</value>
   </data>
   <data name="CloneToFolderCaptionText" xml:space="preserve">
     <value>Clone to {0}</value>
@@ -582,64 +588,64 @@
     <value>Create shortcut</value>
   </data>
   <data name="OpenFileLocation" xml:space="preserve">
-    <value>ფაილის ადგილმდებარეობის გახსნა</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒáƒ“áƒ’áƒ˜áƒšáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ®áƒ¡áƒœáƒ</value>
   </data>
   <data name="PropertiesShortcutItemArgs.Text" xml:space="preserve">
-    <value>არგუმენტები:</value>
+    <value>áƒáƒ áƒ’áƒ£áƒ›áƒ”áƒœáƒ¢áƒ”áƒ‘áƒ˜:</value>
   </data>
   <data name="PropertiesShortcutItemPath.Text" xml:space="preserve">
-    <value>დანიშნულება:</value>
+    <value>áƒ“áƒáƒœáƒ˜áƒ¨áƒœáƒ£áƒšáƒ”áƒ‘áƒ:</value>
   </data>
   <data name="PropertiesShortcutItemType.Text" xml:space="preserve">
-    <value>მალსახმობის ტიპი:</value>
+    <value>áƒ›áƒáƒšáƒ¡áƒáƒ®áƒ›áƒáƒ‘áƒ˜áƒ¡ áƒ¢áƒ˜áƒžáƒ˜:</value>
   </data>
   <data name="PropertiesShortcutTypeLink" xml:space="preserve">
-    <value>ვებ ბმული</value>
+    <value>áƒ•áƒ”áƒ‘ áƒ‘áƒ›áƒ£áƒšáƒ˜</value>
   </data>
   <data name="General" xml:space="preserve">
-    <value>ზოგადი</value>
+    <value>áƒ–áƒáƒ’áƒáƒ“áƒ˜</value>
   </data>
   <data name="Shortcut" xml:space="preserve">
-    <value>მალსახმობი</value>
+    <value>áƒ›áƒáƒšáƒ¡áƒáƒ®áƒ›áƒáƒ‘áƒ˜</value>
   </data>
   <data name="ShortcutWebLinkFileType" xml:space="preserve">
-    <value>ინტერნეტ მალსახმობი</value>
+    <value>áƒ˜áƒœáƒ¢áƒ”áƒ áƒœáƒ”áƒ¢ áƒ›áƒáƒšáƒ¡áƒáƒ®áƒ›áƒáƒ‘áƒ˜</value>
   </data>
   <data name="ShortcutCreateNewSuffix" xml:space="preserve">
-    <value>{0} - მალსახმობი</value>
+    <value>{0} - áƒ›áƒáƒšáƒ¡áƒáƒ®áƒ›áƒáƒ‘áƒ˜</value>
   </data>
   <data name="ExceptionNotificationBody" xml:space="preserve">
-    <value>ფაილებს შეექმნა პრობლემა, რისთვისაც დეველოპერები ჯერ არ მომზადებულან.</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ”áƒ‘áƒ¡ áƒ¨áƒ”áƒ”áƒ¥áƒ›áƒœáƒ áƒžáƒ áƒáƒ‘áƒšáƒ”áƒ›áƒ, áƒ áƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡áƒáƒª áƒ“áƒ”áƒ•áƒ”áƒšáƒáƒžáƒ”áƒ áƒ”áƒ‘áƒ˜ áƒ¯áƒ”áƒ  áƒáƒ  áƒ›áƒáƒ›áƒ–áƒáƒ“áƒ”áƒ‘áƒ£áƒšáƒáƒœ.</value>
   </data>
   <data name="ExceptionNotificationHeader" xml:space="preserve">
-    <value>Რაღაც არასწორად წავიდა!</value>
+    <value>á² áƒáƒ¦áƒáƒª áƒáƒ áƒáƒ¡áƒ¬áƒáƒ áƒáƒ“ áƒ¬áƒáƒ•áƒ˜áƒ“áƒ!</value>
   </data>
   <data name="ExceptionNotificationReportButton" xml:space="preserve">
-    <value>ამ საკითხის გასაჩივრება</value>
+    <value>áƒáƒ› áƒ¡áƒáƒ™áƒ˜áƒ—áƒ®áƒ˜áƒ¡ áƒ’áƒáƒ¡áƒáƒ©áƒ˜áƒ•áƒ áƒ”áƒ‘áƒ</value>
   </data>
   <data name="InvalidItemDialogContent" xml:space="preserve">
-    <value>მითითებული ნივთი არასწორი ან მიუწვდომელია..{0}შეცდომის შეტყობინება:{0}{1}</value>
+    <value>áƒ›áƒ˜áƒ—áƒ˜áƒ—áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒœáƒ˜áƒ•áƒ—áƒ˜ áƒáƒ áƒáƒ¡áƒ¬áƒáƒ áƒ˜ áƒáƒœ áƒ›áƒ˜áƒ£áƒ¬áƒ•áƒ“áƒáƒ›áƒ”áƒšáƒ˜áƒ..{0}áƒ¨áƒ”áƒªáƒ“áƒáƒ›áƒ˜áƒ¡ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ:{0}{1}</value>
   </data>
   <data name="InvalidItemDialogTitle" xml:space="preserve">
-    <value>არასწორი ნივთი</value>
+    <value>áƒáƒ áƒáƒ¡áƒ¬áƒáƒ áƒ˜ áƒœáƒ˜áƒ•áƒ—áƒ˜</value>
   </data>
   <data name="SettingsAboutVersionTitle" xml:space="preserve">
-    <value>ვერსია:</value>
+    <value>áƒ•áƒ”áƒ áƒ¡áƒ˜áƒ:</value>
   </data>
   <data name="ShareDialogFailMessage" xml:space="preserve">
-    <value>ამჟამად აქ გასაზიარებელი არაფერია...</value>
+    <value>áƒáƒ›áƒŸáƒáƒ›áƒáƒ“ áƒáƒ¥ áƒ’áƒáƒ¡áƒáƒ–áƒ˜áƒáƒ áƒ”áƒ‘áƒ”áƒšáƒ˜ áƒáƒ áƒáƒ¤áƒ”áƒ áƒ˜áƒ...</value>
   </data>
   <data name="ShareDialogMultipleItemsDescription" xml:space="preserve">
-    <value>ელემენტები, რომლებიც თქვენ მონიშნეთ გაზიარდებიან</value>
+    <value>áƒ”áƒšáƒ”áƒ›áƒ”áƒœáƒ¢áƒ”áƒ‘áƒ˜, áƒ áƒáƒ›áƒšáƒ”áƒ‘áƒ˜áƒª áƒ—áƒ¥áƒ•áƒ”áƒœ áƒ›áƒáƒœáƒ˜áƒ¨áƒœáƒ”áƒ— áƒ’áƒáƒ–áƒ˜áƒáƒ áƒ“áƒ”áƒ‘áƒ˜áƒáƒœ</value>
   </data>
   <data name="ShareDialogSingleItemDescription" xml:space="preserve">
-    <value>მონიშნული ელემენტები გაზიარდებიან</value>
+    <value>áƒ›áƒáƒœáƒ˜áƒ¨áƒœáƒ£áƒšáƒ˜ áƒ”áƒšáƒ”áƒ›áƒ”áƒœáƒ¢áƒ”áƒ‘áƒ˜ áƒ’áƒáƒ–áƒ˜áƒáƒ áƒ“áƒ”áƒ‘áƒ˜áƒáƒœ</value>
   </data>
   <data name="ShareDialogTitle" xml:space="preserve">
-    <value>გაზიარდება {0}</value>
+    <value>áƒ’áƒáƒ–áƒ˜áƒáƒ áƒ“áƒ”áƒ‘áƒ {0}</value>
   </data>
   <data name="ShareDialogTitleMultipleItems" xml:space="preserve">
-    <value>გაზიარდება {0} {1}</value>
+    <value>áƒ’áƒáƒ–áƒ˜áƒáƒ áƒ“áƒ”áƒ‘áƒ {0} {1}</value>
   </data>
   <data name="RenameErrorItemDeletedText" xml:space="preserve">
     <value>The item you're attempting to rename no longer exists. Please verify the correct location of the item you need to rename.</value>
@@ -663,7 +669,7 @@
     <value>Show more options</value>
   </data>
   <data name="RestartNotificationText.Text" xml:space="preserve">
-    <value>ამ პარამეტრების გამოსაყენებლად საჭიროა აპლიკაციის გადატვირთვა, გსურთ აპლიკაციის გადატვირთვა?</value>
+    <value>áƒáƒ› áƒžáƒáƒ áƒáƒ›áƒ”áƒ¢áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ›áƒáƒ¡áƒáƒ§áƒ”áƒœáƒ”áƒ‘áƒšáƒáƒ“ áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ áƒáƒžáƒšáƒ˜áƒ™áƒáƒªáƒ˜áƒ˜áƒ¡ áƒ’áƒáƒ“áƒáƒ¢áƒ•áƒ˜áƒ áƒ—áƒ•áƒ, áƒ’áƒ¡áƒ£áƒ áƒ— áƒáƒžáƒšáƒ˜áƒ™áƒáƒªáƒ˜áƒ˜áƒ¡ áƒ’áƒáƒ“áƒáƒ¢áƒ•áƒ˜áƒ áƒ—áƒ•áƒ?</value>
   </data>
   <data name="SponsorUsOnGitHub" xml:space="preserve">
     <value>Sponsor us on GitHub</value>
@@ -672,40 +678,40 @@
     <value>We weren't able to create this item</value>
   </data>
   <data name="AccessDenied" xml:space="preserve">
-    <value>წვდომა უარყოფილია</value>
+    <value>áƒ¬áƒ•áƒ“áƒáƒ›áƒ áƒ£áƒáƒ áƒ§áƒáƒ¤áƒ˜áƒšáƒ˜áƒ</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutSetAsText" xml:space="preserve">
     <value>Set as</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>გაუქმება</value>
+    <value>áƒ’áƒáƒ£áƒ¥áƒ›áƒ”áƒ‘áƒ</value>
   </data>
   <data name="AddDialog.Title" xml:space="preserve">
     <value>Create a new item</value>
   </data>
   <data name="AddDialogDescription.Text" xml:space="preserve">
-    <value>აირჩიეთ ნიმუში ამ ახალი ერთეულისთვის ქვემოთ</value>
+    <value>áƒáƒ˜áƒ áƒ©áƒ˜áƒ”áƒ— áƒœáƒ˜áƒ›áƒ£áƒ¨áƒ˜ áƒáƒ› áƒáƒ®áƒáƒšáƒ˜ áƒ”áƒ áƒ—áƒ”áƒ£áƒšáƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡ áƒ¥áƒ•áƒ”áƒ›áƒáƒ—</value>
   </data>
   <data name="File" xml:space="preserve">
-    <value>ფაილი</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜</value>
   </data>
   <data name="Files" xml:space="preserve">
     <value>Files</value>
   </data>
   <data name="AddDialogListFileSubHeader" xml:space="preserve">
-    <value>ჰქმნის ცარიელ ფაილს</value>
+    <value>áƒ°áƒ¥áƒ›áƒœáƒ˜áƒ¡ áƒªáƒáƒ áƒ˜áƒ”áƒš áƒ¤áƒáƒ˜áƒšáƒ¡</value>
   </data>
   <data name="Folder" xml:space="preserve">
-    <value>საქაღალდე</value>
+    <value>áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”</value>
   </data>
   <data name="Folders" xml:space="preserve">
     <value>Folders</value>
   </data>
   <data name="AddDialogListFolderSubHeader" xml:space="preserve">
-    <value>ჰქმნის ცარიელ საქაღალდეს</value>
+    <value>áƒ°áƒ¥áƒ›áƒœáƒ˜áƒ¡ áƒªáƒáƒ áƒ˜áƒ”áƒš áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”áƒ¡</value>
   </data>
   <data name="NavResfreshButton.AutomationProperties.Name" xml:space="preserve">
-    <value>კატალოგის განახლება</value>
+    <value>áƒ™áƒáƒ¢áƒáƒšáƒáƒ’áƒ˜áƒ¡ áƒ’áƒáƒœáƒáƒ®áƒšáƒ”áƒ‘áƒ</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Language</value>
@@ -723,226 +729,226 @@
     <value>Error</value>
   </data>
   <data name="PropertySaveErrorDialog.SecondaryButtonText" xml:space="preserve">
-    <value>მაინც დახურვა</value>
+    <value>áƒ›áƒáƒ˜áƒœáƒª áƒ“áƒáƒ®áƒ£áƒ áƒ•áƒ</value>
   </data>
   <data name="PropertyRatingText" xml:space="preserve">
-    <value>რეიტინგი</value>
+    <value>áƒ áƒ”áƒ˜áƒ¢áƒ˜áƒœáƒ’áƒ˜</value>
   </data>
   <data name="PropertyParsingPath" xml:space="preserve">
-    <value>ნივთის გზა</value>
+    <value>áƒœáƒ˜áƒ•áƒ—áƒ˜áƒ¡ áƒ’áƒ–áƒ</value>
   </data>
   <data name="PropertyItemTypeText" xml:space="preserve">
-    <value>ნივთის ნიმუში</value>
+    <value>áƒœáƒ˜áƒ•áƒ—áƒ˜áƒ¡ áƒœáƒ˜áƒ›áƒ£áƒ¨áƒ˜</value>
   </data>
   <data name="PropertyTitle" xml:space="preserve">
-    <value>სათაური</value>
+    <value>áƒ¡áƒáƒ—áƒáƒ£áƒ áƒ˜</value>
   </data>
   <data name="PropertySubject" xml:space="preserve">
-    <value>თემა</value>
+    <value>áƒ—áƒ”áƒ›áƒ</value>
   </data>
   <data name="PropertyComment" xml:space="preserve">
-    <value>კომენტარი</value>
+    <value>áƒ™áƒáƒ›áƒ”áƒœáƒ¢áƒáƒ áƒ˜</value>
   </data>
   <data name="PropertyCopyright" xml:space="preserve">
-    <value>საავტორო უფლებები</value>
+    <value>áƒ¡áƒáƒáƒ•áƒ¢áƒáƒ áƒ áƒ£áƒ¤áƒšáƒ”áƒ‘áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="PropertyDateModified" xml:space="preserve">
-    <value>შეცვლის თარიღი</value>
+    <value>áƒ¨áƒ”áƒªáƒ•áƒšáƒ˜áƒ¡ áƒ—áƒáƒ áƒ˜áƒ¦áƒ˜</value>
   </data>
   <data name="PropertyBitDepth" xml:space="preserve">
-    <value>Bit სიღრმე</value>
+    <value>Bit áƒ¡áƒ˜áƒ¦áƒ áƒ›áƒ”</value>
   </data>
   <data name="PropertyDimensions" xml:space="preserve">
-    <value>ზომები</value>
+    <value>áƒ–áƒáƒ›áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="PropertyHorizontalSize" xml:space="preserve">
-    <value>ჰორიზონტალური ზომა</value>
+    <value>áƒ°áƒáƒ áƒ˜áƒ–áƒáƒœáƒ¢áƒáƒšáƒ£áƒ áƒ˜ áƒ–áƒáƒ›áƒ</value>
   </data>
   <data name="PropertyVerticalSize" xml:space="preserve">
-    <value>ვერტიკალური ზომა</value>
+    <value>áƒ•áƒ”áƒ áƒ¢áƒ˜áƒ™áƒáƒšáƒ£áƒ áƒ˜ áƒ–áƒáƒ›áƒ</value>
   </data>
   <data name="PropertyHorizontalResolution" xml:space="preserve">
-    <value>ჰორიზონტალური გარჩევადობა</value>
+    <value>áƒ°áƒáƒ áƒ˜áƒ–áƒáƒœáƒ¢áƒáƒšáƒ£áƒ áƒ˜ áƒ’áƒáƒ áƒ©áƒ”áƒ•áƒáƒ“áƒáƒ‘áƒ</value>
   </data>
   <data name="PropertyVerticalResolution" xml:space="preserve">
-    <value>ვერტიკალური გარჩევადობა</value>
+    <value>áƒ•áƒ”áƒ áƒ¢áƒ˜áƒ™áƒáƒšáƒ£áƒ áƒ˜ áƒ’áƒáƒ áƒ©áƒ”áƒ•áƒáƒ“áƒáƒ‘áƒ</value>
   </data>
   <data name="PropertyColorSpace" xml:space="preserve">
-    <value>ფერის სივრცე</value>
+    <value>áƒ¤áƒ”áƒ áƒ˜áƒ¡ áƒ¡áƒ˜áƒ•áƒ áƒªáƒ”</value>
   </data>
   <data name="PropertyColorSpace_Value0" xml:space="preserve">
     <value>sRGB</value>
   </data>
   <data name="PropertyColorSpace_Value65535" xml:space="preserve">
-    <value>მიუთითებელი</value>
+    <value>áƒ›áƒ˜áƒ£áƒ—áƒ˜áƒ—áƒ”áƒ‘áƒ”áƒšáƒ˜</value>
   </data>
   <data name="PropertyLongitudeDecimal" xml:space="preserve">
-    <value>გრძივი ათწილადი</value>
+    <value>áƒ’áƒ áƒ«áƒ˜áƒ•áƒ˜ áƒáƒ—áƒ¬áƒ˜áƒšáƒáƒ“áƒ˜</value>
   </data>
   <data name="PropertyLatitudeDecimal" xml:space="preserve">
-    <value>გრძედი ათწილადი</value>
+    <value>áƒ’áƒ áƒ«áƒ”áƒ“áƒ˜ áƒáƒ—áƒ¬áƒ˜áƒšáƒáƒ“áƒ˜</value>
   </data>
   <data name="PropertyAltitude" xml:space="preserve">
-    <value>სიმაღლე</value>
+    <value>áƒ¡áƒ˜áƒ›áƒáƒ¦áƒšáƒ”</value>
   </data>
   <data name="PropertyDateTaken" xml:space="preserve">
-    <value>აღების თარიღი</value>
+    <value>áƒáƒ¦áƒ”áƒ‘áƒ˜áƒ¡ áƒ—áƒáƒ áƒ˜áƒ¦áƒ˜</value>
   </data>
   <data name="PropertyCameraManufacturer" xml:space="preserve">
-    <value>კამერის მწარმოებელი</value>
+    <value>áƒ™áƒáƒ›áƒ”áƒ áƒ˜áƒ¡ áƒ›áƒ¬áƒáƒ áƒ›áƒáƒ”áƒ‘áƒ”áƒšáƒ˜</value>
   </data>
   <data name="PropertyCameraModel" xml:space="preserve">
-    <value>კამერის მოდელი</value>
+    <value>áƒ™áƒáƒ›áƒ”áƒ áƒ˜áƒ¡ áƒ›áƒáƒ“áƒ”áƒšáƒ˜</value>
   </data>
   <data name="PropertyExposureTime" xml:space="preserve">
-    <value>გამოფენის დრო</value>
+    <value>áƒ’áƒáƒ›áƒáƒ¤áƒ”áƒœáƒ˜áƒ¡ áƒ“áƒ áƒ</value>
   </data>
   <data name="PropertyFocalLength" xml:space="preserve">
-    <value>ფოკალური სიგრძე</value>
+    <value>áƒ¤áƒáƒ™áƒáƒšáƒ£áƒ áƒ˜ áƒ¡áƒ˜áƒ’áƒ áƒ«áƒ”</value>
   </data>
   <data name="PropertyAperture" xml:space="preserve">
-    <value>დიაფრაგმა</value>
+    <value>áƒ“áƒ˜áƒáƒ¤áƒ áƒáƒ’áƒ›áƒ</value>
   </data>
   <data name="PropertyPeopleNames" xml:space="preserve">
-    <value>ხალხის სახელები</value>
+    <value>áƒ®áƒáƒšáƒ®áƒ˜áƒ¡ áƒ¡áƒáƒ®áƒ”áƒšáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="PropertyChannelCount" xml:space="preserve">
-    <value>არხების რაოდენობა</value>
+    <value>áƒáƒ áƒ®áƒ”áƒ‘áƒ˜áƒ¡ áƒ áƒáƒáƒ“áƒ”áƒœáƒáƒ‘áƒ</value>
   </data>
   <data name="PropertyFormat" xml:space="preserve">
-    <value>ფორმატი</value>
+    <value>áƒ¤áƒáƒ áƒ›áƒáƒ¢áƒ˜</value>
   </data>
   <data name="PropertySampleRate" xml:space="preserve">
-    <value>ნიმუშის შეფასება</value>
+    <value>áƒœáƒ˜áƒ›áƒ£áƒ¨áƒ˜áƒ¡ áƒ¨áƒ”áƒ¤áƒáƒ¡áƒ”áƒ‘áƒ</value>
   </data>
   <data name="PropertyAlbumArtist" xml:space="preserve">
-    <value>ალბომის შემსრულებელი</value>
+    <value>áƒáƒšáƒ‘áƒáƒ›áƒ˜áƒ¡ áƒ¨áƒ”áƒ›áƒ¡áƒ áƒ£áƒšáƒ”áƒ‘áƒ”áƒšáƒ˜</value>
   </data>
   <data name="PropertyAlbumTitle" xml:space="preserve">
-    <value>ალბომის სათაური</value>
+    <value>áƒáƒšáƒ‘áƒáƒ›áƒ˜áƒ¡ áƒ¡áƒáƒ—áƒáƒ£áƒ áƒ˜</value>
   </data>
   <data name="Artist" xml:space="preserve">
-    <value>ხელოვანი</value>
+    <value>áƒ®áƒ”áƒšáƒáƒ•áƒáƒœáƒ˜</value>
   </data>
   <data name="PropertyBeatsPerMinute" xml:space="preserve">
-    <value>ურტყამს ყოველ წუთში</value>
+    <value>áƒ£áƒ áƒ¢áƒ§áƒáƒ›áƒ¡ áƒ§áƒáƒ•áƒ”áƒš áƒ¬áƒ£áƒ—áƒ¨áƒ˜</value>
   </data>
   <data name="PropertyComposer" xml:space="preserve">
-    <value>კომპოზიტორი</value>
+    <value>áƒ™áƒáƒ›áƒžáƒáƒ–áƒ˜áƒ¢áƒáƒ áƒ˜</value>
   </data>
   <data name="Conductor" xml:space="preserve">
-    <value>კონდუქტორი</value>
+    <value>áƒ™áƒáƒœáƒ“áƒ£áƒ¥áƒ¢áƒáƒ áƒ˜</value>
   </data>
   <data name="PropertyDiscNumber" xml:space="preserve">
-    <value>დისკის ნომერი</value>
+    <value>áƒ“áƒ˜áƒ¡áƒ™áƒ˜áƒ¡ áƒœáƒáƒ›áƒ”áƒ áƒ˜</value>
   </data>
   <data name="PropertyGenre" xml:space="preserve">
-    <value>ჟანრი</value>
+    <value>áƒŸáƒáƒœáƒ áƒ˜</value>
   </data>
   <data name="PropertyTrackNumber" xml:space="preserve">
-    <value>ტრეკის ნომერი</value>
+    <value>áƒ¢áƒ áƒ”áƒ™áƒ˜áƒ¡ áƒœáƒáƒ›áƒ”áƒ áƒ˜</value>
   </data>
   <data name="PropertyDuration" xml:space="preserve">
-    <value>ხანგრძლივობა</value>
+    <value>áƒ®áƒáƒœáƒ’áƒ áƒ«áƒšáƒ˜áƒ•áƒáƒ‘áƒ</value>
   </data>
   <data name="PropertyFrameCount" xml:space="preserve">
-    <value>ჩარჩოების რაოდენობა</value>
+    <value>áƒ©áƒáƒ áƒ©áƒáƒ”áƒ‘áƒ˜áƒ¡ áƒ áƒáƒáƒ“áƒ”áƒœáƒáƒ‘áƒ</value>
   </data>
   <data name="PropertyProtectionType" xml:space="preserve">
-    <value>დაცვის ტიპი</value>
+    <value>áƒ“áƒáƒªáƒ•áƒ˜áƒ¡ áƒ¢áƒ˜áƒžáƒ˜</value>
   </data>
   <data name="PropertyAuthorUrl" xml:space="preserve">
-    <value>ავტორის მისამართი</value>
+    <value>áƒáƒ•áƒ¢áƒáƒ áƒ˜áƒ¡ áƒ›áƒ˜áƒ¡áƒáƒ›áƒáƒ áƒ—áƒ˜</value>
   </data>
   <data name="PropertyContentDistributor" xml:space="preserve">
-    <value>კონტენტის გამავრცელებელი</value>
+    <value>áƒ™áƒáƒœáƒ¢áƒ”áƒœáƒ¢áƒ˜áƒ¡ áƒ’áƒáƒ›áƒáƒ•áƒ áƒªáƒ”áƒšáƒ”áƒ‘áƒ”áƒšáƒ˜</value>
   </data>
   <data name="PropertyDateReleased" xml:space="preserve">
-    <value>გამოშვების თარიღი</value>
+    <value>áƒ’áƒáƒ›áƒáƒ¨áƒ•áƒ”áƒ‘áƒ˜áƒ¡ áƒ—áƒáƒ áƒ˜áƒ¦áƒ˜</value>
   </data>
   <data name="PropertySeriesName" xml:space="preserve">
-    <value>სერიის სახელი</value>
+    <value>áƒ¡áƒ”áƒ áƒ˜áƒ˜áƒ¡ áƒ¡áƒáƒ®áƒ”áƒšáƒ˜</value>
   </data>
   <data name="PropertySeasonNumber" xml:space="preserve">
-    <value>სეზონის ნომერი</value>
+    <value>áƒ¡áƒ”áƒ–áƒáƒœáƒ˜áƒ¡ áƒœáƒáƒ›áƒ”áƒ áƒ˜</value>
   </data>
   <data name="PropertyEpisodeNumber" xml:space="preserve">
-    <value>ეპიზოდის ნომერი</value>
+    <value>áƒ”áƒžáƒ˜áƒ–áƒáƒ“áƒ˜áƒ¡ áƒœáƒáƒ›áƒ”áƒ áƒ˜</value>
   </data>
   <data name="PropertyProducer" xml:space="preserve">
-    <value>პროდიუსერი</value>
+    <value>áƒžáƒ áƒáƒ“áƒ˜áƒ£áƒ¡áƒ”áƒ áƒ˜</value>
   </data>
   <data name="PropertyPromotionUrl" xml:space="preserve">
-    <value>მეორე ბმული</value>
+    <value>áƒ›áƒ”áƒáƒ áƒ” áƒ‘áƒ›áƒ£áƒšáƒ˜</value>
   </data>
   <data name="PropertyProviderStyle" xml:space="preserve">
-    <value>მომწოდებლის სტილი</value>
+    <value>áƒ›áƒáƒ›áƒ¬áƒáƒ“áƒ”áƒ‘áƒšáƒ˜áƒ¡ áƒ¡áƒ¢áƒ˜áƒšáƒ˜</value>
   </data>
   <data name="PropertyPublisher" xml:space="preserve">
-    <value>გამომცემელი</value>
+    <value>áƒ’áƒáƒ›áƒáƒ›áƒªáƒ”áƒ›áƒ”áƒšáƒ˜</value>
   </data>
   <data name="PropertyThumbnailLargePath" xml:space="preserve">
-    <value>ესკიზის დიდი გზა</value>
+    <value>áƒ”áƒ¡áƒ™áƒ˜áƒ–áƒ˜áƒ¡ áƒ“áƒ˜áƒ“áƒ˜ áƒ’áƒ–áƒ</value>
   </data>
   <data name="PropertyThumbnailLargeUri" xml:space="preserve">
-    <value>ესკიზის დიდი რესურსების ერთიანი იდენტიფიკატორი</value>
+    <value>áƒ”áƒ¡áƒ™áƒ˜áƒ–áƒ˜áƒ¡ áƒ“áƒ˜áƒ“áƒ˜ áƒ áƒ”áƒ¡áƒ£áƒ áƒ¡áƒ”áƒ‘áƒ˜áƒ¡ áƒ”áƒ áƒ—áƒ˜áƒáƒœáƒ˜ áƒ˜áƒ“áƒ”áƒœáƒ¢áƒ˜áƒ¤áƒ˜áƒ™áƒáƒ¢áƒáƒ áƒ˜</value>
   </data>
   <data name="PropertyThumbnailSmallPath" xml:space="preserve">
-    <value>ესკიზის პატარა გზა</value>
+    <value>áƒ”áƒ¡áƒ™áƒ˜áƒ–áƒ˜áƒ¡ áƒžáƒáƒ¢áƒáƒ áƒ áƒ’áƒ–áƒ</value>
   </data>
   <data name="PropertyThumbnailSmallUri" xml:space="preserve">
-    <value>ესკიზის პატარა რესურსების ერთიანი იდენტიფიკატორი</value>
+    <value>áƒ”áƒ¡áƒ™áƒ˜áƒ–áƒ˜áƒ¡ áƒžáƒáƒ¢áƒáƒ áƒ áƒ áƒ”áƒ¡áƒ£áƒ áƒ¡áƒ”áƒ‘áƒ˜áƒ¡ áƒ”áƒ áƒ—áƒ˜áƒáƒœáƒ˜ áƒ˜áƒ“áƒ”áƒœáƒ¢áƒ˜áƒ¤áƒ˜áƒ™áƒáƒ¢áƒáƒ áƒ˜</value>
   </data>
   <data name="PropertyUserWebUrl" xml:space="preserve">
-    <value>მომხმარებლის ვებ ბმული</value>
+    <value>áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ˜áƒ¡ áƒ•áƒ”áƒ‘ áƒ‘áƒ›áƒ£áƒšáƒ˜</value>
   </data>
   <data name="PropertyWriter" xml:space="preserve">
-    <value>მწერალი</value>
+    <value>áƒ›áƒ¬áƒ”áƒ áƒáƒšáƒ˜</value>
   </data>
   <data name="PropertyYear" xml:space="preserve">
-    <value>წელი</value>
+    <value>áƒ¬áƒ”áƒšáƒ˜</value>
   </data>
   <data name="PropertyContributor" xml:space="preserve">
-    <value>კონტრიბუტორი</value>
+    <value>áƒ™áƒáƒœáƒ¢áƒ áƒ˜áƒ‘áƒ£áƒ¢áƒáƒ áƒ˜</value>
   </data>
   <data name="PropertyLastAuthor" xml:space="preserve">
-    <value>ბოლო ავტორი</value>
+    <value>áƒ‘áƒáƒšáƒ áƒáƒ•áƒ¢áƒáƒ áƒ˜</value>
   </data>
   <data name="PropertyRevisionNumber" xml:space="preserve">
-    <value>შესწორების ნომერი</value>
+    <value>áƒ¨áƒ”áƒ¡áƒ¬áƒáƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒœáƒáƒ›áƒ”áƒ áƒ˜</value>
   </data>
   <data name="PropertyVersion" xml:space="preserve">
-    <value>ვერსია</value>
+    <value>áƒ•áƒ”áƒ áƒ¡áƒ˜áƒ</value>
   </data>
   <data name="PropertyDateCreated" xml:space="preserve">
-    <value>შექმნის თარიღი</value>
+    <value>áƒ¨áƒ”áƒ¥áƒ›áƒœáƒ˜áƒ¡ áƒ—áƒáƒ áƒ˜áƒ¦áƒ˜</value>
   </data>
   <data name="PropertyTotalEditingTime" xml:space="preserve">
-    <value>რედაქტირების სრული დრო</value>
+    <value>áƒ áƒ”áƒ“áƒáƒ¥áƒ¢áƒ˜áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ¡áƒ áƒ£áƒšáƒ˜ áƒ“áƒ áƒ</value>
   </data>
   <data name="PropertyTemplate" xml:space="preserve">
-    <value>შაბლონი</value>
+    <value>áƒ¨áƒáƒ‘áƒšáƒáƒœáƒ˜</value>
   </data>
   <data name="PropertyWordCount" xml:space="preserve">
-    <value>სიტყვების რაოდენობა</value>
+    <value>áƒ¡áƒ˜áƒ¢áƒ§áƒ•áƒ”áƒ‘áƒ˜áƒ¡ áƒ áƒáƒáƒ“áƒ”áƒœáƒáƒ‘áƒ</value>
   </data>
   <data name="PropertyCharacterCount" xml:space="preserve">
-    <value>სიმბოლოების რაოდენობა</value>
+    <value>áƒ¡áƒ˜áƒ›áƒ‘áƒáƒšáƒáƒ”áƒ‘áƒ˜áƒ¡ áƒ áƒáƒáƒ“áƒ”áƒœáƒáƒ‘áƒ</value>
   </data>
   <data name="PropertyLineCount" xml:space="preserve">
-    <value>ხაზების რაოდენობა</value>
+    <value>áƒ®áƒáƒ–áƒ”áƒ‘áƒ˜áƒ¡ áƒ áƒáƒáƒ“áƒ”áƒœáƒáƒ‘áƒ</value>
   </data>
   <data name="PropertyParagraphCount" xml:space="preserve">
-    <value>აბზაცების რაოდენობა</value>
+    <value>áƒáƒ‘áƒ–áƒáƒªáƒ”áƒ‘áƒ˜áƒ¡ áƒ áƒáƒáƒ“áƒ”áƒœáƒáƒ‘áƒ</value>
   </data>
   <data name="PropertyPageCount" xml:space="preserve">
-    <value>გვერდების რაოდენობა</value>
+    <value>áƒ’áƒ•áƒ”áƒ áƒ“áƒ”áƒ‘áƒ˜áƒ¡ áƒ áƒáƒáƒ“áƒ”áƒœáƒáƒ‘áƒ</value>
   </data>
   <data name="PropertySlideCount" xml:space="preserve">
-    <value>სლაიდების რაოდენობა</value>
+    <value>áƒ¡áƒšáƒáƒ˜áƒ“áƒ”áƒ‘áƒ˜áƒ¡ áƒ áƒáƒáƒ“áƒ”áƒœáƒáƒ‘áƒ</value>
   </data>
   <data name="PropertyFrameRate" xml:space="preserve">
-    <value>კადრების სიხშირე</value>
+    <value>áƒ™áƒáƒ“áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ¡áƒ˜áƒ®áƒ¨áƒ˜áƒ áƒ”</value>
   </data>
   <data name="PropertyEncodingBitrate" xml:space="preserve">
     <value>Encoding Bitrate</value>
@@ -954,133 +960,133 @@
     <value>Video Encoding Bitrate</value>
   </data>
   <data name="Compression" xml:space="preserve">
-    <value>შეკუმშვა</value>
+    <value>áƒ¨áƒ”áƒ™áƒ£áƒ›áƒ¨áƒ•áƒ</value>
   </data>
   <data name="PropertyFrameWidth" xml:space="preserve">
-    <value>ჩარჩოს სიგანე</value>
+    <value>áƒ©áƒáƒ áƒ©áƒáƒ¡ áƒ¡áƒ˜áƒ’áƒáƒœáƒ”</value>
   </data>
   <data name="PropertyFrameHeight" xml:space="preserve">
-    <value>ჩარჩოს სიმაღლე</value>
+    <value>áƒ©áƒáƒ áƒ©áƒáƒ¡ áƒ¡áƒ˜áƒ›áƒáƒ¦áƒšáƒ”</value>
   </data>
   <data name="PropertyOrientation" xml:space="preserve">
-    <value>ორიენტაცია</value>
+    <value>áƒáƒ áƒ˜áƒ”áƒœáƒ¢áƒáƒªáƒ˜áƒ</value>
   </data>
   <data name="PropertySectionCore" xml:space="preserve">
-    <value>ძირითადი</value>
+    <value>áƒ«áƒ˜áƒ áƒ˜áƒ—áƒáƒ“áƒ˜</value>
   </data>
   <data name="PropertySectionImage" xml:space="preserve">
-    <value>სურათი</value>
+    <value>áƒ¡áƒ£áƒ áƒáƒ—áƒ˜</value>
   </data>
   <data name="PropertySectionPhoto" xml:space="preserve">
-    <value>ფოტო</value>
+    <value>áƒ¤áƒáƒ¢áƒ</value>
   </data>
   <data name="PropertySectionGPS" xml:space="preserve">
     <value>GPS</value>
   </data>
   <data name="PropertySectionMedia" xml:space="preserve">
-    <value>მედია</value>
+    <value>áƒ›áƒ”áƒ“áƒ˜áƒ</value>
   </data>
   <data name="PropertySectionAudio" xml:space="preserve">
-    <value>აუდიო</value>
+    <value>áƒáƒ£áƒ“áƒ˜áƒ</value>
   </data>
   <data name="PropertySectionMusic" xml:space="preserve">
-    <value>მუსიკა</value>
+    <value>áƒ›áƒ£áƒ¡áƒ˜áƒ™áƒ</value>
   </data>
   <data name="PropertySectionVideo" xml:space="preserve">
-    <value>ვიდეო</value>
+    <value>áƒ•áƒ˜áƒ“áƒ”áƒ</value>
   </data>
   <data name="Document" xml:space="preserve">
-    <value>დოკუმენტი</value>
+    <value>áƒ“áƒáƒ™áƒ£áƒ›áƒ”áƒœáƒ¢áƒ˜</value>
   </data>
   <data name="Address" xml:space="preserve">
-    <value>მისამართი</value>
+    <value>áƒ›áƒ˜áƒ¡áƒáƒ›áƒáƒ áƒ—áƒ˜</value>
   </data>
   <data name="SelectionOptions" xml:space="preserve">
     <value>Selection options</value>
   </data>
   <data name="NavToolbarSelectionOptions.Label" xml:space="preserve">
-    <value>არჩევა</value>
+    <value>áƒáƒ áƒ©áƒ”áƒ•áƒ</value>
   </data>
   <data name="RecycleBinItemAutomation" xml:space="preserve">
-    <value>სანაგვე ურნის ნივთი</value>
+    <value>áƒ¡áƒáƒœáƒáƒ’áƒ•áƒ” áƒ£áƒ áƒœáƒ˜áƒ¡ áƒœáƒ˜áƒ•áƒ—áƒ˜</value>
   </data>
   <data name="ShortcutItemAutomation" xml:space="preserve">
-    <value>მალსახმობის ელემენტი</value>
+    <value>áƒ›áƒáƒšáƒ¡áƒáƒ®áƒ›áƒáƒ‘áƒ˜áƒ¡ áƒ”áƒšáƒ”áƒ›áƒ”áƒœáƒ¢áƒ˜</value>
   </data>
   <data name="Drives" xml:space="preserve">
-    <value>დისკები</value>
+    <value>áƒ“áƒ˜áƒ¡áƒ™áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="PinToSidebarByDraggingCaptionText" xml:space="preserve">
-    <value>აქ გადმოტანა</value>
+    <value>áƒáƒ¥ áƒ’áƒáƒ“áƒ›áƒáƒ¢áƒáƒœáƒ</value>
   </data>
   <data name="EjectNotificationHeader" xml:space="preserve">
-    <value>უსაფრთხოა აპარატურის ამოშლა</value>
+    <value>áƒ£áƒ¡áƒáƒ¤áƒ áƒ—áƒ®áƒáƒ áƒáƒžáƒáƒ áƒáƒ¢áƒ£áƒ áƒ˜áƒ¡ áƒáƒ›áƒáƒ¨áƒšáƒ</value>
   </data>
   <data name="EjectNotificationBody" xml:space="preserve">
-    <value>მოწყობილობა უკვე შესაძლებელია უსაფრთხოდ ამოიშალოს კომპიუტერიდან.</value>
+    <value>áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ áƒ£áƒ™áƒ•áƒ” áƒ¨áƒ”áƒ¡áƒáƒ«áƒšáƒ”áƒ‘áƒ”áƒšáƒ˜áƒ áƒ£áƒ¡áƒáƒ¤áƒ áƒ—áƒ®áƒáƒ“ áƒáƒ›áƒáƒ˜áƒ¨áƒáƒšáƒáƒ¡ áƒ™áƒáƒ›áƒžáƒ˜áƒ£áƒ¢áƒ”áƒ áƒ˜áƒ“áƒáƒœ.</value>
   </data>
   <data name="EjectNotificationErrorDialogHeader" xml:space="preserve">
-    <value>პრობლემა მოწყობილობის მოცილებისას</value>
+    <value>áƒžáƒ áƒáƒ‘áƒšáƒ”áƒ›áƒ áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ˜áƒ¡ áƒ›áƒáƒªáƒ˜áƒšáƒ”áƒ‘áƒ˜áƒ¡áƒáƒ¡</value>
   </data>
   <data name="EjectNotificationErrorDialogBody" xml:space="preserve">
-    <value>ეს მოწყობილობა ამჟამად გამოიყენება. დახურეთ ნებისმიერი პროგრამა, ფანჯარა ან ჩანართი, რომელიც შესაძლოა მოწყობილობას იყენებდეს და სცადეთ ხელახლა.</value>
+    <value>áƒ”áƒ¡ áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ áƒáƒ›áƒŸáƒáƒ›áƒáƒ“ áƒ’áƒáƒ›áƒáƒ˜áƒ§áƒ”áƒœáƒ”áƒ‘áƒ. áƒ“áƒáƒ®áƒ£áƒ áƒ”áƒ— áƒœáƒ”áƒ‘áƒ˜áƒ¡áƒ›áƒ˜áƒ”áƒ áƒ˜ áƒžáƒ áƒáƒ’áƒ áƒáƒ›áƒ, áƒ¤áƒáƒœáƒ¯áƒáƒ áƒ áƒáƒœ áƒ©áƒáƒœáƒáƒ áƒ—áƒ˜, áƒ áƒáƒ›áƒ”áƒšáƒ˜áƒª áƒ¨áƒ”áƒ¡áƒáƒ«áƒšáƒáƒ áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒáƒ¡ áƒ˜áƒ§áƒ”áƒœáƒ”áƒ‘áƒ“áƒ”áƒ¡ áƒ“áƒ áƒ¡áƒªáƒáƒ“áƒ”áƒ— áƒ®áƒ”áƒšáƒáƒ®áƒšáƒ.</value>
   </data>
   <data name="Eject" xml:space="preserve">
-    <value>მოცილება</value>
+    <value>áƒ›áƒáƒªáƒ˜áƒšáƒ”áƒ‘áƒ</value>
   </data>
   <data name="DuplicateTab" xml:space="preserve">
     <value>Duplicate tab</value>
   </data>
   <data name="HorizontalMultitaskingControlMoveTabToNewWindow.Text" xml:space="preserve">
-    <value>ჩანართის ახალ ფანჯარაში გადატანა</value>
+    <value>áƒ©áƒáƒœáƒáƒ áƒ—áƒ˜áƒ¡ áƒáƒ®áƒáƒš áƒ¤áƒáƒœáƒ¯áƒáƒ áƒáƒ¨áƒ˜ áƒ’áƒáƒ“áƒáƒ¢áƒáƒœáƒ</value>
   </data>
   <data name="NewTab" xml:space="preserve">
     <value>New tab</value>
   </data>
   <data name="ClearPropertiesFlyoutText.Text" xml:space="preserve">
-    <value>ზოგიერთი თვისება შეიძლება შეიცავდეს პირად ინფორმაციას.</value>
+    <value>áƒ–áƒáƒ’áƒ˜áƒ”áƒ áƒ—áƒ˜ áƒ—áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ áƒ¨áƒ”áƒ˜áƒ«áƒšáƒ”áƒ‘áƒ áƒ¨áƒ”áƒ˜áƒªáƒáƒ•áƒ“áƒ”áƒ¡ áƒžáƒ˜áƒ áƒáƒ“ áƒ˜áƒœáƒ¤áƒáƒ áƒ›áƒáƒªáƒ˜áƒáƒ¡.</value>
   </data>
   <data name="ClearPropertiesButton.Content" xml:space="preserve">
-    <value>ყველა თვისების გასუფთავება</value>
+    <value>áƒ§áƒ•áƒ”áƒšáƒ áƒ—áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ¡áƒ£áƒ¤áƒ—áƒáƒ•áƒ”áƒ‘áƒ</value>
   </data>
   <data name="OngoingTasksTeachingTip.Subtitle" xml:space="preserve">
-    <value>შეამოწმეთ ფაილების მოქმედებების სტატუსი აქ</value>
+    <value>áƒ¨áƒ”áƒáƒ›áƒáƒ¬áƒ›áƒ”áƒ— áƒ¤áƒáƒ˜áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒ›áƒáƒ¥áƒ›áƒ”áƒ“áƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ¡áƒ¢áƒáƒ¢áƒ£áƒ¡áƒ˜ áƒáƒ¥</value>
   </data>
   <data name="OngoingTasksTeachingTip.Title" xml:space="preserve">
     <value>Status center</value>
   </data>
   <data name="SearchPagePathBoxOverrideText" xml:space="preserve">
-    <value>ძიების შედეგები {0} -(ს)თვის {1} -ში</value>
+    <value>áƒ«áƒ˜áƒ”áƒ‘áƒ˜áƒ¡ áƒ¨áƒ”áƒ“áƒ”áƒ’áƒ”áƒ‘áƒ˜ {0} -(áƒ¡)áƒ—áƒ•áƒ˜áƒ¡ {1} -áƒ¨áƒ˜</value>
   </data>
   <data name="SearchResultsFor" xml:space="preserve">
     <value>Search results for `{0}`</value>
   </data>
   <data name="Details" xml:space="preserve">
-    <value>დეტალები</value>
+    <value>áƒ“áƒ”áƒ¢áƒáƒšáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>არა</value>
+    <value>áƒáƒ áƒ</value>
   </data>
   <data name="ShowProtectedSystemFiles" xml:space="preserve">
-    <value>დაცული სისტემის ფაილების ჩვენება</value>
+    <value>áƒ“áƒáƒªáƒ£áƒšáƒ˜ áƒ¡áƒ˜áƒ¡áƒ¢áƒ”áƒ›áƒ˜áƒ¡ áƒ¤áƒáƒ˜áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒ©áƒ•áƒ”áƒœáƒ”áƒ‘áƒ</value>
   </data>
   <data name="SyncFolderPreferencesAcrossDirectories" xml:space="preserve">
     <value>Sync layout and sorting preferences across directories</value>
   </data>
   <data name="SettingsContextMenu.Text" xml:space="preserve">
-    <value>მარჯვენა ღილაკით დაჭერილი კონტექსტის მენიუს მორგება</value>
+    <value>áƒ›áƒáƒ áƒ¯áƒ•áƒ”áƒœáƒ áƒ¦áƒ˜áƒšáƒáƒ™áƒ˜áƒ— áƒ“áƒáƒ­áƒ”áƒ áƒ˜áƒšáƒ˜ áƒ™áƒáƒœáƒ¢áƒ”áƒ¥áƒ¡áƒ¢áƒ˜áƒ¡ áƒ›áƒ”áƒœáƒ˜áƒ£áƒ¡ áƒ›áƒáƒ áƒ’áƒ”áƒ‘áƒ</value>
   </data>
   <data name="OriginalPath" xml:space="preserve">
     <value>Original path</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>დამატება</value>
+    <value>áƒ“áƒáƒ›áƒáƒ¢áƒ”áƒ‘áƒ</value>
   </data>
   <data name="Edit" xml:space="preserve">
-    <value>რედაქტირება</value>
+    <value>áƒ áƒ”áƒ“áƒáƒ¥áƒ¢áƒ˜áƒ áƒ”áƒ‘áƒ</value>
   </data>
   <data name="Remove" xml:space="preserve">
-    <value>წაშლა</value>
+    <value>áƒ¬áƒáƒ¨áƒšáƒ</value>
   </data>
   <data name="SettingsMultitaskingAlwaysOpenDualPane" xml:space="preserve">
     <value>Open tabs in dual pane mode</value>
@@ -1098,7 +1104,7 @@
     <value>Show option to create shortcut</value>
   </data>
   <data name="NavigationToolbarNewPane.Label" xml:space="preserve">
-    <value>ახალი სარკმელი</value>
+    <value>áƒáƒ®áƒáƒšáƒ˜ áƒ¡áƒáƒ áƒ™áƒ›áƒ”áƒšáƒ˜</value>
   </data>
   <data name="OpenInNewPane" xml:space="preserve">
     <value>Open in new pane</value>
@@ -1113,19 +1119,19 @@
     <value>Files &amp; folders</value>
   </data>
   <data name="NavToolbarDetails.ToolTipService.ToolTip" xml:space="preserve">
-    <value>დეტალების ხედი (Ctrl+Shift+1)</value>
+    <value>áƒ“áƒ”áƒ¢áƒáƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒ®áƒ”áƒ“áƒ˜ (Ctrl+Shift+1)</value>
   </data>
   <data name="DateDeleted" xml:space="preserve">
-    <value>წაშლის თარიღი</value>
+    <value>áƒ¬áƒáƒ¨áƒšáƒ˜áƒ¡ áƒ—áƒáƒ áƒ˜áƒ¦áƒ˜</value>
   </data>
   <data name="SidebarCloudDrives" xml:space="preserve">
-    <value>ღრუბლოვანი დისკები</value>
+    <value>áƒ¦áƒ áƒ£áƒ‘áƒšáƒáƒ•áƒáƒœáƒ˜ áƒ“áƒ˜áƒ¡áƒ™áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>დადასტურება</value>
+    <value>áƒ“áƒáƒ“áƒáƒ¡áƒ¢áƒ£áƒ áƒ”áƒ‘áƒ</value>
   </data>
   <data name="DesiredName" xml:space="preserve">
-    <value>სასურველი სახელი</value>
+    <value>áƒ¡áƒáƒ¡áƒ£áƒ áƒ•áƒ”áƒšáƒ˜ áƒ¡áƒáƒ®áƒ”áƒšáƒ˜</value>
   </data>
   <data name="TogglePreviewPane" xml:space="preserve">
     <value>Toggle the preview pane</value>
@@ -1161,10 +1167,10 @@
     <value>Toggle dual pane mode</value>
   </data>
   <data name="DetailsPanePreviewNotAvaliableText" xml:space="preserve">
-    <value>გადახედვა არ არის შესაძლებელი</value>
+    <value>áƒ’áƒáƒ“áƒáƒ®áƒ”áƒ“áƒ•áƒ áƒáƒ  áƒáƒ áƒ˜áƒ¡ áƒ¨áƒ”áƒ¡áƒáƒ«áƒšáƒ”áƒ‘áƒ”áƒšáƒ˜</value>
   </data>
   <data name="PropertyItemName" xml:space="preserve">
-    <value>ნივთის სახელი</value>
+    <value>áƒœáƒ˜áƒ•áƒ—áƒ˜áƒ¡ áƒ¡áƒáƒ®áƒ”áƒšáƒ˜</value>
   </data>
   <data name="Unpin" xml:space="preserve">
     <value>Unpin</value>
@@ -1173,85 +1179,85 @@
     <value>Unpin from Sidebar</value>
   </data>
   <data name="Network" xml:space="preserve">
-    <value>ქსელი</value>
+    <value>áƒ¥áƒ¡áƒ”áƒšáƒ˜</value>
   </data>
   <data name="PreviewPaneFileDetails.AutomationProperties.Name" xml:space="preserve">
-    <value>ფაილის დეტალები</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒ“áƒ”áƒ¢áƒáƒšáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="PreviewPaneFilePreview.AutomationProperties.Name" xml:space="preserve">
-    <value>ფაილის გადახედვა</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒ’áƒáƒ“áƒáƒ®áƒ”áƒ“áƒ•áƒ</value>
   </data>
   <data name="SelectedFilePreviewPane.AutomationProperties.Name" xml:space="preserve">
-    <value>არჩეულია ფაილის გადახედვის სარკმელი</value>
+    <value>áƒáƒ áƒ©áƒ”áƒ£áƒšáƒ˜áƒ áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒ’áƒáƒ“áƒáƒ®áƒ”áƒ“áƒ•áƒ˜áƒ¡ áƒ¡áƒáƒ áƒ™áƒ›áƒ”áƒšáƒ˜</value>
   </data>
   <data name="Feedback" xml:space="preserve">
     <value>Feedback</value>
   </data>
   <data name="CloudDriveSyncStatus_Online" xml:space="preserve">
-    <value>ხელმისაწვდომია ონლაინ რეჟიმში</value>
+    <value>áƒ®áƒ”áƒšáƒ›áƒ˜áƒ¡áƒáƒ¬áƒ•áƒ“áƒáƒ›áƒ˜áƒ áƒáƒœáƒšáƒáƒ˜áƒœ áƒ áƒ”áƒŸáƒ˜áƒ›áƒ¨áƒ˜</value>
   </data>
   <data name="Documentation" xml:space="preserve">
     <value>Documentation</value>
   </data>
   <data name="CloudDriveSyncStatus_Offline" xml:space="preserve">
-    <value>ხაზგარეშე რეჟიმშიცაა ხელმისაწვდომი</value>
+    <value>áƒ®áƒáƒ–áƒ’áƒáƒ áƒ”áƒ¨áƒ” áƒ áƒ”áƒŸáƒ˜áƒ›áƒ¨áƒ˜áƒªáƒáƒ áƒ®áƒ”áƒšáƒ›áƒ˜áƒ¡áƒáƒ¬áƒ•áƒ“áƒáƒ›áƒ˜</value>
   </data>
   <data name="CloudDriveSyncStatus_PartialOffline" xml:space="preserve">
-    <value>ნაწილობრივ ხელმისაწვდომია ხაზგარეშე რეჟიმში</value>
+    <value>áƒœáƒáƒ¬áƒ˜áƒšáƒáƒ‘áƒ áƒ˜áƒ• áƒ®áƒ”áƒšáƒ›áƒ˜áƒ¡áƒáƒ¬áƒ•áƒ“áƒáƒ›áƒ˜áƒ áƒ®áƒáƒ–áƒ’áƒáƒ áƒ”áƒ¨áƒ” áƒ áƒ”áƒŸáƒ˜áƒ›áƒ¨áƒ˜</value>
   </data>
   <data name="CloudDriveSyncStatus_Sync" xml:space="preserve">
-    <value>მიმდინარეობს სინქრონიზაცია</value>
+    <value>áƒ›áƒ˜áƒ›áƒ“áƒ˜áƒœáƒáƒ áƒ”áƒáƒ‘áƒ¡ áƒ¡áƒ˜áƒœáƒ¥áƒ áƒáƒœáƒ˜áƒ–áƒáƒªáƒ˜áƒ</value>
   </data>
   <data name="CloudDriveSyncStatus_Excluded" xml:space="preserve">
-    <value>გამორიცხულია სინქრონიზაციისგან</value>
+    <value>áƒ’áƒáƒ›áƒáƒ áƒ˜áƒªáƒ®áƒ£áƒšáƒ˜áƒ áƒ¡áƒ˜áƒœáƒ¥áƒ áƒáƒœáƒ˜áƒ–áƒáƒªáƒ˜áƒ˜áƒ¡áƒ’áƒáƒœ</value>
   </data>
   <data name="ItemSizeNotCalculated" xml:space="preserve">
-    <value>არ არის გათვლილი</value>
+    <value>áƒáƒ  áƒáƒ áƒ˜áƒ¡ áƒ’áƒáƒ—áƒ•áƒšáƒ˜áƒšáƒ˜</value>
   </data>
   <data name="ViewSize" xml:space="preserve">
     <value>View size</value>
   </data>
   <data name="CloudDriveSyncStatus_Unknown" xml:space="preserve">
-    <value>უცნობი</value>
+    <value>áƒ£áƒªáƒœáƒáƒ‘áƒ˜</value>
   </data>
   <data name="RenameFileDialogText" xml:space="preserve">
     <value>If you change a file extension, the file might become unusable. Are you sure you want to change it?</value>
   </data>
   <data name="DriveTypeCDRom" xml:space="preserve">
-    <value>CD ROM დისკი</value>
+    <value>CD ROM áƒ“áƒ˜áƒ¡áƒ™áƒ˜</value>
   </data>
   <data name="DriveTypeCloudDrive" xml:space="preserve">
-    <value>ღრუბლოვანი დისკი</value>
+    <value>áƒ¦áƒ áƒ£áƒ‘áƒšáƒáƒ•áƒáƒœáƒ˜ áƒ“áƒ˜áƒ¡áƒ™áƒ˜</value>
   </data>
   <data name="DriveTypeFixed" xml:space="preserve">
-    <value>გასწორებული დისკი</value>
+    <value>áƒ’áƒáƒ¡áƒ¬áƒáƒ áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ“áƒ˜áƒ¡áƒ™áƒ˜</value>
   </data>
   <data name="DriveTypeFloppyDisk" xml:space="preserve">
-    <value>ფლოპი დისკი</value>
+    <value>áƒ¤áƒšáƒáƒžáƒ˜ áƒ“áƒ˜áƒ¡áƒ™áƒ˜</value>
   </data>
   <data name="DriveTypeNetwork" xml:space="preserve">
-    <value>ქსელოვანი დისკი</value>
+    <value>áƒ¥áƒ¡áƒ”áƒšáƒáƒ•áƒáƒœáƒ˜ áƒ“áƒ˜áƒ¡áƒ™áƒ˜</value>
   </data>
   <data name="DriveTypeNoRootDirectory" xml:space="preserve">
-    <value>დაუმონტაჟებელი დისკი</value>
+    <value>áƒ“áƒáƒ£áƒ›áƒáƒœáƒ¢áƒáƒŸáƒ”áƒ‘áƒ”áƒšáƒ˜ áƒ“áƒ˜áƒ¡áƒ™áƒ˜</value>
   </data>
   <data name="DriveTypeRam" xml:space="preserve">
     <value>RAM Disk Drive</value>
   </data>
   <data name="DriveTypeRemovable" xml:space="preserve">
-    <value>ამოშლადი შესანახი მოწყობილობა</value>
+    <value>áƒáƒ›áƒáƒ¨áƒšáƒáƒ“áƒ˜ áƒ¨áƒ”áƒ¡áƒáƒœáƒáƒ®áƒ˜ áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ</value>
   </data>
   <data name="DriveTypeUnknown" xml:space="preserve">
-    <value>უცნობი</value>
+    <value>áƒ£áƒªáƒœáƒáƒ‘áƒ˜</value>
   </data>
   <data name="DriveTypeVirtualDrive" xml:space="preserve">
-    <value>ვირტუალური დისკი</value>
+    <value>áƒ•áƒ˜áƒ áƒ¢áƒ£áƒáƒšáƒ£áƒ áƒ˜ áƒ“áƒ˜áƒ¡áƒ™áƒ˜</value>
   </data>
   <data name="DateCreated" xml:space="preserve">
-    <value>შექმნის თარიღი</value>
+    <value>áƒ¨áƒ”áƒ¥áƒ›áƒœáƒ˜áƒ¡ áƒ—áƒáƒ áƒ˜áƒ¦áƒ˜</value>
   </data>
   <data name="MoreOptions" xml:space="preserve">
-    <value>მეტი არჩევანი...</value>
+    <value>áƒ›áƒ”áƒ¢áƒ˜ áƒáƒ áƒ©áƒ”áƒ•áƒáƒœáƒ˜...</value>
   </data>
   <data name="DrivesWidgetOptionsFlyoutMapNetDriveMenuItemText" xml:space="preserve">
     <value>Map network drive</value>
@@ -1260,31 +1266,31 @@
     <value>Pinned</value>
   </data>
   <data name="SidebarLibraries" xml:space="preserve">
-    <value>ბიბლიოთეკა</value>
+    <value>áƒ‘áƒ˜áƒ‘áƒšáƒ˜áƒáƒ—áƒ”áƒ™áƒ</value>
   </data>
   <data name="NoItemSelected" xml:space="preserve">
-    <value>ელემენტი არ არის არჩეული</value>
+    <value>áƒ”áƒšáƒ”áƒ›áƒ”áƒœáƒ¢áƒ˜ áƒáƒ  áƒáƒ áƒ˜áƒ¡ áƒáƒ áƒ©áƒ”áƒ£áƒšáƒ˜</value>
   </data>
   <data name="PropertyItemTarget" xml:space="preserve">
-    <value>სამიზნე</value>
+    <value>áƒ¡áƒáƒ›áƒ˜áƒ–áƒœáƒ”</value>
   </data>
   <data name="Arguments" xml:space="preserve">
-    <value>არგუმენტები</value>
+    <value>áƒáƒ áƒ’áƒ£áƒ›áƒ”áƒœáƒ¢áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>ნაგულისხმევი</value>
+    <value>áƒœáƒáƒ’áƒ£áƒšáƒ˜áƒ¡áƒ®áƒ›áƒ”áƒ•áƒ˜</value>
   </data>
   <data name="PropertyItemCount" xml:space="preserve">
-    <value>ნივთების რაოდენობა</value>
+    <value>áƒœáƒ˜áƒ•áƒ—áƒ”áƒ‘áƒ˜áƒ¡ áƒ áƒáƒáƒ“áƒ”áƒœáƒáƒ‘áƒ</value>
   </data>
   <data name="ElevateConfirmDialog.Title" xml:space="preserve">
-    <value>ეს მოქმედება მოითხოვს ადმინისტრატორის უფლებებს</value>
+    <value>áƒ”áƒ¡ áƒ›áƒáƒ¥áƒ›áƒ”áƒ“áƒ”áƒ‘áƒ áƒ›áƒáƒ˜áƒ—áƒ®áƒáƒ•áƒ¡ áƒáƒ“áƒ›áƒ˜áƒœáƒ˜áƒ¡áƒ¢áƒ áƒáƒ¢áƒáƒ áƒ˜áƒ¡ áƒ£áƒ¤áƒšáƒ”áƒ‘áƒ”áƒ‘áƒ¡</value>
   </data>
   <data name="ElevateConfirmDialog.Content" xml:space="preserve">
-    <value>გსურთ გააგრძელოთ, როგორც ადმინისტრატორმა?</value>
+    <value>áƒ’áƒ¡áƒ£áƒ áƒ— áƒ’áƒáƒáƒ’áƒ áƒ«áƒ”áƒšáƒáƒ—, áƒ áƒáƒ’áƒáƒ áƒª áƒáƒ“áƒ›áƒ˜áƒœáƒ˜áƒ¡áƒ¢áƒ áƒáƒ¢áƒáƒ áƒ›áƒ?</value>
   </data>
   <data name="ColumnsShortcutTooltip" xml:space="preserve">
-    <value>სვეტები (Ctrl+Shift+6)</value>
+    <value>áƒ¡áƒ•áƒ”áƒ¢áƒ”áƒ‘áƒ˜ (Ctrl+Shift+6)</value>
   </data>
   <data name="PinItemToStartText" xml:space="preserve">
     <value>Pin to the Start Menu</value>
@@ -1293,28 +1299,28 @@
     <value>Unpin from the Start Menu</value>
   </data>
   <data name="Library" xml:space="preserve">
-    <value>ბიბლიოთეკა</value>
+    <value>áƒ‘áƒ˜áƒ‘áƒšáƒ˜áƒáƒ—áƒ”áƒ™áƒ</value>
   </data>
   <data name="LibraryLocations.Text" xml:space="preserve">
-    <value>მდებარეობები:</value>
+    <value>áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ”áƒ‘áƒ˜:</value>
   </data>
   <data name="SetAsDefaultSavePath" xml:space="preserve">
-    <value>ნაგულისხმევ დასამახსოვრებელ გზად დაყენება</value>
+    <value>áƒœáƒáƒ’áƒ£áƒšáƒ˜áƒ¡áƒ®áƒ›áƒ”áƒ• áƒ“áƒáƒ¡áƒáƒ›áƒáƒ®áƒ¡áƒáƒ•áƒ áƒ”áƒ‘áƒ”áƒš áƒ’áƒ–áƒáƒ“ áƒ“áƒáƒ§áƒ”áƒœáƒ”áƒ‘áƒ</value>
   </data>
   <data name="LibraryNoLocations.Text" xml:space="preserve">
-    <value>ადგილმდებარეობები არ არის</value>
+    <value>áƒáƒ“áƒ’áƒ˜áƒšáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ”áƒ‘áƒ˜ áƒáƒ  áƒáƒ áƒ˜áƒ¡</value>
   </data>
   <data name="ErrorInputEmpty" xml:space="preserve">
-    <value>შეყვანის ველი არ შეიძლება იყოს ცარიელი!</value>
+    <value>áƒ¨áƒ”áƒ§áƒ•áƒáƒœáƒ˜áƒ¡ áƒ•áƒ”áƒšáƒ˜ áƒáƒ  áƒ¨áƒ”áƒ˜áƒ«áƒšáƒ”áƒ‘áƒ áƒ˜áƒ§áƒáƒ¡ áƒªáƒáƒ áƒ˜áƒ”áƒšáƒ˜!</value>
   </data>
   <data name="ErrorNameInputRestrictedCharacters" xml:space="preserve">
-    <value>სახელი არ უნდა შეიცავდეს შემდეგ სიმბოლოებს: \ / : * ? " &lt; &gt; |</value>
+    <value>áƒ¡áƒáƒ®áƒ”áƒšáƒ˜ áƒáƒ  áƒ£áƒœáƒ“áƒ áƒ¨áƒ”áƒ˜áƒªáƒáƒ•áƒ“áƒ”áƒ¡ áƒ¨áƒ”áƒ›áƒ“áƒ”áƒ’ áƒ¡áƒ˜áƒ›áƒ‘áƒáƒšáƒáƒ”áƒ‘áƒ¡: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="ErrorNameInputRestricted" xml:space="preserve">
-    <value>დაუშვებელია ამ სახელის გამოყენება!</value>
+    <value>áƒ“áƒáƒ£áƒ¨áƒ•áƒ”áƒ‘áƒ”áƒšáƒ˜áƒ áƒáƒ› áƒ¡áƒáƒ®áƒ”áƒšáƒ˜áƒ¡ áƒ’áƒáƒ›áƒáƒ§áƒ”áƒœáƒ”áƒ‘áƒ!</value>
   </data>
   <data name="CreateLibraryErrorAlreadyExists" xml:space="preserve">
-    <value>ბიბლიოთეკა მსგავსი სახელით უკვე არსებობს!</value>
+    <value>áƒ‘áƒ˜áƒ‘áƒšáƒ˜áƒáƒ—áƒ”áƒ™áƒ áƒ›áƒ¡áƒ’áƒáƒ•áƒ¡áƒ˜ áƒ¡áƒáƒ®áƒ”áƒšáƒ˜áƒ— áƒ£áƒ™áƒ•áƒ” áƒáƒ áƒ¡áƒ”áƒ‘áƒáƒ‘áƒ¡!</value>
   </data>
   <data name="OpenStorageSense" xml:space="preserve">
     <value>Open Storage Sense</value>
@@ -1326,7 +1332,7 @@
     <value>Cleanup</value>
   </data>
   <data name="Copy" xml:space="preserve">
-    <value>ასლის შექმნა</value>
+    <value>áƒáƒ¡áƒšáƒ˜áƒ¡ áƒ¨áƒ”áƒ¥áƒ›áƒœáƒ</value>
   </data>
   <data name="CopyItemsDialogTitle" xml:space="preserve">
     <value>Copy {0, plural, one {item} other {items}}</value>
@@ -1335,7 +1341,7 @@
     <value>Delete {0, plural, one {item} other {items}}</value>
   </data>
   <data name="MoveItemsDialogPrimaryButtonText" xml:space="preserve">
-    <value>გადატანა</value>
+    <value>áƒ’áƒáƒ“áƒáƒ¢áƒáƒœáƒ</value>
   </data>
   <data name="MoveItemsDialogSubtitle" xml:space="preserve">
     <value>{0, plural, one {One item will be moved} other {# items will be moved}}</value>
@@ -1347,7 +1353,7 @@
     <value>{0, plural, one {One item will be deleted} other {# items will be deleted}}</value>
   </data>
   <data name="ConflictingItemsDialogPrimaryButtonText" xml:space="preserve">
-    <value>გაგრძელება</value>
+    <value>áƒ’áƒáƒ’áƒ áƒ«áƒ”áƒšáƒ”áƒ‘áƒ</value>
   </data>
   <data name="ConflictingItemsDialogSubtitleConflicts" xml:space="preserve">
     <value>{0, plural, one {There is one conflicting file name} other {There are # conflicting file names}}</value>
@@ -1362,16 +1368,16 @@
     <value>{0, plural, one {One item will be copied} other {# items will be copied}}</value>
   </data>
   <data name="DeleteItemsDialogPermanentlyDeleteCheckBox.Content" xml:space="preserve">
-    <value>სამუდამოდ წაშლა</value>
+    <value>áƒ¡áƒáƒ›áƒ£áƒ“áƒáƒ›áƒáƒ“ áƒ¬áƒáƒ¨áƒšáƒ</value>
   </data>
   <data name="PropertyISO" xml:space="preserve">
-    <value>ISO სიჩქარე</value>
+    <value>ISO áƒ¡áƒ˜áƒ©áƒ¥áƒáƒ áƒ”</value>
   </data>
   <data name="ReplaceExisting" xml:space="preserve">
     <value>Replace existing</value>
   </data>
   <data name="GenerateNewName" xml:space="preserve">
-    <value>არსებულის ჩანაცვლება</value>
+    <value>áƒáƒ áƒ¡áƒ”áƒ‘áƒ£áƒšáƒ˜áƒ¡ áƒ©áƒáƒœáƒáƒªáƒ•áƒšáƒ”áƒ‘áƒ</value>
   </data>
   <data name="CreateFolderWithSelection" xml:space="preserve">
     <value>Create folder with selection</value>
@@ -1380,82 +1386,82 @@
     <value>Create shortcuts with selection</value>
   </data>
   <data name="ItemType" xml:space="preserve">
-    <value>ტიპი:</value>
+    <value>áƒ¢áƒ˜áƒžáƒ˜:</value>
   </data>
   <data name="ToolTipDescriptionDate" xml:space="preserve">
-    <value>შეცვლის თარიღი:</value>
+    <value>áƒ¨áƒ”áƒªáƒ•áƒšáƒ˜áƒ¡ áƒ—áƒáƒ áƒ˜áƒ¦áƒ˜:</value>
   </data>
   <data name="OpenWith" xml:space="preserve">
-    <value>გახსნა</value>
+    <value>áƒ’áƒáƒ®áƒ¡áƒœáƒ</value>
   </data>
   <data name="ChooseAnotherApp" xml:space="preserve">
     <value>Choose another app</value>
   </data>
   <data name="FileBrowserThumbnailIconColumnGrid.AutomationProperties.Name" xml:space="preserve">
-    <value>ფაილის ხატულა</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒ®áƒáƒ¢áƒ£áƒšáƒ</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowOriginalPath.Text" xml:space="preserve">
-    <value>თავდაპირველი გზის სვეტი</value>
+    <value>áƒ—áƒáƒ•áƒ“áƒáƒžáƒ˜áƒ áƒ•áƒ”áƒšáƒ˜ áƒ’áƒ–áƒ˜áƒ¡ áƒ¡áƒ•áƒ”áƒ¢áƒ˜</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowItemType.Text" xml:space="preserve">
-    <value>ნივთის ტიპის სვეტი</value>
+    <value>áƒœáƒ˜áƒ•áƒ—áƒ˜áƒ¡ áƒ¢áƒ˜áƒžáƒ˜áƒ¡ áƒ¡áƒ•áƒ”áƒ¢áƒ˜</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateModified.Text" xml:space="preserve">
-    <value>თარიღის შეცვლის სვეტი</value>
+    <value>áƒ—áƒáƒ áƒ˜áƒ¦áƒ˜áƒ¡ áƒ¨áƒ”áƒªáƒ•áƒšáƒ˜áƒ¡ áƒ¡áƒ•áƒ”áƒ¢áƒ˜</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateDeleted.Text" xml:space="preserve">
-    <value>თარიღის წაშლის სვეტი</value>
+    <value>áƒ—áƒáƒ áƒ˜áƒ¦áƒ˜áƒ¡ áƒ¬áƒáƒ¨áƒšáƒ˜áƒ¡ áƒ¡áƒ•áƒ”áƒ¢áƒ˜</value>
   </data>
   <data name="Sort" xml:space="preserve">
     <value>Sort</value>
   </data>
   <data name="DateModifiedLowerCase" xml:space="preserve">
-    <value>შეცვლის თარიღი</value>
+    <value>áƒ¨áƒ”áƒªáƒ•áƒšáƒ˜áƒ¡ áƒ—áƒáƒ áƒ˜áƒ¦áƒ˜</value>
   </data>
   <data name="OriginalFolder" xml:space="preserve">
     <value>Original folder</value>
   </data>
   <data name="Descending" xml:space="preserve">
-    <value>კლებადობის მიხედვით</value>
+    <value>áƒ™áƒšáƒ”áƒ‘áƒáƒ“áƒáƒ‘áƒ˜áƒ¡ áƒ›áƒ˜áƒ®áƒ”áƒ“áƒ•áƒ˜áƒ—</value>
   </data>
   <data name="ItemSizeText_Huge" xml:space="preserve">
-    <value>უზარმაზარი</value>
+    <value>áƒ£áƒ–áƒáƒ áƒ›áƒáƒ–áƒáƒ áƒ˜</value>
   </data>
   <data name="ItemSizeText_VeryLarge" xml:space="preserve">
-    <value>ძალიან დიდი</value>
+    <value>áƒ«áƒáƒšáƒ˜áƒáƒœ áƒ“áƒ˜áƒ“áƒ˜</value>
   </data>
   <data name="ItemSizeText_Large" xml:space="preserve">
-    <value>დიდი</value>
+    <value>áƒ“áƒ˜áƒ“áƒ˜</value>
   </data>
   <data name="ItemSizeText_Medium" xml:space="preserve">
-    <value>საშუალო</value>
+    <value>áƒ¡áƒáƒ¨áƒ£áƒáƒšáƒ</value>
   </data>
   <data name="ItemSizeText_Small" xml:space="preserve">
-    <value>პატარა</value>
+    <value>áƒžáƒáƒ¢áƒáƒ áƒ</value>
   </data>
   <data name="ItemSizeText_Tiny" xml:space="preserve">
-    <value>პაწაწინა</value>
+    <value>áƒžáƒáƒ¬áƒáƒ¬áƒ˜áƒœáƒ</value>
   </data>
   <data name="Future" xml:space="preserve">
     <value>Future</value>
   </data>
   <data name="Today" xml:space="preserve">
-    <value>დღეს</value>
+    <value>áƒ“áƒ¦áƒ”áƒ¡</value>
   </data>
   <data name="Yesterday" xml:space="preserve">
-    <value>გუშინ</value>
+    <value>áƒ’áƒ£áƒ¨áƒ˜áƒœ</value>
   </data>
   <data name="EarlierThisWeek" xml:space="preserve">
-    <value>ამ კვირის დასაწყისში</value>
+    <value>áƒáƒ› áƒ™áƒ•áƒ˜áƒ áƒ˜áƒ¡ áƒ“áƒáƒ¡áƒáƒ¬áƒ§áƒ˜áƒ¡áƒ¨áƒ˜</value>
   </data>
   <data name="LastWeek" xml:space="preserve">
-    <value>გასულ კვირას</value>
+    <value>áƒ’áƒáƒ¡áƒ£áƒš áƒ™áƒ•áƒ˜áƒ áƒáƒ¡</value>
   </data>
   <data name="EarlierThisMonth" xml:space="preserve">
     <value>Earlier this month</value>
   </data>
   <data name="LastMonth" xml:space="preserve">
-    <value>გასულ თვეში</value>
+    <value>áƒ’áƒáƒ¡áƒ£áƒš áƒ—áƒ•áƒ”áƒ¨áƒ˜</value>
   </data>
   <data name="EarlierThisYear" xml:space="preserve">
     <value>Earlier this year</value>
@@ -1467,10 +1473,10 @@
     <value>Year {0}</value>
   </data>
   <data name="GroupItemsCount_Singular" xml:space="preserve">
-    <value>{0} ელემენტი</value>
+    <value>{0} áƒ”áƒšáƒ”áƒ›áƒ”áƒœáƒ¢áƒ˜</value>
   </data>
   <data name="GroupItemsCount_Plural" xml:space="preserve">
-    <value>{0} ელემენტი</value>
+    <value>{0} áƒ”áƒšáƒ”áƒ›áƒ”áƒœáƒ¢áƒ˜</value>
   </data>
   <data name="ReopenClosedTab" xml:space="preserve">
     <value>Reopen tab</value>
@@ -1482,37 +1488,37 @@
     <value>Privacy</value>
   </data>
   <data name="TheRecycleBin" xml:space="preserve">
-    <value>სანაგვე ურნა</value>
+    <value>áƒ¡áƒáƒœáƒáƒ’áƒ•áƒ” áƒ£áƒ áƒœáƒ</value>
   </data>
   <data name="Canceling" xml:space="preserve">
     <value>Canceling</value>
   </data>
   <data name="Clear" xml:space="preserve">
-    <value>გასუფთავება</value>
+    <value>áƒ’áƒáƒ¡áƒ£áƒ¤áƒ—áƒáƒ•áƒ”áƒ‘áƒ</value>
   </data>
   <data name="Widgets" xml:space="preserve">
     <value>Widgets</value>
   </data>
   <data name="SyncStatus" xml:space="preserve">
-    <value>სინქრონიზაციის სტატუსი</value>
+    <value>áƒ¡áƒ˜áƒœáƒ¥áƒ áƒáƒœáƒ˜áƒ–áƒáƒªáƒ˜áƒ˜áƒ¡ áƒ¡áƒ¢áƒáƒ¢áƒ£áƒ¡áƒ˜</value>
   </data>
   <data name="Security" xml:space="preserve">
-    <value>უსაფრთხოება</value>
+    <value>áƒ£áƒ¡áƒáƒ¤áƒ áƒ—áƒ®áƒáƒ”áƒ‘áƒ</value>
   </data>
   <data name="AdvancedPermissions" xml:space="preserve">
-    <value>დამატებითი უფლებები</value>
+    <value>áƒ“áƒáƒ›áƒáƒ¢áƒ”áƒ‘áƒ˜áƒ—áƒ˜ áƒ£áƒ¤áƒšáƒ”áƒ‘áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="Allow" xml:space="preserve">
-    <value>დაშვება</value>
+    <value>áƒ“áƒáƒ¨áƒ•áƒ”áƒ‘áƒ</value>
   </data>
   <data name="Deny" xml:space="preserve">
     <value>Deny</value>
   </data>
   <data name="SecurityFullControlLabel.Text" xml:space="preserve">
-    <value>სრული კონტროლი</value>
+    <value>áƒ¡áƒ áƒ£áƒšáƒ˜ áƒ™áƒáƒœáƒ¢áƒ áƒáƒšáƒ˜</value>
   </data>
   <data name="SecurityListDirectoryLabel.Text" xml:space="preserve">
-    <value>კატალოგთა კონტენტის ჩამოთვლა</value>
+    <value>áƒ™áƒáƒ¢áƒáƒšáƒáƒ’áƒ—áƒ áƒ™áƒáƒœáƒ¢áƒ”áƒœáƒ¢áƒ˜áƒ¡ áƒ©áƒáƒ›áƒáƒ—áƒ•áƒšáƒ</value>
   </data>
   <data name="Modify" xml:space="preserve">
     <value>Modify</value>
@@ -1521,19 +1527,19 @@
     <value>Permissions for {0}</value>
   </data>
   <data name="SecurityReadAndExecuteLabel.Text" xml:space="preserve">
-    <value>წაკითხვა და შესრულება</value>
+    <value>áƒ¬áƒáƒ™áƒ˜áƒ—áƒ®áƒ•áƒ áƒ“áƒ áƒ¨áƒ”áƒ¡áƒ áƒ£áƒšáƒ”áƒ‘áƒ</value>
   </data>
   <data name="SecurityReadLabel.Text" xml:space="preserve">
-    <value>წაკითხვა</value>
+    <value>áƒ¬áƒáƒ™áƒ˜áƒ—áƒ®áƒ•áƒ</value>
   </data>
   <data name="SecurityUsersGroupLabel.Text" xml:space="preserve">
-    <value>ჯგუფის ან მომხმარებლის სახელები</value>
+    <value>áƒ¯áƒ’áƒ£áƒ¤áƒ˜áƒ¡ áƒáƒœ áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ˜áƒ¡ áƒ¡áƒáƒ®áƒ”áƒšáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="Write" xml:space="preserve">
-    <value>დაწერა</value>
+    <value>áƒ“áƒáƒ¬áƒ”áƒ áƒ</value>
   </data>
   <data name="SecurityUnknownAccount" xml:space="preserve">
-    <value>უცნობი ანგარიში</value>
+    <value>áƒ£áƒªáƒœáƒáƒ‘áƒ˜ áƒáƒœáƒ’áƒáƒ áƒ˜áƒ¨áƒ˜</value>
   </data>
   <data name="SecurityCannotReadPropertiesText" xml:space="preserve">
     <value>You do not have permissions to view the security properties of this object. Click "Advanced permissions" to proceed.</value>
@@ -1548,10 +1554,10 @@
     <value>Extract archive</value>
   </data>
   <data name="DecompressArchiveDialogOpenDestinationWhenComplete.Content" xml:space="preserve">
-    <value>გახსენით დანიშნულების საქაღალდე დასრულების შემდეგ</value>
+    <value>áƒ’áƒáƒ®áƒ¡áƒ”áƒœáƒ˜áƒ— áƒ“áƒáƒœáƒ˜áƒ¨áƒœáƒ£áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ” áƒ“áƒáƒ¡áƒ áƒ£áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒ¨áƒ”áƒ›áƒ“áƒ”áƒ’</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutExtractToChildFolder" xml:space="preserve">
-    <value>ამოიღეთ {0}\ -ში</value>
+    <value>áƒáƒ›áƒáƒ˜áƒ¦áƒ”áƒ— {0}\ -áƒ¨áƒ˜</value>
   </data>
   <data name="SideBarCreateNewLibraryText" xml:space="preserve">
     <value>Create new library</value>
@@ -1560,19 +1566,19 @@
     <value>Restore default libraries</value>
   </data>
   <data name="DialogRestoreLibrariesSubtitleText" xml:space="preserve">
-    <value>დარწმუნებული ხართ, რომ გსურთ ნაგულისხმევი ბიბლიოთეკების აღდგენა? თქვენი ყველა ფაილი თქვენს სისტემაში მაინც დარჩება.</value>
+    <value>áƒ“áƒáƒ áƒ¬áƒ›áƒ£áƒœáƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ®áƒáƒ áƒ—, áƒ áƒáƒ› áƒ’áƒ¡áƒ£áƒ áƒ— áƒœáƒáƒ’áƒ£áƒšáƒ˜áƒ¡áƒ®áƒ›áƒ”áƒ•áƒ˜ áƒ‘áƒ˜áƒ‘áƒšáƒ˜áƒáƒ—áƒ”áƒ™áƒ”áƒ‘áƒ˜áƒ¡ áƒáƒ¦áƒ“áƒ’áƒ”áƒœáƒ? áƒ—áƒ¥áƒ•áƒ”áƒœáƒ˜ áƒ§áƒ•áƒ”áƒšáƒ áƒ¤áƒáƒ˜áƒšáƒ˜ áƒ—áƒ¥áƒ•áƒ”áƒœáƒ¡ áƒ¡áƒ˜áƒ¡áƒ¢áƒ”áƒ›áƒáƒ¨áƒ˜ áƒ›áƒáƒ˜áƒœáƒª áƒ“áƒáƒ áƒ©áƒ”áƒ‘áƒ.</value>
   </data>
   <data name="DialogRestoreLibrariesTitleText" xml:space="preserve">
-    <value>ბიბლიოთეკების აღდგენა</value>
+    <value>áƒ‘áƒ˜áƒ‘áƒšáƒ˜áƒáƒ—áƒ”áƒ™áƒ”áƒ‘áƒ˜áƒ¡ áƒáƒ¦áƒ“áƒ’áƒ”áƒœáƒ</value>
   </data>
   <data name="PropertyFileOwner" xml:space="preserve">
-    <value>მფლობელი</value>
+    <value>áƒ›áƒ¤áƒšáƒáƒ‘áƒ”áƒšáƒ˜</value>
   </data>
   <data name="SecuritySpecialLabelText" xml:space="preserve">
     <value>Special</value>
   </data>
   <data name="Access" xml:space="preserve">
-    <value>დაშვება</value>
+    <value>áƒ“áƒáƒ¨áƒ•áƒ”áƒ‘áƒ</value>
   </data>
   <data name="SecurityAdvancedAppliesTo" xml:space="preserve">
     <value>Applies to</value>
@@ -1581,13 +1587,13 @@
     <value>Principal</value>
   </data>
   <data name="SecurityAdvancedFlagsFilesLabel" xml:space="preserve">
-    <value>ფაილები</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="SecurityAdvancedFlagsFolderLabel" xml:space="preserve">
-    <value>ეს საქაღალდე</value>
+    <value>áƒ”áƒ¡ áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”</value>
   </data>
   <data name="SecurityAdvancedFlagsSubfoldersLabel" xml:space="preserve">
-    <value>ქვესაქაღალდეები</value>
+    <value>áƒ¥áƒ•áƒ”áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="Inherited" xml:space="preserve">
     <value>Inherited</value>
@@ -1599,25 +1605,25 @@
     <value>You do not have permissions to view the security properties of this object. You can try to take ownership of this object.</value>
   </data>
   <data name="SecurityAdvancedFolderFiles.Text" xml:space="preserve">
-    <value>ეს საქაღალდე და ფაილები</value>
+    <value>áƒ”áƒ¡ áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ” áƒ“áƒ áƒ¤áƒáƒ˜áƒšáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="SecurityAdvancedFolderSubfoldersFiles.Text" xml:space="preserve">
-    <value>ეს საქაღალდე, ქვესაქაღალდეები და ფაილები</value>
+    <value>áƒ”áƒ¡ áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”, áƒ¥áƒ•áƒ”áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”áƒ”áƒ‘áƒ˜ áƒ“áƒ áƒ¤áƒáƒ˜áƒšáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="SecurityAdvancedOnlyFiles.Text" xml:space="preserve">
-    <value>მხოლოდ ფაილები</value>
+    <value>áƒ›áƒ®áƒáƒšáƒáƒ“ áƒ¤áƒáƒ˜áƒšáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="SecurityAdvancedOnlySubfolders.Text" xml:space="preserve">
-    <value>მხოლოდ ქვესაქაღალდეები</value>
+    <value>áƒ›áƒ®áƒáƒšáƒáƒ“ áƒ¥áƒ•áƒ”áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="SecurityAdvancedOnlySubfoldersFiles.Text" xml:space="preserve">
-    <value>მხოლოდ ქვესაქაღალდეები და ფაილები</value>
+    <value>áƒ›áƒ®áƒáƒšáƒáƒ“ áƒ¥áƒ•áƒ”áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”áƒ”áƒ‘áƒ˜ áƒ“áƒ áƒ¤áƒáƒ˜áƒšáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="SecurityAdvancedOnlyThisFolder.Text" xml:space="preserve">
-    <value>მხოლოდ ეს საქაღალდე</value>
+    <value>áƒ›áƒ®áƒáƒšáƒáƒ“ áƒ”áƒ¡ áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”</value>
   </data>
   <data name="SecurityAdvancedFolderSubfolders.Text" xml:space="preserve">
-    <value>ეს საქაღალდე და ქვესაქაღალდეები</value>
+    <value>áƒ”áƒ¡ áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ” áƒ“áƒ áƒ¥áƒ•áƒ”áƒ¡áƒáƒ¥áƒáƒ¦áƒáƒšáƒ“áƒ”áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="SecurityAppendDataLabelText" xml:space="preserve">
     <value>Append data</value>
@@ -1665,55 +1671,55 @@
     <value>Write extended attributes</value>
   </data>
   <data name="SecurityAdvancedInheritedConvert.Text" xml:space="preserve">
-    <value>მემკვიდრეობით მიღებული უფლებების აშკარა ნებართვებად გადაქცევა</value>
+    <value>áƒ›áƒ”áƒ›áƒ™áƒ•áƒ˜áƒ“áƒ áƒ”áƒáƒ‘áƒ˜áƒ— áƒ›áƒ˜áƒ¦áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ£áƒ¤áƒšáƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒáƒ¨áƒ™áƒáƒ áƒ áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ”áƒ‘áƒáƒ“ áƒ’áƒáƒ“áƒáƒ¥áƒªáƒ”áƒ•áƒ</value>
   </data>
   <data name="SecurityAdvancedInheritedEnable.Text" xml:space="preserve">
-    <value>მემკვიდრეობის ჩართვა</value>
+    <value>áƒ›áƒ”áƒ›áƒ™áƒ•áƒ˜áƒ“áƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ©áƒáƒ áƒ—áƒ•áƒ</value>
   </data>
   <data name="SecurityAdvancedInheritedRemove.Text" xml:space="preserve">
-    <value>ყველა მემკვიდრეობით მიღებული უფლებების წაშლა</value>
+    <value>áƒ§áƒ•áƒ”áƒšáƒ áƒ›áƒ”áƒ›áƒ™áƒ•áƒ˜áƒ“áƒ áƒ”áƒáƒ‘áƒ˜áƒ— áƒ›áƒ˜áƒ¦áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ£áƒ¤áƒšáƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ¬áƒáƒ¨áƒšáƒ</value>
   </data>
   <data name="SecurityAdvancedReplaceChildPermissions.Text" xml:space="preserve">
-    <value>ბავშვის ნებართვების გადაყენება</value>
+    <value>áƒ‘áƒáƒ•áƒ¨áƒ•áƒ˜áƒ¡ áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ“áƒáƒ§áƒ”áƒœáƒ”áƒ‘áƒ</value>
   </data>
   <data name="SecurityAdvancedReplaceChildPermissions2.ToolTipService.ToolTip" xml:space="preserve">
-    <value>ყველა ბავშვის ობიექტის ნებართვის ჩანაწერის ჩანაცვლება ამ ობიექტის მემკვიდრეობითი ნებართვის ჩანაწერიდან</value>
+    <value>áƒ§áƒ•áƒ”áƒšáƒ áƒ‘áƒáƒ•áƒ¨áƒ•áƒ˜áƒ¡ áƒáƒ‘áƒ˜áƒ”áƒ¥áƒ¢áƒ˜áƒ¡ áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ˜áƒ¡ áƒ©áƒáƒœáƒáƒ¬áƒ”áƒ áƒ˜áƒ¡ áƒ©áƒáƒœáƒáƒªáƒ•áƒšáƒ”áƒ‘áƒ áƒáƒ› áƒáƒ‘áƒ˜áƒ”áƒ¥áƒ¢áƒ˜áƒ¡ áƒ›áƒ”áƒ›áƒ™áƒ•áƒ˜áƒ“áƒ áƒ”áƒáƒ‘áƒ˜áƒ—áƒ˜ áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ˜áƒ¡ áƒ©áƒáƒœáƒáƒ¬áƒ”áƒ áƒ˜áƒ“áƒáƒœ</value>
   </data>
   <data name="CloseActivePane" xml:space="preserve">
     <value>Close pane</value>
   </data>
   <data name="EnterCompactOverlay" xml:space="preserve">
-    <value>შეერთებული გადაფარვის ჩართვა</value>
+    <value>áƒ¨áƒ”áƒ”áƒ áƒ—áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ’áƒáƒ“áƒáƒ¤áƒáƒ áƒ•áƒ˜áƒ¡ áƒ©áƒáƒ áƒ—áƒ•áƒ</value>
   </data>
   <data name="ExitCompactOverlay" xml:space="preserve">
-    <value>შეერთებული გადაფარვის გამორთვა</value>
+    <value>áƒ¨áƒ”áƒ”áƒ áƒ—áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ’áƒáƒ“áƒáƒ¤áƒáƒ áƒ•áƒ˜áƒ¡ áƒ’áƒáƒ›áƒáƒ áƒ—áƒ•áƒ</value>
   </data>
   <data name="PropertyFileDescription" xml:space="preserve">
-    <value>ფაილის აღწერა</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒáƒ¦áƒ¬áƒ”áƒ áƒ</value>
   </data>
   <data name="PropertyCompany" xml:space="preserve">
-    <value>კომპანია</value>
+    <value>áƒ™áƒáƒ›áƒžáƒáƒœáƒ˜áƒ</value>
   </data>
   <data name="PropertyLanguage" xml:space="preserve">
-    <value>ენა</value>
+    <value>áƒ”áƒœáƒ</value>
   </data>
   <data name="PropertyTrademarks" xml:space="preserve">
-    <value>სავაჭრო ნიშნები</value>
+    <value>áƒ¡áƒáƒ•áƒáƒ­áƒ áƒ áƒœáƒ˜áƒ¨áƒœáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="PropertyFileVersion" xml:space="preserve">
-    <value>ფაილის ვერსია</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒ•áƒ”áƒ áƒ¡áƒ˜áƒ</value>
   </data>
   <data name="PreviewPaneLoadCloudItemButton.Text" xml:space="preserve">
-    <value>სრული გადახედვის ჩატვირთვა</value>
+    <value>áƒ¡áƒ áƒ£áƒšáƒ˜ áƒ’áƒáƒ“áƒáƒ®áƒ”áƒ“áƒ•áƒ˜áƒ¡ áƒ©áƒáƒ¢áƒ•áƒ˜áƒ áƒ—áƒ•áƒ</value>
   </data>
   <data name="PreviewPaneLoadCloudItemButton.ToolTipService.ToolTip" xml:space="preserve">
-    <value>ჩამოტვირთავს ნივთს ღრუბლიდან და ჩატვირთავს გადახედვას</value>
+    <value>áƒ©áƒáƒ›áƒáƒ¢áƒ•áƒ˜áƒ áƒ—áƒáƒ•áƒ¡ áƒœáƒ˜áƒ•áƒ—áƒ¡ áƒ¦áƒ áƒ£áƒ‘áƒšáƒ˜áƒ“áƒáƒœ áƒ“áƒ áƒ©áƒáƒ¢áƒ•áƒ˜áƒ áƒ—áƒáƒ•áƒ¡ áƒ’áƒáƒ“áƒáƒ®áƒ”áƒ“áƒ•áƒáƒ¡</value>
   </data>
   <data name="DetailsArchiveItems" xml:space="preserve">
     <value>{0, plural, one {# item} other {# items}} ({1, plural, one {# file} other {# files}}, {2, plural, one {# folder} other {# folders}})</value>
   </data>
   <data name="PropertyUncompressedSize" xml:space="preserve">
-    <value>შეუკუმშავი ზომა</value>
+    <value>áƒ¨áƒ”áƒ£áƒ™áƒ£áƒ›áƒ¨áƒáƒ•áƒ˜ áƒ–áƒáƒ›áƒ</value>
   </data>
   <data name="WSL" xml:space="preserve">
     <value>WSL</value>
@@ -1722,31 +1728,31 @@
     <value>Hide {0} section</value>
   </data>
   <data name="AddFile" xml:space="preserve">
-    <value>ფაილის დამატება</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒ“áƒáƒ›áƒáƒ¢áƒ”áƒ‘áƒ</value>
   </data>
   <data name="ConsentDialogTitle" xml:space="preserve">
-    <value>განახლებები ხელმისაწვდომია</value>
+    <value>áƒ’áƒáƒœáƒáƒ®áƒšáƒ”áƒ‘áƒ”áƒ‘áƒ˜ áƒ®áƒ”áƒšáƒ›áƒ˜áƒ¡áƒáƒ¬áƒ•áƒ“áƒáƒ›áƒ˜áƒ</value>
   </data>
   <data name="ConsentDialogContent" xml:space="preserve">
-    <value>განახლებები მზად არიან დასაყენებლად</value>
+    <value>áƒ’áƒáƒœáƒáƒ®áƒšáƒ”áƒ‘áƒ”áƒ‘áƒ˜ áƒ›áƒ–áƒáƒ“ áƒáƒ áƒ˜áƒáƒœ áƒ“áƒáƒ¡áƒáƒ§áƒ”áƒœáƒ”áƒ‘áƒšáƒáƒ“</value>
   </data>
   <data name="Close" xml:space="preserve">
-    <value>დახურვა</value>
+    <value>áƒ“áƒáƒ®áƒ£áƒ áƒ•áƒ</value>
   </data>
   <data name="ConsentDialogPrimaryButtonText" xml:space="preserve">
-    <value>განახლება</value>
+    <value>áƒ’áƒáƒœáƒáƒ®áƒšáƒ”áƒ‘áƒ</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>მთავარი</value>
+    <value>áƒ›áƒ—áƒáƒ•áƒáƒ áƒ˜</value>
   </data>
   <data name="ArchiveExtractionCompletedSuccessfullyText" xml:space="preserve">
-    <value>არქივის ამოღება წარმატებით დასრულდა.</value>
+    <value>áƒáƒ áƒ¥áƒ˜áƒ•áƒ˜áƒ¡ áƒáƒ›áƒáƒ¦áƒ”áƒ‘áƒ áƒ¬áƒáƒ áƒ›áƒáƒ¢áƒ”áƒ‘áƒ˜áƒ— áƒ“áƒáƒ¡áƒ áƒ£áƒšáƒ“áƒ.</value>
   </data>
   <data name="ExtractingArchiveText" xml:space="preserve">
-    <value>მიმდინარეობს არქივის ამოღება</value>
+    <value>áƒ›áƒ˜áƒ›áƒ“áƒ˜áƒœáƒáƒ áƒ”áƒáƒ‘áƒ¡ áƒáƒ áƒ¥áƒ˜áƒ•áƒ˜áƒ¡ áƒáƒ›áƒáƒ¦áƒ”áƒ‘áƒ</value>
   </data>
   <data name="ExtractingCompleteText" xml:space="preserve">
-    <value>ამოღება დასრულებულია!</value>
+    <value>áƒáƒ›áƒáƒ¦áƒ”áƒ‘áƒ áƒ“áƒáƒ¡áƒ áƒ£áƒšáƒ”áƒ‘áƒ£áƒšáƒ˜áƒ!</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutOpenParentFolderText" xml:space="preserve">
     <value>Open parent folder</value>
@@ -1755,10 +1761,10 @@
     <value>Unknown</value>
   </data>
   <data name="EditTags" xml:space="preserve">
-    <value>ფაილის იარლიყების რედაქტირება</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒ˜áƒáƒ áƒšáƒ˜áƒ§áƒ”áƒ‘áƒ˜áƒ¡ áƒ áƒ”áƒ“áƒáƒ¥áƒ¢áƒ˜áƒ áƒ”áƒ‘áƒ</value>
   </data>
   <data name="PropertyPartOfSet" xml:space="preserve">
-    <value>ნაკრების ნაწილი</value>
+    <value>áƒœáƒáƒ™áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒœáƒáƒ¬áƒ˜áƒšáƒ˜</value>
   </data>
   <data name="InsertDiscDialog.OpenDriveButton" xml:space="preserve">
     <value>Open drive</value>
@@ -1776,10 +1782,10 @@
     <value>Credential required</value>
   </data>
   <data name="CredentialDialogAnonymous.Content" xml:space="preserve">
-    <value>უსახელო</value>
+    <value>áƒ£áƒ¡áƒáƒ®áƒ”áƒšáƒ</value>
   </data>
   <data name="CredentialDialogDescription.Text" xml:space="preserve">
-    <value>მიუთითეთ თქვენი სერთიფიკატი:</value>
+    <value>áƒ›áƒ˜áƒ£áƒ—áƒ˜áƒ—áƒ”áƒ— áƒ—áƒ¥áƒ•áƒ”áƒœáƒ˜ áƒ¡áƒ”áƒ áƒ—áƒ˜áƒ¤áƒ˜áƒ™áƒáƒ¢áƒ˜:</value>
   </data>
   <data name="CredentialDialogIncorrectPassword" xml:space="preserve">
     <value>The password is incorrect. Try again.</value>
@@ -1791,19 +1797,19 @@
     <value>This location is password protected. Refresh to enter the password.</value>
   </data>
   <data name="CredentialDialogUserName.PlaceholderText" xml:space="preserve">
-    <value>მომხმარებლის სახელი</value>
+    <value>áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ˜áƒ¡ áƒ¡áƒáƒ®áƒ”áƒšáƒ˜</value>
   </data>
   <data name="NoSearchResultsFound" xml:space="preserve">
-    <value>ნივთები ვერ მოიძებნა</value>
+    <value>áƒœáƒ˜áƒ•áƒ—áƒ”áƒ‘áƒ˜ áƒ•áƒ”áƒ  áƒ›áƒáƒ˜áƒ«áƒ”áƒ‘áƒœáƒ</value>
   </data>
   <data name="OpenLogLocation" xml:space="preserve">
-    <value>ჟურნალის ადგილმდებარეობის გახსნა</value>
+    <value>áƒŸáƒ£áƒ áƒœáƒáƒšáƒ˜áƒ¡ áƒáƒ“áƒ’áƒ˜áƒšáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ®áƒ¡áƒœáƒ</value>
   </data>
   <data name="LinkToFolderCaptionText" xml:space="preserve">
-    <value>ბმულის შექმნა {0} -ში</value>
+    <value>áƒ‘áƒ›áƒ£áƒšáƒ˜áƒ¡ áƒ¨áƒ”áƒ¥áƒ›áƒœáƒ {0} -áƒ¨áƒ˜</value>
   </data>
   <data name="Columns" xml:space="preserve">
-    <value>სვეტები</value>
+    <value>áƒ¡áƒ•áƒ”áƒ¢áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="Cards" xml:space="preserve">
     <value>Cards</value>
@@ -1839,7 +1845,7 @@
     <value>Use Files as Open File Dialog</value>
   </data>
   <data name="Tag" xml:space="preserve">
-    <value>ფაილის იარლიყი</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒ˜áƒáƒ áƒšáƒ˜áƒ§áƒ˜</value>
   </data>
   <data name="OpenFilesWithOneClick" xml:space="preserve">
     <value>Open files with a single click</value>
@@ -1860,16 +1866,16 @@
     <value>Error importing settings</value>
   </data>
   <data name="EmptyRecycleBin" xml:space="preserve">
-    <value>სანაგვე ურნის გასუფთავება</value>
+    <value>áƒ¡áƒáƒœáƒáƒ’áƒ•áƒ” áƒ£áƒ áƒœáƒ˜áƒ¡ áƒ’áƒáƒ¡áƒ£áƒ¤áƒ—áƒáƒ•áƒ”áƒ‘áƒ</value>
   </data>
   <data name="Sidebar" xml:space="preserve">
-    <value>გვერდითი ზოლი</value>
+    <value>áƒ’áƒ•áƒ”áƒ áƒ“áƒ˜áƒ—áƒ˜ áƒ–áƒáƒšáƒ˜</value>
   </data>
   <data name="ChooseCustomIcon" xml:space="preserve">
     <value>Choose a custom folder icon</value>
   </data>
   <data name="Customization" xml:space="preserve">
-    <value>მორგება</value>
+    <value>áƒ›áƒáƒ áƒ’áƒ”áƒ‘áƒ</value>
   </data>
   <data name="RestoreDefault" xml:space="preserve">
     <value>Restore default</value>
@@ -1881,10 +1887,10 @@
     <value>Startup settings</value>
   </data>
   <data name="Compatibility" xml:space="preserve">
-    <value>თავსებადობა</value>
+    <value>áƒ—áƒáƒ•áƒ¡áƒ”áƒ‘áƒáƒ“áƒáƒ‘áƒ</value>
   </data>
   <data name="None" xml:space="preserve">
-    <value>არცერთი</value>
+    <value>áƒáƒ áƒªáƒ”áƒ áƒ—áƒ˜</value>
   </data>
   <data name="CompatibilityOnWindowsLogin" xml:space="preserve">
     <value>On Windows login</value>
@@ -1893,7 +1899,7 @@
     <value>On this program start</value>
   </data>
   <data name="System" xml:space="preserve">
-    <value>სისტემა</value>
+    <value>áƒ¡áƒ˜áƒ¡áƒ¢áƒ”áƒ›áƒ</value>
   </data>
   <data name="CompatibilitySystemEnhanced" xml:space="preserve">
     <value>System (Enhanced)</value>
@@ -1932,7 +1938,7 @@
     <value>Maximized</value>
   </data>
   <data name="RunAsAdministrator" xml:space="preserve">
-    <value>ადმინისტრატორის სახელით გაშვება</value>
+    <value>áƒáƒ“áƒ›áƒ˜áƒœáƒ˜áƒ¡áƒ¢áƒ áƒáƒ¢áƒáƒ áƒ˜áƒ¡ áƒ¡áƒáƒ®áƒ”áƒšáƒ˜áƒ— áƒ’áƒáƒ¨áƒ•áƒ”áƒ‘áƒ</value>
   </data>
   <data name="CompatibilityRunTroubleshooter" xml:space="preserve">
     <value>Run compatibility troubleshooter</value>
@@ -1977,34 +1983,34 @@
     <value>Open Files on Windows startup</value>
   </data>
   <data name="Attributes" xml:space="preserve">
-    <value>ატრიბუტები:</value>
+    <value>áƒáƒ¢áƒ áƒ˜áƒ‘áƒ£áƒ¢áƒ”áƒ‘áƒ˜:</value>
   </data>
   <data name="Hidden" xml:space="preserve">
-    <value>დამალული</value>
+    <value>áƒ“áƒáƒ›áƒáƒšáƒ£áƒšáƒ˜</value>
   </data>
   <data name="MoreDetails" xml:space="preserve">
-    <value>დამატებითი დეტალები</value>
+    <value>áƒ“áƒáƒ›áƒáƒ¢áƒ”áƒ‘áƒ˜áƒ—áƒ˜ áƒ“áƒ”áƒ¢áƒáƒšáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="ReadOnly" xml:space="preserve">
-    <value>მხოლოდ წაკითხვადი</value>
+    <value>áƒ›áƒ®áƒáƒšáƒáƒ“ áƒ¬áƒáƒ™áƒ˜áƒ—áƒ®áƒ•áƒáƒ“áƒ˜</value>
   </data>
   <data name="CleanupDrive" xml:space="preserve">
     <value>Cleanup your drive contents</value>
   </data>
   <data name="Type" xml:space="preserve">
-    <value>ნიმუში</value>
+    <value>áƒœáƒ˜áƒ›áƒ£áƒ¨áƒ˜</value>
   </data>
   <data name="Bytes" xml:space="preserve">
-    <value>ბაიტი:</value>
+    <value>áƒ‘áƒáƒ˜áƒ¢áƒ˜:</value>
   </data>
   <data name="Extract" xml:space="preserve">
-    <value>ამოღება</value>
+    <value>áƒáƒ›áƒáƒ¦áƒ”áƒ‘áƒ</value>
   </data>
   <data name="ExtractFiles" xml:space="preserve">
-    <value>ფაილების ამოღება</value>
+    <value>áƒ¤áƒáƒ˜áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒáƒ›áƒáƒ¦áƒ”áƒ‘áƒ</value>
   </data>
   <data name="ExtractHere" xml:space="preserve">
-    <value>ამოღება აქ</value>
+    <value>áƒáƒ›áƒáƒ¦áƒ”áƒ‘áƒ áƒáƒ¥</value>
   </data>
   <data name="ExtractKeyboardAcceleratorTextOverride" xml:space="preserve">
     <value>Ctrl+E</value>
@@ -2022,40 +2028,40 @@
     <value>Calculating folder sizes is resource intensive and may cause your CPU usage to increase.</value>
   </data>
   <data name="RotateLeft" xml:space="preserve">
-    <value>შეტრიალება მარცხნივ</value>
+    <value>áƒ¨áƒ”áƒ¢áƒ áƒ˜áƒáƒšáƒ”áƒ‘áƒ áƒ›áƒáƒ áƒªáƒ®áƒœáƒ˜áƒ•</value>
   </data>
   <data name="RotateRight" xml:space="preserve">
-    <value>შეტრიალება მარჯვნივ</value>
+    <value>áƒ¨áƒ”áƒ¢áƒ áƒ˜áƒáƒšáƒ”áƒ‘áƒ áƒ›áƒáƒ áƒ¯áƒ•áƒœáƒ˜áƒ•</value>
   </data>
   <data name="Install" xml:space="preserve">
-    <value>დაინსტალირება</value>
+    <value>áƒ“áƒáƒ˜áƒœáƒ¡áƒ¢áƒáƒšáƒ˜áƒ áƒ”áƒ‘áƒ</value>
   </data>
   <data name="CloseTabsToTheLeft" xml:space="preserve">
     <value>Close tabs to the left</value>
   </data>
   <data name="CloseTabsToTheRight" xml:space="preserve">
-    <value>მარჯვენა გრაფების დახურვა</value>
+    <value>áƒ›áƒáƒ áƒ¯áƒ•áƒ”áƒœáƒ áƒ’áƒ áƒáƒ¤áƒ”áƒ‘áƒ˜áƒ¡ áƒ“áƒáƒ®áƒ£áƒ áƒ•áƒ</value>
   </data>
   <data name="CloseOtherTabs" xml:space="preserve">
-    <value>სხვა ჩანართების დახურვა</value>
+    <value>áƒ¡áƒ®áƒ•áƒ áƒ©áƒáƒœáƒáƒ áƒ—áƒ”áƒ‘áƒ˜áƒ¡ áƒ“áƒáƒ®áƒ£áƒ áƒ•áƒ</value>
   </data>
   <data name="CloseAllTabs" xml:space="preserve">
     <value>Close all tabs</value>
   </data>
   <data name="Music" xml:space="preserve">
-    <value>მუსიკა</value>
+    <value>áƒ›áƒ£áƒ¡áƒ˜áƒ™áƒ</value>
   </data>
   <data name="Pictures" xml:space="preserve">
-    <value>სურათები</value>
+    <value>áƒ¡áƒ£áƒ áƒáƒ—áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="UpdateFiles" xml:space="preserve">
     <value>Update Files</value>
   </data>
   <data name="FileTags" xml:space="preserve">
-    <value>ტეგები</value>
+    <value>áƒ¢áƒ”áƒ’áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="Universal" xml:space="preserve">
-    <value>უნივერსალური</value>
+    <value>áƒ£áƒœáƒ˜áƒ•áƒ”áƒ áƒ¡áƒáƒšáƒ£áƒ áƒ˜</value>
   </data>
   <data name="DateFormatSample" xml:space="preserve">
     <value>ex: {0}, {1}</value>
@@ -2064,7 +2070,7 @@
     <value>Show thumbnails</value>
   </data>
   <data name="Retry" xml:space="preserve">
-    <value>ხელახლა ცდა</value>
+    <value>áƒ®áƒ”áƒšáƒáƒ®áƒšáƒ áƒªáƒ“áƒ</value>
   </data>
   <data name="ErrorDialogUnsupportedMoveOperation" xml:space="preserve">
     <value>Move operation is not supported in this context. Do you want to copy the items instead?</value>
@@ -2130,7 +2136,7 @@
     <value>Set as background</value>
   </data>
   <data name="SetAsBackground" xml:space="preserve">
-    <value>სამუშაო მაგიდის ფონად დაყენება</value>
+    <value>áƒ¡áƒáƒ›áƒ£áƒ¨áƒáƒ áƒ›áƒáƒ’áƒ˜áƒ“áƒ˜áƒ¡ áƒ¤áƒáƒœáƒáƒ“ áƒ“áƒáƒ§áƒ”áƒœáƒ”áƒ‘áƒ</value>
   </data>
   <data name="SetAsDefault" xml:space="preserve">
     <value>Set as default</value>
@@ -2247,7 +2253,7 @@
     <value>Create 7z archive</value>
   </data>
   <data name="Create" xml:space="preserve">
-    <value>შექმნა</value>
+    <value>áƒ¨áƒ”áƒ¥áƒ›áƒœáƒ</value>
   </data>
   <data name="CreateNamedArchive" xml:space="preserve">
     <value>Create {0}</value>
@@ -2274,7 +2280,7 @@
     <value>Fast</value>
   </data>
   <data name="CompressionLevelNone" xml:space="preserve">
-    <value>არცერთი</value>
+    <value>áƒáƒ áƒªáƒ”áƒ áƒ—áƒ˜</value>
   </data>
   <data name="SplittingSize" xml:space="preserve">
     <value>Splitting size</value>
@@ -2313,10 +2319,10 @@
     <value>Encryption</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value>პაროლი</value>
+    <value>áƒžáƒáƒ áƒáƒšáƒ˜</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>ფორმატი</value>
+    <value>áƒ¤áƒáƒ áƒ›áƒáƒ¢áƒ˜</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowSyncStatus.Text" xml:space="preserve">
     <value>Sync status column</value>
@@ -2325,7 +2331,7 @@
     <value>Group by</value>
   </data>
   <data name="SortBy" xml:space="preserve">
-    <value>დახარისხება</value>
+    <value>áƒ“áƒáƒ®áƒáƒ áƒ˜áƒ¡áƒ®áƒ”áƒ‘áƒ</value>
   </data>
   <data name="GroupInDescendingOrder" xml:space="preserve">
     <value>Group in descending order</value>
@@ -2370,7 +2376,7 @@
     <value>The specified item name is invalid</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>პარამეტრები</value>
+    <value>áƒžáƒáƒ áƒáƒ›áƒ”áƒ¢áƒ áƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="DoubleClickBlankSpaceToGoUp" xml:space="preserve">
     <value>Double click on a blank space to go up one directory</value>
@@ -2442,7 +2448,7 @@
     <value>File extensions</value>
   </data>
   <data name="FormatDriveText" xml:space="preserve">
-    <value>ფორმატი</value>
+    <value>áƒ¤áƒáƒ áƒ›áƒáƒ¢áƒ˜</value>
   </data>
   <data name="Help" xml:space="preserve">
     <value>Help</value>
@@ -2546,7 +2552,7 @@
   <data name="CategoryNameRules" xml:space="preserve">
     <value>Name must not be empty or start or end with a period.</value>
   </data><data name="Videos" xml:space="preserve">
-    <value>ვიდეოები</value>
+    <value>áƒ•áƒ˜áƒ“áƒ”áƒáƒ”áƒ‘áƒ˜</value>
   </data>
   <data name="LaunchPreviewPopup" xml:space="preserve">
     <value>Preview popup</value>
@@ -2882,7 +2888,7 @@
     <value>Toggle group sort direction</value>
   </data>
   <data name="NewTabDescription" xml:space="preserve">
-    <value>ახალი ჩანართის გახსნა</value>
+    <value>áƒáƒ®áƒáƒšáƒ˜ áƒ©áƒáƒœáƒáƒ áƒ—áƒ˜áƒ¡ áƒ’áƒáƒ®áƒ¡áƒœáƒ</value>
   </data>
   <data name="NavigateBackDescription" xml:space="preserve">
     <value>Navigate backward</value>
@@ -2989,11 +2995,11 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Up" xml:space="preserve">
-    <value>ზემოთ (Alt+Up Arrow)</value>
+    <value>áƒ–áƒ”áƒ›áƒáƒ— (Alt+Up Arrow)</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Home" xml:space="preserve">
-    <value>მთავარი</value>
+    <value>áƒ›áƒ—áƒáƒ•áƒáƒ áƒ˜</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.End" xml:space="preserve">
@@ -3021,7 +3027,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Clear" xml:space="preserve">
-    <value>გასუფთავება</value>
+    <value>áƒ’áƒáƒ¡áƒ£áƒ¤áƒ—áƒáƒ•áƒ”áƒ‘áƒ</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Print" xml:space="preserve">
@@ -3081,7 +3087,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserFavorites" xml:space="preserve">
-    <value>ფავორიტები</value>
+    <value>áƒ¤áƒáƒ•áƒáƒ áƒ˜áƒ¢áƒ”áƒ‘áƒ˜</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaPlayPause" xml:space="preserve">
@@ -3219,7 +3225,7 @@
     <value>Toggle grouping unit</value>
   </data>
   <data name="Year" xml:space="preserve">
-    <value>წელი</value>
+    <value>áƒ¬áƒ”áƒšáƒ˜</value>
   </data>
   <data name="GroupByDateUnit" xml:space="preserve">
     <value>Group by date unit</value>
@@ -3634,7 +3640,7 @@
     <comment>Shown in a StatusCenter card. Used as "64 MB of 1 GB processed"</comment>
   </data>
   <data name="ItemsLower" xml:space="preserve">
-    <value>ნივთი</value>
+    <value>áƒœáƒ˜áƒ•áƒ—áƒ˜</value>
   </data>
   <data name="CannotInitializeGitRepo" xml:space="preserve">
     <value>Files can't initialize this directory as a Git repository.</value>
@@ -4098,11 +4104,11 @@
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Small" xml:space="preserve">
-    <value>პატარა</value>
+    <value>áƒžáƒáƒ¢áƒáƒ áƒ</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium" xml:space="preserve">
-    <value>საშუალო</value>
+    <value>áƒ¡áƒáƒ¨áƒ£áƒáƒšáƒ</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium+" xml:space="preserve">
@@ -4126,7 +4132,7 @@
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large" xml:space="preserve">
-    <value>დიდი</value>
+    <value>áƒ“áƒ˜áƒ“áƒ˜</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large+" xml:space="preserve">
@@ -4177,6 +4183,12 @@
   </data>
   <data name="KeybindingInvalidKeyNotification" xml:space="preserve">
     <value>The key binding you choose cannot be used, please try again using a different key binding.</value>
+  </data>
+  <data name="KeyboardShortcuts" xml:space="preserve">
+    <value>Keyboard shortcuts</value>
+  </data>
+  <data name="DeleteKeyBindingConfirmation" xml:space="preserve">
+    <value>Are you sure you want to remove this key binding?</value>
   </data>
   <data name="Customized" xml:space="preserve">
     <value>Customized</value>
@@ -4747,5 +4759,25 @@
   </data>
   <data name="ConfirmRemoveTagsDialogContent" xml:space="preserve">
     <value>Are you sure you want to remove tags from the selected items?</value>
+  </data>  <data name="SharedTagsPath" xml:space="preserve">
+    <value>Tags &amp; categories storage path</value>
+  </data>
+  <data name="SharedTagsPathDescription" xml:space="preserve">
+    <value>Requires app restart</value>
+  </data>
+  <data name="SharedTagsPathNotSet" xml:space="preserve">
+    <value>Not set (default path)</value>
+  </data>
+  <data name="SharedTagsPathInvalid" xml:space="preserve">
+    <value>Invalid path</value>
+  </data>
+  <data name="SharedTagsPathInvalidDescription" xml:space="preserve">
+    <value>The selected path is not a valid directory.</value>
+  </data>
+  <data name="SharedTagsPathRestartTitle" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="SharedTagsPathRestartMessage" xml:space="preserve">
+    <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
 </root>

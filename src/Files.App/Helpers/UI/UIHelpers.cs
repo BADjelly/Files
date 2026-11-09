@@ -19,6 +19,38 @@ namespace Files.App.Helpers
 	{
 		public static event PropertyChangedEventHandler? PropertyChanged;
 
+		public static void RunAfterNextRender(this FrameworkElement element, Action action)
+		{
+			if (!element.IsLoaded)
+				return;
+
+			var canceled = false;
+			element.Unloaded += OnUnloaded;
+			CompositionTarget.Rendered += OnRendered;
+
+			void OnUnloaded(object sender, RoutedEventArgs e)
+			{
+				canceled = true;
+				element.Unloaded -= OnUnloaded;
+				CompositionTarget.Rendered -= OnRendered;
+			}
+
+			void OnRendered(object? sender, RenderedEventArgs e)
+			{
+				CompositionTarget.Rendered -= OnRendered;
+				// Keep the deferred work outside the rendering callback itself.
+				if (!element.DispatcherQueue.TryEnqueue(Microsoft.UI.Dispatching.DispatcherQueuePriority.Low, () =>
+				{
+					element.Unloaded -= OnUnloaded;
+					if (!canceled && element.IsLoaded)
+						action();
+				}))
+				{
+					element.Unloaded -= OnUnloaded;
+				}
+			}
+		}
+
 		/// <summary>
 		/// True if a user-editable text input currently owns keyboard focus within the given XamlRoot.
 		/// Used to gate code that programmatically reassigns focus on a background-completion
@@ -73,9 +105,9 @@ namespace Files.App.Helpers
 		/// <param name="type">Type of drive to eject</param>
 		/// <param name="result">Only true implies a successful device ejection</param>
 		/// <returns></returns>
-		public static async Task ShowDeviceEjectResultAsync(Data.Items.DriveType type, bool result)
+		public static async Task ShowDeviceEjectResultAsync(DriveType type, bool result)
 		{
-			if (type != Data.Items.DriveType.CDRom && result)
+			if (type != DriveType.CDRom && result)
 			{
 				Debug.WriteLine("Device successfully ejected");
 
@@ -209,6 +241,26 @@ namespace Files.App.Helpers
 				}, 48);
 
 			return imageResList.FirstOrDefault();
+		}
+
+		private static TextBlock? _measureTextBlock;
+
+		/// <summary>
+		/// Measures the width of a single line of text in the default control font.
+		/// </summary>
+		[DynamicWindowsRuntimeCast(typeof(FontFamily))]
+		public static double MeasureTextWidth(string text, Windows.UI.Text.FontWeight fontWeight)
+		{
+			_measureTextBlock ??= new()
+			{
+				FontFamily = (FontFamily)Microsoft.UI.Xaml.Application.Current.Resources["ContentControlThemeFontFamily"],
+				FontSize = (double)Microsoft.UI.Xaml.Application.Current.Resources["ControlContentThemeFontSize"],
+			};
+
+			_measureTextBlock.FontWeight = fontWeight;
+			_measureTextBlock.Text = text;
+			_measureTextBlock.Measure(new(double.PositiveInfinity, double.PositiveInfinity));
+			return Math.Ceiling(_measureTextBlock.DesiredSize.Width);
 		}
 	}
 }

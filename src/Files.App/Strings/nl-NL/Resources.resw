@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,16 +121,16 @@
     <value>Nieuw venster</value>
   </data>
   <data name="CopyPath" xml:space="preserve">
-    <value>Pad kopiëren</value>
+    <value>Pad kopiÃ«ren</value>
   </data>
   <data name="CopyItemPath" xml:space="preserve">
-    <value>Als pad kopiëren</value>
+    <value>Als pad kopiÃ«ren</value>
   </data>
   <data name="CopyPathWithQuotes" xml:space="preserve">
-    <value>Pad kopiëren met aanhalingstekens</value>
+    <value>Pad kopiÃ«ren met aanhalingstekens</value>
   </data>
   <data name="CopyItemPathWithQuotes" xml:space="preserve">
-    <value>Geselecteerde item pad kopiëren inclusief aanhalingstekens</value>
+    <value>Geselecteerde item pad kopiÃ«ren inclusief aanhalingstekens</value>
   </data>
   <data name="Browse" xml:space="preserve">
     <value>Bladeren</value>
@@ -338,6 +338,12 @@
   </data>
   <data name="DefaultTheme" xml:space="preserve">
     <value>System Theme</value>
+  </data>
+  <data name="LightThemeLabel" xml:space="preserve">
+    <value>Light Theme</value>
+  </data>
+  <data name="DarkThemeLabel" xml:space="preserve">
+    <value>Dark Theme</value>
   </data>
   <data name="UseSystemSetting" xml:space="preserve">
     <value>Gebruik systeeminstelling</value>
@@ -573,7 +579,7 @@
     <value>Verplaatsen naar {0}</value>
   </data>
   <data name="CopyToFolderCaptionText" xml:space="preserve">
-    <value>Kopiëren naar {0}</value>
+    <value>KopiÃ«ren naar {0}</value>
   </data>
   <data name="CloneToFolderCaptionText" xml:space="preserve">
     <value>Klonen naar {0}</value>
@@ -1089,7 +1095,7 @@
     <value>Optie weergeven om mappen in een nieuw paneel te openen</value>
   </data>
   <data name="ShowCopyPath" xml:space="preserve">
-    <value>Optie weergeven om pad te kopiëren</value>
+    <value>Optie weergeven om pad te kopiÃ«ren</value>
   </data>
   <data name="ShowCreateFolderWithSelection" xml:space="preserve">
     <value>Optie weergeven om map aan te maken met selectie</value>
@@ -1326,10 +1332,10 @@
     <value>Opruimen</value>
   </data>
   <data name="Copy" xml:space="preserve">
-    <value>Kopiëren</value>
+    <value>KopiÃ«ren</value>
   </data>
   <data name="CopyItemsDialogTitle" xml:space="preserve">
-    <value>{0, plural, one {Item} other {Items}} kopiëren</value>
+    <value>{0, plural, one {Item} other {Items}} kopiÃ«ren</value>
   </data>
   <data name="DeleteItemsDialogTitle" xml:space="preserve">
     <value>{0, plural, one {Item} other {Items}} verwijderen</value>
@@ -1338,28 +1344,28 @@
     <value>Verplaatsen</value>
   </data>
   <data name="MoveItemsDialogSubtitle" xml:space="preserve">
-    <value>{0, plural, one {Eén item wordt verplaatst} other {# items worden verplaatst}}</value>
+    <value>{0, plural, one {EÃ©n item wordt verplaatst} other {# items worden verplaatst}}</value>
   </data>
   <data name="MoveItemsDialogTitle" xml:space="preserve">
     <value>{0, plural, one {Item} other {Items}} verplaatsen</value>
   </data>
   <data name="DeleteItemsDialogSubtitle" xml:space="preserve">
-    <value>{0, plural, one {Eén item wordt verwijderd} other {# items worden verwijderd}}</value>
+    <value>{0, plural, one {EÃ©n item wordt verwijderd} other {# items worden verwijderd}}</value>
   </data>
   <data name="ConflictingItemsDialogPrimaryButtonText" xml:space="preserve">
     <value>Doorgaan</value>
   </data>
   <data name="ConflictingItemsDialogSubtitleConflicts" xml:space="preserve">
-    <value>{0, plural, one {Er is één conflicterende bestandsnaam} other {Er zijn # conflicterende bestandsnamen}}</value>
+    <value>{0, plural, one {Er is Ã©Ã©n conflicterende bestandsnaam} other {Er zijn # conflicterende bestandsnamen}}</value>
   </data>
   <data name="ConflictingItemsDialogSubtitleConflictsNonConflicts" xml:space="preserve">
-    <value>{0, plural, one {Er is één conflicterende bestandsnaam} other {Er zijn # conflicterende bestandsnamen}}, en {1, plural, one {één uitgaand item} other {# uitgaande items}}</value>
+    <value>{0, plural, one {Er is Ã©Ã©n conflicterende bestandsnaam} other {Er zijn # conflicterende bestandsnamen}}, en {1, plural, one {Ã©Ã©n uitgaand item} other {# uitgaande items}}</value>
   </data>
   <data name="ConflictingItemsDialogTitle" xml:space="preserve">
     <value>Conflicterende {0, plural, one {bestandsnaam} other {bestandsnamen}}</value>
   </data>
   <data name="CopyItemsDialogSubtitle" xml:space="preserve">
-    <value>{0, plural, one {Eén item wordt gekopieerd} other {# items worden gekopieerd}}</value>
+    <value>{0, plural, one {EÃ©n item wordt gekopieerd} other {# items worden gekopieerd}}</value>
   </data>
   <data name="DeleteItemsDialogPermanentlyDeleteCheckBox.Content" xml:space="preserve">
     <value>Permanent verwijderen</value>
@@ -1665,13 +1671,13 @@
     <value>Write extended attributes</value>
   </data>
   <data name="SecurityAdvancedInheritedConvert.Text" xml:space="preserve">
-    <value>Converteer geërfde machtigingen naar expliciete machtigingen</value>
+    <value>Converteer geÃ«rfde machtigingen naar expliciete machtigingen</value>
   </data>
   <data name="SecurityAdvancedInheritedEnable.Text" xml:space="preserve">
     <value>Overname inschakelen</value>
   </data>
   <data name="SecurityAdvancedInheritedRemove.Text" xml:space="preserve">
-    <value>Verwijder alle geërfde machtigingen</value>
+    <value>Verwijder alle geÃ«rfde machtigingen</value>
   </data>
   <data name="SecurityAdvancedReplaceChildPermissions.Text" xml:space="preserve">
     <value>Reset onderliggende machtigingen</value>
@@ -1770,7 +1776,7 @@
     <value>Insert a disc</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>Oké</value>
+    <value>OkÃ©</value>
   </data>
   <data name="AskCredentialDialog.Title" xml:space="preserve">
     <value>Inloggegevens vereist</value>
@@ -1908,7 +1914,7 @@
     <value>Volledig scherm optimalisaties uitschakelen</value>
   </data>
   <data name="CompatibilityRunIn640x480Resolution" xml:space="preserve">
-    <value>Uitvoeren met 640 × 480 schermresolutie</value>
+    <value>Uitvoeren met 640 Ã— 480 schermresolutie</value>
   </data>
   <data name="CompatibilityOverrideHighDPIBehavior" xml:space="preserve">
     <value>Hoge DPI-schaalgedrag overschrijven</value>
@@ -2067,7 +2073,7 @@
     <value>Opnieuw</value>
   </data>
   <data name="ErrorDialogUnsupportedMoveOperation" xml:space="preserve">
-    <value>Verplaatsen wordt niet ondersteund in deze context. Wilt u de items kopiëren?</value>
+    <value>Verplaatsen wordt niet ondersteund in deze context. Wilt u de items kopiÃ«ren?</value>
   </data>
   <data name="HiddenItems" xml:space="preserve">
     <value>Verborgen items</value>
@@ -2154,7 +2160,7 @@
     <value>Vergrendelingsscherm</value>
   </data>
   <data name="OpenFolderWithOneClick" xml:space="preserve">
-    <value>Mappen openen met één klik</value>
+    <value>Mappen openen met Ã©Ã©n klik</value>
   </data>
   <data name="OpenFolderWithOneClickInColumnsView" xml:space="preserve">
     <value>Open folders with a single click in Columns View</value>
@@ -2373,7 +2379,7 @@
     <value>Instellingen</value>
   </data>
   <data name="DoubleClickBlankSpaceToGoUp" xml:space="preserve">
-    <value>Dubbelklik op een lege ruimte om één map omhoog te gaan</value>
+    <value>Dubbelklik op een lege ruimte om Ã©Ã©n map omhoog te gaan</value>
   </data>
   <data name="ViewMore" xml:space="preserve">
     <value>Meer weergeven</value>
@@ -2603,7 +2609,7 @@
     <value>In-/uitschakelen om zijbalk weer te geven</value>
   </data>
   <data name="CopyItemDescription" xml:space="preserve">
-    <value>Geselecteerde {0, plural, one {item} other {items}} kopiëren</value>
+    <value>Geselecteerde {0, plural, one {item} other {items}} kopiÃ«ren</value>
   </data>
   <data name="CopyPathDescription" xml:space="preserve">
     <value>Kopieer pad van de huidige map</value>
@@ -2891,7 +2897,7 @@
     <value>Vooruit navigeren</value>
   </data>
   <data name="NavigateUpDescription" xml:space="preserve">
-    <value>Navigeer één map naar boven</value>
+    <value>Navigeer Ã©Ã©n map naar boven</value>
   </data>
   <data name="DuplicateSelectedTabDescription" xml:space="preserve">
     <value>Geselecteerde tabblad dupliceren</value>
@@ -3156,7 +3162,7 @@
     <value>Ongeldige locatie</value>
   </data>
   <data name="CopyFileWithoutProperties" xml:space="preserve">
-    <value>Weet je zeker dat je deze bestanden zonder hun eigenschappen wilt kopiëren?</value>
+    <value>Weet je zeker dat je deze bestanden zonder hun eigenschappen wilt kopiÃ«ren?</value>
   </data>
   <data name="FilePropertiesCannotBeCopied" xml:space="preserve">
     <value>Deze bestanden hebben eigenschappen die niet gekopieerd kunnen worden naar de nieuwe locatie</value>
@@ -4178,6 +4184,12 @@
   <data name="KeybindingInvalidKeyNotification" xml:space="preserve">
     <value>De sneltoets die je koos kan niet worden gebruikt, gelieve opnieuw te proberen met een andere sneltoets.</value>
   </data>
+  <data name="KeyboardShortcuts" xml:space="preserve">
+    <value>Keyboard shortcuts</value>
+  </data>
+  <data name="DeleteKeyBindingConfirmation" xml:space="preserve">
+    <value>Are you sure you want to remove this key binding?</value>
+  </data>
   <data name="Customized" xml:space="preserve">
     <value>Aangepast</value>
   </data>
@@ -4747,5 +4759,25 @@
   </data>
   <data name="ConfirmRemoveTagsDialogContent" xml:space="preserve">
     <value>Are you sure you want to remove tags from the selected items?</value>
+  </data>  <data name="SharedTagsPath" xml:space="preserve">
+    <value>Tags &amp; categories storage path</value>
+  </data>
+  <data name="SharedTagsPathDescription" xml:space="preserve">
+    <value>Requires app restart</value>
+  </data>
+  <data name="SharedTagsPathNotSet" xml:space="preserve">
+    <value>Not set (default path)</value>
+  </data>
+  <data name="SharedTagsPathInvalid" xml:space="preserve">
+    <value>Invalid path</value>
+  </data>
+  <data name="SharedTagsPathInvalidDescription" xml:space="preserve">
+    <value>The selected path is not a valid directory.</value>
+  </data>
+  <data name="SharedTagsPathRestartTitle" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="SharedTagsPathRestartMessage" xml:space="preserve">
+    <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
 </root>

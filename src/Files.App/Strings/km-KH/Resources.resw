@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,67 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NewWindow" xml:space="preserve">
-    <value>ផ្ទាំងថ្មី</value>
+    <value>áž•áŸ’áž‘áž¶áŸ†áž„ážáŸ’áž˜áž¸</value>
   </data>
   <data name="CopyPath" xml:space="preserve">
-    <value>ចម្លងទីតាំង</value>
+    <value>áž…áž˜áŸ’áž›áž„áž‘áž¸ážáž¶áŸ†áž„</value>
   </data>
   <data name="CopyItemPath" xml:space="preserve">
-    <value>ចម្លងទីតាំងនៃធាតុ</value>
+    <value>áž…áž˜áŸ’áž›áž„áž‘áž¸ážáž¶áŸ†áž„áž“áŸƒáž’áž¶ážáž»</value>
   </data>
   <data name="CopyPathWithQuotes" xml:space="preserve">
-    <value>ចម្លងផ្លូវទីតាំង</value>
+    <value>áž…áž˜áŸ’áž›áž„áž•áŸ’áž›áž¼ážœáž‘áž¸ážáž¶áŸ†áž„</value>
   </data>
   <data name="CopyItemPathWithQuotes" xml:space="preserve">
-    <value>ចម្លងទីតាំងនៃធាតុដែលបានរើសជាមួយសម្រង់</value>
+    <value>áž…áž˜áŸ’áž›áž„áž‘áž¸ážáž¶áŸ†áž„áž“áŸƒáž’áž¶ážáž»ážŠáŸ‚áž›áž”áž¶áž“ážšáž¾ážŸáž‡áž¶áž˜áž½áž™ážŸáž˜áŸ’ážšáž„áŸ‹</value>
   </data>
   <data name="Browse" xml:space="preserve">
-    <value>រកមើល</value>
+    <value>ážšáž€áž˜áž¾áž›</value>
   </data>
   <data name="Size" xml:space="preserve">
-    <value>ទំហំ</value>
+    <value>áž‘áŸ†áž áŸ†</value>
   </data>
   <data name="PropertiesCreated.Text" xml:space="preserve">
-    <value>បានបង្កើត</value>
+    <value>áž”áž¶áž“áž”áž„áŸ’áž€áž¾áž</value>
   </data>
   <data name="Path" xml:space="preserve">
-    <value>ផ្លូវ</value>
+    <value>áž•áŸ’áž›áž¼ážœ</value>
   </data>
   <data name="SizeLabel" xml:space="preserve">
-    <value>ទំហំ៖</value>
+    <value>áž‘áŸ†áž áŸ†áŸ–</value>
   </data>
   <data name="SizeOnDiskLabel" xml:space="preserve">
-    <value>ទំហំលើថាស</value>
+    <value>áž‘áŸ†áž áŸ†áž›áž¾ážáž¶ážŸ</value>
   </data>
   <data name="UncompressedSize" xml:space="preserve">
-    <value>ទំហំបានបង្ហាប់</value>
+    <value>áž‘áŸ†áž áŸ†áž”áž¶áž“áž”áž„áŸ’áž áž¶áž”áŸ‹</value>
   </data>
   <data name="ErrorDialogThisActionCannotBeDone" xml:space="preserve">
-    <value>សកម្មភាពនេះមិនអាចត្រូវបានមិនធ្វើវិញទេ</value>
+    <value>ážŸáž€áž˜áŸ’áž˜áž—áž¶áž–áž“áŸáŸ‡áž˜áž·áž“áž¢áž¶áž…ážáŸ’ážšáž¼ážœáž”áž¶áž“áž˜áž·áž“áž’áŸ’ážœáž¾ážœáž·áž‰áž‘áŸ</value>
   </data>
   <data name="ErrorDialogTheDestinationFolder" xml:space="preserve">
-    <value>គោលដៅថតឯកសារ</value>
+    <value>áž‚áŸ„áž›ážŠáŸ…ážážáž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="ErrorDialogIsASubfolder" xml:space="preserve">
-    <value>គឺជាថតរងនៃថតប្រភព</value>
+    <value>áž‚ážºáž‡áž¶ážážážšáž„áž“áŸƒážážáž”áŸ’ážšáž—áž–</value>
   </data>
   <data name="Skip" xml:space="preserve">
-    <value>រំលង</value>
+    <value>ážšáŸ†áž›áž„</value>
   </data>
   <data name="SelectAll" xml:space="preserve">
-    <value>ជ្រើស​​​ទាំង​អស់</value>
+    <value>áž‡áŸ’ážšáž¾ážŸâ€‹â€‹â€‹áž‘áž¶áŸ†áž„â€‹áž¢ážŸáŸ‹</value>
   </data>
   <data name="InvertSelection" xml:space="preserve">
-    <value>បញ្ច្រាស់ការជ្រើសរើស​</value>
+    <value>áž”áž‰áŸ’áž…áŸ’ážšáž¶ážŸáŸ‹áž€áž¶ážšáž‡áŸ’ážšáž¾ážŸážšáž¾ážŸâ€‹</value>
   </data>
   <data name="ClearSelection" xml:space="preserve">
-    <value>ជម្រះការជ្រើសរើស</value>
+    <value>áž‡áž˜áŸ’ážšáŸ‡áž€áž¶ážšáž‡áŸ’ážšáž¾ážŸážšáž¾ážŸ</value>
   </data>
   <data name="PropertiesModified.Text" xml:space="preserve">
-    <value>បាន​កែប្រែ</value>
+    <value>áž”áž¶áž“â€‹áž€áŸ‚áž”áŸ’ážšáŸ‚</value>
   </data>
   <data name="Accessed" xml:space="preserve">
-    <value>បាន​ចូលដំណើរការ</value>
+    <value>áž”áž¶áž“â€‹áž…áž¼áž›ážŠáŸ†ážŽáž¾ážšáž€áž¶ážš</value>
   </data>
   <data name="RecentItemClearAllText" xml:space="preserve">
     <value>Clear all items</value>
@@ -187,55 +187,55 @@
     <value>Enter a path to navigate to or type "&gt;" to open the command palette</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>ស្វែងរក</value>
+    <value>ážŸáŸ’ážœáŸ‚áž„ážšáž€</value>
   </data>
   <data name="SearchSettings" xml:space="preserve">
-    <value>ស្វែងរកការកំណត់...</value>
+    <value>ážŸáŸ’ážœáŸ‚áž„ážšáž€áž€áž¶ážšáž€áŸ†ážŽážáŸ‹...</value>
   </data>
   <data name="NoSearchResults" xml:space="preserve">
-    <value>គ្មានការកំណត់ណាមួយផ្គូផ្គងនឹងការស្វែងរករបស់អ្នកទេ។</value>
+    <value>áž‚áŸ’áž˜áž¶áž“áž€áž¶ážšáž€áŸ†ážŽážáŸ‹ážŽáž¶áž˜áž½áž™áž•áŸ’áž‚áž¼áž•áŸ’áž‚áž„áž“áž¹áž„áž€áž¶ážšážŸáŸ’ážœáŸ‚áž„ážšáž€ážšáž”ážŸáŸ‹áž¢áŸ’áž“áž€áž‘áŸáŸ”</value>
   </data>
   <data name="RecentItemDescription.Text" xml:space="preserve">
-    <value>ឯកសារដែលអ្នកបានអាក់សេសពីមុននឹងបង្ហាញនៅទីនេះ</value>
+    <value>áž¯áž€ážŸáž¶ážšážŠáŸ‚áž›áž¢áŸ’áž“áž€áž”áž¶áž“áž¢áž¶áž€áŸ‹ážŸáŸážŸáž–áž¸áž˜áž»áž“áž“áž¹áž„áž”áž„áŸ’áž áž¶áž‰áž“áŸ…áž‘áž¸áž“áŸáŸ‡</value>
   </data>
   <data name="RecentItemRemoveText" xml:space="preserve">
     <value>Remove this item</value>
   </data>
   <data name="OpenGitHubRepo" xml:space="preserve">
-    <value>រីប៉ូហ្គីតហាប់</value>
+    <value>ážšáž¸áž”áŸ‰áž¼áž áŸ’áž‚áž¸ážáž áž¶áž”áŸ‹</value>
   </data>
   <data name="About" xml:space="preserve">
-    <value>អំពី</value>
+    <value>áž¢áŸ†áž–áž¸</value>
   </data>
   <data name="OpenSource" xml:space="preserve">
-    <value>កូដចំហ</value>
+    <value>áž€áž¼ážŠáž…áŸ†áž </value>
   </data>
   <data name="DateFormat" xml:space="preserve">
-    <value>ទ្រង់ទ្រាយ​​​កាល​បរិច្ឆេទ</value>
+    <value>áž‘áŸ’ážšáž„áŸ‹áž‘áŸ’ážšáž¶áž™â€‹â€‹â€‹áž€áž¶áž›â€‹áž”ážšáž·áž…áŸ’áž†áŸáž‘</value>
   </data>
   <data name="SettingsAppearanceTheme" xml:space="preserve">
-    <value>ផ្ទៃស្បែក</value>
+    <value>áž•áŸ’áž‘áŸƒážŸáŸ’áž”áŸ‚áž€</value>
   </data>
   <data name="Font" xml:space="preserve">
-    <value>ពុម្ពអក្សរ</value>
+    <value>áž–áž»áž˜áŸ’áž–áž¢áž€áŸ’ážŸážš</value>
   </data>
   <data name="SettingsFilesAndFoldersShowFileExtensions" xml:space="preserve">
-    <value>បង្ហាញប្រភេទឯកសារដែលគេស្គាល់</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž”áŸ’ážšáž—áŸáž‘áž¯áž€ážŸáž¶ážšážŠáŸ‚áž›áž‚áŸážŸáŸ’áž‚áž¶áž›áŸ‹</value>
   </data>
   <data name="SettingsFilesAndFoldersShowHiddenItems" xml:space="preserve">
-    <value>បង្ហាញឯកសារ និងថតដែលលាក់</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž¯áž€ážŸáž¶ážš áž“áž·áž„ážážážŠáŸ‚áž›áž›áž¶áž€áŸ‹</value>
   </data>
   <data name="ShowDotFiles" xml:space="preserve">
-    <value>បង្ហាញឯកសារមានចុច</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž¯áž€ážŸáž¶ážšáž˜áž¶áž“áž…áž»áž…</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>រូបរាង</value>
+    <value>ážšáž¼áž”ážšáž¶áž„</value>
   </data>
   <data name="BackgroundColor" xml:space="preserve">
-    <value>ពណ៌ផ្ទៃខាងក្រោយ</value>
+    <value>áž–ážŽáŸŒáž•áŸ’áž‘áŸƒážáž¶áž„áž€áŸ’ážšáŸ„áž™</value>
   </data>
   <data name="Advanced" xml:space="preserve">
-    <value>កម្រិតខ្ពស់</value>
+    <value>áž€áž˜áŸ’ážšáž·ážážáŸ’áž–ážŸáŸ‹</value>
   </data>
   <data name="CacheThumbnails" xml:space="preserve">
     <value>Cache thumbnails</value>
@@ -256,133 +256,139 @@
     <value>Clear cache</value>
   </data>
   <data name="SettingsOnStartupContinueWhereYouLeftOff.Content" xml:space="preserve">
-    <value>បន្តត្រង់កន្លែងដែលអ្នកចេញ</value>
+    <value>áž”áž“áŸ’ážážáŸ’ážšáž„áŸ‹áž€áž“áŸ’áž›áŸ‚áž„ážŠáŸ‚áž›áž¢áŸ’áž“áž€áž…áŸáž‰</value>
   </data>
   <data name="SettingsOnStartupOpenANewTab.Content" xml:space="preserve">
-    <value>បើកទំព័រថេបថ្មី</value>
+    <value>áž”áž¾áž€áž‘áŸ†áž–áŸážšážáŸáž”ážáŸ’áž˜áž¸</value>
   </data>
   <data name="SettingsOnStartupOpenASpecificPage.Content" xml:space="preserve">
-    <value>បើកទំហំជាក់លាក់</value>
+    <value>áž”áž¾áž€áž‘áŸ†áž áŸ†áž‡áž¶áž€áŸ‹áž›áž¶áž€áŸ‹</value>
   </data>
   <data name="Desktop" xml:space="preserve">
-    <value>ដេសថប</value>
+    <value>ážŠáŸážŸážáž”</value>
   </data>
   <data name="Documents" xml:space="preserve">
-    <value>ឯកសារ</value>
+    <value>áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="Downloads" xml:space="preserve">
-    <value>ទាញយក</value>
+    <value>áž‘áž¶áž‰áž™áž€</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>ឈ្មោះ</value>
+    <value>ážˆáŸ’áž˜áŸ„áŸ‡</value>
   </data>
   <data name="Ascending" xml:space="preserve">
-    <value>លំដាប់​ឡើង</value>
+    <value>áž›áŸ†ážŠáž¶áž”áŸ‹â€‹áž¡áž¾áž„</value>
   </data>
   <data name="Paste" xml:space="preserve">
-    <value>បិទភ្ជាប់</value>
+    <value>áž”áž·áž‘áž—áŸ’áž‡áž¶áž”áŸ‹</value>
   </data>
   <data name="PasteShortcut" xml:space="preserve">
-    <value>បិទភ្ជាប់ផ្លូវកាត់</value>
+    <value>áž”áž·áž‘áž—áŸ’áž‡áž¶áž”áŸ‹áž•áŸ’áž›áž¼ážœáž€áž¶ážáŸ‹</value>
   </data>
   <data name="BaseLayoutContextFlyoutNew.Label" xml:space="preserve">
-    <value>ថ្មី</value>
+    <value>ážáŸ’áž˜áž¸</value>
   </data>
   <data name="Properties" xml:space="preserve">
-    <value>លក្ខណៈសម្បត្តិ</value>
+    <value>áž›áž€áŸ’ážážŽáŸˆážŸáž˜áŸ’áž”ážáŸ’ážáž·</value>
   </data>
   <data name="Open" xml:space="preserve">
-    <value>បើក</value>
+    <value>áž”áž¾áž€</value>
   </data>
   <data name="OpenInNewTab" xml:space="preserve">
-    <value>បើកទំព័រថេបថ្មី</value>
+    <value>áž”áž¾áž€áž‘áŸ†áž–áŸážšážáŸáž”ážáŸ’áž˜áž¸</value>
   </data>
   <data name="OpenInNewWindow" xml:space="preserve">
-    <value>បើកផ្ទាំងថ្មី</value>
+    <value>áž”áž¾áž€áž•áŸ’áž‘áž¶áŸ†áž„ážáŸ’áž˜áž¸</value>
   </data>
   <data name="Share" xml:space="preserve">
-    <value>ចែក​រំលែក​</value>
+    <value>áž…áŸ‚áž€â€‹ážšáŸ†áž›áŸ‚áž€â€‹</value>
   </data>
   <data name="Cut" xml:space="preserve">
-    <value>កាត់</value>
+    <value>áž€áž¶ážáŸ‹</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>លុប</value>
+    <value>áž›áž»áž”</value>
   </data>
   <data name="PinFolderToSidebar" xml:space="preserve">
-    <value>ខ្ទាស់ទៅរបារចំហៀង</value>
+    <value>ážáŸ’áž‘áž¶ážŸáŸ‹áž‘áŸ…ážšáž”áž¶ážšáž…áŸ†áž áŸ€áž„</value>
   </data>
   <data name="WelcomeDialogTitle" xml:space="preserve">
     <value>Welcome to Files!</value>
   </data>
   <data name="WelcomeDialog.PrimaryButtonText" xml:space="preserve">
-    <value>ផ្តល់ការអនុញ្ញាតិ</value>
+    <value>áž•áŸ’ážáž›áŸ‹áž€áž¶ážšáž¢áž“áž»áž‰áŸ’áž‰áž¶ážáž·</value>
   </data>
   <data name="WelcomeDialogTextBlockText" xml:space="preserve">
     <value>To get started, you'll need to grant us permission to display your files. This will open a Settings page where you can grant us this permission. You'll need to reopen the app once you've completed this step. </value>
   </data>
   <data name="Display" xml:space="preserve">
-    <value>បង្ហាញ</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰</value>
   </data>
   <data name="EnterAnItemName" xml:space="preserve">
-    <value>បញ្ចូលឈ្មោះ</value>
+    <value>áž”áž‰áŸ’áž…áž¼áž›ážˆáŸ’áž˜áŸ„áŸ‡</value>
   </data>
   <data name="CreateNewItemTitle" xml:space="preserve">
-    <value>បង្កើតថ្មី {0}</value>
+    <value>áž”áž„áŸ’áž€áž¾ážážáŸ’áž˜áž¸ {0}</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>ភ្លឺ</value>
+    <value>áž—áŸ’áž›ážº</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>ងងឹត</value>
+    <value>áž„áž„áž¹áž</value>
   </data>
   <data name="DefaultTheme" xml:space="preserve">
     <value>System Theme</value>
   </data>
+  <data name="LightThemeLabel" xml:space="preserve">
+    <value>Light Theme</value>
+  </data>
+  <data name="DarkThemeLabel" xml:space="preserve">
+    <value>Dark Theme</value>
+  </data>
   <data name="UseSystemSetting" xml:space="preserve">
-    <value>ប្រើ​​​​​ការ​​​​កំណត់​របស់​​​​​ប្រព័ន្ធ ​</value>
+    <value>áž”áŸ’ážšáž¾â€‹â€‹â€‹â€‹â€‹áž€áž¶ážšâ€‹â€‹â€‹â€‹áž€áŸ†ážŽážáŸ‹â€‹ážšáž”ážŸáŸ‹â€‹â€‹â€‹â€‹â€‹áž”áŸ’ážšáž–áŸáž“áŸ’áž’ â€‹</value>
   </data>
   <data name="Application" xml:space="preserve">
-    <value>កម្មវិធី</value>
+    <value>áž€áž˜áŸ’áž˜ážœáž·áž’áž¸</value>
   </data>
   <data name="SystemTimeStyle" xml:space="preserve">
-    <value>ប្រព័ន្ធ</value>
+    <value>áž”áŸ’ážšáž–áŸáž“áŸ’áž’</value>
   </data>
   <data name="NewFolder" xml:space="preserve">
-    <value>ថត​ថ្មី</value>
+    <value>ážážâ€‹ážáŸ’áž˜áž¸</value>
   </data>
   <data name="NewFile" xml:space="preserve">
-    <value>ឯកសារ​ថ្មី​</value>
+    <value>áž¯áž€ážŸáž¶ážšâ€‹ážáŸ’áž˜áž¸â€‹</value>
   </data>
   <data name="EmptyFolder.Text" xml:space="preserve">
-    <value>ថតទទេរ</value>
+    <value>ážážáž‘áž‘áŸážš</value>
   </data>
   <data name="Back" xml:space="preserve">
-    <value>ត្រលប់</value>
+    <value>ážáŸ’ážšáž›áž”áŸ‹</value>
   </data>
   <data name="Forward" xml:space="preserve">
-    <value>បញ្ចូនបន្ត</value>
+    <value>áž”áž‰áŸ’áž…áž¼áž“áž”áž“áŸ’áž</value>
   </data>
   <data name="Up" xml:space="preserve">
-    <value>លើ</value>
+    <value>áž›áž¾</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>ធ្វើឱ្យស្អាត</value>
+    <value>áž’áŸ’ážœáž¾áž±áŸ’áž™ážŸáŸ’áž¢áž¶áž</value>
   </data>
   <data name="ItemAlreadyExistsDialogContent" xml:space="preserve">
-    <value>ធាតុដែលមានឈ្មោះនេះមានរួចហើយនៅក្នុងថតនេះ</value>
+    <value>áž’áž¶ážáž»ážŠáŸ‚áž›áž˜áž¶áž“ážˆáŸ’áž˜áŸ„áŸ‡áž“áŸáŸ‡áž˜áž¶áž“ážšáž½áž…áž áž¾áž™áž“áŸ…áž€áŸ’áž“áž»áž„ážážáž“áŸáŸ‡</value>
   </data>
   <data name="ItemAlreadyExistsDialogSecondaryButtonText" xml:space="preserve">
-    <value>ជំនួសធាតុដែលមានស្រាប់</value>
+    <value>áž‡áŸ†áž“áž½ážŸáž’áž¶ážáž»ážŠáŸ‚áž›áž˜áž¶áž“ážŸáŸ’ážšáž¶áž”áŸ‹</value>
   </data>
   <data name="ItemAlreadyExistsDialogTitle" xml:space="preserve">
-    <value>ធាតុមានរួចហើយ</value>
+    <value>áž’áž¶ážáž»áž˜áž¶áž“ážšáž½áž…áž áž¾áž™</value>
   </data>
   <data name="SetAsLockscreen" xml:space="preserve">
-    <value>កំណត់ផ្ទៃខាងក្រោយផ្ទាំងចាក់សោរ</value>
+    <value>áž€áŸ†ážŽážáŸ‹áž•áŸ’áž‘áŸƒážáž¶áž„áž€áŸ’ážšáŸ„áž™áž•áŸ’áž‘áž¶áŸ†áž„áž…áž¶áž€áŸ‹ážŸáŸ„ážš</value>
   </data>
   <data name="SetAsAppBackground" xml:space="preserve">
-    <value>កំណត់ជាផ្ទៃខាងក្រោយកម្មវិធី</value>
+    <value>áž€áŸ†ážŽážáŸ‹áž‡áž¶áž•áŸ’áž‘áŸƒážáž¶áž„áž€áŸ’ážšáŸ„áž™áž€áž˜áŸ’áž˜ážœáž·áž’áž¸</value>
   </data>
   <data name="AccessDeniedDeleteDialogText" xml:space="preserve">
     <value>We weren't able to delete this item</value>
@@ -397,10 +403,10 @@
     <value>The file you are attempting to access may have been moved or deleted.</value>
   </data>
   <data name="CannotAccessPropertiesTitle" xml:space="preserve">
-    <value>មិនអាចបើកលក្ខណសម្បត្តិសម្រាប់ឯកសារនេះបានទេ</value>
+    <value>áž˜áž·áž“áž¢áž¶áž…áž”áž¾áž€áž›áž€áŸ’ážážŽážŸáž˜áŸ’áž”ážáŸ’ážáž·ážŸáž˜áŸ’ážšáž¶áž”áŸ‹áž¯áž€ážŸáž¶ážšáž“áŸáŸ‡áž”áž¶áž“áž‘áŸ</value>
   </data>
   <data name="CannotAccessPropertiesContent" xml:space="preserve">
-    <value>ឯកសារដែលអ្នកកំពុងព្យាយាមចូលប្រើអាចត្រូវបានផ្លាស់ទី ឬលុប</value>
+    <value>áž¯áž€ážŸáž¶ážšážŠáŸ‚áž›áž¢áŸ’áž“áž€áž€áŸ†áž–áž»áž„áž–áŸ’áž™áž¶áž™áž¶áž˜áž…áž¼áž›áž”áŸ’ážšáž¾áž¢áž¶áž…ážáŸ’ážšáž¼ážœáž”áž¶áž“áž•áŸ’áž›áž¶ážŸáŸ‹áž‘áž¸ áž¬áž›áž»áž”</value>
   </data>
   <data name="FileNotFoundDialogTitle" xml:space="preserve">
     <value>File Not Found</value>
@@ -427,64 +433,64 @@
     <value>To find a version for your PC, check with the software publisher.</value>
   </data>
   <data name="Layout" xml:space="preserve">
-    <value>ប្លង់</value>
+    <value>áž”áŸ’áž›áž„áŸ‹</value>
   </data>
   <data name="PropertiesDialogReadOnly.Text" xml:space="preserve">
-    <value>ត្រឹមតែអាន</value>
+    <value>ážáŸ’ážšáž¹áž˜ážáŸ‚áž¢áž¶áž“</value>
   </data>
   <data name="DaysAgo" xml:space="preserve">
     <value>{0, plural, one {# day ago} other {# days ago}}</value>
   </data>
   <data name="DaysAgo_Singular" xml:space="preserve">
-    <value>1 ថ្ងៃមុន</value>
+    <value>1 ážáŸ’áž„áŸƒáž˜áž»áž“</value>
   </data>
   <data name="DaysAgo_Plural" xml:space="preserve">
-    <value>{0} ថ្ងៃមុន</value>
+    <value>{0} ážáŸ’áž„áŸƒáž˜áž»áž“</value>
   </data>
   <data name="HoursAgo" xml:space="preserve">
     <value>{0, plural, one {# hour ago} other {# hours ago}}</value>
   </data>
   <data name="HoursAgo_Singular" xml:space="preserve">
-    <value>1 ម៉ោងមុន</value>
+    <value>1 áž˜áŸ‰áŸ„áž„áž˜áž»áž“</value>
   </data>
   <data name="HoursAgo_Plural" xml:space="preserve">
-    <value>{0} ម៉ោងមុន</value>
+    <value>{0} áž˜áŸ‰áŸ„áž„áž˜áž»áž“</value>
   </data>
   <data name="MinutesAgo" xml:space="preserve">
     <value>{0, plural, one {# minute ago} other {# minutes ago}}</value>
   </data>
   <data name="MinutesAgo_Singular" xml:space="preserve">
-    <value>1 នាទីមុន</value>
+    <value>1 áž“áž¶áž‘áž¸áž˜áž»áž“</value>
   </data>
   <data name="MinutesAgo_Plural" xml:space="preserve">
-    <value>{0} នាទីមុន</value>
+    <value>{0} áž“áž¶áž‘áž¸áž˜áž»áž“</value>
   </data>
   <data name="SecondsAgo" xml:space="preserve">
     <value>{0, plural, one {# second ago} other {# seconds ago}}</value>
   </data>
   <data name="SecondsAgo_Singular" xml:space="preserve">
-    <value>1 វិនាទី​មុន</value>
+    <value>1 ážœáž·áž“áž¶áž‘áž¸â€‹áž˜áž»áž“</value>
   </data>
   <data name="SecondsAgo_Plural" xml:space="preserve">
-    <value>{0} វិនាទី​មុន</value>
+    <value>{0} ážœáž·áž“áž¶áž‘áž¸â€‹áž˜áž»áž“</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>ឥឡូវនេះ</value>
+    <value>áž¥áž¡áž¼ážœáž“áŸáŸ‡</value>
   </data>
   <data name="ErrorDialogUnsupportedOperation" xml:space="preserve">
-    <value>ប្រតិបត្តិការស្នើសុំត្រូវបានបដិសេដ</value>
+    <value>áž”áŸ’ážšážáž·áž”ážáŸ’ážáž·áž€áž¶ážšážŸáŸ’áž“áž¾ážŸáž»áŸ†ážáŸ’ážšáž¼ážœáž”áž¶áž“áž”ážŠáž·ážŸáŸážŠ</value>
   </data>
   <data name="DriveFreeSpaceAndCapacity" xml:space="preserve">
-    <value>{0} នៅទំនេរនៃ {1}</value>
+    <value>{0} áž“áŸ…áž‘áŸ†áž“áŸážšáž“áŸƒ {1}</value>
   </data>
   <data name="SendTo" xml:space="preserve">
-    <value>ផ្ញើ​ទៅ៖</value>
+    <value>áž•áŸ’áž‰áž¾â€‹áž‘áŸ…áŸ–</value>
   </data>
   <data name="FileNameTeachingTip.Subtitle" xml:space="preserve">
-    <value>ឈ្មោះធាតុមិនត្រូវមានតួអក្សរខាងក្រោមទេ៖ \ / : * ? " &lt; &gt; |</value>
+    <value>ážˆáŸ’áž˜áŸ„áŸ‡áž’áž¶ážáž»áž˜áž·áž“ážáŸ’ážšáž¼ážœáž˜áž¶áž“ážáž½áž¢áž€áŸ’ážŸážšážáž¶áž„áž€áŸ’ážšáŸ„áž˜áž‘áŸáŸ– \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="InvalidFilename.Text" xml:space="preserve">
-    <value>ឈ្មោះធាតុដែលបានបញ្ជាក់គឺមិនត្រឹមត្រូវទេ</value>
+    <value>ážˆáŸ’áž˜áŸ„áŸ‡áž’áž¶ážáž»ážŠáŸ‚áž›áž”áž¶áž“áž”áž‰áŸ’áž‡áž¶áž€áŸ‹áž‚ážºáž˜áž·áž“ážáŸ’ážšáž¹áž˜ážáŸ’ážšáž¼ážœáž‘áŸ</value>
   </data>
   <data name="SelectedItems" xml:space="preserve">
     <value>{0, plural, other {# items selected}}</value>
@@ -495,34 +501,34 @@
     <comment>ICU format for plurals, more information here: https://support.crowdin.com/icu-message-syntax/#plural</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>បាទ/ចាស</value>
+    <value>áž”áž¶áž‘/áž…áž¶ážŸ</value>
   </data>
   <data name="ConfirmEmptyBinDialogContent" xml:space="preserve">
-    <value>តើអ្នកប្រាកដថាចង់លុបធាតុទាំងអស់នេះជាអចិន្ត្រៃយ៍ទេ?</value>
+    <value>ážáž¾áž¢áŸ’áž“áž€áž”áŸ’ážšáž¶áž€ážŠážáž¶áž…áž„áŸ‹áž›áž»áž”áž’áž¶ážáž»áž‘áž¶áŸ†áž„áž¢ážŸáŸ‹áž“áŸáŸ‡áž‡áž¶áž¢áž…áž·áž“áŸ’ážáŸ’ážšáŸƒáž™áŸáž‘áŸ?</value>
   </data>
   <data name="ConfirmEmptyBinDialogTitle" xml:space="preserve">
-    <value>ទទេរធុងសំរាម</value>
+    <value>áž‘áž‘áŸážšáž’áž»áž„ážŸáŸ†ážšáž¶áž˜</value>
   </data>
   <data name="ItemSizeBytes" xml:space="preserve">
-    <value>បៃ</value>
+    <value>áž”áŸƒ</value>
   </data>
   <data name="KiloByteSymbol" xml:space="preserve">
-    <value>គីឡូបៃ</value>
+    <value>áž‚áž¸áž¡áž¼áž”áŸƒ</value>
   </data>
   <data name="MegaByteSymbol" xml:space="preserve">
-    <value>មេកាបៃ</value>
+    <value>áž˜áŸáž€áž¶áž”áŸƒ</value>
   </data>
   <data name="GigaByteSymbol" xml:space="preserve">
-    <value>ជីកាបៃ</value>
+    <value>áž‡áž¸áž€áž¶áž”áŸƒ</value>
   </data>
   <data name="TeraByteSymbol" xml:space="preserve">
-    <value>ថេរ៉ាបៃ</value>
+    <value>ážáŸážšáŸ‰áž¶áž”áŸƒ</value>
   </data>
   <data name="PetaByteSymbol" xml:space="preserve">
-    <value>ប៉េរ៉ាបៃ</value>
+    <value>áž”áŸ‰áŸážšáŸ‰áž¶áž”áŸƒ</value>
   </data>
   <data name="ByteSymbol" xml:space="preserve">
-    <value>បៃ</value>
+    <value>áž”áŸƒ</value>
   </data>
   <data name="PropertiesFilesAndFoldersCountString" xml:space="preserve">
     <value>{0, number} {0, plural, one {file} other {files}}, {1, number} {1, plural, one {folder} other {folders}}</value>
@@ -534,112 +540,112 @@
     <value>Run as another user</value>
   </data>
   <data name="PropertiesDriveItemTypesEquals" xml:space="preserve">
-    <value>គ្រប់ប្រភេទនៃ {0}</value>
+    <value>áž‚áŸ’ážšáž”áŸ‹áž”áŸ’ážšáž—áŸáž‘áž“áŸƒ {0}</value>
   </data>
   <data name="PropertiesDriveItemTypeDifferent" xml:space="preserve">
-    <value>ប្រភេទផ្សេងគ្នា</value>
+    <value>áž”áŸ’ážšáž—áŸáž‘áž•áŸ’ážŸáŸáž„áž‚áŸ’áž“áž¶</value>
   </data>
   <data name="PropertiesCombinedItemLocation" xml:space="preserve">
-    <value>ទាំងអស់ក្នុង {0}</value>
+    <value>áž‘áž¶áŸ†áž„áž¢ážŸáŸ‹áž€áŸ’áž“áž»áž„ {0}</value>
   </data>
   <data name="PropertiesDriveUsedSpace.Text" xml:space="preserve">
-    <value>ទំហំ​ប្រើប្រាស់៖</value>
+    <value>áž‘áŸ†áž áŸ†â€‹áž”áŸ’ážšáž¾áž”áŸ’ážšáž¶ážŸáŸ‹áŸ–</value>
   </data>
   <data name="PropertiesDriveFreeSpace.Text" xml:space="preserve">
-    <value>ទំហំ​ទំនេរ៖</value>
+    <value>áž‘áŸ†áž áŸ†â€‹áž‘áŸ†áž“áŸážšáŸ–</value>
   </data>
   <data name="PropertiesDriveCapacity.Text" xml:space="preserve">
-    <value>ទំហំផ្ទុក៖</value>
+    <value>áž‘áŸ†áž áŸ†áž•áŸ’áž‘áž»áž€áŸ–</value>
   </data>
   <data name="PropertiesDriveFileSystem.Text" xml:space="preserve">
-    <value>ប្រព័ន្ធ​ឯកសារ</value>
+    <value>áž”áŸ’ážšáž–áŸáž“áŸ’áž’â€‹áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="JumpListRecentGroupHeader" xml:space="preserve">
-    <value>ថ្មីៗ</value>
+    <value>ážáŸ’áž˜áž¸áŸ—</value>
   </data>
   <data name="TabStripDragAndDropUIOverrideCaption" xml:space="preserve">
-    <value>ផ្លាស់ប្តូរផ្ទាំងមកនេះ</value>
+    <value>áž•áŸ’áž›áž¶ážŸáŸ‹áž”áŸ’ážáž¼ážšáž•áŸ’áž‘áž¶áŸ†áž„áž˜áž€áž“áŸáŸ‡</value>
   </data>
   <data name="Status" xml:space="preserve">
-    <value>ស្ថានភាព</value>
+    <value>ážŸáŸ’ážáž¶áž“áž—áž¶áž–</value>
   </data>
   <data name="NavigationToolbarVisiblePathNoResults" xml:space="preserve">
-    <value>គ្មានលទ្ធផល</value>
+    <value>áž‚áŸ’áž˜áž¶áž“áž›áž‘áŸ’áž’áž•áž›</value>
   </data>
   <data name="SubDirectoryAccessDenied" xml:space="preserve">
-    <value>មិនអាចចូលប្រើធាតុណាមួយដើម្បីបង្ហាញបានទេ</value>
+    <value>áž˜áž·áž“áž¢áž¶áž…áž…áž¼áž›áž”áŸ’ážšáž¾áž’áž¶ážáž»ážŽáž¶áž˜áž½áž™ážŠáž¾áž˜áŸ’áž”áž¸áž”áž„áŸ’áž áž¶áž‰áž”áž¶áž“áž‘áŸ</value>
   </data>
   <data name="MoveToFolderCaptionText" xml:space="preserve">
-    <value>ប្តូរទៅ​ {0}</value>
+    <value>áž”áŸ’ážáž¼ážšáž‘áŸ…â€‹ {0}</value>
   </data>
   <data name="CopyToFolderCaptionText" xml:space="preserve">
-    <value>ចម្លងទៅ​ {0}</value>
+    <value>áž…áž˜áŸ’áž›áž„áž‘áŸ…â€‹ {0}</value>
   </data>
   <data name="CloneToFolderCaptionText" xml:space="preserve">
     <value>Clone to {0}</value>
   </data>
   <data name="CreateShortcut" xml:space="preserve">
-    <value>បង្កើតផ្លូវកាត់</value>
+    <value>áž”áž„áŸ’áž€áž¾ážáž•áŸ’áž›áž¼ážœáž€áž¶ážáŸ‹</value>
   </data>
   <data name="OpenFileLocation" xml:space="preserve">
-    <value>បើកទៅកាន់ទីតាំងឯកសារ</value>
+    <value>áž”áž¾áž€áž‘áŸ…áž€áž¶áž“áŸ‹áž‘áž¸ážáž¶áŸ†áž„áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="PropertiesShortcutItemArgs.Text" xml:space="preserve">
     <value>Arguments:</value>
   </data>
   <data name="PropertiesShortcutItemPath.Text" xml:space="preserve">
-    <value>ទិសដៅ</value>
+    <value>áž‘áž·ážŸážŠáŸ…</value>
   </data>
   <data name="PropertiesShortcutItemType.Text" xml:space="preserve">
-    <value>ប្រភេទផ្លូវកាត់៖</value>
+    <value>áž”áŸ’ážšáž—áŸáž‘áž•áŸ’áž›áž¼ážœáž€áž¶ážáŸ‹áŸ–</value>
   </data>
   <data name="PropertiesShortcutTypeLink" xml:space="preserve">
-    <value>បញ្ជាប់វេប</value>
+    <value>áž”áž‰áŸ’áž‡áž¶áž”áŸ‹ážœáŸáž”</value>
   </data>
   <data name="General" xml:space="preserve">
-    <value>ជាទូទៅ</value>
+    <value>áž‡áž¶áž‘áž¼áž‘áŸ…</value>
   </data>
   <data name="Shortcut" xml:space="preserve">
-    <value>ផ្លូវកាត់</value>
+    <value>áž•áŸ’áž›áž¼ážœáž€áž¶ážáŸ‹</value>
   </data>
   <data name="ShortcutWebLinkFileType" xml:space="preserve">
-    <value>ផ្លូវកាត់អុីនធើណែត</value>
+    <value>áž•áŸ’áž›áž¼ážœáž€áž¶ážáŸ‹áž¢áž»áž¸áž“áž’áž¾ážŽáŸ‚áž</value>
   </data>
   <data name="ShortcutCreateNewSuffix" xml:space="preserve">
-    <value>{0} ផ្លូវកាត់</value>
+    <value>{0} áž•áŸ’áž›áž¼ážœáž€áž¶ážáŸ‹</value>
   </data>
   <data name="ExceptionNotificationBody" xml:space="preserve">
-    <value>ឯកសារមានកំហុសដែលអ្នកអភិវឌ្ឍន៍មិនទាន់រៀបចំនៅឡើយ</value>
+    <value>áž¯áž€ážŸáž¶ážšáž˜áž¶áž“áž€áŸ†áž áž»ážŸážŠáŸ‚áž›áž¢áŸ’áž“áž€áž¢áž—áž·ážœážŒáŸ’ážáž“áŸáž˜áž·áž“áž‘áž¶áž“áŸ‹ážšáŸ€áž”áž…áŸ†áž“áŸ…áž¡áž¾áž™</value>
   </data>
   <data name="ExceptionNotificationHeader" xml:space="preserve">
-    <value>មានកំហុសកើតឡើង!</value>
+    <value>áž˜áž¶áž“áž€áŸ†áž áž»ážŸáž€áž¾ážáž¡áž¾áž„!</value>
   </data>
   <data name="ExceptionNotificationReportButton" xml:space="preserve">
-    <value>រាយការណ៍ពីបញ្ហានេះ</value>
+    <value>ážšáž¶áž™áž€áž¶ážšážŽáŸáž–áž¸áž”áž‰áŸ’áž áž¶áž“áŸáŸ‡</value>
   </data>
   <data name="InvalidItemDialogContent" xml:space="preserve">
-    <value>ធាតុដែលបានយោងគឺមិនត្រឹមត្រូវ ឬមិនអាចចូលដំណើរការបាន។{0}សារកំហុស៖{0}{1}</value>
+    <value>áž’áž¶ážáž»ážŠáŸ‚áž›áž”áž¶áž“áž™áŸ„áž„áž‚ážºáž˜áž·áž“ážáŸ’ážšáž¹áž˜ážáŸ’ážšáž¼ážœ áž¬áž˜áž·áž“áž¢áž¶áž…áž…áž¼áž›ážŠáŸ†ážŽáž¾ážšáž€áž¶ážšáž”áž¶áž“áŸ”{0}ážŸáž¶ážšáž€áŸ†áž áž»ážŸáŸ–{0}{1}</value>
   </data>
   <data name="InvalidItemDialogTitle" xml:space="preserve">
-    <value>ធាតុមិនត្រឹមត្រូវ</value>
+    <value>áž’áž¶ážáž»áž˜áž·áž“ážáŸ’ážšáž¹áž˜ážáŸ’ážšáž¼ážœ</value>
   </data>
   <data name="SettingsAboutVersionTitle" xml:space="preserve">
-    <value>ជំនាន់:</value>
+    <value>áž‡áŸ†áž“áž¶áž“áŸ‹:</value>
   </data>
   <data name="ShareDialogFailMessage" xml:space="preserve">
-    <value>មិនមានអ្វីត្រូវចែករំលែកពេលនេះ ...</value>
+    <value>áž˜áž·áž“áž˜áž¶áž“áž¢áŸ’ážœáž¸ážáŸ’ážšáž¼ážœáž…áŸ‚áž€ážšáŸ†áž›áŸ‚áž€áž–áŸáž›áž“áŸáŸ‡ ...</value>
   </data>
   <data name="ShareDialogMultipleItemsDescription" xml:space="preserve">
-    <value>ធាតុដែលអ្នកបានជ្រើសរើសនឹងត្រូវបានចែករំលែក</value>
+    <value>áž’áž¶ážáž»ážŠáŸ‚áž›áž¢áŸ’áž“áž€áž”áž¶áž“áž‡áŸ’ážšáž¾ážŸážšáž¾ážŸáž“áž¹áž„ážáŸ’ážšáž¼ážœáž”áž¶áž“áž…áŸ‚áž€ážšáŸ†áž›áŸ‚áž€</value>
   </data>
   <data name="ShareDialogSingleItemDescription" xml:space="preserve">
-    <value>ធាតុដែលបានជ្រើសរើសនឹងត្រូវបានចែករំលែក</value>
+    <value>áž’áž¶ážáž»ážŠáŸ‚áž›áž”áž¶áž“áž‡áŸ’ážšáž¾ážŸážšáž¾ážŸáž“áž¹áž„ážáŸ’ážšáž¼ážœáž”áž¶áž“áž…áŸ‚áž€ážšáŸ†áž›áŸ‚áž€</value>
   </data>
   <data name="ShareDialogTitle" xml:space="preserve">
-    <value>កំពុងចែករំលែក {0}</value>
+    <value>áž€áŸ†áž–áž»áž„áž…áŸ‚áž€ážšáŸ†áž›áŸ‚áž€ {0}</value>
   </data>
   <data name="ShareDialogTitleMultipleItems" xml:space="preserve">
-    <value>កំពុងចែករំលែក {0} {1}</value>
+    <value>áž€áŸ†áž–áž»áž„áž…áŸ‚áž€ážšáŸ†áž›áŸ‚áž€ {0} {1}</value>
   </data>
   <data name="RenameErrorItemDeletedText" xml:space="preserve">
     <value>The item you're attempting to rename no longer exists. Please verify the correct location of the item you need to rename.</value>
@@ -660,61 +666,61 @@
     <value>Item name was too long</value>
   </data>
   <data name="ShowMoreOptions" xml:space="preserve">
-    <value>បង្ហាញជម្រើសច្រើនទៀត</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž‡áž˜áŸ’ážšáž¾ážŸáž…áŸ’ážšáž¾áž“áž‘áŸ€áž</value>
   </data>
   <data name="RestartNotificationText.Text" xml:space="preserve">
-    <value>កម្មវិធីត្រូវចាប់ផ្តើមឡើងវិញ ដើម្បីអនុវត្តការកំណត់ទាំងនេះ តើអ្នកចង់ចាប់ផ្តើមកម្មវិធីឡើងវិញទេ?</value>
+    <value>áž€áž˜áŸ’áž˜ážœáž·áž’áž¸ážáŸ’ážšáž¼ážœáž…áž¶áž”áŸ‹áž•áŸ’ážáž¾áž˜áž¡áž¾áž„ážœáž·áž‰ ážŠáž¾áž˜áŸ’áž”áž¸áž¢áž“áž»ážœážáŸ’ážáž€áž¶ážšáž€áŸ†ážŽážáŸ‹áž‘áž¶áŸ†áž„áž“áŸáŸ‡ ážáž¾áž¢áŸ’áž“áž€áž…áž„áŸ‹áž…áž¶áž”áŸ‹áž•áŸ’ážáž¾áž˜áž€áž˜áŸ’áž˜ážœáž·áž’áž¸áž¡áž¾áž„ážœáž·áž‰áž‘áŸ?</value>
   </data>
   <data name="SponsorUsOnGitHub" xml:space="preserve">
-    <value>ឧត្ថម្ភយើងតាមរយៈហ្គិតហាប់</value>
+    <value>áž§ážáŸ’ážáž˜áŸ’áž—áž™áž¾áž„ážáž¶áž˜ážšáž™áŸˆáž áŸ’áž‚áž·ážáž áž¶áž”áŸ‹</value>
   </data>
   <data name="AccessDeniedCreateDialogText" xml:space="preserve">
     <value>We weren't able to create this item</value>
   </data>
   <data name="AccessDenied" xml:space="preserve">
-    <value>អាក់សេសបដិសេធ</value>
+    <value>áž¢áž¶áž€áŸ‹ážŸáŸážŸáž”ážŠáž·ážŸáŸáž’</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutSetAsText" xml:space="preserve">
     <value>Set as</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>បោះបង់</value>
+    <value>áž”áŸ„áŸ‡áž”áž„áŸ‹</value>
   </data>
   <data name="AddDialog.Title" xml:space="preserve">
-    <value>បង្កើតធាតុថ្មី</value>
+    <value>áž”áž„áŸ’áž€áž¾ážáž’áž¶ážáž»ážáŸ’áž˜áž¸</value>
   </data>
   <data name="AddDialogDescription.Text" xml:space="preserve">
-    <value>ជ្រើសរើសប្រភេទសម្រាប់ធាតុថ្មីនេះខាងក្រោម</value>
+    <value>áž‡áŸ’ážšáž¾ážŸážšáž¾ážŸáž”áŸ’ážšáž—áŸáž‘ážŸáž˜áŸ’ážšáž¶áž”áŸ‹áž’áž¶ážáž»ážáŸ’áž˜áž¸áž“áŸáŸ‡ážáž¶áž„áž€áŸ’ážšáŸ„áž˜</value>
   </data>
   <data name="File" xml:space="preserve">
-    <value>ឯកសារ</value>
+    <value>áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="Files" xml:space="preserve">
-    <value>ឯកសារ</value>
+    <value>áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="AddDialogListFileSubHeader" xml:space="preserve">
-    <value>បង្កើតឯកសារទទេ</value>
+    <value>áž”áž„áŸ’áž€áž¾ážáž¯áž€ážŸáž¶ážšáž‘áž‘áŸ</value>
   </data>
   <data name="Folder" xml:space="preserve">
-    <value>ថតឯកសារ</value>
+    <value>ážážáž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="Folders" xml:space="preserve">
-    <value>ថតឯកសារ</value>
+    <value>ážážáž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="AddDialogListFolderSubHeader" xml:space="preserve">
-    <value>បង្កើតថតទំនេរ</value>
+    <value>áž”áž„áŸ’áž€áž¾ážážážáž‘áŸ†áž“áŸážš</value>
   </data>
   <data name="NavResfreshButton.AutomationProperties.Name" xml:space="preserve">
-    <value>ផ្ទុកឡើងវិញថត</value>
+    <value>áž•áŸ’áž‘áž»áž€áž¡áž¾áž„ážœáž·áž‰ážáž</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>ភាសា</value>
+    <value>áž—áž¶ážŸáž¶</value>
   </data>
   <data name="SettingsContextMenuOverflow" xml:space="preserve">
-    <value>ប្តូរផ្នែកបន្ថែមសែលទៅក្នុងម៉ឺនុយរង</value>
+    <value>áž”áŸ’ážáž¼ážšáž•áŸ’áž“áŸ‚áž€áž”áž“áŸ’ážáŸ‚áž˜ážŸáŸ‚áž›áž‘áŸ…áž€áŸ’áž“áž»áž„áž˜áŸ‰ážºáž“áž»áž™ážšáž„</value>
   </data>
   <data name="ShowConfirmationWhenDeletingItems" xml:space="preserve">
-    <value>បង្ហាញប្រអប់បញ្ជាក់នៅពេលលុបធាតុ</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž”áŸ’ážšáž¢áž”áŸ‹áž”áž‰áŸ’áž‡áž¶áž€áŸ‹áž“áŸ…áž–áŸáž›áž›áž»áž”áž’áž¶ážáž»</value>
   </data>
   <data name="PropertySaveErrorMessageText" xml:space="preserve">
     <value>There was an issue saving some properties.</value>
@@ -723,37 +729,37 @@
     <value>Error</value>
   </data>
   <data name="PropertySaveErrorDialog.SecondaryButtonText" xml:space="preserve">
-    <value>បិទយ៉ាងណាក៏ដោយ</value>
+    <value>áž”áž·áž‘áž™áŸ‰áž¶áž„ážŽáž¶áž€áŸážŠáŸ„áž™</value>
   </data>
   <data name="PropertyRatingText" xml:space="preserve">
-    <value>ការវាយតម្លៃ</value>
+    <value>áž€áž¶ážšážœáž¶áž™ážáž˜áŸ’áž›áŸƒ</value>
   </data>
   <data name="PropertyParsingPath" xml:space="preserve">
-    <value>ផ្លូវធាតុ</value>
+    <value>áž•áŸ’áž›áž¼ážœáž’áž¶ážáž»</value>
   </data>
   <data name="PropertyItemTypeText" xml:space="preserve">
-    <value>ប្រភេទធាតុ</value>
+    <value>áž”áŸ’ážšáž—áŸáž‘áž’áž¶ážáž»</value>
   </data>
   <data name="PropertyTitle" xml:space="preserve">
-    <value>ចំណងជើង</value>
+    <value>áž…áŸ†ážŽáž„áž‡áž¾áž„</value>
   </data>
   <data name="PropertySubject" xml:space="preserve">
-    <value>ប្រធាន​បទ</value>
+    <value>áž”áŸ’ážšáž’áž¶áž“â€‹áž”áž‘</value>
   </data>
   <data name="PropertyComment" xml:space="preserve">
-    <value>វិចារ</value>
+    <value>ážœáž·áž…áž¶ážš</value>
   </data>
   <data name="PropertyCopyright" xml:space="preserve">
-    <value>រក្សាសិទ្ធិ</value>
+    <value>ážšáž€áŸ’ážŸáž¶ážŸáž·áž‘áŸ’áž’áž·</value>
   </data>
   <data name="PropertyDateModified" xml:space="preserve">
-    <value>កាលបរិច្ឆេទកែប្រែ</value>
+    <value>áž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘áž€áŸ‚áž”áŸ’ážšáŸ‚</value>
   </data>
   <data name="PropertyBitDepth" xml:space="preserve">
-    <value>ជម្រៅ​ប៊ីត ៖</value>
+    <value>áž‡áž˜áŸ’ážšáŸ…â€‹áž”áŸŠáž¸ážÂ áŸ–</value>
   </data>
   <data name="PropertyDimensions" xml:space="preserve">
-    <value>វិមាត្រ</value>
+    <value>ážœáž·áž˜áž¶ážáŸ’ážš</value>
   </data>
   <data name="PropertyHorizontalSize" xml:space="preserve">
     <value>Horizontal Size</value>
@@ -774,103 +780,103 @@
     <value>sRGB</value>
   </data>
   <data name="PropertyColorSpace_Value65535" xml:space="preserve">
-    <value>មិនបានបញ្ជាក់</value>
+    <value>áž˜áž·áž“áž”áž¶áž“áž”áž‰áŸ’áž‡áž¶áž€áŸ‹</value>
   </data>
   <data name="PropertyLongitudeDecimal" xml:space="preserve">
-    <value>រយៈទទឹងទសភាគ</value>
+    <value>ážšáž™áŸˆáž‘áž‘áž¹áž„áž‘ážŸáž—áž¶áž‚</value>
   </data>
   <data name="PropertyLatitudeDecimal" xml:space="preserve">
-    <value>រយៈបណ្តោយទសភាគ</value>
+    <value>ážšáž™áŸˆáž”ážŽáŸ’ážáŸ„áž™áž‘ážŸáž—áž¶áž‚</value>
   </data>
   <data name="PropertyAltitude" xml:space="preserve">
-    <value>រយៈកម្ពស់</value>
+    <value>ážšáž™áŸˆáž€áž˜áŸ’áž–ážŸáŸ‹</value>
   </data>
   <data name="PropertyDateTaken" xml:space="preserve">
-    <value>កាលបរិច្ឆេទ​ថត</value>
+    <value>áž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘â€‹ážáž</value>
   </data>
   <data name="PropertyCameraManufacturer" xml:space="preserve">
-    <value>ក្រុមហ៊ុនផលិតកាមេរ៉ា</value>
+    <value>áž€áŸ’ážšáž»áž˜áž áŸŠáž»áž“áž•áž›áž·ážáž€áž¶áž˜áŸážšáŸ‰áž¶</value>
   </data>
   <data name="PropertyCameraModel" xml:space="preserve">
-    <value>ម៉ូដែលកាមេរ៉ា</value>
+    <value>áž˜áŸ‰áž¼ážŠáŸ‚áž›áž€áž¶áž˜áŸážšáŸ‰áž¶</value>
   </data>
   <data name="PropertyExposureTime" xml:space="preserve">
-    <value>ពេលវេលាបញ្ចេញពន្លឺ</value>
+    <value>áž–áŸáž›ážœáŸáž›áž¶áž”áž‰áŸ’áž…áŸáž‰áž–áž“áŸ’áž›ážº</value>
   </data>
   <data name="PropertyFocalLength" xml:space="preserve">
     <value>Focal Length</value>
   </data>
   <data name="PropertyAperture" xml:space="preserve">
-    <value>ជម្រៅ​រូបភាព</value>
+    <value>áž‡áž˜áŸ’ážšáŸ…â€‹ážšáž¼áž”áž—áž¶áž–</value>
   </data>
   <data name="PropertyPeopleNames" xml:space="preserve">
-    <value>ឈ្មោះមនុស្ស</value>
+    <value>ážˆáŸ’áž˜áŸ„áŸ‡áž˜áž“áž»ážŸáŸ’ážŸ</value>
   </data>
   <data name="PropertyChannelCount" xml:space="preserve">
-    <value>ចំនួនកាណាល់</value>
+    <value>áž…áŸ†áž“áž½áž“áž€áž¶ážŽáž¶áž›áŸ‹</value>
   </data>
   <data name="PropertyFormat" xml:space="preserve">
-    <value>ទ្រង់ទ្រាយ</value>
+    <value>áž‘áŸ’ážšáž„áŸ‹áž‘áŸ’ážšáž¶áž™</value>
   </data>
   <data name="PropertySampleRate" xml:space="preserve">
     <value>Sample Rate</value>
   </data>
   <data name="PropertyAlbumArtist" xml:space="preserve">
-    <value>អាល់ប៊ុមសិល្បករ</value>
+    <value>áž¢áž¶áž›áŸ‹áž”áŸŠáž»áž˜ážŸáž·áž›áŸ’áž”áž€ážš</value>
   </data>
   <data name="PropertyAlbumTitle" xml:space="preserve">
-    <value>ចំណង​ជើង​អាល់ប៊ុម</value>
+    <value>áž…áŸ†ážŽáž„â€‹áž‡áž¾áž„â€‹áž¢áž¶áž›áŸ‹áž”áŸŠáž»áž˜</value>
   </data>
   <data name="Artist" xml:space="preserve">
-    <value>សិល្បករ</value>
+    <value>ážŸáž·áž›áŸ’áž”áž€ážš</value>
   </data>
   <data name="PropertyBeatsPerMinute" xml:space="preserve">
-    <value>ចង្វាក់ក្នុងមួយនាទី</value>
+    <value>áž…áž„áŸ’ážœáž¶áž€áŸ‹áž€áŸ’áž“áž»áž„áž˜áž½áž™áž“áž¶áž‘áž¸</value>
   </data>
   <data name="PropertyComposer" xml:space="preserve">
-    <value>អ្នក​និពន្ធ</value>
+    <value>áž¢áŸ’áž“áž€â€‹áž“áž·áž–áž“áŸ’áž’</value>
   </data>
   <data name="Conductor" xml:space="preserve">
     <value>Conductor</value>
   </data>
   <data name="PropertyDiscNumber" xml:space="preserve">
-    <value>លេខឌីស</value>
+    <value>áž›áŸážážŒáž¸ážŸ</value>
   </data>
   <data name="PropertyGenre" xml:space="preserve">
-    <value>ប្រភេទ</value>
+    <value>áž”áŸ’ážšáž—áŸáž‘</value>
   </data>
   <data name="PropertyTrackNumber" xml:space="preserve">
-    <value>លេខ​បទ</value>
+    <value>áž›áŸážâ€‹áž”áž‘</value>
   </data>
   <data name="PropertyDuration" xml:space="preserve">
-    <value>រយៈពេល</value>
+    <value>ážšáž™áŸˆáž–áŸáž›</value>
   </data>
   <data name="PropertyFrameCount" xml:space="preserve">
-    <value>ចំនួនស៊ុម</value>
+    <value>áž…áŸ†áž“áž½áž“ážŸáŸŠáž»áž˜</value>
   </data>
   <data name="PropertyProtectionType" xml:space="preserve">
     <value>Protection Type</value>
   </data>
   <data name="PropertyAuthorUrl" xml:space="preserve">
-    <value>អ្នកនិពន្ធ Url</value>
+    <value>áž¢áŸ’áž“áž€áž“áž·áž–áž“áŸ’áž’ Url</value>
   </data>
   <data name="PropertyContentDistributor" xml:space="preserve">
-    <value>អ្នកចែកចាយមាតិកា</value>
+    <value>áž¢áŸ’áž“áž€áž…áŸ‚áž€áž…áž¶áž™áž˜áž¶ážáž·áž€áž¶</value>
   </data>
   <data name="PropertyDateReleased" xml:space="preserve">
-    <value>កាលបរិច្ឆេទចេញផ្សាយ</value>
+    <value>áž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘áž…áŸáž‰áž•áŸ’ážŸáž¶áž™</value>
   </data>
   <data name="PropertySeriesName" xml:space="preserve">
-    <value>ឈ្មោះស៊េរី</value>
+    <value>ážˆáŸ’áž˜áŸ„áŸ‡ážŸáŸŠáŸážšáž¸</value>
   </data>
   <data name="PropertySeasonNumber" xml:space="preserve">
-    <value>លេខរដូវកាល</value>
+    <value>áž›áŸážážšážŠáž¼ážœáž€áž¶áž›</value>
   </data>
   <data name="PropertyEpisodeNumber" xml:space="preserve">
-    <value>លេខភាគ</value>
+    <value>áž›áŸážáž—áž¶áž‚</value>
   </data>
   <data name="PropertyProducer" xml:space="preserve">
-    <value>ផលិតករ</value>
+    <value>áž•áž›áž·ážáž€ážš</value>
   </data>
   <data name="PropertyPromotionUrl" xml:space="preserve">
     <value>Promotion Url</value>
@@ -879,7 +885,7 @@
     <value>Provider Style</value>
   </data>
   <data name="PropertyPublisher" xml:space="preserve">
-    <value>អ្នក​​បោះ​ពុម្ព​ផ្សាយ</value>
+    <value>áž¢áŸ’áž“áž€â€‹â€‹áž”áŸ„áŸ‡â€‹áž–áž»áž˜áŸ’áž–â€‹áž•áŸ’ážŸáž¶áž™</value>
   </data>
   <data name="PropertyThumbnailLargePath" xml:space="preserve">
     <value>Thumbnail Large Path</value>
@@ -894,67 +900,67 @@
     <value>Thumbnail Small Uri</value>
   </data>
   <data name="PropertyUserWebUrl" xml:space="preserve">
-    <value>វេបយូអអិលអ្នកប្រើប្រាស់</value>
+    <value>ážœáŸáž”áž™áž¼áž¢áž¢áž·áž›áž¢áŸ’áž“áž€áž”áŸ’ážšáž¾áž”áŸ’ážšáž¶ážŸáŸ‹</value>
   </data>
   <data name="PropertyWriter" xml:space="preserve">
-    <value>អ្នកនិពន្ធ</value>
+    <value>áž¢áŸ’áž“áž€áž“áž·áž–áž“áŸ’áž’</value>
   </data>
   <data name="PropertyYear" xml:space="preserve">
-    <value>ឆ្នាំ</value>
+    <value>áž†áŸ’áž“áž¶áŸ†</value>
   </data>
   <data name="PropertyContributor" xml:space="preserve">
-    <value>អ្នក​ចូលរួម</value>
+    <value>áž¢áŸ’áž“áž€â€‹áž…áž¼áž›ážšáž½áž˜</value>
   </data>
   <data name="PropertyLastAuthor" xml:space="preserve">
-    <value>អ្នកនិពន្ធចុងក្រោយ</value>
+    <value>áž¢áŸ’áž“áž€áž“áž·áž–áž“áŸ’áž’áž…áž»áž„áž€áŸ’ážšáŸ„áž™</value>
   </data>
   <data name="PropertyRevisionNumber" xml:space="preserve">
-    <value>ចំនួន​ពិនិត្យ​ឡើង​វិញ</value>
+    <value>áž…áŸ†áž“áž½áž“â€‹áž–áž·áž“áž·ážáŸ’áž™â€‹áž¡áž¾áž„â€‹ážœáž·áž‰</value>
   </data>
   <data name="PropertyVersion" xml:space="preserve">
-    <value>ជំនាន់:</value>
+    <value>áž‡áŸ†áž“áž¶áž“áŸ‹:</value>
   </data>
   <data name="PropertyDateCreated" xml:space="preserve">
-    <value>កាលបរិច្ឆេទបង្កើត</value>
+    <value>áž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘áž”áž„áŸ’áž€áž¾áž</value>
   </data>
   <data name="PropertyTotalEditingTime" xml:space="preserve">
-    <value>ពេលវេលាកែសម្រួលសរុប</value>
+    <value>áž–áŸáž›ážœáŸáž›áž¶áž€áŸ‚ážŸáž˜áŸ’ážšáž½áž›ážŸážšáž»áž”</value>
   </data>
   <data name="PropertyTemplate" xml:space="preserve">
-    <value>ពុម្ព</value>
+    <value>áž–áž»áž˜áŸ’áž–</value>
   </data>
   <data name="PropertyWordCount" xml:space="preserve">
-    <value>ចំនួនពាក្យ</value>
+    <value>áž…áŸ†áž“áž½áž“áž–áž¶áž€áŸ’áž™</value>
   </data>
   <data name="PropertyCharacterCount" xml:space="preserve">
-    <value>ចំនួនតួអក្សរ</value>
+    <value>áž…áŸ†áž“áž½áž“ážáž½áž¢áž€áŸ’ážŸážš</value>
   </data>
   <data name="PropertyLineCount" xml:space="preserve">
-    <value>ចំនួន​​​បន្ទាត់​</value>
+    <value>áž…áŸ†áž“áž½áž“â€‹â€‹â€‹áž”áž“áŸ’áž‘áž¶ážáŸ‹â€‹</value>
   </data>
   <data name="PropertyParagraphCount" xml:space="preserve">
-    <value>ចំនួនកថាខណ្ឌ</value>
+    <value>áž…áŸ†áž“áž½áž“áž€ážáž¶ážážŽáŸ’ážŒ</value>
   </data>
   <data name="PropertyPageCount" xml:space="preserve">
-    <value>ចំនួន​ទំព័រ</value>
+    <value>áž…áŸ†áž“áž½áž“â€‹áž‘áŸ†áž–áŸážš</value>
   </data>
   <data name="PropertySlideCount" xml:space="preserve">
-    <value>ចំនួនស្លាយ</value>
+    <value>áž…áŸ†áž“áž½áž“ážŸáŸ’áž›áž¶áž™</value>
   </data>
   <data name="PropertyFrameRate" xml:space="preserve">
     <value>Frame Rate</value>
   </data>
   <data name="PropertyEncodingBitrate" xml:space="preserve">
-    <value>អត្រាប៊ីតការអ៊ិនកូដ</value>
+    <value>áž¢ážáŸ’ážšáž¶áž”áŸŠáž¸ážáž€áž¶ážšáž¢áŸŠáž·áž“áž€áž¼ážŠ</value>
   </data>
   <data name="PropertyPreviewAudioEncodingBitrate" xml:space="preserve">
-    <value>អត្រាប៊ីតអ៊ិនកូដអូឌីយ៉ូ</value>
+    <value>áž¢ážáŸ’ážšáž¶áž”áŸŠáž¸ážáž¢áŸŠáž·áž“áž€áž¼ážŠáž¢áž¼ážŒáž¸áž™áŸ‰áž¼</value>
   </data>
   <data name="PropertyPreviewVideoEncodingBitrate" xml:space="preserve">
-    <value>អត្រាប៊ីតអ៊ិនកូដវីដេអូ</value>
+    <value>áž¢ážáŸ’ážšáž¶áž”áŸŠáž¸ážáž¢áŸŠáž·áž“áž€áž¼ážŠážœáž¸ážŠáŸáž¢áž¼</value>
   </data>
   <data name="Compression" xml:space="preserve">
-    <value>ការបង្ហាប់</value>
+    <value>áž€áž¶ážšáž”áž„áŸ’áž áž¶áž”áŸ‹</value>
   </data>
   <data name="PropertyFrameWidth" xml:space="preserve">
     <value>Frame Width</value>
@@ -963,103 +969,103 @@
     <value>Frame Height</value>
   </data>
   <data name="PropertyOrientation" xml:space="preserve">
-    <value>ទិស</value>
+    <value>áž‘áž·ážŸ</value>
   </data>
   <data name="PropertySectionCore" xml:space="preserve">
-    <value>ស្នូល</value>
+    <value>ážŸáŸ’áž“áž¼áž›</value>
   </data>
   <data name="PropertySectionImage" xml:space="preserve">
-    <value>រូបភាព</value>
+    <value>ážšáž¼áž”áž—áž¶áž–</value>
   </data>
   <data name="PropertySectionPhoto" xml:space="preserve">
-    <value>រូបថត</value>
+    <value>ážšáž¼áž”ážáž</value>
   </data>
   <data name="PropertySectionGPS" xml:space="preserve">
-    <value>ជីភីអេស</value>
+    <value>áž‡áž¸áž—áž¸áž¢áŸážŸ</value>
   </data>
   <data name="PropertySectionMedia" xml:space="preserve">
-    <value>មេឌៀ</value>
+    <value>áž˜áŸážŒáŸ€</value>
   </data>
   <data name="PropertySectionAudio" xml:space="preserve">
-    <value>អូឌីយ៉ូ</value>
+    <value>áž¢áž¼ážŒáž¸áž™áŸ‰áž¼</value>
   </data>
   <data name="PropertySectionMusic" xml:space="preserve">
-    <value>តន្ត្រី</value>
+    <value>ážáž“áŸ’ážáŸ’ážšáž¸</value>
   </data>
   <data name="PropertySectionVideo" xml:space="preserve">
-    <value>វីដេអូ​</value>
+    <value>ážœáž¸ážŠáŸáž¢áž¼â€‹</value>
   </data>
   <data name="Document" xml:space="preserve">
-    <value>ឯកសារ</value>
+    <value>áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="Address" xml:space="preserve">
-    <value>អាសយដ្ឋាន</value>
+    <value>áž¢áž¶ážŸáž™ážŠáŸ’áž‹áž¶áž“</value>
   </data>
   <data name="SelectionOptions" xml:space="preserve">
-    <value>ជម្រើសជ្រើសរើស</value>
+    <value>áž‡áž˜áŸ’ážšáž¾ážŸáž‡áŸ’ážšáž¾ážŸážšáž¾ážŸ</value>
   </data>
   <data name="NavToolbarSelectionOptions.Label" xml:space="preserve">
-    <value>ជ្រើសរើស</value>
+    <value>áž‡áŸ’ážšáž¾ážŸážšáž¾ážŸ</value>
   </data>
   <data name="RecycleBinItemAutomation" xml:space="preserve">
-    <value>ធាតុក្នុងធុងសំរាម</value>
+    <value>áž’áž¶ážáž»áž€áŸ’áž“áž»áž„áž’áž»áž„ážŸáŸ†ážšáž¶áž˜</value>
   </data>
   <data name="ShortcutItemAutomation" xml:space="preserve">
-    <value>ប្រភេទផ្លូវកាត់៖</value>
+    <value>áž”áŸ’ážšáž—áŸáž‘áž•áŸ’áž›áž¼ážœáž€áž¶ážáŸ‹áŸ–</value>
   </data>
   <data name="Drives" xml:space="preserve">
-    <value>ដ្រាយ</value>
+    <value>ážŠáŸ’ážšáž¶áž™</value>
   </data>
   <data name="PinToSidebarByDraggingCaptionText" xml:space="preserve">
-    <value>ផ្លាស់ទីនៅទីនេះ</value>
+    <value>áž•áŸ’áž›áž¶ážŸáŸ‹áž‘áž¸áž“áŸ…áž‘áž¸áž“áŸáŸ‡</value>
   </data>
   <data name="EjectNotificationHeader" xml:space="preserve">
-    <value>មានសុវត្ថិភាពក្នុងការដកហាតវែរចេញ</value>
+    <value>áž˜áž¶áž“ážŸáž»ážœážáŸ’ážáž·áž—áž¶áž–áž€áŸ’áž“áž»áž„áž€áž¶ážšážŠáž€áž áž¶ážážœáŸ‚ážšáž…áŸáž‰</value>
   </data>
   <data name="EjectNotificationBody" xml:space="preserve">
-    <value>ឧបករណ៍នេះអាចត្រូវបានយកចេញដោយសុវត្ថិភាពពីកុំព្យូទ័រពេលនេះ</value>
+    <value>áž§áž”áž€ážšážŽáŸáž“áŸáŸ‡áž¢áž¶áž…ážáŸ’ážšáž¼ážœáž”áž¶áž“áž™áž€áž…áŸáž‰ážŠáŸ„áž™ážŸáž»ážœážáŸ’ážáž·áž—áž¶áž–áž–áž¸áž€áž»áŸ†áž–áŸ’áž™áž¼áž‘áŸážšáž–áŸáž›áž“áŸáŸ‡</value>
   </data>
   <data name="EjectNotificationErrorDialogHeader" xml:space="preserve">
-    <value>មានបញ្ហាក្នុងច្រានឧបករណ៍ចេញ</value>
+    <value>áž˜áž¶áž“áž”áž‰áŸ’áž áž¶áž€áŸ’áž“áž»áž„áž…áŸ’ážšáž¶áž“áž§áž”áž€ážšážŽáŸáž…áŸáž‰</value>
   </data>
   <data name="EjectNotificationErrorDialogBody" xml:space="preserve">
-    <value>ឧបករណ៍នេះកំពុងប្រើប្រាស់ បិទកម្មវិធី វិនដូ ឬផ្ទាំងណាមួយដែលអាចនឹងកំពុងប្រើឧបករណ៍ ហើយបន្ទាប់មកព្យាយាមម្តងទៀត</value>
+    <value>áž§áž”áž€ážšážŽáŸáž“áŸáŸ‡áž€áŸ†áž–áž»áž„áž”áŸ’ážšáž¾áž”áŸ’ážšáž¶ážŸáŸ‹ áž”áž·áž‘áž€áž˜áŸ’áž˜ážœáž·áž’áž¸ ážœáž·áž“ážŠáž¼ áž¬áž•áŸ’áž‘áž¶áŸ†áž„ážŽáž¶áž˜áž½áž™ážŠáŸ‚áž›áž¢áž¶áž…áž“áž¹áž„áž€áŸ†áž–áž»áž„áž”áŸ’ážšáž¾áž§áž”áž€ážšážŽáŸ áž áž¾áž™áž”áž“áŸ’áž‘áž¶áž”áŸ‹áž˜áž€áž–áŸ’áž™áž¶áž™áž¶áž˜áž˜áŸ’ážáž„áž‘áŸ€áž</value>
   </data>
   <data name="Eject" xml:space="preserve">
-    <value>ច្រានចេញ</value>
+    <value>áž…áŸ’ážšáž¶áž“áž…áŸáž‰</value>
   </data>
   <data name="DuplicateTab" xml:space="preserve">
-    <value>បើកផ្ទាំងស្ទួន</value>
+    <value>áž”áž¾áž€áž•áŸ’áž‘áž¶áŸ†áž„ážŸáŸ’áž‘áž½áž“</value>
   </data>
   <data name="HorizontalMultitaskingControlMoveTabToNewWindow.Text" xml:space="preserve">
-    <value>ផ្លាស់ទីថេបទៅផ្ទាំងថ្មី</value>
+    <value>áž•áŸ’áž›áž¶ážŸáŸ‹áž‘áž¸ážáŸáž”áž‘áŸ…áž•áŸ’áž‘áž¶áŸ†áž„ážáŸ’áž˜áž¸</value>
   </data>
   <data name="NewTab" xml:space="preserve">
-    <value>ថេបថ្មី</value>
+    <value>ážáŸáž”ážáŸ’áž˜áž¸</value>
   </data>
   <data name="ClearPropertiesFlyoutText.Text" xml:space="preserve">
-    <value>លក្ខណៈសម្បត្តិមួយចំនួនអាចផ្ទុកព័ត៌មានផ្ទាល់ខ្លួន</value>
+    <value>áž›áž€áŸ’ážážŽáŸˆážŸáž˜áŸ’áž”ážáŸ’ážáž·áž˜áž½áž™áž…áŸ†áž“áž½áž“áž¢áž¶áž…áž•áŸ’áž‘áž»áž€áž–áŸážáŸŒáž˜áž¶áž“áž•áŸ’áž‘áž¶áž›áŸ‹ážáŸ’áž›áž½áž“</value>
   </data>
   <data name="ClearPropertiesButton.Content" xml:space="preserve">
-    <value>លុបលក្ខណៈសម្បត្តិទាំងអស់</value>
+    <value>áž›áž»áž”áž›áž€áŸ’ážážŽáŸˆážŸáž˜áŸ’áž”ážáŸ’ážáž·áž‘áž¶áŸ†áž„áž¢ážŸáŸ‹</value>
   </data>
   <data name="OngoingTasksTeachingTip.Subtitle" xml:space="preserve">
-    <value>ពិនិត្យស្ថានភាពប្រតិបត្តិការឯកសារនៅទីនេះ</value>
+    <value>áž–áž·áž“áž·ážáŸ’áž™ážŸáŸ’ážáž¶áž“áž—áž¶áž–áž”áŸ’ážšážáž·áž”ážáŸ’ážáž·áž€áž¶ážšáž¯áž€ážŸáž¶ážšáž“áŸ…áž‘áž¸áž“áŸáŸ‡</value>
   </data>
   <data name="OngoingTasksTeachingTip.Title" xml:space="preserve">
-    <value>មណ្ឌលស្ថានភាព</value>
+    <value>áž˜ážŽáŸ’ážŒáž›ážŸáŸ’ážáž¶áž“áž—áž¶áž–</value>
   </data>
   <data name="SearchPagePathBoxOverrideText" xml:space="preserve">
-    <value>លទ្ធផលស្វែងរកក្នុង {1} សម្រាប់ {0}</value>
+    <value>áž›áž‘áŸ’áž’áž•áž›ážŸáŸ’ážœáŸ‚áž„ážšáž€áž€áŸ’áž“áž»áž„ {1} ážŸáž˜áŸ’ážšáž¶áž”áŸ‹ {0}</value>
   </data>
   <data name="SearchResultsFor" xml:space="preserve">
-    <value>លទ្ធផលស្វែងរកសម្រាប់ `{0}`</value>
+    <value>áž›áž‘áŸ’áž’áž•áž›ážŸáŸ’ážœáŸ‚áž„ážšáž€ážŸáž˜áŸ’ážšáž¶áž”áŸ‹ `{0}`</value>
   </data>
   <data name="Details" xml:space="preserve">
-    <value>ពត៌មាន​លម្អិត</value>
+    <value>áž–ážáŸŒáž˜áž¶áž“â€‹áž›áž˜áŸ’áž¢áž·áž</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>ទេ</value>
+    <value>áž‘áŸ</value>
   </data>
   <data name="ShowProtectedSystemFiles" xml:space="preserve">
     <value>Show protected system files</value>
@@ -1068,40 +1074,40 @@
     <value>Sync layout and sorting preferences across directories</value>
   </data>
   <data name="SettingsContextMenu.Text" xml:space="preserve">
-    <value>ប្តូរម៉ឺនុយបរិបទចុចខាងស្តាំ</value>
+    <value>áž”áŸ’ážáž¼ážšáž˜áŸ‰ážºáž“áž»áž™áž”ážšáž·áž”áž‘áž…áž»áž…ážáž¶áž„ážŸáŸ’ážáž¶áŸ†</value>
   </data>
   <data name="OriginalPath" xml:space="preserve">
-    <value>ផ្លូវដើម</value>
+    <value>áž•áŸ’áž›áž¼ážœážŠáž¾áž˜</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>បន្ថែម</value>
+    <value>áž”áž“áŸ’ážáŸ‚áž˜</value>
   </data>
   <data name="Edit" xml:space="preserve">
-    <value>កែសម្រួល</value>
+    <value>áž€áŸ‚ážŸáž˜áŸ’ážšáž½áž›</value>
   </data>
   <data name="Remove" xml:space="preserve">
-    <value>ដកចេញ</value>
+    <value>ážŠáž€áž…áŸáž‰</value>
   </data>
   <data name="SettingsMultitaskingAlwaysOpenDualPane" xml:space="preserve">
-    <value>បើកផ្ទាំងផែនបែបផ្ទួន</value>
+    <value>áž”áž¾áž€áž•áŸ’áž‘áž¶áŸ†áž„áž•áŸ‚áž“áž”áŸ‚áž”áž•áŸ’áž‘áž½áž“</value>
   </data>
   <data name="ShowOpenInNewPane" xml:space="preserve">
-    <value>បង្ហាញជម្រើសដើម្បីបើកថតនៅក្នុងផ្ទាំងផែនថ្មី</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž‡áž˜áŸ’ážšáž¾ážŸážŠáž¾áž˜áŸ’áž”áž¸áž”áž¾áž€ážážáž“áŸ…áž€áŸ’áž“áž»áž„áž•áŸ’áž‘áž¶áŸ†áž„áž•áŸ‚áž“ážáŸ’áž˜áž¸</value>
   </data>
   <data name="ShowCopyPath" xml:space="preserve">
-    <value>បង្ហាញជម្រើសដើម្បីចម្លងផ្លូវ</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž‡áž˜áŸ’ážšáž¾ážŸážŠáž¾áž˜áŸ’áž”áž¸áž…áž˜áŸ’áž›áž„áž•áŸ’áž›áž¼ážœ</value>
   </data>
   <data name="ShowCreateFolderWithSelection" xml:space="preserve">
-    <value>បង្ហាញជម្រើសដើម្បីបង្កើតថតជាមួយជម្រើស</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž‡áž˜áŸ’ážšáž¾ážŸážŠáž¾áž˜áŸ’áž”áž¸áž”áž„áŸ’áž€áž¾ážážážáž‡áž¶áž˜áž½áž™áž‡áž˜áŸ’ážšáž¾ážŸ</value>
   </data>
   <data name="ShowCreateShortcut" xml:space="preserve">
-    <value>បង្ហាញជម្រើសដើម្បីបង្កើតផ្លូវកាត់</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž‡áž˜áŸ’ážšáž¾ážŸážŠáž¾áž˜áŸ’áž”áž¸áž”áž„áŸ’áž€áž¾ážáž•áŸ’áž›áž¼ážœáž€áž¶ážáŸ‹</value>
   </data>
   <data name="NavigationToolbarNewPane.Label" xml:space="preserve">
-    <value>ផេនថ្មី</value>
+    <value>áž•áŸáž“ážáŸ’áž˜áž¸</value>
   </data>
   <data name="OpenInNewPane" xml:space="preserve">
-    <value>បើកក្នុងផែនថ្មី</value>
+    <value>áž”áž¾áž€áž€áŸ’áž“áž»áž„áž•áŸ‚áž“ážáŸ’áž˜áž¸</value>
   </data>
   <data name="OpenInOtherPane" xml:space="preserve">
     <value>Open in other pane</value>
@@ -1110,34 +1116,34 @@
     <value>Open current folder in other pane</value>
   </data>
   <data name="FilesAndFolders" xml:space="preserve">
-    <value>ឯកសារ និងថត</value>
+    <value>áž¯áž€ážŸáž¶ážš áž“áž·áž„ážáž</value>
   </data>
   <data name="NavToolbarDetails.ToolTipService.ToolTip" xml:space="preserve">
-    <value>លម្អិត (Ctrl+Shift+1)</value>
+    <value>áž›áž˜áŸ’áž¢áž·áž (Ctrl+Shift+1)</value>
   </data>
   <data name="DateDeleted" xml:space="preserve">
-    <value>កាលបរិច្ឆេទត្រូវបានលុប</value>
+    <value>áž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘ážáŸ’ážšáž¼ážœáž”áž¶áž“áž›áž»áž”</value>
   </data>
   <data name="SidebarCloudDrives" xml:space="preserve">
-    <value>ថាសពពក</value>
+    <value>ážáž¶ážŸáž–áž–áž€</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>បញ្ជាក់</value>
+    <value>áž”áž‰áŸ’áž‡áž¶áž€áŸ‹</value>
   </data>
   <data name="DesiredName" xml:space="preserve">
-    <value>ឈ្មោះដែលចង់បាន</value>
+    <value>ážˆáŸ’áž˜áŸ„áŸ‡ážŠáŸ‚áž›áž…áž„áŸ‹áž”áž¶áž“</value>
   </data>
   <data name="TogglePreviewPane" xml:space="preserve">
-    <value>បិទបើកផ្ទាំងមើលជាមុន</value>
+    <value>áž”áž·áž‘áž”áž¾áž€áž•áŸ’áž‘áž¶áŸ†áž„áž˜áž¾áž›áž‡áž¶áž˜áž»áž“</value>
   </data>
   <data name="ToggleDetailsPane" xml:space="preserve">
-    <value>បិទបើកផ្ទាំងលម្អិត</value>
+    <value>áž”áž·áž‘áž”áž¾áž€áž•áŸ’áž‘áž¶áŸ†áž„áž›áž˜áŸ’áž¢áž·áž</value>
   </data>
   <data name="ToggleDetailsPaneDescription" xml:space="preserve">
-    <value>បិទបើកផ្ទាំងលម្អិត ដើម្បីមើលមូលដ្ឋានព័ត៌មានឯកសារ</value>
+    <value>áž”áž·áž‘áž”áž¾áž€áž•áŸ’áž‘áž¶áŸ†áž„áž›áž˜áŸ’áž¢áž·áž ážŠáž¾áž˜áŸ’áž”áž¸áž˜áž¾áž›áž˜áž¼áž›ážŠáŸ’áž‹áž¶áž“áž–áŸážáŸŒáž˜áž¶áž“áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="ToggleInfoPane" xml:space="preserve">
-    <value>បិទបើកផ្ទាំងព័ត៌មាន</value>
+    <value>áž”áž·áž‘áž”áž¾áž€áž•áŸ’áž‘áž¶áŸ†áž„áž–áŸážáŸŒáž˜áž¶áž“</value>
   </data>
   <data name="ToggleInfoPaneDescription" xml:space="preserve">
     <value>Toggle visibility of the detail/preview panes</value>
@@ -1149,7 +1155,7 @@
     <value>Toggle visibility of the toolbar</value>
   </data>
   <data name="ToggleFilterHeader" xml:space="preserve">
-    <value>បិទ/បើកក្បាលតម្រង</value>
+    <value>áž”áž·áž‘/áž”áž¾áž€áž€áŸ’áž”áž¶áž›ážáž˜áŸ’ážšáž„</value>
   </data>
   <data name="ToggleFilterHeaderDescription" xml:space="preserve">
     <value>Toggle visibility of the filter header</value>
@@ -1161,121 +1167,121 @@
     <value>Toggle dual pane mode</value>
   </data>
   <data name="DetailsPanePreviewNotAvaliableText" xml:space="preserve">
-    <value>មិនមានការមើលជាមុនទេ</value>
+    <value>áž˜áž·áž“áž˜áž¶áž“áž€áž¶ážšáž˜áž¾áž›áž‡áž¶áž˜áž»áž“áž‘áŸ</value>
   </data>
   <data name="PropertyItemName" xml:space="preserve">
-    <value>ឈ្មោះធាតុ</value>
+    <value>ážˆáŸ’áž˜áŸ„áŸ‡áž’áž¶ážáž»</value>
   </data>
   <data name="Unpin" xml:space="preserve">
     <value>Unpin</value>
   </data>
   <data name="UnpinFolderFromSidebar" xml:space="preserve">
-    <value>ដកខ្ទាស់ពីរបារចំហៀង</value>
+    <value>ážŠáž€ážáŸ’áž‘áž¶ážŸáŸ‹áž–áž¸ážšáž”áž¶ážšáž…áŸ†áž áŸ€áž„</value>
   </data>
   <data name="Network" xml:space="preserve">
-    <value>បណ្តាញ</value>
+    <value>áž”ážŽáŸ’ážáž¶áž‰</value>
   </data>
   <data name="PreviewPaneFileDetails.AutomationProperties.Name" xml:space="preserve">
-    <value>ព័ត៌មានលម្អិតអំពីឯកសារ</value>
+    <value>áž–áŸážáŸŒáž˜áž¶áž“áž›áž˜áŸ’áž¢áž·ážáž¢áŸ†áž–áž¸áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="PreviewPaneFilePreview.AutomationProperties.Name" xml:space="preserve">
-    <value>មើល​ឯកសារ​ជា​មុន</value>
+    <value>áž˜áž¾áž›â€‹áž¯áž€ážŸáž¶ážšâ€‹áž‡áž¶â€‹áž˜áž»áž“</value>
   </data>
   <data name="SelectedFilePreviewPane.AutomationProperties.Name" xml:space="preserve">
-    <value>ផែនជ្រើសរើសឯកសារមើលមុន</value>
+    <value>áž•áŸ‚áž“áž‡áŸ’ážšáž¾ážŸážšáž¾ážŸáž¯áž€ážŸáž¶ážšáž˜áž¾áž›áž˜áž»áž“</value>
   </data>
   <data name="Feedback" xml:space="preserve">
-    <value>ផ្តល់យោបល់</value>
+    <value>áž•áŸ’ážáž›áŸ‹áž™áŸ„áž”áž›áŸ‹</value>
   </data>
   <data name="CloudDriveSyncStatus_Online" xml:space="preserve">
-    <value>អាចប្រើបានអហ្វឡាញ</value>
+    <value>áž¢áž¶áž…áž”áŸ’ážšáž¾áž”áž¶áž“áž¢áž áŸ’ážœáž¡áž¶áž‰</value>
   </data>
   <data name="Documentation" xml:space="preserve">
-    <value>ឯកសារ</value>
+    <value>áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="CloudDriveSyncStatus_Offline" xml:space="preserve">
-    <value>លទ្ធភាពអហ្វឡាញ</value>
+    <value>áž›áž‘áŸ’áž’áž—áž¶áž–áž¢áž áŸ’ážœáž¡áž¶áž‰</value>
   </data>
   <data name="CloudDriveSyncStatus_PartialOffline" xml:space="preserve">
-    <value>លទ្ធភាពអហ្វឡាញដោយផ្នែក</value>
+    <value>áž›áž‘áŸ’áž’áž—áž¶áž–áž¢áž áŸ’ážœáž¡áž¶áž‰ážŠáŸ„áž™áž•áŸ’áž“áŸ‚áž€</value>
   </data>
   <data name="CloudDriveSyncStatus_Sync" xml:space="preserve">
-    <value>កំពុងធ្វើសមកាលកម្ម</value>
+    <value>áž€áŸ†áž–áž»áž„áž’áŸ’ážœáž¾ážŸáž˜áž€áž¶áž›áž€áž˜áŸ’áž˜</value>
   </data>
   <data name="CloudDriveSyncStatus_Excluded" xml:space="preserve">
-    <value>ដកចេញពីការធ្វើសមកាលកម្ម</value>
+    <value>ážŠáž€áž…áŸáž‰áž–áž¸áž€áž¶ážšáž’áŸ’ážœáž¾ážŸáž˜áž€áž¶áž›áž€áž˜áŸ’áž˜</value>
   </data>
   <data name="ItemSizeNotCalculated" xml:space="preserve">
-    <value>មិនបានគណនា</value>
+    <value>áž˜áž·áž“áž”áž¶áž“áž‚ážŽáž“áž¶</value>
   </data>
   <data name="ViewSize" xml:space="preserve">
     <value>View size</value>
   </data>
   <data name="CloudDriveSyncStatus_Unknown" xml:space="preserve">
-    <value>មិនស្គាល់</value>
+    <value>áž˜áž·áž“ážŸáŸ’áž‚áž¶áž›áŸ‹</value>
   </data>
   <data name="RenameFileDialogText" xml:space="preserve">
     <value>If you change a file extension, the file might become unusable. Are you sure you want to change it?</value>
   </data>
   <data name="DriveTypeCDRom" xml:space="preserve">
-    <value>ដ្រាយស៊ីឌីរ៉ូម</value>
+    <value>ážŠáŸ’ážšáž¶áž™ážŸáŸŠáž¸ážŒáž¸ážšáŸ‰áž¼áž˜</value>
   </data>
   <data name="DriveTypeCloudDrive" xml:space="preserve">
-    <value>ដ្រាយពពក</value>
+    <value>ážŠáŸ’ážšáž¶áž™áž–áž–áž€</value>
   </data>
   <data name="DriveTypeFixed" xml:space="preserve">
     <value>Fixed Disk Drive</value>
   </data>
   <data name="DriveTypeFloppyDisk" xml:space="preserve">
-    <value>ថាសទន់</value>
+    <value>ážáž¶ážŸáž‘áž“áŸ‹</value>
   </data>
   <data name="DriveTypeNetwork" xml:space="preserve">
-    <value>ថាសបណ្តាញ</value>
+    <value>ážáž¶ážŸáž”ážŽáŸ’ážáž¶áž‰</value>
   </data>
   <data name="DriveTypeNoRootDirectory" xml:space="preserve">
-    <value>ថាស​ដែល​មិន​បាន​ភ្ជាប់</value>
+    <value>ážáž¶ážŸâ€‹ážŠáŸ‚áž›â€‹áž˜áž·áž“â€‹áž”áž¶áž“â€‹áž—áŸ’áž‡áž¶áž”áŸ‹</value>
   </data>
   <data name="DriveTypeRam" xml:space="preserve">
-    <value>ដ្រាយថាសរ៉េម</value>
+    <value>ážŠáŸ’ážšáž¶áž™ážáž¶ážŸážšáŸ‰áŸáž˜</value>
   </data>
   <data name="DriveTypeRemovable" xml:space="preserve">
-    <value>ឧបករណ៍ផ្ទុកដែលអាចដកចេញបាន</value>
+    <value>áž§áž”áž€ážšážŽáŸáž•áŸ’áž‘áž»áž€ážŠáŸ‚áž›áž¢áž¶áž…ážŠáž€áž…áŸáž‰áž”áž¶áž“</value>
   </data>
   <data name="DriveTypeUnknown" xml:space="preserve">
-    <value>មិនស្គាល់</value>
+    <value>áž˜áž·áž“ážŸáŸ’áž‚áž¶áž›áŸ‹</value>
   </data>
   <data name="DriveTypeVirtualDrive" xml:space="preserve">
-    <value>ថាសនិម្មិត</value>
+    <value>ážáž¶ážŸáž“áž·áž˜áŸ’áž˜áž·áž</value>
   </data>
   <data name="DateCreated" xml:space="preserve">
-    <value>កាលបរិច្ឆេទបង្កើត</value>
+    <value>áž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘áž”áž„áŸ’áž€áž¾áž</value>
   </data>
   <data name="MoreOptions" xml:space="preserve">
-    <value>បង្ហាញជម្រើសច្រើនទៀត...</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž‡áž˜áŸ’ážšáž¾ážŸáž…áŸ’ážšáž¾áž“áž‘áŸ€áž...</value>
   </data>
   <data name="DrivesWidgetOptionsFlyoutMapNetDriveMenuItemText" xml:space="preserve">
     <value>Map network drive</value>
   </data>
   <data name="Pinned" xml:space="preserve">
-    <value>បានខ្ទាស់</value>
+    <value>áž”áž¶áž“ážáŸ’áž‘áž¶ážŸáŸ‹</value>
   </data>
   <data name="SidebarLibraries" xml:space="preserve">
-    <value>បណ្ណាល័យ</value>
+    <value>áž”ážŽáŸ’ážŽáž¶áž›áŸáž™</value>
   </data>
   <data name="NoItemSelected" xml:space="preserve">
-    <value>មិនមានធាតុដែលត្រូវបានជ្រើសរើស</value>
+    <value>áž˜áž·áž“áž˜áž¶áž“áž’áž¶ážáž»ážŠáŸ‚áž›ážáŸ’ážšáž¼ážœáž”áž¶áž“áž‡áŸ’ážšáž¾ážŸážšáž¾ážŸ</value>
   </data>
   <data name="PropertyItemTarget" xml:space="preserve">
-    <value>គោលដៅ</value>
+    <value>áž‚áŸ„áž›ážŠáŸ…</value>
   </data>
   <data name="Arguments" xml:space="preserve">
     <value>Arguments</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>បុរេជម្រើស</value>
+    <value>áž”áž»ážšáŸáž‡áž˜áŸ’ážšáž¾ážŸ</value>
   </data>
   <data name="PropertyItemCount" xml:space="preserve">
-    <value>ចំនួនធាតុ</value>
+    <value>áž…áŸ†áž“áž½áž“áž’áž¶ážáž»</value>
   </data>
   <data name="ElevateConfirmDialog.Title" xml:space="preserve">
     <value>This action requires administrator rights</value>
@@ -1293,13 +1299,13 @@
     <value>Unpin from the Start Menu</value>
   </data>
   <data name="Library" xml:space="preserve">
-    <value>បណ្ណាល័យ​</value>
+    <value>áž”ážŽáŸ’ážŽáž¶áž›áŸáž™â€‹</value>
   </data>
   <data name="LibraryLocations.Text" xml:space="preserve">
-    <value>ទីតាំង៖</value>
+    <value>áž‘áž¸ážáž¶áŸ†áž„áŸ–</value>
   </data>
   <data name="SetAsDefaultSavePath" xml:space="preserve">
-    <value>កំណត់ជាទីតាំងរក្សាលំនាំដើម</value>
+    <value>áž€áŸ†ážŽážáŸ‹áž‡áž¶áž‘áž¸ážáž¶áŸ†áž„ážšáž€áŸ’ážŸáž¶áž›áŸ†áž“áž¶áŸ†ážŠáž¾áž˜</value>
   </data>
   <data name="LibraryNoLocations.Text" xml:space="preserve">
     <value>No locations</value>
@@ -1326,7 +1332,7 @@
     <value>Cleanup</value>
   </data>
   <data name="Copy" xml:space="preserve">
-    <value>ចម្លង</value>
+    <value>áž…áž˜áŸ’áž›áž„</value>
   </data>
   <data name="CopyItemsDialogTitle" xml:space="preserve">
     <value>Copy {0, plural, one {item} other {items}}</value>
@@ -1380,91 +1386,91 @@
     <value>Create shortcuts with selection</value>
   </data>
   <data name="ItemType" xml:space="preserve">
-    <value>ប្រភេទ៖</value>
+    <value>áž”áŸ’ážšáž—áŸáž‘áŸ–</value>
   </data>
   <data name="ToolTipDescriptionDate" xml:space="preserve">
-    <value>កាលបរិច្ឆេទកែប្រែ</value>
+    <value>áž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘áž€áŸ‚áž”áŸ’ážšáŸ‚</value>
   </data>
   <data name="OpenWith" xml:space="preserve">
-    <value>បើកជាមួយ</value>
+    <value>áž”áž¾áž€áž‡áž¶áž˜áž½áž™</value>
   </data>
   <data name="ChooseAnotherApp" xml:space="preserve">
     <value>Choose another app</value>
   </data>
   <data name="FileBrowserThumbnailIconColumnGrid.AutomationProperties.Name" xml:space="preserve">
-    <value>អាយខនឯកសារ</value>
+    <value>áž¢áž¶áž™ážáž“áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowOriginalPath.Text" xml:space="preserve">
     <value>Original path column</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowItemType.Text" xml:space="preserve">
-    <value>ជួរឈរប្រភេទធាតុ</value>
+    <value>áž‡áž½ážšážˆážšáž”áŸ’ážšáž—áŸáž‘áž’áž¶ážáž»</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateModified.Text" xml:space="preserve">
-    <value>ជួរឈរកាលបរិច្ឆេទកែប្រែ</value>
+    <value>áž‡áž½ážšážˆážšáž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘áž€áŸ‚áž”áŸ’ážšáŸ‚</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateDeleted.Text" xml:space="preserve">
-    <value>ជួរឈរកាលបរិច្ឆេទលុប</value>
+    <value>áž‡áž½ážšážˆážšáž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘áž›áž»áž”</value>
   </data>
   <data name="Sort" xml:space="preserve">
-    <value>តម្រៀប​</value>
+    <value>ážáž˜áŸ’ážšáŸ€áž”â€‹</value>
   </data>
   <data name="DateModifiedLowerCase" xml:space="preserve">
-    <value>កាលបរិច្ឆេទកែប្រែ</value>
+    <value>áž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘áž€áŸ‚áž”áŸ’ážšáŸ‚</value>
   </data>
   <data name="OriginalFolder" xml:space="preserve">
     <value>Original folder</value>
   </data>
   <data name="Descending" xml:space="preserve">
-    <value>ចុះ</value>
+    <value>áž…áž»áŸ‡</value>
   </data>
   <data name="ItemSizeText_Huge" xml:space="preserve">
-    <value>ធំសម្បើម</value>
+    <value>áž’áŸ†ážŸáž˜áŸ’áž”áž¾áž˜</value>
   </data>
   <data name="ItemSizeText_VeryLarge" xml:space="preserve">
-    <value>ធំខ្លាំង</value>
+    <value>áž’áŸ†ážáŸ’áž›áž¶áŸ†áž„</value>
   </data>
   <data name="ItemSizeText_Large" xml:space="preserve">
-    <value>ធំ</value>
+    <value>áž’áŸ†</value>
   </data>
   <data name="ItemSizeText_Medium" xml:space="preserve">
-    <value>មធ្យម</value>
+    <value>áž˜áž’áŸ’áž™áž˜</value>
   </data>
   <data name="ItemSizeText_Small" xml:space="preserve">
-    <value>តូច</value>
+    <value>ážáž¼áž…</value>
   </data>
   <data name="ItemSizeText_Tiny" xml:space="preserve">
-    <value>តូច​ល្អិត</value>
+    <value>ážáž¼áž…â€‹áž›áŸ’áž¢áž·áž</value>
   </data>
   <data name="Future" xml:space="preserve">
-    <value>អនាគត</value>
+    <value>áž¢áž“áž¶áž‚áž</value>
   </data>
   <data name="Today" xml:space="preserve">
-    <value>ថ្ងៃនេះ</value>
+    <value>ážáŸ’áž„áŸƒáž“áŸáŸ‡</value>
   </data>
   <data name="Yesterday" xml:space="preserve">
-    <value>ម្សិលមិញ</value>
+    <value>áž˜áŸ’ážŸáž·áž›áž˜áž·áž‰</value>
   </data>
   <data name="EarlierThisWeek" xml:space="preserve">
-    <value>កាលពីដើមសប្តាហ៍នេះ</value>
+    <value>áž€áž¶áž›áž–áž¸ážŠáž¾áž˜ážŸáž”áŸ’ážáž¶áž áŸáž“áŸáŸ‡</value>
   </data>
   <data name="LastWeek" xml:space="preserve">
-    <value>សប្តាហ៍មុន</value>
+    <value>ážŸáž”áŸ’ážáž¶áž áŸáž˜áž»áž“</value>
   </data>
   <data name="EarlierThisMonth" xml:space="preserve">
-    <value>កាលពីដើមខែនេះ</value>
+    <value>áž€áž¶áž›áž–áž¸ážŠáž¾áž˜ážáŸ‚áž“áŸáŸ‡</value>
   </data>
   <data name="LastMonth" xml:space="preserve">
-    <value>ខែ​មុន</value>
+    <value>ážáŸ‚â€‹áž˜áž»áž“</value>
   </data>
   <data name="EarlierThisYear" xml:space="preserve">
-    <value>កាលពីដើមឆ្នាំនេះ</value>
+    <value>áž€áž¶áž›áž–áž¸ážŠáž¾áž˜áž†áŸ’áž“áž¶áŸ†áž“áŸáŸ‡</value>
   </data>
   <data name="LastYear" xml:space="preserve">
-    <value>ឆ្នាំមុន</value>
+    <value>áž†áŸ’áž“áž¶áŸ†áž˜áž»áž“</value>
   </data>
   <data name="YearN" xml:space="preserve">
-    <value>ឆ្នាំ {0}</value>
+    <value>áž†áŸ’áž“áž¶áŸ† {0}</value>
   </data>
   <data name="GroupItemsCount_Singular" xml:space="preserve">
     <value>{0} item</value>
@@ -1473,52 +1479,52 @@
     <value>{0} items</value>
   </data>
   <data name="ReopenClosedTab" xml:space="preserve">
-    <value>បើកថេបសាថ្មី</value>
+    <value>áž”áž¾áž€ážáŸáž”ážŸáž¶ážáŸ’áž˜áž¸</value>
   </data>
   <data name="Rename" xml:space="preserve">
-    <value>ប្តូរឈ្មោះ</value>
+    <value>áž”áŸ’ážáž¼ážšážˆáŸ’áž˜áŸ„áŸ‡</value>
   </data>
   <data name="Privacy" xml:space="preserve">
-    <value>ឯកជនភាព</value>
+    <value>áž¯áž€áž‡áž“áž—áž¶áž–</value>
   </data>
   <data name="TheRecycleBin" xml:space="preserve">
-    <value>ធុងសម្រាម</value>
+    <value>áž’áž»áž„ážŸáž˜áŸ’ážšáž¶áž˜</value>
   </data>
   <data name="Canceling" xml:space="preserve">
-    <value>កំពុងបោះបង់</value>
+    <value>áž€áŸ†áž–áž»áž„áž”áŸ„áŸ‡áž”áž„áŸ‹</value>
   </data>
   <data name="Clear" xml:space="preserve">
-    <value>សម្អាត</value>
+    <value>ážŸáž˜áŸ’áž¢áž¶áž</value>
   </data>
   <data name="Widgets" xml:space="preserve">
-    <value>ធាតុក្រាហ្វិក</value>
+    <value>áž’áž¶ážáž»áž€áŸ’ážšáž¶áž áŸ’ážœáž·áž€</value>
   </data>
   <data name="SyncStatus" xml:space="preserve">
-    <value>ស្ថានភាពសមកាល</value>
+    <value>ážŸáŸ’ážáž¶áž“áž—áž¶áž–ážŸáž˜áž€áž¶áž›</value>
   </data>
   <data name="Security" xml:space="preserve">
-    <value>សុវត្ថិភាព</value>
+    <value>ážŸáž»ážœážáŸ’ážáž·áž—áž¶áž–</value>
   </data>
   <data name="AdvancedPermissions" xml:space="preserve">
-    <value>ការអនុញ្ញាតកម្រិតខ្ពស់</value>
+    <value>áž€áž¶ážšáž¢áž“áž»áž‰áŸ’áž‰áž¶ážáž€áž˜áŸ’ážšáž·ážážáŸ’áž–ážŸáŸ‹</value>
   </data>
   <data name="Allow" xml:space="preserve">
-    <value>អនុញ្ញាត</value>
+    <value>áž¢áž“áž»áž‰áŸ’áž‰áž¶áž</value>
   </data>
   <data name="Deny" xml:space="preserve">
-    <value>បដិសេធ</value>
+    <value>áž”ážŠáž·ážŸáŸáž’</value>
   </data>
   <data name="SecurityFullControlLabel.Text" xml:space="preserve">
-    <value>សិទ្ធិពេញលេញ</value>
+    <value>ážŸáž·áž‘áŸ’áž’áž·áž–áŸáž‰áž›áŸáž‰</value>
   </data>
   <data name="SecurityListDirectoryLabel.Text" xml:space="preserve">
     <value>List directory contents</value>
   </data>
   <data name="Modify" xml:space="preserve">
-    <value>កែសម្រួល</value>
+    <value>áž€áŸ‚ážŸáž˜áŸ’ážšáž½áž›</value>
   </data>
   <data name="SecurityPermissionsHeaderText" xml:space="preserve">
-    <value>សិទ្ធិសម្រាប់ {0}</value>
+    <value>ážŸáž·áž‘áŸ’áž’áž·ážŸáž˜áŸ’ážšáž¶áž”áŸ‹ {0}</value>
   </data>
   <data name="SecurityReadAndExecuteLabel.Text" xml:space="preserve">
     <value>Read and execute</value>
@@ -1527,19 +1533,19 @@
     <value>Read</value>
   </data>
   <data name="SecurityUsersGroupLabel.Text" xml:space="preserve">
-    <value>ឈ្មោះក្រុម ឬអ្នកប្រើប្រាស់</value>
+    <value>ážˆáŸ’áž˜áŸ„áŸ‡áž€áŸ’ážšáž»áž˜ áž¬áž¢áŸ’áž“áž€áž”áŸ’ážšáž¾áž”áŸ’ážšáž¶ážŸáŸ‹</value>
   </data>
   <data name="Write" xml:space="preserve">
     <value>Write</value>
   </data>
   <data name="SecurityUnknownAccount" xml:space="preserve">
-    <value>គណនីមិនស្គាល់</value>
+    <value>áž‚ážŽáž“áž¸áž˜áž·áž“ážŸáŸ’áž‚áž¶áž›áŸ‹</value>
   </data>
   <data name="SecurityCannotReadPropertiesText" xml:space="preserve">
     <value>You do not have permissions to view the security properties of this object. Click "Advanced permissions" to proceed.</value>
   </data>
   <data name="SecurityOwnerLabel.Text" xml:space="preserve">
-    <value>ម្ចាស់៖</value>
+    <value>áž˜áŸ’áž…áž¶ážŸáŸ‹áŸ–</value>
   </data>
   <data name="SecurityUnknownOwnerTextText" xml:space="preserve">
     <value>Unknown owner</value>
@@ -1548,7 +1554,7 @@
     <value>Extract archive</value>
   </data>
   <data name="DecompressArchiveDialogOpenDestinationWhenComplete.Content" xml:space="preserve">
-    <value>បើកថតទិសដៅនៅពេលបញ្ចប់</value>
+    <value>áž”áž¾áž€ážážáž‘áž·ážŸážŠáŸ…áž“áŸ…áž–áŸáž›áž”áž‰áŸ’áž…áž”áŸ‹</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutExtractToChildFolder" xml:space="preserve">
     <value>Extract to {0}\</value>
@@ -1560,49 +1566,49 @@
     <value>Restore default libraries</value>
   </data>
   <data name="DialogRestoreLibrariesSubtitleText" xml:space="preserve">
-    <value>តើអ្នកប្រាកដថាចង់ស្ដារបណ្ណាល័យលំនាំដើមទេ? ឯកសារទាំងអស់របស់អ្នកនឹងនៅតែមាននៅលើទំហំផ្ទុករបស់អ្នក</value>
+    <value>ážáž¾áž¢áŸ’áž“áž€áž”áŸ’ážšáž¶áž€ážŠážáž¶áž…áž„áŸ‹ážŸáŸ’ážŠáž¶ážšáž”ážŽáŸ’ážŽáž¶áž›áŸáž™áž›áŸ†áž“áž¶áŸ†ážŠáž¾áž˜áž‘áŸ? áž¯áž€ážŸáž¶ážšáž‘áž¶áŸ†áž„áž¢ážŸáŸ‹ážšáž”ážŸáŸ‹áž¢áŸ’áž“áž€áž“áž¹áž„áž“áŸ…ážáŸ‚áž˜áž¶áž“áž“áŸ…áž›áž¾áž‘áŸ†áž áŸ†áž•áŸ’áž‘áž»áž€ážšáž”ážŸáŸ‹áž¢áŸ’áž“áž€</value>
   </data>
   <data name="DialogRestoreLibrariesTitleText" xml:space="preserve">
-    <value>ស្តារបណ្ណាល័យ</value>
+    <value>ážŸáŸ’ážáž¶ážšáž”ážŽáŸ’ážŽáž¶áž›áŸáž™</value>
   </data>
   <data name="PropertyFileOwner" xml:space="preserve">
-    <value>ម្ចាស់</value>
+    <value>áž˜áŸ’áž…áž¶ážŸáŸ‹</value>
   </data>
   <data name="SecuritySpecialLabelText" xml:space="preserve">
     <value>Special</value>
   </data>
   <data name="Access" xml:space="preserve">
-    <value>អាក់សេស</value>
+    <value>áž¢áž¶áž€áŸ‹ážŸáŸážŸ</value>
   </data>
   <data name="SecurityAdvancedAppliesTo" xml:space="preserve">
-    <value>អនុវត្តចំពោះ</value>
+    <value>áž¢áž“áž»ážœážáŸ’ážáž…áŸ†áž–áŸ„áŸ‡</value>
   </data>
   <data name="Principal" xml:space="preserve">
-    <value>ប្រាក់ដើម</value>
+    <value>áž”áŸ’ážšáž¶áž€áŸ‹ážŠáž¾áž˜</value>
   </data>
   <data name="SecurityAdvancedFlagsFilesLabel" xml:space="preserve">
-    <value>ឯកសារ</value>
+    <value>áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="SecurityAdvancedFlagsFolderLabel" xml:space="preserve">
-    <value>ថតនេះ</value>
+    <value>ážážáž“áŸáŸ‡</value>
   </data>
   <data name="SecurityAdvancedFlagsSubfoldersLabel" xml:space="preserve">
-    <value>ថតរង</value>
+    <value>ážážážšáž„</value>
   </data>
   <data name="Inherited" xml:space="preserve">
     <value>Inherited</value>
   </data>
   <data name="Permissions" xml:space="preserve">
-    <value>សិទ្ធិ</value>
+    <value>ážŸáž·áž‘áŸ’áž’áž·</value>
   </data>
   <data name="SecurityAdvancedCannotReadPropertiesText" xml:space="preserve">
     <value>You do not have permissions to view the security properties of this object. You can try to take ownership of this object.</value>
   </data>
   <data name="SecurityAdvancedFolderFiles.Text" xml:space="preserve">
-    <value>ថត និងឯកសារនេះ</value>
+    <value>ážáž áž“áž·áž„áž¯áž€ážŸáž¶ážšáž“áŸáŸ‡</value>
   </data>
   <data name="SecurityAdvancedFolderSubfoldersFiles.Text" xml:space="preserve">
-    <value>ថត ថតរង និងឯកសារនេះ</value>
+    <value>ážáž ážážážšáž„ áž“áž·áž„áž¯áž€ážŸáž¶ážšáž“áŸáŸ‡</value>
   </data>
   <data name="SecurityAdvancedOnlyFiles.Text" xml:space="preserve">
     <value>Only files</value>
@@ -1683,25 +1689,25 @@
     <value>Close pane</value>
   </data>
   <data name="EnterCompactOverlay" xml:space="preserve">
-    <value>ចូលត្រួលើគ្នាដែល</value>
+    <value>áž…áž¼áž›ážáŸ’ážšáž½áž›áž¾áž‚áŸ’áž“áž¶ážŠáŸ‚áž›</value>
   </data>
   <data name="ExitCompactOverlay" xml:space="preserve">
     <value>Exit compact overlay</value>
   </data>
   <data name="PropertyFileDescription" xml:space="preserve">
-    <value>ពិពណ៌នាឯកសារ</value>
+    <value>áž–áž·áž–ážŽáŸŒáž“áž¶áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="PropertyCompany" xml:space="preserve">
-    <value>ឈ្មោះក្រុមហ៊ុន</value>
+    <value>ážˆáŸ’áž˜áŸ„áŸ‡áž€áŸ’ážšáž»áž˜áž áŸŠáž»áž“</value>
   </data>
   <data name="PropertyLanguage" xml:space="preserve">
-    <value>ភាសា</value>
+    <value>áž—áž¶ážŸáž¶</value>
   </data>
   <data name="PropertyTrademarks" xml:space="preserve">
     <value>Trademarks</value>
   </data>
   <data name="PropertyFileVersion" xml:space="preserve">
-    <value>ជំនាន់ឯកសារ</value>
+    <value>áž‡áŸ†áž“áž¶áž“áŸ‹áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="PreviewPaneLoadCloudItemButton.Text" xml:space="preserve">
     <value>Load full preview</value>
@@ -1713,7 +1719,7 @@
     <value>{0, plural, one {# item} other {# items}} ({1, plural, one {# file} other {# files}}, {2, plural, one {# folder} other {# folders}})</value>
   </data>
   <data name="PropertyUncompressedSize" xml:space="preserve">
-    <value>ទំហំមិនទាន់បង្ហាប់</value>
+    <value>áž‘áŸ†áž áŸ†áž˜áž·áž“áž‘áž¶áž“áŸ‹áž”áž„áŸ’áž áž¶áž”áŸ‹</value>
   </data>
   <data name="WSL" xml:space="preserve">
     <value>WSL</value>
@@ -1722,22 +1728,22 @@
     <value>Hide {0} section</value>
   </data>
   <data name="AddFile" xml:space="preserve">
-    <value>បន្ថែមឯកសារ</value>
+    <value>áž”áž“áŸ’ážáŸ‚áž˜áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="ConsentDialogTitle" xml:space="preserve">
-    <value>មានលទ្ធភាពអាប់ដេត</value>
+    <value>áž˜áž¶áž“áž›áž‘áŸ’áž’áž—áž¶áž–áž¢áž¶áž”áŸ‹ážŠáŸáž</value>
   </data>
   <data name="ConsentDialogContent" xml:space="preserve">
-    <value>ការអាប់ដេតរួចរាល់ក្នុងការដំឡើង</value>
+    <value>áž€áž¶ážšáž¢áž¶áž”áŸ‹ážŠáŸážážšáž½áž…ážšáž¶áž›áŸ‹áž€áŸ’áž“áž»áž„áž€áž¶ážšážŠáŸ†áž¡áž¾áž„</value>
   </data>
   <data name="Close" xml:space="preserve">
-    <value>បិទ</value>
+    <value>áž”áž·áž‘</value>
   </data>
   <data name="ConsentDialogPrimaryButtonText" xml:space="preserve">
-    <value>អាប់ដេត</value>
+    <value>áž¢áž¶áž”áŸ‹ážŠáŸáž</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>ទំព័រដើម</value>
+    <value>áž‘áŸ†áž–áŸážšážŠáž¾áž˜</value>
   </data>
   <data name="ArchiveExtractionCompletedSuccessfullyText" xml:space="preserve">
     <value>The archive extraction completed successfully.</value>
@@ -1752,16 +1758,16 @@
     <value>Open parent folder</value>
   </data>
   <data name="Unknown" xml:space="preserve">
-    <value>មិនស្គាល់</value>
+    <value>áž˜áž·áž“ážŸáŸ’áž‚áž¶áž›áŸ‹</value>
   </data>
   <data name="EditTags" xml:space="preserve">
-    <value>កែប្រែថេគ</value>
+    <value>áž€áŸ‚áž”áŸ’ážšáŸ‚ážáŸáž‚</value>
   </data>
   <data name="PropertyPartOfSet" xml:space="preserve">
     <value>Part of set</value>
   </data>
   <data name="InsertDiscDialog.OpenDriveButton" xml:space="preserve">
-    <value>បើកដ្រាយ</value>
+    <value>áž”áž¾áž€ážŠáŸ’ážšáž¶áž™</value>
   </data>
   <data name="InsertDiscDialogText" xml:space="preserve">
     <value>Please insert a disc into drive {0}</value>
@@ -1770,13 +1776,13 @@
     <value>Insert a disc</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>អូខេ</value>
+    <value>áž¢áž¼ážáŸ</value>
   </data>
   <data name="AskCredentialDialog.Title" xml:space="preserve">
     <value>Credential required</value>
   </data>
   <data name="CredentialDialogAnonymous.Content" xml:space="preserve">
-    <value>អនាមិក</value>
+    <value>áž¢áž“áž¶áž˜áž·áž€</value>
   </data>
   <data name="CredentialDialogDescription.Text" xml:space="preserve">
     <value>Provide your credential:</value>
@@ -1791,46 +1797,46 @@
     <value>This location is password protected. Refresh to enter the password.</value>
   </data>
   <data name="CredentialDialogUserName.PlaceholderText" xml:space="preserve">
-    <value>អត្ថនាម</value>
+    <value>áž¢ážáŸ’ážáž“áž¶áž˜</value>
   </data>
   <data name="NoSearchResultsFound" xml:space="preserve">
-    <value>រកមិនឃើញធាតុទេ</value>
+    <value>ážšáž€áž˜áž·áž“ážƒáž¾áž‰áž’áž¶ážáž»áž‘áŸ</value>
   </data>
   <data name="OpenLogLocation" xml:space="preserve">
-    <value>បើកទៅកាន់ទីតាំងឯកសារ</value>
+    <value>áž”áž¾áž€áž‘áŸ…áž€áž¶áž“áŸ‹áž‘áž¸ážáž¶áŸ†áž„áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="LinkToFolderCaptionText" xml:space="preserve">
-    <value>បង្កើតតំណភ្ជាប់</value>
+    <value>áž”áž„áŸ’áž€áž¾ážážáŸ†ážŽáž—áŸ’áž‡áž¶áž”áŸ‹</value>
   </data>
   <data name="Columns" xml:space="preserve">
-    <value>ជួរឈរ</value>
+    <value>áž‡áž½ážšážˆážš</value>
   </data>
   <data name="Cards" xml:space="preserve">
     <value>Cards</value>
   </data>
   <data name="OpenFoldersInNewTab" xml:space="preserve">
-    <value>បើកថតក្នុងថែបថ្មី</value>
+    <value>áž”áž¾áž€ážážáž€áŸ’áž“áž»áž„ážáŸ‚áž”ážáŸ’áž˜áž¸</value>
   </data>
   <data name="StatusCenter" xml:space="preserve">
-    <value>មណ្ឌលស្ថានភាព</value>
+    <value>áž˜ážŽáŸ’ážŒáž›ážŸáŸ’ážáž¶áž“áž—áž¶áž–</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateCreated.Text" xml:space="preserve">
-    <value>ជួរឈរកាលបរិច្ឆេទបង្កើត</value>
+    <value>áž‡áž½ážšážˆážšáž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘áž”áž„áŸ’áž€áž¾áž</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowItemSize.Text" xml:space="preserve">
-    <value>ជួរឈរទំហំធាតុ</value>
+    <value>áž‡áž½ážšážˆážšáž‘áŸ†áž áŸ†áž’áž¶ážáž»</value>
   </data>
   <data name="ExperimentalFeatureFlags" xml:space="preserve">
-    <value>ទង់មុខងារពិសោធន៍</value>
+    <value>áž‘áž„áŸ‹áž˜áž»ážáž„áž¶ážšáž–áž·ážŸáŸ„áž’áž“áŸ</value>
   </data>
   <data name="HelpAndSupport" xml:space="preserve">
-    <value>ជំនួយ និងគាំទ្រ</value>
+    <value>áž‡áŸ†áž“áž½áž™ áž“áž·áž„áž‚áž¶áŸ†áž‘áŸ’ážš</value>
   </data>
   <data name="SubmitFeatureRequest" xml:space="preserve">
-    <value>ដាក់ស្នើសុំមុខងារ</value>
+    <value>ážŠáž¶áž€áŸ‹ážŸáŸ’áž“áž¾ážŸáž»áŸ†áž˜áž»ážáž„áž¶ážš</value>
   </data>
   <data name="SubmitBugReport" xml:space="preserve">
-    <value>ដាក់រាយការណ៏កំហុស</value>
+    <value>ážŠáž¶áž€áŸ‹ážšáž¶áž™áž€áž¶ážšážŽáŸáž€áŸ†áž áž»ážŸ</value>
   </data>
   <data name="SettingsSetAsDefaultFileManager" xml:space="preserve">
     <value>Set Files as the default file manager</value>
@@ -1839,31 +1845,31 @@
     <value>Use Files as Open File Dialog</value>
   </data>
   <data name="Tag" xml:space="preserve">
-    <value>ស្លាក</value>
+    <value>ážŸáŸ’áž›áž¶áž€</value>
   </data>
   <data name="OpenFilesWithOneClick" xml:space="preserve">
     <value>Open files with a single click</value>
   </data>
   <data name="FolderPath" xml:space="preserve">
-    <value>ទីតាំង​ថត</value>
+    <value>áž‘áž¸ážáž¶áŸ†áž„â€‹ážáž</value>
   </data>
   <data name="ExportSettings" xml:space="preserve">
-    <value>ការកំណត់នាំចេញ</value>
+    <value>áž€áž¶ážšáž€áŸ†ážŽážáŸ‹áž“áž¶áŸ†áž…áŸáž‰</value>
   </data>
   <data name="ImportSettings" xml:space="preserve">
-    <value>ការកំណត់នាំចូល</value>
+    <value>áž€áž¶ážšáž€áŸ†ážŽážáŸ‹áž“áž¶áŸ†áž…áž¼áž›</value>
   </data>
   <data name="SettingsImportErrorDescription" xml:space="preserve">
-    <value>មិនអាចនាំចូលការកំណត់បានទេ ឯកសារការកំណត់ត្រូវបានខូច</value>
+    <value>áž˜áž·áž“áž¢áž¶áž…áž“áž¶áŸ†áž…áž¼áž›áž€áž¶ážšáž€áŸ†ážŽážáŸ‹áž”áž¶áž“áž‘áŸ áž¯áž€ážŸáž¶ážšáž€áž¶ážšáž€áŸ†ážŽážáŸ‹ážáŸ’ážšáž¼ážœáž”áž¶áž“ážáž¼áž…</value>
   </data>
   <data name="SettingsImportErrorTitle" xml:space="preserve">
-    <value>កំហុសនាំចូលការកំណត់</value>
+    <value>áž€áŸ†áž áž»ážŸáž“áž¶áŸ†áž…áž¼áž›áž€áž¶ážšáž€áŸ†ážŽážáŸ‹</value>
   </data>
   <data name="EmptyRecycleBin" xml:space="preserve">
-    <value>ទទេរធុងសំរាម</value>
+    <value>áž‘áž‘áŸážšáž’áž»áž„ážŸáŸ†ážšáž¶áž˜</value>
   </data>
   <data name="Sidebar" xml:space="preserve">
-    <value>បារចំហៀង</value>
+    <value>áž”áž¶ážšáž…áŸ†áž áŸ€áž„</value>
   </data>
   <data name="ChooseCustomIcon" xml:space="preserve">
     <value>Choose a custom folder icon</value>
@@ -1875,10 +1881,10 @@
     <value>Restore default</value>
   </data>
   <data name="OpenTabInExistingInstance" xml:space="preserve">
-    <value>បើកផ្ទាំងនៅក្នុងឧទាហរណ៍ដែលមានស្រាប់ នៅពេលបើកឯកសារពីកម្មវិធីផ្សេងទៀត</value>
+    <value>áž”áž¾áž€áž•áŸ’áž‘áž¶áŸ†áž„áž“áŸ…áž€áŸ’áž“áž»áž„áž§áž‘áž¶áž ážšážŽáŸážŠáŸ‚áž›áž˜áž¶áž“ážŸáŸ’ážšáž¶áž”áŸ‹ áž“áŸ…áž–áŸáž›áž”áž¾áž€áž¯áž€ážŸáž¶ážšáž–áž¸áž€áž˜áŸ’áž˜ážœáž·áž’áž¸áž•áŸ’ážŸáŸáž„áž‘áŸ€áž</value>
   </data>
   <data name="StartupSettings" xml:space="preserve">
-    <value>ការកំណត់ពេលចាប់ផ្តើម</value>
+    <value>áž€áž¶ážšáž€áŸ†ážŽážáŸ‹áž–áŸáž›áž…áž¶áž”áŸ‹áž•áŸ’ážáž¾áž˜</value>
   </data>
   <data name="Compatibility" xml:space="preserve">
     <value>Compatibility</value>
@@ -1893,7 +1899,7 @@
     <value>On this program start</value>
   </data>
   <data name="System" xml:space="preserve">
-    <value>ប្រព័ន្ធ</value>
+    <value>áž”áŸ’ážšáž–áŸáž“áŸ’áž’</value>
   </data>
   <data name="CompatibilitySystemEnhanced" xml:space="preserve">
     <value>System (Enhanced)</value>
@@ -1971,7 +1977,7 @@
     <value>Calculate folder sizes</value>
   </data>
   <data name="RecentFiles" xml:space="preserve">
-    <value>ឯកសារថ្មី</value>
+    <value>áž¯áž€ážŸáž¶ážšážáŸ’áž˜áž¸</value>
   </data>
   <data name="SettingsOpenInLogin" xml:space="preserve">
     <value>Open Files on Windows startup</value>
@@ -1980,10 +1986,10 @@
     <value>Attributes</value>
   </data>
   <data name="Hidden" xml:space="preserve">
-    <value>លាក់</value>
+    <value>áž›áž¶áž€áŸ‹</value>
   </data>
   <data name="MoreDetails" xml:space="preserve">
-    <value>លម្អិតបន្ថែមពីឯកសារ</value>
+    <value>áž›áž˜áŸ’áž¢áž·ážáž”áž“áŸ’ážáŸ‚áž˜áž–áž¸áž¯áž€ážŸáž¶ážš</value>
   </data>
   <data name="ReadOnly" xml:space="preserve">
     <value>Read only</value>
@@ -1992,10 +1998,10 @@
     <value>Cleanup your drive contents</value>
   </data>
   <data name="Type" xml:space="preserve">
-    <value>ប្រភេទ</value>
+    <value>áž”áŸ’ážšáž—áŸáž‘</value>
   </data>
   <data name="Bytes" xml:space="preserve">
-    <value>បៃ</value>
+    <value>áž”áŸƒ</value>
   </data>
   <data name="Extract" xml:space="preserve">
     <value>Extract</value>
@@ -2028,34 +2034,34 @@
     <value>Rotate right</value>
   </data>
   <data name="Install" xml:space="preserve">
-    <value>តម្លើង</value>
+    <value>ážáž˜áŸ’áž›áž¾áž„</value>
   </data>
   <data name="CloseTabsToTheLeft" xml:space="preserve">
-    <value>បិទថេបខាងឆេ្វង</value>
+    <value>áž”áž·áž‘ážáŸáž”ážáž¶áž„áž†áŸáŸ’ážœáž„</value>
   </data>
   <data name="CloseTabsToTheRight" xml:space="preserve">
-    <value>បិទថេបខាងស្ដាំ</value>
+    <value>áž”áž·áž‘ážáŸáž”ážáž¶áž„ážŸáŸ’ážŠáž¶áŸ†</value>
   </data>
   <data name="CloseOtherTabs" xml:space="preserve">
-    <value>បិទថេបដទៃ</value>
+    <value>áž”áž·áž‘ážáŸáž”ážŠáž‘áŸƒ</value>
   </data>
   <data name="CloseAllTabs" xml:space="preserve">
-    <value>បិទផ្ទាំងទាំងអស់</value>
+    <value>áž”áž·áž‘áž•áŸ’áž‘áž¶áŸ†áž„áž‘áž¶áŸ†áž„áž¢ážŸáŸ‹</value>
   </data>
   <data name="Music" xml:space="preserve">
-    <value>តន្ត្រី</value>
+    <value>ážáž“áŸ’ážáŸ’ážšáž¸</value>
   </data>
   <data name="Pictures" xml:space="preserve">
-    <value>រូបភាព</value>
+    <value>ážšáž¼áž”áž—áž¶áž–</value>
   </data>
   <data name="UpdateFiles" xml:space="preserve">
     <value>Update Files</value>
   </data>
   <data name="FileTags" xml:space="preserve">
-    <value>ស្លាក</value>
+    <value>ážŸáŸ’áž›áž¶áž€</value>
   </data>
   <data name="Universal" xml:space="preserve">
-    <value>ម៉ោងសកល</value>
+    <value>áž˜áŸ‰áŸ„áž„ážŸáž€áž›</value>
   </data>
   <data name="DateFormatSample" xml:space="preserve">
     <value>ex: {0}, {1}</value>
@@ -2094,7 +2100,7 @@
     <value>Automatically fit columns to content</value>
   </data>
   <data name="Adaptive" xml:space="preserve">
-    <value>ប្លង់​បត់បែន</value>
+    <value>áž”áŸ’áž›áž„áŸ‹â€‹áž”ážáŸ‹áž”áŸ‚áž“</value>
   </data>
   <data name="AdaptiveShortcutTooltip" xml:space="preserve">
     <value>Adaptive layout (Ctrl+Shift+7)</value>
@@ -2130,16 +2136,16 @@
     <value>Set as background</value>
   </data>
   <data name="SetAsBackground" xml:space="preserve">
-    <value>កំណត់ជាផ្ទាំងបង្ហាញអេក្រង់</value>
+    <value>áž€áŸ†ážŽážáŸ‹áž‡áž¶áž•áŸ’áž‘áž¶áŸ†áž„áž”áž„áŸ’áž áž¶áž‰áž¢áŸáž€áŸ’ážšáž„áŸ‹</value>
   </data>
   <data name="SetAsDefault" xml:space="preserve">
-    <value>កំណត់ជាបុរេជម្រើស</value>
+    <value>áž€áŸ†ážŽážáŸ‹áž‡áž¶áž”áž»ážšáŸáž‡áž˜áŸ’ážšáž¾ážŸ</value>
   </data>
   <data name="DateColumn" xml:space="preserve">
-    <value>ជួរឈរកាលបរិច្ឆេទ</value>
+    <value>áž‡áž½ážšážˆážšáž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘</value>
   </data>
   <data name="DateCreatedColumn" xml:space="preserve">
-    <value>ជួរឈរកាលបរិច្ឆេទបង្កើត</value>
+    <value>áž‡áž½ážšážˆážšáž€áž¶áž›áž”ážšáž·áž…áŸ’áž†áŸáž‘áž”áž„áŸ’áž€áž¾áž</value>
   </data>
   <data name="SizeColumn" xml:space="preserve">
     <value>Size column</value>
@@ -2316,7 +2322,7 @@
     <value>Password</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>ទ្រង់ទ្រាយ</value>
+    <value>áž‘áŸ’ážšáž„áŸ‹áž‘áŸ’ážšáž¶áž™</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowSyncStatus.Text" xml:space="preserve">
     <value>Sync status column</value>
@@ -2325,7 +2331,7 @@
     <value>Group by</value>
   </data>
   <data name="SortBy" xml:space="preserve">
-    <value>តម្រៀបតាម</value>
+    <value>ážáž˜áŸ’ážšáŸ€áž”ážáž¶áž˜</value>
   </data>
   <data name="GroupInDescendingOrder" xml:space="preserve">
     <value>Group in descending order</value>
@@ -2370,7 +2376,7 @@
     <value>The specified item name is invalid</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>ការកំណត់</value>
+    <value>áž€áž¶ážšáž€áŸ†ážŽážáŸ‹</value>
   </data>
   <data name="DoubleClickBlankSpaceToGoUp" xml:space="preserve">
     <value>Double click on a blank space to go up one directory</value>
@@ -2379,22 +2385,22 @@
     <value>View more</value>
   </data>
   <data name="ShowEditTagsMenu" xml:space="preserve">
-    <value>បង្ហាញការកែសម្រួលស្លាក</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž€áž¶ážšáž€áŸ‚ážŸáž˜áŸ’ážšáž½áž›ážŸáŸ’áž›áž¶áž€</value>
   </data>
   <data name="ShowCompressionOptions" xml:space="preserve">
-    <value>បង្ហាញជម្រើសបង្ហាប់</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž‡áž˜áŸ’ážšáž¾ážŸáž”áž„áŸ’áž áž¶áž”áŸ‹</value>
   </data>
   <data name="ShowSendToMenu" xml:space="preserve">
-    <value>បង្ហាញម៉ឺនុយការផ្ញើទៅកាន់</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž˜áŸ‰ážºáž“áž»áž™áž€áž¶ážšáž•áŸ’áž‰áž¾áž‘áŸ…áž€áž¶áž“áŸ‹</value>
   </data>
   <data name="ShowOpenInNewTab" xml:space="preserve">
-    <value>បង្ហាញជម្រើសដើម្បីបើកថតនៅក្នុងផ្ទាំងផែនថ្មី</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž‡áž˜áŸ’ážšáž¾ážŸážŠáž¾áž˜áŸ’áž”áž¸áž”áž¾áž€ážážáž“áŸ…áž€áŸ’áž“áž»áž„áž•áŸ’áž‘áž¶áŸ†áž„áž•áŸ‚áž“ážáŸ’áž˜áž¸</value>
   </data>
   <data name="ShowOpenInNewWindow" xml:space="preserve">
-    <value>បង្ហាញជម្រើសដើម្បីបើកថតនៅក្នុងផ្ទាំងផែនថ្មី</value>
+    <value>áž”áž„áŸ’áž áž¶áž‰áž‡áž˜áŸ’ážšáž¾ážŸážŠáž¾áž˜áŸ’áž”áž¸áž”áž¾áž€ážážáž“áŸ…áž€áŸ’áž“áž»áž„áž•áŸ’áž‘áž¶áŸ†áž„áž•áŸ‚áž“ážáŸ’áž˜áž¸</value>
   </data>
   <data name="QuickAccess" xml:space="preserve">
-    <value>ចូលប្រើរហ័ស</value>
+    <value>áž…áž¼áž›áž”áŸ’ážšáž¾ážšáž áŸážŸ</value>
   </data>
   <data name="NetworkAuthenticationDialogMessage" xml:space="preserve">
     <value>Enter your credentials to connect to: {0}</value>
@@ -2409,10 +2415,10 @@
     <value>Network folder error</value>
   </data>
   <data name="AppVersion" xml:space="preserve">
-    <value>ជំនាន់កម្មវិធី</value>
+    <value>áž‡áŸ†áž“áž¶áž“áŸ‹áž€áž˜áŸ’áž˜ážœáž·áž’áž¸</value>
   </data>
   <data name="WindowsVersion" xml:space="preserve">
-    <value>ជំនាន់វីនដូ</value>
+    <value>áž‡áŸ†áž“áž¶áž“áŸ‹ážœáž¸áž“ážŠáž¼</value>
   </data>
   <data name="Always" xml:space="preserve">
     <value>Always</value>
@@ -2427,7 +2433,7 @@
     <value>Tag color</value>
   </data>
   <data name="NewTag" xml:space="preserve">
-    <value>ស្លាកថ្មី</value>
+    <value>ážŸáŸ’áž›áž¶áž€ážáŸ’áž˜áž¸</value>
   </data>
   <data name="CreateNewTag" xml:space="preserve">
     <value>Create new tag</value>
@@ -2436,16 +2442,16 @@
     <value>Loading...</value>
   </data>
   <data name="ContextMenuOptions" xml:space="preserve">
-    <value>ជម្រើសមុឺនុយបរិបទ</value>
+    <value>áž‡áž˜áŸ’ážšáž¾ážŸáž˜áž»ážºáž“áž»áž™áž”ážšáž·áž”áž‘</value>
   </data>
   <data name="ShowFileExtensions" xml:space="preserve">
     <value>File extensions</value>
   </data>
   <data name="FormatDriveText" xml:space="preserve">
-    <value>ទ្រង់ទ្រាយ</value>
+    <value>áž‘áŸ’ážšáž„áŸ‹áž‘áŸ’ážšáž¶áž™</value>
   </data>
   <data name="Help" xml:space="preserve">
-    <value>ជំនួយ</value>
+    <value>áž‡áŸ†áž“áž½áž™</value>
   </data>
   <data name="FullScreen" xml:space="preserve">
     <value>Full screen</value>
@@ -2514,7 +2520,7 @@
     <value>Decrease size</value>
   </data>
   <data name="IncreaseSize" xml:space="preserve">
-    <value>បង្កើនទំហំ</value>
+    <value>áž”áž„áŸ’áž€áž¾áž“áž‘áŸ†áž áŸ†</value>
   </data>
   <data name="ToggleSortDirection" xml:space="preserve">
     <value>Sort direction</value>
@@ -2546,7 +2552,7 @@
   <data name="CategoryNameRules" xml:space="preserve">
     <value>Name must not be empty or start or end with a period.</value>
   </data><data name="Videos" xml:space="preserve">
-    <value>វីដេអូ</value>
+    <value>ážœáž¸ážŠáŸáž¢áž¼</value>
   </data>
   <data name="LaunchPreviewPopup" xml:space="preserve">
     <value>Preview popup</value>
@@ -2597,7 +2603,7 @@
     <value>Toggle visibility of file extensions</value>
   </data>
   <data name="TogglePreviewPaneDescription" xml:space="preserve">
-    <value>បិទបើកផ្ទាំងមើលជាមុន ដើម្បីមើលការមើលឯកសារជាមុន</value>
+    <value>áž”áž·áž‘áž”áž¾áž€áž•áŸ’áž‘áž¶áŸ†áž„áž˜áž¾áž›áž‡áž¶áž˜áž»áž“ ážŠáž¾áž˜áŸ’áž”áž¸áž˜áž¾áž›áž€áž¶ážšáž˜áž¾áž›áž¯áž€ážŸáž¶ážšáž‡áž¶áž˜áž»áž“</value>
   </data>
   <data name="ToggleSidebarDescription" xml:space="preserve">
     <value>Toggle whether to show sidebar</value>
@@ -2777,31 +2783,31 @@
     <value>Decrease item size in the current view</value>
   </data>
   <data name="LayoutIncreaseSizeDescription" xml:space="preserve">
-    <value>បង្កើនទំហំធាតុក្នុងទម្រង់បច្ចុប្បន្ន</value>
+    <value>áž”áž„áŸ’áž€áž¾áž“áž‘áŸ†áž áŸ†áž’áž¶ážáž»áž€áŸ’áž“áž»áž„áž‘áž˜áŸ’ážšáž„áŸ‹áž”áž…áŸ’áž…áž»áž”áŸ’áž”áž“áŸ’áž“</value>
   </data>
   <data name="LayoutDetailsDescription" xml:space="preserve">
-    <value>ប្តូរទៅពត៌មាន​លម្អិត</value>
+    <value>áž”áŸ’ážáž¼ážšáž‘áŸ…áž–ážáŸŒáž˜áž¶áž“â€‹áž›áž˜áŸ’áž¢áž·áž</value>
   </data>
   <data name="LayoutCardsDescription" xml:space="preserve">
     <value>Switch to cards view</value>
   </data>
   <data name="LayoutListDescription" xml:space="preserve">
-    <value>ប្តូរទៅទម្រង់បញ្ជី</value>
+    <value>áž”áŸ’ážáž¼ážšáž‘áŸ…áž‘áž˜áŸ’ážšáž„áŸ‹áž”áž‰áŸ’áž‡áž¸</value>
   </data>
   <data name="List" xml:space="preserve">
-    <value>បញ្ជី</value>
+    <value>áž”áž‰áŸ’áž‡áž¸</value>
   </data>
   <data name="Grid" xml:space="preserve">
-    <value>ក្រឡាចត្រង្គ</value>
+    <value>áž€áŸ’ážšáž¡áž¶áž…ážáŸ’ážšáž„áŸ’áž‚</value>
   </data>
   <data name="LayoutGridDescription" xml:space="preserve">
-    <value>ប្តូរទៅក្រឡាចត្រង្គ</value>
+    <value>áž”áŸ’ážáž¼ážšáž‘áŸ…áž€áŸ’ážšáž¡áž¶áž…ážáŸ’ážšáž„áŸ’áž‚</value>
   </data>
   <data name="LayoutColumnsDescription" xml:space="preserve">
-    <value>ប្តូរទៅទម្រង់ជួរឈរ</value>
+    <value>áž”áŸ’ážáž¼ážšáž‘áŸ…áž‘áž˜áŸ’ážšáž„áŸ‹áž‡áž½ážšážˆážš</value>
   </data>
   <data name="LayoutAdaptiveDescription" xml:space="preserve">
-    <value>ប្តូរទៅប្លង់​បត់បែន</value>
+    <value>áž”áŸ’ážáž¼ážšáž‘áŸ…áž”áŸ’áž›áž„áŸ‹â€‹áž”ážáŸ‹áž”áŸ‚áž“</value>
   </data>
   <data name="SortByNameDescription" xml:space="preserve">
     <value>Sort items by name</value>
@@ -2882,7 +2888,7 @@
     <value>Toggle group sort direction</value>
   </data>
   <data name="NewTabDescription" xml:space="preserve">
-    <value>បើកទំព័រថេបថ្មី</value>
+    <value>áž”áž¾áž€áž‘áŸ†áž–áŸážšážáŸáž”ážáŸ’áž˜áž¸</value>
   </data>
   <data name="NavigateBackDescription" xml:space="preserve">
     <value>Navigate backward</value>
@@ -2891,7 +2897,7 @@
     <value>Navigate forward</value>
   </data>
   <data name="NavigateUpDescription" xml:space="preserve">
-    <value>ត្រលប់ទៅមួយថតខាងលើ</value>
+    <value>ážáŸ’ážšáž›áž”áŸ‹áž‘áŸ…áž˜áž½áž™ážážážáž¶áž„áž›áž¾</value>
   </data>
   <data name="DuplicateSelectedTabDescription" xml:space="preserve">
     <value>Duplicate selected tab</value>
@@ -2906,7 +2912,7 @@
     <value>Close tabs other than selected tab</value>
   </data>
   <data name="CloseAllTabsDescription" xml:space="preserve">
-    <value>បិទផ្ទាំងទាំងអស់រួមទាំងផ្ទាំងបច្ចុប្បន្ន</value>
+    <value>áž”áž·áž‘áž•áŸ’áž‘áž¶áŸ†áž„áž‘áž¶áŸ†áž„áž¢ážŸáŸ‹ážšáž½áž˜áž‘áž¶áŸ†áž„áž•áŸ’áž‘áž¶áŸ†áž„áž”áž…áŸ’áž…áž»áž”áŸ’áž”áž“áŸ’áž“</value>
   </data>
   <data name="ReopenClosedTabDescription" xml:space="preserve">
     <value>Reopen recently closed tab</value>
@@ -2989,11 +2995,11 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Up" xml:space="preserve">
-    <value>លើ</value>
+    <value>áž›áž¾</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Home" xml:space="preserve">
-    <value>ទំព័រដើម</value>
+    <value>áž‘áŸ†áž–áŸážšážŠáž¾áž˜</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.End" xml:space="preserve">
@@ -3021,7 +3027,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Clear" xml:space="preserve">
-    <value>សម្អាត</value>
+    <value>ážŸáž˜áŸ’áž¢áž¶áž</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Print" xml:space="preserve">
@@ -3029,7 +3035,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Help" xml:space="preserve">
-    <value>ជំនួយ</value>
+    <value>áž‡áŸ†áž“áž½áž™</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Mouse4" xml:space="preserve">
@@ -3077,7 +3083,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserSearch" xml:space="preserve">
-    <value>ស្វែងរក</value>
+    <value>ážŸáŸ’ážœáŸ‚áž„ážšáž€</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserFavorites" xml:space="preserve">
@@ -3129,7 +3135,7 @@
     <value>This PC</value>
   </data>
   <data name="RecycleBin" xml:space="preserve">
-    <value>ធុងសម្រាម</value>
+    <value>áž’áž»áž„ážŸáž˜áŸ’ážšáž¶áž˜</value>
   </data>
   <data name="Untagged" xml:space="preserve">
     <value>Untagged</value>
@@ -3144,13 +3150,13 @@
     <value>Close tab</value>
   </data>
   <data name="EditPath" xml:space="preserve">
-    <value>កែប្រែផ្លូវ</value>
+    <value>áž€áŸ‚áž”áŸ’ážšáŸ‚áž•áŸ’áž›áž¼ážœ</value>
   </data>
   <data name="Redo" xml:space="preserve">
-    <value>ធ្វើទៀត</value>
+    <value>áž’áŸ’ážœáž¾áž‘áŸ€áž</value>
   </data>
   <data name="Undo" xml:space="preserve">
-    <value>មិនធ្វើវិញ</value>
+    <value>áž˜áž·áž“áž’áŸ’ážœáž¾ážœáž·áž‰</value>
   </data>
   <data name="InvalidLocation" xml:space="preserve">
     <value>Invalid location</value>
@@ -3192,10 +3198,10 @@
     <value>Play the selected media files</value>
   </data>
   <data name="UndoDescription" xml:space="preserve">
-    <value>មិនធ្វើប្រតិបត្តិការឯកសារចុងក្រោយ</value>
+    <value>áž˜áž·áž“áž’áŸ’ážœáž¾áž”áŸ’ážšážáž·áž”ážáŸ’ážáž·áž€áž¶ážšáž¯áž€ážŸáž¶ážšáž…áž»áž„áž€áŸ’ážšáŸ„áž™</value>
   </data>
   <data name="RedoDescription" xml:space="preserve">
-    <value>ធ្វើប្រតិបត្តិការឯកសារចុងក្រោយឡើងវិញ</value>
+    <value>áž’áŸ’ážœáž¾áž”áŸ’ážšážáž·áž”ážáŸ’ážáž·áž€áž¶ážšáž¯áž€ážŸáž¶ážšáž…áž»áž„áž€áŸ’ážšáŸ„áž™áž¡áž¾áž„ážœáž·áž‰</value>
   </data>
   <data name="Location" xml:space="preserve">
     <value>Location:</value>
@@ -3219,7 +3225,7 @@
     <value>Toggle grouping unit</value>
   </data>
   <data name="Year" xml:space="preserve">
-    <value>ឆ្នាំ</value>
+    <value>áž†áŸ’áž“áž¶áŸ†</value>
   </data>
   <data name="GroupByDateUnit" xml:space="preserve">
     <value>Group by date unit</value>
@@ -3315,7 +3321,7 @@
     <value>Create a folder with the currently selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="OpenProperties" xml:space="preserve">
-    <value>លក្ខណៈសម្បត្តិ</value>
+    <value>áž›áž€áŸ’ážážŽáŸˆážŸáž˜áŸ’áž”ážáŸ’ážáž·</value>
   </data>
   <data name="OpenClassicProperties" xml:space="preserve">
     <value>Open File Explorer properties</value>
@@ -3333,7 +3339,7 @@
     <value>Remotes</value>
   </data>
   <data name="ImproveTranslation" xml:space="preserve">
-    <value>បកប្រែលើ Crowdin</value>
+    <value>áž”áž€áž”áŸ’ážšáŸ‚áž›áž¾ Crowdin</value>
   </data>
   <data name="GitFetch" xml:space="preserve">
     <value>Fetch</value>
@@ -3382,16 +3388,16 @@
     <value>Commit SHA</value>
   </data>
   <data name="Git" xml:space="preserve">
-    <value>ហ្គិត</value>
+    <value>áž áŸ’áž‚áž·áž</value>
   </data>
   <data name="Acrylic" xml:space="preserve">
-    <value>អាគ្រីលីក</value>
+    <value>áž¢áž¶áž‚áŸ’ážšáž¸áž›áž¸áž€</value>
   </data>
   <data name="Mica" xml:space="preserve">
     <value>Mica</value>
   </data>
   <data name="MicaAlt" xml:space="preserve">
-    <value>ឆ្លាស់មីកា</value>
+    <value>áž†áŸ’áž›áž¶ážŸáŸ‹áž˜áž¸áž€áž¶</value>
   </data>
   <data name="BackdropMaterial" xml:space="preserve">
     <value>Backdrop</value>
@@ -3568,7 +3574,7 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Gray" xml:space="preserve">
-    <value>ប្រផេស</value>
+    <value>áž”áŸ’ážšáž•áŸážŸ</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="GrayDark" xml:space="preserve">
@@ -3624,7 +3630,7 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="ClearCompleted" xml:space="preserve">
-    <value>សម្អាតទាំងស្រុង</value>
+    <value>ážŸáž˜áŸ’áž¢áž¶ážáž‘áž¶áŸ†áž„ážŸáŸ’ážšáž»áž„</value>
   </data>
   <data name="NameWithColon" xml:space="preserve">
     <value>Name:</value>
@@ -3634,7 +3640,7 @@
     <comment>Shown in a StatusCenter card. Used as "64 MB of 1 GB processed"</comment>
   </data>
   <data name="ItemsLower" xml:space="preserve">
-    <value>ធាតុ</value>
+    <value>áž’áž¶ážáž»</value>
   </data>
   <data name="CannotInitializeGitRepo" xml:space="preserve">
     <value>Files can't initialize this directory as a Git repository.</value>
@@ -3986,7 +3992,7 @@
     <value>Unblock downloaded file</value>
   </data>
   <data name="NoFileOperations" xml:space="preserve">
-    <value>មិនមានប្រតិបត្តិការឯកសារដែលកំពុងដំណើរការទេ</value>
+    <value>áž˜áž·áž“áž˜áž¶áž“áž”áŸ’ážšážáž·áž”ážáŸ’ážáž·áž€áž¶ážšáž¯áž€ážŸáž¶ážšážŠáŸ‚áž›áž€áŸ†áž–áž»áž„ážŠáŸ†ážŽáž¾ážšáž€áž¶ážšáž‘áŸ</value>
   </data>
   <data name="OpenOnStartupDisabled" xml:space="preserve">
     <value>The option to open Files on Windows Startup is not available due to your system settings or group policy. To re-enable, open the startup page in Task Manager.</value>
@@ -4031,25 +4037,25 @@
     <value>Extract here (Smart)</value>
   </data>
   <data name="SortFilesAndFoldersTogether" xml:space="preserve">
-    <value>តម្រៀបឯកសារនិងថតឯកសារជាមួយគ្នា</value>
+    <value>ážáž˜áŸ’ážšáŸ€áž”áž¯áž€ážŸáž¶ážšáž“áž·áž„ážážáž¯áž€ážŸáž¶ážšáž‡áž¶áž˜áž½áž™áž‚áŸ’áž“áž¶</value>
   </data>
   <data name="SortFilesAndFoldersTogetherDescription" xml:space="preserve">
     <value>Sort files and folders in the same list</value>
   </data>
   <data name="SortFilesFirst" xml:space="preserve">
-    <value>តម្រៀបឯកសារជាមុន</value>
+    <value>ážáž˜áŸ’ážšáŸ€áž”áž¯áž€ážŸáž¶ážšáž‡áž¶áž˜áž»áž“</value>
   </data>
   <data name="SortFilesFirstDescription" xml:space="preserve">
     <value>Sort files first then folders</value>
   </data>
   <data name="SortFoldersFirst" xml:space="preserve">
-    <value>តម្រៀបថតឯកសារជាមុន</value>
+    <value>ážáž˜áŸ’ážšáŸ€áž”ážážáž¯áž€ážŸáž¶ážšáž‡áž¶áž˜áž»áž“</value>
   </data>
   <data name="SortFoldersFirstDescription" xml:space="preserve">
     <value>Sort folders first then files</value>
   </data>
   <data name="SortPriority" xml:space="preserve">
-    <value>តម្រៀបអាទិភាព</value>
+    <value>ážáž˜áŸ’ážšáŸ€áž”áž¢áž¶áž‘áž·áž—áž¶áž–</value>
   </data>
   <data name="FailedToRotateImage" xml:space="preserve">
     <value>Failed to rotate the image</value>
@@ -4067,10 +4073,10 @@
     <value>Scroll to previous folder when navigating up</value>
   </data>
   <data name="NewWindowDescription" xml:space="preserve">
-    <value>បើកផ្ទាំងថ្មី</value>
+    <value>áž”áž¾áž€áž•áŸ’áž‘áž¶áŸ†áž„ážáŸ’áž˜áž¸</value>
   </data>
   <data name="ChangeAlbumCover" xml:space="preserve">
-    <value>ប្តូរគម្របអាល់ប៊ុម</value>
+    <value>áž”áŸ’ážáž¼ážšáž‚áž˜áŸ’ážšáž”áž¢áž¶áž›áŸ‹áž”áŸŠáž»áž˜</value>
   </data>
   <data name="RemoveAlbumCover" xml:space="preserve">
     <value>Remove album cover</value>
@@ -4091,18 +4097,18 @@
     <value>Where did Files go?</value>
   </data>
   <data name="QuestionsAndDiscussions" xml:space="preserve">
-    <value>សំណួរ​និងពិភាក្សា</value>
+    <value>ážŸáŸ†ážŽáž½ážšâ€‹áž“áž·áž„áž–áž·áž—áž¶áž€áŸ’ážŸáž¶</value>
   </data>
   <data name="Compact" xml:space="preserve">
     <value>Compact</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Small" xml:space="preserve">
-    <value>តូច</value>
+    <value>ážáž¼áž…</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium" xml:space="preserve">
-    <value>មធ្យម</value>
+    <value>áž˜áž’áŸ’áž™áž˜</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium+" xml:space="preserve">
@@ -4126,7 +4132,7 @@
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large" xml:space="preserve">
-    <value>ធំ</value>
+    <value>áž’áŸ†</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Large+" xml:space="preserve">
@@ -4152,7 +4158,7 @@
     <value>Layout type</value>
   </data>
   <data name="Actions" xml:space="preserve">
-    <value>សកម្មភាព</value>
+    <value>ážŸáž€áž˜áŸ’áž˜áž—áž¶áž–</value>
   </data>
   <data name="Action" xml:space="preserve">
     <value>Action</value>
@@ -4167,7 +4173,7 @@
     <value>Restore defaults</value>
   </data>
   <data name="ChooseAnAction" xml:space="preserve">
-    <value>ជ្រើសរើសសកម្មភាព</value>
+    <value>áž‡áŸ’ážšáž¾ážŸážšáž¾ážŸážŸáž€áž˜áŸ’áž˜áž—áž¶áž–</value>
   </data>
   <data name="RestoreDefaultKeybindingsConfirmation" xml:space="preserve">
     <value>Are you sure you want to restore the default key bindings? This action cannot be undone.</value>
@@ -4178,6 +4184,12 @@
   <data name="KeybindingInvalidKeyNotification" xml:space="preserve">
     <value>The key binding you choose cannot be used, please try again using a different key binding.</value>
   </data>
+  <data name="KeyboardShortcuts" xml:space="preserve">
+    <value>Keyboard shortcuts</value>
+  </data>
+  <data name="DeleteKeyBindingConfirmation" xml:space="preserve">
+    <value>Are you sure you want to remove this key binding?</value>
+  </data>
   <data name="Customized" xml:space="preserve">
     <value>Customized</value>
   </data>
@@ -4185,14 +4197,14 @@
     <value>Adaptive layout is not available when preferences are synced, the default layout has been changed to Details.</value>
   </data>
   <data name="BackgroundImage" xml:space="preserve">
-    <value>រូបភាពផ្ទៃខាងក្រោយ</value>
+    <value>ážšáž¼áž”áž—áž¶áž–áž•áŸ’áž‘áŸƒážáž¶áž„áž€áŸ’ážšáŸ„áž™</value>
   </data>
   <data name="Bottom" xml:space="preserve">
-    <value>ក្រោម</value>
+    <value>áž€áŸ’ážšáŸ„áž˜</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Center" xml:space="preserve">
-    <value>កណ្តាល</value>
+    <value>áž€ážŽáŸ’ážáž¶áž›</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Fill" xml:space="preserve">
@@ -4200,24 +4212,24 @@
     <comment>Image stretch type</comment>
   </data>
   <data name="HorizontalAlignment" xml:space="preserve">
-    <value>​តម្រឹម​ផ្តេក</value>
+    <value>â€‹ážáž˜áŸ’ážšáž¹áž˜â€‹áž•áŸ’ážáŸáž€</value>
   </data>
   <data name="ImageFit" xml:space="preserve">
-    <value>សម្របរូបភាព</value>
+    <value>ážŸáž˜áŸ’ážšáž”ážšáž¼áž”áž—áž¶áž–</value>
   </data>
   <data name="Left" xml:space="preserve">
-    <value>ឆ្វេង</value>
+    <value>áž†áŸ’ážœáŸáž„</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Opacity" xml:space="preserve">
-    <value>កម្រិតបង្ហាញ</value>
+    <value>áž€áž˜áŸ’ážšáž·ážáž”áž„áŸ’áž áž¶áž‰</value>
   </data>
   <data name="Right" xml:space="preserve">
-    <value>ស្តាំ</value>
+    <value>ážŸáŸ’ážáž¶áŸ†</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Top" xml:space="preserve">
-    <value>លើ</value>
+    <value>áž›áž¾</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Uniform" xml:space="preserve">
@@ -4229,7 +4241,7 @@
     <comment>Image stretch type</comment>
   </data>
   <data name="VerticalAlignment" xml:space="preserve">
-    <value>តម្រឹម​បញ្ឈរ</value>
+    <value>ážáž˜áŸ’ážšáž¹áž˜â€‹áž”áž‰áŸ’ážˆážš</value>
   </data>
   <data name="ThinAcrylic" xml:space="preserve">
     <value>Thin Acrylic</value>
@@ -4314,13 +4326,13 @@
     <value>Tab actions menu</value>
   </data>
   <data name="SplitPaneVertically" xml:space="preserve">
-    <value>ពុះបញ្ឈរ</value>
+    <value>áž–áž»áŸ‡áž”áž‰áŸ’ážˆážš</value>
   </data>
   <data name="AddVerticalPaneDescription" xml:space="preserve">
     <value>Split pane vertically</value>
   </data>
   <data name="SplitPaneHorizontally" xml:space="preserve">
-    <value>ពុះផ្ដេក</value>
+    <value>áž–áž»áŸ‡áž•áŸ’ážŠáŸáž€</value>
   </data>
   <data name="SplitPaneHorizontallyDescription" xml:space="preserve">
     <value>Split pane horizontally</value>
@@ -4338,7 +4350,7 @@
     <value>Arrange panes horizontally</value>
   </data>
   <data name="SplitPane" xml:space="preserve">
-    <value>ពុះបន្ទះផ្ទាំង</value>
+    <value>áž–áž»áŸ‡áž”áž“áŸ’áž‘áŸ‡áž•áŸ’áž‘áž¶áŸ†áž„</value>
   </data>
   <data name="ShowTabActions" xml:space="preserve">
     <value>Show tab actions button in the title bar</value>
@@ -4747,5 +4759,25 @@
   </data>
   <data name="ConfirmRemoveTagsDialogContent" xml:space="preserve">
     <value>Are you sure you want to remove tags from the selected items?</value>
+  </data>  <data name="SharedTagsPath" xml:space="preserve">
+    <value>Tags &amp; categories storage path</value>
+  </data>
+  <data name="SharedTagsPathDescription" xml:space="preserve">
+    <value>Requires app restart</value>
+  </data>
+  <data name="SharedTagsPathNotSet" xml:space="preserve">
+    <value>Not set (default path)</value>
+  </data>
+  <data name="SharedTagsPathInvalid" xml:space="preserve">
+    <value>Invalid path</value>
+  </data>
+  <data name="SharedTagsPathInvalidDescription" xml:space="preserve">
+    <value>The selected path is not a valid directory.</value>
+  </data>
+  <data name="SharedTagsPathRestartTitle" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="SharedTagsPathRestartMessage" xml:space="preserve">
+    <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
 </root>

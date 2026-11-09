@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,19 +121,19 @@
     <value>Naujas langas</value>
   </data>
   <data name="CopyPath" xml:space="preserve">
-    <value>Kopijuoti kelio adresÄ…</value>
+    <value>Kopijuoti kelio adresÃ„â€¦</value>
   </data>
   <data name="CopyItemPath" xml:space="preserve">
-    <value>Kopijuoti daikto kelio adresÄ…</value>
+    <value>Kopijuoti daikto kelio adresÃ„â€¦</value>
   </data>
   <data name="CopyPathWithQuotes" xml:space="preserve">
-    <value>Kopijuoti kelio adresÄ… su kabutÄ—mis</value>
+    <value>Kopijuoti kelio adresÃ„â€¦ su kabutÃ„â€”mis</value>
   </data>
   <data name="CopyItemPathWithQuotes" xml:space="preserve">
-    <value>Kopijuoti pasirinkto elemento keliÄ… su kabutÄ—mis</value>
+    <value>Kopijuoti pasirinkto elemento keliÃ„â€¦ su kabutÃ„â€”mis</value>
   </data>
   <data name="Browse" xml:space="preserve">
-    <value>NarÅ¡yti</value>
+    <value>NarÃ…Â¡yti</value>
   </data>
   <data name="Size" xml:space="preserve">
     <value>Dydis</value>
@@ -154,25 +154,25 @@
     <value>Nesuspaustas/Nesuglaudintas dydis:</value>
   </data>
   <data name="ErrorDialogThisActionCannotBeDone" xml:space="preserve">
-    <value>Å i veiksma negalima atlikti</value>
+    <value>Ã…Â i veiksma negalima atlikti</value>
   </data>
   <data name="ErrorDialogTheDestinationFolder" xml:space="preserve">
     <value>Paskirties aplankas</value>
   </data>
   <data name="ErrorDialogIsASubfolder" xml:space="preserve">
-    <value>yra Å¡altinio aplanko poaplankis</value>
+    <value>yra Ã…Â¡altinio aplanko poaplankis</value>
   </data>
   <data name="Skip" xml:space="preserve">
     <value>Praleisti</value>
   </data>
   <data name="SelectAll" xml:space="preserve">
-    <value>PaÅ¾ymÄ—ti viskÄ…</value>
+    <value>PaÃ…Â¾ymÃ„â€”ti viskÃ„â€¦</value>
   </data>
   <data name="InvertSelection" xml:space="preserve">
-    <value>Invertuoti pasirinkimÄ…</value>
+    <value>Invertuoti pasirinkimÃ„â€¦</value>
   </data>
   <data name="ClearSelection" xml:space="preserve">
-    <value>IÅ¡valyti pasirinkimÄ…</value>
+    <value>IÃ…Â¡valyti pasirinkimÃ„â€¦</value>
   </data>
   <data name="PropertiesModified.Text" xml:space="preserve">
     <value>Modifikuota:</value>
@@ -187,7 +187,7 @@
     <value>Enter a path to navigate to or type "&gt;" to open the command palette</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>IeÅ¡koti</value>
+    <value>IeÃ…Â¡koti</value>
   </data>
   <data name="SearchSettings" xml:space="preserve">
     <value>Search settings...</value>
@@ -196,13 +196,13 @@
     <value>No settings match your search.</value>
   </data>
   <data name="RecentItemDescription.Text" xml:space="preserve">
-    <value>ÄŒia bus rodomi failai, kuriuos anksÄiau atidarÄ—te</value>
+    <value>Ã„Å’ia bus rodomi failai, kuriuos anksÃ„Âiau atidarÃ„â€”te</value>
   </data>
   <data name="RecentItemRemoveText" xml:space="preserve">
     <value>Remove this item</value>
   </data>
   <data name="OpenGitHubRepo" xml:space="preserve">
-    <value>â€žGitHubâ€œ saugykla</value>
+    <value>Ã¢â‚¬Å¾GitHubÃ¢â‚¬Å“ saugykla</value>
   </data>
   <data name="About" xml:space="preserve">
     <value>Apie</value>
@@ -217,25 +217,25 @@
     <value>Apipavidalinimas</value>
   </data>
   <data name="Font" xml:space="preserve">
-    <value>Šriftas</value>
+    <value>Å riftas</value>
   </data>
   <data name="SettingsFilesAndFoldersShowFileExtensions" xml:space="preserve">
-    <value>Rodyti Å¾inomÅ³ failÅ³ plÄ—tinius</value>
+    <value>Rodyti Ã…Â¾inomÃ…Â³ failÃ…Â³ plÃ„â€”tinius</value>
   </data>
   <data name="SettingsFilesAndFoldersShowHiddenItems" xml:space="preserve">
-    <value>Rodyti paslÄ—ptus failus ir aplankus</value>
+    <value>Rodyti paslÃ„â€”ptus failus ir aplankus</value>
   </data>
   <data name="ShowDotFiles" xml:space="preserve">
-    <value>Rodyti taÅ¡kinius failus</value>
+    <value>Rodyti taÃ…Â¡kinius failus</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>IÅ¡vaizda</value>
+    <value>IÃ…Â¡vaizda</value>
   </data>
   <data name="BackgroundColor" xml:space="preserve">
     <value>Fono spalva</value>
   </data>
   <data name="Advanced" xml:space="preserve">
-    <value>IÅ¡plÄ—stinÄ—</value>
+    <value>IÃ…Â¡plÃ„â€”stinÃ„â€”</value>
   </data>
   <data name="CacheThumbnails" xml:space="preserve">
     <value>Cache thumbnails</value>
@@ -253,16 +253,16 @@
     <value>Current cache size: </value>
   </data>
   <data name="ClearCache" xml:space="preserve">
-    <value>Išvalyti talpyklą</value>
+    <value>IÅ¡valyti talpyklÄ…</value>
   </data>
   <data name="SettingsOnStartupContinueWhereYouLeftOff.Content" xml:space="preserve">
-    <value>TÄ™sti nuo ten, kur baigÄ—te</value>
+    <value>TÃ„â„¢sti nuo ten, kur baigÃ„â€”te</value>
   </data>
   <data name="SettingsOnStartupOpenANewTab.Content" xml:space="preserve">
-    <value>Atidaryti naujÄ… skirtukÄ…</value>
+    <value>Atidaryti naujÃ„â€¦ skirtukÃ„â€¦</value>
   </data>
   <data name="SettingsOnStartupOpenASpecificPage.Content" xml:space="preserve">
-    <value>Atidaryti konkretÅ³ puslapÄ¯ arba puslapius</value>
+    <value>Atidaryti konkretÃ…Â³ puslapÃ„Â¯ arba puslapius</value>
   </data>
   <data name="Desktop" xml:space="preserve">
     <value>Darbalaukis</value>
@@ -274,22 +274,22 @@
     <value>Atsisiuntimai</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Pavadinimas/-Ä…</value>
+    <value>Pavadinimas/-Ã„â€¦</value>
   </data>
   <data name="Ascending" xml:space="preserve">
-    <value>DidÄ—janÄia tvarka</value>
+    <value>DidÃ„â€”janÃ„Âia tvarka</value>
   </data>
   <data name="Paste" xml:space="preserve">
-    <value>Ä®klijuoti</value>
+    <value>Ã„Â®klijuoti</value>
   </data>
   <data name="PasteShortcut" xml:space="preserve">
-    <value>Ä®klijuoti nuorodÄ…</value>
+    <value>Ã„Â®klijuoti nuorodÃ„â€¦</value>
   </data>
   <data name="BaseLayoutContextFlyoutNew.Label" xml:space="preserve">
-    <value>Kurti naujÄ…</value>
+    <value>Kurti naujÃ„â€¦</value>
   </data>
   <data name="Properties" xml:space="preserve">
-    <value>YpatybÄ—s</value>
+    <value>YpatybÃ„â€”s</value>
   </data>
   <data name="Open" xml:space="preserve">
     <value>Atidaryti</value>
@@ -304,19 +304,19 @@
     <value>Bendrinti</value>
   </data>
   <data name="Cut" xml:space="preserve">
-    <value>IÅ¡kirpti</value>
+    <value>IÃ…Â¡kirpti</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>IÅ¡trinti</value>
+    <value>IÃ…Â¡trinti</value>
   </data>
   <data name="PinFolderToSidebar" xml:space="preserve">
-    <value>Prisegti prie Å¡oninÄ—s juostos</value>
+    <value>Prisegti prie Ã…Â¡oninÃ„â€”s juostos</value>
   </data>
   <data name="WelcomeDialogTitle" xml:space="preserve">
     <value>Welcome to Files!</value>
   </data>
   <data name="WelcomeDialog.PrimaryButtonText" xml:space="preserve">
-    <value>Suteikti leidimÄ…</value>
+    <value>Suteikti leidimÃ„â€¦</value>
   </data>
   <data name="WelcomeDialogTextBlockText" xml:space="preserve">
     <value>To get started, you'll need to grant us permission to display your files. This will open a Settings page where you can grant us this permission. You'll need to reopen the app once you've completed this step. </value>
@@ -325,13 +325,13 @@
     <value>Ekranas</value>
   </data>
   <data name="EnterAnItemName" xml:space="preserve">
-    <value>Ä®veskite elemento pavadinimÄ…</value>
+    <value>Ã„Â®veskite elemento pavadinimÃ„â€¦</value>
   </data>
   <data name="CreateNewItemTitle" xml:space="preserve">
-    <value>Sukurti naujÄ… â€“ â€ž{0}â€œ</value>
+    <value>Sukurti naujÃ„â€¦ Ã¢â‚¬â€œ Ã¢â‚¬Å¾{0}Ã¢â‚¬Å“</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>Å viesus</value>
+    <value>Ã…Â viesus</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
     <value>Tamsus</value>
@@ -339,11 +339,17 @@
   <data name="DefaultTheme" xml:space="preserve">
     <value>System Theme</value>
   </data>
+  <data name="LightThemeLabel" xml:space="preserve">
+    <value>Light Theme</value>
+  </data>
+  <data name="DarkThemeLabel" xml:space="preserve">
+    <value>Dark Theme</value>
+  </data>
   <data name="UseSystemSetting" xml:space="preserve">
-    <value>Naudoti sistemos nustatymÄ…</value>
+    <value>Naudoti sistemos nustatymÃ„â€¦</value>
   </data>
   <data name="Application" xml:space="preserve">
-    <value>ParaiÅ¡ka</value>
+    <value>ParaiÃ…Â¡ka</value>
   </data>
   <data name="SystemTimeStyle" xml:space="preserve">
     <value>Sistema</value>
@@ -355,7 +361,7 @@
     <value>Naujas failas</value>
   </data>
   <data name="EmptyFolder.Text" xml:space="preserve">
-    <value>Å is aplankas tuÅ¡Äias.</value>
+    <value>Ã…Â is aplankas tuÃ…Â¡Ã„Âias.</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Back (Alt+Left Arrow)</value>
@@ -370,19 +376,19 @@
     <value>Atnaujinti</value>
   </data>
   <data name="ItemAlreadyExistsDialogContent" xml:space="preserve">
-    <value>Elementas tokiu pavadinimu Å¡iame kataloge jau yra.</value>
+    <value>Elementas tokiu pavadinimu Ã…Â¡iame kataloge jau yra.</value>
   </data>
   <data name="ItemAlreadyExistsDialogSecondaryButtonText" xml:space="preserve">
-    <value>Pakeisti esamÄ… elementÄ…</value>
+    <value>Pakeisti esamÃ„â€¦ elementÃ„â€¦</value>
   </data>
   <data name="ItemAlreadyExistsDialogTitle" xml:space="preserve">
     <value>Elementas jau yra</value>
   </data>
   <data name="SetAsLockscreen" xml:space="preserve">
-    <value>Nustatyti kaip uÅ¾rakinimo ekrano fonÄ…</value>
+    <value>Nustatyti kaip uÃ…Â¾rakinimo ekrano fonÃ„â€¦</value>
   </data>
   <data name="SetAsAppBackground" xml:space="preserve">
-    <value>Nustatyti kaip programos fonÄ…</value>
+    <value>Nustatyti kaip programos fonÃ„â€¦</value>
   </data>
   <data name="AccessDeniedDeleteDialogText" xml:space="preserve">
     <value>We weren't able to delete this item</value>
@@ -397,10 +403,10 @@
     <value>The file you are attempting to access may have been moved or deleted.</value>
   </data>
   <data name="CannotAccessPropertiesTitle" xml:space="preserve">
-    <value>Negalima atidaryti šio failo ypatybių</value>
+    <value>Negalima atidaryti Å¡io failo ypatybiÅ³</value>
   </data>
   <data name="CannotAccessPropertiesContent" xml:space="preserve">
-    <value>Failas, kurį bandote pasiekti, gali būti perkeltas arba ištrintas.</value>
+    <value>Failas, kurÄ¯ bandote pasiekti, gali bÅ«ti perkeltas arba iÅ¡trintas.</value>
   </data>
   <data name="FileNotFoundDialogTitle" xml:space="preserve">
     <value>File Not Found</value>
@@ -427,7 +433,7 @@
     <value>To find a version for your PC, check with the software publisher.</value>
   </data>
   <data name="Layout" xml:space="preserve">
-    <value>Maketavimas</value>
+    <value>IÅ¡dÄ—stymas</value>
   </data>
   <data name="PropertiesDialogReadOnly.Text" xml:space="preserve">
     <value>Tik skaityti</value>
@@ -436,55 +442,55 @@
     <value>{0, plural, one {# day ago} other {# days ago}}</value>
   </data>
   <data name="DaysAgo_Singular" xml:space="preserve">
-    <value>prieš 1 dieną</value>
+    <value>prieÅ¡ 1 dienÄ…</value>
   </data>
   <data name="DaysAgo_Plural" xml:space="preserve">
-    <value>Prieš {0} dienų</value>
+    <value>PrieÅ¡ {0} dienÅ³</value>
   </data>
   <data name="HoursAgo" xml:space="preserve">
     <value>{0, plural, one {# hour ago} other {# hours ago}}</value>
   </data>
   <data name="HoursAgo_Singular" xml:space="preserve">
-    <value>prieš 1 val</value>
+    <value>prieÅ¡ 1 val</value>
   </data>
   <data name="HoursAgo_Plural" xml:space="preserve">
-    <value>Prieš {0} valandas</value>
+    <value>PrieÅ¡ {0} valandas</value>
   </data>
   <data name="MinutesAgo" xml:space="preserve">
     <value>{0, plural, one {# minute ago} other {# minutes ago}}</value>
   </data>
   <data name="MinutesAgo_Singular" xml:space="preserve">
-    <value>prieš 1 minutę</value>
+    <value>prieÅ¡ 1 minutÄ™</value>
   </data>
   <data name="MinutesAgo_Plural" xml:space="preserve">
-    <value>Prieš {0} minučių</value>
+    <value>PrieÅ¡ {0} minuÄiÅ³</value>
   </data>
   <data name="SecondsAgo" xml:space="preserve">
     <value>{0, plural, one {# second ago} other {# seconds ago}}</value>
   </data>
   <data name="SecondsAgo_Singular" xml:space="preserve">
-    <value>prieš 1 sekundę</value>
+    <value>prieÅ¡ 1 sekundÄ™</value>
   </data>
   <data name="SecondsAgo_Plural" xml:space="preserve">
-    <value>Prieš {0} sekundžių</value>
+    <value>PrieÅ¡ {0} sekundÅ¾iÅ³</value>
   </data>
   <data name="Now" xml:space="preserve">
     <value>Dabar</value>
   </data>
   <data name="ErrorDialogUnsupportedOperation" xml:space="preserve">
-    <value>Prašoma operacija nepalaikoma</value>
+    <value>PraÅ¡oma operacija nepalaikoma</value>
   </data>
   <data name="DriveFreeSpaceAndCapacity" xml:space="preserve">
-    <value>{1} nemokamai iš {1}</value>
+    <value>{1} nemokamai iÅ¡ {1}</value>
   </data>
   <data name="SendTo" xml:space="preserve">
-    <value>Siųsti į</value>
+    <value>SiÅ³sti Ä¯</value>
   </data>
   <data name="FileNameTeachingTip.Subtitle" xml:space="preserve">
-    <value>Elemento pavadinime negali būti šių simbolių: \ / : * ? " &lt; &gt; |</value>
+    <value>Elemento pavadinime negali bÅ«ti Å¡iÅ³ simboliÅ³: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="InvalidFilename.Text" xml:space="preserve">
-    <value>Nurodytas prekės pavadinimas neteisingas</value>
+    <value>Nurodytas prekÄ—s pavadinimas neteisingas</value>
   </data>
   <data name="SelectedItems" xml:space="preserve">
     <value>{0, plural, one {# item selected} few {# items selected} many {# items selected} other {# items selected}}</value>
@@ -498,13 +504,13 @@
     <value>Taip</value>
   </data>
   <data name="ConfirmEmptyBinDialogContent" xml:space="preserve">
-    <value>Ar tikrai norite visam laikui ištrinti visus šiuos elementus?</value>
+    <value>Ar tikrai norite visam laikui iÅ¡trinti visus Å¡iuos elementus?</value>
   </data>
   <data name="ConfirmEmptyBinDialogTitle" xml:space="preserve">
-    <value>Tuščia šiukšlių dėžė</value>
+    <value>TuÅ¡Äia Å¡iukÅ¡liÅ³ dÄ—Å¾Ä—</value>
   </data>
   <data name="ItemSizeBytes" xml:space="preserve">
-    <value>baitų</value>
+    <value>baitÅ³</value>
   </data>
   <data name="KiloByteSymbol" xml:space="preserve">
     <value>KB</value>
@@ -534,7 +540,7 @@
     <value>Run as another user</value>
   </data>
   <data name="PropertiesDriveItemTypesEquals" xml:space="preserve">
-    <value>Visų tipų {0}</value>
+    <value>VisÅ³ tipÅ³ {0}</value>
   </data>
   <data name="PropertiesDriveItemTypeDifferent" xml:space="preserve">
     <value>Skirtingi tipai</value>
@@ -543,7 +549,7 @@
     <value>Viskas {0}</value>
   </data>
   <data name="PropertiesDriveUsedSpace.Text" xml:space="preserve">
-    <value>Panaudota erdvė:</value>
+    <value>Panaudota erdvÄ—:</value>
   </data>
   <data name="PropertiesDriveFreeSpace.Text" xml:space="preserve">
     <value>Laisva vieta:</value>
@@ -552,37 +558,37 @@
     <value>Talpa:</value>
   </data>
   <data name="PropertiesDriveFileSystem.Text" xml:space="preserve">
-    <value>FailÅ³ sistema:</value>
+    <value>FailÃ…Â³ sistema:</value>
   </data>
   <data name="JumpListRecentGroupHeader" xml:space="preserve">
     <value>Neseniai</value>
   </data>
   <data name="TabStripDragAndDropUIOverrideCaption" xml:space="preserve">
-    <value>Perkelti skirtuką čia</value>
+    <value>Perkelti skirtukÄ… Äia</value>
   </data>
   <data name="Status" xml:space="preserve">
-    <value>Būsena</value>
+    <value>BÅ«sena</value>
   </data>
   <data name="NavigationToolbarVisiblePathNoResults" xml:space="preserve">
-    <value>NÄ—ra rezultatÅ³</value>
+    <value>NÃ„â€”ra rezultatÃ…Â³</value>
   </data>
   <data name="SubDirectoryAccessDenied" xml:space="preserve">
-    <value>Nepavyksta pasiekti jokių rodytinų elementų</value>
+    <value>Nepavyksta pasiekti jokiÅ³ rodytinÅ³ elementÅ³</value>
   </data>
   <data name="MoveToFolderCaptionText" xml:space="preserve">
-    <value>Perkelti Ä¯ â€“ {0}</value>
+    <value>Perkelti Ã„Â¯ Ã¢â‚¬â€œ {0}</value>
   </data>
   <data name="CopyToFolderCaptionText" xml:space="preserve">
-    <value>Kopijuoti į {0}</value>
+    <value>Kopijuoti Ä¯ {0}</value>
   </data>
   <data name="CloneToFolderCaptionText" xml:space="preserve">
-    <value>Klonuoti į {0}</value>
+    <value>Klonuoti Ä¯ {0}</value>
   </data>
   <data name="CreateShortcut" xml:space="preserve">
-    <value>Sukurti nuorodą</value>
+    <value>Sukurti nuorodÄ…</value>
   </data>
   <data name="OpenFileLocation" xml:space="preserve">
-    <value>Atidaryti failo vietą</value>
+    <value>Atidaryti failo vietÄ…</value>
   </data>
   <data name="PropertiesShortcutItemArgs.Text" xml:space="preserve">
     <value>Argumentai:</value>
@@ -591,7 +597,7 @@
     <value>Paskirtis:</value>
   </data>
   <data name="PropertiesShortcutItemType.Text" xml:space="preserve">
-    <value>Spartaus klavišo tipas:</value>
+    <value>Spartaus klaviÅ¡o tipas:</value>
   </data>
   <data name="PropertiesShortcutTypeLink" xml:space="preserve">
     <value>Interneto nuoroda</value>
@@ -603,34 +609,34 @@
     <value>Nuoroda</value>
   </data>
   <data name="ShortcutWebLinkFileType" xml:space="preserve">
-    <value>InternetinÄ— nuoroda</value>
+    <value>InternetinÃ„â€” nuoroda</value>
   </data>
   <data name="ShortcutCreateNewSuffix" xml:space="preserve">
-    <value>{0} – spartusis klavišas</value>
+    <value>{0} â€“ spartusis klaviÅ¡as</value>
   </data>
   <data name="ExceptionNotificationBody" xml:space="preserve">
-    <value>Failai susidūrė su problema, kuriai kūrėjai dar nepasirengė.</value>
+    <value>Failai susidÅ«rÄ— su problema, kuriai kÅ«rÄ—jai dar nepasirengÄ—.</value>
   </data>
   <data name="ExceptionNotificationHeader" xml:space="preserve">
-    <value>Kažkas ne taip!</value>
+    <value>KaÅ¾kas ne taip!</value>
   </data>
   <data name="ExceptionNotificationReportButton" xml:space="preserve">
-    <value>PraneÅ¡ti apie Å¡iÄ… problemÄ…</value>
+    <value>PraneÃ…Â¡ti apie Ã…Â¡iÃ„â€¦ problemÃ„â€¦</value>
   </data>
   <data name="InvalidItemDialogContent" xml:space="preserve">
-    <value>Nurodytas elementas yra netinkamas arba neprieinamas.{1}Klaidos pranešimas:{1}{1}</value>
+    <value>Nurodytas elementas yra netinkamas arba neprieinamas.{1}Klaidos praneÅ¡imas:{1}{1}</value>
   </data>
   <data name="InvalidItemDialogTitle" xml:space="preserve">
-    <value>Netinkama prekė</value>
+    <value>Netinkama prekÄ—</value>
   </data>
   <data name="SettingsAboutVersionTitle" xml:space="preserve">
     <value>Versija:</value>
   </data>
   <data name="ShareDialogFailMessage" xml:space="preserve">
-    <value>Šiuo metu nėra kuo dalintis...</value>
+    <value>Å iuo metu nÄ—ra kuo dalintis...</value>
   </data>
   <data name="ShareDialogMultipleItemsDescription" xml:space="preserve">
-    <value>Jūsų pasirinkti elementai bus bendrinami</value>
+    <value>JÅ«sÅ³ pasirinkti elementai bus bendrinami</value>
   </data>
   <data name="ShareDialogSingleItemDescription" xml:space="preserve">
     <value>Pasirinktas elementas bus bendrinamas</value>
@@ -660,31 +666,31 @@
     <value>Item name was too long</value>
   </data>
   <data name="ShowMoreOptions" xml:space="preserve">
-    <value>Rodyti daugiau parinkÄiÅ³</value>
+    <value>Rodyti daugiau parinkÃ„ÂiÃ…Â³</value>
   </data>
   <data name="RestartNotificationText.Text" xml:space="preserve">
-    <value>Norint pritaikyti šiuos nustatymus, programą reikia paleisti iš naujo. Ar norėtumėte iš naujo paleisti programą?</value>
+    <value>Norint pritaikyti Å¡iuos nustatymus, programÄ… reikia paleisti iÅ¡ naujo. Ar norÄ—tumÄ—te iÅ¡ naujo paleisti programÄ…?</value>
   </data>
   <data name="SponsorUsOnGitHub" xml:space="preserve">
-    <value>Paremkite mus „GitHub“ platformoje</value>
+    <value>Paremkite mus â€žGitHubâ€œ platformoje</value>
   </data>
   <data name="AccessDeniedCreateDialogText" xml:space="preserve">
     <value>We weren't able to create this item</value>
   </data>
   <data name="AccessDenied" xml:space="preserve">
-    <value>Prieiga uždrausta</value>
+    <value>Prieiga uÅ¾drausta</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutSetAsText" xml:space="preserve">
     <value>Nustatyti kaip</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>Atšaukti</value>
+    <value>AtÅ¡aukti</value>
   </data>
   <data name="AddDialog.Title" xml:space="preserve">
-    <value>Sukurti naują elementą</value>
+    <value>Sukurti naujÄ… elementÄ…</value>
   </data>
   <data name="AddDialogDescription.Text" xml:space="preserve">
-    <value>Toliau pasirinkite šio naujo elemento tipą</value>
+    <value>Toliau pasirinkite Å¡io naujo elemento tipÄ…</value>
   </data>
   <data name="File" xml:space="preserve">
     <value>Failas</value>
@@ -693,7 +699,7 @@
     <value>Files</value>
   </data>
   <data name="AddDialogListFileSubHeader" xml:space="preserve">
-    <value>Sukuria tuÅ¡ÄiÄ… failÄ…</value>
+    <value>Sukuria tuÃ…Â¡Ã„ÂiÃ„â€¦ failÃ„â€¦</value>
   </data>
   <data name="Folder" xml:space="preserve">
     <value>Aplankas</value>
@@ -702,19 +708,19 @@
     <value>Folders</value>
   </data>
   <data name="AddDialogListFolderSubHeader" xml:space="preserve">
-    <value>Sukuria tuščią aplanką</value>
+    <value>Sukuria tuÅ¡ÄiÄ… aplankÄ…</value>
   </data>
   <data name="NavResfreshButton.AutomationProperties.Name" xml:space="preserve">
-    <value>Atnaujinkite katalogą</value>
+    <value>Atnaujinkite katalogÄ…</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Kalba</value>
   </data>
   <data name="SettingsContextMenuOverflow" xml:space="preserve">
-    <value>Perkelkite apvalkalo plėtinius į antrinį meniu</value>
+    <value>Perkelkite apvalkalo plÄ—tinius Ä¯ antrinÄ¯ meniu</value>
   </data>
   <data name="ShowConfirmationWhenDeletingItems" xml:space="preserve">
-    <value>Rodyti patvirtinimo dialogo langą ištrinant elementus</value>
+    <value>Rodyti patvirtinimo dialogo langÄ… iÅ¡trinant elementus</value>
   </data>
   <data name="PropertySaveErrorMessageText" xml:space="preserve">
     <value>There was an issue saving some properties.</value>
@@ -723,16 +729,16 @@
     <value>Klaida</value>
   </data>
   <data name="PropertySaveErrorDialog.SecondaryButtonText" xml:space="preserve">
-    <value>Vis tiek uždaryti</value>
+    <value>Vis tiek uÅ¾daryti</value>
   </data>
   <data name="PropertyRatingText" xml:space="preserve">
-    <value>Įvertinimas</value>
+    <value>Ä®vertinimas</value>
   </data>
   <data name="PropertyParsingPath" xml:space="preserve">
-    <value>Prekės kelias</value>
+    <value>PrekÄ—s kelias</value>
   </data>
   <data name="PropertyItemTypeText" xml:space="preserve">
-    <value>Prekės tipas</value>
+    <value>PrekÄ—s tipas</value>
   </data>
   <data name="PropertyTitle" xml:space="preserve">
     <value>Pavadinimas</value>
@@ -744,13 +750,13 @@
     <value>komentuoti</value>
   </data>
   <data name="PropertyCopyright" xml:space="preserve">
-    <value>Autorių teisės</value>
+    <value>AutoriÅ³ teisÄ—s</value>
   </data>
   <data name="PropertyDateModified" xml:space="preserve">
     <value>Pakeitimo data</value>
   </data>
   <data name="PropertyBitDepth" xml:space="preserve">
-    <value>Bitų gylis</value>
+    <value>BitÅ³ gylis</value>
   </data>
   <data name="PropertyDimensions" xml:space="preserve">
     <value>Matmenys</value>
@@ -762,13 +768,13 @@
     <value>Vertikalus dydis</value>
   </data>
   <data name="PropertyHorizontalResolution" xml:space="preserve">
-    <value>Horizontali raiška</value>
+    <value>Horizontali raiÅ¡ka</value>
   </data>
   <data name="PropertyVerticalResolution" xml:space="preserve">
-    <value>Vertikali raiška</value>
+    <value>Vertikali raiÅ¡ka</value>
   </data>
   <data name="PropertyColorSpace" xml:space="preserve">
-    <value>Spalvų erdvė</value>
+    <value>SpalvÅ³ erdvÄ—</value>
   </data>
   <data name="PropertyColorSpace_Value0" xml:space="preserve">
     <value>sRGB</value>
@@ -777,16 +783,16 @@
     <value>Nenurodyta</value>
   </data>
   <data name="PropertyLongitudeDecimal" xml:space="preserve">
-    <value>Dešimtainė ilguma</value>
+    <value>DeÅ¡imtainÄ— ilguma</value>
   </data>
   <data name="PropertyLatitudeDecimal" xml:space="preserve">
-    <value>Dešimtainė platuma</value>
+    <value>DeÅ¡imtainÄ— platuma</value>
   </data>
   <data name="PropertyAltitude" xml:space="preserve">
-    <value>Aukštis virš jūros lygio</value>
+    <value>AukÅ¡tis virÅ¡ jÅ«ros lygio</value>
   </data>
   <data name="PropertyDateTaken" xml:space="preserve">
-    <value>Paėmimo data</value>
+    <value>PaÄ—mimo data</value>
   </data>
   <data name="PropertyCameraManufacturer" xml:space="preserve">
     <value>Fotoaparato gamintojas</value>
@@ -798,25 +804,25 @@
     <value>Ekspozicijos laikas</value>
   </data>
   <data name="PropertyFocalLength" xml:space="preserve">
-    <value>Židinio nuotolis</value>
+    <value>Å½idinio nuotolis</value>
   </data>
   <data name="PropertyAperture" xml:space="preserve">
     <value>Diafragma</value>
   </data>
   <data name="PropertyPeopleNames" xml:space="preserve">
-    <value>Žmonių vardai</value>
+    <value>Å½moniÅ³ vardai</value>
   </data>
   <data name="PropertyChannelCount" xml:space="preserve">
-    <value>Kanalų skaičius</value>
+    <value>KanalÅ³ skaiÄius</value>
   </data>
   <data name="PropertyFormat" xml:space="preserve">
     <value>Formatas</value>
   </data>
   <data name="PropertySampleRate" xml:space="preserve">
-    <value>Mėginio dažnis</value>
+    <value>MÄ—ginio daÅ¾nis</value>
   </data>
   <data name="PropertyAlbumArtist" xml:space="preserve">
-    <value>Albumo atlikėjas</value>
+    <value>Albumo atlikÄ—jas</value>
   </data>
   <data name="PropertyAlbumTitle" xml:space="preserve">
     <value>Albumo pavadinimas</value>
@@ -825,7 +831,7 @@
     <value>Menininkas</value>
   </data>
   <data name="PropertyBeatsPerMinute" xml:space="preserve">
-    <value>dūžiai per minutę</value>
+    <value>dÅ«Å¾iai per minutÄ™</value>
   </data>
   <data name="PropertyComposer" xml:space="preserve">
     <value>Kompozitorius</value>
@@ -837,16 +843,16 @@
     <value>Disko numeris</value>
   </data>
   <data name="PropertyGenre" xml:space="preserve">
-    <value>Å½anras</value>
+    <value>Ã…Â½anras</value>
   </data>
   <data name="PropertyTrackNumber" xml:space="preserve">
     <value>Takelio numeris</value>
   </data>
   <data name="PropertyDuration" xml:space="preserve">
-    <value>TrukmÄ—</value>
+    <value>TrukmÃ„â€”</value>
   </data>
   <data name="PropertyFrameCount" xml:space="preserve">
-    <value>Kadrų skaičius</value>
+    <value>KadrÅ³ skaiÄius</value>
   </data>
   <data name="PropertyProtectionType" xml:space="preserve">
     <value>Apsaugos tipas</value>
@@ -858,7 +864,7 @@
     <value>Turinio platintojas</value>
   </data>
   <data name="PropertyDateReleased" xml:space="preserve">
-    <value>Išleidimo data</value>
+    <value>IÅ¡leidimo data</value>
   </data>
   <data name="PropertySeriesName" xml:space="preserve">
     <value>Serijos pavadinimas</value>
@@ -876,28 +882,28 @@
     <value>Reklamos URL</value>
   </data>
   <data name="PropertyProviderStyle" xml:space="preserve">
-    <value>Teikėjo stilius</value>
+    <value>TeikÄ—jo stilius</value>
   </data>
   <data name="PropertyPublisher" xml:space="preserve">
-    <value>Leidėjas</value>
+    <value>LeidÄ—jas</value>
   </data>
   <data name="PropertyThumbnailLargePath" xml:space="preserve">
-    <value>Miniatiūra didelis kelias</value>
+    <value>MiniatiÅ«ra didelis kelias</value>
   </data>
   <data name="PropertyThumbnailLargeUri" xml:space="preserve">
-    <value>Miniatiūra Large Uri</value>
+    <value>MiniatiÅ«ra Large Uri</value>
   </data>
   <data name="PropertyThumbnailSmallPath" xml:space="preserve">
-    <value>Miniatiūros mažas kelias</value>
+    <value>MiniatiÅ«ros maÅ¾as kelias</value>
   </data>
   <data name="PropertyThumbnailSmallUri" xml:space="preserve">
-    <value>Miniatiūra Small Uri</value>
+    <value>MiniatiÅ«ra Small Uri</value>
   </data>
   <data name="PropertyUserWebUrl" xml:space="preserve">
-    <value>Naudotojo žiniatinklio URL</value>
+    <value>Naudotojo Å¾iniatinklio URL</value>
   </data>
   <data name="PropertyWriter" xml:space="preserve">
-    <value>Rašytojas</value>
+    <value>RaÅ¡ytojas</value>
   </data>
   <data name="PropertyYear" xml:space="preserve">
     <value>Metai</value>
@@ -915,58 +921,58 @@
     <value>Versija</value>
   </data>
   <data name="PropertyDateCreated" xml:space="preserve">
-    <value>Sukūrimo data</value>
+    <value>SukÅ«rimo data</value>
   </data>
   <data name="PropertyTotalEditingTime" xml:space="preserve">
     <value>Bendras redagavimo laikas</value>
   </data>
   <data name="PropertyTemplate" xml:space="preserve">
-    <value>Šablonas</value>
+    <value>Å ablonas</value>
   </data>
   <data name="PropertyWordCount" xml:space="preserve">
-    <value>Žodžių skaičius</value>
+    <value>Å½odÅ¾iÅ³ skaiÄius</value>
   </data>
   <data name="PropertyCharacterCount" xml:space="preserve">
-    <value>Simbolių skaičius</value>
+    <value>SimboliÅ³ skaiÄius</value>
   </data>
   <data name="PropertyLineCount" xml:space="preserve">
-    <value>Eilučių skaičius</value>
+    <value>EiluÄiÅ³ skaiÄius</value>
   </data>
   <data name="PropertyParagraphCount" xml:space="preserve">
-    <value>Pastraipų skaičius</value>
+    <value>PastraipÅ³ skaiÄius</value>
   </data>
   <data name="PropertyPageCount" xml:space="preserve">
-    <value>Puslapių skaičius</value>
+    <value>PuslapiÅ³ skaiÄius</value>
   </data>
   <data name="PropertySlideCount" xml:space="preserve">
-    <value>Skaidrių skaičius</value>
+    <value>SkaidriÅ³ skaiÄius</value>
   </data>
   <data name="PropertyFrameRate" xml:space="preserve">
-    <value>Kadrų dažnis</value>
+    <value>KadrÅ³ daÅ¾nis</value>
   </data>
   <data name="PropertyEncodingBitrate" xml:space="preserve">
-    <value>Kodavimo bitų sparta</value>
+    <value>Kodavimo bitÅ³ sparta</value>
   </data>
   <data name="PropertyPreviewAudioEncodingBitrate" xml:space="preserve">
-    <value>Garso kodavimo bitų sparta</value>
+    <value>Garso kodavimo bitÅ³ sparta</value>
   </data>
   <data name="PropertyPreviewVideoEncodingBitrate" xml:space="preserve">
-    <value>Vaizdo įrašų kodavimo bitų sparta</value>
+    <value>Vaizdo Ä¯raÅ¡Å³ kodavimo bitÅ³ sparta</value>
   </data>
   <data name="Compression" xml:space="preserve">
     <value>Suspaudimas</value>
   </data>
   <data name="PropertyFrameWidth" xml:space="preserve">
-    <value>Rėmo plotis</value>
+    <value>RÄ—mo plotis</value>
   </data>
   <data name="PropertyFrameHeight" xml:space="preserve">
-    <value>Rėmo aukštis</value>
+    <value>RÄ—mo aukÅ¡tis</value>
   </data>
   <data name="PropertyOrientation" xml:space="preserve">
     <value>Orientacija</value>
   </data>
   <data name="PropertySectionCore" xml:space="preserve">
-    <value>Šerdis</value>
+    <value>Å erdis</value>
   </data>
   <data name="PropertySectionImage" xml:space="preserve">
     <value>Vaizdas</value>
@@ -978,7 +984,7 @@
     <value>GPS</value>
   </data>
   <data name="PropertySectionMedia" xml:space="preserve">
-    <value>Žiniasklaida</value>
+    <value>Å½iniasklaida</value>
   </data>
   <data name="PropertySectionAudio" xml:space="preserve">
     <value>Garsas</value>
@@ -987,7 +993,7 @@
     <value>Muzika</value>
   </data>
   <data name="PropertySectionVideo" xml:space="preserve">
-    <value>Vaizdo įrašas</value>
+    <value>Vaizdo Ä¯raÅ¡as</value>
   </data>
   <data name="Document" xml:space="preserve">
     <value>dokumentas</value>
@@ -1002,7 +1008,7 @@
     <value>Pasirinkite</value>
   </data>
   <data name="RecycleBinItemAutomation" xml:space="preserve">
-    <value>Šiukšliadėžės elementas</value>
+    <value>Å iukÅ¡liadÄ—Å¾Ä—s elementas</value>
   </data>
   <data name="ShortcutItemAutomation" xml:space="preserve">
     <value>Spartusis elementas</value>
@@ -1011,52 +1017,52 @@
     <value>Pavaros</value>
   </data>
   <data name="PinToSidebarByDraggingCaptionText" xml:space="preserve">
-    <value>Perkelk čia</value>
+    <value>Perkelk Äia</value>
   </data>
   <data name="EjectNotificationHeader" xml:space="preserve">
-    <value>Saugu pašalinti aparatinę įrangą</value>
+    <value>Saugu paÅ¡alinti aparatinÄ™ Ä¯rangÄ…</value>
   </data>
   <data name="EjectNotificationBody" xml:space="preserve">
-    <value>Dabar įrenginį galima saugiai išimti iš kompiuterio.</value>
+    <value>Dabar Ä¯renginÄ¯ galima saugiai iÅ¡imti iÅ¡ kompiuterio.</value>
   </data>
   <data name="EjectNotificationErrorDialogHeader" xml:space="preserve">
-    <value>Ä®vyko problema, bandant iÅ¡stumti Ä¯renginÄ¯</value>
+    <value>Ã„Â®vyko problema, bandant iÃ…Â¡stumti Ã„Â¯renginÃ„Â¯</value>
   </data>
   <data name="EjectNotificationErrorDialogBody" xml:space="preserve">
-    <value>Šis įrenginys šiuo metu naudojamas. Uždarykite visas programas, langus ar skirtukus, kurie gali naudoti įrenginį, tada bandykite dar kartą.</value>
+    <value>Å is Ä¯renginys Å¡iuo metu naudojamas. UÅ¾darykite visas programas, langus ar skirtukus, kurie gali naudoti Ä¯renginÄ¯, tada bandykite dar kartÄ….</value>
   </data>
   <data name="Eject" xml:space="preserve">
-    <value>IÅ¡stumti</value>
+    <value>IÃ…Â¡stumti</value>
   </data>
   <data name="DuplicateTab" xml:space="preserve">
-    <value>Dubliuoti skirtuką</value>
+    <value>Dubliuoti skirtukÄ…</value>
   </data>
   <data name="HorizontalMultitaskingControlMoveTabToNewWindow.Text" xml:space="preserve">
-    <value>Perkelti skirtuką į naują langą</value>
+    <value>Perkelti skirtukÄ… Ä¯ naujÄ… langÄ…</value>
   </data>
   <data name="NewTab" xml:space="preserve">
     <value>Naujas skirtukas</value>
   </data>
   <data name="ClearPropertiesFlyoutText.Text" xml:space="preserve">
-    <value>Kai kuriose nuosavybėse gali būti asmeninės informacijos.</value>
+    <value>Kai kuriose nuosavybÄ—se gali bÅ«ti asmeninÄ—s informacijos.</value>
   </data>
   <data name="ClearPropertiesButton.Content" xml:space="preserve">
-    <value>Išvalyti visas ypatybes</value>
+    <value>IÅ¡valyti visas ypatybes</value>
   </data>
   <data name="OngoingTasksTeachingTip.Subtitle" xml:space="preserve">
-    <value>Patikrinkite failų operacijų būseną čia</value>
+    <value>Patikrinkite failÅ³ operacijÅ³ bÅ«senÄ… Äia</value>
   </data>
   <data name="OngoingTasksTeachingTip.Title" xml:space="preserve">
-    <value>Būsenos centras</value>
+    <value>BÅ«senos centras</value>
   </data>
   <data name="SearchPagePathBoxOverrideText" xml:space="preserve">
-    <value>{0} paieškos rezultatai {0}</value>
+    <value>{0} paieÅ¡kos rezultatai {0}</value>
   </data>
   <data name="SearchResultsFor" xml:space="preserve">
-    <value>Paieškos rezultatai pagal `{0}`</value>
+    <value>PaieÅ¡kos rezultatai pagal `{0}`</value>
   </data>
   <data name="Details" xml:space="preserve">
-    <value>Detalės</value>
+    <value>DetalÄ—s</value>
   </data>
   <data name="No" xml:space="preserve">
     <value>Ne</value>
@@ -1065,37 +1071,37 @@
     <value>Rodyti apsaugotus sistemos failus</value>
   </data>
   <data name="SyncFolderPreferencesAcrossDirectories" xml:space="preserve">
-    <value>Sinchronizuokite katalogų išdėstymo ir rūšiavimo nuostatas</value>
+    <value>Sinchronizuokite katalogÅ³ iÅ¡dÄ—stymo ir rÅ«Å¡iavimo nuostatas</value>
   </data>
   <data name="SettingsContextMenu.Text" xml:space="preserve">
-    <value>Tinkinkite dešiniuoju pelės klavišu esantį kontekstinį meniu</value>
+    <value>Tinkinkite deÅ¡iniuoju pelÄ—s klaviÅ¡u esantÄ¯ kontekstinÄ¯ meniu</value>
   </data>
   <data name="OriginalPath" xml:space="preserve">
     <value>Originalus kelias</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>PridÄ—ti</value>
+    <value>PridÃ„â€”ti</value>
   </data>
   <data name="Edit" xml:space="preserve">
     <value>Redaguoti</value>
   </data>
   <data name="Remove" xml:space="preserve">
-    <value>Pašalinti</value>
+    <value>PaÅ¡alinti</value>
   </data>
   <data name="SettingsMultitaskingAlwaysOpenDualPane" xml:space="preserve">
-    <value>Atidarykite skirtukus dviejų langelių režimu</value>
+    <value>Atidarykite skirtukus dviejÅ³ langeliÅ³ reÅ¾imu</value>
   </data>
   <data name="ShowOpenInNewPane" xml:space="preserve">
-    <value>Rodyti aplankų atidarymo naujoje srityje parinktį</value>
+    <value>Rodyti aplankÅ³ atidarymo naujoje srityje parinktÄ¯</value>
   </data>
   <data name="ShowCopyPath" xml:space="preserve">
-    <value>Rodyti parinktį kopijuoti kelią</value>
+    <value>Rodyti parinktÄ¯ kopijuoti keliÄ…</value>
   </data>
   <data name="ShowCreateFolderWithSelection" xml:space="preserve">
-    <value>Rodyti parinktį sukurti aplanką su pasirinkimu</value>
+    <value>Rodyti parinktÄ¯ sukurti aplankÄ… su pasirinkimu</value>
   </data>
   <data name="ShowCreateShortcut" xml:space="preserve">
-    <value>Rodyti nuorodą sukurti nuorodą</value>
+    <value>Rodyti nuorodÄ… sukurti nuorodÄ…</value>
   </data>
   <data name="NavigationToolbarNewPane.Label" xml:space="preserve">
     <value>Nauja sritis</value>
@@ -1113,10 +1119,10 @@
     <value>Failai ir aplankai</value>
   </data>
   <data name="NavToolbarDetails.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Išsami informacija (Ctrl + Shift + 1)</value>
+    <value>IÅ¡sami informacija (Ctrl + Shift + 1)</value>
   </data>
   <data name="DateDeleted" xml:space="preserve">
-    <value>Ištrynimo data</value>
+    <value>IÅ¡trynimo data</value>
   </data>
   <data name="SidebarCloudDrives" xml:space="preserve">
     <value>Debesijos saugykla</value>
@@ -1128,61 +1134,61 @@
     <value>Norimas vardas</value>
   </data>
   <data name="TogglePreviewPane" xml:space="preserve">
-    <value>Perjungti peržiūros sritį</value>
+    <value>Perjungti perÅ¾iÅ«ros sritÄ¯</value>
   </data>
   <data name="ToggleDetailsPane" xml:space="preserve">
-    <value>Perjungti išsamios informacijos sritį</value>
+    <value>Perjungti iÅ¡samios informacijos sritÄ¯</value>
   </data>
   <data name="ToggleDetailsPaneDescription" xml:space="preserve">
-    <value>Perjunkite išsamios informacijos sritį, kad peržiūrėtumėte pagrindines failo ypatybes</value>
+    <value>Perjunkite iÅ¡samios informacijos sritÄ¯, kad perÅ¾iÅ«rÄ—tumÄ—te pagrindines failo ypatybes</value>
   </data>
   <data name="ToggleInfoPane" xml:space="preserve">
-    <value>Perjungti informacijos sritį</value>
+    <value>Perjungti informacijos sritÄ¯</value>
   </data>
   <data name="ToggleInfoPaneDescription" xml:space="preserve">
-    <value>Perjungti išsamios informacijos / peržiūros sričių matomumą</value>
+    <value>Perjungti iÅ¡samios informacijos / perÅ¾iÅ«ros sriÄiÅ³ matomumÄ…</value>
   </data>
   <data name="ToggleToolbar" xml:space="preserve">
-    <value>Perjungti įrankių juostą</value>
+    <value>Perjungti Ä¯rankiÅ³ juostÄ…</value>
   </data>
   <data name="ToggleToolbarDescription" xml:space="preserve">
-    <value>Perjungti įrankių juostos matomumą</value>
+    <value>Perjungti Ä¯rankiÅ³ juostos matomumÄ…</value>
   </data>
   <data name="ToggleFilterHeader" xml:space="preserve">
-    <value>Perjungti filtro antraštę</value>
+    <value>Perjungti filtro antraÅ¡tÄ™</value>
   </data>
   <data name="ToggleFilterHeaderDescription" xml:space="preserve">
-    <value>Perjungti filtro antraštės matomumą</value>
+    <value>Perjungti filtro antraÅ¡tÄ—s matomumÄ…</value>
   </data>
   <data name="ToggleDualPane" xml:space="preserve">
-    <value>Perjungti dvigubą sritį</value>
+    <value>Perjungti dvigubÄ… sritÄ¯</value>
   </data>
   <data name="ToggleDualPaneDescription" xml:space="preserve">
-    <value>Perjungti dviejų langelių režimą</value>
+    <value>Perjungti dviejÅ³ langeliÅ³ reÅ¾imÄ…</value>
   </data>
   <data name="DetailsPanePreviewNotAvaliableText" xml:space="preserve">
-    <value>Peržiūra nepasiekiama</value>
+    <value>PerÅ¾iÅ«ra nepasiekiama</value>
   </data>
   <data name="PropertyItemName" xml:space="preserve">
-    <value>Prekės pavadinimas</value>
+    <value>PrekÄ—s pavadinimas</value>
   </data>
   <data name="Unpin" xml:space="preserve">
     <value>Unpin</value>
   </data>
   <data name="UnpinFolderFromSidebar" xml:space="preserve">
-    <value>Atsegti nuo šoninės juostos</value>
+    <value>Atsegti nuo Å¡oninÄ—s juostos</value>
   </data>
   <data name="Network" xml:space="preserve">
     <value>Tinklas</value>
   </data>
   <data name="PreviewPaneFileDetails.AutomationProperties.Name" xml:space="preserve">
-    <value>Išsami failo informacija</value>
+    <value>IÅ¡sami failo informacija</value>
   </data>
   <data name="PreviewPaneFilePreview.AutomationProperties.Name" xml:space="preserve">
-    <value>Failo peržiūra</value>
+    <value>Failo perÅ¾iÅ«ra</value>
   </data>
   <data name="SelectedFilePreviewPane.AutomationProperties.Name" xml:space="preserve">
-    <value>Pasirinkto failo peržiūros sritis</value>
+    <value>Pasirinkto failo perÅ¾iÅ«ros sritis</value>
   </data>
   <data name="Feedback" xml:space="preserve">
     <value>Atsiliepimai</value>
@@ -1197,37 +1203,37 @@
     <value>Galima neprisijungus</value>
   </data>
   <data name="CloudDriveSyncStatus_PartialOffline" xml:space="preserve">
-    <value>Iš dalies pasiekiama neprisijungus</value>
+    <value>IÅ¡ dalies pasiekiama neprisijungus</value>
   </data>
   <data name="CloudDriveSyncStatus_Sync" xml:space="preserve">
     <value>Sinchronizuojama</value>
   </data>
   <data name="CloudDriveSyncStatus_Excluded" xml:space="preserve">
-    <value>Išskirta iš sinchronizavimo</value>
+    <value>IÅ¡skirta iÅ¡ sinchronizavimo</value>
   </data>
   <data name="ItemSizeNotCalculated" xml:space="preserve">
-    <value>NeapskaiÄiuota/-s</value>
+    <value>NeapskaiÃ„Âiuota/-s</value>
   </data>
   <data name="ViewSize" xml:space="preserve">
     <value>View size</value>
   </data>
   <data name="CloudDriveSyncStatus_Unknown" xml:space="preserve">
-    <value>Nežinoma</value>
+    <value>NeÅ¾inoma</value>
   </data>
   <data name="RenameFileDialogText" xml:space="preserve">
     <value>If you change a file extension, the file might become unusable. Are you sure you want to change it?</value>
   </data>
   <data name="DriveTypeCDRom" xml:space="preserve">
-    <value>CD ROM įrenginys</value>
+    <value>CD ROM Ä¯renginys</value>
   </data>
   <data name="DriveTypeCloudDrive" xml:space="preserve">
     <value>Debesijos saugykla</value>
   </data>
   <data name="DriveTypeFixed" xml:space="preserve">
-    <value>Fiksuotas disko įrenginys</value>
+    <value>Fiksuotas disko Ä¯renginys</value>
   </data>
   <data name="DriveTypeFloppyDisk" xml:space="preserve">
-    <value>Diskelių įrenginys</value>
+    <value>DiskeliÅ³ Ä¯renginys</value>
   </data>
   <data name="DriveTypeNetwork" xml:space="preserve">
     <value>Tinklo diskas</value>
@@ -1236,22 +1242,22 @@
     <value>Atjungtas diskas</value>
   </data>
   <data name="DriveTypeRam" xml:space="preserve">
-    <value>RAM disko įrenginys</value>
+    <value>RAM disko Ä¯renginys</value>
   </data>
   <data name="DriveTypeRemovable" xml:space="preserve">
-    <value>Nuimamas saugojimo įrenginys</value>
+    <value>Nuimamas saugojimo Ä¯renginys</value>
   </data>
   <data name="DriveTypeUnknown" xml:space="preserve">
-    <value>Nežinoma</value>
+    <value>NeÅ¾inoma</value>
   </data>
   <data name="DriveTypeVirtualDrive" xml:space="preserve">
     <value>Virtualus diskas</value>
   </data>
   <data name="DateCreated" xml:space="preserve">
-    <value>Sukūrimo data</value>
+    <value>SukÅ«rimo data</value>
   </data>
   <data name="MoreOptions" xml:space="preserve">
-    <value>Daugiau parinkÄiÅ³...</value>
+    <value>Daugiau parinkÃ„ÂiÃ…Â³...</value>
   </data>
   <data name="DrivesWidgetOptionsFlyoutMapNetDriveMenuItemText" xml:space="preserve">
     <value>Map network drive</value>
@@ -1275,13 +1281,13 @@
     <value>Numatytoji</value>
   </data>
   <data name="PropertyItemCount" xml:space="preserve">
-    <value>Prekių skaičius</value>
+    <value>PrekiÅ³ skaiÄius</value>
   </data>
   <data name="ElevateConfirmDialog.Title" xml:space="preserve">
-    <value>Šiam veiksmui reikalingos administratoriaus teisės</value>
+    <value>Å iam veiksmui reikalingos administratoriaus teisÄ—s</value>
   </data>
   <data name="ElevateConfirmDialog.Content" xml:space="preserve">
-    <value>Ar norėtumėte toliau dirbti administratoriumi?</value>
+    <value>Ar norÄ—tumÄ—te toliau dirbti administratoriumi?</value>
   </data>
   <data name="ColumnsShortcutTooltip" xml:space="preserve">
     <value>Stulpeliai (Ctrl + Shift + 6)</value>
@@ -1299,28 +1305,28 @@
     <value>Vietos:</value>
   </data>
   <data name="SetAsDefaultSavePath" xml:space="preserve">
-    <value>Nustatyti kaip numatytąjį išsaugojimo kelią</value>
+    <value>Nustatyti kaip numatytÄ…jÄ¯ iÅ¡saugojimo keliÄ…</value>
   </data>
   <data name="LibraryNoLocations.Text" xml:space="preserve">
-    <value>Nėra vietų</value>
+    <value>NÄ—ra vietÅ³</value>
   </data>
   <data name="ErrorInputEmpty" xml:space="preserve">
-    <value>Įvesties laukas negali būti tuščias!</value>
+    <value>Ä®vesties laukas negali bÅ«ti tuÅ¡Äias!</value>
   </data>
   <data name="ErrorNameInputRestrictedCharacters" xml:space="preserve">
-    <value>Varde negali būti šių simbolių: \ / : * ? " &lt; &gt; |</value>
+    <value>Varde negali bÅ«ti Å¡iÅ³ simboliÅ³: \ / : * ? " &lt; &gt; |</value>
   </data>
   <data name="ErrorNameInputRestricted" xml:space="preserve">
-    <value>Šio vardo naudojimas neleidžiamas!</value>
+    <value>Å io vardo naudojimas neleidÅ¾iamas!</value>
   </data>
   <data name="CreateLibraryErrorAlreadyExists" xml:space="preserve">
     <value>Biblioteka tokiu pat pavadinimu jau yra!</value>
   </data>
   <data name="OpenStorageSense" xml:space="preserve">
-    <value>Atidarykite „Storage Sense“.</value>
+    <value>Atidarykite â€žStorage Senseâ€œ.</value>
   </data>
   <data name="OpenStorageSenseDescription" xml:space="preserve">
-    <value>„Windows“ nustatymuose atidarykite „Storage Sense“ puslapį</value>
+    <value>â€žWindowsâ€œ nustatymuose atidarykite â€žStorage Senseâ€œ puslapÄ¯</value>
   </data>
   <data name="Cleanup" xml:space="preserve">
     <value>Valymas</value>
@@ -1335,7 +1341,7 @@
     <value>Delete {0, plural, one {item} other {items}}</value>
   </data>
   <data name="MoveItemsDialogPrimaryButtonText" xml:space="preserve">
-    <value>Judėti</value>
+    <value>JudÄ—ti</value>
   </data>
   <data name="MoveItemsDialogSubtitle" xml:space="preserve">
     <value>{0, plural, one {Vienas elementas bus perkeltas} other {# elementai bus perkelti}}</value>
@@ -1344,37 +1350,37 @@
     <value>Move {0, plural, one {item} other {items}}</value>
   </data>
   <data name="DeleteItemsDialogSubtitle" xml:space="preserve">
-    <value>{0, plural, one {Bus ištrintas vienas elementas} other {Bus ištrinta # elementų}}</value>
+    <value>{0, plural, one {Bus iÅ¡trintas vienas elementas} other {Bus iÅ¡trinta # elementÅ³}}</value>
   </data>
   <data name="ConflictingItemsDialogPrimaryButtonText" xml:space="preserve">
-    <value>Tęsti</value>
+    <value>TÄ™sti</value>
   </data>
   <data name="ConflictingItemsDialogSubtitleConflicts" xml:space="preserve">
-    <value>{0, plural, one {Yra vienas nesuderinamas failo pavadinimas} other {Yra # nesuderinamų failų pavadinimų}}</value>
+    <value>{0, plural, one {Yra vienas nesuderinamas failo pavadinimas} other {Yra # nesuderinamÅ³ failÅ³ pavadinimÅ³}}</value>
   </data>
   <data name="ConflictingItemsDialogSubtitleConflictsNonConflicts" xml:space="preserve">
-    <value>{0, plural, one {Yra vienas nesuderinamas failo pavadinimas} other {Yra # nesuderinamų failų pavadinimų}} ir {1, plural, one {one outgoing item} other {# outgoing items}}</value>
+    <value>{0, plural, one {Yra vienas nesuderinamas failo pavadinimas} other {Yra # nesuderinamÅ³ failÅ³ pavadinimÅ³}} ir {1, plural, one {one outgoing item} other {# outgoing items}}</value>
   </data>
   <data name="ConflictingItemsDialogTitle" xml:space="preserve">
-    <value>Conflicting {0, plural, one {failo pavadinimas} other {failų pavadinimai}}</value>
+    <value>Conflicting {0, plural, one {failo pavadinimas} other {failÅ³ pavadinimai}}</value>
   </data>
   <data name="CopyItemsDialogSubtitle" xml:space="preserve">
-    <value>{0, plural, one {Bus nukopijuotas vienas elementas} other {Bus nukopijuota # elementų}}</value>
+    <value>{0, plural, one {Bus nukopijuotas vienas elementas} other {Bus nukopijuota # elementÅ³}}</value>
   </data>
   <data name="DeleteItemsDialogPermanentlyDeleteCheckBox.Content" xml:space="preserve">
-    <value>Ištrinti visam laikui</value>
+    <value>IÅ¡trinti visam laikui</value>
   </data>
   <data name="PropertyISO" xml:space="preserve">
     <value>ISO greitis</value>
   </data>
   <data name="ReplaceExisting" xml:space="preserve">
-    <value>Pakeiskite esamą</value>
+    <value>Pakeiskite esamÄ…</value>
   </data>
   <data name="GenerateNewName" xml:space="preserve">
-    <value>Sukurti naują pavadinimą</value>
+    <value>Sukurti naujÄ… pavadinimÄ…</value>
   </data>
   <data name="CreateFolderWithSelection" xml:space="preserve">
-    <value>Sukurkite aplanką su pasirinkimu</value>
+    <value>Sukurkite aplankÄ… su pasirinkimu</value>
   </data>
   <data name="CreateShortcutWithSelection" xml:space="preserve">
     <value>Create shortcuts with selection</value>
@@ -1404,10 +1410,10 @@
     <value>Keitimo datos stulpelis</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateDeleted.Text" xml:space="preserve">
-    <value>Stulpelio ištrynimo data</value>
+    <value>Stulpelio iÅ¡trynimo data</value>
   </data>
   <data name="Sort" xml:space="preserve">
-    <value>Rūšiuoti</value>
+    <value>RÅ«Å¡iuoti</value>
   </data>
   <data name="DateModifiedLowerCase" xml:space="preserve">
     <value>Pakeitimo data</value>
@@ -1416,10 +1422,10 @@
     <value>Originalus aplankas</value>
   </data>
   <data name="Descending" xml:space="preserve">
-    <value>Mažėjantis</value>
+    <value>MaÅ¾Ä—jantis</value>
   </data>
   <data name="ItemSizeText_Huge" xml:space="preserve">
-    <value>DidÅ¾iulis</value>
+    <value>DidÃ…Â¾iulis</value>
   </data>
   <data name="ItemSizeText_VeryLarge" xml:space="preserve">
     <value>Labai didelis</value>
@@ -1431,49 +1437,49 @@
     <value>Vidutinis</value>
   </data>
   <data name="ItemSizeText_Small" xml:space="preserve">
-    <value>MaÅ¾as</value>
+    <value>MaÃ…Â¾as</value>
   </data>
   <data name="ItemSizeText_Tiny" xml:space="preserve">
-    <value>MaÅ¾ytis</value>
+    <value>MaÃ…Â¾ytis</value>
   </data>
   <data name="Future" xml:space="preserve">
     <value>Ateitis</value>
   </data>
   <data name="Today" xml:space="preserve">
-    <value>Å iandien</value>
+    <value>Ã…Â iandien</value>
   </data>
   <data name="Yesterday" xml:space="preserve">
     <value>Vakar</value>
   </data>
   <data name="EarlierThisWeek" xml:space="preserve">
-    <value>AnksÄiau Å¡iÄ… savaitÄ™</value>
+    <value>AnksÃ„Âiau Ã…Â¡iÃ„â€¦ savaitÃ„â„¢</value>
   </data>
   <data name="LastWeek" xml:space="preserve">
-    <value>PraeitÄ… savaitÄ™</value>
+    <value>PraeitÃ„â€¦ savaitÃ„â„¢</value>
   </data>
   <data name="EarlierThisMonth" xml:space="preserve">
-    <value>Anksčiau šį mėnesį</value>
+    <value>AnksÄiau Å¡Ä¯ mÄ—nesÄ¯</value>
   </data>
   <data name="LastMonth" xml:space="preserve">
-    <value>Praėjusį mėnesį</value>
+    <value>PraÄ—jusÄ¯ mÄ—nesÄ¯</value>
   </data>
   <data name="EarlierThisYear" xml:space="preserve">
-    <value>Anksčiau šiais metais</value>
+    <value>AnksÄiau Å¡iais metais</value>
   </data>
   <data name="LastYear" xml:space="preserve">
-    <value>Praėjusiais metais</value>
+    <value>PraÄ—jusiais metais</value>
   </data>
   <data name="YearN" xml:space="preserve">
     <value>Metai {0}</value>
   </data>
   <data name="GroupItemsCount_Singular" xml:space="preserve">
-    <value>{0} prekė</value>
+    <value>{0} prekÄ—</value>
   </data>
   <data name="GroupItemsCount_Plural" xml:space="preserve">
-    <value>{0} prekių</value>
+    <value>{0} prekiÅ³</value>
   </data>
   <data name="ReopenClosedTab" xml:space="preserve">
-    <value>Iš naujo atidaryti skirtuką</value>
+    <value>IÅ¡ naujo atidaryti skirtukÄ…</value>
   </data>
   <data name="Rename" xml:space="preserve">
     <value>Pervardyti</value>
@@ -1482,25 +1488,25 @@
     <value>Privatumas</value>
   </data>
   <data name="TheRecycleBin" xml:space="preserve">
-    <value>šiukšliadėžę</value>
+    <value>Å¡iukÅ¡liadÄ—Å¾Ä™</value>
   </data>
   <data name="Canceling" xml:space="preserve">
-    <value>Atšaukiamas</value>
+    <value>AtÅ¡aukiamas</value>
   </data>
   <data name="Clear" xml:space="preserve">
-    <value>Aišku</value>
+    <value>AiÅ¡ku</value>
   </data>
   <data name="Widgets" xml:space="preserve">
     <value>Valdikliai</value>
   </data>
   <data name="SyncStatus" xml:space="preserve">
-    <value>Sinchronizavimo būsena</value>
+    <value>Sinchronizavimo bÅ«sena</value>
   </data>
   <data name="Security" xml:space="preserve">
     <value>Saugumas</value>
   </data>
   <data name="AdvancedPermissions" xml:space="preserve">
-    <value>Išplėstiniai leidimai</value>
+    <value>IÅ¡plÄ—stiniai leidimai</value>
   </data>
   <data name="Allow" xml:space="preserve">
     <value>Leisti</value>
@@ -1509,10 +1515,10 @@
     <value>Neigti</value>
   </data>
   <data name="SecurityFullControlLabel.Text" xml:space="preserve">
-    <value>Pilna kontrolė</value>
+    <value>Pilna kontrolÄ—</value>
   </data>
   <data name="SecurityListDirectoryLabel.Text" xml:space="preserve">
-    <value>Išvardykite katalogo turinį</value>
+    <value>IÅ¡vardykite katalogo turinÄ¯</value>
   </data>
   <data name="Modify" xml:space="preserve">
     <value>Modifikuoti</value>
@@ -1527,31 +1533,31 @@
     <value>Skaityti</value>
   </data>
   <data name="SecurityUsersGroupLabel.Text" xml:space="preserve">
-    <value>Grupės arba vartotojų vardai</value>
+    <value>GrupÄ—s arba vartotojÅ³ vardai</value>
   </data>
   <data name="Write" xml:space="preserve">
-    <value>Rašyti</value>
+    <value>RaÅ¡yti</value>
   </data>
   <data name="SecurityUnknownAccount" xml:space="preserve">
-    <value>Nežinoma paskyra</value>
+    <value>NeÅ¾inoma paskyra</value>
   </data>
   <data name="SecurityCannotReadPropertiesText" xml:space="preserve">
     <value>You do not have permissions to view the security properties of this object. Click "Advanced permissions" to proceed.</value>
   </data>
   <data name="SecurityOwnerLabel.Text" xml:space="preserve">
-    <value>Savininkas/-Ä—:</value>
+    <value>Savininkas/-Ã„â€”:</value>
   </data>
   <data name="SecurityUnknownOwnerTextText" xml:space="preserve">
     <value>Unknown owner</value>
   </data>
   <data name="ExtractArchive" xml:space="preserve">
-    <value>Išskleisti archyvą</value>
+    <value>IÅ¡skleisti archyvÄ…</value>
   </data>
   <data name="DecompressArchiveDialogOpenDestinationWhenComplete.Content" xml:space="preserve">
-    <value>Baigę atidarykite paskirties aplanką</value>
+    <value>BaigÄ™ atidarykite paskirties aplankÄ…</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutExtractToChildFolder" xml:space="preserve">
-    <value>Ištrauka į {0}\</value>
+    <value>IÅ¡trauka Ä¯ {0}\</value>
   </data>
   <data name="SideBarCreateNewLibraryText" xml:space="preserve">
     <value>Create new library</value>
@@ -1560,13 +1566,13 @@
     <value>Restore default libraries</value>
   </data>
   <data name="DialogRestoreLibrariesSubtitleText" xml:space="preserve">
-    <value>Ar tikrai norite atkurti numatytąsias bibliotekas? Visi failai liks jūsų saugykloje.</value>
+    <value>Ar tikrai norite atkurti numatytÄ…sias bibliotekas? Visi failai liks jÅ«sÅ³ saugykloje.</value>
   </data>
   <data name="DialogRestoreLibrariesTitleText" xml:space="preserve">
     <value>Atkurti bibliotekas</value>
   </data>
   <data name="PropertyFileOwner" xml:space="preserve">
-    <value>Savininkas/-Ä—</value>
+    <value>Savininkas/-Ã„â€”</value>
   </data>
   <data name="SecuritySpecialLabelText" xml:space="preserve">
     <value>Special</value>
@@ -1584,7 +1590,7 @@
     <value>failai</value>
   </data>
   <data name="SecurityAdvancedFlagsFolderLabel" xml:space="preserve">
-    <value>šį aplanką</value>
+    <value>Å¡Ä¯ aplankÄ…</value>
   </data>
   <data name="SecurityAdvancedFlagsSubfoldersLabel" xml:space="preserve">
     <value>poaplankius</value>
@@ -1599,10 +1605,10 @@
     <value>You do not have permissions to view the security properties of this object. You can try to take ownership of this object.</value>
   </data>
   <data name="SecurityAdvancedFolderFiles.Text" xml:space="preserve">
-    <value>Šis aplankas ir failai</value>
+    <value>Å is aplankas ir failai</value>
   </data>
   <data name="SecurityAdvancedFolderSubfoldersFiles.Text" xml:space="preserve">
-    <value>Šis aplankas, poaplankiai ir failai</value>
+    <value>Å is aplankas, poaplankiai ir failai</value>
   </data>
   <data name="SecurityAdvancedOnlyFiles.Text" xml:space="preserve">
     <value>Tik failai</value>
@@ -1614,10 +1620,10 @@
     <value>Tik poaplankiai ir failai</value>
   </data>
   <data name="SecurityAdvancedOnlyThisFolder.Text" xml:space="preserve">
-    <value>Tik šis aplankas</value>
+    <value>Tik Å¡is aplankas</value>
   </data>
   <data name="SecurityAdvancedFolderSubfolders.Text" xml:space="preserve">
-    <value>Šis aplankas ir poaplankiai</value>
+    <value>Å is aplankas ir poaplankiai</value>
   </data>
   <data name="SecurityAppendDataLabelText" xml:space="preserve">
     <value>Append data</value>
@@ -1665,49 +1671,49 @@
     <value>Write extended attributes</value>
   </data>
   <data name="SecurityAdvancedInheritedConvert.Text" xml:space="preserve">
-    <value>Konvertuoti paveldėtus leidimus į aiškius leidimus</value>
+    <value>Konvertuoti paveldÄ—tus leidimus Ä¯ aiÅ¡kius leidimus</value>
   </data>
   <data name="SecurityAdvancedInheritedEnable.Text" xml:space="preserve">
-    <value>Įgalinti paveldėjimą</value>
+    <value>Ä®galinti paveldÄ—jimÄ…</value>
   </data>
   <data name="SecurityAdvancedInheritedRemove.Text" xml:space="preserve">
-    <value>Pašalinkite visus paveldėtus leidimus</value>
+    <value>PaÅ¡alinkite visus paveldÄ—tus leidimus</value>
   </data>
   <data name="SecurityAdvancedReplaceChildPermissions.Text" xml:space="preserve">
-    <value>Iš naujo nustatyti vaiko leidimus</value>
+    <value>IÅ¡ naujo nustatyti vaiko leidimus</value>
   </data>
   <data name="SecurityAdvancedReplaceChildPermissions2.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Pakeiskite visus antrinio objekto leidimų įrašus paveldimomis šio objekto leidimo įrašais</value>
+    <value>Pakeiskite visus antrinio objekto leidimÅ³ Ä¯raÅ¡us paveldimomis Å¡io objekto leidimo Ä¯raÅ¡ais</value>
   </data>
   <data name="CloseActivePane" xml:space="preserve">
-    <value>Uždaryti langą</value>
+    <value>UÅ¾daryti langÄ…</value>
   </data>
   <data name="EnterCompactOverlay" xml:space="preserve">
-    <value>Įveskite kompaktišką perdangą</value>
+    <value>Ä®veskite kompaktiÅ¡kÄ… perdangÄ…</value>
   </data>
   <data name="ExitCompactOverlay" xml:space="preserve">
-    <value>Išeikite iš kompaktiškos perdangos</value>
+    <value>IÅ¡eikite iÅ¡ kompaktiÅ¡kos perdangos</value>
   </data>
   <data name="PropertyFileDescription" xml:space="preserve">
-    <value>Failo aprašymas</value>
+    <value>Failo apraÅ¡ymas</value>
   </data>
   <data name="PropertyCompany" xml:space="preserve">
-    <value>Ä®monÄ—</value>
+    <value>Ã„Â®monÃ„â€”</value>
   </data>
   <data name="PropertyLanguage" xml:space="preserve">
     <value>Kalba</value>
   </data>
   <data name="PropertyTrademarks" xml:space="preserve">
-    <value>Prekių ženklai</value>
+    <value>PrekiÅ³ Å¾enklai</value>
   </data>
   <data name="PropertyFileVersion" xml:space="preserve">
     <value>Failo versija</value>
   </data>
   <data name="PreviewPaneLoadCloudItemButton.Text" xml:space="preserve">
-    <value>Įkelti visą peržiūrą</value>
+    <value>Ä®kelti visÄ… perÅ¾iÅ«rÄ…</value>
   </data>
   <data name="PreviewPaneLoadCloudItemButton.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Atsisiunčiamas elementas iš debesies ir įkeliama peržiūra</value>
+    <value>AtsisiunÄiamas elementas iÅ¡ debesies ir Ä¯keliama perÅ¾iÅ«ra</value>
   </data>
   <data name="DetailsArchiveItems" xml:space="preserve">
     <value>{0, plural, one {# item} other {# items}} ({1, plural, one {# file} other {# files}}, {2, plural, one {# folder} other {# folders}})</value>
@@ -1716,22 +1722,22 @@
     <value>Nesuspaustas dydis</value>
   </data>
   <data name="WSL" xml:space="preserve">
-    <value>â€žWSLâ€œ</value>
+    <value>Ã¢â‚¬Å¾WSLÃ¢â‚¬Å“</value>
   </data>
   <data name="SideBarHideSectionFromSideBarText" xml:space="preserve">
     <value>Hide {0} section</value>
   </data>
   <data name="AddFile" xml:space="preserve">
-    <value>PridÄ—ti failÄ…</value>
+    <value>PridÃ„â€”ti failÃ„â€¦</value>
   </data>
   <data name="ConsentDialogTitle" xml:space="preserve">
     <value>Galimi atnaujinimai</value>
   </data>
   <data name="ConsentDialogContent" xml:space="preserve">
-    <value>Atnaujinimai paruošti diegti</value>
+    <value>Atnaujinimai paruoÅ¡ti diegti</value>
   </data>
   <data name="Close" xml:space="preserve">
-    <value>Uždaryti</value>
+    <value>UÅ¾daryti</value>
   </data>
   <data name="ConsentDialogPrimaryButtonText" xml:space="preserve">
     <value>Atnaujinti</value>
@@ -1740,28 +1746,28 @@
     <value>Namai</value>
   </data>
   <data name="ArchiveExtractionCompletedSuccessfullyText" xml:space="preserve">
-    <value>Archyvo ištraukimas sėkmingai baigtas.</value>
+    <value>Archyvo iÅ¡traukimas sÄ—kmingai baigtas.</value>
   </data>
   <data name="ExtractingArchiveText" xml:space="preserve">
-    <value>Ištraukiamas archyvas</value>
+    <value>IÅ¡traukiamas archyvas</value>
   </data>
   <data name="ExtractingCompleteText" xml:space="preserve">
-    <value>Ištraukimas baigtas!</value>
+    <value>IÅ¡traukimas baigtas!</value>
   </data>
   <data name="BaseLayoutItemContextFlyoutOpenParentFolderText" xml:space="preserve">
     <value>Open parent folder</value>
   </data>
   <data name="Unknown" xml:space="preserve">
-    <value>Nežinoma</value>
+    <value>NeÅ¾inoma</value>
   </data>
   <data name="EditTags" xml:space="preserve">
-    <value>Redaguoti žymas</value>
+    <value>Redaguoti Å¾ymas</value>
   </data>
   <data name="PropertyPartOfSet" xml:space="preserve">
     <value>Komplekto dalis</value>
   </data>
   <data name="InsertDiscDialog.OpenDriveButton" xml:space="preserve">
-    <value>Atidarykite diską</value>
+    <value>Atidarykite diskÄ…</value>
   </data>
   <data name="InsertDiscDialogText" xml:space="preserve">
     <value>Please insert a disc into drive {0}</value>
@@ -1794,52 +1800,52 @@
     <value>Vartotojo vardas</value>
   </data>
   <data name="NoSearchResultsFound" xml:space="preserve">
-    <value>Elementų nerasta</value>
+    <value>ElementÅ³ nerasta</value>
   </data>
   <data name="OpenLogLocation" xml:space="preserve">
-    <value>Atidaryti žurnalo vietą</value>
+    <value>Atidaryti Å¾urnalo vietÄ…</value>
   </data>
   <data name="LinkToFolderCaptionText" xml:space="preserve">
-    <value>Sukurti nuorodą {0}</value>
+    <value>Sukurti nuorodÄ… {0}</value>
   </data>
   <data name="Columns" xml:space="preserve">
     <value>Stulpeliai</value>
   </data>
   <data name="Cards" xml:space="preserve">
-    <value>Kortelės</value>
+    <value>KortelÄ—s</value>
   </data>
   <data name="OpenFoldersInNewTab" xml:space="preserve">
     <value>Atidarykite aplankus naujame skirtuke</value>
   </data>
   <data name="StatusCenter" xml:space="preserve">
-    <value>Būsenos centras</value>
+    <value>BÅ«senos centras</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowDateCreated.Text" xml:space="preserve">
-    <value>Sukūrimo datos stulpelis</value>
+    <value>SukÅ«rimo datos stulpelis</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowItemSize.Text" xml:space="preserve">
-    <value>Prekės dydžio stulpelis</value>
+    <value>PrekÄ—s dydÅ¾io stulpelis</value>
   </data>
   <data name="ExperimentalFeatureFlags" xml:space="preserve">
-    <value>Eksperimentinės funkcijos vėliavėlės</value>
+    <value>EksperimentinÄ—s funkcijos vÄ—liavÄ—lÄ—s</value>
   </data>
   <data name="HelpAndSupport" xml:space="preserve">
     <value>Pagalba ir palaikymas</value>
   </data>
   <data name="SubmitFeatureRequest" xml:space="preserve">
-    <value>Pateikite funkcijos užklausą</value>
+    <value>Pateikite funkcijos uÅ¾klausÄ…</value>
   </data>
   <data name="SubmitBugReport" xml:space="preserve">
-    <value>Pranesšti apie klaidą</value>
+    <value>PraneÅ¡ti apie klaidÄ…</value>
   </data>
   <data name="SettingsSetAsDefaultFileManager" xml:space="preserve">
-    <value>Nustatykite Failai kaip numatytąją failų tvarkyklę</value>
+    <value>Nustatykite Failai kaip numatytÄ…jÄ… failÅ³ tvarkyklÄ™</value>
   </data>
   <data name="SettingsSetAsOpenDialog" xml:space="preserve">
-    <value>Naudokite failus kaip atidaryto failo dialogo langą</value>
+    <value>Naudokite failus kaip atidaryto failo dialogo langÄ…</value>
   </data>
   <data name="Tag" xml:space="preserve">
-    <value>Žyma</value>
+    <value>Å½yma</value>
   </data>
   <data name="OpenFilesWithOneClick" xml:space="preserve">
     <value>Open files with a single click</value>
@@ -1854,19 +1860,19 @@
     <value>Importuoti nustatymus</value>
   </data>
   <data name="SettingsImportErrorDescription" xml:space="preserve">
-    <value>Nepavyko importuoti nustatymÅ³. NustatymÅ³ failas yra korumpuotas.</value>
+    <value>Nepavyko importuoti nustatymÃ…Â³. NustatymÃ…Â³ failas yra korumpuotas.</value>
   </data>
   <data name="SettingsImportErrorTitle" xml:space="preserve">
-    <value>Ä®vyko klaida importuojant nustatymus</value>
+    <value>Ã„Â®vyko klaida importuojant nustatymus</value>
   </data>
   <data name="EmptyRecycleBin" xml:space="preserve">
-    <value>Ištuštinkite šiukšliadėžę</value>
+    <value>IÅ¡tuÅ¡tinkite Å¡iukÅ¡liadÄ—Å¾Ä™</value>
   </data>
   <data name="Sidebar" xml:space="preserve">
-    <value>Šoninė juosta</value>
+    <value>Å oninÄ— juosta</value>
   </data>
   <data name="ChooseCustomIcon" xml:space="preserve">
-    <value>Pasirinkite tinkinto aplanko piktogramą</value>
+    <value>Pasirinkite tinkinto aplanko piktogramÄ…</value>
   </data>
   <data name="Customization" xml:space="preserve">
     <value>Tinkinimas</value>
@@ -1875,7 +1881,7 @@
     <value>Atkurti numatytuosius nustatymus</value>
   </data>
   <data name="OpenTabInExistingInstance" xml:space="preserve">
-    <value>Atidarykite skirtuką esamame egzemplioriuje, kai atidarote failus iš kitos programos</value>
+    <value>Atidarykite skirtukÄ… esamame egzemplioriuje, kai atidarote failus iÅ¡ kitos programos</value>
   </data>
   <data name="StartupSettings" xml:space="preserve">
     <value>Paleidimo nustatymai</value>
@@ -1884,13 +1890,13 @@
     <value>Suderinamumas</value>
   </data>
   <data name="None" xml:space="preserve">
-    <value>Nėra</value>
+    <value>NÄ—ra</value>
   </data>
   <data name="CompatibilityOnWindowsLogin" xml:space="preserve">
-    <value>Prisijungus prie „Windows“.</value>
+    <value>Prisijungus prie â€žWindowsâ€œ.</value>
   </data>
   <data name="CompatibilityOnProgramStart" xml:space="preserve">
-    <value>Paleiskite šią programą</value>
+    <value>Paleiskite Å¡iÄ… programÄ…</value>
   </data>
   <data name="System" xml:space="preserve">
     <value>Sistema</value>
@@ -1899,34 +1905,34 @@
     <value>Sistema (patobulinta)</value>
   </data>
   <data name="CompatibilityReducedColorModeColor16bit" xml:space="preserve">
-    <value>16 bitų (65536) spalva</value>
+    <value>16 bitÅ³ (65536) spalva</value>
   </data>
   <data name="CompatibilityReducedColorModeColor8bit" xml:space="preserve">
-    <value>8 bitų (256) spalva</value>
+    <value>8 bitÅ³ (256) spalva</value>
   </data>
   <data name="CompatibilityDisableFullscreenOptimizations" xml:space="preserve">
-    <value>Išjungti viso ekrano optimizavimą</value>
+    <value>IÅ¡jungti viso ekrano optimizavimÄ…</value>
   </data>
   <data name="CompatibilityRunIn640x480Resolution" xml:space="preserve">
-    <value>Veikia 640 x 480 ekrano raiška</value>
+    <value>Veikia 640 x 480 ekrano raiÅ¡ka</value>
   </data>
   <data name="CompatibilityOverrideHighDPIBehavior" xml:space="preserve">
     <value>Nepaisyti didelio DPI mastelio keitimo elgesio</value>
   </data>
   <data name="CompatibilityReducedColorMode" xml:space="preserve">
-    <value>Sumažintas spalvų režimas</value>
+    <value>SumaÅ¾intas spalvÅ³ reÅ¾imas</value>
   </data>
   <data name="CompatibilityRegisterThisProgramForRestart" xml:space="preserve">
-    <value>Užregistruokite šią programą, kad galėtumėte paleisti iš naujo</value>
+    <value>UÅ¾registruokite Å¡iÄ… programÄ…, kad galÄ—tumÄ—te paleisti iÅ¡ naujo</value>
   </data>
   <data name="StartWindow" xml:space="preserve">
-    <value>Pradžios langas</value>
+    <value>PradÅ¾ios langas</value>
   </data>
   <data name="NormalWindow" xml:space="preserve">
     <value>Normalus langas</value>
   </data>
   <data name="Minimized" xml:space="preserve">
-    <value>Sumažintas</value>
+    <value>SumaÅ¾intas</value>
   </data>
   <data name="Maximized" xml:space="preserve">
     <value>Maksimalus</value>
@@ -1935,7 +1941,7 @@
     <value>Vykdyti kaip administratorius</value>
   </data>
   <data name="CompatibilityRunTroubleshooter" xml:space="preserve">
-    <value>Paleiskite suderinamumo trikčių šalinimo įrankį</value>
+    <value>Paleiskite suderinamumo trikÄiÅ³ Å¡alinimo Ä¯rankÄ¯</value>
   </data>
   <data name="CompatibilityUseDPISettings" xml:space="preserve">
     <value>Naudokite pagrindinio monitoriaus DPI nustatymus</value>
@@ -1947,40 +1953,40 @@
     <value>Nepaisykite DPI</value>
   </data>
   <data name="CompatibilityMode" xml:space="preserve">
-    <value>Suderinamumo režimas</value>
+    <value>Suderinamumo reÅ¾imas</value>
   </data>
   <data name="CompatibilityNoReducedColor" xml:space="preserve">
-    <value>Nėra sumažintos spalvos</value>
+    <value>NÄ—ra sumaÅ¾intos spalvos</value>
   </data>
   <data name="ThirdPartyLibraries" xml:space="preserve">
-    <value>Trečiųjų šalių bibliotekos</value>
+    <value>TreÄiÅ³jÅ³ Å¡aliÅ³ bibliotekos</value>
   </data>
   <data name="SettingsSetAsDefaultFileManagerDescription" xml:space="preserve">
-    <value>Ši parinktis pakeičia sistemos registrą ir gali turėti netikėtų šalutinių poveikių jūsų įrenginyje. Tęskite savo rizika.</value>
+    <value>Å i parinktis pakeiÄia sistemos registrÄ… ir gali turÄ—ti netikÄ—tÅ³ Å¡alutiniÅ³ poveikiÅ³ jÅ«sÅ³ Ä¯renginyje. TÄ™skite savo rizika.</value>
   </data>
   <data name="ShowFlattenOptionsDescription" xml:space="preserve">
-    <value>Išlyginimo operacijos yra nuolatinės ir nerekomenduojamos. Tęskite savo rizika.</value>
+    <value>IÅ¡lyginimo operacijos yra nuolatinÄ—s ir nerekomenduojamos. TÄ™skite savo rizika.</value>
   </data>
   <data name="FolderWidgetCreateNewLibraryDialogTitleText" xml:space="preserve">
-    <value>Sukurti bibliotekÄ…</value>
+    <value>Sukurti bibliotekÃ„â€¦</value>
   </data>
   <data name="FolderWidgetCreateNewLibraryInputPlaceholderText" xml:space="preserve">
-    <value>Ä®veskite bibliotekos pavadinimÄ…</value>
+    <value>Ã„Â®veskite bibliotekos pavadinimÃ„â€¦</value>
   </data>
   <data name="CalculateFolderSizes" xml:space="preserve">
-    <value>Apskaičiuokite aplankų dydžius</value>
+    <value>ApskaiÄiuokite aplankÅ³ dydÅ¾ius</value>
   </data>
   <data name="RecentFiles" xml:space="preserve">
     <value>Naujausi failai</value>
   </data>
   <data name="SettingsOpenInLogin" xml:space="preserve">
-    <value>Atidarykite „Files“ paleidę „Windows“.</value>
+    <value>Atidarykite â€žFilesâ€œ paleidÄ™ â€žWindowsâ€œ.</value>
   </data>
   <data name="Attributes" xml:space="preserve">
     <value>Atributai</value>
   </data>
   <data name="Hidden" xml:space="preserve">
-    <value>Paslėpta</value>
+    <value>PaslÄ—pta</value>
   </data>
   <data name="MoreDetails" xml:space="preserve">
     <value>Daugiau informacijos</value>
@@ -1989,70 +1995,70 @@
     <value>Tik skaityti</value>
   </data>
   <data name="CleanupDrive" xml:space="preserve">
-    <value>Išvalykite disko turinį</value>
+    <value>IÅ¡valykite disko turinÄ¯</value>
   </data>
   <data name="Type" xml:space="preserve">
-    <value>Tipas/-Ä…</value>
+    <value>Tipas/-Ã„â€¦</value>
   </data>
   <data name="Bytes" xml:space="preserve">
     <value>Baitai</value>
   </data>
   <data name="Extract" xml:space="preserve">
-    <value>IÅ¡skleisti</value>
+    <value>IÃ…Â¡skleisti</value>
   </data>
   <data name="ExtractFiles" xml:space="preserve">
-    <value>IÅ¡skleisti failus</value>
+    <value>IÃ…Â¡skleisti failus</value>
   </data>
   <data name="ExtractHere" xml:space="preserve">
-    <value>IÅ¡skleisti Äia</value>
+    <value>IÃ…Â¡skleisti Ã„Âia</value>
   </data>
   <data name="ExtractKeyboardAcceleratorTextOverride" xml:space="preserve">
     <value>Vald.+E</value>
   </data>
   <data name="ExtractToChildFolder" xml:space="preserve">
-    <value>Ištrauka į {0}</value>
+    <value>IÅ¡trauka Ä¯ {0}</value>
   </data>
   <data name="RunScript" xml:space="preserve">
-    <value>Vykdykite scenarijų</value>
+    <value>Vykdykite scenarijÅ³</value>
   </data>
   <data name="RunWithPowerShell" xml:space="preserve">
-    <value>Vykdyti su â€žPowerShellâ€œ</value>
+    <value>Vykdyti su Ã¢â‚¬Å¾PowerShellÃ¢â‚¬Å“</value>
   </data>
   <data name="ShowFolderSizesWarning" xml:space="preserve">
-    <value>Aplanko dydžių skaičiavimas reikalauja daug išteklių, todėl gali padidėti procesoriaus naudojimas.</value>
+    <value>Aplanko dydÅ¾iÅ³ skaiÄiavimas reikalauja daug iÅ¡tekliÅ³, todÄ—l gali padidÄ—ti procesoriaus naudojimas.</value>
   </data>
   <data name="RotateLeft" xml:space="preserve">
-    <value>Pasukti į kairę</value>
+    <value>Pasukti Ä¯ kairÄ™</value>
   </data>
   <data name="RotateRight" xml:space="preserve">
-    <value>Pasukite į dešinę</value>
+    <value>Pasukite Ä¯ deÅ¡inÄ™</value>
   </data>
   <data name="Install" xml:space="preserve">
-    <value>Ä®diegti</value>
+    <value>Ã„Â®diegti</value>
   </data>
   <data name="CloseTabsToTheLeft" xml:space="preserve">
-    <value>Uždarykite skirtukus kairėje</value>
+    <value>UÅ¾darykite skirtukus kairÄ—je</value>
   </data>
   <data name="CloseTabsToTheRight" xml:space="preserve">
-    <value>Uždarykite skirtukus dešinėje</value>
+    <value>UÅ¾darykite skirtukus deÅ¡inÄ—je</value>
   </data>
   <data name="CloseOtherTabs" xml:space="preserve">
-    <value>Uždarykite kitus skirtukus</value>
+    <value>UÅ¾darykite kitus skirtukus</value>
   </data>
   <data name="CloseAllTabs" xml:space="preserve">
-    <value>Uždarykite visus skirtukus</value>
+    <value>UÅ¾darykite visus skirtukus</value>
   </data>
   <data name="Music" xml:space="preserve">
     <value>Muzika</value>
   </data>
   <data name="Pictures" xml:space="preserve">
-    <value>Paveikslėliai</value>
+    <value>PaveikslÄ—liai</value>
   </data>
   <data name="UpdateFiles" xml:space="preserve">
     <value>Atnaujinti failus</value>
   </data>
   <data name="FileTags" xml:space="preserve">
-    <value>Å½ymos</value>
+    <value>Ã…Â½ymos</value>
   </data>
   <data name="Universal" xml:space="preserve">
     <value>Universalus</value>
@@ -2061,16 +2067,16 @@
     <value>Pvz.: {0}, {1}</value>
   </data>
   <data name="SettingsFilesAndFoldersShowThumbnails" xml:space="preserve">
-    <value>Rodyti miniatiÅ«ras</value>
+    <value>Rodyti miniatiÃ…Â«ras</value>
   </data>
   <data name="Retry" xml:space="preserve">
-    <value>Bandykite dar kartą</value>
+    <value>Bandykite dar kartÄ…</value>
   </data>
   <data name="ErrorDialogUnsupportedMoveOperation" xml:space="preserve">
-    <value>Perkėlimo operacija šiame kontekste nepalaikoma. Ar vietoj to norite kopijuoti elementus?</value>
+    <value>PerkÄ—limo operacija Å¡iame kontekste nepalaikoma. Ar vietoj to norite kopijuoti elementus?</value>
   </data>
   <data name="HiddenItems" xml:space="preserve">
-    <value>Paslėpti daiktai</value>
+    <value>PaslÄ—pti daiktai</value>
   </data>
   <data name="Custom" xml:space="preserve">
     <value>Pasirinktinis</value>
@@ -2079,10 +2085,10 @@
     <value>Slideshow</value>
   </data>
   <data name="SetAsSlideshow" xml:space="preserve">
-    <value>Nustatyti kaip darbalaukio skaidrių demonstraciją</value>
+    <value>Nustatyti kaip darbalaukio skaidriÅ³ demonstracijÄ…</value>
   </data>
   <data name="SizeAllColumnsToFit" xml:space="preserve">
-    <value>Nustatykite visų stulpelių dydį, kad tilptų</value>
+    <value>Nustatykite visÅ³ stulpeliÅ³ dydÄ¯, kad tilptÅ³</value>
   </data>
   <data name="AutoFitColumns" xml:space="preserve">
     <value>Auto-fit columns</value>
@@ -2103,7 +2109,7 @@
     <value>Ctrl + Shift + 7</value>
   </data>
   <data name="ShowAlternateStreams" xml:space="preserve">
-    <value>Rodyti alternatyvius duomenų srautus</value>
+    <value>Rodyti alternatyvius duomenÅ³ srautus</value>
   </data>
   <data name="Behaviors" xml:space="preserve">
     <value>Elgesys</value>
@@ -2112,46 +2118,46 @@
     <value>Sveiki!</value>
   </data>
   <data name="ReviewFilesSubtitle" xml:space="preserve">
-    <value>Mėgaukitės failais? Apsvarstykite galimybę peržiūrėti „Microsoft Store“.</value>
+    <value>MÄ—gaukitÄ—s failais? Apsvarstykite galimybÄ™ perÅ¾iÅ«rÄ—ti â€žMicrosoft Storeâ€œ.</value>
   </data>
   <data name="SponsorSubtitle" xml:space="preserve">
-    <value>Mėgaukitės failais? Apsvarstykite galimybę paremti projektą „GitHub“.</value>
+    <value>MÄ—gaukitÄ—s failais? Apsvarstykite galimybÄ™ paremti projektÄ… â€žGitHubâ€œ.</value>
   </data>
   <data name="Sponsor" xml:space="preserve">
-    <value>Rėmėjas</value>
+    <value>RÄ—mÄ—jas</value>
   </data>
   <data name="RateUs" xml:space="preserve">
-    <value>Ä®vertinkite mus</value>
+    <value>Ã„Â®vertinkite mus</value>
   </data>
   <data name="Dismiss" xml:space="preserve">
     <value>Atsisakyti</value>
   </data>
   <data name="SetAsBackgroundFlyout" xml:space="preserve">
-    <value>Nustatyti kaip foną</value>
+    <value>Nustatyti kaip fonÄ…</value>
   </data>
   <data name="SetAsBackground" xml:space="preserve">
-    <value>Nustatyti kaip darbalaukio foną</value>
+    <value>Nustatyti kaip darbalaukio fonÄ…</value>
   </data>
   <data name="SetAsDefault" xml:space="preserve">
-    <value>Nustatyti kaip numatytąjį</value>
+    <value>Nustatyti kaip numatytÄ…jÄ¯</value>
   </data>
   <data name="DateColumn" xml:space="preserve">
     <value>Datos stulpelis</value>
   </data>
   <data name="DateCreatedColumn" xml:space="preserve">
-    <value>Sukūrimo datos stulpelis</value>
+    <value>SukÅ«rimo datos stulpelis</value>
   </data>
   <data name="SizeColumn" xml:space="preserve">
-    <value>Dydžio stulpelis</value>
+    <value>DydÅ¾io stulpelis</value>
   </data>
   <data name="TagColumn" xml:space="preserve">
-    <value>Žymos stulpelis</value>
+    <value>Å½ymos stulpelis</value>
   </data>
   <data name="TypeColumn" xml:space="preserve">
-    <value>Įveskite stulpelį</value>
+    <value>Ä®veskite stulpelÄ¯</value>
   </data>
   <data name="Lockscreen" xml:space="preserve">
-    <value>Užrakinimo ekranas</value>
+    <value>UÅ¾rakinimo ekranas</value>
   </data>
   <data name="OpenFolderWithOneClick" xml:space="preserve">
     <value>Atidarykite aplankus vienu paspaudimu</value>
@@ -2166,31 +2172,31 @@
     <value>Folders in Columns View</value>
   </data>
   <data name="OpeningItems" xml:space="preserve">
-    <value>Elementų atidarymas</value>
+    <value>ElementÅ³ atidarymas</value>
   </data>
   <data name="Compress" xml:space="preserve">
     <value>Suspausti</value>
   </data>
   <data name="FlattenFolderDescription" xml:space="preserve">
-    <value>Perkelkite visą turinį iš poaplankių į pasirinktą vietą</value>
+    <value>Perkelkite visÄ… turinÄ¯ iÅ¡ poaplankiÅ³ Ä¯ pasirinktÄ… vietÄ…</value>
   </data>
   <data name="FlattenFolder" xml:space="preserve">
-    <value>Išlyginti aplanką</value>
+    <value>IÅ¡lyginti aplankÄ…</value>
   </data>
   <data name="Flatten" xml:space="preserve">
-    <value>Išlyginti</value>
+    <value>IÅ¡lyginti</value>
   </data>
   <data name="FlattenFolderDialogContent" xml:space="preserve">
-    <value>Išlyginus aplanką, visas jo poaplankių turinys bus perkeltas į pasirinktą vietą. Ši operacija yra nuolatinė ir jos anuliuoti negalima. Naudodami šią eksperimentinę funkciją pripažįstate riziką ir sutinkate nelaikyti Failų komandos atsakinga už duomenų praradimą.</value>
+    <value>IÅ¡lyginus aplankÄ…, visas jo poaplankiÅ³ turinys bus perkeltas Ä¯ pasirinktÄ… vietÄ…. Å i operacija yra nuolatinÄ— ir jos anuliuoti negalima. Naudodami Å¡iÄ… eksperimentinÄ™ funkcijÄ… pripaÅ¾Ä¯state rizikÄ… ir sutinkate nelaikyti FailÅ³ komandos atsakinga uÅ¾ duomenÅ³ praradimÄ….</value>
   </data>
   <data name="ShowFlattenOptions" xml:space="preserve">
-    <value>Rodyti išlyginimo parinktis</value>
+    <value>Rodyti iÅ¡lyginimo parinktis</value>
   </data>
   <data name="SelectFilesAndFoldersOnHover" xml:space="preserve">
-    <value>Užvesdami pelės žymeklį virš jų pasirinkite failus ir aplankus</value>
+    <value>UÅ¾vesdami pelÄ—s Å¾ymeklÄ¯ virÅ¡ jÅ³ pasirinkite failus ir aplankus</value>
   </data>
   <data name="ConfirmRestoreBinDialogContent" xml:space="preserve">
-    <value>Ar tikrai norite atkurti visus šiukšliadėžėje esančius elementus?</value>
+    <value>Ar tikrai norite atkurti visus Å¡iukÅ¡liadÄ—Å¾Ä—je esanÄius elementus?</value>
   </data>
   <data name="ConfirmRestoreBinDialogTitle" xml:space="preserve">
     <value>Atkurti visus elementus</value>
@@ -2199,7 +2205,7 @@
     <value>Do you want to restore the {0, plural, one {selected item} other {{0} selected items}}?</value>
   </data>
   <data name="ConfirmRestoreSelectionBinDialogTitle" xml:space="preserve">
-    <value>Atkurti pasirinkimą</value>
+    <value>Atkurti pasirinkimÄ…</value>
   </data>
   <data name="RestoreAllItems" xml:space="preserve">
     <value>Atkurti visus elementus</value>
@@ -2208,16 +2214,16 @@
     <value>Atkurti</value>
   </data>
   <data name="ShortcutCannotBeOpened" xml:space="preserve">
-    <value>Spartusis klavišas negali būti atidarytas</value>
+    <value>Spartusis klaviÅ¡as negali bÅ«ti atidarytas</value>
   </data>
   <data name="DeleteShortcutDescription" xml:space="preserve">
-    <value>Tikslinės paskirties vietos nepavyko rasti {0}. Ar norite ištrinti šį spartųjį klavišą?</value>
+    <value>TikslinÄ—s paskirties vietos nepavyko rasti {0}. Ar norite iÅ¡trinti Å¡Ä¯ spartÅ³jÄ¯ klaviÅ¡Ä…?</value>
   </data>
   <data name="AccessDeniedToFolder" xml:space="preserve">
-    <value>Neturite leidimo pasiekti šio aplanko.</value>
+    <value>Neturite leidimo pasiekti Å¡io aplanko.</value>
   </data>
   <data name="ArchivePassword" xml:space="preserve">
-    <value>Archyvuoti slaptažodį</value>
+    <value>Archyvuoti slaptaÅ¾odÄ¯</value>
   </data>
   <data name="Encoding" xml:space="preserve">
     <value>Kodavimas</value>
@@ -2229,10 +2235,10 @@
     <value>Kelias</value>
   </data>
   <data name="SortingAndGrouping" xml:space="preserve">
-    <value>Rūšiavimas ir grupavimas</value>
+    <value>RÅ«Å¡iavimas ir grupavimas</value>
   </data>
   <data name="CreateArchive" xml:space="preserve">
-    <value>Sukurti archyvą</value>
+    <value>Sukurti archyvÄ…</value>
   </data>
   <data name="CompressSkippedItemsDialogTitle" xml:space="preserve">
     <value>Some items can't be compressed</value>
@@ -2241,10 +2247,10 @@
     <value>The following {0, plural, one {item} other {items}} can''t be compressed. Would you like to skip {0, plural, one {this item} other {these items}}?</value>
   </data>
   <data name="CompressIntoZip" xml:space="preserve">
-    <value>Create zip archive</value>
+    <value>Sukurti zip archyvÄ…</value>
   </data>
   <data name="CompressIntoSevenZip" xml:space="preserve">
-    <value>Create 7z archive</value>
+    <value>Sukurti 7z archyvÄ…</value>
   </data>
   <data name="Create" xml:space="preserve">
     <value>Sukurti</value>
@@ -2253,7 +2259,7 @@
     <value>Sukurti {0}</value>
   </data>
   <data name="EnterName" xml:space="preserve">
-    <value>Ä®veskite pavadinimÄ…</value>
+    <value>Ã„Â®veskite pavadinimÃ„â€¦</value>
   </data>
   <data name="CompressionLevel" xml:space="preserve">
     <value>Suspaudimo lygis</value>
@@ -2262,19 +2268,19 @@
     <value>Ultra</value>
   </data>
   <data name="CompressionLevelHigh" xml:space="preserve">
-    <value>Aukštas</value>
+    <value>AukÅ¡tas</value>
   </data>
   <data name="CompressionLevelNormal" xml:space="preserve">
     <value>Normalus</value>
   </data>
   <data name="CompressionLevelLow" xml:space="preserve">
-    <value>Žemas</value>
+    <value>Å½emas</value>
   </data>
   <data name="CompressionLevelFast" xml:space="preserve">
     <value>Greitai</value>
   </data>
   <data name="CompressionLevelNone" xml:space="preserve">
-    <value>Nėra</value>
+    <value>NÄ—ra</value>
   </data>
   <data name="SplittingSize" xml:space="preserve">
     <value>Padalijimo dydis</value>
@@ -2286,10 +2292,10 @@
     <value>Automatinis</value>
   </data>
   <data name="DictionarySize" xml:space="preserve">
-    <value>Å½odyno dydis</value>
+    <value>Ã…Â½odyno dydis</value>
   </data>
   <data name="WordSize" xml:space="preserve">
-    <value>Å½odÅ¾io dydis</value>
+    <value>Ã…Â½odÃ…Â¾io dydis</value>
   </data>
   <data name="EstimatedMemoryUsage" xml:space="preserve">
     <value>Numatomas atminties naudojimas: {0}</value>
@@ -2304,103 +2310,103 @@
     <value>DVD</value>
   </data>
   <data name="FAT" xml:space="preserve">
-    <value>â€žFATâ€œ</value>
+    <value>Ã¢â‚¬Å¾FATÃ¢â‚¬Å“</value>
   </data>
   <data name="Bluray" xml:space="preserve">
-    <value>â€žBlu-rayâ€œ</value>
+    <value>Ã¢â‚¬Å¾Blu-rayÃ¢â‚¬Å“</value>
   </data>
   <data name="Encryption" xml:space="preserve">
-    <value>Å ifravimas</value>
+    <value>Ã…Â ifravimas</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value>SlaptaÅ¾odis</value>
+    <value>SlaptaÃ…Â¾odis</value>
   </data>
   <data name="Format" xml:space="preserve">
     <value>Formatas</value>
   </data>
   <data name="DetailsViewHeaderFlyout_ShowSyncStatus.Text" xml:space="preserve">
-    <value>Sinchronizavimo būsenos stulpelis</value>
+    <value>Sinchronizavimo bÅ«senos stulpelis</value>
   </data>
   <data name="GroupBy" xml:space="preserve">
     <value>Grupuoti pagal</value>
   </data>
   <data name="SortBy" xml:space="preserve">
-    <value>Rūšiuoti pagal</value>
+    <value>RÅ«Å¡iuoti pagal</value>
   </data>
   <data name="GroupInDescendingOrder" xml:space="preserve">
-    <value>Grupuoti mažėjančia tvarka</value>
+    <value>Grupuoti maÅ¾Ä—janÄia tvarka</value>
   </data>
   <data name="SortInDescendingOrder" xml:space="preserve">
-    <value>Rūšiuoti mažėjančia tvarka</value>
+    <value>RÅ«Å¡iuoti maÅ¾Ä—janÄia tvarka</value>
   </data>
   <data name="NewShortcutDialogTitle" xml:space="preserve">
-    <value>Sukurkite naują nuorodą</value>
+    <value>Sukurkite naujÄ… nuorodÄ…</value>
   </data>
   <data name="NewShortcutDialogDescription" xml:space="preserve">
-    <value>Kurkite nuorodas į vietines arba tinklo programas, failus, aplankus, kompiuterius ar interneto adresus.</value>
+    <value>Kurkite nuorodas Ä¯ vietines arba tinklo programas, failus, aplankus, kompiuterius ar interneto adresus.</value>
   </data>
   <data name="NewShortcutDialogPrompt" xml:space="preserve">
-    <value>Įveskite prekės vietą:</value>
+    <value>Ä®veskite prekÄ—s vietÄ…:</value>
   </data>
   <data name="AddDialogListShortcutSubHeader" xml:space="preserve">
-    <value>Sukuria nuorodÄ…</value>
+    <value>Sukuria nuorodÃ„â€¦</value>
   </data>
   <data name="RecentFilesDisabledOnWindowsWarning" xml:space="preserve">
-    <value>Neseniai naudoti failai šiuo metu yra išjungti „Windows File Explorer“.</value>
+    <value>Neseniai naudoti failai Å¡iuo metu yra iÅ¡jungti â€žWindows File Explorerâ€œ.</value>
   </data>
   <data name="EditSettingsFile" xml:space="preserve">
-    <value>Redaguoti nustatymÅ³ failÄ…</value>
+    <value>Redaguoti nustatymÃ…Â³ failÃ„â€¦</value>
   </data>
   <data name="EditSettingsFileDescription" xml:space="preserve">
-    <value>Atidarykite nustatymų failą numatytojoje redagavimo priemonėje</value>
+    <value>Atidarykite nustatymÅ³ failÄ… numatytojoje redagavimo priemonÄ—je</value>
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
-    <value>Išleidimo pastabos</value>
+    <value>IÅ¡leidimo pastabos</value>
   </data>
   <data name="ReleaseNotesDescription" xml:space="preserve">
     <value>Atidarykite laidos pastabas</value>
   </data>
   <data name="CannotCreateShortcutDialogTitle" xml:space="preserve">
-    <value>Norint sukurti nuorodą šioje vietoje, reikia administratoriaus teisių</value>
+    <value>Norint sukurti nuorodÄ… Å¡ioje vietoje, reikia administratoriaus teisiÅ³</value>
   </data>
   <data name="CannotCreateShortcutDialogMessage" xml:space="preserve">
-    <value>Ar norėtumėte sukurti spartųjį klavišą darbalaukyje?</value>
+    <value>Ar norÄ—tumÄ—te sukurti spartÅ³jÄ¯ klaviÅ¡Ä… darbalaukyje?</value>
   </data>
   <data name="ErrorDialogNameNotAllowed" xml:space="preserve">
     <value>Nurodytas elemento pavadinimas neteisingas</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Nustatymas</value>
+    <value>Nustatymai</value>
   </data>
   <data name="DoubleClickBlankSpaceToGoUp" xml:space="preserve">
-    <value>Dukart spustelėkite tuščią vietą, kad pakiltumėte vienu katalogu</value>
+    <value>Dukart spustelÄ—kite tuÅ¡ÄiÄ… vietÄ…, kad pakiltumÄ—te vienu katalogu</value>
   </data>
   <data name="ViewMore" xml:space="preserve">
-    <value>Žiūrėti daugiau</value>
+    <value>Å½iÅ«rÄ—ti daugiau</value>
   </data>
   <data name="ShowEditTagsMenu" xml:space="preserve">
-    <value>Rodyti redagavimo žymas</value>
+    <value>Rodyti redagavimo Å¾ymas</value>
   </data>
   <data name="ShowCompressionOptions" xml:space="preserve">
     <value>Rodyti suspaudimo parinktis</value>
   </data>
   <data name="ShowSendToMenu" xml:space="preserve">
-    <value>Rodyti siuntimo į meniu</value>
+    <value>Rodyti siuntimo Ä¯ meniu</value>
   </data>
   <data name="ShowOpenInNewTab" xml:space="preserve">
-    <value>Rodyti parinktį atidaryti aplankus naujame skirtuke</value>
+    <value>Rodyti parinktÄ¯ atidaryti aplankus naujame skirtuke</value>
   </data>
   <data name="ShowOpenInNewWindow" xml:space="preserve">
-    <value>Rodyti parinktį atidaryti aplankus naujame lange</value>
+    <value>Rodyti parinktÄ¯ atidaryti aplankus naujame lange</value>
   </data>
   <data name="QuickAccess" xml:space="preserve">
     <value>Greita prieiga</value>
   </data>
   <data name="NetworkAuthenticationDialogMessage" xml:space="preserve">
-    <value>Įveskite savo kredencialus, kad prisijungtumėte prie: {0}</value>
+    <value>Ä®veskite savo kredencialus, kad prisijungtumÄ—te prie: {0}</value>
   </data>
   <data name="NetworkAuthenticationDialogTitle" xml:space="preserve">
-    <value>Įveskite tinklo kredencialus</value>
+    <value>Ä®veskite tinklo kredencialus</value>
   </data>
   <data name="NetworkAuthenticationSaveCheckbox" xml:space="preserve">
     <value>Prisiminkite mano kredencialus</value>
@@ -2412,34 +2418,34 @@
     <value>Programos versija</value>
   </data>
   <data name="WindowsVersion" xml:space="preserve">
-    <value>â€žWindowsâ€œ versija</value>
+    <value>Ã¢â‚¬Å¾WindowsÃ¢â‚¬Å“ versija</value>
   </data>
   <data name="Always" xml:space="preserve">
     <value>Visada</value>
   </data>
   <data name="PermanentDeletionOnly" xml:space="preserve">
-    <value>Tik visam laikui ištrynimas</value>
+    <value>Tik visam laikui iÅ¡trynimas</value>
   </data>
   <data name="Never" xml:space="preserve">
     <value>Niekada</value>
   </data>
   <data name="TagColor" xml:space="preserve">
-    <value>Žymės spalva</value>
+    <value>Å½ymÄ—s spalva</value>
   </data>
   <data name="NewTag" xml:space="preserve">
-    <value>Nauja žyma</value>
+    <value>Nauja Å¾yma</value>
   </data>
   <data name="CreateNewTag" xml:space="preserve">
-    <value>Sukurti naują žymą</value>
+    <value>Sukurti naujÄ… Å¾ymÄ…</value>
   </data>
   <data name="Loading" xml:space="preserve">
-    <value>Įkeliama...</value>
+    <value>Ä®keliama...</value>
   </data>
   <data name="ContextMenuOptions" xml:space="preserve">
     <value>Kontekstinio meniu parinktys</value>
   </data>
   <data name="ShowFileExtensions" xml:space="preserve">
-    <value>Failų plėtiniai</value>
+    <value>FailÅ³ plÄ—tiniai</value>
   </data>
   <data name="FormatDriveText" xml:space="preserve">
     <value>Formatas</value>
@@ -2451,79 +2457,79 @@
     <value>Visas ekranas</value>
   </data>
   <data name="ConfirmDeleteTag" xml:space="preserve">
-    <value>Ar tikrai norite ištrinti šią žymą?</value>
+    <value>Ar tikrai norite iÅ¡trinti Å¡iÄ… Å¾ymÄ…?</value>
   </data>
   <data name="PlayAll" xml:space="preserve">
     <value>Play All</value>
   </data>
   <data name="Play" xml:space="preserve">
-    <value>Play</value>
+    <value>Groti</value>
   </data>
   <data name="Height" xml:space="preserve">
-    <value>Aukštis</value>
+    <value>AukÅ¡tis</value>
   </data>
   <data name="Width" xml:space="preserve">
     <value>Plotis</value>
   </data>
   <data name="ApplyToAllConflictingItems" xml:space="preserve">
-    <value>Taikykite šį veiksmą visiems nesuderinamiems elementams</value>
+    <value>Taikykite Å¡Ä¯ veiksmÄ… visiems nesuderinamiems elementams</value>
   </data>
   <data name="OpenTerminal" xml:space="preserve">
-    <value>Atidarykite „Windows“ terminale</value>
+    <value>Atidarykite â€žWindowsâ€œ terminale</value>
   </data>
   <data name="OpenTerminalAsAdmin" xml:space="preserve">
-    <value>Atidarykite „Windows“ terminale kaip administratorius</value>
+    <value>Atidarykite â€žWindowsâ€œ terminale kaip administratorius</value>
   </data>
   <data name="Save" xml:space="preserve">
-    <value>IÅ¡saugoti</value>
+    <value>IÃ…Â¡saugoti</value>
   </data>
   <data name="MultiSelect" xml:space="preserve">
     <value>Keli pasirinkimai</value>
   </data>
   <data name="ReorderSidebarItemsDialogText" xml:space="preserve">
-    <value>Pertvarkykite šoninės juostos elementus</value>
+    <value>Pertvarkykite Å¡oninÄ—s juostos elementus</value>
   </data>
   <data name="Hashes" xml:space="preserve">
-    <value>Maišos</value>
+    <value>MaiÅ¡os</value>
   </data>
   <data name="CalculationError" xml:space="preserve">
-    <value>Skaičiuojant įvyko klaida</value>
+    <value>SkaiÄiuojant Ä¯vyko klaida</value>
   </data>
   <data name="CalculationErrorFileIsOpen" xml:space="preserve">
-    <value>Nepavyko apskaičiuoti maišos, uždarykite failą ir bandykite dar kartą.</value>
+    <value>Nepavyko apskaiÄiuoti maiÅ¡os, uÅ¾darykite failÄ… ir bandykite dar kartÄ….</value>
   </data>
   <data name="CalculationOnlineFileHashError" xml:space="preserve">
-    <value>Internetinių failų maišos negalima</value>
+    <value>InternetiniÅ³ failÅ³ maiÅ¡os negalima</value>
   </data>
   <data name="Algorithm" xml:space="preserve">
     <value>Algoritmas</value>
   </data>
   <data name="HashValue" xml:space="preserve">
-    <value>Maišos vertė</value>
+    <value>MaiÅ¡os vertÄ—</value>
   </data>
   <data name="SelectHashesToShow" xml:space="preserve">
-    <value>Pasirinkite maišą, kurią norite rodyti</value>
+    <value>Pasirinkite maiÅ¡Ä…, kuriÄ… norite rodyti</value>
   </data>
   <data name="Calculating" xml:space="preserve">
-    <value>ApskaiÄiuojama...</value>
+    <value>ApskaiÃ„Âiuojama...</value>
   </data>
   <data name="JumpListPinnedGroupHeader" xml:space="preserve">
     <value>Prisegti elementai</value>
   </data>
   <data name="DecreaseSize" xml:space="preserve">
-    <value>Sumažinti dydį</value>
+    <value>SumaÅ¾inti dydÄ¯</value>
   </data>
   <data name="IncreaseSize" xml:space="preserve">
-    <value>Padidinti dydį</value>
+    <value>Padidinti dydÄ¯</value>
   </data>
   <data name="ToggleSortDirection" xml:space="preserve">
-    <value>Rūšiavimo kryptis</value>
+    <value>RÅ«Å¡iavimo kryptis</value>
   </data>
   <data name="InvalidTagNameWarning" xml:space="preserve">
     <value>Neteisingas pavadinimas</value>
   </data>
   <data name="TagNameRules" xml:space="preserve">
-    <value>Pavadinimo laukas negali būti tuščias ir negali prasidėti ar baigtis tašku.</value>
+    <value>Pavadinimo laukas negali bÅ«ti tuÅ¡Äias ir negali prasidÄ—ti ar baigtis taÅ¡ku.</value>
   </data>
   <data name="Categories" xml:space="preserve">
     <value>Categories</value>
@@ -2546,28 +2552,28 @@
   <data name="CategoryNameRules" xml:space="preserve">
     <value>Name must not be empty or start or end with a period.</value>
   </data><data name="Videos" xml:space="preserve">
-    <value>Vaizdo Ä¯raÅ¡ai</value>
+    <value>Vaizdo Ã„Â¯raÃ…Â¡ai</value>
   </data>
   <data name="LaunchPreviewPopup" xml:space="preserve">
-    <value>Iššokantis peržiūros langas</value>
+    <value>IÅ¡Å¡okantis perÅ¾iÅ«ros langas</value>
   </data>
   <data name="ToggleCompactOverlay" xml:space="preserve">
-    <value>Perjungti kompaktišką perdangą</value>
+    <value>Perjungti kompaktiÅ¡kÄ… perdangÄ…</value>
   </data>
   <data name="OpenHelpDescription" xml:space="preserve">
-    <value>Naršyklėje atidarykite internetinį pagalbos puslapį</value>
+    <value>NarÅ¡yklÄ—je atidarykite internetinÄ¯ pagalbos puslapÄ¯</value>
   </data>
   <data name="ToggleFullScreenDescription" xml:space="preserve">
-    <value>Perjungti viso ekrano režimą</value>
+    <value>Perjungti viso ekrano reÅ¾imÄ…</value>
   </data>
   <data name="EnterCompactOverlayDescription" xml:space="preserve">
-    <value>Įjunkite kompaktiško perdangos režimą</value>
+    <value>Ä®junkite kompaktiÅ¡ko perdangos reÅ¾imÄ…</value>
   </data>
   <data name="ExitCompactOverlayDescription" xml:space="preserve">
-    <value>Išjunkite kompaktiškos perdangos režimą</value>
+    <value>IÅ¡junkite kompaktiÅ¡kos perdangos reÅ¾imÄ…</value>
   </data>
   <data name="ToggleCompactOverlayDescription" xml:space="preserve">
-    <value>Perjungti kompaktišką perdangos režimą</value>
+    <value>Perjungti kompaktiÅ¡kÄ… perdangos reÅ¾imÄ…</value>
   </data>
   <data name="ToggleTheme" xml:space="preserve">
     <value>Toggle Theme</value>
@@ -2585,76 +2591,76 @@
     <value>Switch to System Theme</value>
   </data>
   <data name="SearchDescription" xml:space="preserve">
-    <value>Pradėkite paiešką „OmniBar“.</value>
+    <value>PradÄ—kite paieÅ¡kÄ… â€žOmniBarâ€œ.</value>
   </data>
   <data name="ToggleShowHiddenItemsDescription" xml:space="preserve">
-    <value>Perjungti paslėptų elementų matomumą</value>
+    <value>Perjungti paslÄ—ptÅ³ elementÅ³ matomumÄ…</value>
   </data>
   <data name="ToggleDotFilesSettingDescription" xml:space="preserve">
-    <value>Perjungti taškų failų matomumą</value>
+    <value>Perjungti taÅ¡kÅ³ failÅ³ matomumÄ…</value>
   </data>
   <data name="ToggleShowFileExtensionsDescription" xml:space="preserve">
-    <value>Perjungti failų plėtinių matomumą</value>
+    <value>Perjungti failÅ³ plÄ—tiniÅ³ matomumÄ…</value>
   </data>
   <data name="TogglePreviewPaneDescription" xml:space="preserve">
-    <value>Perjunkite peržiūros sritį, kad peržiūrėtumėte failų peržiūras</value>
+    <value>Perjunkite perÅ¾iÅ«ros sritÄ¯, kad perÅ¾iÅ«rÄ—tumÄ—te failÅ³ perÅ¾iÅ«ras</value>
   </data>
   <data name="ToggleSidebarDescription" xml:space="preserve">
-    <value>Perjungti, ar rodyti šoninę juostą</value>
+    <value>Perjungti, ar rodyti Å¡oninÄ™ juostÄ…</value>
   </data>
   <data name="CopyItemDescription" xml:space="preserve">
     <value>Kopijuoti selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="CopyPathDescription" xml:space="preserve">
-    <value>Nukopijuokite dabartinio katalogo kelią</value>
+    <value>Nukopijuokite dabartinio katalogo keliÄ…</value>
   </data>
   <data name="CopyItemPathDescription" xml:space="preserve">
-    <value>Nukopijuokite pasirinktų elementų kelią</value>
+    <value>Nukopijuokite pasirinktÅ³ elementÅ³ keliÄ…</value>
   </data>
   <data name="CopyItemPathWithQuotesDescription" xml:space="preserve">
-    <value>Nukopijuokite pasirinktų elementų kelią su kabutėmis</value>
+    <value>Nukopijuokite pasirinktÅ³ elementÅ³ keliÄ… su kabutÄ—mis</value>
   </data>
   <data name="CopyPathWithQuotesDescription" xml:space="preserve">
-    <value>Nukopijuokite dabartinio katalogo kelią su kabutėmis</value>
+    <value>Nukopijuokite dabartinio katalogo keliÄ… su kabutÄ—mis</value>
   </data>
   <data name="CutItemDescription" xml:space="preserve">
-    <value>Iškirpti selected {0, plural, one {item} other {elementus}}</value>
+    <value>IÅ¡kirpti selected {0, plural, one {item} other {elementus}}</value>
   </data>
   <data name="PasteItemDescription" xml:space="preserve">
-    <value>Įklijuokite elementus į dabartinį aplanką</value>
+    <value>Ä®klijuokite elementus Ä¯ dabartinÄ¯ aplankÄ…</value>
   </data>
   <data name="PasteShortcutDescription" xml:space="preserve">
-    <value>Įklijuokite elementus į dabartinį aplanką kaip nuorodas</value>
+    <value>Ä®klijuokite elementus Ä¯ dabartinÄ¯ aplankÄ… kaip nuorodas</value>
   </data>
   <data name="PasteItemToSelectionDescription" xml:space="preserve">
-    <value>Įklijuokite elementus į pasirinktą aplanką</value>
+    <value>Ä®klijuokite elementus Ä¯ pasirinktÄ… aplankÄ…</value>
   </data>
   <data name="PasteToSelectedFolder" xml:space="preserve">
-    <value>Įklijuoti į pasirinktą aplanką</value>
+    <value>Ä®klijuoti Ä¯ pasirinktÄ… aplankÄ…</value>
   </data>
   <data name="DeleteItemDescription" xml:space="preserve">
-    <value>Ištrinti selected {0, plural, one {item} other {items}}</value>
+    <value>IÅ¡trinti selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="CreateFolderDescription" xml:space="preserve">
-    <value>Sukurti naują aplanką</value>
+    <value>Sukurti naujÄ… aplankÄ…</value>
   </data>
   <data name="CreateShortcutDescription" xml:space="preserve">
     <value>Create new {0, plural, one {shortcut} other {shortcuts}} to selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="CreateShortcutFromDialogDescription" xml:space="preserve">
-    <value>Sukurkite naują bet kurio elemento nuorodą</value>
+    <value>Sukurkite naujÄ… bet kurio elemento nuorodÄ…</value>
   </data>
   <data name="EmptyRecycleBinDescription" xml:space="preserve">
-    <value>Ištuštinkite šiukšliadėžės turinį</value>
+    <value>IÅ¡tuÅ¡tinkite Å¡iukÅ¡liadÄ—Å¾Ä—s turinÄ¯</value>
   </data>
   <data name="FormatDriveDescription" xml:space="preserve">
-    <value>Atidarykite pasirinkto elemento meniu „Formatuoti diską“.</value>
+    <value>Atidarykite pasirinkto elemento meniu â€žFormatuoti diskÄ…â€œ.</value>
   </data>
   <data name="RestoreRecycleBinDescription" xml:space="preserve">
     <value>Restore selected {0, plural, one {item} other {items}} from recycle bin</value>
   </data>
   <data name="RestoreAllRecycleBinDescription" xml:space="preserve">
-    <value>Atkurkite visus elementus iš šiukšliadėžės</value>
+    <value>Atkurkite visus elementus iÅ¡ Å¡iukÅ¡liadÄ—Å¾Ä—s</value>
   </data>
   <data name="OpenItemDescription" xml:space="preserve">
     <value>Open {0, plural, one {item} other {items}}</value>
@@ -2663,13 +2669,13 @@
     <value>Open {0, plural, one {item} other {items}} su pasirinkta programa</value>
   </data>
   <data name="OpenParentFolderDescription" xml:space="preserve">
-    <value>Atidaryti pirminį ieškomo elemento aplanką</value>
+    <value>Atidaryti pirminÄ¯ ieÅ¡komo elemento aplankÄ…</value>
   </data>
   <data name="RefreshItemsDescription" xml:space="preserve">
-    <value>Atnaujinkite puslapio turinį</value>
+    <value>Atnaujinkite puslapio turinÄ¯</value>
   </data>
   <data name="RenameDescription" xml:space="preserve">
-    <value>Pervardykite pasirinktą elementą</value>
+    <value>Pervardykite pasirinktÄ… elementÄ…</value>
   </data>
   <data name="SelectAllDescription" xml:space="preserve">
     <value>Pasirinkite visus elementus</value>
@@ -2678,49 +2684,49 @@
     <value>Apverskite pasirinktus elementus</value>
   </data>
   <data name="ClearSelectionDescription" xml:space="preserve">
-    <value>Išvalyti pasirinktus elementus</value>
+    <value>IÅ¡valyti pasirinktus elementus</value>
   </data>
   <data name="ToggleSelectDescription" xml:space="preserve">
-    <value>Perjungti elemento pasirinkimą</value>
+    <value>Perjungti elemento pasirinkimÄ…</value>
   </data>
   <data name="ShareItemDescription" xml:space="preserve">
-    <value>Bendrinkite selected {0, plural, one {failą} other {failus}} su kitais</value>
+    <value>Bendrinkite selected {0, plural, one {failÄ…} other {failus}} su kitais</value>
   </data>
   <data name="PinToStartDescription" xml:space="preserve">
-    <value>Pin {0, plural, one {item} other {items}} į meniu Pradėti</value>
+    <value>Pin {0, plural, one {item} other {items}} Ä¯ meniu PradÄ—ti</value>
   </data>
   <data name="UnpinFromStartDescription" xml:space="preserve">
-    <value>Unpin {0, plural, one {item} other {items}} iš meniu Pradėti</value>
+    <value>Unpin {0, plural, one {item} other {items}} iÅ¡ meniu PradÄ—ti</value>
   </data>
   <data name="PinFolderToSidebarDescription" xml:space="preserve">
-    <value>Pin {0, plural, one {folder} other {aplankai}} į šoninę juostą</value>
+    <value>Pin {0, plural, one {folder} other {aplankai}} Ä¯ Å¡oninÄ™ juostÄ…</value>
   </data>
   <data name="UnpinFolderFromSidebarDescription" xml:space="preserve">
-    <value>Unpin {0, plural, one {aplankas} other {folders}} iš šoninės juostos</value>
+    <value>Unpin {0, plural, one {aplankas} other {folders}} iÅ¡ Å¡oninÄ—s juostos</value>
   </data>
   <data name="SetAsWallpaperBackgroundDescription" xml:space="preserve">
-    <value>Nustatyti pasirinktą paveikslėlį kaip darbalaukio foną</value>
+    <value>Nustatyti pasirinktÄ… paveikslÄ—lÄ¯ kaip darbalaukio fonÄ…</value>
   </data>
   <data name="SetAsSlideshowBackgroundDescription" xml:space="preserve">
-    <value>Nustatyti pasirinktas nuotraukas kaip darbalaukio skaidrių demonstraciją</value>
+    <value>Nustatyti pasirinktas nuotraukas kaip darbalaukio skaidriÅ³ demonstracijÄ…</value>
   </data>
   <data name="SetAsLockscreenBackgroundDescription" xml:space="preserve">
-    <value>Nustatykite pasirinktą paveikslėlį kaip užrakinimo ekrano foną</value>
+    <value>Nustatykite pasirinktÄ… paveikslÄ—lÄ¯ kaip uÅ¾rakinimo ekrano fonÄ…</value>
   </data>
   <data name="SetAsAppBackgroundDescription" xml:space="preserve">
-    <value>Nustatykite pasirinktą paveikslėlį kaip programos foną</value>
+    <value>Nustatykite pasirinktÄ… paveikslÄ—lÄ¯ kaip programos fonÄ…</value>
   </data>
   <data name="InstallFont" xml:space="preserve">
-    <value>Ä®diegti Å¡riftÄ…</value>
+    <value>Ã„Â®diegti Ã…Â¡riftÃ„â€¦</value>
   </data>
   <data name="InstallDriver" xml:space="preserve">
-    <value>Ä®diegti tvarkyklÄ™</value>
+    <value>Ã„Â®diegti tvarkyklÃ„â„¢</value>
   </data>
   <data name="InstallCertificate" xml:space="preserve">
-    <value>Ä®diegti sertifikatÄ…</value>
+    <value>Ã„Â®diegti sertifikatÃ„â€¦</value>
   </data>
   <data name="InstallFontDescription" xml:space="preserve">
-    <value>Įdiekite selected {0, plural, one {font} other {fonts}}</value>
+    <value>Ä®diekite selected {0, plural, one {font} other {fonts}}</value>
   </data>
   <data name="InstallInfDriverDescription" xml:space="preserve">
     <value>Install {0, plural, one {driver} other {drivers}} using selected inf {0, plural, one {file} other {files}}</value>
@@ -2729,16 +2735,16 @@
     <value>Install selected {0, plural, one {certificate} other {certificates}}</value>
   </data>
   <data name="RunAsAdminDescription" xml:space="preserve">
-    <value>Paleiskite pasirinktą programą kaip administratorių</value>
+    <value>Paleiskite pasirinktÄ… programÄ… kaip administratoriÅ³</value>
   </data>
   <data name="RunAsAnotherUserDescription" xml:space="preserve">
-    <value>Paleiskite pasirinktą programą kaip kitą vartotoją</value>
+    <value>Paleiskite pasirinktÄ… programÄ… kaip kitÄ… vartotojÄ…</value>
   </data>
   <data name="RunWithPowershellDescription" xml:space="preserve">
-    <value>Paleiskite pasirinktą „PowerShell“ scenarijų</value>
+    <value>Paleiskite pasirinktÄ… â€žPowerShellâ€œ scenarijÅ³</value>
   </data>
   <data name="LaunchPreviewPopupDescription" xml:space="preserve">
-    <value>Iššokančiajame lange paleiskite peržiūrą</value>
+    <value>IÅ¡Å¡okanÄiajame lange paleiskite perÅ¾iÅ«rÄ…</value>
   </data>
   <data name="CompressIntoArchiveDescription" xml:space="preserve">
     <value>Create archive with selected {0, plural, one {item} other {items}}</value>
@@ -2750,13 +2756,13 @@
     <value>Create zip archive with selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="DecompressArchiveDescription" xml:space="preserve">
-    <value>Ištrauka selected {0, plural, one {archyvas} other {archives}} į bet kurį aplanką</value>
+    <value>IÅ¡trauka selected {0, plural, one {archyvas} other {archives}} Ä¯ bet kurÄ¯ aplankÄ…</value>
   </data>
   <data name="DecompressArchiveHereDescription" xml:space="preserve">
-    <value>Ištrauka selected {0, plural, one {archyvas} other {archives}} į dabartinį aplanką</value>
+    <value>IÅ¡trauka selected {0, plural, one {archyvas} other {archives}} Ä¯ dabartinÄ¯ aplankÄ…</value>
   </data>
   <data name="DecompressArchiveToChildFolderDescription" xml:space="preserve">
-    <value>Ištrauka selected {0, plural, one {archyvas} other {archives}} į naują aplanką</value>
+    <value>IÅ¡trauka selected {0, plural, one {archyvas} other {archives}} Ä¯ naujÄ… aplankÄ…</value>
   </data>
   <data name="RotateLeftDescription" xml:space="preserve">
     <value>Rotate selected {0, plural, one {image} other {images}} to the left</value>
@@ -2765,172 +2771,172 @@
     <value>Rotate selected {0, plural, one {image} other {images}} to the right</value>
   </data>
   <data name="OpenSettingsDescription" xml:space="preserve">
-    <value>Atidaryti nustatymÅ³ puslapÄ¯</value>
+    <value>Atidaryti nustatymÃ…Â³ puslapÃ„Â¯</value>
   </data>
   <data name="OpenTerminalDescription" xml:space="preserve">
-    <value>Atidarykite aplanką terminale</value>
+    <value>Atidarykite aplankÄ… terminale</value>
   </data>
   <data name="OpenTerminalAsAdminDescription" xml:space="preserve">
-    <value>Atidarykite aplanką terminale kaip administratorius</value>
+    <value>Atidarykite aplankÄ… terminale kaip administratorius</value>
   </data>
   <data name="LayoutDecreaseSizeDescription" xml:space="preserve">
-    <value>Sumažinti elemento dydį dabartiniame rodinyje</value>
+    <value>SumaÅ¾inti elemento dydÄ¯ dabartiniame rodinyje</value>
   </data>
   <data name="LayoutIncreaseSizeDescription" xml:space="preserve">
-    <value>Padidinti elemento dydį dabartiniame rodinyje</value>
+    <value>Padidinti elemento dydÄ¯ dabartiniame rodinyje</value>
   </data>
   <data name="LayoutDetailsDescription" xml:space="preserve">
-    <value>Perjungti į išsamios informacijos rodinį</value>
+    <value>Perjungti Ä¯ iÅ¡samios informacijos rodinÄ¯</value>
   </data>
   <data name="LayoutCardsDescription" xml:space="preserve">
-    <value>Perjungti į kortelių rodinį</value>
+    <value>Perjungti Ä¯ korteliÅ³ rodinÄ¯</value>
   </data>
   <data name="LayoutListDescription" xml:space="preserve">
-    <value>Perjungti į sąrašo rodinį</value>
+    <value>Perjungti Ä¯ sÄ…raÅ¡o rodinÄ¯</value>
   </data>
   <data name="List" xml:space="preserve">
-    <value>Sąrašas</value>
+    <value>SÄ…raÅ¡as</value>
   </data>
   <data name="Grid" xml:space="preserve">
     <value>Tinklelis</value>
   </data>
   <data name="LayoutGridDescription" xml:space="preserve">
-    <value>Perjungti į tinklelio rodinį</value>
+    <value>Perjungti Ä¯ tinklelio rodinÄ¯</value>
   </data>
   <data name="LayoutColumnsDescription" xml:space="preserve">
-    <value>Perjungti į stulpelių rodinį</value>
+    <value>Perjungti Ä¯ stulpeliÅ³ rodinÄ¯</value>
   </data>
   <data name="LayoutAdaptiveDescription" xml:space="preserve">
     <value>Adaptyviai perjunkite rodinius</value>
   </data>
   <data name="SortByNameDescription" xml:space="preserve">
-    <value>Rūšiuoti elementus pagal pavadinimą</value>
+    <value>RÅ«Å¡iuoti elementus pagal pavadinimÄ…</value>
   </data>
   <data name="SortByDateModifiedDescription" xml:space="preserve">
-    <value>Rūšiuoti elementus pagal modifikavimo datą</value>
+    <value>RÅ«Å¡iuoti elementus pagal modifikavimo datÄ…</value>
   </data>
   <data name="SortByDateCreatedDescription" xml:space="preserve">
-    <value>Rūšiuoti elementus pagal sukūrimo datą</value>
+    <value>RÅ«Å¡iuoti elementus pagal sukÅ«rimo datÄ…</value>
   </data>
   <data name="SortBySizeDescription" xml:space="preserve">
-    <value>Rūšiuoti prekes pagal dydį</value>
+    <value>RÅ«Å¡iuoti prekes pagal dydÄ¯</value>
   </data>
   <data name="SortByTypeDescription" xml:space="preserve">
-    <value>Rūšiuoti elementus pagal tipą</value>
+    <value>RÅ«Å¡iuoti elementus pagal tipÄ…</value>
   </data>
   <data name="SortBySyncStatusDescription" xml:space="preserve">
-    <value>Rūšiuoti elementus pagal sinchronizavimo būseną</value>
+    <value>RÅ«Å¡iuoti elementus pagal sinchronizavimo bÅ«senÄ…</value>
   </data>
   <data name="SortByTagDescription" xml:space="preserve">
-    <value>Rūšiuoti elementus pagal žymas</value>
+    <value>RÅ«Å¡iuoti elementus pagal Å¾ymas</value>
   </data>
   <data name="SortByOriginalFolderDescription" xml:space="preserve">
-    <value>Rūšiuoti elementus pagal pradinį aplanką</value>
+    <value>RÅ«Å¡iuoti elementus pagal pradinÄ¯ aplankÄ…</value>
   </data>
   <data name="SortByDateDeletedDescription" xml:space="preserve">
-    <value>Rūšiuoti elementus pagal ištrynimo datą</value>
+    <value>RÅ«Å¡iuoti elementus pagal iÅ¡trynimo datÄ…</value>
   </data>
   <data name="SortAscendingDescription" xml:space="preserve">
-    <value>Rūšiuoti elementus didėjančia tvarka</value>
+    <value>RÅ«Å¡iuoti elementus didÄ—janÄia tvarka</value>
   </data>
   <data name="SortDescendingDescription" xml:space="preserve">
-    <value>Rūšiuoti elementus mažėjančia tvarka</value>
+    <value>RÅ«Å¡iuoti elementus maÅ¾Ä—janÄia tvarka</value>
   </data>
   <data name="ToggleSortDirectionDescription" xml:space="preserve">
-    <value>Perjungti elementų rūšiavimo kryptį</value>
+    <value>Perjungti elementÅ³ rÅ«Å¡iavimo kryptÄ¯</value>
   </data>
   <data name="GroupByNoneDescription" xml:space="preserve">
-    <value>Išvardykite elementus be grupavimo</value>
+    <value>IÅ¡vardykite elementus be grupavimo</value>
   </data>
   <data name="GroupByNameDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal pavadinimą</value>
+    <value>Grupuokite elementus pagal pavadinimÄ…</value>
   </data>
   <data name="GroupByDateModifiedDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal modifikavimo datą</value>
+    <value>Grupuokite elementus pagal modifikavimo datÄ…</value>
   </data>
   <data name="GroupByDateCreatedDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal sukūrimo datą</value>
+    <value>Grupuokite elementus pagal sukÅ«rimo datÄ…</value>
   </data>
   <data name="GroupBySizeDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal dydį</value>
+    <value>Grupuokite elementus pagal dydÄ¯</value>
   </data>
   <data name="GroupByTypeDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal tipą</value>
+    <value>Grupuokite elementus pagal tipÄ…</value>
   </data>
   <data name="GroupBySyncStatusDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal sinchronizavimo būseną</value>
+    <value>Grupuokite elementus pagal sinchronizavimo bÅ«senÄ…</value>
   </data>
   <data name="GroupByTagDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal žymas</value>
+    <value>Grupuokite elementus pagal Å¾ymas</value>
   </data>
   <data name="GroupByOriginalFolderDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal pradinį aplanką</value>
+    <value>Grupuokite elementus pagal pradinÄ¯ aplankÄ…</value>
   </data>
   <data name="GroupByDateDeletedDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal ištrynimo datą</value>
+    <value>Grupuokite elementus pagal iÅ¡trynimo datÄ…</value>
   </data>
   <data name="GroupByFolderPathDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal aplanko kelią</value>
+    <value>Grupuokite elementus pagal aplanko keliÄ…</value>
   </data>
   <data name="GroupAscendingDescription" xml:space="preserve">
-    <value>Rūšiuoti grupes didėjančia tvarka</value>
+    <value>RÅ«Å¡iuoti grupes didÄ—janÄia tvarka</value>
   </data>
   <data name="GroupDescendingDescription" xml:space="preserve">
-    <value>Rūšiuoti grupes mažėjančia tvarka</value>
+    <value>RÅ«Å¡iuoti grupes maÅ¾Ä—janÄia tvarka</value>
   </data>
   <data name="ToggleGroupDirectionDescription" xml:space="preserve">
-    <value>Perjungti grupės rūšiavimo kryptį</value>
+    <value>Perjungti grupÄ—s rÅ«Å¡iavimo kryptÄ¯</value>
   </data>
   <data name="NewTabDescription" xml:space="preserve">
-    <value>Atidaryti naujÄ… skirtukÄ…</value>
+    <value>Atidaryti naujÃ„â€¦ skirtukÃ„â€¦</value>
   </data>
   <data name="NavigateBackDescription" xml:space="preserve">
-    <value>Naršykite atgal</value>
+    <value>NarÅ¡ykite atgal</value>
   </data>
   <data name="NavigateForwardDescription" xml:space="preserve">
-    <value>Eikite į priekį</value>
+    <value>Eikite Ä¯ priekÄ¯</value>
   </data>
   <data name="NavigateUpDescription" xml:space="preserve">
-    <value>Eikite į vieną katalogą aukštyn</value>
+    <value>Eikite Ä¯ vienÄ… katalogÄ… aukÅ¡tyn</value>
   </data>
   <data name="DuplicateSelectedTabDescription" xml:space="preserve">
-    <value>Dubliuoti pasirinktą skirtuką</value>
+    <value>Dubliuoti pasirinktÄ… skirtukÄ…</value>
   </data>
   <data name="CloseTabsToTheLeftSelectedDescription" xml:space="preserve">
-    <value>Uždarykite skirtukus, esančius pasirinkto skirtuko kairėje</value>
+    <value>UÅ¾darykite skirtukus, esanÄius pasirinkto skirtuko kairÄ—je</value>
   </data>
   <data name="CloseTabsToTheRightSelectedDescription" xml:space="preserve">
-    <value>Uždarykite skirtukus, esančius pasirinkto skirtuko dešinėje</value>
+    <value>UÅ¾darykite skirtukus, esanÄius pasirinkto skirtuko deÅ¡inÄ—je</value>
   </data>
   <data name="CloseOtherTabsSelectedDescription" xml:space="preserve">
-    <value>Uždarykite kitus nei pasirinktus skirtukus</value>
+    <value>UÅ¾darykite kitus nei pasirinktus skirtukus</value>
   </data>
   <data name="CloseAllTabsDescription" xml:space="preserve">
-    <value>Uždarykite visus skirtukus, įskaitant dabartinį skirtuką</value>
+    <value>UÅ¾darykite visus skirtukus, Ä¯skaitant dabartinÄ¯ skirtukÄ…</value>
   </data>
   <data name="ReopenClosedTabDescription" xml:space="preserve">
-    <value>Iš naujo atidaryti neseniai uždarytą skirtuką</value>
+    <value>IÅ¡ naujo atidaryti neseniai uÅ¾darytÄ… skirtukÄ…</value>
   </data>
   <data name="PreviousTabDescription" xml:space="preserve">
-    <value>Pereiti į ankstesnį skirtuką</value>
+    <value>Pereiti Ä¯ ankstesnÄ¯ skirtukÄ…</value>
   </data>
   <data name="NextTabDescription" xml:space="preserve">
-    <value>Pereikite į kitą skirtuką</value>
+    <value>Pereikite Ä¯ kitÄ… skirtukÄ…</value>
   </data>
   <data name="CloseSelectedTabDescription" xml:space="preserve">
-    <value>Uždaryti dabartinį skirtuką</value>
+    <value>UÅ¾daryti dabartinÄ¯ skirtukÄ…</value>
   </data>
   <data name="CloseActivePaneDescription" xml:space="preserve">
-    <value>Uždarykite aktyvią sritį</value>
+    <value>UÅ¾darykite aktyviÄ… sritÄ¯</value>
   </data>
   <data name="FocusOtherPane" xml:space="preserve">
-    <value>Sufokusuokite kitą sritį</value>
+    <value>Sufokusuokite kitÄ… sritÄ¯</value>
   </data>
   <data name="FocusOtherPaneDescription" xml:space="preserve">
-    <value>Perjunkite židinį į kitą sritį</value>
+    <value>Perjunkite Å¾idinÄ¯ Ä¯ kitÄ… sritÄ¯</value>
   </data>
   <data name="ToggleSidebar" xml:space="preserve">
-    <value>Perjungti šoninę juostą</value>
+    <value>Perjungti Å¡oninÄ™ juostÄ…</value>
   </data>
   <data name="Key.Menu" xml:space="preserve">
     <value>Alt</value>
@@ -2945,15 +2951,15 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Windows" xml:space="preserve">
-    <value>â€žWinâ€œ</value>
+    <value>Ã¢â‚¬Å¾WinÃ¢â‚¬Å“</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Enter" xml:space="preserve">
-    <value>Įeikite</value>
+    <value>Ä®eikite</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Space" xml:space="preserve">
-    <value>Erdvė</value>
+    <value>ErdvÄ—</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Escape" xml:space="preserve">
@@ -2977,15 +2983,15 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Left" xml:space="preserve">
-    <value>KairÄ—</value>
+    <value>KairÃ„â€”</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Right" xml:space="preserve">
-    <value>DeÅ¡inÄ—</value>
+    <value>DeÃ…Â¡inÃ„â€”</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Down" xml:space="preserve">
-    <value>Å½emyn</value>
+    <value>Ã…Â½emyn</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Up" xml:space="preserve">
@@ -3001,7 +3007,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.PageDown" xml:space="preserve">
-    <value>Puslapis žemyn</value>
+    <value>Puslapis Å¾emyn</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.PageUp" xml:space="preserve">
@@ -3009,11 +3015,11 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Separator" xml:space="preserve">
-    <value>rugsėjis</value>
+    <value>rugsÄ—jis</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Pause" xml:space="preserve">
-    <value>Pauzė</value>
+    <value>PauzÄ—</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Sleep" xml:space="preserve">
@@ -3021,7 +3027,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Clear" xml:space="preserve">
-    <value>Aišku</value>
+    <value>AiÅ¡ku</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Print" xml:space="preserve">
@@ -3033,15 +3039,15 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Mouse4" xml:space="preserve">
-    <value>Pelė 4</value>
+    <value>PelÄ— 4</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Mouse5" xml:space="preserve">
-    <value>Pelė 5</value>
+    <value>PelÄ— 5</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Application" xml:space="preserve">
-    <value>Programėlė</value>
+    <value>ProgramÄ—lÄ—</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Application1" xml:space="preserve">
@@ -3053,7 +3059,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.Mail" xml:space="preserve">
-    <value>paštas</value>
+    <value>paÅ¡tas</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserGoHome" xml:space="preserve">
@@ -3077,11 +3083,11 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserSearch" xml:space="preserve">
-    <value>IeÅ¡koti</value>
+    <value>IeÃ…Â¡koti</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.BrowserFavorites" xml:space="preserve">
-    <value>Mėgstamiausi</value>
+    <value>MÄ—gstamiausi</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaPlayPause" xml:space="preserve">
@@ -3089,7 +3095,7 @@
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaStop" xml:space="preserve">
-    <value>„MediaStop“.</value>
+    <value>â€žMediaStopâ€œ.</value>
     <comment>Key name for hotkeys in menus. Use abbreviation if possible.</comment>
   </data>
   <data name="Key.MediaPreviousTrack" xml:space="preserve">
@@ -3120,19 +3126,19 @@
     <value>Keisti</value>
   </data>
   <data name="ToggleSelect" xml:space="preserve">
-    <value>Perjungti pasirinkimą</value>
+    <value>Perjungti pasirinkimÄ…</value>
   </data>
   <data name="ShowFileExtensionWarning" xml:space="preserve">
-    <value>Rodyti įspėjimą keičiant failų plėtinius</value>
+    <value>Rodyti Ä¯spÄ—jimÄ… keiÄiant failÅ³ plÄ—tinius</value>
   </data>
   <data name="ThisPC" xml:space="preserve">
-    <value>Šis kompiuteris</value>
+    <value>Å is kompiuteris</value>
   </data>
   <data name="RecycleBin" xml:space="preserve">
-    <value>Šiukšliadėžė</value>
+    <value>Å iukÅ¡liadÄ—Å¾Ä—</value>
   </data>
   <data name="Untagged" xml:space="preserve">
-    <value>Nepažymėta</value>
+    <value>NepaÅ¾ymÄ—ta</value>
   </data>
   <data name="PreviousTab" xml:space="preserve">
     <value>Ankstesnis skirtukas</value>
@@ -3141,10 +3147,10 @@
     <value>Kitas skirtukas</value>
   </data>
   <data name="CloseTab" xml:space="preserve">
-    <value>Uždaryti skirtuką</value>
+    <value>UÅ¾daryti skirtukÄ…</value>
   </data>
   <data name="EditPath" xml:space="preserve">
-    <value>Redaguoti kelią</value>
+    <value>Redaguoti keliÄ…</value>
   </data>
   <data name="Redo" xml:space="preserve">
     <value>Perdaryti</value>
@@ -3156,112 +3162,112 @@
     <value>Netinkama vieta</value>
   </data>
   <data name="CopyFileWithoutProperties" xml:space="preserve">
-    <value>Ar tikrai norite kopijuoti šiuos failus be jų savybių?</value>
+    <value>Ar tikrai norite kopijuoti Å¡iuos failus be jÅ³ savybiÅ³?</value>
   </data>
   <data name="FilePropertiesCannotBeCopied" xml:space="preserve">
-    <value>Šie failai turi savybių, kurių negalima nukopijuoti į naują vietą</value>
+    <value>Å ie failai turi savybiÅ³, kuriÅ³ negalima nukopijuoti Ä¯ naujÄ… vietÄ…</value>
   </data>
   <data name="FilePropertiesCannotBeMoved" xml:space="preserve">
-    <value>Šie failai turi savybių, kurių negalima perkelti į naują vietą</value>
+    <value>Å ie failai turi savybiÅ³, kuriÅ³ negalima perkelti Ä¯ naujÄ… vietÄ…</value>
   </data>
   <data name="MoveFileWithoutProperties" xml:space="preserve">
-    <value>Ar tikrai norite perkelti šiuos failus be jų savybių?</value>
+    <value>Ar tikrai norite perkelti Å¡iuos failus be jÅ³ savybiÅ³?</value>
   </data>
   <data name="ShowCheckboxesWhenSelectingItems" xml:space="preserve">
-    <value>Rodyti žymimuosius laukelius renkantis elementus</value>
+    <value>Rodyti Å¾ymimuosius laukelius renkantis elementus</value>
   </data>
   <data name="EditPathDescription" xml:space="preserve">
-    <value>Redaguokite kelią „OmniBar“.</value>
+    <value>Redaguokite keliÄ… â€žOmniBarâ€œ.</value>
   </data>
   <data name="AddItemDescription" xml:space="preserve">
-    <value>Sukurti naują elementą</value>
+    <value>Sukurti naujÄ… elementÄ…</value>
   </data>
   <data name="SecurityNoAccessControlEntriesText" xml:space="preserve">
-    <value>Jokios grupės ar vartotojai neturi leidimo pasiekti šį objektą. Tačiau šio objekto savininkas gali priskirti leidimus.</value>
+    <value>Jokios grupÄ—s ar vartotojai neturi leidimo pasiekti Å¡Ä¯ objektÄ…. TaÄiau Å¡io objekto savininkas gali priskirti leidimus.</value>
   </data>
   <data name="OpenFileLocationDescription" xml:space="preserve">
-    <value>Atidarykite elemento vietą</value>
+    <value>Atidarykite elemento vietÄ…</value>
   </data>
   <data name="DeletePermanently" xml:space="preserve">
-    <value>Ištrinti visam laikui</value>
+    <value>IÅ¡trinti visam laikui</value>
   </data>
   <data name="DeleteItemPermanentlyDescription" xml:space="preserve">
-    <value>Ištrinti selected {0, plural, one {item} other {elementus}} visam laikui</value>
+    <value>IÅ¡trinti selected {0, plural, one {item} other {elementus}} visam laikui</value>
   </data>
   <data name="PlayAllDescription" xml:space="preserve">
     <value>Leisti pasirinktus medijos failus</value>
   </data>
   <data name="UndoDescription" xml:space="preserve">
-    <value>Anuliuoti paskutinę failo operaciją</value>
+    <value>Anuliuoti paskutinÄ™ failo operacijÄ…</value>
   </data>
   <data name="RedoDescription" xml:space="preserve">
-    <value>Pakartokite paskutinę failo operaciją</value>
+    <value>Pakartokite paskutinÄ™ failo operacijÄ…</value>
   </data>
   <data name="Location" xml:space="preserve">
-    <value>VietovÄ—:</value>
+    <value>VietovÃ„â€”:</value>
   </data>
   <data name="GroupByMonthDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal mėnesį</value>
+    <value>Grupuokite elementus pagal mÄ—nesÄ¯</value>
   </data>
   <data name="GroupByYearDescription" xml:space="preserve">
     <value>Grupuokite elementus pagal metus</value>
   </data>
   <data name="Month" xml:space="preserve">
-    <value>Mėnuo</value>
+    <value>MÄ—nuo</value>
   </data>
   <data name="Day" xml:space="preserve">
     <value>Diena</value>
   </data>
   <data name="ToggleGroupByDateUnitDescription" xml:space="preserve">
-    <value>Perjungti grupavimo pagal datą vienetą</value>
+    <value>Perjungti grupavimo pagal datÄ… vienetÄ…</value>
   </data>
   <data name="ToggleGroupingUnit" xml:space="preserve">
-    <value>Perjungti grupavimo vienetą</value>
+    <value>Perjungti grupavimo vienetÄ…</value>
   </data>
   <data name="Year" xml:space="preserve">
     <value>Metai</value>
   </data>
   <data name="GroupByDateUnit" xml:space="preserve">
-    <value>Grupuoti pagal datos vienetą</value>
+    <value>Grupuoti pagal datos vienetÄ…</value>
   </data>
   <data name="GroupByDateCreatedDayDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal sukūrimo datą</value>
+    <value>Grupuokite elementus pagal sukÅ«rimo datÄ…</value>
   </data>
   <data name="GroupByDateCreatedMonthDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal sukūrimo datos mėnesį</value>
+    <value>Grupuokite elementus pagal sukÅ«rimo datos mÄ—nesÄ¯</value>
   </data>
   <data name="GroupByDateCreatedYearDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal sukūrimo datos metus</value>
+    <value>Grupuokite elementus pagal sukÅ«rimo datos metus</value>
   </data>
   <data name="GroupByDateDeletedDayDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal ištrynimo datą</value>
+    <value>Grupuokite elementus pagal iÅ¡trynimo datÄ…</value>
   </data>
   <data name="GroupByDateDeletedMonthDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal ištrynimo datos mėnesį</value>
+    <value>Grupuokite elementus pagal iÅ¡trynimo datos mÄ—nesÄ¯</value>
   </data>
   <data name="GroupByDateDeletedYearDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal ištrynimo datos metus</value>
+    <value>Grupuokite elementus pagal iÅ¡trynimo datos metus</value>
   </data>
   <data name="GroupByDateModifiedDayDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal pakeitimo datą</value>
+    <value>Grupuokite elementus pagal pakeitimo datÄ…</value>
   </data>
   <data name="GroupByDateModifiedMonthDescription" xml:space="preserve">
-    <value>Grupuokite elementus pagal modifikavimo datos mėnesį</value>
+    <value>Grupuokite elementus pagal modifikavimo datos mÄ—nesÄ¯</value>
   </data>
   <data name="GroupByDateModifiedYearDescription" xml:space="preserve">
     <value>Grupuokite elementus pagal modifikavimo datos metus</value>
   </data>
   <data name="SecurityClickAdvancedPermissions" xml:space="preserve">
-    <value>Norėdami tęsti, spustelėkite „Išplėstiniai leidimai“.</value>
+    <value>NorÄ—dami tÄ™sti, spustelÄ—kite â€žIÅ¡plÄ—stiniai leidimaiâ€œ.</value>
   </data>
   <data name="SecurityRequireReadPermissions" xml:space="preserve">
-    <value>Norėdami peržiūrėti šio elemento ypatybes, turite turėti skaitymo teises.</value>
+    <value>NorÄ—dami perÅ¾iÅ«rÄ—ti Å¡io elemento ypatybes, turite turÄ—ti skaitymo teises.</value>
   </data>
   <data name="SecuritySuggestToTakeOwnership" xml:space="preserve">
-    <value>Norėdami pabandyti perimti elemento nuosavybės teisę, įskaitant leidimą peržiūrėti jo ypatybes, aukščiau spustelėkite Keisti.</value>
+    <value>NorÄ—dami pabandyti perimti elemento nuosavybÄ—s teisÄ™, Ä¯skaitant leidimÄ… perÅ¾iÅ«rÄ—ti jo ypatybes, aukÅ¡Äiau spustelÄ—kite Keisti.</value>
   </data>
   <data name="SecurityUnableToDisplayPermissions" xml:space="preserve">
-    <value>Neįmanoma parodyti leidimų.</value>
+    <value>NeÄ¯manoma parodyti leidimÅ³.</value>
   </data>
   <data name="StashChanges" xml:space="preserve">
     <value>Palikite mano pakeitimus '{0}'</value>
@@ -3270,22 +3276,22 @@
     <value>Atmesti mano pakeitimus</value>
   </data>
   <data name="BringChanges" xml:space="preserve">
-    <value>Atnešti mano pakeitimus į '{0}'</value>
+    <value>AtneÅ¡ti mano pakeitimus Ä¯ '{0}'</value>
   </data>
   <data name="UncommittedChanges" xml:space="preserve">
-    <value>Šioje šakoje turite nepadarytų pakeitimų. Ką norėtum su jais veikti?</value>
+    <value>Å ioje Å¡akoje turite nepadarytÅ³ pakeitimÅ³. KÄ… norÄ—tum su jais veikti?</value>
   </data>
   <data name="MergeInProgress" xml:space="preserve">
-    <value>Jūs nuolat susiliejate su neišspręstais konfliktais. Išspręskite konfliktus arba nutraukite sujungimą, kad perjungtumėte filialus.</value>
+    <value>JÅ«s nuolat susiliejate su neiÅ¡sprÄ™stais konfliktais. IÅ¡sprÄ™skite konfliktus arba nutraukite sujungimÄ…, kad perjungtumÄ—te filialus.</value>
   </data>
   <data name="AbortMergeAndSwitch" xml:space="preserve">
-    <value>Nutraukti sujungimą ir perjungti į '{0}'</value>
+    <value>Nutraukti sujungimÄ… ir perjungti Ä¯ '{0}'</value>
   </data>
   <data name="StayAndResolveConflicts" xml:space="preserve">
-    <value>Laikykitės „{0}“ ir išspręskite konfliktus</value>
+    <value>LaikykitÄ—s â€ž{0}â€œ ir iÅ¡sprÄ™skite konfliktus</value>
   </data>
   <data name="SwitchBranch" xml:space="preserve">
-    <value>Perjungti šaką</value>
+    <value>Perjungti Å¡akÄ…</value>
   </data>
   <data name="Branches" xml:space="preserve">
     <value>Filialai</value>
@@ -3300,31 +3306,31 @@
     <value>Neteisingas filialo pavadinimas</value>
   </data>
   <data name="CreateBranch" xml:space="preserve">
-    <value>Sukurti filialą</value>
+    <value>Sukurti filialÄ…</value>
   </data>
   <data name="CreateNewBranch" xml:space="preserve">
-    <value>Sukurti filialą</value>
+    <value>Sukurti filialÄ…</value>
   </data>
   <data name="BasedOn" xml:space="preserve">
     <value>Remiantis</value>
   </data>
   <data name="SwitchToNewBranch" xml:space="preserve">
-    <value>Perjungti į naują filialą</value>
+    <value>Perjungti Ä¯ naujÄ… filialÄ…</value>
   </data>
   <data name="CreateFolderWithSelectionDescription" xml:space="preserve">
     <value>Create a folder with the currently selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="OpenProperties" xml:space="preserve">
-    <value>YpatybÄ—s</value>
+    <value>YpatybÃ„â€”s</value>
   </data>
   <data name="OpenClassicProperties" xml:space="preserve">
-    <value>Atidarykite „File Explorer“ ypatybes</value>
+    <value>Atidarykite â€žFile Explorerâ€œ ypatybes</value>
   </data>
   <data name="OpenPropertiesDescription" xml:space="preserve">
-    <value>Atidarykite savybių langą</value>
+    <value>Atidarykite savybiÅ³ langÄ…</value>
   </data>
   <data name="OpenClassicPropertiesDescription" xml:space="preserve">
-    <value>Atidarykite „File Explorer“ ypatybių langą</value>
+    <value>Atidarykite â€žFile Explorerâ€œ ypatybiÅ³ langÄ…</value>
   </data>
   <data name="Locals" xml:space="preserve">
     <value>Vietiniai</value>
@@ -3333,10 +3339,10 @@
     <value>Nuotolinio valdymo pultai</value>
   </data>
   <data name="ImproveTranslation" xml:space="preserve">
-    <value>Verskite â€žCrowdinâ€œ platformoje</value>
+    <value>Verskite Ã¢â‚¬Å¾CrowdinÃ¢â‚¬Å“ platformoje</value>
   </data>
   <data name="GitFetch" xml:space="preserve">
-    <value>Atnešti</value>
+    <value>AtneÅ¡ti</value>
   </data>
   <data name="GitPull" xml:space="preserve">
     <value>Traukti</value>
@@ -3351,35 +3357,35 @@
     <value>Paleiskite git pull</value>
   </data>
   <data name="Preview" xml:space="preserve">
-    <value>Peržiūra</value>
+    <value>PerÅ¾iÅ«ra</value>
   </data>
   <data name="GitStatus" xml:space="preserve">
     <value>Git statusas</value>
   </data>
   <data name="GitError" xml:space="preserve">
-    <value>â€žGitâ€œ klaida</value>
+    <value>Ã¢â‚¬Å¾GitÃ¢â‚¬Å“ klaida</value>
   </data>
   <data name="PullTimeoutError" xml:space="preserve">
-    <value>git pull nepavyko dėl skirtojo laiko klaidos</value>
+    <value>git pull nepavyko dÄ—l skirtojo laiko klaidos</value>
   </data>
   <data name="PullUncommittedChangesError" xml:space="preserve">
     <value>Can't pull because your uncommitted changes would be overwritten. Commit, stash, or discard your changes, then try again.</value>
   </data>
   <data name="MultipleValues" xml:space="preserve">
-    <value>(kelios reikšmės)</value>
+    <value>(kelios reikÅ¡mÄ—s)</value>
     <comment>Text indicating that multiple selected files have different metadata values.</comment>
   </data>
   <data name="Author" xml:space="preserve">
     <value>Autorius</value>
   </data>
   <data name="DateCommitted" xml:space="preserve">
-    <value>Įsipareigojimo data</value>
+    <value>Ä®sipareigojimo data</value>
   </data>
   <data name="CommitMessage" xml:space="preserve">
-    <value>Įsipareigoti pranešimą</value>
+    <value>Ä®sipareigoti praneÅ¡imÄ…</value>
   </data>
   <data name="CommitSha" xml:space="preserve">
-    <value>Įsipareigokite SHA</value>
+    <value>Ä®sipareigokite SHA</value>
   </data>
   <data name="Git" xml:space="preserve">
     <value>Git</value>
@@ -3388,10 +3394,10 @@
     <value>Akrilas</value>
   </data>
   <data name="Mica" xml:space="preserve">
-    <value>Žėrutis</value>
+    <value>Å½Ä—rutis</value>
   </data>
   <data name="MicaAlt" xml:space="preserve">
-    <value>Žėrutis Alt</value>
+    <value>Å½Ä—rutis Alt</value>
   </data>
   <data name="BackdropMaterial" xml:space="preserve">
     <value>Fonas</value>
@@ -3415,37 +3421,37 @@
     <value>Vykdykite git pull ir tada git push</value>
   </data>
   <data name="GitSyncStatusExtendedInfo" xml:space="preserve">
-    <value>{1} išeinantys / {1} gaunami įsipareigojimai</value>
+    <value>{1} iÅ¡einantys / {1} gaunami Ä¯sipareigojimai</value>
   </data>
   <data name="ConnectGitHub" xml:space="preserve">
-    <value>Prisijunkite prie „GitHub“.</value>
+    <value>Prisijunkite prie â€žGitHubâ€œ.</value>
   </data>
   <data name="ConnectGitHubDescription" xml:space="preserve">
-    <value>Toliau pateiktoje nuorodoje įveskite šį kodą, kad pradėtumėte dirbti su „GitHub“ saugyklomis.</value>
+    <value>Toliau pateiktoje nuorodoje Ä¯veskite Å¡Ä¯ kodÄ…, kad pradÄ—tumÄ—te dirbti su â€žGitHubâ€œ saugyklomis.</value>
   </data>
   <data name="CannotReachGitHubError" xml:space="preserve">
-    <value>Šiuo metu failai negali pasiekti „GitHub“.</value>
+    <value>Å iuo metu failai negali pasiekti â€žGitHubâ€œ.</value>
   </data>
   <data name="OpenInIDE" xml:space="preserve">
-    <value>Atidaryti aplanką {0}</value>
+    <value>Atidaryti aplankÄ… {0}</value>
   </data>
   <data name="OpenInIDEDescription" xml:space="preserve">
-    <value>Atidarykite dabartinį katalogą {0}</value>
+    <value>Atidarykite dabartinÄ¯ katalogÄ… {0}</value>
   </data>
   <data name="OpenRepoInIDE" xml:space="preserve">
-    <value>Atidaryti atpirkimo sandorį {0}</value>
+    <value>Atidaryti atpirkimo sandorÄ¯ {0}</value>
   </data>
   <data name="OpenRepoInIDEDescription" xml:space="preserve">
-    <value>Atidarykite „Git“ repo šaknį {0}</value>
+    <value>Atidarykite â€žGitâ€œ repo Å¡aknÄ¯ {0}</value>
   </data>
   <data name="CopyCode" xml:space="preserve">
-    <value>Nukopijuokite kodą</value>
+    <value>Nukopijuokite kodÄ…</value>
   </data>
   <data name="Added" xml:space="preserve">
-    <value>Pridėta</value>
+    <value>PridÄ—ta</value>
   </data>
   <data name="Deleted" xml:space="preserve">
-    <value>Ištrinta</value>
+    <value>IÅ¡trinta</value>
   </data>
   <data name="Modified" xml:space="preserve">
     <value>Modifikuota</value>
@@ -3454,19 +3460,19 @@
     <value>Nesekamas</value>
   </data>
   <data name="UnableToDisplayOwner" xml:space="preserve">
-    <value>Neįmanoma parodyti dabartinio savininko.</value>
+    <value>NeÄ¯manoma parodyti dabartinio savininko.</value>
   </data>
   <data name="AuthorizationSucceded" xml:space="preserve">
-    <value>Puiku! Dabar esate įgalioti.</value>
+    <value>Puiku! Dabar esate Ä¯galioti.</value>
   </data>
   <data name="InitRepo" xml:space="preserve">
-    <value>Inicijuoti atpirkimo sandorį</value>
+    <value>Inicijuoti atpirkimo sandorÄ¯</value>
   </data>
   <data name="InitRepoDescription" xml:space="preserve">
-    <value>Inicijuoti dabartinį aplanką kaip git saugyklą</value>
+    <value>Inicijuoti dabartinÄ¯ aplankÄ… kaip git saugyklÄ…</value>
   </data>
   <data name="GitOriginRepositoryName" xml:space="preserve">
-    <value>Nuotolinės saugyklos pavadinimas</value>
+    <value>NuotolinÄ—s saugyklos pavadinimas</value>
   </data>
   <data name="GitCurrentBranch" xml:space="preserve">
     <value>Dabartinis filialas</value>
@@ -3475,10 +3481,10 @@
     <value>Kelio stulpelis</value>
   </data>
   <data name="SortByPathDescription" xml:space="preserve">
-    <value>Rūšiuoti elementus pagal kelią</value>
+    <value>RÅ«Å¡iuoti elementus pagal keliÄ…</value>
   </data>
   <data name="OpenDirectoryInNewPaneDescription" xml:space="preserve">
-    <value>Atidarykite pasirinktą katalogą naujoje srityje</value>
+    <value>Atidarykite pasirinktÄ… katalogÄ… naujoje srityje</value>
   </data>
   <data name="OpenDirectoryInOtherPaneDescription" xml:space="preserve">
     <value>Open selected directory in the other pane</value>
@@ -3487,16 +3493,16 @@
     <value>Open the current folder in the other pane</value>
   </data>
   <data name="OpenDirectoryInNewTabDescription" xml:space="preserve">
-    <value>Atidarykite pasirinktą katalogą naujame skirtuke</value>
+    <value>Atidarykite pasirinktÄ… katalogÄ… naujame skirtuke</value>
   </data>
   <data name="OpenInNewWindowDescription" xml:space="preserve">
-    <value>Atidarykite pasirinktą katalogą naujame lange</value>
+    <value>Atidarykite pasirinktÄ… katalogÄ… naujame lange</value>
   </data>
   <data name="OpenAllTaggedItems" xml:space="preserve">
     <value>Atidaryti visus</value>
   </data>
   <data name="OpenAllTaggedItemsDescription" xml:space="preserve">
-    <value>Atidarykite visus pažymėtus elementus</value>
+    <value>Atidarykite visus paÅ¾ymÄ—tus elementus</value>
   </data>
   <data name="DriveWithLetter" xml:space="preserve">
     <value>Vairuoti ({0})</value>
@@ -3506,7 +3512,7 @@
     <value>Neteisinga komanda</value>
   </data>
   <data name="InvalidCommandContent" xml:space="preserve">
-    <value>'{0}' neatpažįstamas kaip komanda.</value>
+    <value>'{0}' neatpaÅ¾Ä¯stamas kaip komanda.</value>
   </data>
   <data name="CommandNotExecutable" xml:space="preserve">
     <value>Komanda nevykdoma</value>
@@ -3515,25 +3521,25 @@
     <value>Komanda '{0}' neparengta vykdyti.</value>
   </data>
   <data name="CommandPalette" xml:space="preserve">
-    <value>Komandų paletė</value>
+    <value>KomandÅ³ paletÄ—</value>
   </data>
   <data name="OpenCommandPaletteDescription" xml:space="preserve">
-    <value>Atidarykite komandų paletę „OmniBar“.</value>
+    <value>Atidarykite komandÅ³ paletÄ™ â€žOmniBarâ€œ.</value>
   </data>
   <data name="ShortcutItemWorkingDir" xml:space="preserve">
-    <value>Pradėti:</value>
+    <value>PradÄ—ti:</value>
   </data>
   <data name="TurnOnBitLocker" xml:space="preserve">
-    <value>Įjunkite „BitLocker“.</value>
+    <value>Ä®junkite â€žBitLockerâ€œ.</value>
   </data>
   <data name="ManageBitLocker" xml:space="preserve">
-    <value>Tvarkykite „BitLocker“.</value>
+    <value>Tvarkykite â€žBitLockerâ€œ.</value>
   </data>
   <data name="CopyFailureFileToLarge" xml:space="preserve">
-    <value>Šie elementai yra per dideli, kad juos būtų galima nukopijuoti į šį diską</value>
+    <value>Å ie elementai yra per dideli, kad juos bÅ«tÅ³ galima nukopijuoti Ä¯ Å¡Ä¯ diskÄ…</value>
   </data>
   <data name="FormatDrive" xml:space="preserve">
-    <value>Formatuoti diską</value>
+    <value>Formatuoti diskÄ…</value>
   </data>
   <data name="DontShowAgain" xml:space="preserve">
     <value>Daugiau nerodyti</value>
@@ -3542,29 +3548,29 @@
     <value>Failai veikia kaip administratorius</value>
   </data>
   <data name="FilesRunningAsAdminContent" xml:space="preserve">
-    <value>Dėl „Windows“ ir „WinAppSdk“ apribojimų vilkimas negalimas, kai paleidžiate failą kaip administratorių. Jei norite naudoti vilkimą, galite apeiti šį apribojimą atidarę UAC (vartotojo abonemento valdymą) iš meniu Pradėti ir pasirinkę trečiąjį lygį bei iš naujo paleisdami „Windows“. Kitu atveju galite toliau naudoti failus nevilkdami ir numesdami.</value>
+    <value>DÄ—l â€žWindowsâ€œ ir â€žWinAppSdkâ€œ apribojimÅ³ vilkimas negalimas, kai paleidÅ¾iate failÄ… kaip administratoriÅ³. Jei norite naudoti vilkimÄ…, galite apeiti Å¡Ä¯ apribojimÄ… atidarÄ™ UAC (vartotojo abonemento valdymÄ…) iÅ¡ meniu PradÄ—ti ir pasirinkÄ™ treÄiÄ…jÄ¯ lygÄ¯ bei iÅ¡ naujo paleisdami â€žWindowsâ€œ. Kitu atveju galite toliau naudoti failus nevilkdami ir numesdami.</value>
   </data>
   <data name="SettingsLeaveAppRunning" xml:space="preserve">
-    <value>Palikite programą veikti fone, kai langas uždarytas</value>
+    <value>Palikite programÄ… veikti fone, kai langas uÅ¾darytas</value>
   </data>
   <data name="Blue" xml:space="preserve">
-    <value>MÄ—lyna/-s</value>
+    <value>MÃ„â€”lyna/-s</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="BlueGray" xml:space="preserve">
-    <value>Mėlyna Pilka</value>
+    <value>MÄ—lyna Pilka</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="BrickRed" xml:space="preserve">
-    <value>Plytų raudona</value>
+    <value>PlytÅ³ raudona</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Camouflage" xml:space="preserve">
-    <value>Kamufliažas</value>
+    <value>KamufliaÅ¾as</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="CoolBlueBright" xml:space="preserve">
-    <value>Šalta mėlyna šviesi</value>
+    <value>Å alta mÄ—lyna Å¡viesi</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Gray" xml:space="preserve">
@@ -3576,15 +3582,15 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Green" xml:space="preserve">
-    <value>Å½alia/-s</value>
+    <value>Ã…Â½alia/-s</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="IrisPastel" xml:space="preserve">
-    <value>Iris Pastelė</value>
+    <value>Iris PastelÄ—</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="MintLight" xml:space="preserve">
-    <value>Mėtų šviesa</value>
+    <value>MÄ—tÅ³ Å¡viesa</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="ModRed" xml:space="preserve">
@@ -3592,7 +3598,7 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="OrangeBright" xml:space="preserve">
-    <value>Oranžinė Ryški</value>
+    <value>OranÅ¾inÄ— RyÅ¡ki</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Overcast" xml:space="preserve">
@@ -3604,11 +3610,11 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="RoseBright" xml:space="preserve">
-    <value>Ryški rožė</value>
+    <value>RyÅ¡ki roÅ¾Ä—</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Seafoam" xml:space="preserve">
-    <value>Jūros putos</value>
+    <value>JÅ«ros putos</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="Storm" xml:space="preserve">
@@ -3616,7 +3622,7 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="VioletRedLight" xml:space="preserve">
-    <value>Violetinė raudona šviesa</value>
+    <value>VioletinÄ— raudona Å¡viesa</value>
     <comment>One of the custom color themes</comment>
   </data>
   <data name="YellowGold" xml:space="preserve">
@@ -3624,26 +3630,26 @@
     <comment>One of the custom color themes</comment>
   </data>
   <data name="ClearCompleted" xml:space="preserve">
-    <value>Išvalymas baigtas</value>
+    <value>IÅ¡valymas baigtas</value>
   </data>
   <data name="NameWithColon" xml:space="preserve">
     <value>Vardas:</value>
   </data>
   <data name="StatusCenter_ProcessedSize_Header" xml:space="preserve">
-    <value>Apdorota {1} iš {1}</value>
+    <value>Apdorota {1} iÅ¡ {1}</value>
     <comment>Shown in a StatusCenter card. Used as "64 MB of 1 GB processed"</comment>
   </data>
   <data name="ItemsLower" xml:space="preserve">
-    <value>daiktų</value>
+    <value>daiktÅ³</value>
   </data>
   <data name="CannotInitializeGitRepo" xml:space="preserve">
-    <value>Failai negali inicijuoti šio katalogo kaip Git saugyklos.</value>
+    <value>Failai negali inicijuoti Å¡io katalogo kaip Git saugyklos.</value>
   </data>
   <data name="ContributingArtist" xml:space="preserve">
-    <value>Prisidedantis atlikėjas</value>
+    <value>Prisidedantis atlikÄ—jas</value>
   </data>
   <data name="AddPage" xml:space="preserve">
-    <value>Pridėti puslapį</value>
+    <value>PridÄ—ti puslapÄ¯</value>
   </data>
   <data name="ProcessingItems" xml:space="preserve">
     <value>Apdorojami elementai...</value>
@@ -3655,15 +3661,15 @@
     <value>Greitis:</value>
   </data>
   <data name="StatusCenter_CompressCanceled_Header" xml:space="preserve">
-    <value>Atšauktas {1} elementų glaudinimas į "{1}"</value>
+    <value>AtÅ¡auktas {1} elementÅ³ glaudinimas Ä¯ "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CompressCanceled_SubHeader" xml:space="preserve">
-    <value>Atšauktas {2} elementų glaudinimas iš "{2}" į "{2}"</value>
+    <value>AtÅ¡auktas {2} elementÅ³ glaudinimas iÅ¡ "{2}" Ä¯ "{2}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CompressComplete_Header" xml:space="preserve">
-    <value>Compressed {0, plural, one {# prekė} other {# elementai}} į "{1}"</value>
+    <value>Compressed {0, plural, one {# prekÄ—} other {# elementai}} Ä¯ "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CompressComplete_SubHeader" xml:space="preserve">
@@ -3679,7 +3685,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CompressInProgress_Header" xml:space="preserve">
-    <value>Compressing {0, plural, one {# prekė} other {# elementai}} į "{1}"</value>
+    <value>Compressing {0, plural, one {# prekÄ—} other {# elementai}} Ä¯ "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CompressInProgress_SubHeader" xml:space="preserve">
@@ -3687,31 +3693,31 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_GitCloneCanceled_Header" xml:space="preserve">
-    <value>Atšauktas klonavimas {1} į "{1}"</value>
+    <value>AtÅ¡auktas klonavimas {1} Ä¯ "{1}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the repository and {1} is the destination folder.</comment>
   </data>
   <data name="StatusCenter_GitCloneCanceled_SubHeader" xml:space="preserve">
-    <value>Atšauktas klonavimas {2} iš "{2}" į "{2}"</value>
+    <value>AtÅ¡auktas klonavimas {2} iÅ¡ "{2}" Ä¯ "{2}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the Git object count, {1} is the repository, and {2} is the destination path.</comment>
   </data>
   <data name="StatusCenter_GitCloneComplete_Header" xml:space="preserve">
-    <value>Klonuotas „{1}“ į „{1}“</value>
+    <value>Klonuotas â€ž{1}â€œ Ä¯ â€ž{1}â€œ</value>
     <comment>Shown in Status Center for Git clone. {0} is the repository and {1} is the destination folder.</comment>
   </data>
   <data name="StatusCenter_GitCloneComplete_SubHeader" xml:space="preserve">
-    <value>Klonuotas {2} iš "{2}" į "{2}"</value>
+    <value>Klonuotas {2} iÅ¡ "{2}" Ä¯ "{2}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the Git object count, {1} is the repository, and {2} is the destination path.</comment>
   </data>
   <data name="StatusCenter_GitCloneFailed_Header" xml:space="preserve">
-    <value>Klaida klonuojant „{1}“ į „{1}“</value>
+    <value>Klaida klonuojant â€ž{1}â€œ Ä¯ â€ž{1}â€œ</value>
     <comment>Shown in Status Center for Git clone. {0} is the repository and {1} is the destination folder.</comment>
   </data>
   <data name="StatusCenter_GitCloneFailed_SubHeader" xml:space="preserve">
-    <value>Nepavyko klonuoti {2} iš "{2}" į "{2}"</value>
+    <value>Nepavyko klonuoti {2} iÅ¡ "{2}" Ä¯ "{2}"</value>
     <comment>Shown in Status Center for Git clone. {0} is the Git object count, {1} is the repository, and {2} is the destination path.</comment>
   </data>
   <data name="StatusCenter_GitCloneInProgress_Header" xml:space="preserve">
-    <value>„{1}“ klonavimas į „{1}“</value>
+    <value>â€ž{1}â€œ klonavimas Ä¯ â€ž{1}â€œ</value>
     <comment>Shown in Status Center for Git clone. {0} is the repository and {1} is the destination folder.</comment>
   </data>
   <data name="StatusCenter_GitCloneInProgress_SubHeader" xml:space="preserve">
@@ -3803,7 +3809,7 @@
     <comment>Shown in Status Center for Git sync. {0} is the repository.</comment>
   </data>
   <data name="StatusCenter_InstallFontCanceled_Header" xml:space="preserve">
-    <value>Atšauktas {0} šriftų diegimas</value>
+    <value>AtÅ¡auktas {0} Å¡riftÅ³ diegimas</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_InstallFontCanceled_SubHeader" xml:space="preserve">
@@ -3811,11 +3817,11 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_InstallFontComplete_Header" xml:space="preserve">
-    <value>Įdiegta {0, plural, one {# font} other {# fonts}}</value>
+    <value>Ä®diegta {0, plural, one {# font} other {# fonts}}</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_InstallFontComplete_SubHeader" xml:space="preserve">
-    <value>Installed {0, plural, one {# šriftas} other {# šriftai}} iš "{1}"</value>
+    <value>Installed {0, plural, one {# Å¡riftas} other {# Å¡riftai}} iÅ¡ "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_InstallFontFailed_Header" xml:space="preserve">
@@ -3831,7 +3837,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_InstallFontInProgress_SubHeader" xml:space="preserve">
-    <value>Installing {0, plural, one {# šriftas} other {# šriftai}} iš "{1}"</value>
+    <value>Installing {0, plural, one {# Å¡riftas} other {# Å¡riftai}} iÅ¡ "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CopyCanceled_Header" xml:space="preserve">
@@ -3843,7 +3849,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CopyComplete_Header" xml:space="preserve">
-    <value>Copied {0, plural, one {# prekė} other {# elementai}} į "{1}"</value>
+    <value>Copied {0, plural, one {# prekÄ—} other {# elementai}} Ä¯ "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CopyComplete_SubHeader" xml:space="preserve">
@@ -3859,7 +3865,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CopyInProgress_Header" xml:space="preserve">
-    <value>Copying {0, plural, one {# prekė} other {# elementai}} į "{1}"</value>
+    <value>Copying {0, plural, one {# prekÄ—} other {# elementai}} Ä¯ "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_CopyInProgress_SubHeader" xml:space="preserve">
@@ -3871,35 +3877,35 @@
     <comment>Shown in a StatusCenter card during file discovery phase.</comment>
   </data>
   <data name="StatusCenter_DecompressCanceled_Header" xml:space="preserve">
-    <value>Atšauktas „{1}“ ištraukimas į „{1}“</value>
+    <value>AtÅ¡auktas â€ž{1}â€œ iÅ¡traukimas Ä¯ â€ž{1}â€œ</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressCanceled_SubHeader" xml:space="preserve">
-    <value>Atšauktas „{2}“ išskyrimas iš „{2}“ į „{2}“</value>
+    <value>AtÅ¡auktas â€ž{2}â€œ iÅ¡skyrimas iÅ¡ â€ž{2}â€œ Ä¯ â€ž{2}â€œ</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressComplete_Header" xml:space="preserve">
-    <value>Išskirtas „{1}“ į „{1}“</value>
+    <value>IÅ¡skirtas â€ž{1}â€œ Ä¯ â€ž{1}â€œ</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressComplete_SubHeader" xml:space="preserve">
-    <value>Išskirta „{2}“ iš „{2}“ į „{2}“</value>
+    <value>IÅ¡skirta â€ž{2}â€œ iÅ¡ â€ž{2}â€œ Ä¯ â€ž{2}â€œ</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressFailed_Header" xml:space="preserve">
-    <value>Klaida išskleidžiant „{1}“ į „{1}“</value>
+    <value>Klaida iÅ¡skleidÅ¾iant â€ž{1}â€œ Ä¯ â€ž{1}â€œ</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressFailed_SubHeader" xml:space="preserve">
-    <value>Nepavyko ištraukti "{2}" iš "{2}" į "{2}"</value>
+    <value>Nepavyko iÅ¡traukti "{2}" iÅ¡ "{2}" Ä¯ "{2}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressInProgress_Header" xml:space="preserve">
-    <value>„{1}“ išskleidžiama į „{1}“</value>
+    <value>â€ž{1}â€œ iÅ¡skleidÅ¾iama Ä¯ â€ž{1}â€œ</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DecompressInProgress_SubHeader" xml:space="preserve">
-    <value>„{2}“ ištraukimas iš „{2}“ į „{2}“</value>
+    <value>â€ž{2}â€œ iÅ¡traukimas iÅ¡ â€ž{2}â€œ Ä¯ â€ž{2}â€œ</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DeleteCanceled_Header" xml:space="preserve">
@@ -3907,7 +3913,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DeleteComplete_Header" xml:space="preserve">
-    <value>Deleted {0, plural, one {# prekė} other {# prekės}} iš "{1}"</value>
+    <value>Deleted {0, plural, one {# prekÄ—} other {# prekÄ—s}} iÅ¡ "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DeleteFailed_Header" xml:space="preserve">
@@ -3919,7 +3925,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_DeleteInProgress_Header" xml:space="preserve">
-    <value>Deleting {0, plural, one {# prekė} other {# prekės}} iš "{1}"</value>
+    <value>Deleting {0, plural, one {# prekÄ—} other {# prekÄ—s}} iÅ¡ "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_MoveCanceled_Header" xml:space="preserve">
@@ -3931,7 +3937,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_MoveComplete_Header" xml:space="preserve">
-    <value>Moved {0, plural, one {# prekė} other {# elementai}} į "{1}"</value>
+    <value>Moved {0, plural, one {# prekÄ—} other {# elementai}} Ä¯ "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_MoveComplete_SubHeader" xml:space="preserve">
@@ -3939,7 +3945,7 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_MoveInProgress_Header" xml:space="preserve">
-    <value>Moving {0, plural, one {# prekė} other {# elementai}} į "{1}"</value>
+    <value>Moving {0, plural, one {# prekÄ—} other {# elementai}} Ä¯ "{1}"</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_MoveInProgress_SubHeader" xml:space="preserve">
@@ -3955,27 +3961,27 @@
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinCancel_Header" xml:space="preserve">
-    <value>Šiukšlinės ištuštinimas atšauktas</value>
+    <value>Å iukÅ¡linÄ—s iÅ¡tuÅ¡tinimas atÅ¡auktas</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinComplete_Header" xml:space="preserve">
-    <value>Ištuštinta šiukšliadėžė</value>
+    <value>IÅ¡tuÅ¡tinta Å¡iukÅ¡liadÄ—Å¾Ä—</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinInProgress_Header" xml:space="preserve">
-    <value>Šiukšlių dėžės ištuštinimas</value>
+    <value>Å iukÅ¡liÅ³ dÄ—Å¾Ä—s iÅ¡tuÅ¡tinimas</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinFailed_Header" xml:space="preserve">
-    <value>Ištuštinant šiukšlinę įvyko klaida</value>
+    <value>IÅ¡tuÅ¡tinant Å¡iukÅ¡linÄ™ Ä¯vyko klaida</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_EmptyRecycleBinFailed_SubHeader" xml:space="preserve">
-    <value>Nepavyko ištuštinti šiukšlinės</value>
+    <value>Nepavyko iÅ¡tuÅ¡tinti Å¡iukÅ¡linÄ—s</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_Prepare_Header" xml:space="preserve">
-    <value>Ruošiamasi operacijai...</value>
+    <value>RuoÅ¡iamasi operacijai...</value>
     <comment>Shown in a StatusCenter card.</comment>
   </data>
   <data name="StatusCenter_ProcessedItems_Header" xml:space="preserve">
@@ -3983,28 +3989,28 @@
     <comment>Shown in a StatusCenter card. Used as "8/20 items processed"</comment>
   </data>
   <data name="UnblockDownloadedFile" xml:space="preserve">
-    <value>Atblokuoti atsisiųstą failą</value>
+    <value>Atblokuoti atsisiÅ³stÄ… failÄ…</value>
   </data>
   <data name="NoFileOperations" xml:space="preserve">
-    <value>Jokių vykdomų failų operacijų</value>
+    <value>JokiÅ³ vykdomÅ³ failÅ³ operacijÅ³</value>
   </data>
   <data name="OpenOnStartupDisabled" xml:space="preserve">
-    <value>Parinktis atidaryti failus Windows paleisties metu nepasiekiama dėl sistemos nustatymų arba grupės strategijos. Norėdami vėl įjungti, užduočių tvarkytuvėje atidarykite paleisties puslapį.</value>
+    <value>Parinktis atidaryti failus Windows paleisties metu nepasiekiama dÄ—l sistemos nustatymÅ³ arba grupÄ—s strategijos. NorÄ—dami vÄ—l Ä¯jungti, uÅ¾duoÄiÅ³ tvarkytuvÄ—je atidarykite paleisties puslapÄ¯.</value>
   </data>
   <data name="FailedToRestore" xml:space="preserve">
-    <value>Nepavyko atkurti elementų iš šiukšlinės</value>
+    <value>Nepavyko atkurti elementÅ³ iÅ¡ Å¡iukÅ¡linÄ—s</value>
   </data>
   <data name="FailedToSetBackground" xml:space="preserve">
     <value>Nepavyko nustatyti fono fono</value>
   </data>
   <data name="FailedToOpenSettingsFile" xml:space="preserve">
-    <value>Nepavyko atidaryti nustatymų failo</value>
+    <value>Nepavyko atidaryti nustatymÅ³ failo</value>
   </data>
   <data name="GitDeleteBranch" xml:space="preserve">
-    <value>Ištrinkite Git filialą</value>
+    <value>IÅ¡trinkite Git filialÄ…</value>
   </data>
   <data name="GitDeleteBranchSubtitle" xml:space="preserve">
-    <value>Ar tikrai norite visam laikui ištrinti "{0}" šaką?</value>
+    <value>Ar tikrai norite visam laikui iÅ¡trinti "{0}" Å¡akÄ…?</value>
   </data>
   <data name="ConnectedToGitHub" xml:space="preserve">
     <value>Prisijungta prie GitHub</value>
@@ -4013,64 +4019,64 @@
     <value>Atsijungti</value>
   </data>
   <data name="ConnectToGitHub" xml:space="preserve">
-    <value>Prisijunkite prie „GitHub“.</value>
+    <value>Prisijunkite prie â€žGitHubâ€œ.</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Prisijungti</value>
   </data>
   <data name="ErrorApplyingTagContent" xml:space="preserve">
-    <value>Žymos šiuo metu suderinamos tik su diskais, suformatuotais kaip NTFS.</value>
+    <value>Å½ymos Å¡iuo metu suderinamos tik su diskais, suformatuotais kaip NTFS.</value>
   </data>
   <data name="ErrorApplyingTagTitle" xml:space="preserve">
-    <value>Taikant šią žymą įvyko klaida</value>
+    <value>Taikant Å¡iÄ… Å¾ymÄ… Ä¯vyko klaida</value>
   </data>
   <data name="DecompressArchiveHereSmartDescription" xml:space="preserve">
-    <value>Ištrauka selected {0, plural, one {archyvas} other {archives}} čia vienam elementui arba į naują aplanką keliems elementams</value>
+    <value>IÅ¡trauka selected {0, plural, one {archyvas} other {archives}} Äia vienam elementui arba Ä¯ naujÄ… aplankÄ… keliems elementams</value>
   </data>
   <data name="ExtractHereSmart" xml:space="preserve">
-    <value>Ištraukite čia (išmanusis)</value>
+    <value>IÅ¡traukite Äia (iÅ¡manusis)</value>
   </data>
   <data name="SortFilesAndFoldersTogether" xml:space="preserve">
-    <value>Rūšiuoti failus ir aplankus kartu</value>
+    <value>RÅ«Å¡iuoti failus ir aplankus kartu</value>
   </data>
   <data name="SortFilesAndFoldersTogetherDescription" xml:space="preserve">
-    <value>Rūšiuokite failus ir aplankus tame pačiame sąraše</value>
+    <value>RÅ«Å¡iuokite failus ir aplankus tame paÄiame sÄ…raÅ¡e</value>
   </data>
   <data name="SortFilesFirst" xml:space="preserve">
-    <value>Pirmiausia surūšiuokite failus</value>
+    <value>Pirmiausia surÅ«Å¡iuokite failus</value>
   </data>
   <data name="SortFilesFirstDescription" xml:space="preserve">
-    <value>Pirmiausia rūšiuokite failus, tada aplankus</value>
+    <value>Pirmiausia rÅ«Å¡iuokite failus, tada aplankus</value>
   </data>
   <data name="SortFoldersFirst" xml:space="preserve">
-    <value>Pirmiausia surūšiuokite aplankus</value>
+    <value>Pirmiausia surÅ«Å¡iuokite aplankus</value>
   </data>
   <data name="SortFoldersFirstDescription" xml:space="preserve">
-    <value>Pirmiausia rūšiuokite aplankus, tada failus</value>
+    <value>Pirmiausia rÅ«Å¡iuokite aplankus, tada failus</value>
   </data>
   <data name="SortPriority" xml:space="preserve">
-    <value>Rūšiavimo prioritetas</value>
+    <value>RÅ«Å¡iavimo prioritetas</value>
   </data>
   <data name="FailedToRotateImage" xml:space="preserve">
     <value>Nepavyko pasukti vaizdo</value>
   </data>
   <data name="Restart" xml:space="preserve">
-    <value>Paleisti iš naujo</value>
+    <value>Paleisti iÅ¡ naujo</value>
   </data>
   <data name="Quit" xml:space="preserve">
-    <value>Išeik</value>
+    <value>IÅ¡eik</value>
   </data>
   <data name="FaildToShareItems" xml:space="preserve">
-    <value>Nepavyko bendrinti elementų</value>
+    <value>Nepavyko bendrinti elementÅ³</value>
   </data>
   <data name="ScrollToPreviousFolderWhenNavigatingUp" xml:space="preserve">
-    <value>Naršydami aukštyn slinkite į ankstesnį aplanką</value>
+    <value>NarÅ¡ydami aukÅ¡tyn slinkite Ä¯ ankstesnÄ¯ aplankÄ…</value>
   </data>
   <data name="NewWindowDescription" xml:space="preserve">
-    <value>Atidaryti naują langą</value>
+    <value>Atidaryti naujÄ… langÄ…</value>
   </data>
   <data name="ChangeAlbumCover" xml:space="preserve">
-    <value>Keisti albumo viršelį</value>
+    <value>Keisti albumo virÅ¡elÄ¯</value>
   </data>
   <data name="RemoveAlbumCover" xml:space="preserve">
     <value>Remove album cover</value>
@@ -4079,13 +4085,13 @@
     <value>Nepavyko pervardyti elemento</value>
   </data>
   <data name="HigherPermissionsRequired" xml:space="preserve">
-    <value>Norint redaguoti „{0}“, reikia papildomų leidimų</value>
+    <value>Norint redaguoti â€ž{0}â€œ, reikia papildomÅ³ leidimÅ³</value>
   </data>
   <data name="EditPermissions" xml:space="preserve">
     <value>Redaguoti leidimus</value>
   </data>
   <data name="BackgroundRunningNotificationBody" xml:space="preserve">
-    <value>Failai vis dar veikia fone, kad pagerintų paleidimo našumą.</value>
+    <value>Failai vis dar veikia fone, kad pagerintÅ³ paleidimo naÅ¡umÄ….</value>
   </data>
   <data name="BackgroundRunningNotificationHeader" xml:space="preserve">
     <value>Kur dingo failai?</value>
@@ -4094,11 +4100,11 @@
     <value>Klausimai ir diskusijos</value>
   </data>
   <data name="Compact" xml:space="preserve">
-    <value>Kompaktiškas</value>
+    <value>KompaktiÅ¡kas</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Small" xml:space="preserve">
-    <value>MaÅ¾as</value>
+    <value>MaÃ…Â¾as</value>
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="Medium" xml:space="preserve">
@@ -4146,10 +4152,10 @@
     <comment>Used to describe layout sizes</comment>
   </data>
   <data name="DetailsView" xml:space="preserve">
-    <value>Išsamios informacijos vaizdas</value>
+    <value>IÅ¡samios informacijos vaizdas</value>
   </data>
   <data name="LayoutType" xml:space="preserve">
-    <value>Išdėstymo tipas</value>
+    <value>IÅ¡dÄ—stymo tipas</value>
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Veiksmai</value>
@@ -4161,34 +4167,40 @@
     <value>Komandos</value>
   </data>
   <data name="AddCommand" xml:space="preserve">
-    <value>Pridėti komandą</value>
+    <value>PridÄ—ti komandÄ…</value>
   </data>
   <data name="RestoreDefaults" xml:space="preserve">
     <value>Atkurti numatytuosius nustatymus</value>
   </data>
   <data name="ChooseAnAction" xml:space="preserve">
-    <value>Pasirinkite veiksmą</value>
+    <value>Pasirinkite veiksmÄ…</value>
   </data>
   <data name="RestoreDefaultKeybindingsConfirmation" xml:space="preserve">
-    <value>Ar tikrai norite atkurti numatytuosius raktų surišimus? Šio veiksmo anuliuoti negalima.</value>
+    <value>Ar tikrai norite atkurti numatytuosius raktÅ³ suriÅ¡imus? Å io veiksmo anuliuoti negalima.</value>
   </data>
   <data name="KeybindingAlreadyUsedNotification" xml:space="preserve">
-    <value>Šis raktų susiejimas jau naudojamas. Jei norite tęsti, pasirinkite kitą rakto susiejimą.</value>
+    <value>Å is raktÅ³ susiejimas jau naudojamas. Jei norite tÄ™sti, pasirinkite kitÄ… rakto susiejimÄ….</value>
   </data>
   <data name="KeybindingInvalidKeyNotification" xml:space="preserve">
-    <value>Pasirinkto rakto susiejimo naudoti negalima. Bandykite dar kartą naudodami kitą rakto susiejimą.</value>
+    <value>Pasirinkto rakto susiejimo naudoti negalima. Bandykite dar kartÄ… naudodami kitÄ… rakto susiejimÄ….</value>
+  </data>
+  <data name="KeyboardShortcuts" xml:space="preserve">
+    <value>Keyboard shortcuts</value>
+  </data>
+  <data name="DeleteKeyBindingConfirmation" xml:space="preserve">
+    <value>Are you sure you want to remove this key binding?</value>
   </data>
   <data name="Customized" xml:space="preserve">
     <value>Pritaikyta</value>
   </data>
   <data name="AdaptiveLayoutDisabledNotification" xml:space="preserve">
-    <value>Prisitaikantis išdėstymas nepasiekiamas, kai nuostatos sinchronizuojamos, numatytasis išdėstymas pakeistas į Išsami informacija.</value>
+    <value>Prisitaikantis iÅ¡dÄ—stymas nepasiekiamas, kai nuostatos sinchronizuojamos, numatytasis iÅ¡dÄ—stymas pakeistas Ä¯ IÅ¡sami informacija.</value>
   </data>
   <data name="BackgroundImage" xml:space="preserve">
     <value>Fono vaizdas</value>
   </data>
   <data name="Bottom" xml:space="preserve">
-    <value>Apačia</value>
+    <value>ApaÄia</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Center" xml:space="preserve">
@@ -4196,7 +4208,7 @@
     <comment>Image alignment type</comment>
   </data>
   <data name="Fill" xml:space="preserve">
-    <value>Užpildykite</value>
+    <value>UÅ¾pildykite</value>
     <comment>Image stretch type</comment>
   </data>
   <data name="HorizontalAlignment" xml:space="preserve">
@@ -4206,18 +4218,18 @@
     <value>Tinkamas vaizdas</value>
   </data>
   <data name="Left" xml:space="preserve">
-    <value>KairÄ—</value>
+    <value>KairÃ„â€”</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Opacity" xml:space="preserve">
     <value>Neskaidrumas</value>
   </data>
   <data name="Right" xml:space="preserve">
-    <value>DeÅ¡inÄ—</value>
+    <value>DeÃ…Â¡inÃ„â€”</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Top" xml:space="preserve">
-    <value>Į viršų</value>
+    <value>Ä® virÅ¡Å³</value>
     <comment>Image alignment type</comment>
   </data>
   <data name="Uniform" xml:space="preserve">
@@ -4225,7 +4237,7 @@
     <comment>Image stretch type</comment>
   </data>
   <data name="UniformToFill" xml:space="preserve">
-    <value>Uniforma užpildyti</value>
+    <value>Uniforma uÅ¾pildyti</value>
     <comment>Image stretch type</comment>
   </data>
   <data name="VerticalAlignment" xml:space="preserve">
@@ -4240,29 +4252,29 @@
     <comment>Setting where users can choose to display "Open IDE" button for Git Repos</comment>
   </data>
   <data name="DevTools" xml:space="preserve">
-    <value>Kūrėjo įrankiai</value>
+    <value>KÅ«rÄ—jo Ä¯rankiai</value>
   </data>
   <data name="DisplayOpenIDE" xml:space="preserve">
-    <value>Būsenos juostoje sukonfigūruokite mygtuką „Atidaryti IDE“.</value>
+    <value>BÅ«senos juostoje sukonfigÅ«ruokite mygtukÄ… â€žAtidaryti IDEâ€œ.</value>
   </data>
   <data name="GitRepos" xml:space="preserve">
     <value>Rodyti Git atpirkimo sandorius</value>
     <comment>Setting where users can choose to display "Open IDE" button for all locations.</comment>
   </data>
   <data name="ApplicationExtension" xml:space="preserve">
-    <value>Programos plėtinys</value>
+    <value>Programos plÄ—tinys</value>
     <comment>This is the friendly name for DLL files.</comment>
   </data>
   <data name="IcoFileCapitalized" xml:space="preserve">
-    <value>â€žICOâ€œ failas</value>
+    <value>Ã¢â‚¬Å¾ICOÃ¢â‚¬Å“ failas</value>
     <comment>This is the friendly name for ICO files.</comment>
   </data>
   <data name="IclFileCapitalized" xml:space="preserve">
-    <value>â€žICLâ€œ failas</value>
+    <value>Ã¢â‚¬Å¾ICLÃ¢â‚¬Å“ failas</value>
     <comment>This is the friendly name for ICL files.</comment>
   </data>
   <data name="ZipFileCapitalized" xml:space="preserve">
-    <value>â€žZipâ€œ failas</value>
+    <value>Ã¢â‚¬Å¾ZipÃ¢â‚¬Å“ failas</value>
     <comment>This is the friendly name for ZIP files.</comment>
   </data>
   <data name="BitmapFiles" xml:space="preserve">
@@ -4289,68 +4301,68 @@
     <value>Tinklo vietos</value>
   </data>
   <data name="NoNetworkLocationsInfo" xml:space="preserve">
-    <value>Nėra tinklo vietų. Jei nenaudojate tinklo vietų, galite išjungti valdiklį.</value>
+    <value>NÄ—ra tinklo vietÅ³. Jei nenaudojate tinklo vietÅ³, galite iÅ¡jungti valdiklÄ¯.</value>
   </data>
   <data name="Disable" xml:space="preserve">
-    <value>Išjungti</value>
+    <value>IÅ¡jungti</value>
   </data>
   <data name="EditInNotepad" xml:space="preserve">
-    <value>Redaguoti užrašų knygelėje</value>
+    <value>Redaguoti uÅ¾raÅ¡Å³ knygelÄ—je</value>
   </data>
   <data name="EditInNotepadDescription" xml:space="preserve">
-    <value>Redaguokite pasirinktą failą Notepad</value>
+    <value>Redaguokite pasirinktÄ… failÄ… Notepad</value>
   </data>
   <data name="PropertyDimensionsColon" xml:space="preserve">
     <value>Matmenys:</value>
   </data>
   <data name="StatusWithColon" xml:space="preserve">
-    <value>Būsena:</value>
+    <value>BÅ«sena:</value>
   </data>
   <data name="ShowToolbar" xml:space="preserve">
-    <value>Rodyti įrankių juostą</value>
+    <value>Rodyti Ä¯rankiÅ³ juostÄ…</value>
     <comment>Setting that controls if the toolbar is shown in the main view</comment>
   </data>
   <data name="TabActions" xml:space="preserve">
-    <value>Skirtuko veiksmų meniu</value>
+    <value>Skirtuko veiksmÅ³ meniu</value>
   </data>
   <data name="SplitPaneVertically" xml:space="preserve">
     <value>Padalinti vertikaliai</value>
   </data>
   <data name="AddVerticalPaneDescription" xml:space="preserve">
-    <value>Padalinkite langą vertikaliai</value>
+    <value>Padalinkite langÄ… vertikaliai</value>
   </data>
   <data name="SplitPaneHorizontally" xml:space="preserve">
     <value>Padalinti horizontaliai</value>
   </data>
   <data name="SplitPaneHorizontallyDescription" xml:space="preserve">
-    <value>Padalinkite langą horizontaliai</value>
+    <value>Padalinkite langÄ… horizontaliai</value>
   </data>
   <data name="ArrangePanesVertically" xml:space="preserve">
-    <value>Išdėstykite vertikaliai</value>
+    <value>IÅ¡dÄ—stykite vertikaliai</value>
   </data>
   <data name="ArrangePanesVerticallyDescription" xml:space="preserve">
-    <value>Išdėstykite stiklus vertikaliai</value>
+    <value>IÅ¡dÄ—stykite stiklus vertikaliai</value>
   </data>
   <data name="ArrangePanesHorizontally" xml:space="preserve">
-    <value>Išdėstykite horizontaliai</value>
+    <value>IÅ¡dÄ—stykite horizontaliai</value>
   </data>
   <data name="ArrangePanesHorizontallyDescription" xml:space="preserve">
-    <value>Išdėstykite plokštes horizontaliai</value>
+    <value>IÅ¡dÄ—stykite plokÅ¡tes horizontaliai</value>
   </data>
   <data name="SplitPane" xml:space="preserve">
     <value>Padalintas skydelis</value>
   </data>
   <data name="ShowTabActions" xml:space="preserve">
-    <value>Rodyti skirtuko veiksmų mygtuką pavadinimo juostoje</value>
+    <value>Rodyti skirtuko veiksmÅ³ mygtukÄ… pavadinimo juostoje</value>
   </data>
   <data name="ArrangePanes" xml:space="preserve">
-    <value>Išdėstykite stiklus</value>
+    <value>IÅ¡dÄ—stykite stiklus</value>
   </data>
   <data name="DualPaneSplitDirection" xml:space="preserve">
-    <value>Numatytoji dviejų langų padalijimo kryptis</value>
+    <value>Numatytoji dviejÅ³ langÅ³ padalijimo kryptis</value>
   </data>
   <data name="DualPane" xml:space="preserve">
-    <value>Dviejų langų režimas</value>
+    <value>DviejÅ³ langÅ³ reÅ¾imas</value>
   </data>
   <data name="Horizontal" xml:space="preserve">
     <value>Horizontaliai</value>
@@ -4359,13 +4371,13 @@
     <value>Vertikalus</value>
   </data>
   <data name="ShowSystemTrayIcon" xml:space="preserve">
-    <value>Rodyti failų piktogramą sistemos dėkle</value>
+    <value>Rodyti failÅ³ piktogramÄ… sistemos dÄ—kle</value>
   </data>
   <data name="CPUThreads" xml:space="preserve">
     <value>CPU gijos</value>
   </data>
   <data name="NavigateHomeDescription" xml:space="preserve">
-    <value>Eikite į pagrindinį puslapį</value>
+    <value>Eikite Ä¯ pagrindinÄ¯ puslapÄ¯</value>
   </data>
   <data name="AddressBar" xml:space="preserve">
     <value>Address bar</value>
@@ -4377,43 +4389,43 @@
     <value>Masinis pervadinimas</value>
   </data>
   <data name="CompressContents" xml:space="preserve">
-    <value>Suspausti turinį</value>
+    <value>Suspausti turinÄ¯</value>
   </data>
   <data name="ShowCreateAlternateDataStream" xml:space="preserve">
-    <value>Rodyti alternatyvaus duomenų srauto kūrimo parinktį</value>
+    <value>Rodyti alternatyvaus duomenÅ³ srauto kÅ«rimo parinktÄ¯</value>
   </data>
   <data name="CreateAlternateDataStream" xml:space="preserve">
-    <value>Sukurkite alternatyvų duomenų srautą</value>
+    <value>Sukurkite alternatyvÅ³ duomenÅ³ srautÄ…</value>
   </data>
   <data name="CreateAlternateDataStreamDescription" xml:space="preserve">
     <value>Create alternate data stream for the selected {0, plural, one {item} other {items}}</value>
   </data>
   <data name="EnterDataStreamName" xml:space="preserve">
-    <value>Įveskite duomenų srauto pavadinimą</value>
+    <value>Ä®veskite duomenÅ³ srauto pavadinimÄ…</value>
   </data>
   <data name="ErrorCreatingDataStreamTitle" xml:space="preserve">
-    <value>Kuriant alternatyvų duomenų srautą įvyko klaida</value>
+    <value>Kuriant alternatyvÅ³ duomenÅ³ srautÄ… Ä¯vyko klaida</value>
   </data>
   <data name="ErrorCreatingDataStreamDescription" xml:space="preserve">
-    <value>Atminkite, kad alternatyvūs duomenų srautai veikia tik diskuose, suformatuotuose kaip NTFS.</value>
+    <value>Atminkite, kad alternatyvÅ«s duomenÅ³ srautai veikia tik diskuose, suformatuotuose kaip NTFS.</value>
   </data>
   <data name="DataStreamsAreHiddenTitle" xml:space="preserve">
-    <value>Šiuo metu alternatyvūs duomenų srautai yra paslėpti</value>
+    <value>Å iuo metu alternatyvÅ«s duomenÅ³ srautai yra paslÄ—pti</value>
   </data>
   <data name="DataStreamsAreHiddenDescription" xml:space="preserve">
-    <value>Ar norėtumėte rodyti alternatyvius duomenų srautus? Šį nustatymą galite bet kada pakeisti failų ir aplankų nustatymų puslapyje.</value>
+    <value>Ar norÄ—tumÄ—te rodyti alternatyvius duomenÅ³ srautus? Å Ä¯ nustatymÄ… galite bet kada pakeisti failÅ³ ir aplankÅ³ nustatymÅ³ puslapyje.</value>
   </data>
   <data name="ManageTags" xml:space="preserve">
-    <value>Tvarkyti žymas</value>
+    <value>Tvarkyti Å¾ymas</value>
   </data>
   <data name="Available" xml:space="preserve">
     <value>Galima</value>
   </data>
   <data name="Total" xml:space="preserve">
-    <value>Iš viso</value>
+    <value>IÅ¡ viso</value>
   </data>
   <data name="AlwaysSwitchToNewlyOpenedTab" xml:space="preserve">
-    <value>Visada perjunkite židinį į naujai sukurtą skirtuką</value>
+    <value>Visada perjunkite Å¾idinÄ¯ Ä¯ naujai sukurtÄ… skirtukÄ…</value>
   </data>
   <data name="ReverseTabScrollDirection" xml:space="preserve">
     <value>Reverse tab scroll direction</value>
@@ -4425,33 +4437,33 @@
     <value>Down motion scrolls right</value>
   </data>
   <data name="ToggleShelfPane" xml:space="preserve">
-    <value>Perjungti lentynos sritį</value>
+    <value>Perjungti lentynos sritÄ¯</value>
   </data>
   <data name="ToggleShelfPaneDescription" xml:space="preserve">
-    <value>Perjungti lentynos srities matomumą</value>
+    <value>Perjungti lentynos srities matomumÄ…</value>
   </data>
   <data name="ShowShelfPaneButtonInAddressBar" xml:space="preserve">
-    <value>Rodyti lentynos srities perjungimą adreso juostoje</value>
+    <value>Rodyti lentynos srities perjungimÄ… adreso juostoje</value>
   </data>
   <data name="Shelf" xml:space="preserve">
-    <value>Lentynėlė</value>
+    <value>LentynÄ—lÄ—</value>
     <comment>'Shelf' refers to the Shelf Pane feature, where users can conveniently drag and drop files for quick access and perform bulk actions with ease.</comment>
   </data>
   <data name="ClearItems" xml:space="preserve">
-    <value>Išvalyti elementus</value>
+    <value>IÅ¡valyti elementus</value>
   </data>
   <data name="BatchAction" xml:space="preserve">
     <value>Batch action</value>
   </data>
   <data name="RemoveFromShelf" xml:space="preserve">
-    <value>Išimkite iš lentynos</value>
+    <value>IÅ¡imkite iÅ¡ lentynos</value>
   </data>
   <data name="AddToShelf" xml:space="preserve">
-    <value>Pridėti į lentyną</value>
+    <value>PridÄ—ti Ä¯ lentynÄ…</value>
     <comment>Tooltip that displays when dragging items to the Shelf Pane</comment>
   </data>
   <data name="EnterHashToCompare" xml:space="preserve">
-    <value>Norėdami palyginti, įveskite maišą</value>
+    <value>NorÄ—dami palyginti, Ä¯veskite maiÅ¡Ä…</value>
     <comment>Placeholder that appears in the compare hash text box</comment>
   </data>
   <data name="HashesMatch" xml:space="preserve">
@@ -4459,7 +4471,7 @@
     <comment>Appears when two compared hashes match, e.g. "Matches SHA256"</comment>
   </data>
   <data name="HashesDoNotMatch" xml:space="preserve">
-    <value>Atitikčių nerasta</value>
+    <value>AtitikÄiÅ³ nerasta</value>
     <comment>Appears when two compared hashes don't match</comment>
   </data>
   <data name="PathOrAlias" xml:space="preserve">
@@ -4472,10 +4484,10 @@
     <value>Bandomasis integravimas</value>
   </data>
   <data name="IDENotLocatedContent" xml:space="preserve">
-    <value>{0} nepavyko rasti. Patikrinkite nustatymus ir bandykite dar kartą.</value>
+    <value>{0} nepavyko rasti. Patikrinkite nustatymus ir bandykite dar kartÄ….</value>
   </data>
   <data name="IDENotLocatedTitle" xml:space="preserve">
-    <value>Nepavyko rasti sukonfigūruoto IDE</value>
+    <value>Nepavyko rasti sukonfigÅ«ruoto IDE</value>
   </data>
   <data name="OpenSettings" xml:space="preserve">
     <value>Atidaryti nustatymus</value>
@@ -4493,13 +4505,13 @@
     <value>Visual Studio kodas</value>
   </data>
   <data name="IDEPathPlaceholder" xml:space="preserve">
-    <value>Įveskite kelią arba paleidimo slapyvardį</value>
+    <value>Ä®veskite keliÄ… arba paleidimo slapyvardÄ¯</value>
   </data>
   <data name="InvalidIDENameError" xml:space="preserve">
-    <value>Įveskite IDE pavadinimą</value>
+    <value>Ä®veskite IDE pavadinimÄ…</value>
   </data>
   <data name="CloneRepo" xml:space="preserve">
-    <value>Klonuoti atpirkimą</value>
+    <value>Klonuoti atpirkimÄ…</value>
     <comment>Clone repo dialog title</comment>
   </data>
   <data name="Clone" xml:space="preserve">
@@ -4515,49 +4527,49 @@
     <comment>Cannot clone repo dialog title</comment>
   </data>
   <data name="CompareFile" xml:space="preserve">
-    <value>Palyginti failÄ…</value>
+    <value>Palyginti failÃ„â€¦</value>
     <comment>Button that appears in file hash properties that allows the user to compare two files</comment>
   </data>
   <data name="SizeFormat" xml:space="preserve">
-    <value>DydÅ¾io formatas</value>
+    <value>DydÃ…Â¾io formatas</value>
   </data>
   <data name="Binary" xml:space="preserve">
     <value>Dvejetainis</value>
   </data>
   <data name="Decimal" xml:space="preserve">
-    <value>Dešimtainė</value>
+    <value>DeÅ¡imtainÄ—</value>
   </data>
   <data name="SectionsHiddenMessage" xml:space="preserve">
-    <value>Skilčių galite pridėti prie šoninės juostos dešiniuoju pelės mygtuku spustelėdami ir pasirinkdami norimas pridėti dalis</value>
+    <value>SkilÄiÅ³ galite pridÄ—ti prie Å¡oninÄ—s juostos deÅ¡iniuoju pelÄ—s mygtuku spustelÄ—dami ir pasirinkdami norimas pridÄ—ti dalis</value>
   </data>
   <data name="EmptyShelfText" xml:space="preserve">
-    <value>Nuvilkite failus ar aplankus čia, kad galėtumėte su jais sąveikauti skirtinguose skirtukuose</value>
+    <value>Nuvilkite failus ar aplankus Äia, kad galÄ—tumÄ—te su jais sÄ…veikauti skirtinguose skirtukuose</value>
   </data>
   <data name="OmnibarPathModeTextPlaceholder" xml:space="preserve">
-    <value>Ä®veskite keliÄ…, Ä¯ kurÄ¯ norite narÅ¡yti...</value>
+    <value>Ã„Â®veskite keliÃ„â€¦, Ã„Â¯ kurÃ„Â¯ norite narÃ…Â¡yti...</value>
   </data>
   <data name="OmnibarCommandPaletteModeTextPlaceholder" xml:space="preserve">
     <value>Raskite funkcijas ir komandas...</value>
   </data>
   <data name="OmnibarSearchModeTextPlaceholder" xml:space="preserve">
-    <value>Ieškokite failų ir aplankų...</value>
+    <value>IeÅ¡kokite failÅ³ ir aplankÅ³...</value>
   </data>
   <data name="DuringOngoingFileOperations" xml:space="preserve">
-    <value>Failų operacijų metu</value>
+    <value>FailÅ³ operacijÅ³ metu</value>
   </data>
   <data name="ShowStatusCenterButton" xml:space="preserve">
-    <value>Rodyti būsenos centrinį mygtuką</value>
+    <value>Rodyti bÅ«senos centrinÄ¯ mygtukÄ…</value>
   </data>
   <data name="StatusCenterProgressRing" xml:space="preserve">
-    <value>Būsenos centro progreso žiedas</value>
+    <value>BÅ«senos centro progreso Å¾iedas</value>
     <comment>Screen reader name for the status center progress ring</comment>
   </data>
   <data name="IconFiles" xml:space="preserve">
-    <value>PiktogramÅ³ failai</value>
+    <value>PiktogramÃ…Â³ failai</value>
     <comment>This is the friendly name for a variety of different icon files.</comment>
   </data>
   <data name="BreadcrumbBarEllipsisButtonToolTip" xml:space="preserve">
-    <value>Rodyti sutrauktus kelio naršymo kelius</value>
+    <value>Rodyti sutrauktus kelio narÅ¡ymo kelius</value>
   </data>
   <data name="BreadcrumbBarChevronButtonToolTip" xml:space="preserve">
     <value>Rodyti aplankus {0}</value>
@@ -4566,28 +4578,28 @@
     <value>Rodyti aplankus pagrindiniame puslapyje</value>
   </data>
   <data name="NoCommandsFound" xml:space="preserve">
-    <value>Nėra komandų su {0}</value>
+    <value>NÄ—ra komandÅ³ su {0}</value>
   </data>
   <data name="SeeMore" xml:space="preserve">
-    <value>Å½iÅ«rÄ—ti daugiau</value>
+    <value>Ã…Â½iÃ…Â«rÃ„â€”ti daugiau</value>
   </data>
   <data name="FilteringFor" xml:space="preserve">
-    <value>Filtravimas už</value>
+    <value>Filtravimas uÅ¾</value>
   </data>
   <data name="Filename" xml:space="preserve">
     <value>Failo pavadinimas</value>
   </data>
   <data name="Signatures" xml:space="preserve">
-    <value>Parašai</value>
+    <value>ParaÅ¡ai</value>
   </data>
   <data name="SignatureList" xml:space="preserve">
-    <value>Parašų sąrašas</value>
+    <value>ParaÅ¡Å³ sÄ…raÅ¡as</value>
   </data>
   <data name="IssuedBy" xml:space="preserve">
-    <value>Išdavė:</value>
+    <value>IÅ¡davÄ—:</value>
   </data>
   <data name="IssuedTo" xml:space="preserve">
-    <value>Išduota:</value>
+    <value>IÅ¡duota:</value>
   </data>
   <data name="ValidFrom" xml:space="preserve">
     <value>Galioja nuo:</value>
@@ -4596,25 +4608,25 @@
     <value>Galioja:</value>
   </data>
   <data name="NoSignatureFound" xml:space="preserve">
-    <value>Parašo nerasta.</value>
+    <value>ParaÅ¡o nerasta.</value>
   </data>
   <data name="ShowOpenTerminal" xml:space="preserve">
-    <value>Rodyti aplankų atidarymo parinktį Windows terminale</value>
+    <value>Rodyti aplankÅ³ atidarymo parinktÄ¯ Windows terminale</value>
   </data>
   <data name="OpenLogFile" xml:space="preserve">
-    <value>Atidaryti žurnalo failą</value>
+    <value>Atidaryti Å¾urnalo failÄ…</value>
   </data>
   <data name="OpenLogFileDescription" xml:space="preserve">
-    <value>Atidarykite žurnalo failą numatytajame redaktoriuje</value>
+    <value>Atidarykite Å¾urnalo failÄ… numatytajame redaktoriuje</value>
   </data>
   <data name="OpenLogFileLocationDescription" xml:space="preserve">
-    <value>Atidarykite žurnalo failo vietą numatytojoje failų tvarkyklėje</value>
+    <value>Atidarykite Å¾urnalo failo vietÄ… numatytojoje failÅ³ tvarkyklÄ—je</value>
   </data>
   <data name="FailedToOpenLogFile" xml:space="preserve">
-    <value>Nepavyko atidaryti žurnalo failo</value>
+    <value>Nepavyko atidaryti Å¾urnalo failo</value>
   </data>
   <data name="ShowStatusBar" xml:space="preserve">
-    <value>Rodyti būsenos juostą</value>
+    <value>Rodyti bÅ«senos juostÄ…</value>
   </data>
   <data name="OnlyForTouch" xml:space="preserve">
     <value>When using touch</value>
@@ -4626,16 +4638,16 @@
     <value>Naujas {0}</value>
   </data>
   <data name="EnableSmoothScrolling" xml:space="preserve">
-    <value>Įgalinkite sklandų slinkimą</value>
+    <value>Ä®galinkite sklandÅ³ slinkimÄ…</value>
   </data>
   <data name="Scrolling" xml:space="preserve">
     <value>Slinkimas</value>
   </data>
   <data name="ShowPinToSideBar" xml:space="preserve">
-    <value>Rodyti parinktį Prisegti prie šoninės juostos</value>
+    <value>Rodyti parinktÄ¯ Prisegti prie Å¡oninÄ—s juostos</value>
   </data>
   <data name="ShowPinToStart" xml:space="preserve">
-    <value>Rodyti parinktį Prisegti prie meniu Pradėti</value>
+    <value>Rodyti parinktÄ¯ Prisegti prie meniu PradÄ—ti</value>
   </data>
   <data name="Toolbar" xml:space="preserve">
     <value>Toolbar</value>
@@ -4747,5 +4759,25 @@
   </data>
   <data name="ConfirmRemoveTagsDialogContent" xml:space="preserve">
     <value>Are you sure you want to remove tags from the selected items?</value>
+  </data>  <data name="SharedTagsPath" xml:space="preserve">
+    <value>Tags &amp; categories storage path</value>
+  </data>
+  <data name="SharedTagsPathDescription" xml:space="preserve">
+    <value>Requires app restart</value>
+  </data>
+  <data name="SharedTagsPathNotSet" xml:space="preserve">
+    <value>Not set (default path)</value>
+  </data>
+  <data name="SharedTagsPathInvalid" xml:space="preserve">
+    <value>Invalid path</value>
+  </data>
+  <data name="SharedTagsPathInvalidDescription" xml:space="preserve">
+    <value>The selected path is not a valid directory.</value>
+  </data>
+  <data name="SharedTagsPathRestartTitle" xml:space="preserve">
+    <value>Restart required</value>
+  </data>
+  <data name="SharedTagsPathRestartMessage" xml:space="preserve">
+    <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
 </root>

@@ -4,8 +4,6 @@
 using Files.App.Utils.Serialization.Implementation;
 using Microsoft.Extensions.Logging;
 using System.Collections.Concurrent;
-using System.IO;
-using Windows.Storage;
 
 namespace Files.App.Services.Settings
 {
@@ -27,26 +25,22 @@ namespace Files.App.Services.Settings
 
 		private static readonly List<CategoryViewModel> DefaultFileCategories =
 		[
-			new("Uncategorized", "00000000-0000-0000-0000-000000000000")
+			new("Uncategorized", "00000000-0000-0000-0000-000000000000"),
+			new("Example Category", "a1b2c3d4-e5f6-7890-abcd-ef1234567890")
 		];
-
-		private readonly string _settingsFilePath;
 
 		public FileTagsCategoriesSettingsService()
 		{
-			var settingsSerializer = new DefaultSettingsSerializer();
-			SettingsSerializer = settingsSerializer;
-
-			_settingsFilePath = Path.Combine(ApplicationData.Current.LocalFolder.Path,
-				Constants.LocalSettings.SettingsFolderName, Constants.LocalSettings.FileTagsCategoriesSettingsFileName);
-			Initialize(_settingsFilePath);
-
-			var jsonSettingsSerializer = new DefaultJsonSettingsSerializer();
-			JsonSettingsSerializer = jsonSettingsSerializer;
-			JsonSettingsDatabase = new CachingJsonSettingsDatabase(
-				settingsSerializer,
-				jsonSettingsSerializer,
-				FileTagsCategoriesSettingsJsonSerializationContext.Default);
+			JsonSettingsSerializer = new DefaultJsonSettingsSerializer();
+			var database = new ServerSettingsDatabase(Constants.LocalSettings.FileTagsCategoriesSettingsFileName, JsonSettingsSerializer, FileTagsCategoriesSettingsJsonSerializationContext.Default);
+			JsonSettingsDatabase = database;
+			IsAvailable = true;
+			database.Changed += (name, value) =>
+			{
+				RaiseOnSettingChangedEvent(this, new SettingChangedEventArgs(name, value));
+				if (name == nameof(FileCategoryList))
+					OnCategoriesUpdated?.Invoke(this, EventArgs.Empty);
+			};
 		}
 
 		public IList<CategoryViewModel> FileCategoryList
@@ -54,14 +48,6 @@ namespace Files.App.Services.Settings
 			get
 			{
 				var categories = Get<List<CategoryViewModel>>(DefaultFileCategories) ?? DefaultFileCategories;
-
-				// Persist defaults to disk if the settings file doesn't exist yet
-				if (categories == DefaultFileCategories && !File.Exists(_settingsFilePath))
-				{
-					Set(DefaultFileCategories);
-					FlushSettings();
-				}
-
 				return categories;
 			}
 			set
@@ -140,7 +126,8 @@ namespace Files.App.Services.Settings
 
 			if (FileCategoryList is not null)
 			{
-				FlushSettings();
+				if (!FlushSettings())
+					return false;
 				OnSettingImportedEvent?.Invoke(this, EventArgs.Empty);
 				return true;
 			}

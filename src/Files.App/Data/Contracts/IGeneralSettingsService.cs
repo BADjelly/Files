@@ -288,7 +288,12 @@ namespace Files.App.Data.Contracts
 		/// <summary>
 		/// Gets or sets a value indicating whether or not to leave app running in the background.
 		/// </summary>
-		bool LeaveAppRunning { get; set; }
+		bool CloseToBackground { get; set; }
+
+		/// <summary>
+		/// Gets or sets a value indicating whether or not to translate natural language searches into filters.
+		/// </summary>
+		bool EnableNaturalLanguageSearch { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether or not to show Files in the system tray.
@@ -363,5 +368,10 @@ namespace Files.App.Data.Contracts
 		/// Gets or sets a value indicating whether smooth scrolling is enabled.
 		/// </summary>
 		bool EnableSmoothScrolling { get; set; }
+
+		/// <summary>
+		/// Gets or sets an alternative path for tags and categories JSON files. Null means use local storage.
+		/// </summary>
+		string? SharedTagsPath { get; set; }
 	}
 }
