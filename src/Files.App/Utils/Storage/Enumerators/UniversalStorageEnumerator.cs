@@ -85,7 +85,8 @@ namespace Files.App.Utils.Storage
 				foreach (var item in items)
 				{
 					var startWithDot = item.Name.StartsWith('.');
-					if (!startWithDot || userSettingsService.FoldersSettingsService.ShowDotFiles)
+					var isFilesSidecar = item.Name.EndsWith(".fileshistory", StringComparison.OrdinalIgnoreCase);
+					if ((!startWithDot || userSettingsService.FoldersSettingsService.ShowDotFiles) && !isFilesSidecar)
 					{
 						if (item.IsOfType(StorageItemTypes.Folder))
 						{

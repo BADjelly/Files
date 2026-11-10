@@ -687,6 +687,9 @@ namespace Files.App.Utils.Storage
 					?.Destination;
 				if (renamedDestination is not null)
 				{
+					// Rename the .fileshistory sidecar directory if it exists
+					await RenameSidecarDirectoryAsync(source.Path, renamedDestination, cancellationToken);
+
 					return new StorageHistory(FileOperationType.Rename, source,
 						StorageHelpers.FromPathAndType(renamedDestination, source.ItemType));
 				}
@@ -947,6 +950,37 @@ namespace Files.App.Utils.Storage
 			return parentPath is not null && !string.IsNullOrEmpty(fileName)
 				? Path.Combine(parentPath, fileName.Replace("$R", "$I", StringComparison.Ordinal))
 				: null;
+		}
+
+		private static async Task RenameSidecarDirectoryAsync(string oldPath, string destination, CancellationToken cancellationToken)
+		{
+			var oldSidecarDir = $"{oldPath}.fileshistory";
+			if (!Directory.Exists(oldSidecarDir))
+				return;
+
+			var newSidecarDir = $"{destination}.fileshistory";
+
+			try
+			{
+				if (Directory.Exists(newSidecarDir))
+				{
+					// Merge: move contents from old sidecar to new sidecar
+					foreach (var file in Directory.EnumerateFiles(oldSidecarDir, "*", SearchOption.TopDirectoryOnly))
+					{
+						var fileName = Path.GetFileName(file);
+						File.Move(file, Path.Combine(newSidecarDir, fileName), true);
+					}
+					Directory.Delete(oldSidecarDir);
+				}
+				else
+				{
+					Directory.Move(oldSidecarDir, newSidecarDir);
+				}
+			}
+			catch
+			{
+				// Sidecar rename failure is non-fatal; the main file rename already succeeded
+			}
 		}
 
 		public void Dispose()

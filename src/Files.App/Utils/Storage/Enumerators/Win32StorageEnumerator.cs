@@ -50,12 +50,14 @@ namespace Files.App.Utils.Storage
 				do
 				{
 					var isSystem = ((FileAttributes)findData.dwFileAttributes & FileAttributes.System) == FileAttributes.System;
-					var isHidden = ((FileAttributes)findData.dwFileAttributes & FileAttributes.Hidden) == FileAttributes.Hidden;
-					var startWithDot = findData.cFileName.StartsWith('.');
-					if ((!isHidden ||
-						(showHiddenItems &&
+						var isHidden = ((FileAttributes)findData.dwFileAttributes & FileAttributes.Hidden) == FileAttributes.Hidden;
+						var startWithDot = findData.cFileName.StartsWith('.');
+						var isFilesSidecar = findData.cFileName.EndsWith(".fileshistory", StringComparison.OrdinalIgnoreCase);
+						if ((!isHidden ||
+							(showHiddenItems &&
 							(!isSystem || showProtectedSystemFiles))) &&
-						(!startWithDot || showDotFiles))
+							(!startWithDot || showDotFiles) &&
+							!isFilesSidecar)
 					{
 						if (((FileAttributes)findData.dwFileAttributes & FileAttributes.Directory) != FileAttributes.Directory)
 						{

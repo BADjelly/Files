@@ -3231,12 +3231,14 @@ namespace Files.App.ViewModels
 			var isSystem = ((FileAttributes)findData.dwFileAttributes & FileAttributes.System) == FileAttributes.System;
 			var isHidden = ((FileAttributes)findData.dwFileAttributes & FileAttributes.Hidden) == FileAttributes.Hidden;
 			var startWithDot = findData.cFileName.StartsWith('.');
+			var isFilesSidecar = findData.cFileName.EndsWith(".fileshistory", StringComparison.OrdinalIgnoreCase);
 			if ((isHidden &&
 			   (!UserSettingsService.FoldersSettingsService.ShowHiddenItems ||
 			   (isSystem && !UserSettingsService.FoldersSettingsService.ShowProtectedSystemFiles))) ||
-			   (startWithDot && !UserSettingsService.FoldersSettingsService.ShowDotFiles))
+			   (startWithDot && !UserSettingsService.FoldersSettingsService.ShowDotFiles) ||
+			   isFilesSidecar)
 			{
-				// Do not add to file list if hidden/system attribute is set and system/hidden file are not to be shown
+				// Do not add to file list if hidden/system attribute is set and system/hidden file are not to be shown, or if this is a .fileshistory sidecar directory
 				return null;
 			}
 

@@ -520,6 +520,11 @@ namespace Files.App.Data.Factories
 						&& (!selectedItems.FirstOrDefault()?.IsShortcut ?? false)
 						&& !currentInstanceViewModel.IsPageTypeRecycleBin,
 				}.Build(),
+				new ContextMenuFlyoutItemViewModelBuilder(Commands.SaveVersion)
+				{
+					IsVisible = Commands.SaveVersion.IsExecutable
+						&& !currentInstanceViewModel.IsPageTypeRecycleBin,
+				}.Build(),
 				new ContextMenuFlyoutItemViewModelBuilder(Commands.CreateAlternateDataStream)
 				{
 					IsVisible = UserSettingsService.GeneralSettingsService.ShowCreateAlternateDataStream &&

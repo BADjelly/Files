@@ -5,6 +5,7 @@ using Files.Shared.Helpers;
 using Microsoft.UI.Xaml.Controls;
 using System.IO;
 using System.Text;
+using System.Diagnostics;
 using Windows.Foundation.Metadata;
 using Windows.Storage;
 using Windows.Win32;
@@ -681,6 +682,10 @@ namespace Files.App.Utils.Storage
 				{
 					fsProgress.ReportStatus(FileSystemStatusCode.Success);
 
+					// Rename the .fileshistory sidecar directory if it exists
+					Trace.WriteLine($"RenameAsync: calling RenameSidecarDirectoryAsync for '{source.Path}' to '{newName}'");
+					await RenameSidecarDirectoryAsync(source.Path, destination: Path.Combine(Path.GetDirectoryName(source.Path)!, newName), cancellationToken);
+
 					return new StorageHistory(FileOperationType.Rename, source, renamedItem.FromStorageItem());
 				}
 				else if (renamed == FileSystemStatusCode.Unauthorized)
@@ -692,6 +697,9 @@ namespace Files.App.Utils.Storage
 					if (PInvoke.MoveFileFromApp(source.Path, destination))
 					{
 						fsProgress.ReportStatus(FileSystemStatusCode.Success);
+
+						// Rename the .files sidecar directory if it exists
+						await RenameSidecarDirectoryAsync(source.Path, destination, cancellationToken);
 
 						return new StorageHistory(FileOperationType.Rename, source, StorageHelpers.FromPathAndType(destination, source.ItemType));
 					}
@@ -1067,6 +1075,43 @@ namespace Files.App.Utils.Storage
 		public Task<IStorageHistory> CreateShortcutItemsAsync(IList<IStorageItemWithPath> source, IList<string> destination, IProgress<StatusCenterItemProgressModel> progress, CancellationToken token)
 		{
 			throw new NotImplementedException("Cannot create shortcuts in UWP.");
+		}
+
+		private static async Task RenameSidecarDirectoryAsync(string oldPath, string destination, CancellationToken cancellationToken)
+		{
+			var oldSidecarDir = $"{oldPath}.fileshistory";
+			Trace.WriteLine($"RenameSidecarDirectoryAsync: checking oldSidecarDir='{oldSidecarDir}'");
+			if (!Directory.Exists(oldSidecarDir))
+			{
+				Trace.WriteLine($"RenameSidecarDirectoryAsync: oldSidecarDir does not exist, returning.");
+				return;
+			}
+
+			var newSidecarDir = $"{destination}.fileshistory";
+			Trace.WriteLine($"RenameSidecarDirectoryAsync: renaming '{oldSidecarDir}' to '{newSidecarDir}'.");
+
+			try
+			{
+				if (Directory.Exists(newSidecarDir))
+				{
+					// Merge: move contents from old sidecar to new sidecar
+					foreach (var file in Directory.EnumerateFiles(oldSidecarDir, "*", SearchOption.TopDirectoryOnly))
+					{
+						var fileName = Path.GetFileName(file);
+						File.Move(file, Path.Combine(newSidecarDir, fileName), true);
+					}
+					Directory.Delete(oldSidecarDir);
+				}
+				else
+				{
+					Directory.Move(oldSidecarDir, newSidecarDir);
+				}
+			}
+			catch (Exception ex)
+			{
+				// Sidecar rename failure is non-fatal; the main file rename already succeeded
+				Trace.WriteLine($"RenameSidecarDirectoryAsync: failed - {ex.Message}");
+			}
 		}
 
 		public void Dispose()

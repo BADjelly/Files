@@ -1,6 +1,7 @@
 // Copyright (c) Files Community
 // Licensed under the MIT License.
 
+using Files.App.Actions;
 using Files.App.Dialogs;
 using Microsoft.UI;
 using Microsoft.UI.Xaml;
@@ -488,6 +489,96 @@ namespace Files.App.Helpers
 			{
 				warning.IsOpen = false;
 			};
+
+			return dialog;
+		}
+
+		public static DynamicDialog GetFor_SaveVersionDialog(string itemName)
+		{
+			DynamicDialog? dialog = null;
+			SaveVersionDialogData dialogData = new();
+
+			TextBox titleInput = new()
+			{
+			};
+
+			TextBlock titleLabel = new()
+			{
+				Text = Strings.SaveVersionDialogTitle.GetLocalizedResource(),
+				Margin = new Thickness(0, 0, 0, 4)
+			};
+
+			TextBox descriptionInput = new()
+			{
+				Height = 80,
+				TextWrapping = TextWrapping.Wrap,
+				AcceptsReturn = true
+			};
+
+			TextBlock descriptionLabel = new()
+			{
+				Text = Strings.SaveVersionDialogDescription.GetLocalizedResource(),
+				Margin = new Thickness(0, 12, 0, 4)
+			};
+
+			void UpdateDialogState()
+			{
+				dialog!.ViewModel.DynamicButtonsEnabled = !string.IsNullOrEmpty(dialogData.Title)
+														? DynamicDialogButtons.Primary | DynamicDialogButtons.Cancel
+														: DynamicDialogButtons.Cancel;
+				dialog.ViewModel.AdditionalData = dialogData;
+			}
+
+			titleInput.TextChanged += (s, e) =>
+			{
+				dialogData.Title = titleInput.Text ?? string.Empty;
+				UpdateDialogState();
+			};
+
+			descriptionInput.TextChanged += (s, e) =>
+			{
+				dialogData.Description = descriptionInput.Text ?? string.Empty;
+				UpdateDialogState();
+			};
+
+			titleInput.Loaded += (s, e) =>
+			{
+				_ = titleInput.DispatcherQueue.EnqueueOrInvokeAsync(() => titleInput.Focus(FocusState.Programmatic));
+			};
+
+			dialog = new DynamicDialog(new DynamicDialogViewModel()
+			{
+				TitleText = string.Format(Strings.SaveVersionDialogHeader.GetLocalizedResource(), itemName),
+				SubtitleText = null,
+				DisplayControl = new Grid()
+				{
+					MinWidth = 300d,
+					Children =
+					{
+						new StackPanel()
+						{
+							Spacing = 12,
+							Children =
+							{
+								titleLabel,
+								titleInput,
+								descriptionLabel,
+								descriptionInput
+							}
+						}
+					}
+				},
+				PrimaryButtonAction = (vm, e) =>
+				{
+					vm.Hide();
+				},
+				PrimaryButtonText = Strings.SaveVersion.GetLocalizedResource(),
+				CloseButtonText = Strings.Cancel.GetLocalizedResource(),
+				DynamicButtonsEnabled = DynamicDialogButtons.Cancel,
+				DynamicButtons = DynamicDialogButtons.Primary | DynamicDialogButtons.Cancel
+			});
+
+			UpdateDialogState();
 
 			return dialog;
 		}
