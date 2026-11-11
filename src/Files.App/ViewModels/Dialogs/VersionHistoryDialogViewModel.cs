@@ -4,7 +4,11 @@
 using System.IO;
 using System.Text.Json;
 using System.Text.RegularExpressions;
+using System.Windows;
+using System.Windows.Input;
 using Files.App.Utils.Serialization;
+using Windows.Storage;
+using Windows.System;
 
 namespace Files.App.ViewModels.Dialogs;
 
@@ -14,6 +18,8 @@ public sealed class VersionHistoryDialogViewModel : ObservableObject
 
 	public IList<VersionHistoryItem> HistoryItems { get; }
 
+	public ICommand ShowCommand { get; }
+
 	public VersionHistoryDialogViewModel(string itemPath)
 	{
 		string itemName = Path.GetFileName(itemPath);
@@ -22,8 +28,38 @@ public sealed class VersionHistoryDialogViewModel : ObservableObject
 		string manifestPath = PathNormalization.Combine(historyDir, "manifest.json");
 
 		TitleText = string.Format(Strings.VersionHistoryDialogSubtitle.GetLocalizedResource(), itemName);
+		ShowCommand = new RelayCommand<VersionHistoryItem>(ShowHistoryDirectory);
 
 		HistoryItems = LoadHistoryItems(manifestPath, historyDir);
+	}
+
+	internal void ShowHistoryDirectory(VersionHistoryItem? item)
+	{
+		if (item is null || string.IsNullOrWhiteSpace(item.HistoryDirPath))
+			return;
+
+		_ = Process.Start(new ProcessStartInfo
+		{
+			FileName = "explorer.exe",
+			Arguments = item.HistoryDirPath,
+			UseShellExecute = true
+		});
+	}
+
+	internal async Task OpenFileAsync(VersionHistoryItem? item)
+	{
+		if (item is null || string.IsNullOrWhiteSpace(item.FullPath))
+			return;
+
+		try
+		{
+			StorageFile storageFile = await StorageFile.GetFileFromPathAsync(item.FullPath);
+			_ = await Launcher.LaunchFileAsync(storageFile);
+		}
+		catch
+		{
+			// Silently fail - file may not exist anymore
+		}
 	}
 
 	private static IList<VersionHistoryItem> LoadHistoryItems(string manifestPath, string historyDir)
@@ -45,7 +81,7 @@ public sealed class VersionHistoryDialogViewModel : ObservableObject
 				string timestamp = ExtractTimestamp(entry.Filename!);
 				string title = entry.Title ?? string.Empty;
 				string description = entry.Description ?? string.Empty;
-				items.Add(new VersionHistoryItem(timestamp, title, description));
+				items.Add(new VersionHistoryItem(timestamp, title, description, historyDir, entry.Filename!));
 			}
 
 			items.Reverse();

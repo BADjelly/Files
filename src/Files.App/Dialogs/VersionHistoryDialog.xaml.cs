@@ -7,7 +7,7 @@ using WinRT;
 
 namespace Files.App.Dialogs;
 
-	public sealed partial class VersionHistoryDialog : ContentDialog
+public sealed partial class VersionHistoryDialog : ContentDialog
 {
 	private FrameworkElement RootAppElement
 	{
@@ -31,5 +31,21 @@ namespace Files.App.Dialogs;
 	private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
 	{
 		Hide();
+	}
+
+	private void ShowButton_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+	{
+		if (sender is Button button && button.Tag is Helpers.VersionHistoryItem item)
+		{
+			ViewModel.ShowHistoryDirectory(item);
+		}
+	}
+
+	private async void OpenButton_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+	{
+		if (sender is Button button && button.Tag is Helpers.VersionHistoryItem item)
+		{
+			await ViewModel.OpenFileAsync(item);
+		}
 	}
 }
