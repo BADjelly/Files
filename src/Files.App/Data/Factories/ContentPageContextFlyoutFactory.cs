@@ -521,11 +521,16 @@ namespace Files.App.Data.Factories
 						&& !currentInstanceViewModel.IsPageTypeRecycleBin,
 				}.Build(),
 				new ContextMenuFlyoutItemViewModelBuilder(Commands.SaveVersion)
-				{
-					IsVisible = Commands.SaveVersion.IsExecutable
-						&& !currentInstanceViewModel.IsPageTypeRecycleBin,
-				}.Build(),
-				new ContextMenuFlyoutItemViewModelBuilder(Commands.CreateAlternateDataStream)
+					{
+						IsVisible = Commands.SaveVersion.IsExecutable
+							&& !currentInstanceViewModel.IsPageTypeRecycleBin,
+					}.Build(),
+					new ContextMenuFlyoutItemViewModelBuilder(Commands.VersionHistory)
+					{
+						IsVisible = Commands.VersionHistory.IsExecutable
+							&& !currentInstanceViewModel.IsPageTypeRecycleBin,
+					}.Build(),
+					new ContextMenuFlyoutItemViewModelBuilder(Commands.CreateAlternateDataStream)
 				{
 					IsVisible = UserSettingsService.GeneralSettingsService.ShowCreateAlternateDataStream &&
 						Commands.CreateAlternateDataStream.IsExecutable,

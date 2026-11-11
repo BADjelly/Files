@@ -4431,6 +4431,18 @@
   <data name="SaveVersionDialogDescription" xml:space="preserve">
     <value>Description (optional)</value>
   </data>
+  <data name="VersionHistory" xml:space="preserve">
+    <value>Version history</value>
+  </data>
+  <data name="VersionHistoryDescription" xml:space="preserve">
+    <value>View the version history of the selected file</value>
+  </data>
+  <data name="VersionHistoryDialogSubtitle" xml:space="preserve">
+    <value>Version history for '{0}'</value>
+  </data>
+  <data name="VersionHistoryShow" xml:space="preserve">
+    <value>Show</value>
+  </data>
   <data name="EnterDataStreamName" xml:space="preserve">
     <value>Enter data stream name</value>
   </data>

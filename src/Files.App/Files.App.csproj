@@ -53,6 +53,7 @@
         <SentryUploadSymbols>true</SentryUploadSymbols>
     </PropertyGroup>
 
+
     <ItemGroup>
         <Compile Include="..\Files.App.Server\Settings\SettingsValueCodec.cs" Link="Utils\Serialization\SettingsValueCodec.cs" />
     </ItemGroup>
@@ -77,7 +78,7 @@
         <NativeLibrary Include="runtimeobject.lib" />
         <NativeLibrary Include="cfgmgr32.lib" />
         <NativeLibrary Include="mpr.lib" />
-        <NativeLibrary Include="@(_WindowsAppRuntimeBootstrapLibrary->Exists())" />
+        <NativeLibrary Include="@(_WindowsAppRuntimeBootstrapLibrary-&gt;Exists())" />
     </ItemGroup>
   
     <ItemGroup>
