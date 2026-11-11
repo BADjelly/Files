@@ -6,7 +6,11 @@ using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Input;
+using Files.App.Data.Contracts;
+using Files.App.Data.Models;
+using Files.App.Services.Settings;
 using Files.App.Utils.Serialization;
+using Microsoft.Extensions.DependencyInjection;
 using Windows.Storage;
 using Windows.System;
 
@@ -76,12 +80,18 @@ public sealed class VersionHistoryDialogViewModel : ObservableObject
 			if (entries is null)
 				return items;
 
+			IFileTagsSettingsService fileTagsSettingsService = Ioc.Default.GetRequiredService<IFileTagsSettingsService>();
+			IEnumerable<TagViewModel> allTags = fileTagsSettingsService.FileTagList;
+
 			foreach (var entry in entries)
 			{
 				string timestamp = ExtractTimestamp(entry.Filename!);
 				string title = entry.Title ?? string.Empty;
 				string description = entry.Description ?? string.Empty;
-				items.Add(new VersionHistoryItem(timestamp, title, description, historyDir, entry.Filename!));
+				string fullPath = PathNormalization.Combine(historyDir, entry.Filename!);
+				string[] tagUids = FileTagsHelper.ReadFileTag(fullPath);
+				IReadOnlyList<TagViewModel> tags = ResolveTags(tagUids, allTags);
+				items.Add(new VersionHistoryItem(timestamp, title, description, historyDir, entry.Filename!) { Tags = tags });
 			}
 
 			items.Reverse();
@@ -92,6 +102,21 @@ public sealed class VersionHistoryDialogViewModel : ObservableObject
 		}
 
 		return items;
+	}
+
+	private static IReadOnlyList<TagViewModel> ResolveTags(string[] tagUids, IEnumerable<TagViewModel>? allTags)
+	{
+		if (tagUids.Length == 0 || allTags is null)
+			return [];
+
+		var result = new List<TagViewModel>();
+		var uidSet = new HashSet<string>(tagUids);
+		foreach (var tag in allTags)
+		{
+			if (uidSet.Contains(tag.Uid))
+				result.Add(tag);
+		}
+		return result;
 	}
 
 	private static string ExtractTimestamp(string filename)
