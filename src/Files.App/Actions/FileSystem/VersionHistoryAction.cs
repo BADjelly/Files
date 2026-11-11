@@ -3,6 +3,7 @@
 
 using Files.App.Dialogs;
 using Microsoft.UI.Xaml.Controls;
+using System.IO;
 using Windows.Storage;
 
 namespace Files.App.Actions;
@@ -29,7 +30,23 @@ internal sealed partial class VersionHistoryAction : ObservableObject, IAction
 		IsPageTypeValid() &&
 		context.HasSelection &&
 		context.SelectedItems.Count == 1 &&
-		context.SelectedItems[0].PrimaryItemAttribute == StorageItemTypes.File;
+		context.SelectedItems[0].PrimaryItemAttribute == StorageItemTypes.File &&
+		HasVersionHistory();
+
+	private bool HasVersionHistory()
+	{
+		if (context.SelectedItems.Count != 1)
+			return false;
+
+		var item = context.SelectedItems[0];
+		if (item.PrimaryItemAttribute != StorageItemTypes.File || item.ItemPath is null)
+			return false;
+
+		string itemName = Path.GetFileName(item.ItemPath);
+		string parentDir = Path.GetDirectoryName(item.ItemPath) ?? string.Empty;
+		string historyDir = PathNormalization.Combine(parentDir, $"{itemName}.fileshistory");
+		return Directory.Exists(historyDir);
+	}
 
 	public VersionHistoryAction()
 	{
@@ -47,7 +64,7 @@ internal sealed partial class VersionHistoryAction : ObservableObject, IAction
 		if (item.PrimaryItemAttribute != StorageItemTypes.File)
 			return;
 
-		var dialog = new VersionHistoryDialog(item.ItemNameRaw!);
+		var dialog = new VersionHistoryDialog(item.ItemPath!);
 		await dialog.TryShowAsync();
 	}
 

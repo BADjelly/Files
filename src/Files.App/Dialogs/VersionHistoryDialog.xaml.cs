@@ -7,7 +7,7 @@ using WinRT;
 
 namespace Files.App.Dialogs;
 
-public sealed partial class VersionHistoryDialog : ContentDialog
+	public sealed partial class VersionHistoryDialog : ContentDialog
 {
 	private FrameworkElement RootAppElement
 	{
@@ -21,10 +21,10 @@ public sealed partial class VersionHistoryDialog : ContentDialog
 		set => DataContext = value;
 	}
 
-	public VersionHistoryDialog(string itemName)
+	public VersionHistoryDialog(string itemPath)
 	{
-		ViewModel = new VersionHistoryDialogViewModel(itemName);
-		Title = string.Format(Strings.VersionHistoryDialogSubtitle.GetLocalizedResource(), itemName);
+		ViewModel = new VersionHistoryDialogViewModel(itemPath);
+		Title = ViewModel.TitleText;
 		InitializeComponent();
 	}
 
