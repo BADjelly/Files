@@ -15,7 +15,7 @@
 	DefaultButton="Primary"
 	HighContrastAdjustment="None"
 	PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
-	PrimaryButtonText="{helpers:ResourceString Name=Close}"
+	PrimaryButtonText="{helpers:ResourceString Name=Done}"
 	RequestedTheme="{x:Bind RootAppElement.RequestedTheme, Mode=OneWay}"
 	SecondaryButtonText="{helpers:ResourceString Name=Cancel}"
 	Style="{StaticResource DefaultContentDialogStyle}"
@@ -38,16 +38,25 @@
 						x:Name="HistoryListView"
 						Grid.Row="0"
 						MaxHeight="375"
-						Width="400"
+						Width="500"
 						ItemsSource="{x:Bind ViewModel.HistoryItems, Mode=OneWay}">
 						<ListView.ItemTemplate>
 							<DataTemplate x:DataType="helpers:VersionHistoryItem">
-								<Grid ColumnSpacing="8">
+								<Grid ColumnSpacing="12" PointerPressed="ItemGrid_PointerPressed">
 									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="Auto" />
 										<ColumnDefinition Width="*" />
 										<ColumnDefinition Width="Auto" />
 									</Grid.ColumnDefinitions>
-									<StackPanel Grid.Column="0" Margin="8,12" Spacing="4">
+									<Image
+										Grid.Column="0"
+										Width="32"
+										Height="32"
+										Margin="8,12,8,12"
+										HorizontalAlignment="Left"
+										VerticalAlignment="Center"
+										Source="{x:Bind Icon, Mode=OneWay}" />
+									<StackPanel Grid.Column="1" Margin="0,12" Spacing="4">
 										<TextBlock Text="{x:Bind Timestamp, Mode=OneWay}" FontWeight="SemiBold" />
 										<TextBlock Text="{x:Bind Title, Mode=OneWay}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
 										<TextBlock Text="{x:Bind Description, Mode=OneWay}" Foreground="{ThemeResource TextFillColorTertiaryBrush}" FontSize="12" />
@@ -83,7 +92,7 @@
 											</ItemsControl.ItemTemplate>
 										</ItemsControl>
 									</StackPanel>
-									<StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="4" VerticalAlignment="Center">
+									<StackPanel Grid.Column="2" Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
 										<Button Content="{helpers:ResourceString Name=Open}" Padding="8,4" Click="OpenButton_Click" Tag="{Binding}" />
 										<Button Content="{helpers:ResourceString Name=VersionHistoryShow}" Padding="8,4" Click="ShowButton_Click" Tag="{Binding}" />
 									</StackPanel>

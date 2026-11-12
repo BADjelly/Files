@@ -1,22 +1,27 @@
 // Copyright (c) Files Community
 // Licensed under the MIT License.
 
+using CommunityToolkit.WinUI;
 using System.IO;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Input;
+using static Files.App.Constants;
 using Files.App.Data.Contracts;
 using Files.App.Data.Models;
+using Files.App.Services;
 using Files.App.Services.Settings;
 using Files.App.Utils.Serialization;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.UI.Dispatching;
+using Microsoft.UI.Xaml.Media.Imaging;
 using Windows.Storage;
 using Windows.System;
 
 namespace Files.App.ViewModels.Dialogs;
 
-public sealed class VersionHistoryDialogViewModel : ObservableObject
+public sealed partial class VersionHistoryDialogViewModel : ObservableObject
 {
 	public string TitleText { get; }
 
@@ -24,8 +29,12 @@ public sealed class VersionHistoryDialogViewModel : ObservableObject
 
 	public ICommand ShowCommand { get; }
 
+	private readonly Microsoft.UI.Dispatching.DispatcherQueue _dispatcherQueue;
+
 	public VersionHistoryDialogViewModel(string itemPath)
 	{
+		_dispatcherQueue = Microsoft.UI.Dispatching.DispatcherQueue.GetForCurrentThread()!;
+
 		string itemName = Path.GetFileName(itemPath);
 		string parentDir = Path.GetDirectoryName(itemPath) ?? string.Empty;
 		string historyDir = PathNormalization.Combine(parentDir, $"{itemName}.fileshistory");
@@ -35,6 +44,22 @@ public sealed class VersionHistoryDialogViewModel : ObservableObject
 		ShowCommand = new RelayCommand<VersionHistoryItem>(ShowHistoryDirectory);
 
 		HistoryItems = LoadHistoryItems(manifestPath, historyDir);
+		_ = LoadIconsAsync();
+	}
+
+	private async Task LoadIconsAsync()
+	{
+		var iconCache = Ioc.Default.GetRequiredService<IIconCacheService>();
+		foreach (var item in HistoryItems)
+		{
+			var extension = Path.GetExtension(item.Filename);
+			var icon = await iconCache.GetIconImageAsync(item.FullPath, extension, false, Constants.ShellIconSizes.Small);
+
+			if (icon is not null)
+			{
+				await _dispatcherQueue.EnqueueAsync(() => item.Icon = icon);
+			}
+		}
 	}
 
 	internal void ShowHistoryDirectory(VersionHistoryItem? item)
@@ -42,10 +67,21 @@ public sealed class VersionHistoryDialogViewModel : ObservableObject
 		if (item is null || string.IsNullOrWhiteSpace(item.HistoryDirPath))
 			return;
 
+		if (string.IsNullOrWhiteSpace(item.FullPath) || !File.Exists(item.FullPath))
+		{
+			_ = Process.Start(new ProcessStartInfo
+			{
+				FileName = "explorer.exe",
+				Arguments = item.HistoryDirPath,
+				UseShellExecute = true
+			});
+			return;
+		}
+
 		_ = Process.Start(new ProcessStartInfo
 		{
 			FileName = "explorer.exe",
-			Arguments = item.HistoryDirPath,
+			Arguments = $"/select,\"{item.FullPath}\"",
 			UseShellExecute = true
 		});
 	}

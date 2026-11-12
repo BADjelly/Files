@@ -1739,6 +1739,9 @@
   <data name="Close" xml:space="preserve">
     <value>Close</value>
   </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
   <data name="ConsentDialogPrimaryButtonText" xml:space="preserve">
     <value>Update</value>
   </data>
