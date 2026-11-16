@@ -189,6 +189,9 @@
   <data name="Search" xml:space="preserve">
     <value>Search</value>
   </data>
+  <data name="SearchAtLeastOneTagSelected" xml:space="preserve">
+    <value>At least one tag must be selected.</value>
+  </data>
   <data name="SearchSettings" xml:space="preserve">
     <value>Search settings...</value>
   </data>

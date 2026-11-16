@@ -10,10 +10,12 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Media.Imaging;
 using System.Collections.Concurrent;
+using System.Collections.ObjectModel;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Text.RegularExpressions;
 using Windows.Foundation;
 using Windows.Storage;
 using Windows.Storage.FileProperties;
@@ -1011,6 +1013,22 @@ namespace Files.App.ViewModels
 		{
 			get => _searchHeaderTitle;
 			set => SetProperty(ref _searchHeaderTitle, value);
+		}
+
+		private string? _currentSearchQuery;
+		public string? CurrentSearchQuery
+		{
+			get => _currentSearchQuery;
+			private set => SetProperty(ref _currentSearchQuery, value);
+		}
+
+		public bool IsTagSearch => CurrentSearchQuery?.StartsWith("tag:", StringComparison.OrdinalIgnoreCase) == true;
+
+		private ObservableCollection<TagChipViewModel>? _tagChips;
+		public ObservableCollection<TagChipViewModel> TagChips
+		{
+			get => _tagChips ??= new();
+			private set => SetProperty(ref _tagChips, value);
 		}
 
 		public void UpdateEmptyTextType()
@@ -3458,6 +3476,7 @@ namespace Files.App.ViewModels
 
 		public async Task SearchAsync(FolderSearch search)
 		{
+			App.Logger.LogInformation($"SearchAsync: Query='{search.Query}', Folder='{search.Folder}'");
 			ItemLoadStatusChanged?.Invoke(this, new ItemLoadStatusChangedEventArgs() { Status = ItemLoadStatusChangedEventArgs.ItemLoadStatus.Starting });
 
 			CancelSearch();
@@ -3470,9 +3489,12 @@ namespace Files.App.ViewModels
 			await ApplyFilesAndFoldersChangesAsync();
 			EmptyTextType = EmptyTextType.None;
 
+			CurrentSearchQuery = search.Query;
 			SearchHeaderTitle = !string.IsNullOrEmpty(search.Query)
 				? string.Format(Strings.SearchResultsFor.GetLocalizedResource(), search.Query)
 				: string.Empty;
+
+			await UpdateTagChipsAsync(search.Query);
 
 			if (SearchIconBitmapImage is null)
 				SearchIconBitmapImage ??= await UIHelpers.GetSearchIconResource();
@@ -3570,6 +3592,140 @@ namespace Files.App.ViewModels
 		public void CancelSearch()
 		{
 			searchCTS?.Cancel();
+			TagChips?.Clear();
+		}
+
+		private async Task UpdateTagChipsAsync(string? query)
+		{
+			if (string.IsNullOrWhiteSpace(query))
+			{
+				TagChips?.Clear();
+				return;
+			}
+
+			var selectedTagNames = ParseTagQuery(query);
+
+			// Build a lookup of registry tag names for validation
+			var allTags = fileTagsSettingsService.FileTagList ?? Array.Empty<TagViewModel>();
+			var registryNames = new HashSet<string>(allTags.Select(t => t.Name), StringComparer.OrdinalIgnoreCase);
+
+			// Filter parsed names to only those that exist in the registry
+			// (this prevents corrupted/artifact names from being used)
+			var validSelected = selectedTagNames.Where(n => registryNames.Contains(n)).ToHashSet();
+
+			var chips = new ObservableCollection<TagChipViewModel>();
+			foreach (var tag in allTags)
+			{
+				chips.Add(new TagChipViewModel(tag, validSelected.Contains(tag.Name)));
+			}
+
+			TagChips = chips;
+		}
+
+		private static HashSet<string> ParseTagQuery(string query)
+		{
+			var result = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+			var tokens = SplitQueryTokens(query);
+			foreach (var token in tokens)
+			{
+				if (token.Length < 5 || !token.StartsWith("tag:", StringComparison.OrdinalIgnoreCase))
+					continue;
+
+				var value = token.Substring(4);
+				if (value.StartsWith("\"") && value.EndsWith("\""))
+				{
+					value = value.Substring(1, value.Length - 2);
+					// Unescape doubled quotes inserted by FormatTagQuery
+					value = value.Replace("\"\"", "\"");
+				}
+
+				var tagValues = value.Split(',', StringSplitOptions.RemoveEmptyEntries);
+				foreach (var tagValue in tagValues)
+				{
+					var trimmed = tagValue.Trim();
+					if (!string.IsNullOrEmpty(trimmed))
+						result.Add(trimmed);
+				}
+			}
+			return result;
+		}
+
+		private static IEnumerable<string> SplitQueryTokens(string query)
+		{
+			var tokens = new List<string>();
+			var current = new System.Text.StringBuilder();
+			var inQuotes = false;
+			for (var i = 0; i < query.Length; i++)
+			{
+				var c = query[i];
+				if (c == '"')
+				{
+					inQuotes = !inQuotes;
+					current.Append(c);
+				}
+				else if (c == ' ' && !inQuotes)
+				{
+					if (current.Length > 0)
+					{
+						tokens.Add(current.ToString());
+						current.Clear();
+					}
+				}
+				else
+				{
+					current.Append(c);
+				}
+			}
+			if (current.Length > 0)
+				tokens.Add(current.ToString());
+			return tokens;
+		}
+
+		public bool UpdateTagChipSelection(TagChipViewModel chip)
+		{
+			if (string.IsNullOrWhiteSpace(CurrentSearchQuery))
+				return false;
+
+			var selectedTagNames = ParseTagQuery(CurrentSearchQuery);
+
+			if (chip.IsSelected)
+			{
+				selectedTagNames.Add(chip.Tag.Name);
+			}
+			else if (selectedTagNames.Count <= 1)
+			{
+				// Prevent deselecting the last remaining tag
+				return true;
+			}
+			else
+			{
+				selectedTagNames.Remove(chip.Tag.Name);
+			}
+
+			if (selectedTagNames.Count == 0)
+			{
+				CurrentSearchQuery = string.Empty;
+				SearchHeaderTitle = string.Empty;
+				TagChips?.Clear();
+				return false;
+			}
+
+			var newQuery = string.Join(" AND ", selectedTagNames.Select(t => FolderSearch.FormatTagQuery(t)));
+			CurrentSearchQuery = newQuery;
+			SearchHeaderTitle = string.Format(Strings.SearchResultsFor.GetLocalizedResource(), newQuery);
+
+			var searchPath = CurrentSearchQuery.StartsWith("tag:", StringComparison.OrdinalIgnoreCase)
+				? "Home"
+				: CurrentFolder?.ItemPath ?? string.Empty;
+
+			var search = new FolderSearch
+			{
+				Query = newQuery,
+				Folder = searchPath,
+			};
+
+			_ = SearchAsync(search);
+			return false;
 		}
 
 		public void UpdateDateDisplay()
