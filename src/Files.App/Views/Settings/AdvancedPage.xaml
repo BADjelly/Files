@@ -93,6 +93,14 @@
 				</StackPanel>
 			</wctcontrols:SettingsCard>
 
+			<!--  Hide .fileshistory content  -->
+			<wctcontrols:SettingsCard Header="{helpers:ResourceString Name=HideFilesHistorySidecars}">
+				<wctcontrols:SettingsCard.HeaderIcon>
+					<FontIcon Glyph="&#xE7C3;" />
+				</wctcontrols:SettingsCard.HeaderIcon>
+				<ToggleSwitch AutomationProperties.Name="{helpers:ResourceString Name=HideFilesHistorySidecars}" IsOn="{x:Bind ViewModel.HideFilesHistorySidecars, Mode=TwoWay}" />
+			</wctcontrols:SettingsCard>
+
 			<!--  Open on Windows startup  -->
 			<StackPanel>
 				<!--  Startup disabled InfoBar  -->

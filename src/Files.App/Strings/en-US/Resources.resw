@@ -1988,6 +1988,9 @@
   <data name="SettingsOpenInLogin" xml:space="preserve">
     <value>Open Files on Windows startup</value>
   </data>
+  <data name="HideFilesHistorySidecars" xml:space="preserve">
+    <value>Hide .fileshistory content</value>
+  </data>
   <data name="Attributes" xml:space="preserve">
     <value>Attributes</value>
   </data>

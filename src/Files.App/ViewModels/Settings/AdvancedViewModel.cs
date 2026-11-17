@@ -371,6 +371,20 @@ namespace Files.App.ViewModels.Settings
 			}
 		}
 
+		public bool HideFilesHistorySidecars
+		{
+			get => UserSettingsService.FoldersSettingsService.HideFilesHistorySidecars;
+			set
+			{
+				if (value != UserSettingsService.FoldersSettingsService.HideFilesHistorySidecars)
+				{
+					UserSettingsService.FoldersSettingsService.HideFilesHistorySidecars = value;
+
+					OnPropertyChanged();
+				}
+			}
+		}
+
 		// TODO remove when feature is marked as stable
 		public bool ShowFlattenOptions
 		{

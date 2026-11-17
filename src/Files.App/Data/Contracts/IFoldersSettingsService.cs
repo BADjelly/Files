@@ -99,5 +99,10 @@ namespace Files.App.Data.Contracts
 		/// Gets or sets the user defined folder aliases that can be typed in the Omnibar as "@name".
 		/// </summary>
 		List<FolderAliasItem>? FolderAliases { get; set; }
+
+		/// <summary>
+		/// Gets or sets a value indicating whether or not to hide .fileshistory sidecar directories.
+		/// </summary>
+		bool HideFilesHistorySidecars { get; set; }
 	}
 }
