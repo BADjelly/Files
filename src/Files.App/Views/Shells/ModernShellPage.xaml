@@ -118,19 +118,81 @@
 			Loaded="SearchHeader_Loaded">
 			<StackPanel Spacing="12">
 				<!--  Search title  -->
-				<StackPanel
-					VerticalAlignment="Center"
-					Orientation="Horizontal"
-					Spacing="12">
+				<Grid VerticalAlignment="Center">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="Auto" />
+						<ColumnDefinition Width="Auto" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
 					<Image
+						Grid.Column="0"
 						Height="24"
 						VerticalAlignment="Center"
-						Source="{x:Bind ShellViewModel.SearchIconBitmapImage, Mode=OneWay}" />
+						Source="{x:Bind ShellViewModel.SearchIconBitmapImage, Mode=OneWay}"
+						Margin="0,0,0,14" />
 					<TextBlock
+						Grid.Column="1"
 						VerticalAlignment="Center"
 						Style="{StaticResource SubtitleTextBlockStyle}"
-						Text="{x:Bind ShellViewModel.SearchHeaderTitle, Mode=OneWay}" />
-				</StackPanel>
+						Margin="0,0,8,14">
+						<TextBlock.Inlines>
+							<Run Text=" " />
+							<Run Text="{x:Bind ShellViewModel.SearchHeaderPrefix, Mode=OneWay}" />
+						</TextBlock.Inlines>
+					</TextBlock>
+					<ScrollViewer
+						Grid.Column="2"
+						HorizontalScrollMode="Auto"
+						HorizontalScrollBarVisibility="Auto"
+						VerticalScrollMode="Disabled"
+						VerticalScrollBarVisibility="Disabled"
+						IsHorizontalRailEnabled="True"
+						IsVerticalRailEnabled="True">
+						<StackPanel Orientation="Horizontal">
+							<TextBlock
+								VerticalAlignment="Top"
+								Style="{StaticResource SubtitleTextBlockStyle}"
+								Text="`" />
+							<ItemsRepeater
+								x:Name="QuerySegmentsRepeater"
+								VerticalAlignment="Center"
+								Margin="0,0,0,14"
+								Loaded="QuerySegmentsRepeater_Loaded">
+								<ItemsRepeater.Layout>
+										<StackLayout Orientation="Horizontal" Spacing="4" />
+									</ItemsRepeater.Layout>
+									<ItemsRepeater.ItemTemplate>
+										<DataTemplate x:DataType="datamodels:QuerySegmentViewModel">
+											<StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+												<TextBlock
+													x:Name="SegmentText"
+													VerticalAlignment="Center"
+													Style="{StaticResource SubtitleTextBlockStyle}"
+													Text="{x:Bind Text}"
+													Margin="0"
+													DataContext="{x:Bind}"
+													PointerEntered="ConnectorPanel_PointerEntered"
+													PointerExited="ConnectorPanel_PointerExited"
+													PointerPressed="ConnectorPanel_PointerPressed" />
+												<TextBlock
+													x:Name="ConnectorArrow"
+													VerticalAlignment="Center"
+													Style="{StaticResource SubtitleTextBlockStyle}"
+													Text="▾"
+													Margin="4,0,0,0"
+													Visibility="Collapsed"
+													DataContext="{x:Bind}" />
+											</StackPanel>
+										</DataTemplate>
+									</ItemsRepeater.ItemTemplate>
+							</ItemsRepeater>
+							<TextBlock
+								VerticalAlignment="Top"
+								Style="{StaticResource SubtitleTextBlockStyle}"
+								Text="`" />
+						</StackPanel>
+					</ScrollViewer>
+				</Grid>
 
 				<!--  Tag chips (only visible for tag searches)  -->
 					<ScrollViewer

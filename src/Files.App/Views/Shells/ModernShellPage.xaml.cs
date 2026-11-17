@@ -3,9 +3,10 @@
 
 using CommunityToolkit.WinUI;
 using Files.App.Data.Models;
-using Microsoft.Extensions.Logging;
+using Microsoft.UI.Text;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Media.Animation;
@@ -22,6 +23,8 @@ namespace Files.App.Views.Shells
 			=> ItemDisplayFrame;
 
 		private NavigationInteractionTracker _navigationInteractionTracker;
+
+		private TextBlock? _activeConnectorTextBlock;
 
 		private NavigationParams? _NavParams;
 		public NavigationParams? NavParams
@@ -69,12 +72,15 @@ namespace Files.App.Views.Shells
 
 		private void ShellViewModel_PropertyChanged(object? sender, System.ComponentModel.PropertyChangedEventArgs e)
 		{
-			if (e.PropertyName is nameof(ShellViewModel.IsSearchResults) or nameof(ShellViewModel.CurrentSearchQuery) or nameof(ShellViewModel.TagChips))
+			if (e.PropertyName is nameof(ShellViewModel.IsSearchResults) or nameof(ShellViewModel.CurrentSearchQuery) or nameof(ShellViewModel.TagChips) or nameof(ShellViewModel.QuerySegments))
 			{
 				UpdateSearchHeaderVisibility();
 
 				if (TagChipsRepeater is not null && ShellViewModel is not null)
 					TagChipsRepeater.ItemsSource = ShellViewModel.TagChips;
+
+				if (QuerySegmentsRepeater is not null && ShellViewModel is not null)
+					QuerySegmentsRepeater.ItemsSource = ShellViewModel.QuerySegments;
 			}
 		}
 
@@ -459,6 +465,116 @@ namespace Files.App.Views.Shells
 		{
 			if (sender is Border border)
 				border.Opacity = 1.0;
+		}
+
+		private void QuerySegmentsRepeater_Loaded(object sender, RoutedEventArgs e)
+		{
+			if (sender is ItemsRepeater repeater && ShellViewModel != null)
+			{
+				repeater.ItemsSource = ShellViewModel.QuerySegments;
+				ShellViewModel.PropertyChanged += QuerySegmentsShellViewModel_PropertyChanged;
+			}
+		}
+
+		private void QuerySegmentsShellViewModel_PropertyChanged(object? sender, PropertyChangedEventArgs e)
+		{
+			if (e.PropertyName == nameof(ShellViewModel.QuerySegments) && ShellViewModel != null)
+			{
+				QuerySegmentsRepeater.ItemsSource = ShellViewModel.QuerySegments;
+			}
+		}
+
+		private void ConnectorPanel_PointerEntered(object sender, PointerRoutedEventArgs e)
+		{
+			if (sender is not TextBlock textBlock)
+				return;
+
+			if (textBlock.DataContext is not QuerySegmentViewModel segment)
+				return;
+
+			if (!segment.IsConnector)
+				return;
+
+			// Make font bolder on hover
+			textBlock.FontWeight = FontWeights.Bold;
+
+			// Show arrow on hover
+			if (textBlock.FindName("ConnectorArrow") is TextBlock arrow)
+			{
+				arrow.Visibility = Visibility.Visible;
+			}
+		}
+
+		private void ConnectorPanel_PointerExited(object sender, PointerRoutedEventArgs e)
+		{
+			if (sender is not TextBlock textBlock)
+				return;
+
+			if (textBlock.DataContext is not QuerySegmentViewModel segment)
+				return;
+
+			if (!segment.IsConnector)
+				return;
+
+			// Don't reset if this is the active connector (menu is open)
+			if (textBlock == _activeConnectorTextBlock)
+				return;
+
+			// Reset to default SemiBold (matching SubtitleTextBlockStyle)
+			textBlock.FontWeight = FontWeights.SemiBold;
+
+			// Hide arrow
+			if (textBlock.FindName("ConnectorArrow") is TextBlock arrow)
+			{
+				arrow.Visibility = Visibility.Collapsed;
+			}
+		}
+
+		private void ConnectorPanel_PointerPressed(object sender, PointerRoutedEventArgs e)
+		{
+			if (sender is not TextBlock textBlock)
+				return;
+
+			if (textBlock.DataContext is not QuerySegmentViewModel segment)
+				return;
+
+			if (!segment.IsConnector)
+				return;
+
+			// Set as active connector (keep hover effect while menu is open)
+			_activeConnectorTextBlock = textBlock;
+
+			// Create menu flyout
+			var flyout = new MenuFlyout();
+			flyout.Closed += (s, args) =>
+			{
+				// Reset active connector to default SemiBold
+				if (_activeConnectorTextBlock is TextBlock active && active.FindName("ConnectorArrow") is TextBlock activeArrow)
+				{
+					active.FontWeight = FontWeights.SemiBold;
+					activeArrow.Visibility = Visibility.Collapsed;
+				}
+				_activeConnectorTextBlock = null;
+			};
+			var connectors = new[] { "AND", "OR", "AND NOT", "OR NOT" };
+			foreach (var connector in connectors)
+			{
+				var item = new ToggleMenuFlyoutItem { Text = connector, IsChecked = segment.Connector == connector };
+				item.Click += (s, args) =>
+				{
+					var vm = ShellViewModel;
+					var segments = vm?.QuerySegments;
+					if (segments is not null)
+					{
+						var index = segments.IndexOf(segment);
+						_ = vm!.ChangeConnector(index, connector);
+					}
+				};
+				flyout.Items.Add(item);
+			}
+
+			flyout.ShowAt(textBlock, new FlyoutShowOptions { Placement = FlyoutPlacementMode.Bottom });
+			e.Handled = true;
 		}
 	}
 }

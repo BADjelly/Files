@@ -1015,6 +1015,8 @@ namespace Files.App.ViewModels
 			set => SetProperty(ref _searchHeaderTitle, value);
 		}
 
+		public string SearchHeaderPrefix => Strings.SearchResultsFor.GetLocalizedResource().Replace("`", string.Empty).Replace("{0}", string.Empty).TrimEnd();
+
 		private string? _currentSearchQuery;
 		public string? CurrentSearchQuery
 		{
@@ -1029,6 +1031,13 @@ namespace Files.App.ViewModels
 		{
 			get => _tagChips ??= new();
 			private set => SetProperty(ref _tagChips, value);
+		}
+
+		private ObservableCollection<QuerySegmentViewModel>? _querySegments;
+		public ObservableCollection<QuerySegmentViewModel> QuerySegments
+		{
+			get => _querySegments ??= new();
+			private set => SetProperty(ref _querySegments, value);
 		}
 
 		public void UpdateEmptyTextType()
@@ -3495,6 +3504,7 @@ namespace Files.App.ViewModels
 				: string.Empty;
 
 			await UpdateTagChipsAsync(search.Query);
+			UpdateQuerySegments();
 
 			if (SearchIconBitmapImage is null)
 				SearchIconBitmapImage ??= await UIHelpers.GetSearchIconResource();
@@ -3622,6 +3632,86 @@ namespace Files.App.ViewModels
 			TagChips = chips;
 		}
 
+		public void UpdateQuerySegments()
+		{
+			if (string.IsNullOrWhiteSpace(CurrentSearchQuery))
+			{
+				QuerySegments?.Clear();
+				return;
+			}
+
+			var segments = ParseQuerySegments(CurrentSearchQuery).ToList();
+			QuerySegments = new ObservableCollection<QuerySegmentViewModel>(segments);
+		}
+
+		private static IEnumerable<QuerySegmentViewModel> ParseQuerySegments(string query)
+		{
+			var segments = new List<QuerySegmentViewModel>();
+			var connectors = new[] { "AND NOT", "OR NOT", "AND", "OR" }; // Longer connectors first
+
+			// Split by connectors, keeping the connectors in the result
+			var escapedConnectors = connectors.Select(Regex.Escape);
+			var pattern = @"(\s+(?:" + string.Join("|", escapedConnectors) + @")\s+)";
+			var parts = Regex.Split(query, pattern, RegexOptions.IgnoreCase);
+
+			foreach (var part in parts)
+			{
+				var trimmed = part.Trim();
+				if (string.IsNullOrEmpty(trimmed))
+					continue;
+
+				var connector = connectors.FirstOrDefault(c =>
+					trimmed.Equals(c, StringComparison.OrdinalIgnoreCase));
+
+				if (connector != null)
+				{
+					segments.Add(new QuerySegmentViewModel(trimmed, QuerySegmentType.Connector, connector));
+				}
+				else
+				{
+					segments.Add(new QuerySegmentViewModel(trimmed, QuerySegmentType.Tag));
+				}
+			}
+
+			return segments;
+		}
+
+		public bool ChangeConnector(int index, string newConnector)
+		{
+			var segments = QuerySegments;
+			if (segments is null || index < 0 || index >= segments.Count)
+				return false;
+
+			var segment = segments[index];
+			segment.Connector = newConnector;
+
+			// Rebuild the query from segments
+			var parts = new List<string>();
+			foreach (var seg in segments)
+			{
+				if (seg.IsConnector)
+					parts.Add(seg.Connector!);
+				else
+					parts.Add(seg.Text);
+			}
+
+			CurrentSearchQuery = string.Join(" ", parts);
+			SearchHeaderTitle = string.Format(Strings.SearchResultsFor.GetLocalizedResource(), CurrentSearchQuery);
+
+			var searchPath = CurrentSearchQuery.StartsWith("tag:", StringComparison.OrdinalIgnoreCase)
+				? "Home"
+				: CurrentFolder?.ItemPath ?? string.Empty;
+
+			var search = new FolderSearch
+			{
+				Query = CurrentSearchQuery,
+				Folder = searchPath,
+			};
+
+			_ = SearchAsync(search);
+			return true;
+		}
+
 		private static HashSet<string> ParseTagQuery(string query)
 		{
 			var result = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
@@ -3686,23 +3776,52 @@ namespace Files.App.ViewModels
 			if (string.IsNullOrWhiteSpace(CurrentSearchQuery))
 				return false;
 
-			var selectedTagNames = ParseTagQuery(CurrentSearchQuery);
+			var segments = ParseQuerySegments(CurrentSearchQuery).ToList();
 
 			if (chip.IsSelected)
 			{
-				selectedTagNames.Add(chip.Tag.Name);
-			}
-			else if (selectedTagNames.Count <= 1)
-			{
-				// Prevent deselecting the last remaining tag
-				return true;
+				// Add connector before new tag if there are existing tags
+				var tagCount = segments.Count(s => !s.IsConnector);
+				if (tagCount > 0)
+				{
+					segments.Add(new QuerySegmentViewModel("AND", QuerySegmentType.Connector, "AND"));
+				}
+
+				// Add tag at the end
+				var formattedTag = FolderSearch.FormatTagQuery(chip.Tag.Name);
+				segments.Add(new QuerySegmentViewModel(formattedTag, QuerySegmentType.Tag));
 			}
 			else
 			{
-				selectedTagNames.Remove(chip.Tag.Name);
+				// Find and remove the tag segment
+				var tagToRemove = segments.LastOrDefault(s => !s.IsConnector && s.Text.Equals(FolderSearch.FormatTagQuery(chip.Tag.Name), StringComparison.OrdinalIgnoreCase));
+				if (tagToRemove != null)
+				{
+					var tagIndex = segments.IndexOf(tagToRemove);
+
+					// Prevent removing the last tag
+					var remainingTags = segments.Count(s => !s.IsConnector);
+					if (remainingTags <= 1)
+						return true;
+
+					// Remove the connector before the tag (if not first segment)
+					if (tagIndex > 0 && segments[tagIndex - 1].IsConnector)
+					{
+						segments.RemoveAt(tagIndex - 1);
+						tagIndex--; // Adjust index after removal
+					}
+
+					segments.Remove(tagToRemove);
+				}
 			}
 
-			if (selectedTagNames.Count == 0)
+			// Remove dangling connectors at the start or end
+			while (segments.Count > 0 && segments[0].IsConnector)
+				segments.RemoveAt(0);
+			while (segments.Count > 0 && segments[segments.Count - 1].IsConnector)
+				segments.RemoveAt(segments.Count - 1);
+
+			if (segments.Count == 0 || segments.Count(s => !s.IsConnector) == 0)
 			{
 				CurrentSearchQuery = string.Empty;
 				SearchHeaderTitle = string.Empty;
@@ -3710,9 +3829,18 @@ namespace Files.App.ViewModels
 				return false;
 			}
 
-			var newQuery = string.Join(" AND ", selectedTagNames.Select(t => FolderSearch.FormatTagQuery(t)));
-			CurrentSearchQuery = newQuery;
-			SearchHeaderTitle = string.Format(Strings.SearchResultsFor.GetLocalizedResource(), newQuery);
+			// Rebuild query from segments, preserving existing connectors
+			var parts = new List<string>();
+			foreach (var seg in segments)
+			{
+				if (seg.IsConnector)
+					parts.Add(seg.Connector!);
+				else
+					parts.Add(seg.Text);
+			}
+
+			CurrentSearchQuery = string.Join(" ", parts);
+			SearchHeaderTitle = string.Format(Strings.SearchResultsFor.GetLocalizedResource(), CurrentSearchQuery);
 
 			var searchPath = CurrentSearchQuery.StartsWith("tag:", StringComparison.OrdinalIgnoreCase)
 				? "Home"
@@ -3720,7 +3848,7 @@ namespace Files.App.ViewModels
 
 			var search = new FolderSearch
 			{
-				Query = newQuery,
+				Query = CurrentSearchQuery,
 				Folder = searchPath,
 			};
 
