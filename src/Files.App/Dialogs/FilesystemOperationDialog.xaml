@@ -202,12 +202,14 @@
 				Opacity="0.8"
 				Visibility="{x:Bind ViewModel.FileSystemDialogMode.ConflictsExist}" />
 
+			<!-- CheckBox permanently deleted from - commented out per user request
 			<CheckBox
 				x:Name="chkPermanentlyDelete"
 				Content="{helpers:ResourceString Name=DeleteItemsDialogPermanentlyDeleteCheckBox/Content}"
 				IsChecked="{x:Bind ViewModel.DeletePermanently, Mode=TwoWay}"
 				IsEnabled="{x:Bind ViewModel.IsDeletePermanentlyEnabled, Mode=OneWay}"
 				Visibility="{x:Bind ViewModel.FileSystemDialogMode.IsInDeleteMode, Mode=OneWay}" />
+			-->
 
 			<ListView
 				x:Name="DetailsGrid"
