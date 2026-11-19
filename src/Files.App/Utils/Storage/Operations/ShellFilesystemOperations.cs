@@ -1,8 +1,14 @@
 // Copyright (c) Files Community
 // Licensed under the MIT License.
 
+using Microsoft.Extensions.Logging;
 using System.IO;
+using System.Runtime.InteropServices;
 using Windows.Storage;
+using Windows.Win32;
+using Windows.Win32.Foundation;
+using Windows.Win32.System.Com;
+using Windows.Win32.UI.Shell;
 
 namespace Files.App.Utils.Storage
 {
@@ -370,6 +376,11 @@ namespace Files.App.Utils.Storage
 			fsProgress.Report();
 
 			var deleteFilePaths = source.Select(s => s.Path).Distinct();
+
+			// Add .fileshistory sidecar directories to the delete list
+			var sidecarPaths = source.Select(s => $"{s.Path}.fileshistory").Where(Directory.Exists);
+			deleteFilePaths = deleteFilePaths.Concat(sidecarPaths).Distinct();
+
 			var deleteFromRecycleBin = source.Any() && StorageTrashBinService.IsUnderTrashBin(source.ElementAt(0).Path);
 
 			permanently |= deleteFromRecycleBin;
@@ -806,6 +817,9 @@ namespace Files.App.Utils.Storage
 							GetRecycleMetadataPath(src.rSrc.Source) ?? throw new InvalidOperationException("The recycle bin metadata path is invalid."),
 							src.oSrc.ItemType)).ToListAsync(), null, true, cancellationToken);
 
+					// Restore .fileshistory sidecar directories alongside restored files
+					await RestoreSidecarDirectoriesAsync(movedSources, cancellationToken);
+
 					return new StorageHistory(FileOperationType.Restore,
 						sourceMatch,
 						await movedSources.Zip(sourceMatch, (rSrc, oSrc) => new { rSrc, oSrc })
@@ -951,6 +965,68 @@ namespace Files.App.Utils.Storage
 				? Path.Combine(parentPath, fileName.Replace("$R", "$I", StringComparison.Ordinal))
 				: null;
 		}
+
+		private static async Task RestoreSidecarDirectoriesAsync(IEnumerable<(ShellOperationItemResult Result, string Source, string Destination)> movedSources, CancellationToken cancellationToken)
+		{
+			var sidecarPairs = new List<(string SidecarSource, string SidecarDestination)>();
+
+			foreach (var pair in movedSources)
+			{
+				// The sidecar's original path is the restored destination + .fileshistory
+				var expectedSidecarPath = $"{pair.Destination}.fileshistory";
+
+				// Use Shell API to enumerate the recycle bin and find the sidecar
+				var sidecarSource = await FindSidecarInRecycleBinAsync(expectedSidecarPath);
+				if (sidecarSource is not null)
+				{
+					sidecarPairs.Add((sidecarSource, $"{pair.Destination}.fileshistory"));
+				}
+			}
+
+			if (!sidecarPairs.Any())
+				return;
+
+			try
+			{
+				_ = await FileOperationsHelpers.MoveItemAsync(
+					sidecarPairs.Select(p => p.SidecarSource).ToArray(),
+					sidecarPairs.Select(p => p.SidecarDestination).ToArray(),
+					overwriteOnMove: false,
+					MainWindow.Instance.WindowHandle.ToInt64(),
+					asAdmin: false,
+					progress: new Progress<StatusCenterItemProgressModel>(),
+					operationID: string.Empty);
+			}
+			catch
+			{
+				// Sidecar restore failure is non-fatal; the main file restore already succeeded
+			}
+		}
+
+		/// <summary>
+			/// Enumerates the recycle bin using the Shell API to find an item whose original path matches the expected sidecar path.
+			/// Returns the recycle bin ($R*) path of the matching item, or null if not found.
+			/// </summary>
+			private static async Task<string?> FindSidecarInRecycleBinAsync(string expectedSidecarPath)
+			{
+				var recycleBinPath = Constants.UserEnvironmentPaths.RecycleBinPath;
+				var shellFolder = await Win32Helper.GetShellFolderAsync(recycleBinPath, false, true, 0, int.MaxValue);
+
+				if (shellFolder.Enumerate.Count == 0)
+					return null;
+
+				foreach (var item in shellFolder.Enumerate)
+				{
+					// ShellFileItem.FilePath already contains the original path from System.Recycle.DeletedFrom
+					if (item.FilePath is not null && string.Equals(item.FilePath, expectedSidecarPath, StringComparison.Ordinal))
+					{
+						// Found the sidecar — use its recycle bin ($R*) path
+						return item.RecyclePath;
+					}
+				}
+
+				return null;
+			}
 
 		private static async Task RenameSidecarDirectoryAsync(string oldPath, string destination, CancellationToken cancellationToken)
 		{

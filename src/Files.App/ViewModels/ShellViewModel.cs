@@ -2324,7 +2324,7 @@ namespace Files.App.ViewModels
 			try
 			{
 				// Special handling for network drives
-				if (!isNetwork)
+				if (!isNetwork && !path.StartsWith("Shell:", StringComparison.OrdinalIgnoreCase))
 					isNetdisk = await Task.Run(() => new DriveInfo(path).DriveType == System.IO.DriveType.Network);
 			}
 			catch { }

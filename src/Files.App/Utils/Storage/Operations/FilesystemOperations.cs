@@ -601,6 +601,9 @@ namespace Files.App.Utils.Storage
 			{
 				await ShellViewModel.RemoveFileOrFolderAsync(source.Path);
 
+				// Delete the .fileshistory sidecar directory using the same delete mode as the file
+				await DeleteSidecarDirectoryAsync(source.Path, permanently, cancellationToken);
+
 				if (!permanently)
 				{
 					// Enumerate Recycle Bin
@@ -882,6 +885,32 @@ namespace Files.App.Utils.Storage
 				await ShellViewModel.GetFileFromPathAsync(iFilePath, cancellationToken)
 					.OnSuccess(iFile => (iFile ?? throw new InvalidOperationException($"The recycle-bin metadata file '{iFilePath}' could not be opened."))
 						.DeleteAsync(StorageDeleteOption.PermanentDelete).AsTask());
+
+				// Restore .fileshistory sidecar directory alongside restored file
+				var originalPath = ParseRecycleBinOriginalPath(iFilePath);
+				if (originalPath is not null)
+				{
+					var expectedSidecarPath = $"{originalPath}.fileshistory";
+					var sidecarDestination = $"{destination}.fileshistory";
+
+					try
+					{
+						foreach (var iFile in Directory.EnumerateFiles(parentPath, "$I*", SearchOption.TopDirectoryOnly))
+						{
+							var iPath = ParseRecycleBinOriginalPath(iFile);
+							if (string.Equals(iPath, expectedSidecarPath, StringComparison.Ordinal))
+							{
+								var sidecarRecyclePath = iFile.Replace("$I", "$R", StringComparison.Ordinal);
+								Directory.Move(sidecarRecyclePath, sidecarDestination);
+								break;
+							}
+						}
+					}
+					catch
+					{
+						// Sidecar restore failure is non-fatal; the main file restore already succeeded
+					}
+				}
 			}
 
 			fsProgress.ReportStatus(fsResult);
@@ -902,10 +931,37 @@ namespace Files.App.Utils.Storage
 				}
 			}
 
-			return new StorageHistory(FileOperationType.Restore, source, StorageHelpers.FromPathAndType(destination, source.ItemType));
-		}
+		return new StorageHistory(FileOperationType.Restore, source, StorageHelpers.FromPathAndType(destination, source.ItemType));
+	}
 
-		private async static Task<BaseStorageFolder> CloneDirectoryAsync(BaseStorageFolder sourceFolder, BaseStorageFolder destinationFolder, string sourceRootName, CreationCollisionOption collision = CreationCollisionOption.FailIfExists)
+	/// <summary>
+	/// Parses the $I metadata file to extract the original file/folder path.
+	/// $I file format: 20-byte header + original name (null-terminated UTF-16LE) + original folder (null-terminated UTF-16LE).
+	/// </summary>
+	private static string? ParseRecycleBinOriginalPath(string iFilePath)
+	{
+		var bytes = File.ReadAllBytes(iFilePath);
+		if (bytes.Length < 20)
+			return null;
+
+		// Skip 20-byte header, read original name (null-terminated UTF-16LE)
+		int nameEnd = Array.IndexOf(bytes, (byte)0, 20);
+		if (nameEnd <= 20)
+			return null;
+
+		string originalName = Encoding.Unicode.GetString(bytes, 20, nameEnd - 20);
+
+		// Read original folder path (null-terminated UTF-16LE)
+		int folderEnd = Array.IndexOf(bytes, (byte)0, nameEnd + 2);
+		if (folderEnd <= nameEnd + 1)
+			return null;
+
+		string originalFolder = Encoding.Unicode.GetString(bytes, nameEnd + 2, folderEnd - nameEnd - 2);
+
+		return Path.Combine(originalFolder, originalName);
+	}
+
+	private async static Task<BaseStorageFolder> CloneDirectoryAsync(BaseStorageFolder sourceFolder, BaseStorageFolder destinationFolder, string sourceRootName, CreationCollisionOption collision = CreationCollisionOption.FailIfExists)
 		{
 			BaseStorageFolder createdRoot;
 			if (collision is CreationCollisionOption.ReplaceExisting)
@@ -1111,6 +1167,34 @@ namespace Files.App.Utils.Storage
 			{
 				// Sidecar rename failure is non-fatal; the main file rename already succeeded
 				Trace.WriteLine($"RenameSidecarDirectoryAsync: failed - {ex.Message}");
+			}
+		}
+
+		private async Task DeleteSidecarDirectoryAsync(string filePath, bool permanently, CancellationToken cancellationToken)
+		{
+			var sidecarDir = $"{filePath}.fileshistory";
+			if (!Directory.Exists(sidecarDir))
+				return;
+
+			try
+			{
+				if (permanently)
+				{
+					Directory.Delete(sidecarDir, recursive: true);
+				}
+				else
+				{
+					var sidecarFolder = await ShellViewModel.GetFolderFromPathAsync(sidecarDir, cancellationToken);
+					if (sidecarFolder.Result is BaseStorageFolder folder)
+					{
+						await folder.DeleteAsync(StorageDeleteOption.Default);
+					}
+				}
+			}
+			catch (Exception ex)
+			{
+				// Sidecar delete failure is non-fatal; the main file delete already succeeded
+				Trace.WriteLine($"DeleteSidecarDirectoryAsync: failed - {ex.Message}");
 			}
 		}
 
