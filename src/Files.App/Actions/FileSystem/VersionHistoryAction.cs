@@ -23,7 +23,7 @@ internal sealed partial class VersionHistoryAction : ObservableObject, IAction
 		=> ActionCategory.FileSystem;
 
 	public RichGlyph Glyph
-		=> new(themedIconStyle: "App.ThemedIcons.Actions.Sync");
+		=> new(themedIconStyle: "App.ThemedIcons.Actions.VersionHistory");
 
 	public bool IsExecutable =>
 		context.ShellPage is not null &&

@@ -26,7 +26,7 @@ namespace Files.App.Actions
 			=> ActionCategory.FileSystem;
 
 		public RichGlyph Glyph
-			=> new(themedIconStyle: "App.ThemedIcons.Actions.Sync");
+			=> new(themedIconStyle: "App.ThemedIcons.Actions.SaveVersion");
 
 		public bool IsExecutable =>
 			context.ShellPage is not null &&
