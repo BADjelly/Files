@@ -142,6 +142,27 @@
 				<ToggleSwitch AutomationProperties.Name="{helpers:ResourceString Name=ShowSystemTrayIcon}" IsOn="{x:Bind ViewModel.ShowSystemTrayIcon, Mode=TwoWay}" />
 			</wctcontrols:SettingsCard>
 
+			<!--  Custom Update CDN URL  -->
+			<wctcontrols:SettingsCard
+				HorizontalContentAlignment="Stretch"
+				Header="{helpers:ResourceString Name=CustomUpdateCdnUrl}"
+				Description="{helpers:ResourceString Name=CustomUpdateCdnUrlDescription}">
+				<wctcontrols:SettingsCard.HeaderIcon>
+					<FontIcon Glyph="&#xE907;" />
+				</wctcontrols:SettingsCard.HeaderIcon>
+				<Grid>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="Auto" />
+					</Grid.ColumnDefinitions>
+					<TextBox
+						x:Name="CustomCdnUrlBox"
+						PlaceholderText="{helpers:ResourceString Name=CustomUpdateCdnUrlPlaceholder}"
+						Text="{x:Bind ViewModel.CustomUpdateCdnUrl, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+					<Button Grid.Column="1" Command="{x:Bind ViewModel.ClearCustomCdnUrlCommand}" Content="{helpers:ResourceString Name=Clear}" Margin="8,0,0,0" />
+				</Grid>
+			</wctcontrols:SettingsCard>
+
 			<!--  Experimental Settings  -->
 			<TextBlock
 				Padding="0,16,0,4"

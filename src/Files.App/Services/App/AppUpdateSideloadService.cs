@@ -11,15 +11,12 @@ namespace Files.App.Services
 {
 	public sealed partial class SideloadUpdateService : ObservableObject, IUpdateService, IDisposable
 	{
-		private const string SIDELOAD_STABLE = "https://cdn.files.community/files/stable/Files.Package.appinstaller";
-		private const string SIDELOAD_PREVIEW = "https://cdn.files.community/files/preview/Files.Package.appinstaller";
+		private const string DEFAULT_SIDELOAD_STABLE = "https://cdn.files.community/files/stable/Files.Package.appinstaller";
+		private const string DEFAULT_SIDELOAD_PREVIEW = "https://cdn.files.community/files/preview/Files.Package.appinstaller";
 
+		private string? _customCdnUrl;
 
-		private readonly Dictionary<string, string> _sideloadVersion = new()
-		{
-			{ "Files", SIDELOAD_STABLE },
-			{ "FilesPreview", SIDELOAD_PREVIEW }
-		};
+		private string CurrentSideloadUrl => _customCdnUrl ?? (PackageName == "FilesPreview" ? DEFAULT_SIDELOAD_PREVIEW : DEFAULT_SIDELOAD_STABLE);
 
 		private ILogger? Logger { get; } = Ioc.Default.GetRequiredService<ILogger<App>>();
 
@@ -77,6 +74,17 @@ namespace Files.App.Services
 			await ApplyPackageUpdateAsync();
 		}
 
+		public void SetCustomCdnUrl(string? url)
+		{
+			_customCdnUrl = string.IsNullOrWhiteSpace(url) ? null : url;
+			InvalidateUpdates();
+		}
+
+		private void InvalidateUpdates()
+		{
+			Server.UpdateService.InvalidateUpdates();
+		}
+
 		public Task DownloadMandatoryUpdatesAsync()
 		{
 			return Task.CompletedTask;
@@ -86,7 +94,9 @@ namespace Files.App.Services
 		{
 			await SafetyExtensions.IgnoreExceptions(async () =>
 			{
-				var available = await Server.UpdateService.CheckSideloadUpdatesAsync();
+				var available = _customCdnUrl is not null
+					? await Server.UpdateService.CheckSideloadUpdatesAsync(_customCdnUrl)
+					: await Server.UpdateService.CheckSideloadUpdatesAsync();
 				await MainWindow.Instance.DispatcherQueue.EnqueueOrInvokeAsync(() => IsUpdateAvailable = available);
 			}, Logger);
 		}
@@ -124,7 +134,7 @@ namespace Files.App.Services
 
 				await Task.Run(async () =>
 				{
-					var appInstallerUri = new Uri(_sideloadVersion[PackageName]);
+					var appInstallerUri = new Uri(CurrentSideloadUrl);
 
 					var deployment = packageManager.AddPackageByAppInstallerFileAsync(
 						appInstallerUri,

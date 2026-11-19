@@ -4896,4 +4896,13 @@
   <data name="SharedTagsPathRestartMessage" xml:space="preserve">
     <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
   </data>
+  <data name="CustomUpdateCdnUrl" xml:space="preserve">
+    <value>Custom update CDN URL</value>
+  </data>
+  <data name="CustomUpdateCdnUrlDescription" xml:space="preserve">
+    <value>Set a custom CDN URL for sideload update checks. Leave empty to use the default.</value>
+  </data>
+  <data name="CustomUpdateCdnUrlPlaceholder" xml:space="preserve">
+    <value>https://example.com/Files.Package.appinstaller</value>
+  </data>
 </root>

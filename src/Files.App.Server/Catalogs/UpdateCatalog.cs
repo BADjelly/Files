@@ -21,7 +21,7 @@ internal static class UpdateCatalog
 	private static readonly CancellationTokenSource stopping = new();
 	private static readonly Lazy<Task> initialization = new(InitializeCoreAsync);
 	internal static readonly CachedTask<bool> ReleaseNotes = new(CheckReleaseNotesAsync, TimeSpan.FromHours(2));
-	internal static readonly CachedTask<bool> SideloadUpdate = new(CheckSideloadAsync, interval);
+	internal static readonly CachedTask<bool> SideloadUpdate = new(() => CheckSideloadAsync(), interval);
 	internal static readonly CachedTask<IReadOnlyList<StorePackageUpdate>> StoreUpdates = new(CheckStoreAsync, interval);
 	private static readonly CachedTask<bool> launcher = new(async () =>
 	{
@@ -90,10 +90,10 @@ internal static class UpdateCatalog
 		return response.IsSuccessStatusCode;
 	}
 
-	private static async Task<bool> CheckSideloadAsync()
+	internal static async Task<bool> CheckSideloadAsync(string? customUrl = null)
 	{
 		var name = Package.Current.Id.Name;
-		var url = name switch
+		var url = customUrl ?? name switch
 		{
 			"Files" => "https://cdn.files.community/files/stable/Files.Package.appinstaller",
 			"FilesPreview" => "https://cdn.files.community/files/preview/Files.Package.appinstaller",
