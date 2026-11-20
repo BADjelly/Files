@@ -3259,11 +3259,13 @@ namespace Files.App.ViewModels
 			var isHidden = ((FileAttributes)findData.dwFileAttributes & FileAttributes.Hidden) == FileAttributes.Hidden;
 			var startWithDot = findData.cFileName.StartsWith('.');
 			var isFilesSidecar = UserSettingsService.FoldersSettingsService.HideFilesHistorySidecars && findData.cFileName.EndsWith(".fileshistory", StringComparison.OrdinalIgnoreCase);
+			var isFilesSettings = findData.cFileName.Equals(".files-settings.json", StringComparison.OrdinalIgnoreCase);
 			if ((isHidden &&
 			   (!UserSettingsService.FoldersSettingsService.ShowHiddenItems ||
 			   (isSystem && !UserSettingsService.FoldersSettingsService.ShowProtectedSystemFiles))) ||
 			   (startWithDot && !UserSettingsService.FoldersSettingsService.ShowDotFiles) ||
-			   isFilesSidecar)
+			   isFilesSidecar ||
+			   isFilesSettings)
 			{
 				// Do not add to file list if hidden/system attribute is set and system/hidden file are not to be shown, or if this is a .fileshistory sidecar directory and hiding is enabled
 				return null;

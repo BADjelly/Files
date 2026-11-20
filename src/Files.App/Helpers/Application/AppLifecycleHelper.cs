@@ -339,6 +339,7 @@ namespace Files.App.Helpers
 					.AddSingleton<IStorageArchiveService, StorageArchiveService>()
 					.AddSingleton<IStorageSecurityService, StorageSecurityService>()
 					.AddSingleton<IWindowsCompatibilityService, WindowsCompatibilityService>()
+					.AddSingleton<IDirectorySettingsService, DirectorySettingsService>()
 					.AddSingleton</*IVersionControlService,*/ LibGit2Service>()
 					// ViewModels
 					.AddSingleton<MainPageViewModel>()

@@ -54,11 +54,13 @@ namespace Files.App.Utils.Storage
 						var isHidden = ((FileAttributes)findData.dwFileAttributes & FileAttributes.Hidden) == FileAttributes.Hidden;
 						var startWithDot = findData.cFileName.StartsWith('.');
 						var isFilesSidecar = hideFilesHistorySidecars && findData.cFileName.EndsWith(".fileshistory", StringComparison.OrdinalIgnoreCase);
+						var isFilesSettings = findData.cFileName.Equals(".files-settings.json", StringComparison.OrdinalIgnoreCase);
 						if ((!isHidden ||
 							(showHiddenItems &&
 							(!isSystem || showProtectedSystemFiles))) &&
 							(!startWithDot || showDotFiles) &&
-							!isFilesSidecar)
+							!isFilesSidecar &&
+							!isFilesSettings)
 					{
 						if (((FileAttributes)findData.dwFileAttributes & FileAttributes.Directory) != FileAttributes.Directory)
 						{

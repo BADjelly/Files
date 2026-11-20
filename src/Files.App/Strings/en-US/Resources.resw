@@ -1367,6 +1367,12 @@
   <data name="ConflictingItemsDialogTitle" xml:space="preserve">
     <value>Conflicting {0, plural, one {file name} other {file names}}</value>
   </data>
+  <data name="DirectoryShortcutPasteWarningTitle" xml:space="preserve">
+    <value>Paste as shortcut</value>
+  </data>
+  <data name="DirectoryShortcutPasteWarningMessage" xml:space="preserve">
+    <value>A shortcut (.lnk) will be created instead of copying the file. File duplication is not allowed in this directory hierarchy. To move the file instead, use Cut and Paste.</value>
+  </data>
   <data name="CopyItemsDialogSubtitle" xml:space="preserve">
     <value>{0, plural, one {One item will be copied} other {# items will be copied}}</value>
   </data>

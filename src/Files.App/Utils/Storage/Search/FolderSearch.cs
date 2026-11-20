@@ -177,6 +177,11 @@ namespace Files.App.Utils.Storage
 			if (token.IsCancellationRequested)
 				return;
 
+			if (item.ItemNameRaw is not null && item.ItemNameRaw.Equals(".files-settings.json", StringComparison.OrdinalIgnoreCase))
+			{
+				return;
+			}
+
 			if (UserSettingsService.FoldersSettingsService.HideFilesHistorySidecars
 				&& item.ItemPath is not null
 				&& IsPathInsideFilesHistorySidecar(item.ItemPath))

@@ -86,7 +86,8 @@ namespace Files.App.Utils.Storage
 				{
 					var startWithDot = item.Name.StartsWith('.');
 					var isFilesSidecar = userSettingsService.FoldersSettingsService.HideFilesHistorySidecars && item.Name.EndsWith(".fileshistory", StringComparison.OrdinalIgnoreCase);
-					if ((!startWithDot || userSettingsService.FoldersSettingsService.ShowDotFiles) && !isFilesSidecar)
+					var isFilesSettings = item.Name.Equals(".files-settings.json", StringComparison.OrdinalIgnoreCase);
+					if ((!startWithDot || userSettingsService.FoldersSettingsService.ShowDotFiles) && !isFilesSidecar && !isFilesSettings)
 					{
 						if (item.IsOfType(StorageItemTypes.Folder))
 						{
