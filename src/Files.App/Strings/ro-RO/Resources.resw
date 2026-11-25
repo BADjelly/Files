@@ -716,9 +716,6 @@
   <data name="Language" xml:space="preserve">
     <value>LimbÄƒ</value>
   </data>
-  <data name="SettingsContextMenuOverflow" xml:space="preserve">
-    <value>MutaÈ›i extensiile shell Ã®ntr-un sub-meniu</value>
-  </data>
   <data name="ShowConfirmationWhenDeletingItems" xml:space="preserve">
     <value>AfiÈ™are dialog de confirmare Ã®nainte de a È™terge</value>
   </data>
@@ -2092,6 +2089,10 @@
   </data>
   <data name="SizeAllColumnsToFit" xml:space="preserve">
     <value>PoziÈ›ionaÈ›i toate coloanele sÄƒ Ã®ncapÄƒ</value>
+  </data>
+  <data name="FileExplorerTags" xml:space="preserve">
+    <value>Etichete (Explorer)</value>
+    <comment>Header of the Windows Tags column, named this way to tell it apart from the Files Tags column.</comment>
   </data>
   <data name="AutoFitColumns" xml:space="preserve">
     <value>Potrivire automatÄƒ coloane</value>
@@ -3553,6 +3554,9 @@
   <data name="FilesRunningAsAdminContent" xml:space="preserve">
     <value>Din cauza unei limitÄƒri a Windows È™i WinAppSdk, tragerea È™i fixarea nu sunt disponibile atunci cÃ¢nd executaÈ›i Files ca administrator. DacÄƒ doriÈ›i sÄƒ folosiÈ›i caracteristica tragere È™i fixare puteÈ›i lucra Ã®n jurul acestei limitÄƒri deschizÃ¢nd CCU (Control Cont Utilizator) din Meniul Start È™i selectÃ¢nd al treilea nivel, È™i apoi reporniÈ›i Windows. Altfel, puteÈ›i continua sÄƒ utilizaÈ›i Files fÄƒrÄƒ caracteristica tragere È™i fixare.</value>
   </data>
+  <data name="SettingsNaturalLanguageSearch" xml:space="preserve">
+    <value>Utilizați căutarea în limbaj natural</value>
+  </data>
   <data name="SettingsLeaveAppRunning" xml:space="preserve">
     <value>LÄƒsaÈ›i aplicaÈ›ia sÄƒ ruleze Ã®n fundal atunci cÃ¢nd fereastra este Ã®nchisÄƒ</value>
   </data>
@@ -4631,6 +4635,15 @@
   <data name="ShowStatusBar" xml:space="preserve">
     <value>AfiÈ™aÈ›i bara de stare</value>
   </data>
+  <data name="ItemCountFormat" xml:space="preserve">
+    <value>Formatul numărului de elemente</value>
+  </data>
+  <data name="TotalCount" xml:space="preserve">
+    <value>Număr total</value>
+  </data>
+  <data name="SeparateFileAndFolderCounts" xml:space="preserve">
+    <value>Numărări separate pentru fișiere și foldere</value>
+  </data>
   <data name="OnlyForTouch" xml:space="preserve">
     <value>CÃ¢nd se utilizeazÄƒ atingerea</value>
   </data>
@@ -4782,5 +4795,197 @@
   </data>
   <data name="SharedTagsPathRestartMessage" xml:space="preserve">
     <value>Changing the Tags &amp; categories storage path requires restarting the app. Restart now?</value>
+  </data>
+  <data name="SearchForQuery" xml:space="preserve">
+    <value>Cautați pentru „{0}”</value>
+  </data>
+  <data name="FolderAliases" xml:space="preserve">
+    <value>Aliasuri folder</value>
+  </data>
+  <data name="AddAlias" xml:space="preserve">
+    <value>Adăugare alias</value>
+  </data>
+  <data name="FolderAliasNameInvalid" xml:space="preserve">
+    <value>Numele nu poate conține \ sau /.</value>
+  </data>
+  <data name="FolderAliasesEmptyState" xml:space="preserve">
+    <value>Nu există aliasuri de folder. Adăugați unul, apoi tastați @ urmat de numele său în Omnibar pentru a merge la folder.</value>
+  </data>
+  <data name="NoFolderAliasesDialogContent" xml:space="preserve">
+    <value>Nu există aliasuri de folder. Doriți să deschideți Setările pentru a adăuga unul?</value>
+  </data>
+  <data name="FolderAliasPathNotFound" xml:space="preserve">
+    <value>Acest folder nu există.</value>
+  </data>
+  <data name="NoFolderAliasesSuggestion" xml:space="preserve">
+    <value>Nu există aliasuri de folder. Deschideți Setările pentru a adăuga unul.</value>
+  </data>
+  <data name="NoMatchingFolderAliasesSuggestion" xml:space="preserve">
+    <value>Nu s-au găsit aliasuri de folder potrivite</value>
+  </data>
+  <data name="FolderAliasNotFoundDialogTitle" xml:space="preserve">
+    <value>Aliasul folderului nu a fost găsit</value>
+  </data>
+  <data name="FolderAliasNotFoundDialogContent" xml:space="preserve">
+    <value>Nu există niciun alias de folder numit „{0}”.</value>
+  </data>
+  <data name="FolderAliasNameRequiredDialogContent" xml:space="preserve">
+    <value>Introduceți un nume de alias pentru folder după @.</value>
+  </data>
+  <data name="RestoreDefaultFolderAliasesConfirmation" xml:space="preserve">
+    <value>Sunteți sigur că doriți să restaurați aliasurile implicite? Această acțiune nu poate fi anulată.</value>
+  </data>
+  <data name="DeleteFolderAliasConfirmation" xml:space="preserve">
+    <value>Sunteți sigur că vreți să ștergeți acest alias?</value>
+  </data>
+  <data name="FolderAliasNameInUse" xml:space="preserve">
+    <value>Un alias cu acest nume există deja.</value>
+  </data>
+  <data name="EnterFolderPath" xml:space="preserve">
+    <value>Introduceți o cale de folder</value>
+  </data>
+  <data name="GoToFolderAlias" xml:space="preserve">
+    <value>Mergeți la aliasul de folder</value>
+  </data>
+  <data name="GoToFolderAliasDescription" xml:space="preserve">
+    <value>Mergeți la un alias de folder în Omnibar</value>
+  </data>
+  <data name="Unspecified" xml:space="preserve">
+    <value>Nespecificat</value>
+    <comment>Name of the group for items that have no value when grouping by a property, such as music files without an artist.</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descriere</value>
+    <comment>Name of a group of columns in the window for choosing Details layout columns, such as title, rating and comments.</comment>
+  </data>
+  <data name="Unrated" xml:space="preserve">
+    <value>Neevaluat</value>
+    <comment>Name of the group for items without a rating when grouping by rating.</comment>
+  </data>
+  <data name="OrderGroupsAscending" xml:space="preserve">
+    <value>Grupuri de ordine ascendent</value>
+  </data>
+  <data name="OrderGroupsDescending" xml:space="preserve">
+    <value>Grupuri de ordine descendent</value>
+  </data>
+  <data name="GroupOrder" xml:space="preserve">
+    <value>Ordinea grupului</value>
+  </data>
+  <data name="SortItemsAscending" xml:space="preserve">
+    <value>Sortați elementele ascendent</value>
+  </data>
+  <data name="SortItemsDescending" xml:space="preserve">
+    <value>Sortați elementele descendent</value>
+  </data>
+  <data name="DayTaken" xml:space="preserve">
+    <value>Data preluării</value>
+  </data>
+  <data name="MonthTaken" xml:space="preserve">
+    <value>Luna preluării</value>
+  </data>
+  <data name="YearTaken" xml:space="preserve">
+    <value>Anul preluării</value>
+  </data>
+  <data name="DayRecorded" xml:space="preserve">
+    <value>Ziua înregistrării</value>
+  </data>
+  <data name="MonthRecorded" xml:space="preserve">
+    <value>Luna înregistrării</value>
+  </data>
+  <data name="YearRecorded" xml:space="preserve">
+    <value>Anul înregistrării</value>
+  </data>
+  <data name="DayDeleted" xml:space="preserve">
+    <value>Ziua ștergerii</value>
+  </data>
+  <data name="MonthDeleted" xml:space="preserve">
+    <value>Luna ștergerii</value>
+  </data>
+  <data name="YearDeleted" xml:space="preserve">
+    <value>Anul ștergerii</value>
+  </data>
+  <data name="DayUpdated" xml:space="preserve">
+    <value>Ziua actualizată</value>
+  </data>
+  <data name="MonthUpdated" xml:space="preserve">
+    <value>Lună actualizată</value>
+  </data>
+  <data name="YearUpdated" xml:space="preserve">
+    <value>Anul actualizat</value>
+  </data>
+  <data name="DayCommitted" xml:space="preserve">
+    <value>Ziua commit</value>
+  </data>
+  <data name="MonthCommitted" xml:space="preserve">
+    <value>Luna commit</value>
+  </data>
+  <data name="YearCommitted" xml:space="preserve">
+    <value>Anul commit</value>
+  </data>
+  <data name="NoneInParentheses" xml:space="preserve">
+    <value>(Niciuna)</value>
+  </data>
+  <data name="MoreColumns" xml:space="preserve">
+    <value>Mai multe</value>
+  </data>
+  <data name="DayCreated" xml:space="preserve">
+    <value>Ziua creării</value>
+  </data>
+  <data name="MonthCreated" xml:space="preserve">
+    <value>Lună creării</value>
+  </data>
+  <data name="YearCreated" xml:space="preserve">
+    <value>Anul creării</value>
+  </data>
+  <data name="CustomizeColumns" xml:space="preserve">
+    <value>Choose columns</value>
+  </data>
+  <data name="CustomizeColumnsDescription" xml:space="preserve">
+    <value>Choose columns to add to the view</value>
+  </data>
+  <data name="SearchColumns" xml:space="preserve">
+    <value>Find a column</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="Sorting" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="MoreColumnsEllipsis" xml:space="preserve">
+    <value>More columns…</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Selectare</value>
+  </data>
+  <data name="ChooseGrouping" xml:space="preserve">
+    <value>Choose grouping</value>
+  </data>
+  <data name="ChooseGroupingDescription" xml:space="preserve">
+    <value>Choose a category to use for grouping</value>
+  </data>
+  <data name="SearchGroupingCategories" xml:space="preserve">
+    <value>Find a grouping category</value>
+  </data>
+  <data name="ChooseSorting" xml:space="preserve">
+    <value>Choose sorting</value>
+  </data>
+  <data name="ChooseSortingDescription" xml:space="preserve">
+    <value>Choose a category to use for sorting</value>
+  </data>
+  <data name="SearchSortingCategories" xml:space="preserve">
+    <value>Find a sorting category</value>
+  </data>
+  <data name="MoreSortOptionsEllipsis" xml:space="preserve">
+    <value>More sort options…</value>
+  </data>
+  <data name="MoreGroupsEllipsis" xml:space="preserve">
+    <value>More groups…</value>
+  </data>
+  <data name="Storage" xml:space="preserve">
+    <value>Storage</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
   </data>
 </root>

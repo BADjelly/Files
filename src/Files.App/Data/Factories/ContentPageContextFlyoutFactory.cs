@@ -3,10 +3,13 @@
 
 using Files.App.Helpers.ContextFlyouts;
 using Files.App.ViewModels.Layouts;
+using Files.App.ViewModels.Settings;
+using Files.App.Views.Settings;
 using Files.Shared.Helpers;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media.Imaging;
 using System.IO;
+using System.Windows.Input;
 using Windows.Storage;
 
 namespace Files.App.Data.Factories
@@ -16,6 +19,11 @@ namespace Files.App.Data.Factories
 	/// </summary>
 	public static class ContentPageContextFlyoutFactory
 	{
+		private const string SortByGroup = "ContextMenuSortBy";
+		private const string SortDirectionGroup = "ContextMenuSortDirection";
+		private const string GroupByGroup = "ContextMenuGroupBy";
+		private const string GroupDirectionGroup = "ContextMenuGroupDirection";
+
 		// Dependency injections
 
 		private static readonly IUserSettingsService UserSettingsService = Ioc.Default.GetRequiredService<IUserSettingsService>();
@@ -31,7 +39,7 @@ namespace Files.App.Data.Factories
 			return menuItemsList;
 		}
 
-		public static Task<List<ContextMenuFlyoutItemViewModel>> GetItemContextShellCommandsAsync(string? workingDir, List<ListedItem> selectedItems, bool shiftPressed, bool showOpenMenu, CancellationToken cancellationToken)
+		public static Task<ShellContextMenuResult> GetItemContextShellCommandsAsync(string? workingDir, List<ListedItem> selectedItems, bool shiftPressed, bool showOpenMenu, CancellationToken cancellationToken)
 		{
 			return ShellContextFlyoutFactory.GetShellContextmenuAsync(shiftPressed: shiftPressed, showOpenMenu: showOpenMenu, workingDirectory: workingDir, selectedItems: selectedItems, cancellationToken: cancellationToken);
 		}
@@ -47,7 +55,7 @@ namespace Files.App.Data.Factories
 				var overflowMenuItems = overflow.Items
 					?? throw new InvalidOperationException("The overflow menu has not been initialized.");
 
-				if (!shiftPressed && UserSettingsService.GeneralSettingsService.MoveShellExtensionsToSubMenu) // items with ShowOnShift to overflow menu
+				if (!shiftPressed) // items with ShowOnShift to overflow menu
 				{
 					var overflowItems = items.Where(x => x.ShowOnShift).ToList();
 
@@ -161,46 +169,7 @@ namespace Files.App.Data.Factories
 					ShowInZipPage = true,
 					Items =
 					[
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortByName)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortByDateModified)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortByDateCreated)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortByType)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortBySize)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortBySyncStatus)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortByTag)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortByPath)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortByOriginalFolder)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortByDateDeleted)
-						{
-							IsToggle = true
-						}.Build(),
+						.. GetSortMenuItems(currentInstanceViewModel.FolderSettings, itemViewModel, SortByGroup),
 						new ContextMenuFlyoutItemViewModel
 						{
 							ItemType = ContextMenuFlyoutItemType.Separator,
@@ -211,11 +180,11 @@ namespace Files.App.Data.Factories
 						},
 						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortAscending)
 						{
-							IsToggle = true
+							RadioGroup = SortDirectionGroup
 						}.Build(),
 						new ContextMenuFlyoutItemViewModelBuilder(Commands.SortDescending)
 						{
-							IsToggle = true
+							RadioGroup = SortDirectionGroup
 						}.Build(),
 					],
 				},
@@ -230,105 +199,7 @@ namespace Files.App.Data.Factories
 					ShowInZipPage = true,
 					Items =
 					[
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByNone)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByName)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModel()
-						{
-							Text = Strings.DateModifiedLowerCase.GetLocalizedResource(),
-							ShowInRecycleBin = true,
-							ShowInSearchPage = true,
-							ShowInFtpPage = true,
-							ShowInZipPage = true,
-							Items =
-							[
-								new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByDateModifiedYear)
-								{
-									IsToggle = true
-								}.Build(),
-								new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByDateModifiedMonth)
-								{
-									IsToggle = true
-								}.Build(),
-								new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByDateModifiedDay)
-								{
-									IsToggle = true
-								}.Build(),
-							],
-						},
-						new ContextMenuFlyoutItemViewModel()
-						{
-							Text = Strings.DateCreated.GetLocalizedResource(),
-							ShowInRecycleBin = true,
-							ShowInSearchPage = true,
-							ShowInFtpPage = true,
-							ShowInZipPage = true,
-							Items =
-							[
-								new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByDateCreatedYear)
-								{
-									IsToggle = true
-								}.Build(),
-								new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByDateCreatedMonth)
-								{
-									IsToggle = true
-								}.Build(),
-								new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByDateCreatedDay)
-								{
-									IsToggle = true
-								}.Build(),
-							],
-						},
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByType)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupBySize)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupBySyncStatus)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByTag)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByOriginalFolder)
-						{
-							IsToggle = true
-						}.Build(),
-						new ContextMenuFlyoutItemViewModel()
-						{
-							Text = Strings.DateDeleted.GetLocalizedResource(),
-							ShowInRecycleBin = true,
-							IsHidden = !currentInstanceViewModel.IsPageTypeRecycleBin,
-							Items =
-							[
-								new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByDateDeletedYear)
-								{
-									IsToggle = true
-								}.Build(),
-								new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByDateDeletedMonth)
-								{
-									IsToggle = true
-								}.Build(),
-								new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByDateDeletedDay)
-								{
-									IsToggle = true
-								}.Build(),
-							],
-						},
-						new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupByFolderPath)
-						{
-							IsToggle = true
-						}.Build(),
+						.. GetGroupMenuItems(currentInstanceViewModel.FolderSettings, itemViewModel, GroupByGroup),
 						new ContextMenuFlyoutItemViewModel
 						{
 							ItemType = ContextMenuFlyoutItemType.Separator,
@@ -339,12 +210,12 @@ namespace Files.App.Data.Factories
 						},
 						new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupAscending)
 						{
-							IsToggle = true,
+							RadioGroup = GroupDirectionGroup,
 							IsVisible = true
 						}.Build(),
 						new ContextMenuFlyoutItemViewModelBuilder(Commands.GroupDescending)
 						{
-							IsToggle = true,
+							RadioGroup = GroupDirectionGroup,
 							IsVisible = true
 						}.Build(),
 					],
@@ -502,7 +373,10 @@ namespace Files.App.Data.Factories
 					IsPrimary = true,
 					IsVisible = true,
 				}.Build(),
-				new ContextMenuFlyoutItemViewModelBuilder(Commands.PasteItemAsShortcut).Build(),
+				new ContextMenuFlyoutItemViewModelBuilder(Commands.PasteItemAsShortcut)
+				{
+					IsVisible = !itemsSelected && Commands.PasteItemAsShortcut.IsExecutable,
+				}.Build(),
 				new ContextMenuFlyoutItemViewModelBuilder(Commands.CopyItemPath)
 				{
 					IsVisible = UserSettingsService.GeneralSettingsService.ShowCopyPath
@@ -747,6 +621,125 @@ namespace Files.App.Data.Factories
 			}
 
 			return list;
+		}
+
+		/// <summary>
+		/// Gets the items of the sort menus for the specified folder, shared by the context menu and the toolbar.
+		/// </summary>
+		/// <param name="radioGroup">Must differ between menus, since radio groups are shared across menus.</param>
+		public static List<ContextMenuFlyoutItemViewModel> GetSortMenuItems(LayoutPreferencesManager folderSettings, ShellViewModel? shellViewModel, string radioGroup)
+			=> GetOptionMenuItems(LayoutSortGroupOptions.GetSortOptions(folderSettings, shellViewModel), option => LayoutSortGroupOptions.SortBy(folderSettings, option.PropertyId!), radioGroup, isGroup: false);
+
+		/// <summary>
+		/// Gets the items of the group menus for the specified folder, shared by the context menu and the toolbar.
+		/// </summary>
+		/// <param name="radioGroup">Must differ between menus, since radio groups are shared across menus.</param>
+		public static List<ContextMenuFlyoutItemViewModel> GetGroupMenuItems(LayoutPreferencesManager folderSettings, ShellViewModel? shellViewModel, string radioGroup)
+			=> GetOptionMenuItems(LayoutSortGroupOptions.GetGroupOptions(folderSettings, shellViewModel), option => LayoutSortGroupOptions.GroupBy(folderSettings, option.PropertyId!, option.DateUnit), radioGroup, isGroup: true);
+
+		private static List<ContextMenuFlyoutItemViewModel> GetOptionMenuItems(IReadOnlyList<LayoutSortGroupOption> options, Action<LayoutSortGroupOption> selectOption, string radioGroup, bool isGroup)
+		{
+			return [.. options.Select(option => CreateOptionMenuItem(option, selectOption, radioGroup, () => ShowOptionPicker(options, selectOption, isGroup)))];
+		}
+
+		/// <summary>
+		/// Opens the window that chooses from all options, including the ones the menu leaves out.
+		/// </summary>
+		private static void ShowOptionPicker(IReadOnlyList<LayoutSortGroupOption> options, Action<LayoutSortGroupOption> selectOption, bool isGroup)
+		{
+			var choices = new List<(LayoutPropertyChoice Choice, LayoutSortGroupOption Option)>();
+			foreach (var option in options.SelectMany(option => option.Items ?? new[] { option }).Where(option => !option.IsSeparator))
+			{
+				if (option.Items is not { } dateUnits)
+				{
+					AddChoice(option, option.BuiltInCommand?.Code is CommandCodes.GroupByNone ? Strings.None.GetLocalizedResource() : option.Label);
+					continue;
+				}
+
+				foreach (var dateUnit in dateUnits)
+				{
+					var labels = dateUnit.PropertyId is { } id ? LayoutSortGroupOptions.GetDateUnitLabels(id) : null;
+					var label = dateUnit.DateUnit switch
+					{
+						GroupByDateUnit.Day => labels?.Day,
+						GroupByDateUnit.Month => labels?.Month,
+						GroupByDateUnit.Year => labels?.Year,
+						_ => null,
+					};
+					AddChoice(dateUnit, label?.GetLocalizedResource() ?? $"{option.Label} ({dateUnit.Label})");
+				}
+			}
+
+			var (title, description, searchPlaceholder) = isGroup
+				? (Strings.ChooseGrouping, Strings.ChooseGroupingDescription, Strings.SearchGroupingCategories)
+				: (Strings.ChooseSorting, Strings.ChooseSortingDescription, Strings.SearchSortingCategories);
+			var noneChoice = choices.FirstOrDefault(choice => choice.Option.BuiltInCommand?.Code is CommandCodes.GroupByNone).Choice;
+			var picker = new LayoutPropertyPickerViewModel(
+				title.GetLocalizedResource(),
+				description.GetLocalizedResource(),
+				searchPlaceholder.GetLocalizedResource(),
+				choices.Select(choice => choice.Choice).Where(choice => !ReferenceEquals(choice, noneChoice)),
+				choices.FirstOrDefault(choice => choice.Option.IsChecked).Choice,
+				noneChoice);
+
+			picker.Selected += (_, selectedChoice) =>
+			{
+				var option = choices.First(choice => ReferenceEquals(choice.Choice, selectedChoice)).Option;
+				if (option.BuiltInCommand is { } command)
+					command.Execute(null);
+				else
+					selectOption(option);
+			};
+
+			ColumnCustomizationWindow.Show(picker);
+
+			void AddChoice(LayoutSortGroupOption option, string label)
+				=> choices.Add((new(label, null, option.PropertyId ?? string.Empty, option.DateUnit) { ColumnId = option.PropertyId ?? DetailsLayoutColumnIds.Name }, option));
+		}
+
+		private static ContextMenuFlyoutItemViewModel CreateOptionMenuItem(LayoutSortGroupOption option, Action<LayoutSortGroupOption> selectOption, string radioGroup, Action showOptionPicker)
+		{
+			if (option.IsSeparator)
+			{
+				return new ContextMenuFlyoutItemViewModel()
+				{
+					ItemType = ContextMenuFlyoutItemType.Separator,
+					ShowInRecycleBin = true,
+					ShowInSearchPage = true,
+					ShowInFtpPage = true,
+					ShowInZipPage = true,
+				};
+			}
+
+			if (option.BuiltInCommand is { } command)
+			{
+				var commandItem = new ContextMenuFlyoutItemViewModelBuilder(command) { RadioGroup = radioGroup }.Build();
+				commandItem.Text = option.Label;
+				return commandItem;
+			}
+
+			var item = new ContextMenuFlyoutItemViewModel()
+			{
+				Text = option.Label,
+				ShowInRecycleBin = true,
+				ShowInSearchPage = true,
+				ShowInFtpPage = true,
+				ShowInZipPage = true,
+			};
+
+			if (option.Items is not null)
+			{
+				item.Command = new RelayCommand(showOptionPicker);
+			}
+			else if (option.PropertyId is not null)
+			{
+				item.ItemType = ContextMenuFlyoutItemType.Radio;
+				item.GroupName = radioGroup;
+				item.IsChecked = option.IsChecked;
+				item.Command = new RelayCommand(() => selectOption(option));
+			}
+
+			return item;
 		}
 	}
 }
