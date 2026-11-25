@@ -169,6 +169,13 @@ namespace Files.App.Services.Settings
 			set => Set(value);
 		}
 
+		/// <inheritdoc/>
+		public bool HideFilesHistorySidecars
+		{
+			get => Get(true);
+			set => Set(value);
+		}
+
 		private static List<FolderAliasItem> CreateDefaultFolderAliases()
 		{
 			var paths = Windows.Storage.UserDataPaths.GetDefault();

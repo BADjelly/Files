@@ -2,6 +2,7 @@
 // Licensed under the MIT License.
 
 using Files.App.Dialogs;
+using Microsoft.Extensions.Logging;
 using Microsoft.UI.Xaml.Controls;
 using WinRT;
 
@@ -9,6 +10,8 @@ namespace Files.App.Helpers
 {
 	internal sealed class DialogDisplayHelper
 	{
+		private static readonly ILogger<DialogDisplayHelper>? _logger = Ioc.Default.GetService<ILogger<DialogDisplayHelper>>();
+
 		/// <summary>
 		/// Standard dialog, to ensure consistency.
 		/// The secondaryText can be un-assigned to hide its respective button.
@@ -33,7 +36,7 @@ namespace Files.App.Helpers
 			var dialog = new DynamicDialog(new DynamicDialogViewModel()
 			{
 				TitleText = title,
-				SubtitleText = message, // We can use subtitle here as our actual message and skip DisplayControl
+				SubtitleText = message,
 				PrimaryButtonText = primaryText,
 				SecondaryButtonText = secondaryText,
 				DynamicButtons = DynamicDialogButtons.Primary | DynamicDialogButtons.Secondary
@@ -53,8 +56,9 @@ namespace Files.App.Helpers
 					return dialog.DynamicResult;
 				}
 			}
-			catch (Exception)
+			catch (Exception ex)
 			{
+				_logger?.LogError(ex, "Failed to show dialog.");
 			}
 
 			return DynamicDialogResult.Cancel;

@@ -177,12 +177,45 @@ namespace Files.App.Utils.Storage
 			if (token.IsCancellationRequested)
 				return;
 
+			if (item.ItemNameRaw is not null && item.ItemNameRaw.Equals(".files-settings.json", StringComparison.OrdinalIgnoreCase))
+			{
+				return;
+			}
+
+			if (UserSettingsService.FoldersSettingsService.HideFilesHistorySidecars
+				&& item.ItemPath is not null
+				&& IsPathInsideFilesHistorySidecar(item.ItemPath))
+			{
+				return;
+			}
+
 			results.Add(item);
 			pendingResults.Add(item);
 			if (item is ShortcutItem shortcutItem)
 				shortcutResults.Add(shortcutItem);
 
 			RaiseSearchTickIfDue(token);
+		}
+
+		/// <summary>
+		/// Returns true if the path contains a directory component ending with ".fileshistory".
+		/// </summary>
+		private static bool IsPathInsideFilesHistorySidecar(string path)
+		{
+			// Check directory components (all segments except the last one, which is the file/folder name)
+			var separator = Path.DirectorySeparatorChar;
+			var lastSeparator = path.LastIndexOf(separator);
+			var directoryPart = lastSeparator >= 0 ? path.Substring(0, lastSeparator) : path;
+
+			// Split by directory separator and check each component
+			var components = directoryPart.Split(separator, StringSplitOptions.RemoveEmptyEntries);
+			foreach (var component in components)
+			{
+				if (component.EndsWith(".fileshistory", StringComparison.OrdinalIgnoreCase))
+					return true;
+			}
+
+			return false;
 		}
 
 		private void RaiseSearchTickIfDue(CancellationToken token)

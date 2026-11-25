@@ -90,8 +90,7 @@
 			Grid.Column="1"
 			HorizontalAlignment="Stretch"
 			ItemsSource="{x:Bind ViewModel.Categories, Mode=OneWay}"
-			SelectedValue="{x:Bind ViewModel.SelectedCategoryId, Mode=TwoWay}"
-			SelectedValuePath="Uid">
+			SelectedItem="{x:Bind ViewModel.SelectedCategory, Mode=TwoWay}">
 			<ComboBox.ItemTemplate>
 				<DataTemplate x:DataType="datamodels:CategoryViewModel">
 					<TextBlock Text="{x:Bind Name}" />

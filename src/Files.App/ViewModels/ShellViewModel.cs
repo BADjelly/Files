@@ -10,10 +10,12 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Media.Imaging;
 using System.Collections.Concurrent;
+using System.Collections.ObjectModel;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Text.RegularExpressions;
 using Windows.Foundation;
 using Windows.Storage;
 using Windows.Storage.FileProperties;
@@ -1011,6 +1013,31 @@ namespace Files.App.ViewModels
 		{
 			get => _searchHeaderTitle;
 			set => SetProperty(ref _searchHeaderTitle, value);
+		}
+
+		public string SearchHeaderPrefix => Strings.SearchResultsFor.GetLocalizedResource().Replace("`", string.Empty).Replace("{0}", string.Empty).TrimEnd();
+
+		private string? _currentSearchQuery;
+		public string? CurrentSearchQuery
+		{
+			get => _currentSearchQuery;
+			private set => SetProperty(ref _currentSearchQuery, value);
+		}
+
+		public bool IsTagSearch => CurrentSearchQuery?.StartsWith("tag:", StringComparison.OrdinalIgnoreCase) == true;
+
+		private ObservableCollection<TagChipViewModel>? _tagChips;
+		public ObservableCollection<TagChipViewModel> TagChips
+		{
+			get => _tagChips ??= new();
+			private set => SetProperty(ref _tagChips, value);
+		}
+
+		private ObservableCollection<QuerySegmentViewModel>? _querySegments;
+		public ObservableCollection<QuerySegmentViewModel> QuerySegments
+		{
+			get => _querySegments ??= new();
+			private set => SetProperty(ref _querySegments, value);
 		}
 
 		public void UpdateEmptyTextType()
@@ -2297,7 +2324,7 @@ namespace Files.App.ViewModels
 			try
 			{
 				// Special handling for network drives
-				if (!isNetwork)
+				if (!isNetwork && !path.StartsWith("Shell:", StringComparison.OrdinalIgnoreCase))
 					isNetdisk = await Task.Run(() => new DriveInfo(path).DriveType == System.IO.DriveType.Network);
 			}
 			catch { }
@@ -3231,12 +3258,16 @@ namespace Files.App.ViewModels
 			var isSystem = ((FileAttributes)findData.dwFileAttributes & FileAttributes.System) == FileAttributes.System;
 			var isHidden = ((FileAttributes)findData.dwFileAttributes & FileAttributes.Hidden) == FileAttributes.Hidden;
 			var startWithDot = findData.cFileName.StartsWith('.');
+			var isFilesSidecar = UserSettingsService.FoldersSettingsService.HideFilesHistorySidecars && findData.cFileName.EndsWith(".fileshistory", StringComparison.OrdinalIgnoreCase);
+			var isFilesSettings = findData.cFileName.Equals(".files-settings.json", StringComparison.OrdinalIgnoreCase);
 			if ((isHidden &&
 			   (!UserSettingsService.FoldersSettingsService.ShowHiddenItems ||
 			   (isSystem && !UserSettingsService.FoldersSettingsService.ShowProtectedSystemFiles))) ||
-			   (startWithDot && !UserSettingsService.FoldersSettingsService.ShowDotFiles))
+			   (startWithDot && !UserSettingsService.FoldersSettingsService.ShowDotFiles) ||
+			   isFilesSidecar ||
+			   isFilesSettings)
 			{
-				// Do not add to file list if hidden/system attribute is set and system/hidden file are not to be shown
+				// Do not add to file list if hidden/system attribute is set and system/hidden file are not to be shown, or if this is a .fileshistory sidecar directory and hiding is enabled
 				return null;
 			}
 
@@ -3456,6 +3487,7 @@ namespace Files.App.ViewModels
 
 		public async Task SearchAsync(FolderSearch search)
 		{
+			App.Logger.LogInformation($"SearchAsync: Query='{search.Query}', Folder='{search.Folder}'");
 			ItemLoadStatusChanged?.Invoke(this, new ItemLoadStatusChangedEventArgs() { Status = ItemLoadStatusChangedEventArgs.ItemLoadStatus.Starting });
 
 			CancelSearch();
@@ -3468,9 +3500,13 @@ namespace Files.App.ViewModels
 			await ApplyFilesAndFoldersChangesAsync();
 			EmptyTextType = EmptyTextType.None;
 
+			CurrentSearchQuery = search.Query;
 			SearchHeaderTitle = !string.IsNullOrEmpty(search.Query)
 				? string.Format(Strings.SearchResultsFor.GetLocalizedResource(), search.Query)
 				: string.Empty;
+
+			await UpdateTagChipsAsync(search.Query);
+			UpdateQuerySegments();
 
 			if (SearchIconBitmapImage is null)
 				SearchIconBitmapImage ??= await UIHelpers.GetSearchIconResource();
@@ -3568,6 +3604,258 @@ namespace Files.App.ViewModels
 		public void CancelSearch()
 		{
 			searchCTS?.Cancel();
+			TagChips?.Clear();
+		}
+
+		private async Task UpdateTagChipsAsync(string? query)
+		{
+			if (string.IsNullOrWhiteSpace(query))
+			{
+				TagChips?.Clear();
+				return;
+			}
+
+			var selectedTagNames = ParseTagQuery(query);
+
+			// Build a lookup of registry tag names for validation
+			var allTags = fileTagsSettingsService.FileTagList ?? Array.Empty<TagViewModel>();
+			var registryNames = new HashSet<string>(allTags.Select(t => t.Name), StringComparer.OrdinalIgnoreCase);
+
+			// Filter parsed names to only those that exist in the registry
+			// (this prevents corrupted/artifact names from being used)
+			var validSelected = selectedTagNames.Where(n => registryNames.Contains(n)).ToHashSet();
+
+			var chips = new ObservableCollection<TagChipViewModel>();
+			foreach (var tag in allTags)
+			{
+				chips.Add(new TagChipViewModel(tag, validSelected.Contains(tag.Name)));
+			}
+
+			TagChips = chips;
+		}
+
+		public void UpdateQuerySegments()
+		{
+			if (string.IsNullOrWhiteSpace(CurrentSearchQuery))
+			{
+				QuerySegments?.Clear();
+				return;
+			}
+
+			var segments = ParseQuerySegments(CurrentSearchQuery).ToList();
+			QuerySegments = new ObservableCollection<QuerySegmentViewModel>(segments);
+		}
+
+		private static IEnumerable<QuerySegmentViewModel> ParseQuerySegments(string query)
+		{
+			var segments = new List<QuerySegmentViewModel>();
+			var connectors = new[] { "AND NOT", "OR NOT", "AND", "OR" }; // Longer connectors first
+
+			// Split by connectors, keeping the connectors in the result
+			var escapedConnectors = connectors.Select(Regex.Escape);
+			var pattern = @"(\s+(?:" + string.Join("|", escapedConnectors) + @")\s+)";
+			var parts = Regex.Split(query, pattern, RegexOptions.IgnoreCase);
+
+			foreach (var part in parts)
+			{
+				var trimmed = part.Trim();
+				if (string.IsNullOrEmpty(trimmed))
+					continue;
+
+				var connector = connectors.FirstOrDefault(c =>
+					trimmed.Equals(c, StringComparison.OrdinalIgnoreCase));
+
+				if (connector != null)
+				{
+					segments.Add(new QuerySegmentViewModel(trimmed, QuerySegmentType.Connector, connector));
+				}
+				else
+				{
+					segments.Add(new QuerySegmentViewModel(trimmed, QuerySegmentType.Tag));
+				}
+			}
+
+			return segments;
+		}
+
+		public bool ChangeConnector(int index, string newConnector)
+		{
+			var segments = QuerySegments;
+			if (segments is null || index < 0 || index >= segments.Count)
+				return false;
+
+			var segment = segments[index];
+			segment.Connector = newConnector;
+
+			// Rebuild the query from segments
+			var parts = new List<string>();
+			foreach (var seg in segments)
+			{
+				if (seg.IsConnector)
+					parts.Add(seg.Connector!);
+				else
+					parts.Add(seg.Text);
+			}
+
+			CurrentSearchQuery = string.Join(" ", parts);
+			SearchHeaderTitle = string.Format(Strings.SearchResultsFor.GetLocalizedResource(), CurrentSearchQuery);
+
+			var searchPath = CurrentSearchQuery.StartsWith("tag:", StringComparison.OrdinalIgnoreCase)
+				? "Home"
+				: CurrentFolder?.ItemPath ?? string.Empty;
+
+			var search = new FolderSearch
+			{
+				Query = CurrentSearchQuery,
+				Folder = searchPath,
+			};
+
+			_ = SearchAsync(search);
+			return true;
+		}
+
+		private static HashSet<string> ParseTagQuery(string query)
+		{
+			var result = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+			var tokens = SplitQueryTokens(query);
+			foreach (var token in tokens)
+			{
+				if (token.Length < 5 || !token.StartsWith("tag:", StringComparison.OrdinalIgnoreCase))
+					continue;
+
+				var value = token.Substring(4);
+				if (value.StartsWith("\"") && value.EndsWith("\""))
+				{
+					value = value.Substring(1, value.Length - 2);
+					// Unescape doubled quotes inserted by FormatTagQuery
+					value = value.Replace("\"\"", "\"");
+				}
+
+				var tagValues = value.Split(',', StringSplitOptions.RemoveEmptyEntries);
+				foreach (var tagValue in tagValues)
+				{
+					var trimmed = tagValue.Trim();
+					if (!string.IsNullOrEmpty(trimmed))
+						result.Add(trimmed);
+				}
+			}
+			return result;
+		}
+
+		private static IEnumerable<string> SplitQueryTokens(string query)
+		{
+			var tokens = new List<string>();
+			var current = new System.Text.StringBuilder();
+			var inQuotes = false;
+			for (var i = 0; i < query.Length; i++)
+			{
+				var c = query[i];
+				if (c == '"')
+				{
+					inQuotes = !inQuotes;
+					current.Append(c);
+				}
+				else if (c == ' ' && !inQuotes)
+				{
+					if (current.Length > 0)
+					{
+						tokens.Add(current.ToString());
+						current.Clear();
+					}
+				}
+				else
+				{
+					current.Append(c);
+				}
+			}
+			if (current.Length > 0)
+				tokens.Add(current.ToString());
+			return tokens;
+		}
+
+		public bool UpdateTagChipSelection(TagChipViewModel chip)
+		{
+			if (string.IsNullOrWhiteSpace(CurrentSearchQuery))
+				return false;
+
+			var segments = ParseQuerySegments(CurrentSearchQuery).ToList();
+
+			if (chip.IsSelected)
+			{
+				// Add connector before new tag if there are existing tags
+				var tagCount = segments.Count(s => !s.IsConnector);
+				if (tagCount > 0)
+				{
+					segments.Add(new QuerySegmentViewModel("AND", QuerySegmentType.Connector, "AND"));
+				}
+
+				// Add tag at the end
+				var formattedTag = FolderSearch.FormatTagQuery(chip.Tag.Name);
+				segments.Add(new QuerySegmentViewModel(formattedTag, QuerySegmentType.Tag));
+			}
+			else
+			{
+				// Find and remove the tag segment
+				var tagToRemove = segments.LastOrDefault(s => !s.IsConnector && s.Text.Equals(FolderSearch.FormatTagQuery(chip.Tag.Name), StringComparison.OrdinalIgnoreCase));
+				if (tagToRemove != null)
+				{
+					var tagIndex = segments.IndexOf(tagToRemove);
+
+					// Prevent removing the last tag
+					var remainingTags = segments.Count(s => !s.IsConnector);
+					if (remainingTags <= 1)
+						return true;
+
+					// Remove the connector before the tag (if not first segment)
+					if (tagIndex > 0 && segments[tagIndex - 1].IsConnector)
+					{
+						segments.RemoveAt(tagIndex - 1);
+						tagIndex--; // Adjust index after removal
+					}
+
+					segments.Remove(tagToRemove);
+				}
+			}
+
+			// Remove dangling connectors at the start or end
+			while (segments.Count > 0 && segments[0].IsConnector)
+				segments.RemoveAt(0);
+			while (segments.Count > 0 && segments[segments.Count - 1].IsConnector)
+				segments.RemoveAt(segments.Count - 1);
+
+			if (segments.Count == 0 || segments.Count(s => !s.IsConnector) == 0)
+			{
+				CurrentSearchQuery = string.Empty;
+				SearchHeaderTitle = string.Empty;
+				TagChips?.Clear();
+				return false;
+			}
+
+			// Rebuild query from segments, preserving existing connectors
+			var parts = new List<string>();
+			foreach (var seg in segments)
+			{
+				if (seg.IsConnector)
+					parts.Add(seg.Connector!);
+				else
+					parts.Add(seg.Text);
+			}
+
+			CurrentSearchQuery = string.Join(" ", parts);
+			SearchHeaderTitle = string.Format(Strings.SearchResultsFor.GetLocalizedResource(), CurrentSearchQuery);
+
+			var searchPath = CurrentSearchQuery.StartsWith("tag:", StringComparison.OrdinalIgnoreCase)
+				? "Home"
+				: CurrentFolder?.ItemPath ?? string.Empty;
+
+			var search = new FolderSearch
+			{
+				Query = CurrentSearchQuery,
+				Folder = searchPath,
+			};
+
+			_ = SearchAsync(search);
+			return false;
 		}
 
 		public void UpdateDateDisplay()

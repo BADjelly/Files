@@ -393,4 +393,69 @@
 		</Setter>
 	</Style>
 
+	<Style
+		x:Key="App.ThemedIcons.Actions.VersionHistory"
+		BasedOn="{StaticResource DefaultThemedIconStyle}"
+		TargetType="local:ThemedIcon">
+
+		<Setter Property="IconSize" Value="16" />
+
+		<Setter Property="OutlineIconData" Value="M 7.92 1.32 C 4.2768 1.32 1.32 4.2768 1.32 7.92 s 2.9568 6.6 6.6 6.6 s 6.6 -2.9568 6.6 -6.6 S 11.5632 1.32 7.92 1.32 Z M 7.92 13.2 c -2.9106 0 -5.28 -2.3694 -5.28 -5.28 s 2.3694 -5.28 5.28 -5.28 s 5.28 2.3694 5.28 5.28 s -2.3694 5.28 -5.28 5.28 Z M 8.58 4.62 h -1.32 v 3.5706 l 2.7984 1.6566 l 0.6072 -1.0164 l -2.0856 -1.2342 Z" />
+		<Setter Property="FilledIconData" Value="M 7.92 0 A 7.92 7.92 0 1 0 7.92 15.84 A 7.92 7.92 0 1 0 7.92 0 Z M 7.92 2.48 L 9.48 6.48 H 7.92 V 8.88 H 4.8 L 6.36 6.48 H 7.92 V 2.48 Z M 7.92 7.2 A 0.52 0.52 0 1 1 7.4 7.72 A 0.52 0.52 0 0 1 7.92 7.2 Z" />
+
+		<Setter Property="Layers">
+			<Setter.Value>
+				<local:ThemedIconLayers>
+					<local:ThemedIconLayer
+									LayerSize="16"
+									LayerType="Base"
+									PathData="M 7.92 1.32 C 4.2768 1.32 1.32 4.2768 1.32 7.92 s 2.9568 6.6 6.6 6.6 s 6.6 -2.9568 6.6 -6.6 S 11.5632 1.32 7.92 1.32 Z M 7.92 13.2 c -2.9106 0 -5.28 -2.3694 -5.28 -5.28 s 2.3694 -5.28 5.28 -5.28 s 5.28 2.3694 5.28 5.28 s -2.3694 5.28 -5.28 5.28 Z M 8.58 4.62 h -1.32 v 3.5706 l 2.7984 1.6566 l 0.6072 -1.0164 l -2.0856 -1.2342 Z" />
+				</local:ThemedIconLayers>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<Style
+		x:Key="App.ThemedIcons.Actions.SaveVersion"
+		BasedOn="{StaticResource DefaultThemedIconStyle}"
+		TargetType="local:ThemedIcon">
+
+		<Setter Property="IconSize" Value="16" />
+
+		<Setter Property="OutlineIconData" Value="M3,1H12L15,4V13a2,2,0,0,1-2,2H3a2,2,0,0,1-2-2V3a2,2,0,0,1,2-2z" />
+		<Setter Property="FilledIconData" Value="M3,1H12L15,4V13a2,2,0,0,1-2,2H3a2,2,0,0,1-2-2V3a2,2,0,0,1,2-2z" />
+
+		<Setter Property="Layers">
+			<Setter.Value>
+				<local:ThemedIconLayers>
+					<!-- Disk body outline -->
+					<local:ThemedIconLayer
+					LayerSize="16"
+					LayerType="Base"
+					PathData="M3,1H12L15,4V13a2,2,0,0,1-2,2H3a2,2,0,0,1-2-2V3a2,2,0,0,1,2-2z M3,2a1,1,0,0,0-1,1V13a1,1,0,0,0,1,1H13a1,1,0,0,0,1-1V4.41L11.59,2z" />
+					<!-- Shutter outline (U shape) -->
+					<local:ThemedIconLayer
+					LayerSize="16"
+					LayerType="Base"
+					PathData="M3,2H4V4H9V2H10V5H3z" />
+					<!-- Label outline (inverted U) -->
+					<local:ThemedIconLayer
+					LayerSize="16"
+					LayerType="Base"
+					PathData="M3,14V7a1,1,0,0,1,1-1H12a1,1,0,0,1,1,1V14H12V7H4V14z" />
+					<!-- Shutter slot (blue) -->
+					<local:ThemedIconLayer
+					LayerSize="16"
+					LayerType="Accent"
+					PathData="M6,2H8V4H6z" />
+					<!-- Label lines (blue) -->
+					<local:ThemedIconLayer
+					LayerSize="16"
+					LayerType="Accent"
+					PathData="M5,8H11V9H5z M5,10H11V11H5z M5,12H11V13H5z" />
+				</local:ThemedIconLayers>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
 </ResourceDictionary>

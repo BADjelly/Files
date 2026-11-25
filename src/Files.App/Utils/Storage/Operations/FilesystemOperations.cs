@@ -5,6 +5,7 @@ using Files.Shared.Helpers;
 using Microsoft.UI.Xaml.Controls;
 using System.IO;
 using System.Text;
+using System.Diagnostics;
 using Windows.Foundation.Metadata;
 using Windows.Storage;
 using Windows.Win32;
@@ -600,6 +601,9 @@ namespace Files.App.Utils.Storage
 			{
 				await ShellViewModel.RemoveFileOrFolderAsync(source.Path);
 
+				// Delete the .fileshistory sidecar directory using the same delete mode as the file
+				await DeleteSidecarDirectoryAsync(source.Path, permanently, cancellationToken);
+
 				if (!permanently)
 				{
 					// Enumerate Recycle Bin
@@ -681,6 +685,10 @@ namespace Files.App.Utils.Storage
 				{
 					fsProgress.ReportStatus(FileSystemStatusCode.Success);
 
+					// Rename the .fileshistory sidecar directory if it exists
+					Trace.WriteLine($"RenameAsync: calling RenameSidecarDirectoryAsync for '{source.Path}' to '{newName}'");
+					await RenameSidecarDirectoryAsync(source.Path, destination: Path.Combine(Path.GetDirectoryName(source.Path)!, newName), cancellationToken);
+
 					return new StorageHistory(FileOperationType.Rename, source, renamedItem.FromStorageItem());
 				}
 				else if (renamed == FileSystemStatusCode.Unauthorized)
@@ -692,6 +700,9 @@ namespace Files.App.Utils.Storage
 					if (PInvoke.MoveFileFromApp(source.Path, destination))
 					{
 						fsProgress.ReportStatus(FileSystemStatusCode.Success);
+
+						// Rename the .files sidecar directory if it exists
+						await RenameSidecarDirectoryAsync(source.Path, destination, cancellationToken);
 
 						return new StorageHistory(FileOperationType.Rename, source, StorageHelpers.FromPathAndType(destination, source.ItemType));
 					}
@@ -874,6 +885,32 @@ namespace Files.App.Utils.Storage
 				await ShellViewModel.GetFileFromPathAsync(iFilePath, cancellationToken)
 					.OnSuccess(iFile => (iFile ?? throw new InvalidOperationException($"The recycle-bin metadata file '{iFilePath}' could not be opened."))
 						.DeleteAsync(StorageDeleteOption.PermanentDelete).AsTask());
+
+				// Restore .fileshistory sidecar directory alongside restored file
+				var originalPath = ParseRecycleBinOriginalPath(iFilePath);
+				if (originalPath is not null)
+				{
+					var expectedSidecarPath = $"{originalPath}.fileshistory";
+					var sidecarDestination = $"{destination}.fileshistory";
+
+					try
+					{
+						foreach (var iFile in Directory.EnumerateFiles(parentPath, "$I*", SearchOption.TopDirectoryOnly))
+						{
+							var iPath = ParseRecycleBinOriginalPath(iFile);
+							if (string.Equals(iPath, expectedSidecarPath, StringComparison.Ordinal))
+							{
+								var sidecarRecyclePath = iFile.Replace("$I", "$R", StringComparison.Ordinal);
+								Directory.Move(sidecarRecyclePath, sidecarDestination);
+								break;
+							}
+						}
+					}
+					catch
+					{
+						// Sidecar restore failure is non-fatal; the main file restore already succeeded
+					}
+				}
 			}
 
 			fsProgress.ReportStatus(fsResult);
@@ -894,10 +931,37 @@ namespace Files.App.Utils.Storage
 				}
 			}
 
-			return new StorageHistory(FileOperationType.Restore, source, StorageHelpers.FromPathAndType(destination, source.ItemType));
-		}
+		return new StorageHistory(FileOperationType.Restore, source, StorageHelpers.FromPathAndType(destination, source.ItemType));
+	}
 
-		private async static Task<BaseStorageFolder> CloneDirectoryAsync(BaseStorageFolder sourceFolder, BaseStorageFolder destinationFolder, string sourceRootName, CreationCollisionOption collision = CreationCollisionOption.FailIfExists)
+	/// <summary>
+	/// Parses the $I metadata file to extract the original file/folder path.
+	/// $I file format: 20-byte header + original name (null-terminated UTF-16LE) + original folder (null-terminated UTF-16LE).
+	/// </summary>
+	private static string? ParseRecycleBinOriginalPath(string iFilePath)
+	{
+		var bytes = File.ReadAllBytes(iFilePath);
+		if (bytes.Length < 20)
+			return null;
+
+		// Skip 20-byte header, read original name (null-terminated UTF-16LE)
+		int nameEnd = Array.IndexOf(bytes, (byte)0, 20);
+		if (nameEnd <= 20)
+			return null;
+
+		string originalName = Encoding.Unicode.GetString(bytes, 20, nameEnd - 20);
+
+		// Read original folder path (null-terminated UTF-16LE)
+		int folderEnd = Array.IndexOf(bytes, (byte)0, nameEnd + 2);
+		if (folderEnd <= nameEnd + 1)
+			return null;
+
+		string originalFolder = Encoding.Unicode.GetString(bytes, nameEnd + 2, folderEnd - nameEnd - 2);
+
+		return Path.Combine(originalFolder, originalName);
+	}
+
+	private async static Task<BaseStorageFolder> CloneDirectoryAsync(BaseStorageFolder sourceFolder, BaseStorageFolder destinationFolder, string sourceRootName, CreationCollisionOption collision = CreationCollisionOption.FailIfExists)
 		{
 			BaseStorageFolder createdRoot;
 			if (collision is CreationCollisionOption.ReplaceExisting)
@@ -1067,6 +1131,71 @@ namespace Files.App.Utils.Storage
 		public Task<IStorageHistory> CreateShortcutItemsAsync(IList<IStorageItemWithPath> source, IList<string> destination, IProgress<StatusCenterItemProgressModel> progress, CancellationToken token)
 		{
 			throw new NotImplementedException("Cannot create shortcuts in UWP.");
+		}
+
+		private static async Task RenameSidecarDirectoryAsync(string oldPath, string destination, CancellationToken cancellationToken)
+		{
+			var oldSidecarDir = $"{oldPath}.fileshistory";
+			Trace.WriteLine($"RenameSidecarDirectoryAsync: checking oldSidecarDir='{oldSidecarDir}'");
+			if (!Directory.Exists(oldSidecarDir))
+			{
+				Trace.WriteLine($"RenameSidecarDirectoryAsync: oldSidecarDir does not exist, returning.");
+				return;
+			}
+
+			var newSidecarDir = $"{destination}.fileshistory";
+			Trace.WriteLine($"RenameSidecarDirectoryAsync: renaming '{oldSidecarDir}' to '{newSidecarDir}'.");
+
+			try
+			{
+				if (Directory.Exists(newSidecarDir))
+				{
+					// Merge: move contents from old sidecar to new sidecar
+					foreach (var file in Directory.EnumerateFiles(oldSidecarDir, "*", SearchOption.TopDirectoryOnly))
+					{
+						var fileName = Path.GetFileName(file);
+						File.Move(file, Path.Combine(newSidecarDir, fileName), true);
+					}
+					Directory.Delete(oldSidecarDir);
+				}
+				else
+				{
+					Directory.Move(oldSidecarDir, newSidecarDir);
+				}
+			}
+			catch (Exception ex)
+			{
+				// Sidecar rename failure is non-fatal; the main file rename already succeeded
+				Trace.WriteLine($"RenameSidecarDirectoryAsync: failed - {ex.Message}");
+			}
+		}
+
+		private async Task DeleteSidecarDirectoryAsync(string filePath, bool permanently, CancellationToken cancellationToken)
+		{
+			var sidecarDir = $"{filePath}.fileshistory";
+			if (!Directory.Exists(sidecarDir))
+				return;
+
+			try
+			{
+				if (permanently)
+				{
+					Directory.Delete(sidecarDir, recursive: true);
+				}
+				else
+				{
+					var sidecarFolder = await ShellViewModel.GetFolderFromPathAsync(sidecarDir, cancellationToken);
+					if (sidecarFolder.Result is BaseStorageFolder folder)
+					{
+						await folder.DeleteAsync(StorageDeleteOption.Default);
+					}
+				}
+			}
+			catch (Exception ex)
+			{
+				// Sidecar delete failure is non-fatal; the main file delete already succeeded
+				Trace.WriteLine($"DeleteSidecarDirectoryAsync: failed - {ex.Message}");
+			}
 		}
 
 		public void Dispose()

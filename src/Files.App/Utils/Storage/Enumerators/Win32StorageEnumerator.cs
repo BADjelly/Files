@@ -41,6 +41,7 @@ namespace Files.App.Utils.Storage
 			bool showProtectedSystemFiles = userSettingsService.FoldersSettingsService.ShowProtectedSystemFiles;
 			bool showDotFiles = userSettingsService.FoldersSettingsService.ShowDotFiles;
 			bool areAlternateStreamsVisible = userSettingsService.FoldersSettingsService.AreAlternateStreamsVisible;
+			bool hideFilesHistorySidecars = userSettingsService.FoldersSettingsService.HideFilesHistorySidecars;
 
 			var isGitRepo = GitHelpers.IsRepositoryEx(path, out var repoPath) && !string.IsNullOrEmpty(await GitHelpers.GetRepositoryHeadName(repoPath));
 			var rawHandle = hFile.DangerousGetHandle();
@@ -50,12 +51,16 @@ namespace Files.App.Utils.Storage
 				do
 				{
 					var isSystem = ((FileAttributes)findData.dwFileAttributes & FileAttributes.System) == FileAttributes.System;
-					var isHidden = ((FileAttributes)findData.dwFileAttributes & FileAttributes.Hidden) == FileAttributes.Hidden;
-					var startWithDot = findData.cFileName.StartsWith('.');
-					if ((!isHidden ||
-						(showHiddenItems &&
+						var isHidden = ((FileAttributes)findData.dwFileAttributes & FileAttributes.Hidden) == FileAttributes.Hidden;
+						var startWithDot = findData.cFileName.StartsWith('.');
+						var isFilesSidecar = hideFilesHistorySidecars && findData.cFileName.EndsWith(".fileshistory", StringComparison.OrdinalIgnoreCase);
+						var isFilesSettings = findData.cFileName.Equals(".files-settings.json", StringComparison.OrdinalIgnoreCase);
+						if ((!isHidden ||
+							(showHiddenItems &&
 							(!isSystem || showProtectedSystemFiles))) &&
-						(!startWithDot || showDotFiles))
+							(!startWithDot || showDotFiles) &&
+							!isFilesSidecar &&
+							!isFilesSettings)
 					{
 						if (((FileAttributes)findData.dwFileAttributes & FileAttributes.Directory) != FileAttributes.Directory)
 						{

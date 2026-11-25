@@ -89,8 +89,9 @@ namespace Files.App.Dialogs
 			if (sender is Button btn)
 				btn.GotFocus -= PrimaryButton_GotFocus;
 
-			if (chkPermanentlyDelete is not null)
-				chkPermanentlyDelete.IsEnabled = ViewModel.IsDeletePermanentlyEnabled;
+			// CheckBox permanently deleted from - commented out per user request
+			// if (chkPermanentlyDelete is not null)
+			// 	chkPermanentlyDelete.IsEnabled = ViewModel.IsDeletePermanentlyEnabled;
 
 			DetailsGrid.IsEnabled = true;
 		}

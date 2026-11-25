@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1981,6 +1981,9 @@
   </data>
   <data name="SettingsOpenInLogin" xml:space="preserve">
     <value>Ô²Õ¡ÖÕ¥Õ¬ Õ†Õ«Õ·Ö„Õ¥Ö€Õ¨ Windows-Õ¨ Õ´Õ¥Õ¯Õ¶Õ¡Ö€Õ¯Õ¥Õ¬Õ«Õ½</value>
+  </data>
+  <data name="HideFilesHistorySidecars" xml:space="preserve">
+    <value>Hide .fileshistory content</value>
   </data>
   <data name="Attributes" xml:space="preserve">
     <value>Õ€Õ¡Õ¿Õ¯Õ¡Õ¶Õ«Õ·Õ¶Õ¥Ö€</value>

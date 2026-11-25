@@ -1,11 +1,17 @@
 // Copyright (c) Files Community
 // Licensed under the MIT License.
 
+using CommunityToolkit.WinUI;
+using Files.App.Data.Models;
+using Microsoft.UI.Text;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
 using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Media.Animation;
 using Microsoft.UI.Xaml.Navigation;
+using System.ComponentModel;
 using System.IO;
 using Windows.System;
 
@@ -17,6 +23,8 @@ namespace Files.App.Views.Shells
 			=> ItemDisplayFrame;
 
 		private NavigationInteractionTracker _navigationInteractionTracker;
+
+		private TextBlock? _activeConnectorTextBlock;
 
 		private NavigationParams? _NavParams;
 		public NavigationParams? NavParams
@@ -34,6 +42,11 @@ namespace Files.App.Views.Shells
 			}
 		}
 
+		// Mirror properties for x:Bind (ShellViewModel is null when bindings are established)
+		public bool IsSearchResults => ShellViewModel?.IsSearchResults ?? false;
+
+		public bool IsTagSearch => ShellViewModel?.IsTagSearch ?? false;
+
 		public ModernShellPage() : base(new CurrentInstanceViewModel())
 		{
 			InitializeComponent();
@@ -46,6 +59,7 @@ namespace Files.App.Views.Shells
 			ShellViewModel.OnSelectionRequestedEvent += FilesystemViewModel_OnSelectionRequestedEvent;
 			ShellViewModel.GitDirectoryUpdated += FilesystemViewModel_GitDirectoryUpdated;
 			ShellViewModel.FocusFilterHeader += ShellViewModel_FocusFilterHeader;
+			ShellViewModel.PropertyChanged += ShellViewModel_PropertyChanged;
 
 			ToolbarViewModel.PathControlDisplayText = Strings.Home.GetLocalizedResource();
 			ToolbarViewModel.RefreshWidgetsRequested += ModernShellPage_RefreshWidgetsRequested;
@@ -54,6 +68,46 @@ namespace Files.App.Views.Shells
 
 			_navigationInteractionTracker = new NavigationInteractionTracker(this, BackIcon, ForwardIcon);
 			_navigationInteractionTracker.NavigationRequested += OverscrollNavigationRequested;
+		}
+
+		private void ShellViewModel_PropertyChanged(object? sender, System.ComponentModel.PropertyChangedEventArgs e)
+		{
+			if (e.PropertyName is nameof(ShellViewModel.IsSearchResults) or nameof(ShellViewModel.CurrentSearchQuery) or nameof(ShellViewModel.TagChips) or nameof(ShellViewModel.QuerySegments))
+			{
+				UpdateSearchHeaderVisibility();
+
+				if (TagChipsRepeater is not null && ShellViewModel is not null)
+					TagChipsRepeater.ItemsSource = ShellViewModel.TagChips;
+
+				if (QuerySegmentsRepeater is not null && ShellViewModel is not null)
+					QuerySegmentsRepeater.ItemsSource = ShellViewModel.QuerySegments;
+			}
+		}
+
+		private void SearchHeader_Loaded(object sender, RoutedEventArgs e)
+		{
+			UpdateSearchHeaderVisibility();
+		}
+
+		private void TagChipsRepeater_Loaded(object sender, RoutedEventArgs e)
+		{
+			if (sender is ItemsRepeater repeater && ShellViewModel is not null)
+				repeater.ItemsSource = ShellViewModel.TagChips;
+		}
+
+		private void UpdateSearchHeaderVisibility()
+		{
+			if (ShellViewModel is null)
+				return;
+
+			bool showSearchHeader = ShellViewModel.IsSearchResults;
+			bool showTagChips = ShellViewModel.IsTagSearch;
+
+			if (SearchHeader is not null)
+				SearchHeader.Visibility = showSearchHeader ? Visibility.Visible : Visibility.Collapsed;
+
+			if (TagChipsRepeater is not null)
+				TagChipsRepeater.Visibility = (showSearchHeader && showTagChips) ? Visibility.Visible : Visibility.Collapsed;
 		}
 
 		private async void ShellViewModel_FocusFilterHeader(object? sender, EventArgs e)
@@ -368,6 +422,159 @@ namespace Files.App.Views.Shells
 			if (e.Key is VirtualKey.Escape &&
 				SlimContentPage is BaseGroupableLayoutPage { IsLoaded: true } svb)
 				SlimContentPage.ItemManipulationModel.FocusFileList();
+		}
+
+		private async void ChipBorder_PointerPressed(object sender, PointerRoutedEventArgs e)
+		{
+			var border = sender as Border;
+			if (border is { DataContext: TagChipViewModel chip } && ShellViewModel is not null)
+			{
+				var wasSelected = chip.IsSelected;
+				chip.IsSelected = !chip.IsSelected;
+				var blocked = ShellViewModel.UpdateTagChipSelection(chip);
+
+				// If the view model blocked the deselection (last tag), restore the previous state and show a message
+				if (blocked)
+				{
+					chip.IsSelected = wasSelected;
+
+					var dialog = new ContentDialog()
+					{
+						Title = Strings.Search.GetLocalizedResource(),
+						Content = Strings.SearchAtLeastOneTagSelected.GetLocalizedResource(),
+						PrimaryButtonText = Strings.OK.GetLocalizedResource(),
+					};
+
+					if (Windows.Foundation.Metadata.ApiInformation.IsApiContractPresent("Windows.Foundation.UniversalApiContract", 8))
+						dialog.XamlRoot = MainWindow.Instance.Content.XamlRoot;
+
+					await dialog.TryShowAsync();
+				}
+
+				e.Handled = true;
+			}
+		}
+
+		private void ChipBorder_PointerEntered(object sender, PointerRoutedEventArgs e)
+		{
+			if (sender is Border border)
+				border.Opacity = 0.7;
+		}
+
+		private void ChipBorder_PointerExited(object sender, PointerRoutedEventArgs e)
+		{
+			if (sender is Border border)
+				border.Opacity = 1.0;
+		}
+
+		private void QuerySegmentsRepeater_Loaded(object sender, RoutedEventArgs e)
+		{
+			if (sender is ItemsRepeater repeater && ShellViewModel != null)
+			{
+				repeater.ItemsSource = ShellViewModel.QuerySegments;
+				ShellViewModel.PropertyChanged += QuerySegmentsShellViewModel_PropertyChanged;
+			}
+		}
+
+		private void QuerySegmentsShellViewModel_PropertyChanged(object? sender, PropertyChangedEventArgs e)
+		{
+			if (e.PropertyName == nameof(ShellViewModel.QuerySegments) && ShellViewModel != null)
+			{
+				QuerySegmentsRepeater.ItemsSource = ShellViewModel.QuerySegments;
+			}
+		}
+
+		private void ConnectorPanel_PointerEntered(object sender, PointerRoutedEventArgs e)
+		{
+			if (sender is not TextBlock textBlock)
+				return;
+
+			if (textBlock.DataContext is not QuerySegmentViewModel segment)
+				return;
+
+			if (!segment.IsConnector)
+				return;
+
+			// Make font bolder on hover
+			textBlock.FontWeight = FontWeights.Bold;
+
+			// Show arrow on hover
+			if (textBlock.FindName("ConnectorArrow") is TextBlock arrow)
+			{
+				arrow.Visibility = Visibility.Visible;
+			}
+		}
+
+		private void ConnectorPanel_PointerExited(object sender, PointerRoutedEventArgs e)
+		{
+			if (sender is not TextBlock textBlock)
+				return;
+
+			if (textBlock.DataContext is not QuerySegmentViewModel segment)
+				return;
+
+			if (!segment.IsConnector)
+				return;
+
+			// Don't reset if this is the active connector (menu is open)
+			if (textBlock == _activeConnectorTextBlock)
+				return;
+
+			// Reset to default SemiBold (matching SubtitleTextBlockStyle)
+			textBlock.FontWeight = FontWeights.SemiBold;
+
+			// Hide arrow
+			if (textBlock.FindName("ConnectorArrow") is TextBlock arrow)
+			{
+				arrow.Visibility = Visibility.Collapsed;
+			}
+		}
+
+		private void ConnectorPanel_PointerPressed(object sender, PointerRoutedEventArgs e)
+		{
+			if (sender is not TextBlock textBlock)
+				return;
+
+			if (textBlock.DataContext is not QuerySegmentViewModel segment)
+				return;
+
+			if (!segment.IsConnector)
+				return;
+
+			// Set as active connector (keep hover effect while menu is open)
+			_activeConnectorTextBlock = textBlock;
+
+			// Create menu flyout
+			var flyout = new MenuFlyout();
+			flyout.Closed += (s, args) =>
+			{
+				// Reset active connector to default SemiBold
+				if (_activeConnectorTextBlock is TextBlock active && active.FindName("ConnectorArrow") is TextBlock activeArrow)
+				{
+					active.FontWeight = FontWeights.SemiBold;
+					activeArrow.Visibility = Visibility.Collapsed;
+				}
+				_activeConnectorTextBlock = null;
+			};
+			var connectors = new[] { "AND", "OR", "AND NOT", "OR NOT" };
+			foreach (var connector in connectors)
+			{
+				var item = new ToggleMenuFlyoutItem { Text = connector, IsChecked = segment.Connector == connector };
+				item.Click += (s, args) =>
+				{
+					var vm = ShellViewModel;
+					var segments = vm?.QuerySegments;
+					if (segments is not null)
+					{
+						var index = segments.IndexOf(segment);
+						_ = vm!.ChangeConnector(index, connector);
+					}
+				};
+				flyout.Items.Add(item);
+			}
+
+			flyout.ShowAt(textBlock, new FlyoutShowOptions { Placement = FlyoutPlacementMode.Bottom });
+			e.Handled = true;
 		}
 	}
 }

@@ -14,6 +14,8 @@ public sealed partial class UpdateService
 
 	public static IAsyncOperation<bool> CheckSideloadUpdatesAsync() => ServerAsync.Run(token => UpdateCatalog.SideloadUpdate.GetAsync().WaitAsync(token));
 
+	public static IAsyncOperation<bool> CheckSideloadUpdatesAsync(string customUrl) => ServerAsync.Run(token => UpdateCatalog.CheckSideloadAsync(customUrl).WaitAsync(token));
+
 	public static IAsyncOperation<IReadOnlyList<StorePackageUpdate>> GetStoreUpdatesAsync() => ServerAsync.Run(token => UpdateCatalog.StoreUpdates.GetAsync().WaitAsync(token));
 
 	public static IAsyncAction UpdateLauncherAsync() => ServerAsync.Run(token => UpdateCatalog.UpdateLauncherAsync().WaitAsync(token));

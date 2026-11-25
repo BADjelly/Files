@@ -48,6 +48,7 @@ namespace Files.App.ViewModels.Settings
 			ClearThumbnailCacheCommand = new AsyncRelayCommand(ClearThumbnailCacheAsync);
 			BrowseSharedTagsPathCommand = new AsyncRelayCommand(BrowseSharedTagsPathAsync);
 			ClearSharedTagsPathCommand = new AsyncRelayCommand(ClearSharedTagsPathAsync);
+			ClearCustomCdnUrlCommand = new AsyncRelayCommand(ClearCustomCdnUrlAsync);
 
 			_ = DetectOpenFilesAtStartupAsync();
 			_ = UpdateCacheSizeAsync();
@@ -371,6 +372,20 @@ namespace Files.App.ViewModels.Settings
 			}
 		}
 
+		public bool HideFilesHistorySidecars
+		{
+			get => UserSettingsService.FoldersSettingsService.HideFilesHistorySidecars;
+			set
+			{
+				if (value != UserSettingsService.FoldersSettingsService.HideFilesHistorySidecars)
+				{
+					UserSettingsService.FoldersSettingsService.HideFilesHistorySidecars = value;
+
+					OnPropertyChanged();
+				}
+			}
+		}
+
 		// TODO remove when feature is marked as stable
 		public bool ShowFlattenOptions
 		{
@@ -567,6 +582,47 @@ namespace Files.App.ViewModels.Settings
 			_ = SafetyExtensions.IgnoreExceptions(() =>
 			{
 				Microsoft.Windows.AppLifecycle.AppInstance.Restart("");
+			}, App.Logger);
+		}
+
+		public string? CustomUpdateCdnUrl
+		{
+			get => UserSettingsService.GeneralSettingsService.CustomUpdateCdnUrl;
+			set
+			{
+				if (value == UserSettingsService.GeneralSettingsService.CustomUpdateCdnUrl)
+					return;
+
+				UserSettingsService.GeneralSettingsService.CustomUpdateCdnUrl = value;
+				OnPropertyChanged();
+
+				// Notify the update service of the change
+				_ = SafetyExtensions.IgnoreExceptions(async () =>
+				{
+					var updateService = Ioc.Default.GetRequiredService<Data.Contracts.IUpdateService>();
+					if (updateService is Services.SideloadUpdateService sideloadService)
+					{
+						sideloadService.SetCustomCdnUrl(value);
+					}
+				}, App.Logger);
+			}
+		}
+
+		public AsyncRelayCommand ClearCustomCdnUrlCommand { get; }
+
+		private async Task ClearCustomCdnUrlAsync()
+		{
+			UserSettingsService.GeneralSettingsService.CustomUpdateCdnUrl = null;
+			OnPropertyChanged(nameof(CustomUpdateCdnUrl));
+
+			// Notify the update service to reset to default
+			_ = SafetyExtensions.IgnoreExceptions(async () =>
+			{
+				var updateService = Ioc.Default.GetRequiredService<Data.Contracts.IUpdateService>();
+				if (updateService is Services.SideloadUpdateService sideloadService)
+				{
+					sideloadService.SetCustomCdnUrl(null);
+				}
 			}, App.Logger);
 		}
 	}

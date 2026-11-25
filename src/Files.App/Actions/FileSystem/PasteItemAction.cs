@@ -1,12 +1,17 @@
 ﻿// Copyright (c) Files Community
 // Licensed under the MIT License.
 
+using Files.App.Data.Contracts;
+using Files.App.Helpers;
+using Windows.ApplicationModel.DataTransfer;
+
 namespace Files.App.Actions
 {
 	[GeneratedRichCommand]
 	internal sealed partial class PasteItemAction : ObservableObject, IAction
 	{
 		private readonly IContentPageContext context;
+		private readonly IDirectorySettingsService _directorySettingsService;
 
 		public string Label
 			=> Strings.Paste.GetLocalizedResource();
@@ -35,6 +40,7 @@ namespace Files.App.Actions
 		public PasteItemAction()
 		{
 			context = Ioc.Default.GetRequiredService<IContentPageContext>();
+			_directorySettingsService = Ioc.Default.GetRequiredService<IDirectorySettingsService>();
 
 			context.PropertyChanged += Context_PropertyChanged;
 			App.AppModel.PropertyChanged += AppModel_PropertyChanged;
@@ -47,7 +53,46 @@ namespace Files.App.Actions
 
 			var shellViewModel = shellPage.GetRequiredShellViewModel();
 			string path = shellViewModel.WorkingDirectory!;
-			await UIFilesystemHelpers.PasteItemAsync(path, shellPage);
+
+			var settings = await _directorySettingsService.GetSettingsAsync(path);
+
+			if (settings.CopyPasteBehavior == Data.Models.CopyPasteBehaviorType.Shortcut)
+			{
+				// Cut (move) operations bypass directory settings — move files normally
+				var requestedOp = Clipboard.GetContent()?.RequestedOperation;
+				if (requestedOp.HasValue && requestedOp.Value.HasFlag(Windows.ApplicationModel.DataTransfer.DataPackageOperation.Move))
+				{
+					await UIFilesystemHelpers.PasteItemAsync(path, shellPage);
+					return;
+				}
+
+				// Check if all clipboard items are already shortcuts (.lnk)
+				var clipboardContent = Clipboard.GetContent();
+				bool allShortcuts = clipboardContent is not null
+					&& clipboardContent.Contains(StandardDataFormats.StorageItems)
+					&& (await clipboardContent.GetStorageItemsAsync()).All(item => item.Name.EndsWith(".lnk", StringComparison.OrdinalIgnoreCase));
+
+				if (allShortcuts)
+				{
+					await UIFilesystemHelpers.PasteItemAsync(path, shellPage);
+					return;
+				}
+
+				var confirmed = await DialogDisplayHelper.ShowDialogAsync(
+					Strings.DirectoryShortcutPasteWarningTitle.GetLocalizedResource(),
+					Strings.DirectoryShortcutPasteWarningMessage.GetLocalizedResource(),
+					Strings.ConflictingItemsDialogPrimaryButtonText.GetLocalizedResource(),
+					Strings.Cancel.GetLocalizedResource());
+
+				if (!confirmed)
+					return;
+
+				await UIFilesystemHelpers.PasteItemAsShortcutAsync(path, shellPage);
+			}
+			else
+			{
+				await UIFilesystemHelpers.PasteItemAsync(path, shellPage);
+			}
 		}
 
 		public bool GetIsExecutable()

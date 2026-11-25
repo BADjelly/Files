@@ -373,5 +373,10 @@ namespace Files.App.Data.Contracts
 		/// Gets or sets an alternative path for tags and categories JSON files. Null means use local storage.
 		/// </summary>
 		string? SharedTagsPath { get; set; }
+
+		/// <summary>
+		/// Gets or sets a custom CDN URL for sideload update checks. Null means use the default URL.
+		/// </summary>
+		string? CustomUpdateCdnUrl { get; set; }
 	}
 }

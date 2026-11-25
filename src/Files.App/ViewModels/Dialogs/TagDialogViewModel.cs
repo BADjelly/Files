@@ -86,13 +86,13 @@ namespace Files.App.ViewModels.Dialogs
 			}
 		}
 
-		private string _selectedCategoryId = string.Empty;
-		public string SelectedCategoryId
+		private CategoryViewModel? _selectedCategory;
+		public CategoryViewModel? SelectedCategory
 		{
-			get => _selectedCategoryId;
+			get => _selectedCategory;
 			set
 			{
-				if (!SetProperty(ref _selectedCategoryId, value))
+				if (!SetProperty(ref _selectedCategory, value))
 					return;
 
 				OnPropertyChanged(nameof(CanCommit));
@@ -133,7 +133,7 @@ namespace Files.App.ViewModels.Dialogs
 			Title = "CreateNewTag";
 			Name = string.Empty;
 			Color = ColorHelpers.RandomColor();
-			SelectedCategoryId = _allCategories.FirstOrDefault()?.Uid ?? string.Empty;
+			SelectedCategory = _allCategories.FirstOrDefault();
 			_isNameValid = true;
 		}
 
@@ -143,7 +143,7 @@ namespace Files.App.ViewModels.Dialogs
 			Title = "EditTag";
 			Name = tag.Tag.Name;
 			Color = tag.Tag.Color;
-			SelectedCategoryId = tag.Tag.CategoryId ?? (_allCategories.FirstOrDefault()?.Uid ?? string.Empty);
+			SelectedCategory = _allCategories.FirstOrDefault(c => c.Uid == tag.Tag.CategoryId);
 			_isNameValid = true;
 		}
 
@@ -151,7 +151,7 @@ namespace Files.App.ViewModels.Dialogs
 
 		public string GetResultColor() => Color;
 
-		public string GetResultCategoryId() => SelectedCategoryId;
+		public string GetResultCategoryId() => SelectedCategory?.Uid ?? string.Empty;
 
 		private void OnPrimaryClick()
 		{

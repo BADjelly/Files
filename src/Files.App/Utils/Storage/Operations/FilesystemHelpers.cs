@@ -529,7 +529,16 @@ namespace Files.App.Utils.Storage
 				return ReturnResult.BadArgumentException;
 			}
 
-			var source = await GetDraggedStorageItems(packageView);
+			var source = (await GetDraggedStorageItems(packageView)).ToList();
+
+			// Track .fileshistory sidecar directories that need to be moved (drag-and-drop).
+			// Skip sidecars already in source (they were added by TransferHelpers during cut).
+			var existingNames = new HashSet<string>(source.Select(s => s.Name), StringComparer.OrdinalIgnoreCase);
+			var sidecarPairs = source
+				.Select(item => (Source: PathNormalization.Combine(Path.GetDirectoryName(item.Path)!, $"{Path.GetFileName(item.Path)}.fileshistory"),
+					Dest: PathNormalization.Combine(destination, $"{Path.GetFileName(item.Path)}.fileshistory")))
+				.Where(pair => Directory.Exists(pair.Source) && !existingNames.Contains(Path.GetFileName(pair.Source)))
+				.ToList();
 
 			ReturnResult returnStatus = ReturnResult.InProgress;
 
@@ -553,6 +562,27 @@ namespace Files.App.Utils.Storage
 			}
 
 			returnStatus = await MoveItemsAsync(source, destinations, showDialog, registerHistory);
+
+			// Move sidecar directories after the main move completes
+			foreach (var pair in sidecarPairs)
+			{
+				await SafetyExtensions.IgnoreExceptions(async () =>
+				{
+					if (Directory.Exists(pair.Dest))
+					{
+						foreach (var file in Directory.EnumerateFiles(pair.Source, "*", SearchOption.TopDirectoryOnly))
+						{
+							var fileName = Path.GetFileName(file);
+							File.Move(file, Path.Combine(pair.Dest, fileName), true);
+						}
+						Directory.Delete(pair.Source);
+					}
+					else
+					{
+						Directory.Move(pair.Source, pair.Dest);
+					}
+				}, App.Logger);
+			}
 
 			return returnStatus;
 		}

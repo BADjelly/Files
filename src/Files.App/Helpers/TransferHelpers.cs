@@ -45,9 +45,47 @@ namespace Files.App.Helpers
 						_ => throw new ArgumentOutOfRangeException(nameof(storable)),
 					};
 
-					if (!result)
-						throw new SystemIO.IOException($"Failed to process {storable.Id} in cutting/copying to the clipboard.", (int)result.ErrorCode);
-				}, 10, statusCenterItem?.CancellationToken ?? CancellationToken.None);
+				if (!result)
+					throw new SystemIO.IOException($"Failed to process {storable.Id} in cutting/copying to the clipboard.", (int)result.ErrorCode);
+			}, 10, statusCenterItem?.CancellationToken ?? CancellationToken.None);
+
+				// Include .fileshistory sidecar directories when cutting
+				if (type is DataPackageOperation.Move)
+				{
+					var parentPaths = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+					foreach (var item in itemsToTransfer)
+					{
+						var parentPath = SystemIO.Path.GetDirectoryName(item.Id);
+						if (!string.IsNullOrEmpty(parentPath))
+							parentPaths.Add(parentPath);
+					}
+
+					foreach (var storable in itemsToTransfer)
+					{
+						var parentPath = SystemIO.Path.GetDirectoryName(storable.Id);
+						if (string.IsNullOrEmpty(parentPath))
+							continue;
+
+						var sidecarPath = PathNormalization.Combine(parentPath, $"{SystemIO.Path.GetFileName(storable.Id)}.fileshistory");
+						if (SystemIO.Directory.Exists(sidecarPath))
+						{
+							// Skip if the sidecar's parent is already being cut as a folder
+							if (parentPaths.Contains(sidecarPath))
+								continue;
+
+							var result = await shellViewModel.GetFolderFromPathAsync(sidecarPath).OnSuccess(x =>
+							{
+								if (x is not null)
+									items.Add(x);
+							});
+
+							if (!result)
+							{
+								App.Logger.LogWarning($"Failed to open sidecar directory '{sidecarPath}' for cutting.");
+							}
+						}
+					}
+				}
 
 				var standardObjectsOnly = items.All(x => x is StorageFile or StorageFolder or SystemStorageFile or SystemStorageFolder);
 				if (standardObjectsOnly)
@@ -67,10 +105,37 @@ namespace Files.App.Helpers
 					App.Logger.LogWarning(ex, "Failed to process cutting/copying due to an unknown error.");
 
 				if ((FileSystemStatusCode)ex.HResult is FileSystemStatusCode.Unauthorized)
-				{
-					var filePaths = itemsToTransfer.Select(x => x.Id).ToArray();
-					await FileOperationsHelpers.SetClipboard(filePaths, type);
-				}
+					{
+						var filePaths = itemsToTransfer.Select(x => x.Id).ToArray();
+						if (type is DataPackageOperation.Move)
+						{
+							var parentPaths = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+							foreach (var item in itemsToTransfer)
+							{
+								var parentPath = SystemIO.Path.GetDirectoryName(item.Id);
+								if (!string.IsNullOrEmpty(parentPath))
+									parentPaths.Add(parentPath);
+							}
+
+							foreach (var storable in itemsToTransfer)
+							{
+								var parentPath = SystemIO.Path.GetDirectoryName(storable.Id);
+								if (string.IsNullOrEmpty(parentPath))
+									continue;
+
+								var sidecarPath = PathNormalization.Combine(parentPath, $"{SystemIO.Path.GetFileName(storable.Id)}.fileshistory");
+								if (SystemIO.Directory.Exists(sidecarPath))
+								{
+									if (!parentPaths.Contains(sidecarPath))
+									{
+										filePaths = filePaths.Append(sidecarPath).ToArray();
+									}
+								}
+							}
+						}
+
+						await FileOperationsHelpers.SetClipboard(filePaths, type);
+					}
 			}
 			finally
 			{
@@ -139,10 +204,51 @@ namespace Files.App.Helpers
 								: await shellViewModel.GetFolderFromPathAsync(itemPath).OnSuccess(t => items.Add(t
 									?? throw new InvalidOperationException($"The folder '{itemPath}' could not be opened.")));
 
-						if (!result)
-							throw new SystemIO.IOException($"Failed to process {listedItem.ItemPath} in cutting/copying to the clipboard.", (int)result.ErrorCode);
+					if (!result)
+						throw new SystemIO.IOException($"Failed to process {listedItem.ItemPath} in cutting/copying to the clipboard.", (int)result.ErrorCode);
 					}
 				}, 10, statusCenterItem?.CancellationToken ?? CancellationToken.None);
+
+				// Include .fileshistory sidecar directories when cutting
+				if (type is DataPackageOperation.Move)
+				{
+					var selectedPaths = context.SelectedItems.Select(x => x.ItemPath!).ToList();
+					var parentPaths = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+					foreach (var path in selectedPaths)
+					{
+						var parentPath = SystemIO.Path.GetDirectoryName(path);
+						if (!string.IsNullOrEmpty(parentPath))
+							parentPaths.Add(parentPath);
+					}
+
+					foreach (var listedItem in context.SelectedItems)
+					{
+						var itemPath = listedItem.ItemPath!;
+						var parentPath = SystemIO.Path.GetDirectoryName(itemPath);
+						if (string.IsNullOrEmpty(parentPath))
+							continue;
+
+						var sidecarPath = PathNormalization.Combine(parentPath, $"{SystemIO.Path.GetFileName(itemPath)}.fileshistory");
+						if (SystemIO.Directory.Exists(sidecarPath))
+						{
+							// Skip if the sidecar's parent is already being cut as a folder
+							if (parentPaths.Contains(sidecarPath))
+								continue;
+
+							var shellViewModel = context.ShellPage.GetRequiredShellViewModel();
+							var result = await shellViewModel.GetFolderFromPathAsync(sidecarPath).OnSuccess(x =>
+							{
+								if (x is not null)
+									items.Add(x);
+							});
+
+							if (!result)
+							{
+								App.Logger.LogWarning($"Failed to open sidecar directory '{sidecarPath}' for cutting.");
+							}
+						}
+					}
+				}
 
 				var standardObjectsOnly = items.All(x => x is StorageFile or StorageFolder or SystemStorageFile or SystemStorageFolder);
 				if (standardObjectsOnly)
@@ -162,12 +268,40 @@ namespace Files.App.Helpers
 					App.Logger.LogWarning(ex, "Failed to process cutting/copying due to an unknown error.");
 
 				if ((FileSystemStatusCode)ex.HResult is FileSystemStatusCode.Unauthorized)
-				{
-					var filePaths = context.SelectedItems.Select(x => x.ItemPath!).ToArray();
-					await FileOperationsHelpers.SetClipboard(filePaths, type);
+					{
+						var filePaths = context.SelectedItems.Select(x => x.ItemPath!).ToArray();
+						if (type is DataPackageOperation.Move)
+						{
+							var parentPaths = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+							foreach (var item in context.SelectedItems)
+							{
+								var parentPath = SystemIO.Path.GetDirectoryName(item.ItemPath!);
+								if (!string.IsNullOrEmpty(parentPath))
+									parentPaths.Add(parentPath);
+							}
 
-					return;
-				}
+							foreach (var listedItem in context.SelectedItems)
+							{
+								var itemPath = listedItem.ItemPath!;
+								var parentPath = SystemIO.Path.GetDirectoryName(itemPath);
+								if (string.IsNullOrEmpty(parentPath))
+									continue;
+
+								var sidecarPath = PathNormalization.Combine(parentPath, $"{SystemIO.Path.GetFileName(itemPath)}.fileshistory");
+								if (SystemIO.Directory.Exists(sidecarPath))
+								{
+									if (!parentPaths.Contains(sidecarPath))
+									{
+										filePaths = filePaths.Append(sidecarPath).ToArray();
+									}
+								}
+							}
+						}
+
+						await FileOperationsHelpers.SetClipboard(filePaths, type);
+
+						return;
+					}
 
 				// Reset cut mode
 				context.ShellPage.SlimContentPage.ItemManipulationModel.RefreshItemsOpacity();
